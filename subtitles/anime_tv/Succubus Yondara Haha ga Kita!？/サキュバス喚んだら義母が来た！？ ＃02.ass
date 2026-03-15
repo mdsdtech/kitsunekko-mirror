@@ -1,0 +1,291 @@
+﻿[Script Info]
+ScriptType: v4.00+
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ex-KS,萝莉体,62,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0,0,4,1
+Style: Ex-special,仓耳玄三01简繁 W04,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0,0,7,10,10,10,1
+Style: Ex-simple,思源黑体,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Sx-jp,31CK8O7T,70,&H00FFFFFF,&HFFFFFFFF,&H00BE0E6B,&H64000000,0,0,0,0,100,100,0.1,0,1,2.42,0,2,0,0,12,128
+Style: Rx-annotation,仓耳今楷01 W05,42,&H1EFFFFFF,&H00FFFFFF,&H1E0000FF,&H500000FF,0,0,0,0,100,100,0,0,1,0.72,0,7,5,5,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 本字幕由「極彩花夢」制作，请勿用于商业用途 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名开始 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,code once,slen = 1  single_loop = 25
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,code once,function getSinfo(styleref,str) local width, height, descent, extlead = _G.aegisub.text_extents(styleref,str) return width end
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,code once,function strlen(str) local tmp = str local count = 0 local byteCount = 0 while (string.len(tmp) > 0) do local code = string.byte(tmp) if (code <= 127) then byteCount = byteCount + 1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount + 1) count = count + 1 end return count end
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,code once,function strsub(str, start, length) if (length <= 0) then return "" end local tmp = str local count = 0 local byteCount = 0 local byteSubStart = 1 local byteSubEnd = -1 while (string.len(tmp)>0) do if (count == start) then byteSubStart = byteCount + 1 elseif (count == start + length) then byteSubEnd = byteCount break end local code = string.byte(tmp) if(code <= 127) then byteCount = byteCount +1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount+1) count = count + 1 end return string.sub(str, byteSubStart, byteSubEnd) end
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,code line,s = {}   function round(x) return math.ceil(x * 100) / 100 end   function reset(i)   s.sloopCount = math.ceil(strlen(line.text_stripped) / slen)   s.iloopCount = single_loop   s.sindex = math.ceil(i / single_loop)   s.iindex = (i + single_loop - 1) % single_loop + 1   s.text = strsub(line.text_stripped, (s.sindex - 1) * slen, slen)   s.rtext = string.gsub(s.text, "^[ ]*(.-)[ ]*$", "%1")   s.left = round(line.left +   getSinfo(line.styleref,   strsub(line.text_stripped, 0, (s.sindex - 1) * slen) .. string.gsub(s.text, "^([ ]*).*", "%1")))   s.width = round(getSinfo(line.styleref, s.rtext))   s.center = s.left + s.width / 2   s.right = s.left + s.width   s.top = line.top   s.bottom = line.bottom   s.middle = line.middle   s.height = line.height   return ""   end
+Comment: 0,0:00:00.00,0:00:00.00,Ex-KS,,0,0,0,template line notext,!reset(j)!!maxloop(s.sloopCount * s.iloopCount)!!retime("line", 0+s.sindex*40+remember("Toffset", math.random(0,150/5)*s.iindex*2), 0+s.sindex*25+recall.Toffset)!{\an5\move(!s.left-remember("Xoffset", -80-math.random(0,60))!,!s.middle-remember("Yoffset", 60-math.random(0,120))!,!s.center!,!s.middle!,0,350)\clip(!s.left-recall.Xoffset+remember("xindex", math.ceil(s.iindex/5)-1)*s.width/5!,!s.top+remember("yindex", (s.iindex-1)%5)*s.height/5-recall.Yoffset!,!s.left-recall.Xoffset+(recall.xindex+1)*s.width/5!,!s.top+(recall.yindex+1)*s.height/5-recall.Yoffset!)\alpha&HFF&\t(0,350,1,\alpha&H00&\clip(!s.left+recall.xindex*s.width/5!,!s.top+recall.yindex*s.height/5!,!s.left+(recall.xindex+1)*s.width/5!,!s.top+(recall.yindex+1)*s.height/5!))\t(!$ldur-s.sindex*40+s.sindex*25-300!,!$ldur-s.sindex*40+s.sindex*25!,\clip(!s.left+(recall.xindex+.5)*s.width/5!,!s.top+(recall.yindex+.5)*s.height/5!,!s.left+(recall.xindex+.5)*s.width/5!,!s.top+(recall.yindex+.5)*s.height/5!))\xbord4.2\3c&HBE0E6B&\blur4.2}!s.rtext!
+Comment: 0,0:00:00.00,0:00:07.00,Ex-KS,,0,0,0,karaoke,本字幕由 - 極彩花夢 - 制作  仅供交流学习使用
+Comment: 0,0:00:07.00,0:00:13.00,Ex-KS,,0,0,0,karaoke,时轴：花菓  日听：slb  翻译：JM  后期：2013d  海报：多闻
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名结束 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— FX ——
+Dialogue: 0,0:00:01.70,0:00:02.88,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:00:02.88,0:00:04.52,Sx-jp,,0,0,0,,{\blur2}お話があります
+Dialogue: 0,0:00:05.70,0:00:07.79,Sx-jp,,0,0,0,,{\blur2}この間の中間テスト
+Dialogue: 0,0:00:07.79,0:00:10.50,Sx-jp,,0,0,0,,{\blur2}前よりだいぶ点数落ちてるじゃない
+Dialogue: 0,0:00:10.78,0:00:12.03,Sx-jp,,0,0,0,,{\blur2}はい
+Dialogue: 0,0:00:12.71,0:00:15.55,Sx-jp,,0,0,0,,{\blur2}まさか勉強に手が付かない理由が
+Dialogue: 0,0:00:15.55,0:00:19.70,Sx-jp,,0,0,0,,{\blur2}母さんそっくりのサキュバスとセックスしまくっているからなんて
+Dialogue: 0,0:00:19.70,0:00:21.70,Sx-jp,,0,0,0,,{\blur2}言えるわけない
+Dialogue: 0,0:00:22.34,0:00:24.08,Sx-jp,,0,0,0,,{\blur2}お母さんね
+Dialogue: 0,0:00:24.08,0:00:26.90,Sx-jp,,0,0,0,,{\blur2}勉強が何より大事だとは思わないわ
+Dialogue: 0,0:00:26.90,0:00:28.31,Sx-jp,,0,0,1,,{\blur2}{\fscx90\fscy90}でも心配なの
+Dialogue: 0,0:00:28.31,0:00:30.71,Sx-jp,,0,0,1,,{\blur2}{\fscx90\fscy90}このままじゃ孝が 苦手なことから何でも逃げ出す人になっちゃうんじゃないかって
+Dialogue: 0,0:00:30.88,0:00:32.50,Sx-jp,,0,0,0,,{\blur2}わかったよ やるよ
+Dialogue: 0,0:00:32.50,0:00:33.86,Sx-jp,,0,0,0,,{\blur2}あ こら！
+Dialogue: 0,0:00:33.86,0:00:35.43,Sx-jp,,0,0,0,,{\blur2}話はまだ終わって…
+Dialogue: 0,0:00:54.92,0:00:58.32,Sx-jp,,0,0,0,,{\blur2}そのサキュバスウさんとは その後も何度か会ってて
+Dialogue: 0,0:00:58.32,0:01:01.02,Sx-jp,,0,0,0,,{\blur2}一緒にプール行ったりしたんですけど
+Dialogue: 0,0:01:01.02,0:01:04.66,Sx-jp,,0,0,0,,{\blur2}最近母もエロく見えてヤバいです
+Dialogue: 0,0:01:06.56,0:01:08.25,Sx-jp,,0,0,0,,{\blur2}母さんに叱られ
+Dialogue: 0,0:01:08.25,0:01:11.75,Sx-jp,,0,0,0,,{\blur2}宿題でもしようと 机に向かったのだが
+Dialogue: 0,0:01:14.08,0:01:17.20,Sx-jp,,0,0,0,,{\blur2}喚んてもいないのに エリリンが現れた
+Dialogue: 0,0:01:18.46,0:01:21.96,Sx-jp,,0,0,0,,{\blur2}今日は 男の子みんな大好き
+Dialogue: 0,0:01:21.96,0:01:24.14,Sx-jp,,0,0,0,,{\blur2}美人家庭教師プレイよ
+Dialogue: 0,0:01:24.90,0:01:30.97,Sx-jp,,0,0,0,,{\blur2}こうすれば 勉強嫌いなこの子も やる気になること間違いなしよね
+Dialogue: 0,0:01:32.56,0:01:33.19,Sx-jp,,0,0,0,,{\blur2}いや
+Dialogue: 0,0:01:33.19,0:01:36.53,Sx-jp,,0,0,0,,{\blur2}今 普通に宿題しようとしてたんだけど
+Dialogue: 0,0:01:37.14,0:01:38.22,Sx-jp,,0,0,0,,{\blur2}もう
+Dialogue: 0,0:01:38.22,0:01:39.89,Sx-jp,,0,0,0,,{\blur2}孝ったら
+Dialogue: 0,0:01:39.89,0:01:43.03,Sx-jp,,0,0,0,,{\blur2}いつもそう言って やらないじゃない
+Dialogue: 0,0:01:43.32,0:01:44.64,Sx-jp,,0,0,0,,{\blur2}え いつも？
+Dialogue: 0,0:01:45.14,0:01:47.04,Sx-jp,,0,0,0,,{\blur2}あぁ そういうプレイなの
+Dialogue: 0,0:01:47.75,0:01:48.79,Sx-jp,,0,0,0,,{\blur2}ほら
+Dialogue: 0,0:01:48.79,0:01:52.30,Sx-jp,,0,0,0,,{\blur2}これじゃ 宿題なんてできないでしょう
+Dialogue: 0,0:01:52.30,0:01:55.19,Sx-jp,,0,0,0,,{\blur2}い いや これはエリリンが
+Dialogue: 0,0:01:56.99,0:01:59.37,Sx-jp,,0,0,0,,{\blur2}仕方ない 仕方ない
+Dialogue: 0,0:02:00.58,0:02:01.40,Sx-jp,,0,0,0,,{\blur2}すご！
+Dialogue: 0,0:02:02.59,0:02:04.86,Sx-jp,,0,0,0,,{\blur2}こーら 孝くん
+Dialogue: 0,0:02:04.86,0:02:06.90,Sx-jp,,0,0,0,,{\blur2}ペンが止まってるわよ
+Dialogue: 0,0:02:06.90,0:02:09.73,Sx-jp,,0,0,0,,{\blur2}言うこと聞かない子には
+Dialogue: 0,0:02:15.42,0:02:17.58,Sx-jp,,0,0,0,,{\blur2}エッ エリリン
+Dialogue: 0,0:02:17.58,0:02:18.98,Sx-jp,,0,0,0,,{\blur2}エロすぎるよ
+Dialogue: 0,0:02:24.34,0:02:26.08,Sx-jp,,0,0,0,,{\blur2}俺 もう
+Dialogue: 0,0:02:29.62,0:02:30.58,Sx-jp,,0,0,0,,{\blur2}なんで…
+Dialogue: 0,0:02:31.28,0:02:34.29,Sx-jp,,0,0,0,,{\blur2}出したかったら 約束して
+Dialogue: 0,0:02:34.29,0:02:38.60,Sx-jp,,0,0,0,,{\blur2}これからはちゃんと 毎日勉強するって
+Dialogue: 0,0:02:39.80,0:02:40.80,Sx-jp,,0,0,0,,{\blur2}する
+Dialogue: 0,0:02:40.80,0:02:42.28,Sx-jp,,0,0,0,,{\blur2}約束する
+Dialogue: 0,0:02:42.28,0:02:44.42,Sx-jp,,0,0,0,,{\blur2}勉強もするから
+Dialogue: 0,0:02:45.44,0:02:46.60,Sx-jp,,0,0,0,,{\blur2}いい子ね
+Dialogue: 0,0:02:57.61,0:02:59.47,Sx-jp,,0,0,0,,{\blur2}エリリン エリリン！
+Dialogue: 0,0:03:07.11,0:03:10.09,Sx-jp,,0,0,0,,{\blur2}やっぱりおいしいぃ
+Dialogue: 0,0:03:13.49,0:03:15.62,Sx-jp,,0,0,0,,{\blur2}ありがとう エリリン
+Dialogue: 0,0:03:15.62,0:03:17.65,Sx-jp,,0,0,0,,{\blur2}約束通り 勉強を…
+Dialogue: 0,0:03:19.82,0:03:21.27,Sx-jp,,0,0,0,,{\blur2}待って
+Dialogue: 0,0:03:24.71,0:03:28.73,Sx-jp,,0,0,0,,{\blur2}こんな硬いままじゃ 集中できないでしょう
+Dialogue: 0,0:03:29.05,0:03:33.94,Sx-jp,,0,0,0,,{\blur2}ちゃんと最後の一滴まで 搾り取ってあげる
+Dialogue: 0,0:03:35.42,0:03:36.15,Sx-jp,,0,0,0,,{\blur2}ちょっ…
+Dialogue: 0,0:03:36.15,0:03:38.06,Sx-jp,,0,0,0,,{\blur2}ちょっと待って エリリン！
+Dialogue: 0,0:03:38.40,0:03:40.94,Sx-jp,,0,0,0,,{\blur2}こんなに大きくしちゃって
+Dialogue: 0,0:03:43.37,0:03:46.89,Sx-jp,,0,0,0,,{\blur2}息子が 勉強頑張るためなんだから
+Dialogue: 0,0:03:46.89,0:03:49.81,Sx-jp,,0,0,0,,{\blur2}これも 母親の務めよね
+Dialogue: 0,0:03:51.48,0:03:53.13,Sx-jp,,0,0,0,,{\blur2}これじゃ 勉強が…
+Dialogue: 0,0:03:53.13,0:03:54.07,Sx-jp,,0,0,0,,{\blur2}ええ
+Dialogue: 0,0:03:54.07,0:03:57.16,Sx-jp,,0,0,0,,{\blur2}すぐスッキリさせてあげるから
+Dialogue: 0,0:03:57.16,0:03:59.42,Sx-jp,,0,0,0,,{\blur2}先生に任せなさい
+Dialogue: 0,0:04:00.05,0:04:01.99,Sx-jp,,0,0,0,,{\blur2}いや そうじゃなくて
+Dialogue: 0,0:04:05.05,0:04:07.52,Sx-jp,,0,0,0,,{\blur2}ほんと まじで勉強するから…
+Dialogue: 0,0:04:11.57,0:04:12.67,Sx-jp,,0,0,0,,{\blur2}だから
+Dialogue: 0,0:04:13.40,0:04:15.83,Sx-jp,,0,0,0,,{\blur2}勉強頑張れるように
+Dialogue: 0,0:04:15.83,0:04:18.44,Sx-jp,,0,0,0,,{\blur2}いっぱい出させてあげるわね
+Dialogue: 0,0:04:20.33,0:04:22.02,Sx-jp,,0,0,0,,{\blur2}ちょっ…と待って…
+Dialogue: 0,0:04:22.02,0:04:23.78,Sx-jp,,0,0,0,,{\blur2}おっぱいで息が
+Dialogue: 0,0:04:25.35,0:04:26.56,Sx-jp,,0,0,0,,{\blur2}すっご
+Dialogue: 0,0:04:26.56,0:04:28.02,Sx-jp,,0,0,0,,{\blur2}大きい
+Dialogue: 0,0:04:28.02,0:04:33.16,Sx-jp,,0,0,0,,{\blur2}孝のおちんちん 深いとこえぐってきてる
+Dialogue: 0,0:04:46.77,0:04:49.40,Sx-jp,,0,0,0,,{\blur2}やっぱり息子の精子って
+Dialogue: 0,0:04:49.40,0:04:51.90,Sx-jp,,0,0,0,,{\blur2}オマンコに馴染むわ
+Dialogue: 0,0:04:53.12,0:04:54.35,Sx-jp,,0,0,0,,{\blur2}それに
+Dialogue: 0,0:04:54.35,0:04:56.49,Sx-jp,,0,0,0,,{\blur2}まだ硬い
+Dialogue: 0,0:04:56.49,0:04:59.57,Sx-jp,,0,0,0,,{\blur2}相変わらず絶倫なんだから
+Dialogue: 0,0:05:00.45,0:05:03.23,Sx-jp,,0,0,0,,{\blur2}これじゃ勉強に手が付くないのも
+Dialogue: 0,0:05:03.23,0:05:05.32,Sx-jp,,0,0,0,,{\blur2}仕方ないわね
+Dialogue: 0,0:05:06.90,0:05:10.54,Sx-jp,,0,0,0,,{\blur2}ええ これはこの子の勉強のため
+Dialogue: 0,0:05:10.54,0:05:13.02,Sx-jp,,0,0,0,,{\blur2}そのためのエッチなのよ
+Dialogue: 0,0:05:14.88,0:05:17.29,Sx-jp,,0,0,0,,{\blur2}全部 出して
+Dialogue: 0,0:05:17.29,0:05:20.12,Sx-jp,,0,0,0,,{\blur2}孝くんの若いザーメン
+Dialogue: 0,0:05:20.12,0:05:24.51,Sx-jp,,0,0,0,,{\blur2}先生のオマンコに 残らず吐き出して
+Dialogue: 0,0:05:28.94,0:05:31.04,Sx-jp,,0,0,0,,{\blur2}こうして俺の成績は
+Dialogue: 0,0:05:31.04,0:05:33.56,Sx-jp,,0,0,0,,{\blur2}ますます落ちていたのだった…
+Dialogue: 0,0:05:36.17,0:05:38.97,Sx-jp,,0,0,0,,{\blur2}クラスの子たちと市民プール？
+Dialogue: 0,0:05:40.30,0:05:44.53,Sx-jp,,0,0,0,,{\blur2}もしかして 女の子も一緒だったり？
+Dialogue: 0,0:05:45.54,0:05:46.83,Sx-jp,,0,0,0,,{\blur2}あ そうだ
+Dialogue: 0,0:05:46.83,0:05:51.32,Sx-jp,,0,0,0,,{\blur2}お父さんが出張から帰ったら 家族でも行きましょうか
+Dialogue: 0,0:05:51.72,0:05:53.00,Sx-jp,,0,0,0,,{\blur2}やだよ！
+Dialogue: 0,0:05:53.00,0:05:55.54,Sx-jp,,0,0,0,,{\blur2}この歳になって 親とプールなんて
+Dialogue: 0,0:05:57.05,0:05:58.24,Sx-jp,,0,0,0,,{\blur2}それに…
+Dialogue: 0,0:05:58.24,0:06:00.87,Sx-jp,,0,0,0,,{\blur2}母さんの水着姿なんて
+Dialogue: 0,0:06:00.87,0:06:02.24,Sx-jp,,0,0,0,,{\blur2}見たくも…
+Dialogue: 0,0:06:04.71,0:06:05.51,Sx-jp,,0,0,0,,{\blur2}痛っ…
+Dialogue: 0,0:06:06.38,0:06:07.57,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:06:07.57,0:06:09.14,Sx-jp,,0,0,0,,{\blur2}なにぼうっとしてんだよ
+Dialogue: 0,0:06:09.50,0:06:10.13,Sx-jp,,0,0,0,,{\blur2}ん？
+Dialogue: 0,0:06:10.60,0:06:12.01,Sx-jp,,0,0,0,,{\blur2}なんだ あの人だかり
+Dialogue: 0,0:06:12.93,0:06:14.39,Sx-jp,,0,0,0,,{\blur2}おい 見ろよ
+Dialogue: 0,0:06:14.39,0:06:16.14,Sx-jp,,0,0,0,,{\blur2}すっげぇ体付き
+Dialogue: 0,0:06:17.39,0:06:19.68,Sx-jp,,0,0,0,,{\blur2}もしかして AV女優？
+Dialogue: 0,0:06:22.23,0:06:24.38,Sx-jp,,0,0,0,,{\blur2}あれは 母さん？
+Dialogue: 0,0:06:26.07,0:06:27.93,Sx-jp,,0,0,0,,{\blur2}いや エリリン？
+Dialogue: 0,0:06:28.31,0:06:29.81,Sx-jp,,0,0,0,,{\blur2}なんでここに
+Dialogue: 0,0:06:30.89,0:06:31.86,Sx-jp,,0,0,0,,{\blur2}あ
+Dialogue: 0,0:06:31.86,0:06:33.72,Sx-jp,,0,0,0,,{\blur2}孝くん
+Dialogue: 0,0:06:33.72,0:06:36.08,Sx-jp,,0,0,0,,{\blur2}孝 知り合いかよ
+Dialogue: 0,0:06:37.95,0:06:40.04,Sx-jp,,0,0,0,,{\blur2}あら？孝くんのお友達？
+Dialogue: 0,0:06:41.22,0:06:44.17,Sx-jp,,0,0,0,,{\blur2}これからも 仲良くしてあげてね
+Dialogue: 0,0:06:44.98,0:06:46.78,Sx-jp,,0,0,0,,{\blur2}あ はい
+Dialogue: 0,0:06:48.91,0:06:49.84,Sx-jp,,0,0,0,,{\blur2}エリリン
+Dialogue: 0,0:06:49.84,0:06:50.82,Sx-jp,,0,0,0,,{\blur2}ああ
+Dialogue: 0,0:06:50.82,0:06:52.47,Sx-jp,,0,0,0,,{\blur2}ちょっと待ってね
+Dialogue: 0,0:06:55.73,0:06:57.67,Sx-jp,,0,0,0,,{\blur2}なっ 何したの
+Dialogue: 0,0:06:58.83,0:07:00.65,Sx-jp,,0,0,0,,{\blur2}サキュバスの魔法なの
+Dialogue: 0,0:07:01.73,0:07:04.22,Sx-jp,,0,0,0,,{\blur2}今 私たちは
+Dialogue: 0,0:07:04.22,0:07:07.69,Sx-jp,,0,0,0,,{\blur2}周りの人から認識されない状態だから
+Dialogue: 0,0:07:10.01,0:07:12.40,Sx-jp,,0,0,0,,{\blur2}私としたいこと
+Dialogue: 0,0:07:12.40,0:07:13.95,Sx-jp,,0,0,0,,{\blur2}あるんじゃない
+Dialogue: 0,0:07:19.87,0:07:22.09,Sx-jp,,0,0,0,,{\blur2}もう 孝くんったら
+Dialogue: 0,0:07:22.09,0:07:25.48,Sx-jp,,0,0,0,,{\blur2}いいの お友達のことほうっておいて
+Dialogue: 0,0:07:27.55,0:07:29.23,Sx-jp,,0,0,0,,{\blur2}エリリンのせいだろう
+Dialogue: 0,0:07:31.95,0:07:33.89,Sx-jp,,0,0,0,,{\blur2}こんな エロい水着で
+Dialogue: 0,0:07:34.21,0:07:35.08,Sx-jp,,0,0,0,,{\blur2}いやぁ
+Dialogue: 0,0:07:35.08,0:07:36.73,Sx-jp,,0,0,0,,{\blur2}孝くん
+Dialogue: 0,0:07:39.31,0:07:40.17,Sx-jp,,0,0,0,,{\blur2}大体
+Dialogue: 0,0:07:40.17,0:07:42.91,Sx-jp,,0,0,0,,{\blur2}喚んてもないのに なんで来たんだよ
+Dialogue: 0,0:07:43.29,0:07:44.91,Sx-jp,,0,0,0,,{\blur2}そっ それは
+Dialogue: 0,0:07:46.49,0:07:50.20,Sx-jp,,0,0,0,,{\blur2}もっ もちろん サキュバスのお仕事ですよ
+Dialogue: 0,0:07:52.07,0:07:56.63,Sx-jp,,0,0,0,,{\blur2}プールで性欲を持て余してる男性たちの精を
+Dialogue: 0,0:07:56.63,0:07:59.24,Sx-jp,,0,0,0,,{\blur2}搾りに来たと言うか
+Dialogue: 0,0:08:00.21,0:08:01.06,Sx-jp,,0,0,0,,{\blur2}この
+Dialogue: 0,0:08:01.97,0:08:03.11,Sx-jp,,0,0,0,,{\blur2}ビッチめ
+Dialogue: 0,0:08:04.23,0:08:05.74,Sx-jp,,0,0,0,,{\blur2}ほんとは
+Dialogue: 0,0:08:05.74,0:08:11.95,Sx-jp,,0,0,0,,{\blur2}孝の遊び相手に 女の子がいないか気になったから なんて
+Dialogue: 0,0:08:11.95,0:08:13.97,Sx-jp,,0,0,0,,{\blur2}言えるわけないよね
+Dialogue: 0,0:08:15.34,0:08:17.77,Sx-jp,,0,0,0,,{\blur2}こんな 不健全なおっぱいで
+Dialogue: 0,0:08:17.77,0:08:20.24,Sx-jp,,0,0,0,,{\blur2}プールの平和を乱しやがって
+Dialogue: 0,0:08:23.04,0:08:25.19,Sx-jp,,0,0,0,,{\blur2}男たちみんな勃起して
+Dialogue: 0,0:08:25.19,0:08:27.68,Sx-jp,,0,0,0,,{\blur2}プールから上がれなくなってたじゃないか
+Dialogue: 0,0:08:29.92,0:08:32.01,Sx-jp,,0,0,0,,{\blur2}この サキュバスめ
+Dialogue: 0,0:08:34.75,0:08:35.68,Sx-jp,,0,0,0,,{\blur2}イく
+Dialogue: 0,0:08:36.58,0:08:37.95,Sx-jp,,0,0,0,,{\blur2}イっちゃう！
+Dialogue: 0,0:08:49.47,0:08:51.84,Sx-jp,,0,0,0,,{\blur2}もう 孝くんったら
+Dialogue: 0,0:08:52.96,0:08:54.47,Sx-jp,,0,0,0,,{\blur2}ダメって
+Dialogue: 0,0:08:55.21,0:08:57.60,Sx-jp,,0,0,0,,{\blur2}言ったのにぃ
+Dialogue: 0,0:09:04.56,0:09:06.90,Sx-jp,,0,0,0,,{\blur2}こら 孝
+Dialogue: 0,0:09:07.58,0:09:09.61,Sx-jp,,0,0,0,,{\blur2}暇なら勉強しなさいよ
+Dialogue: 0,0:09:10.65,0:09:13.29,Sx-jp,,0,0,0,,{\blur2}今日は どこにも出かけないの？
+Dialogue: 0,0:09:13.57,0:09:14.18,Sx-jp,,0,0,0,,{\blur2}うん
+Dialogue: 0,0:09:14.65,0:09:15.61,Sx-jp,,0,0,0,,{\blur2}まあね
+Dialogue: 0,0:09:16.45,0:09:21.03,Sx-jp,,0,0,0,,{\blur2}じゃあ 後でお買い物でも付き合ってもらおうかな
+Dialogue: 0,0:09:21.03,0:09:22.12,Sx-jp,,0,0,0,,{\blur2}えぇ
+Dialogue: 0,0:09:23.10,0:09:23.69,Sx-jp,,0,0,0,,{\blur2}ん？
+Dialogue: 0,0:09:25.29,0:09:26.39,Sx-jp,,0,0,0,,{\blur2}あれって
+Dialogue: 0,0:09:26.39,0:09:27.74,Sx-jp,,0,0,0,,{\blur2}キスマーク？
+Dialogue: 0,0:09:28.78,0:09:31.61,Sx-jp,,0,0,0,,{\blur2}父さんは先週から出張だし
+Dialogue: 0,0:09:31.61,0:09:32.59,Sx-jp,,0,0,0,,{\blur2}不倫？
+Dialogue: 0,0:09:32.59,0:09:33.50,Sx-jp,,0,0,0,,{\blur2}いや
+Dialogue: 0,0:09:33.50,0:09:35.83,Sx-jp,,0,0,0,,{\blur2}母さんがそんなことするはずない
+Dialogue: 0,0:09:35.83,0:09:36.82,Sx-jp,,0,0,0,,{\blur2}ていうか
+Dialogue: 0,0:09:36.82,0:09:37.91,Sx-jp,,0,0,0,,{\blur2}あの位置
+Dialogue: 0,0:09:39.09,0:09:40.04,Sx-jp,,0,0,0,,{\blur2}まさか
+Dialogue: 0,0:09:41.61,0:09:43.24,Sx-jp,,0,0,0,,{\blur2}かっ 母さん
+Dialogue: 0,0:09:43.71,0:09:46.31,Sx-jp,,0,0,0,,{\blur2}昨日の水着 似合ってたよ
+Dialogue: 0,0:09:47.02,0:09:48.77,Sx-jp,,0,0,0,,{\blur2}え ほんと？
+Dialogue: 0,0:09:48.77,0:09:51.47,Sx-jp,,0,0,0,,{\blur2}奮発して買ったかいが…
+Dialogue: 0,0:09:51.47,0:09:52.37,Sx-jp,,0,0,0,,{\blur2}あっ…
+Dialogue: 0,0:09:53.76,0:09:55.49,Sx-jp,,0,0,0,,{\blur2}ちっ 違うのよ
+Dialogue: 0,0:09:55.49,0:09:58.06,Sx-jp,,0,0,0,,{\blur2}今のはそうじゃなくて…
+Dialogue: 0,0:09:59.54,0:10:01.13,Sx-jp,,0,0,0,,{\blur2}やっぱり
+Dialogue: 0,0:10:01.13,0:10:04.13,Sx-jp,,0,0,0,,{\blur2}エリリンは 母さんだったんだ
+Dialogue: 0,0:10:06.19,0:10:07.19,Sx-jp,,0,0,0,,{\blur2}孝？
+Dialogue: 0,0:10:07.19,0:10:08.60,Sx-jp,,0,0,0,,{\blur2}待って
+Dialogue: 0,0:10:08.60,0:10:10.01,Sx-jp,,0,0,0,,{\blur2}お願いだから
+Dialogue: 0,0:10:10.01,0:10:12.80,Sx-jp,,0,0,0,,{\blur2}お母さんの話を聞いて
+Dialogue: 0,0:10:13.47,0:10:15.41,Sx-jp,,0,0,0,,{\blur2}ダっ ダメよ孝
+Dialogue: 0,0:10:15.41,0:10:19.23,Sx-jp,,0,0,0,,{\blur2}血は繋がってなくでも 私たちは親子
+Dialogue: 0,0:10:21.69,0:10:23.29,Sx-jp,,0,0,0,,{\blur2}この挿れ心地
+Dialogue: 0,0:10:23.29,0:10:24.51,Sx-jp,,0,0,0,,{\blur2}間違いない
+Dialogue: 0,0:10:24.51,0:10:25.98,Sx-jp,,0,0,0,,{\blur2}エリリンのマンコだ！
+Dialogue: 0,0:10:31.53,0:10:33.57,Sx-jp,,0,0,0,,{\blur2}な 何を言ってるの
+Dialogue: 0,0:10:34.63,0:10:36.99,Sx-jp,,0,0,0,,{\blur2}早く抜きなさい…
+Dialogue: 0,0:10:39.91,0:10:41.04,Sx-jp,,0,0,0,,{\blur2}うるさい
+Dialogue: 0,0:10:41.04,0:10:42.54,Sx-jp,,0,0,0,,{\blur2}奥を突くたびに
+Dialogue: 0,0:10:42.54,0:10:44.88,Sx-jp,,0,0,0,,{\blur2}ジュブジュブ愛液溢れさせて
+Dialogue: 0,0:10:52.49,0:10:54.95,Sx-jp,,0,0,0,,{\blur2}くそ やっぱそうだ
+Dialogue: 0,0:10:54.95,0:10:58.30,Sx-jp,,0,0,0,,{\blur2}こんだけそっくりな別人 いるわけなかった
+Dialogue: 0,0:11:00.79,0:11:06.12,Sx-jp,,0,0,0,,{\blur2}俺の母さんが ビッチなサキュバスなわけないって 信じてたのに
+Dialogue: 0,0:11:06.12,0:11:08.49,Sx-jp,,0,0,0,,{\blur2}よくも今まで騙したな
+Dialogue: 0,0:11:10.61,0:11:12.48,Sx-jp,,0,0,0,,{\blur2}もうやめ
+Dialogue: 0,0:11:12.48,0:11:14.28,Sx-jp,,0,0,0,,{\blur2}それ ダメ
+Dialogue: 0,0:11:15.29,0:11:16.66,Sx-jp,,0,0,0,,{\blur2}待って
+Dialogue: 0,0:11:20.15,0:11:21.92,Sx-jp,,0,0,0,,{\blur2}感じすぎて…
+Dialogue: 0,0:11:23.18,0:11:24.28,Sx-jp,,0,0,0,,{\blur2}もう
+Dialogue: 0,0:11:29.66,0:11:31.60,Sx-jp,,0,0,0,,{\blur2}ダメ…
+Dialogue: 0,0:11:31.60,0:11:34.13,Sx-jp,,0,0,0,,{\blur2}見ないで
+Dialogue: 0,0:11:34.65,0:11:36.57,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:11:46.48,0:11:47.99,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:11:47.99,0:11:49.40,Sx-jp,,0,0,0,,{\blur2}お願い
+Dialogue: 0,0:11:49.40,0:11:51.76,Sx-jp,,0,0,0,,{\blur2}もう許して
+Dialogue: 0,0:11:51.76,0:11:52.99,Sx-jp,,0,0,0,,{\blur2}まだだ
+Dialogue: 0,0:11:52.99,0:11:54.77,Sx-jp,,0,0,0,,{\blur2}何時間でもヤってやる
+Dialogue: 0,0:11:55.45,0:11:56.60,Sx-jp,,0,0,0,,{\blur2}そんな
+Dialogue: 0,0:11:57.34,0:12:01.28,Sx-jp,,0,0,0,,{\blur2}お母さん またイっちゃ…う
+Dialogue: 0,0:12:01.97,0:12:03.29,Sx-jp,,0,0,0,,{\blur2}孝ったら
+Dialogue: 0,0:12:03.29,0:12:05.18,Sx-jp,,0,0,0,,{\blur2}何度も出してるのに
+Dialogue: 0,0:12:05.18,0:12:07.25,Sx-jp,,0,0,0,,{\blur2}ずっと硬いまま
+Dialogue: 0,0:12:07.84,0:12:10.79,Sx-jp,,0,0,0,,{\blur2}それだけ私に怒ってるのね
+Dialogue: 0,0:12:11.57,0:12:12.94,Sx-jp,,0,0,0,,{\blur2}ごめんね
+Dialogue: 0,0:12:12.94,0:12:14.65,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:12:14.65,0:12:18.65,Sx-jp,,0,0,0,,{\blur2}今までずっと 騙してて
+Dialogue: 0,0:12:18.65,0:12:19.82,Sx-jp,,0,0,0,,{\blur2}そうだよ
+Dialogue: 0,0:12:19.82,0:12:21.52,Sx-jp,,0,0,0,,{\blur2}そのせいで俺は…
+Dialogue: 0,0:12:22.36,0:12:23.32,Sx-jp,,0,0,0,,{\blur2}くそ
+Dialogue: 0,0:12:23.32,0:12:27.52,Sx-jp,,0,0,0,,{\blur2}俺もう 母さんのことエロい目でしか見れないんだよ
+Dialogue: 0,0:12:29.55,0:12:31.38,Sx-jp,,0,0,0,,{\blur2}俺 おかしいんだよ
+Dialogue: 0,0:12:31.77,0:12:33.99,Sx-jp,,0,0,0,,{\blur2}母親とヤりたくなるなんて
+Dialogue: 0,0:12:35.98,0:12:39.23,Sx-jp,,0,0,0,,{\blur2}こんなの 普通の親子じゃないよ
+Dialogue: 0,0:12:42.61,0:12:45.38,Sx-jp,,0,0,0,,{\blur2}母さんこそいやだろ こんな息子
+Dialogue: 0,0:12:45.61,0:12:47.60,Sx-jp,,0,0,0,,{\blur2}そんなことない
+Dialogue: 0,0:12:48.21,0:12:50.70,Sx-jp,,0,0,0,,{\blur2}嬉しくなっちゃうわ
+Dialogue: 0,0:12:51.34,0:12:56.11,Sx-jp,,0,0,0,,{\blur2}だってお母さん サキュバスだもの
+Dialogue: 0,0:12:57.34,0:12:58.75,Sx-jp,,0,0,0,,{\blur2}なら 母さん
+Dialogue: 0,0:12:59.49,0:13:01.69,Sx-jp,,0,0,0,,{\blur2}俺だけのサキュバスになってよ
+Dialogue: 0,0:13:02.88,0:13:05.22,Sx-jp,,0,0,0,,{\blur2}俺が一生 精子出すから
+Dialogue: 0,0:13:05.79,0:13:07.35,Sx-jp,,0,0,0,,{\blur2}ダメェー
+Dialogue: 0,0:13:07.35,0:13:10.18,Sx-jp,,0,0,0,,{\blur2}このまま中に出されたら
+Dialogue: 0,0:13:10.83,0:13:12.95,Sx-jp,,0,0,0,,{\blur2}身も心も
+Dialogue: 0,0:13:13.79,0:13:18.75,Sx-jp,,0,0,0,,{\blur2}孝を ご主人様って認めちゃうぅ
+Dialogue: 0,0:13:20.46,0:13:22.59,Sx-jp,,0,0,0,,{\blur2}母さん 母さん
+Dialogue: 0,0:13:24.83,0:13:27.91,Sx-jp,,0,0,0,,{\blur2}{\fad(0,1000)}孝
+Dialogue: 0,0:13:30.91,0:13:32.93,Sx-jp,,0,0,0,,{\blur2}まったくもう
+Dialogue: 0,0:13:35.23,0:13:37.19,Sx-jp,,0,0,0,,{\blur2}困った子なんだから
+Dialogue: 0,0:13:39.88,0:13:41.57,Sx-jp,,0,0,0,,{\blur2}おやすみなさい
+Dialogue: 0,0:13:42.75,0:13:44.42,Sx-jp,,0,0,0,,{\blur2}{\fad(0,800)}孝
+Dialogue: 0,0:13:46.79,0:13:48.02,Sx-jp,,0,0,0,,{\blur2}孝
+Dialogue: 0,0:13:48.02,0:13:49.97,Sx-jp,,0,0,0,,{\blur2}起きなさい孝
+Dialogue: 0,0:13:50.81,0:13:53.42,Sx-jp,,0,0,0,,{\blur2}おはよう エリリン
+Dialogue: 0,0:13:53.69,0:13:55.55,Sx-jp,,0,0,0,,{\blur2}何寝ぼけてるの
+Dialogue: 0,0:13:55.82,0:13:58.44,Sx-jp,,0,0,0,,{\blur2}早く ご飯食べちゃいなさい
+Dialogue: 0,0:13:58.97,0:13:59.46,Sx-jp,,0,0,0,,{\blur2}え？
+Dialogue: 0,0:14:01.28,0:14:02.87,Sx-jp,,0,0,0,,{\blur2}昨日のは
+Dialogue: 0,0:14:02.87,0:14:05.97,Sx-jp,,0,0,0,,{\blur2}もしかして エリリンが見せた夢？
+Dialogue: 0,0:14:05.97,0:14:06.63,Sx-jp,,0,0,0,,{\blur2}いや
+Dialogue: 0,0:14:06.63,0:14:11.61,Sx-jp,,0,0,0,,{\blur2}それどころか サキュバスを召喚したことすら 夢だったんじゃ
+Dialogue: 0,0:14:12.29,0:14:15.80,Sx-jp,,0,0,0,,{\blur2}エリリンが母さんで 母さんがエリリンで
+Dialogue: 0,0:14:12.80,0:14:15.54,Sx-jp,,0,0,1,,{\blur2}{\an8}それとも先に
+Dialogue: 0,0:14:15.54,0:14:17.48,Sx-jp,,0,0,1,,{\blur2}{\an8}朝勃ち処理しちゃう？
+Dialogue: 0,0:14:17.09,0:14:18.00,Sx-jp,,0,0,0,,{\blur2}え？
+Dialogue: 0,0:14:23.36,0:14:24.23,Sx-jp,,0,0,0,,{\blur2}ねえ
+Dialogue: 0,0:14:24.23,0:14:27.01,Sx-jp,,0,0,0,,{\blur2}ご主人様

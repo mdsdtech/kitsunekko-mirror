@@ -1,0 +1,412 @@
+﻿[Script Info]
+ScriptType: v4.00+
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ex-KS,萝莉体,64,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0,0,0,1
+Style: Ex-special,萝莉体,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Ex-simple,思源黑体,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Sx-jp,A-OTF Shin Maru Go Pro DB,70,&H00FFFFFF,&HFFFFFFFF,&H00AF07AA,&H64000000,0,0,0,0,100,100,0,0,1,2.42,0,2,0,0,10,128
+Style: Rx-annotation,方正悠宋+ GBK 509R,42,&H1E000000,&H00FFFFFF,&H1EFFFFFF,&H50FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,5,5,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 本字幕由「極彩花夢」制作，仅供交流学习使用，请勿用于商业用途 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名开始 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名结束 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - effect ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function strlen(str) local tmp = str local count = 0 local byteCount = 0 while (string.len(tmp) > 0) do local code = string.byte(tmp) if (code <= 127) then byteCount = byteCount + 1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount + 1) count = count + 1 end return count end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function strsub(str, start, length) if (length <= 0) then return "" end local tmp = str local count = 0 local byteCount = 0 local byteSubStart = 1 local byteSubEnd = -1 while (string.len(tmp)>0) do if (count == start) then byteSubStart = byteCount + 1 elseif (count == start + length) then byteSubEnd = byteCount break end local code = string.byte(tmp) if(code <= 127) then byteCount = byteCount +1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount+1) count = count + 1 end return string.sub(str, byteSubStart, byteSubEnd) end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,characters = {""} characters_eff = {"{\\blur2}"} margin_jp = 42 margin_zh = 55 margin_t_jp = 1 margin_t_zh = 59
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function relf() local eff = relf_kr() relf_margin() relf_layer() return eff end function relf_kr() for i = 1, #characters, 1 do if line.actor == characters[i] then return characters_eff[i] end end return "" end function relf_margin() if string.find(line.raw,"%{\\an8%}") ~= nil then if line.styleref.name == "Sx-jp" then line.margin_t = margin_t_jp else line.margin_t = margin_t_zh end end local tmp = strsub(line.text_stripped,strlen(line.text_stripped)-1,1) if tmp == "…" or tmp == "！" or tmp == "？" then if line.styleref.name == "Sx-jp" then line.margin_l = line.margin_l + 42 else line.margin_l = line.margin_l + 55 end end end function relf_layer() if line.styleref.name == "Sx-zh" then line.layer = 1 end end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,template line keeptags,!relf()!
+Comment: 0,0:00:00.00,0:00:00.00,Sx-zh,,0,0,0,template line keeptags,!relf()!
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - effect ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:04.24,0:00:06.77,Sx-jp,,0,0,0,karaoke,僕は親の都合で一ヶ月前
+Comment: 0,0:00:07.31,0:00:10.00,Sx-jp,,0,0,0,karaoke,この学校に編入してきたんだけど…
+Comment: 0,0:00:11.00,0:00:13.28,Sx-jp,,0,0,0,karaoke,ここは去年まで女子校だったらしく
+Comment: 0,0:00:14.80,0:00:17.38,Sx-jp,,0,0,0,karaoke,クラスに男子は僕一人で…
+Comment: 0,0:00:34.11,0:00:36.17,Sx-jp,,0,0,0,karaoke,クラスには女子だけだからか
+Comment: 0,0:00:38.75,0:00:40.73,Sx-jp,,0,0,0,karaoke,みんないろいろと無防備で
+Comment: 0,0:00:41.53,0:00:44.42,Sx-jp,,0,0,0,karaoke,こんなところで卒業までやっていけるか…
+Comment: 0,0:00:44.42,0:00:46.00,Sx-jp,,0,0,0,karaoke,心配だ
+Comment: 0,0:00:46.62,0:00:49.36,Sx-jp,,0,0,0,karaoke,聞いてんのかよ 町田ぁ
+Comment: 0,0:00:52.41,0:00:53.75,Sx-jp,,0,0,0,karaoke,山川さん？
+Comment: 0,0:00:54.27,0:00:56.82,Sx-jp,,0,0,0,karaoke,なによそ見してんだよー
+Comment: 0,0:00:57.34,0:00:59.63,Sx-jp,,0,0,0,karaoke,聞いてますっけど…
+Comment: 0,0:01:01.12,0:01:02.62,Sx-jp,,0,0,0,karaoke,むっ 胸が…
+Comment: 0,0:01:04.44,0:01:08.05,Sx-jp,,0,0,0,karaoke,まっちー 嘘はダメだよ
+Comment: 0,0:01:08.05,0:01:10.84,Sx-jp,,0,0,0,karaoke,話そっちのけだったんじゃない
+Comment: 0,0:01:11.23,0:01:14.82,Sx-jp,,0,0,0,karaoke,ホント わかりやすいんだから
+Comment: 0,0:01:17.04,0:01:20.37,Sx-jp,,0,0,0,karaoke,どうして聞いてなかったのかなぁ
+Comment: 0,0:01:20.37,0:01:21.35,Sx-jp,,0,0,0,karaoke,ふん？
+Comment: 0,0:01:24.21,0:01:26.00,Sx-jp,,0,0,0,karaoke,ちっ 近い
+Comment: 0,0:01:26.00,0:01:28.33,Sx-jp,,0,0,0,karaoke,息が くすぐったい
+Comment: 0,0:01:31.60,0:01:32.98,Sx-jp,,0,0,0,karaoke,や やめ…
+Comment: 0,0:01:33.54,0:01:34.87,Sx-jp,,0,0,0,karaoke,マオさッ…
+Comment: 0,0:01:40.12,0:01:41.89,Sx-jp,,0,0,0,karaoke,もしかしてぇ
+Comment: 0,0:01:43.12,0:01:47.42,Sx-jp,,0,0,0,karaoke,このデカくなってるのと 関係あるのかなぁ？
+Comment: 0,0:01:50.35,0:01:53.25,Sx-jp,,0,0,0,karaoke,や 山川さんの指先が…
+Comment: 0,0:01:53.25,0:01:54.75,Sx-jp,,0,0,0,karaoke,ひっかかって…
+Comment: 0,0:02:01.47,0:02:02.78,Sx-jp,,0,0,0,karaoke,ダ ダメ
+Comment: 0,0:02:02.78,0:02:04.15,Sx-jp,,0,0,0,karaoke,二人とも
+Comment: 0,0:02:04.15,0:02:06.10,Sx-jp,,0,0,0,karaoke,みんな 見てるよ
+Comment: 0,0:02:08.27,0:02:10.92,Sx-jp,,0,0,0,karaoke,見てなければいいんっだ
+Comment: 0,0:02:13.15,0:02:14.82,Sx-jp,,0,0,0,karaoke,気持ちいいんだろう？
+Comment: 0,0:02:15.22,0:02:17.61,Sx-jp,,0,0,0,karaoke,素直に言ってみな
+Comment: 0,0:02:18.12,0:02:21.57,Sx-jp,,0,0,0,karaoke,こ こんなこと 絶対ダメだよ
+Comment: 0,0:02:21.57,0:02:22.49,Sx-jp,,0,0,0,karaoke,そう…
+Comment: 0,0:02:26.37,0:02:29.51,Sx-jp,,0,0,0,karaoke,みんなが見てないうちにサービスしてあげる
+Comment: 0,0:02:30.87,0:02:32.41,Sx-jp,,0,0,0,karaoke,も もう
+Comment: 0,0:02:32.41,0:02:33.46,Sx-jp,,0,0,0,karaoke,限界
+Comment: 0,0:02:41.01,0:02:43.73,Sx-jp,,0,0,0,karaoke,ちょっとぉ リオってば
+Comment: 0,0:02:43.73,0:02:45.76,Sx-jp,,0,0,0,karaoke,サービスしすぎじゃん？
+Comment: 0,0:02:46.12,0:02:47.56,Sx-jp,,0,0,0,karaoke,まあいいでしょう
+Comment: 0,0:02:48.25,0:02:51.18,Sx-jp,,0,0,0,karaoke,町田にはいつも遊んでもらってんだから
+Comment: 0,0:02:51.18,0:02:53.06,Sx-jp,,0,0,0,karaoke,たまにはご褒美…
+Comment: 0,0:02:58.27,0:02:59.53,Sx-jp,,0,0,0,karaoke,マオ…
+Comment: 0,0:03:00.90,0:03:03.74,Sx-jp,,0,0,0,karaoke,ちょっと町田保健室で休ませてくるよ
+Comment: 0,0:03:03.74,0:03:06.62,Sx-jp,,0,0,0,karaoke,うそ まっち大丈夫？
+Comment: 0,0:03:06.62,0:03:08.58,Sx-jp,,0,0,0,karaoke,先生にも言っといてー
+Comment: 0,0:03:08.80,0:03:10.97,Sx-jp,,0,0,0,karaoke,はいはい
+Comment: 0,0:03:15.16,0:03:17.52,Sx-jp,,0,0,0,karaoke,あ あの 山川さん
+Comment: 0,0:03:19.91,0:03:20.99,Sx-jp,,0,0,0,karaoke,ありがとう
+Comment: 0,0:03:21.31,0:03:23.46,Sx-jp,,0,0,0,karaoke,でもなんで 一緒に？
+Comment: 0,0:03:25.06,0:03:26.60,Sx-jp,,0,0,0,karaoke,私のことも
+Comment: 0,0:03:27.90,0:03:29.96,Sx-jp,,0,0,0,karaoke,名前で呼んでよ
+Comment: 0,0:03:29.96,0:03:30.60,Sx-jp,,0,0,0,karaoke,え？
+Comment: 0,0:03:32.47,0:03:34.47,Sx-jp,,0,0,0,karaoke,ぁ痛ってて…
+Comment: 0,0:03:34.47,0:03:35.76,Sx-jp,,0,0,0,karaoke,わかったよ
+Comment: 0,0:03:36.14,0:03:37.09,Sx-jp,,0,0,0,karaoke,リオさん
+Comment: 0,0:03:37.81,0:03:39.07,Sx-jp,,0,0,0,karaoke,これでいい？
+Comment: 0,0:03:44.13,0:03:46.70,Sx-jp,,0,0,0,karaoke,リオさん？ちょっと なにを…
+Comment: 0,0:03:50.96,0:03:53.20,Sx-jp,,0,0,0,karaoke,へぇ しらばっくれて
+Comment: 0,0:03:53.65,0:03:54.99,Sx-jp,,0,0,0,karaoke,期待してたんじゃん
+Comment: 0,0:03:57.37,0:03:59.30,Sx-jp,,0,0,0,karaoke,ちょっ リオさん…
+Comment: 0,0:04:00.12,0:04:01.50,Sx-jp,,0,0,0,karaoke,また「ダメ」？
+Comment: 0,0:04:01.82,0:04:05.09,Sx-jp,,0,0,0,karaoke,こんなんだと授業もまともに受けられないでしょ
+Comment: 0,0:04:08.59,0:04:10.95,Sx-jp,,0,0,0,karaoke,ってかさぁ 町田
+Comment: 0,0:04:11.58,0:04:14.40,Sx-jp,,0,0,0,karaoke,うちらの体 ずっと見てただろ
+Comment: 0,0:04:15.61,0:04:19.61,Sx-jp,,0,0,0,karaoke,アレだけやらしい目で見てた女子に こんなことされて
+Comment: 0,0:04:19.61,0:04:22.85,Sx-jp,,0,0,0,karaoke,どんな気分だよ 正直に
+Comment: 0,0:04:23.98,0:04:25.82,Sx-jp,,0,0,0,karaoke,言うまではお預けだよ
+Comment: 0,0:04:25.82,0:04:27.37,Sx-jp,,0,0,0,karaoke,そ それ
+Comment: 0,0:04:28.22,0:04:29.27,Sx-jp,,0,0,0,karaoke,それは…
+Comment: 0,0:04:33.67,0:04:34.77,Sx-jp,,0,0,0,karaoke,さ…
+Comment: 0,0:04:34.77,0:04:37.67,Sx-jp,,0,0,0,karaoke,最高 です
+Comment: 0,0:04:40.21,0:04:42.56,Sx-jp,,0,0,0,karaoke,良く…言えました
+Comment: 0,0:04:44.32,0:04:45.99,Sx-jp,,0,0,0,karaoke,り…リオさん…
+Comment: 0,0:04:47.24,0:04:49.59,Sx-jp,,0,0,0,karaoke,イッ イク イクイク…
+Comment: 0,0:04:49.88,0:04:51.99,Sx-jp,,0,0,0,karaoke,リオさん 出ちゃう…
+Comment: 0,0:04:55.18,0:04:57.64,Sx-jp,,0,0,0,karaoke,なっ なんで リオさん
+Comment: 0,0:04:58.60,0:05:01.90,Sx-jp,,0,0,0,karaoke,簡単にイったら つまんないだろう
+Comment: 0,0:05:06.06,0:05:08.66,Sx-jp,,0,0,0,karaoke,もっと楽しんどけよ
+Comment: 0,0:05:09.36,0:05:13.12,Sx-jp,,0,0,0,karaoke,せっかく サービスしてんだか…ら！
+Comment: 0,0:05:15.96,0:05:16.82,Sx-jp,,0,0,0,karaoke,イク…
+Comment: 0,0:05:20.06,0:05:22.63,Sx-jp,,0,0,0,karaoke,楽にして欲しかったらお願いしてみな
+Comment: 0,0:05:24.33,0:05:25.82,Sx-jp,,0,0,0,karaoke,リオさん…
+Comment: 0,0:05:25.82,0:05:27.99,Sx-jp,,0,0,0,karaoke,もう 許して
+Comment: 0,0:05:31.94,0:05:33.39,Sx-jp,,0,0,0,karaoke,もう無理
+Comment: 0,0:05:33.39,0:05:35.67,Sx-jp,,0,0,0,karaoke,これ以上こんなことされたら
+Comment: 0,0:05:35.67,0:05:36.98,Sx-jp,,0,0,0,karaoke,壊れちゃう
+Comment: 0,0:05:39.59,0:05:40.41,Sx-jp,,0,0,0,karaoke,イク！
+Comment: 0,0:05:46.39,0:05:47.17,Sx-jp,,0,0,0,karaoke,僕…
+Comment: 0,0:05:47.17,0:05:49.28,Sx-jp,,0,0,0,karaoke,おっしこ漏らしちゃった？
+Comment: 0,0:05:50.25,0:05:52.40,Sx-jp,,0,0,0,karaoke,泣くなよ 町田
+Comment: 0,0:05:52.40,0:05:55.29,Sx-jp,,0,0,0,karaoke,コレ おしっこじゃないよ
+Comment: 0,0:05:56.15,0:05:57.57,Sx-jp,,0,0,0,karaoke,私が今
+Comment: 0,0:05:57.57,0:05:59.82,Sx-jp,,0,0,0,karaoke,キレイにしてやるからさー
+Comment: 0,0:06:09.96,0:06:11.68,Sx-jp,,0,0,0,karaoke,町田のチンコ
+Comment: 0,0:06:12.40,0:06:14.32,Sx-jp,,0,0,0,karaoke,メッチャ熱い
+Comment: 0,0:06:22.04,0:06:24.42,Sx-jp,,0,0,0,karaoke,口の中で…
+Comment: 0,0:06:24.42,0:06:27.28,Sx-jp,,0,0,0,karaoke,どんどん…大きくなってる
+Comment: 0,0:06:37.03,0:06:38.11,Sx-jp,,0,0,0,karaoke,もう…
+Comment: 0,0:06:38.11,0:06:39.22,Sx-jp,,0,0,0,karaoke,やめて
+Comment: 0,0:06:39.99,0:06:41.00,Sx-jp,,0,0,0,karaoke,町田…
+Comment: 0,0:06:42.90,0:06:44.67,Sx-jp,,0,0,0,karaoke,リッ リオさん？
+Comment: 0,0:06:45.94,0:06:47.96,Sx-jp,,0,0,0,karaoke,残った精子
+Comment: 0,0:06:47.96,0:06:50.41,Sx-jp,,0,0,0,karaoke,次はここに出そうか
+Comment: 0,0:06:50.42,0:06:51.53,Sx-jp,,0,0,0,karaoke,へっ？
+Comment: 0,0:06:51.53,0:06:53.83,Sx-jp,,0,0,0,karaoke,だっ 出す？
+Comment: 0,0:06:53.83,0:06:55.81,Sx-jp,,0,0,0,karaoke,「ここに」って…
+Comment: 0,0:07:02.90,0:07:04.55,Sx-jp,,0,0,0,karaoke,アンタのチンコが
+Comment: 0,0:07:05.91,0:07:08.82,Sx-jp,,0,0,0,karaoke,私のマンコに 入っていくよ
+Comment: 0,0:07:11.30,0:07:12.36,Sx-jp,,0,0,0,karaoke,リオさん
+Comment: 0,0:07:16.70,0:07:18.06,Sx-jp,,0,0,0,karaoke,町田
+Comment: 0,0:07:18.06,0:07:21.52,Sx-jp,,0,0,0,karaoke,脱童貞の感想…聞かせてよ
+Comment: 0,0:07:22.08,0:07:23.83,Sx-jp,,0,0,0,karaoke,ほ…ら
+Comment: 0,0:07:25.90,0:07:26.95,Sx-jp,,0,0,0,karaoke,気持ちいい…
+Comment: 0,0:07:27.76,0:07:30.80,Sx-jp,,0,0,0,karaoke,ひもひ…です
+Comment: 0,0:07:33.48,0:07:34.57,Sx-jp,,0,0,0,karaoke,町田
+Comment: 0,0:07:53.16,0:07:55.94,Sx-jp,,0,0,0,karaoke,リオさんのナカが気持ちよすぎて
+Comment: 0,0:07:55.94,0:07:58.60,Sx-jp,,0,0,0,karaoke,全部 どうでもよくなる
+Comment: 0,0:07:59.07,0:08:00.93,Sx-jp,,0,0,0,karaoke,リオさん リオさん
+Comment: 0,0:08:01.70,0:08:02.66,Sx-jp,,0,0,0,karaoke,リオさん！
+Comment: 0,0:08:02.92,0:08:03.84,Sx-jp,,0,0,0,karaoke,町田
+Comment: 0,0:08:03.84,0:08:07.13,Sx-jp,,0,0,0,karaoke,リオさん 完全に発情してる
+Comment: 0,0:08:14.42,0:08:15.35,Sx-jp,,0,0,0,karaoke,リオさん
+Comment: 0,0:08:16.00,0:08:16.64,Sx-jp,,0,0,0,karaoke,リオさん！
+Comment: 0,0:08:46.70,0:08:49.67,Sx-jp,,0,0,0,karaoke,ちょっと アンタたちさあ
+Comment: 0,0:08:51.81,0:08:55.06,Sx-jp,,0,0,0,karaoke,なんか遅いと思ったら
+Comment: 0,0:08:55.06,0:08:57.55,Sx-jp,,0,0,0,karaoke,もう六時限目も終わったよ？
+Comment: 0,0:08:58.12,0:09:01.93,Sx-jp,,0,0,0,karaoke,って！めっちゃ中出いされてんじゃん
+Comment: 0,0:09:03.61,0:09:05.69,Sx-jp,,0,0,0,karaoke,あっあ あ ほら
+Comment: 0,0:09:05.69,0:09:09.29,Sx-jp,,0,0,0,karaoke,けっこういいんだって 町田のチンコは
+Comment: 0,0:09:14.97,0:09:16.99,Sx-jp,,0,0,0,karaoke,じゃあまっち
+Comment: 0,0:09:20.19,0:09:24.02,Sx-jp,,0,0,0,karaoke,先っぽだけでいいからあたしにも挿れてよ
+Comment: 0,0:09:24.42,0:09:25.99,Sx-jp,,0,0,0,karaoke,でっ でも
+Comment: 0,0:09:28.71,0:09:31.09,Sx-jp,,0,0,0,karaoke,どうしだの まっち？
+Comment: 0,0:09:33.11,0:09:34.99,Sx-jp,,0,0,0,karaoke,女の子のアソコ
+Comment: 0,0:09:34.99,0:09:36.31,Sx-jp,,0,0,0,karaoke,初めて見た
+Comment: 0,0:09:38.88,0:09:39.88,Sx-jp,,0,0,0,karaoke,マオさん！
+Comment: 0,0:09:47.42,0:09:48.73,Sx-jp,,0,0,0,karaoke,バーカ
+Comment: 0,0:09:48.73,0:09:50.61,Sx-jp,,0,0,0,karaoke,ヘタクソ
+Comment: 0,0:09:51.27,0:09:52.36,Sx-jp,,0,0,0,karaoke,ここだよ
+Comment: 0,0:09:58.11,0:09:59.67,Sx-jp,,0,0,0,karaoke,入って来た…
+Comment: 0,0:09:59.67,0:10:02.81,Sx-jp,,0,0,0,karaoke,まっちけっこう大きんじゃん
+Comment: 0,0:10:04.27,0:10:07.45,Sx-jp,,0,0,0,karaoke,あとはアンタ一人で動きなよ
+Comment: 0,0:10:11.79,0:10:13.95,Sx-jp,,0,0,0,karaoke,マ マオさん
+Comment: 0,0:10:13.95,0:10:14.92,Sx-jp,,0,0,0,karaoke,マオさん
+Comment: 0,0:10:14.92,0:10:17.05,Sx-jp,,0,0,0,karaoke,まっちかわいいよ
+Comment: 0,0:10:17.05,0:10:18.88,Sx-jp,,0,0,0,karaoke,赤ちゃんみたい
+Comment: 0,0:10:27.61,0:10:28.78,Sx-jp,,0,0,0,karaoke,ちょっと…
+Comment: 0,0:10:29.16,0:10:31.01,Sx-jp,,0,0,0,karaoke,奥 当てすぎ…
+Comment: 0,0:10:33.58,0:10:37.47,Sx-jp,,0,0,0,karaoke,そんなに…種付したいの？
+Comment: 0,0:10:43.02,0:10:44.20,Sx-jp,,0,0,0,karaoke,イキそう
+Comment: 0,0:10:44.59,0:10:47.19,Sx-jp,,0,0,0,karaoke,マオさん もう 出る
+Comment: 0,0:10:47.90,0:10:50.37,Sx-jp,,0,0,0,karaoke,いいよ イキな
+Comment: 0,0:10:54.95,0:10:58.45,Sx-jp,,0,0,0,karaoke,ってか 普通に中出しかよ
+Comment: 0,0:10:59.55,0:11:02.96,Sx-jp,,0,0,0,karaoke,マオさん もう…無理
+Comment: 0,0:11:02.96,0:11:04.21,Sx-jp,,0,0,0,karaoke,抜かせて
+Comment: 0,0:11:05.65,0:11:06.96,Sx-jp,,0,0,0,karaoke,ダーメ
+Comment: 0,0:11:06.96,0:11:09.16,Sx-jp,,0,0,0,karaoke,がんばれ まっち
+Comment: 0,0:11:11.87,0:11:15.48,Sx-jp,,0,0,0,karaoke,マオさんのナカ 吸い付いて離れない
+Comment: 0,0:11:17.32,0:11:18.70,Sx-jp,,0,0,0,karaoke,町田
+Comment: 0,0:11:18.70,0:11:22.00,Sx-jp,,0,0,0,karaoke,アンタけっこう手 大きいね
+Comment: 0,0:11:23.16,0:11:24.91,Sx-jp,,0,0,0,karaoke,ねぇ 貸してよ
+Comment: 0,0:11:27.06,0:11:31.15,Sx-jp,,0,0,0,karaoke,やっぱり 指 意外とごつい
+Comment: 0,0:11:39.42,0:11:41.66,Sx-jp,,0,0,0,karaoke,ちょっと そんな急に…
+Comment: 0,0:11:49.91,0:11:53.77,Sx-jp,,0,0,0,karaoke,クラスでも ちょっと特別な存在の二人を
+Comment: 0,0:11:53.77,0:11:54.69,Sx-jp,,0,0,0,karaoke,僕が
+Comment: 0,0:11:55.64,0:11:57.83,Sx-jp,,0,0,0,karaoke,こんなに好き放題してる！
+Comment: 0,0:12:05.56,0:12:07.61,Sx-jp,,0,0,0,karaoke,町田…もういい
+Comment: 0,0:12:11.53,0:12:13.46,Sx-jp,,0,0,0,karaoke,てめ…おい…
+Comment: 0,0:12:13.46,0:12:16.50,Sx-jp,,0,0,0,karaoke,おま…え…ふざけっ…
+Comment: 0,0:12:17.72,0:12:19.85,Sx-jp,,0,0,0,karaoke,リオさん リオさん！
+Comment: 0,0:12:21.49,0:12:23.12,Sx-jp,,0,0,0,karaoke,まっち
+Comment: 0,0:12:23.12,0:12:25.72,Sx-jp,,0,0,0,karaoke,あたしのナカも指でしてー
+Comment: 0,0:12:45.21,0:12:50.20,Sx-jp,,0,0,0,karaoke,もうイク イクッ イックー
+Comment: 0,0:13:05.21,0:13:07.00,Sx-jp,,0,0,0,karaoke,それから僕たちは
+Comment: 0,0:13:09.09,0:13:10.85,Sx-jp,,0,0,0,karaoke,時間を忘れて
+Comment: 0,0:13:10.85,0:13:12.17,Sx-jp,,0,0,0,karaoke,ひたすら
+Comment: 0,0:13:13.23,0:13:14.99,Sx-jp,,0,0,0,karaoke,セックス三昧
+Comment: 0,0:13:19.14,0:13:20.39,Sx-jp,,0,0,0,karaoke,町田…
+Comment: 0,0:13:26.40,0:13:27.87,Sx-jp,,0,0,0,karaoke,イック
+Comment: 0,0:13:37.46,0:13:39.61,Sx-jp,,0,0,0,karaoke,どっ どうしよ
+Comment: 0,0:13:39.61,0:13:41.60,Sx-jp,,0,0,0,karaoke,どうしてこんなことに
+Comment: 0,0:13:44.49,0:13:47.13,Sx-jp,,0,0,0,karaoke,このまま こっそり帰っても…
+Comment: 0,0:13:47.52,0:13:48.91,Sx-jp,,0,0,0,karaoke,町田
+Comment: 0,0:13:50.88,0:13:53.46,Sx-jp,,0,0,0,karaoke,こんだけ遊んだなら
+Comment: 0,0:13:53.46,0:13:55.88,Sx-jp,,0,0,0,karaoke,しばらくはうちらの
+Comment: 0,0:13:55.88,0:13:58.27,Sx-jp,,0,0,0,karaoke,オモチャになってもらうから
+Comment: 0,0:13:59.21,0:14:01.87,Sx-jp,,0,0,0,karaoke,どうやら僕の学園生活
+Comment: 0,0:14:01.87,0:14:05.74,Sx-jp,,0,0,0,karaoke,{\fad(0,1000)}これから大変そうです
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— FX ——
+Dialogue: 0,0:00:04.24,0:00:06.77,Sx-jp,,0,0,0,fx,{\blur2}僕は親の都合で一ヶ月前
+Dialogue: 0,0:00:07.31,0:00:10.00,Sx-jp,,42,0,0,fx,{\blur2}この学校に編入してきたんだけど…
+Dialogue: 0,0:00:11.00,0:00:13.28,Sx-jp,,0,0,0,fx,{\blur2}ここは去年まで女子校だったらしく
+Dialogue: 0,0:00:14.80,0:00:17.38,Sx-jp,,42,0,0,fx,{\blur2}クラスに男子は僕一人で…
+Dialogue: 0,0:00:34.11,0:00:36.17,Sx-jp,,0,0,0,fx,{\blur2}クラスには女子だけだからか
+Dialogue: 0,0:00:38.75,0:00:40.73,Sx-jp,,0,0,0,fx,{\blur2}みんないろいろと無防備で
+Dialogue: 0,0:00:41.53,0:00:44.42,Sx-jp,,42,0,0,fx,{\blur2}こんなところで卒業までやっていけるか…
+Dialogue: 0,0:00:44.42,0:00:46.00,Sx-jp,,0,0,0,fx,{\blur2}心配だ
+Dialogue: 0,0:00:46.62,0:00:49.36,Sx-jp,,0,0,0,fx,{\blur2}聞いてんのかよ 町田ぁ
+Dialogue: 0,0:00:52.41,0:00:53.75,Sx-jp,,42,0,0,fx,{\blur2}山川さん？
+Dialogue: 0,0:00:54.27,0:00:56.82,Sx-jp,,0,0,0,fx,{\blur2}なによそ見してんだよー
+Dialogue: 0,0:00:57.34,0:00:59.63,Sx-jp,,42,0,0,fx,{\blur2}聞いてますっけど…
+Dialogue: 0,0:01:01.12,0:01:02.62,Sx-jp,,42,0,0,fx,{\blur2}むっ 胸が…
+Dialogue: 0,0:01:04.44,0:01:08.05,Sx-jp,,0,0,0,fx,{\blur2}まっちー 嘘はダメだよ
+Dialogue: 0,0:01:08.05,0:01:10.84,Sx-jp,,0,0,0,fx,{\blur2}話そっちのけだったんじゃない
+Dialogue: 0,0:01:11.23,0:01:14.82,Sx-jp,,0,0,0,fx,{\blur2}ホント わかりやすいんだから
+Dialogue: 0,0:01:17.04,0:01:20.37,Sx-jp,,0,0,0,fx,{\blur2}どうして聞いてなかったのかなぁ
+Dialogue: 0,0:01:20.37,0:01:21.35,Sx-jp,,42,0,0,fx,{\blur2}ふん？
+Dialogue: 0,0:01:24.21,0:01:26.00,Sx-jp,,0,0,0,fx,{\blur2}ちっ 近い
+Dialogue: 0,0:01:26.00,0:01:28.33,Sx-jp,,0,0,0,fx,{\blur2}息が くすぐったい
+Dialogue: 0,0:01:31.60,0:01:32.98,Sx-jp,,42,0,0,fx,{\blur2}や やめ…
+Dialogue: 0,0:01:33.54,0:01:34.87,Sx-jp,,42,0,0,fx,{\blur2}マオさッ…
+Dialogue: 0,0:01:40.12,0:01:41.89,Sx-jp,,0,0,0,fx,{\blur2}もしかしてぇ
+Dialogue: 0,0:01:43.12,0:01:47.42,Sx-jp,,42,0,0,fx,{\blur2}このデカくなってるのと 関係あるのかなぁ？
+Dialogue: 0,0:01:50.35,0:01:53.25,Sx-jp,,42,0,0,fx,{\blur2}や 山川さんの指先が…
+Dialogue: 0,0:01:53.25,0:01:54.75,Sx-jp,,42,0,0,fx,{\blur2}ひっかかって…
+Dialogue: 0,0:02:01.47,0:02:02.78,Sx-jp,,0,0,0,fx,{\blur2}ダ ダメ
+Dialogue: 0,0:02:02.78,0:02:04.15,Sx-jp,,0,0,0,fx,{\blur2}二人とも
+Dialogue: 0,0:02:04.15,0:02:06.10,Sx-jp,,0,0,0,fx,{\blur2}みんな 見てるよ
+Dialogue: 0,0:02:08.27,0:02:10.92,Sx-jp,,0,0,0,fx,{\blur2}見てなければいいんっだ
+Dialogue: 0,0:02:13.15,0:02:14.82,Sx-jp,,42,0,0,fx,{\blur2}気持ちいいんだろう？
+Dialogue: 0,0:02:15.22,0:02:17.61,Sx-jp,,0,0,0,fx,{\blur2}素直に言ってみな
+Dialogue: 0,0:02:18.12,0:02:21.57,Sx-jp,,0,0,0,fx,{\blur2}こ こんなこと 絶対ダメだよ
+Dialogue: 0,0:02:21.57,0:02:22.49,Sx-jp,,42,0,0,fx,{\blur2}そう…
+Dialogue: 0,0:02:26.37,0:02:29.51,Sx-jp,,0,0,0,fx,{\blur2}みんなが見てないうちにサービスしてあげる
+Dialogue: 0,0:02:30.87,0:02:32.41,Sx-jp,,0,0,0,fx,{\blur2}も もう
+Dialogue: 0,0:02:32.41,0:02:33.46,Sx-jp,,0,0,0,fx,{\blur2}限界
+Dialogue: 0,0:02:41.01,0:02:43.73,Sx-jp,,0,0,0,fx,{\blur2}ちょっとぉ リオってば
+Dialogue: 0,0:02:43.73,0:02:45.76,Sx-jp,,42,0,0,fx,{\blur2}サービスしすぎじゃん？
+Dialogue: 0,0:02:46.12,0:02:47.56,Sx-jp,,0,0,0,fx,{\blur2}まあいいでしょう
+Dialogue: 0,0:02:48.25,0:02:51.18,Sx-jp,,0,0,0,fx,{\blur2}町田にはいつも遊んでもらってんだから
+Dialogue: 0,0:02:51.18,0:02:53.06,Sx-jp,,42,0,0,fx,{\blur2}たまにはご褒美…
+Dialogue: 0,0:02:58.27,0:02:59.53,Sx-jp,,42,0,0,fx,{\blur2}マオ…
+Dialogue: 0,0:03:00.90,0:03:03.74,Sx-jp,,0,0,0,fx,{\blur2}ちょっと町田保健室で休ませてくるよ
+Dialogue: 0,0:03:03.74,0:03:06.62,Sx-jp,,42,0,0,fx,{\blur2}うそ まっち大丈夫？
+Dialogue: 0,0:03:06.62,0:03:08.58,Sx-jp,,0,0,0,fx,{\blur2}先生にも言っといてー
+Dialogue: 0,0:03:08.80,0:03:10.97,Sx-jp,,0,0,0,fx,{\blur2}はいはい
+Dialogue: 0,0:03:15.16,0:03:17.52,Sx-jp,,0,0,0,fx,{\blur2}あ あの 山川さん
+Dialogue: 0,0:03:19.91,0:03:20.99,Sx-jp,,0,0,0,fx,{\blur2}ありがとう
+Dialogue: 0,0:03:21.31,0:03:23.46,Sx-jp,,42,0,0,fx,{\blur2}でもなんで 一緒に？
+Dialogue: 0,0:03:25.06,0:03:26.60,Sx-jp,,0,0,0,fx,{\blur2}私のことも
+Dialogue: 0,0:03:27.90,0:03:29.96,Sx-jp,,0,0,0,fx,{\blur2}名前で呼んでよ
+Dialogue: 0,0:03:29.96,0:03:30.60,Sx-jp,,42,0,0,fx,{\blur2}え？
+Dialogue: 0,0:03:32.47,0:03:34.47,Sx-jp,,42,0,0,fx,{\blur2}ぁ痛ってて…
+Dialogue: 0,0:03:34.47,0:03:35.76,Sx-jp,,0,0,0,fx,{\blur2}わかったよ
+Dialogue: 0,0:03:36.14,0:03:37.09,Sx-jp,,0,0,0,fx,{\blur2}リオさん
+Dialogue: 0,0:03:37.81,0:03:39.07,Sx-jp,,42,0,0,fx,{\blur2}これでいい？
+Dialogue: 0,0:03:44.13,0:03:46.70,Sx-jp,,42,0,0,fx,{\blur2}リオさん？ちょっと なにを…
+Dialogue: 0,0:03:50.96,0:03:53.20,Sx-jp,,0,0,0,fx,{\blur2}へぇ しらばっくれて
+Dialogue: 0,0:03:53.65,0:03:54.99,Sx-jp,,0,0,0,fx,{\blur2}期待してたんじゃん
+Dialogue: 0,0:03:57.37,0:03:59.30,Sx-jp,,42,0,0,fx,{\blur2}ちょっ リオさん…
+Dialogue: 0,0:04:00.12,0:04:01.50,Sx-jp,,42,0,0,fx,{\blur2}また「ダメ」？
+Dialogue: 0,0:04:01.82,0:04:05.09,Sx-jp,,0,0,0,fx,{\blur2}こんなんだと授業もまともに受けられないでしょ
+Dialogue: 0,0:04:08.59,0:04:10.95,Sx-jp,,0,0,0,fx,{\blur2}ってかさぁ 町田
+Dialogue: 0,0:04:11.58,0:04:14.40,Sx-jp,,0,0,0,fx,{\blur2}うちらの体 ずっと見てただろ
+Dialogue: 0,0:04:15.61,0:04:19.61,Sx-jp,,0,0,0,fx,{\blur2}アレだけやらしい目で見てた女子に こんなことされて
+Dialogue: 0,0:04:19.61,0:04:22.85,Sx-jp,,0,0,0,fx,{\blur2}どんな気分だよ 正直に
+Dialogue: 0,0:04:23.98,0:04:25.82,Sx-jp,,0,0,0,fx,{\blur2}言うまではお預けだよ
+Dialogue: 0,0:04:25.82,0:04:27.37,Sx-jp,,0,0,0,fx,{\blur2}そ それ
+Dialogue: 0,0:04:28.22,0:04:29.27,Sx-jp,,42,0,0,fx,{\blur2}それは…
+Dialogue: 0,0:04:33.67,0:04:34.77,Sx-jp,,42,0,0,fx,{\blur2}さ…
+Dialogue: 0,0:04:34.77,0:04:37.67,Sx-jp,,0,0,0,fx,{\blur2}最高 です
+Dialogue: 0,0:04:40.21,0:04:42.56,Sx-jp,,0,0,0,fx,{\blur2}良く…言えました
+Dialogue: 0,0:04:44.32,0:04:45.99,Sx-jp,,42,0,0,fx,{\blur2}り…リオさん…
+Dialogue: 0,0:04:47.24,0:04:49.59,Sx-jp,,42,0,0,fx,{\blur2}イッ イク イクイク…
+Dialogue: 0,0:04:49.88,0:04:51.99,Sx-jp,,42,0,0,fx,{\blur2}リオさん 出ちゃう…
+Dialogue: 0,0:04:55.18,0:04:57.64,Sx-jp,,0,0,0,fx,{\blur2}なっ なんで リオさん
+Dialogue: 0,0:04:58.60,0:05:01.90,Sx-jp,,0,0,0,fx,{\blur2}簡単にイったら つまんないだろう
+Dialogue: 0,0:05:06.06,0:05:08.66,Sx-jp,,0,0,0,fx,{\blur2}もっと楽しんどけよ
+Dialogue: 0,0:05:09.36,0:05:13.12,Sx-jp,,42,0,0,fx,{\blur2}せっかく サービスしてんだか…ら！
+Dialogue: 0,0:05:15.96,0:05:16.82,Sx-jp,,42,0,0,fx,{\blur2}イク…
+Dialogue: 0,0:05:20.06,0:05:22.63,Sx-jp,,0,0,0,fx,{\blur2}楽にして欲しかったらお願いしてみな
+Dialogue: 0,0:05:24.33,0:05:25.82,Sx-jp,,42,0,0,fx,{\blur2}リオさん…
+Dialogue: 0,0:05:25.82,0:05:27.99,Sx-jp,,0,0,0,fx,{\blur2}もう 許して
+Dialogue: 0,0:05:31.94,0:05:33.39,Sx-jp,,0,0,0,fx,{\blur2}もう無理
+Dialogue: 0,0:05:33.39,0:05:35.67,Sx-jp,,0,0,0,fx,{\blur2}これ以上こんなことされたら
+Dialogue: 0,0:05:35.67,0:05:36.98,Sx-jp,,0,0,0,fx,{\blur2}壊れちゃう
+Dialogue: 0,0:05:39.59,0:05:40.41,Sx-jp,,42,0,0,fx,{\blur2}イク！
+Dialogue: 0,0:05:46.39,0:05:47.17,Sx-jp,,42,0,0,fx,{\blur2}僕…
+Dialogue: 0,0:05:47.17,0:05:49.28,Sx-jp,,42,0,0,fx,{\blur2}おっしこ漏らしちゃった？
+Dialogue: 0,0:05:50.25,0:05:52.40,Sx-jp,,0,0,0,fx,{\blur2}泣くなよ 町田
+Dialogue: 0,0:05:52.40,0:05:55.29,Sx-jp,,0,0,0,fx,{\blur2}コレ おしっこじゃないよ
+Dialogue: 0,0:05:56.15,0:05:57.57,Sx-jp,,0,0,0,fx,{\blur2}私が今
+Dialogue: 0,0:05:57.57,0:05:59.82,Sx-jp,,0,0,0,fx,{\blur2}キレイにしてやるからさー
+Dialogue: 0,0:06:09.96,0:06:11.68,Sx-jp,,0,0,0,fx,{\blur2}町田のチンコ
+Dialogue: 0,0:06:12.40,0:06:14.32,Sx-jp,,0,0,0,fx,{\blur2}メッチャ熱い
+Dialogue: 0,0:06:22.04,0:06:24.42,Sx-jp,,42,0,0,fx,{\blur2}口の中で…
+Dialogue: 0,0:06:24.42,0:06:27.28,Sx-jp,,0,0,0,fx,{\blur2}どんどん…大きくなってる
+Dialogue: 0,0:06:37.03,0:06:38.11,Sx-jp,,42,0,0,fx,{\blur2}もう…
+Dialogue: 0,0:06:38.11,0:06:39.22,Sx-jp,,0,0,0,fx,{\blur2}やめて
+Dialogue: 0,0:06:39.99,0:06:41.00,Sx-jp,,42,0,0,fx,{\blur2}町田…
+Dialogue: 0,0:06:42.90,0:06:44.67,Sx-jp,,42,0,0,fx,{\blur2}リッ リオさん？
+Dialogue: 0,0:06:45.94,0:06:47.96,Sx-jp,,0,0,0,fx,{\blur2}残った精子
+Dialogue: 0,0:06:47.96,0:06:50.41,Sx-jp,,0,0,0,fx,{\blur2}次はここに出そうか
+Dialogue: 0,0:06:50.42,0:06:51.53,Sx-jp,,42,0,0,fx,{\blur2}へっ？
+Dialogue: 0,0:06:51.53,0:06:53.83,Sx-jp,,42,0,0,fx,{\blur2}だっ 出す？
+Dialogue: 0,0:06:53.83,0:06:55.81,Sx-jp,,42,0,0,fx,{\blur2}「ここに」って…
+Dialogue: 0,0:07:02.90,0:07:04.55,Sx-jp,,0,0,0,fx,{\blur2}アンタのチンコが
+Dialogue: 0,0:07:05.91,0:07:08.82,Sx-jp,,0,0,0,fx,{\blur2}私のマンコに 入っていくよ
+Dialogue: 0,0:07:11.30,0:07:12.36,Sx-jp,,0,0,0,fx,{\blur2}リオさん
+Dialogue: 0,0:07:16.70,0:07:18.06,Sx-jp,,0,0,0,fx,{\blur2}町田
+Dialogue: 0,0:07:18.06,0:07:21.52,Sx-jp,,0,0,0,fx,{\blur2}脱童貞の感想…聞かせてよ
+Dialogue: 0,0:07:22.08,0:07:23.83,Sx-jp,,0,0,0,fx,{\blur2}ほ…ら
+Dialogue: 0,0:07:25.90,0:07:26.95,Sx-jp,,42,0,0,fx,{\blur2}気持ちいい…
+Dialogue: 0,0:07:27.76,0:07:30.80,Sx-jp,,0,0,0,fx,{\blur2}ひもひ…です
+Dialogue: 0,0:07:33.48,0:07:34.57,Sx-jp,,0,0,0,fx,{\blur2}町田
+Dialogue: 0,0:07:53.16,0:07:55.94,Sx-jp,,0,0,0,fx,{\blur2}リオさんのナカが気持ちよすぎて
+Dialogue: 0,0:07:55.94,0:07:58.60,Sx-jp,,0,0,0,fx,{\blur2}全部 どうでもよくなる
+Dialogue: 0,0:07:59.07,0:08:00.93,Sx-jp,,0,0,0,fx,{\blur2}リオさん リオさん
+Dialogue: 0,0:08:01.70,0:08:02.66,Sx-jp,,42,0,0,fx,{\blur2}リオさん！
+Dialogue: 0,0:08:02.92,0:08:03.84,Sx-jp,,0,0,0,fx,{\blur2}町田
+Dialogue: 0,0:08:03.84,0:08:07.13,Sx-jp,,0,0,0,fx,{\blur2}リオさん 完全に発情してる
+Dialogue: 0,0:08:14.42,0:08:15.35,Sx-jp,,0,0,0,fx,{\blur2}リオさん
+Dialogue: 0,0:08:16.00,0:08:16.64,Sx-jp,,42,0,0,fx,{\blur2}リオさん！
+Dialogue: 0,0:08:46.70,0:08:49.67,Sx-jp,,0,0,0,fx,{\blur2}ちょっと アンタたちさあ
+Dialogue: 0,0:08:51.81,0:08:55.06,Sx-jp,,0,0,0,fx,{\blur2}なんか遅いと思ったら
+Dialogue: 0,0:08:55.06,0:08:57.55,Sx-jp,,42,0,0,fx,{\blur2}もう六時限目も終わったよ？
+Dialogue: 0,0:08:58.12,0:09:01.93,Sx-jp,,0,0,0,fx,{\blur2}って！めっちゃ中出いされてんじゃん
+Dialogue: 0,0:09:03.61,0:09:05.69,Sx-jp,,0,0,0,fx,{\blur2}あっあ あ ほら
+Dialogue: 0,0:09:05.69,0:09:09.29,Sx-jp,,0,0,0,fx,{\blur2}けっこういいんだって 町田のチンコは
+Dialogue: 0,0:09:14.97,0:09:16.99,Sx-jp,,0,0,0,fx,{\blur2}じゃあまっち
+Dialogue: 0,0:09:20.19,0:09:24.02,Sx-jp,,0,0,0,fx,{\blur2}先っぽだけでいいからあたしにも挿れてよ
+Dialogue: 0,0:09:24.42,0:09:25.99,Sx-jp,,0,0,0,fx,{\blur2}でっ でも
+Dialogue: 0,0:09:28.71,0:09:31.09,Sx-jp,,42,0,0,fx,{\blur2}どうしだの まっち？
+Dialogue: 0,0:09:33.11,0:09:34.99,Sx-jp,,0,0,0,fx,{\blur2}女の子のアソコ
+Dialogue: 0,0:09:34.99,0:09:36.31,Sx-jp,,0,0,0,fx,{\blur2}初めて見た
+Dialogue: 0,0:09:38.88,0:09:39.88,Sx-jp,,42,0,0,fx,{\blur2}マオさん！
+Dialogue: 0,0:09:47.42,0:09:48.73,Sx-jp,,0,0,0,fx,{\blur2}バーカ
+Dialogue: 0,0:09:48.73,0:09:50.61,Sx-jp,,0,0,0,fx,{\blur2}ヘタクソ
+Dialogue: 0,0:09:51.27,0:09:52.36,Sx-jp,,0,0,0,fx,{\blur2}ここだよ
+Dialogue: 0,0:09:58.11,0:09:59.67,Sx-jp,,42,0,0,fx,{\blur2}入って来た…
+Dialogue: 0,0:09:59.67,0:10:02.81,Sx-jp,,0,0,0,fx,{\blur2}まっちけっこう大きんじゃん
+Dialogue: 0,0:10:04.27,0:10:07.45,Sx-jp,,0,0,0,fx,{\blur2}あとはアンタ一人で動きなよ
+Dialogue: 0,0:10:11.79,0:10:13.95,Sx-jp,,0,0,0,fx,{\blur2}マ マオさん
+Dialogue: 0,0:10:13.95,0:10:14.92,Sx-jp,,0,0,0,fx,{\blur2}マオさん
+Dialogue: 0,0:10:14.92,0:10:17.05,Sx-jp,,0,0,0,fx,{\blur2}まっちかわいいよ
+Dialogue: 0,0:10:17.05,0:10:18.88,Sx-jp,,0,0,0,fx,{\blur2}赤ちゃんみたい
+Dialogue: 0,0:10:27.61,0:10:28.78,Sx-jp,,42,0,0,fx,{\blur2}ちょっと…
+Dialogue: 0,0:10:29.16,0:10:31.01,Sx-jp,,42,0,0,fx,{\blur2}奥 当てすぎ…
+Dialogue: 0,0:10:33.58,0:10:37.47,Sx-jp,,42,0,0,fx,{\blur2}そんなに…種付したいの？
+Dialogue: 0,0:10:43.02,0:10:44.20,Sx-jp,,0,0,0,fx,{\blur2}イキそう
+Dialogue: 0,0:10:44.59,0:10:47.19,Sx-jp,,0,0,0,fx,{\blur2}マオさん もう 出る
+Dialogue: 0,0:10:47.90,0:10:50.37,Sx-jp,,0,0,0,fx,{\blur2}いいよ イキな
+Dialogue: 0,0:10:54.95,0:10:58.45,Sx-jp,,0,0,0,fx,{\blur2}ってか 普通に中出しかよ
+Dialogue: 0,0:10:59.55,0:11:02.96,Sx-jp,,0,0,0,fx,{\blur2}マオさん もう…無理
+Dialogue: 0,0:11:02.96,0:11:04.21,Sx-jp,,0,0,0,fx,{\blur2}抜かせて
+Dialogue: 0,0:11:05.65,0:11:06.96,Sx-jp,,0,0,0,fx,{\blur2}ダーメ
+Dialogue: 0,0:11:06.96,0:11:09.16,Sx-jp,,0,0,0,fx,{\blur2}がんばれ まっち
+Dialogue: 0,0:11:11.87,0:11:15.48,Sx-jp,,0,0,0,fx,{\blur2}マオさんのナカ 吸い付いて離れない
+Dialogue: 0,0:11:17.32,0:11:18.70,Sx-jp,,0,0,0,fx,{\blur2}町田
+Dialogue: 0,0:11:18.70,0:11:22.00,Sx-jp,,0,0,0,fx,{\blur2}アンタけっこう手 大きいね
+Dialogue: 0,0:11:23.16,0:11:24.91,Sx-jp,,0,0,0,fx,{\blur2}ねぇ 貸してよ
+Dialogue: 0,0:11:27.06,0:11:31.15,Sx-jp,,0,0,0,fx,{\blur2}やっぱり 指 意外とごつい
+Dialogue: 0,0:11:39.42,0:11:41.66,Sx-jp,,42,0,0,fx,{\blur2}ちょっと そんな急に…
+Dialogue: 0,0:11:49.91,0:11:53.77,Sx-jp,,0,0,0,fx,{\blur2}クラスでも ちょっと特別な存在の二人を
+Dialogue: 0,0:11:53.77,0:11:54.69,Sx-jp,,0,0,0,fx,{\blur2}僕が
+Dialogue: 0,0:11:55.64,0:11:57.83,Sx-jp,,42,0,0,fx,{\blur2}こんなに好き放題してる！
+Dialogue: 0,0:12:05.56,0:12:07.61,Sx-jp,,0,0,0,fx,{\blur2}町田…もういい
+Dialogue: 0,0:12:11.53,0:12:13.46,Sx-jp,,42,0,0,fx,{\blur2}てめ…おい…
+Dialogue: 0,0:12:13.46,0:12:16.50,Sx-jp,,42,0,0,fx,{\blur2}おま…え…ふざけっ…
+Dialogue: 0,0:12:17.72,0:12:19.85,Sx-jp,,42,0,0,fx,{\blur2}リオさん リオさん！
+Dialogue: 0,0:12:21.49,0:12:23.12,Sx-jp,,0,0,0,fx,{\blur2}まっち
+Dialogue: 0,0:12:23.12,0:12:25.72,Sx-jp,,0,0,0,fx,{\blur2}あたしのナカも指でしてー
+Dialogue: 0,0:12:45.21,0:12:50.20,Sx-jp,,0,0,0,fx,{\blur2}もうイク イクッ イックー
+Dialogue: 0,0:13:05.21,0:13:07.00,Sx-jp,,0,0,0,fx,{\blur2}それから僕たちは
+Dialogue: 0,0:13:09.09,0:13:10.85,Sx-jp,,0,0,0,fx,{\blur2}時間を忘れて
+Dialogue: 0,0:13:10.85,0:13:12.17,Sx-jp,,0,0,0,fx,{\blur2}ひたすら
+Dialogue: 0,0:13:13.23,0:13:14.99,Sx-jp,,0,0,0,fx,{\blur2}セックス三昧
+Dialogue: 0,0:13:19.14,0:13:20.39,Sx-jp,,42,0,0,fx,{\blur2}町田…
+Dialogue: 0,0:13:26.40,0:13:27.87,Sx-jp,,0,0,0,fx,{\blur2}イック
+Dialogue: 0,0:13:37.46,0:13:39.61,Sx-jp,,0,0,0,fx,{\blur2}どっ どうしよ
+Dialogue: 0,0:13:39.61,0:13:41.60,Sx-jp,,0,0,0,fx,{\blur2}どうしてこんなことに
+Dialogue: 0,0:13:44.49,0:13:47.13,Sx-jp,,42,0,0,fx,{\blur2}このまま こっそり帰っても…
+Dialogue: 0,0:13:47.52,0:13:48.91,Sx-jp,,0,0,0,fx,{\blur2}町田
+Dialogue: 0,0:13:50.88,0:13:53.46,Sx-jp,,0,0,0,fx,{\blur2}こんだけ遊んだなら
+Dialogue: 0,0:13:53.46,0:13:55.88,Sx-jp,,0,0,0,fx,{\blur2}しばらくはうちらの
+Dialogue: 0,0:13:55.88,0:13:58.27,Sx-jp,,0,0,0,fx,{\blur2}オモチャになってもらうから
+Dialogue: 0,0:13:59.21,0:14:01.87,Sx-jp,,0,0,0,fx,{\blur2}どうやら僕の学園生活
+Dialogue: 0,0:14:01.87,0:14:05.74,Sx-jp,,0,0,0,fx,{\blur2}{\fad(0,1000)}これから大変そうです

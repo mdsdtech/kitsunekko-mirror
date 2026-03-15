@@ -1,0 +1,710 @@
+﻿[Script Info]
+ScriptType: v4.00+
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ex-KS,萝莉体,64,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,8,0,0,0,1
+Style: Ex-special,萝莉体,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Ex-simple,思源黑体,60,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Sx-jp,A-OTF Shin Maru Go Pro DB,70,&H00FFFFFF,&HFFFFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2.42,0,2,0,0,10,128
+Style: Rx-annotation,方正悠宋+ GBK 509R,42,&H1E000000,&H00FFFFFF,&H1EFFFFFF,&H50FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,5,5,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 本字幕由「極彩花夢」制作，仅供交流学习使用，请勿用于商业用途 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名开始 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— 「極彩花夢」署名结束 ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-simple,,0,0,0,,—— EX ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - effect ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code line,fxgroup.SXJP = (line.actor ~= "fx-eff")
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code line all,fxgroup.eff = (line.actor == "fx-eff")
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function strlen(str) local tmp = str local count = 0 local byteCount = 0 while (string.len(tmp) > 0) do local code = string.byte(tmp) if (code <= 127) then byteCount = byteCount + 1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount + 1) count = count + 1 end return count end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function strsub(str, start, length) if (length <= 0) then return "" end local tmp = str local count = 0 local byteCount = 0 local byteSubStart = 1 local byteSubEnd = -1 while (string.len(tmp)>0) do if (count == start) then byteSubStart = byteCount + 1 elseif (count == start + length) then byteSubEnd = byteCount break end local code = string.byte(tmp) if(code <= 127) then byteCount = byteCount +1 elseif (code <= 223) then byteCount = byteCount + 2 elseif (code <= 239) then byteCount = byteCount + 3 else byteCount = byteCount + 4 end tmp = string.sub(str, byteCount+1) count = count + 1 end return string.sub(str, byteSubStart, byteSubEnd) end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,characters = {"桜沢ともみ","甲斐ヒカル","甲斐すずか",""} characters_eff = {"{\\blur2}{\\3c&H3D33C2&}","{\\blur2}{\\3c&H9A8610&}","{\\blur2}{\\3c&HCA207D&}","{\\blur2}"} margin_jp = 42 margin_zh = 55 margin_t_jp = 1 margin_t_zh = 59
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function relf() local eff = relf_kr() relf_margin() relf_layer() return eff end function relf_kr() for i = 1, #characters, 1 do if line.actor == characters[i] then return characters_eff[i] end end return "" end function relf_margin() if string.find(line.raw,"%{\\an8%}") ~= nil then if line.styleref.name == "Sx-jp" then line.margin_t = margin_t_jp else line.margin_t = margin_t_zh end end local tmp = strsub(line.text_stripped,strlen(line.text_stripped)-1,1) if tmp == "…" or tmp == "！" or tmp == "？" then if line.styleref.name == "Sx-jp" then line.margin_l = line.margin_l + 42 else line.margin_l = line.margin_l + 55 end end end function relf_layer() if line.styleref.name == "Sx-zh" then line.layer = 1 end end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,template line keeptags fxgroup SXJP,!relf()!
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,slen = 1  single_loop = 10
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code once,function getSinfo(styleref,str) local width, height, descent, extlead = _G.aegisub.text_extents(styleref,str) return width end
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,code line,s = {}   function round(x) return math.ceil(x * 100) / 100 end   function reset(i)   s.sloopCount = math.ceil(strlen(line.text_stripped) / slen)   s.iloopCount = single_loop   s.sindex = math.ceil(i / single_loop)   s.iindex = (i + single_loop - 1) % single_loop + 1   s.text = strsub(line.text_stripped, (s.sindex - 1) * slen, slen)   s.rtext = string.gsub(s.text, "^[ ]*(.-)[ ]*$", "%1")   s.left = round(line.left +   getSinfo(line.styleref,   strsub(line.text_stripped, 0, (s.sindex - 1) * slen) .. string.gsub(s.text, "^([ ]*).*", "%1")))   s.width = round(getSinfo(line.styleref, s.rtext))   s.center = s.left + s.width / 2   s.right = s.left + s.width   s.top = line.top   s.bottom = line.bottom   s.middle = line.middle   s.height = line.height   return ""   end
+Comment: 0,0:13:49.26,0:13:49.26,Sx-jp,,0,0,0,template line notext all fxgroup eff,!reset(j)!!maxloop(s.sloopCount * s.iloopCount)!!retime("line", remember("Toffset",math.random(0,200)), 0-recall.Toffset)!{\an5\pos(!s.center!,!s.middle!)\clip(!s.left-s.width!,!s.top+s.height/single_loop*(s.iindex-1)!,!s.right+s.width!,!s.top+s.height/single_loop*s.iindex!)\alpha&HFF&\org(!s.center!,-100000)\frz!.001*(-1)^math.random(0,1)*math.random(10,30)!\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(!750-recall.Toffset!,!750-recall.Toffset!,\3c&H9A8610&\t(!1250-recall.Toffset!,!1250-recall.Toffset!,\3c&H000000&))\t(!1250-recall.Toffset!,!1250-recall.Toffset+100!,\frz!.001*(-1)^math.random(0,1)*math.random(10,30)!\alpha&HFF&\t(!1250-recall.Toffset+100!,!1250-recall.Toffset+200!,\frz0\alpha&H00&))\t(!1710-recall.Toffset!,!1710-recall.Toffset!,\3c&H9A8610&\t(!3210-recall.Toffset!,!3210-recall.Toffset!,\3c&H000000&))\t(!3210-recall.Toffset!,!3210-recall.Toffset+100!,\frz!.001*(-1)^math.random(0,1)*math.random(10,30)!\alpha&HFF&\t(!3210-recall.Toffset+100!,!3210-recall.Toffset+200!,\frz0\alpha&H00&))\t(!3960-recall.Toffset!,!3960-recall.Toffset!,\3c&H9A8610&)\t(!4210-recall.Toffset!,!4210-recall.Toffset!,\3c&H000000&)\t(!4210-recall.Toffset!,!4210-recall.Toffset+100!,\frz!.001*(-1)^math.random(0,1)*math.random(10,30)!\alpha&HFF&\t(!4210-recall.Toffset+100!,!4210-recall.Toffset+200!,\frz0\alpha&H00&))\t(!5170-recall.Toffset-100!,!5170-recall.Toffset!,\frz!.001*(-1)^math.random(0,1)*math.random(10,30)!\alpha&HFF&)}!s.rtext!
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - effect ——
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:00.59,0:00:03.59,Sx-jp,甲斐すずか,0,0,0,karaoke,アニキが一人暮らしを始めた頃
+Comment: 0,0:00:03.59,0:00:07.44,Sx-jp,甲斐すずか,0,0,0,karaoke,アタシは アニキの部屋に通うようになった
+Comment: 0,0:00:08.35,0:00:11.49,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ブラコンはもう卒業しろよー
+Comment: 0,0:00:12.51,0:00:13.70,Sx-jp,甲斐ヒカル,0,0,0,karaoke,で
+Comment: 0,0:00:13.70,0:00:14.99,Sx-jp,甲斐ヒカル,0,0,0,karaoke,何か用？
+Comment: 0,0:00:15.64,0:00:17.10,Sx-jp,甲斐すずか,0,0,0,karaoke,「素行調査」よ
+Comment: 0,0:00:17.39,0:00:19.40,Sx-jp,甲斐ヒカル,0,0,0,karaoke,抜き打ちはやめて
+Comment: 0,0:00:20.82,0:00:23.04,Sx-jp,甲斐すずか,0,0,0,karaoke,うッ…これは…
+Comment: 0,0:00:23.04,0:00:25.07,Sx-jp,甲斐ヒカル,0,0,0,karaoke,すずかちゃんお目が高い！
+Comment: 0,0:00:25.07,0:00:27.94,Sx-jp,甲斐ヒカル,0,0,0,karaoke,それはともみ先輩抱き枕カバー
+Comment: 0,0:00:29.41,0:00:31.14,Sx-jp,甲斐すずか,0,0,0,karaoke,例の先輩…
+Comment: 0,0:00:31.14,0:00:33.41,Sx-jp,甲斐すずか,0,0,0,karaoke,付き合ってるんじゃ…ないの？
+Comment: 0,0:00:34.60,0:00:37.84,Sx-jp,甲斐すずか,0,0,0,karaoke,本物とセックスしてるなら 必要ないでしょう？
+Comment: 0,0:00:38.13,0:00:39.31,Sx-jp,甲斐ヒカル,0,0,0,karaoke,残念ながら…
+Comment: 0,0:00:39.31,0:00:41.89,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺と先輩は恋人じゃない
+Comment: 0,0:00:42.62,0:00:43.22,Sx-jp,甲斐ヒカル,0,0,0,karaoke,でも
+Comment: 0,0:00:43.69,0:00:45.10,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺がいないと
+Comment: 0,0:00:45.10,0:00:47.77,Sx-jp,甲斐ヒカル,0,0,0,karaoke,先輩は大変なことになるんだ
+Comment: 0,0:00:48.16,0:00:51.75,Sx-jp,甲斐ヒカル,0,0,0,karaoke,先輩には 俺の助けが必要なんだよ
+Comment: 0,0:00:55.13,0:00:57.57,Sx-jp,甲斐すずか,0,0,0,karaoke,かまかけた…だけなのに
+Comment: 0,0:00:59.30,0:01:02.63,Sx-jp,甲斐すずか,0,0,0,karaoke,やっぱ…エッチしてるんだ
+Comment: 0,0:01:04.53,0:01:05.68,Sx-jp,甲斐すずか,0,0,0,karaoke,ムカつく
+Comment: 0,0:01:09.27,0:01:13.09,Sx-jp,甲斐すずか,0,0,0,karaoke,ともみ先輩も アニキのこと好きそーだけど…
+Comment: 0,0:01:13.95,0:01:16.63,Sx-jp,甲斐すずか,0,0,0,karaoke,ムカつくから 教えてやらない
+Comment: 0,0:01:23.11,0:01:25.30,Sx-jp,甲斐すずか,0,0,0,karaoke,秘めた気持ちが…
+Comment: 0,0:01:25.30,0:01:27.85,Sx-jp,甲斐すずか,0,0,0,karaoke,外に 勃起たがってる
+Comment: 0,0:01:47.87,0:01:50.03,Sx-jp,桜沢ともみ,0,0,0,karaoke,もう 出ないィ…
+Comment: 0,0:01:51.03,0:01:53.93,Sx-jp,桜沢ともみ,0,0,0,karaoke,二人とも 許して
+Comment: 0,0:01:59.45,0:02:00.94,Sx-jp,桜沢ともみ,0,0,0,karaoke,おっぱいが
+Comment: 0,0:02:00.94,0:02:03.03,Sx-jp,桜沢ともみ,0,0,0,karaoke,空っぽになっちゃう
+Comment: 0,0:02:05.09,0:02:07.50,Sx-jp,桜沢ともみ,0,0,0,karaoke,乳首 取れちゃう
+Comment: 0,0:02:07.50,0:02:08.95,Sx-jp,桜沢ともみ,0,0,0,karaoke,もう ダメ
+Comment: 0,0:02:09.70,0:02:10.94,Sx-jp,桜沢ともみ,0,0,0,karaoke,イクの…
+Comment: 0,0:02:12.05,0:02:13.90,Sx-jp,桜沢ともみ,0,0,0,karaoke,{\fad(0,600)}ダメェェェ…
+Comment: 0,0:02:15.78,0:02:17.06,Sx-jp,甲斐すずか,0,0,0,karaoke,フーン
+Comment: 0,0:02:17.06,0:02:18.80,Sx-jp,甲斐すずか,0,0,0,karaoke,面白いね
+Comment: 0,0:02:18.80,0:02:20.47,Sx-jp,甲斐すずか,0,0,0,karaoke,妊娠してないのに
+Comment: 0,0:02:20.47,0:02:22.20,Sx-jp,甲斐すずか,0,0,0,karaoke,母乳が出るなんて
+Comment: 0,0:02:23.29,0:02:24.66,Sx-jp,甲斐すずか,0,0,0,karaoke,ともみ先輩
+Comment: 0,0:02:24.66,0:02:28.43,Sx-jp,甲斐すずか,0,0,0,karaoke,生徒会長で おまけに有名人でしょう
+Comment: 0,0:02:28.43,0:02:29.53,Sx-jp,甲斐ヒカル,0,0,0,karaoke,すずか！
+Comment: 0,0:02:30.80,0:02:32.08,Sx-jp,甲斐すずか,0,0,0,karaoke,コレ
+Comment: 0,0:02:32.08,0:02:34.87,Sx-jp,甲斐すずか,0,0,0,karaoke,ネットに上げちゃおっかな
+Comment: 0,0:02:36.17,0:02:38.72,Sx-jp,甲斐すずか,0,0,0,karaoke,こぉんなおっきいおっぱいから
+Comment: 0,0:02:38.72,0:02:42.42,Sx-jp,甲斐すずか,0,0,0,karaoke,エッチなミルクが出てくる なんて知られたら
+Comment: 0,0:02:43.06,0:02:45.43,Sx-jp,甲斐すずか,0,0,0,karaoke,もう学校に行けないよね
+Comment: 0,0:02:47.83,0:02:49.38,Sx-jp,甲斐すずか,0,0,0,karaoke,だからさぁ
+Comment: 0,0:02:49.38,0:02:51.44,Sx-jp,甲斐すずか,0,0,0,karaoke,アタシも混ぜてよ アニキ
+Comment: 0,0:02:52.40,0:02:53.55,Sx-jp,甲斐すずか,0,0,0,karaoke,でないと
+Comment: 0,0:02:53.55,0:02:56.94,Sx-jp,甲斐すずか,0,0,0,karaoke,アンタらの秘密 拡散しちゃうよ
+Comment: 0,0:02:59.10,0:03:03.09,Sx-jp,桜沢ともみ,0,0,0,karaoke,私が すずかちゃんにヤキモチ焼いて
+Comment: 0,0:03:03.09,0:03:05.37,Sx-jp,桜沢ともみ,0,0,0,karaoke,ここでシたいってお願いしたの
+Comment: 0,0:03:05.86,0:03:07.58,Sx-jp,甲斐すずか,0,0,0,karaoke,大きい…
+Comment: 0,0:03:07.58,0:03:09.10,Sx-jp,甲斐すずか,0,0,0,karaoke,甘い…
+Comment: 0,0:03:09.10,0:03:11.33,Sx-jp,甲斐すずか,0,0,0,karaoke,ミルクの匂い…
+Comment: 0,0:03:12.22,0:03:13.90,Sx-jp,桜沢ともみ,0,0,0,karaoke,すずかちゃんが
+Comment: 0,0:03:13.90,0:03:16.58,Sx-jp,桜沢ともみ,0,0,0,karaoke,あんまりヒカルくんと仲良しだから
+Comment: 0,0:03:16.58,0:03:18.05,Sx-jp,桜沢ともみ,0,0,0,karaoke,羨ましくて
+Comment: 0,0:03:21.19,0:03:22.60,Sx-jp,桜沢ともみ,0,0,0,karaoke,あらあら
+Comment: 0,0:03:22.60,0:03:24.62,Sx-jp,桜沢ともみ,0,0,0,karaoke,やっぱり兄妹なのね
+Comment: 0,0:03:27.59,0:03:30.83,Sx-jp,甲斐すずか,0,0,0,karaoke,ちょ…調子に乗らないで！
+Comment: 0,0:03:30.83,0:03:32.64,Sx-jp,甲斐すずか,0,0,0,karaoke,この母乳おっぱい
+Comment: 0,0:03:32.64,0:03:35.23,Sx-jp,甲斐すずか,0,0,0,karaoke,しっかり調べさせてもらうわよ！
+Comment: 0,0:03:35.96,0:03:37.53,Sx-jp,甲斐すずか,0,0,0,karaoke,や…やわらか！
+Comment: 0,0:03:37.53,0:03:38.69,Sx-jp,桜沢ともみ,0,0,0,karaoke,んぁ…
+Comment: 0,0:03:40.71,0:03:42.08,Sx-jp,甲斐ヒカル,0,0,0,karaoke,やっぱお前
+Comment: 0,0:03:42.08,0:03:44.43,Sx-jp,甲斐ヒカル,0,0,0,karaoke,{\fad(0,500)}おっぱい好きなんだろ
+Comment: 0,0:03:47.75,0:03:49.35,Sx-jp,甲斐ヒカル,0,0,0,karaoke,いいか すずか
+Comment: 0,0:03:49.35,0:03:50.91,Sx-jp,甲斐ヒカル,0,0,0,karaoke,よく見ておけよ
+Comment: 0,0:03:53.52,0:03:54.93,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ともみ先輩は
+Comment: 0,0:03:54.93,0:03:57.83,Sx-jp,甲斐ヒカル,0,0,0,karaoke,乳輪の根元から勃起するタイプで
+Comment: 0,0:03:57.83,0:03:59.71,Sx-jp,甲斐ヒカル,0,0,0,karaoke,服の上からでも
+Comment: 0,0:03:59.71,0:04:01.51,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ほら パンパン
+Comment: 0,0:04:02.86,0:04:04.41,Sx-jp,甲斐ヒカル,0,0,0,karaoke,軽く引っ掻くと
+Comment: 0,0:04:04.41,0:04:06.83,Sx-jp,甲斐ヒカル,0,0,0,karaoke,じんわり母乳がしみてくる
+Comment: 0,0:04:09.04,0:04:12.25,Sx-jp,甲斐ヒカル,0,0,0,karaoke,揉みながら先っぽをシコシコすると…
+Comment: 0,0:04:16.56,0:04:19.48,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳の我慢汁のようなものが出てくる
+Comment: 0,0:04:20.50,0:04:22.11,Sx-jp,桜沢ともみ,0,0,0,karaoke,ひ…ヒカルくん…
+Comment: 0,0:04:24.40,0:04:25.55,Sx-jp,甲斐ヒカル,0,0,0,karaoke,しっ…
+Comment: 0,0:04:25.55,0:04:29.28,Sx-jp,甲斐ヒカル,0,0,0,karaoke,先輩の母乳を 性別問わず射せるのかを探る
+Comment: 0,0:04:29.28,0:04:30.63,Sx-jp,甲斐ヒカル,0,0,0,karaoke,いいチャンスです
+Comment: 0,0:04:31.63,0:04:32.45,Sx-jp,桜沢ともみ,0,0,0,karaoke,でも…
+Comment: 0,0:04:33.17,0:04:36.17,Sx-jp,桜沢ともみ,0,0,0,karaoke,すずかちゃんの見てる前で
+Comment: 0,0:04:36.17,0:04:37.59,Sx-jp,桜沢ともみ,0,0,0,karaoke,こんな…
+Comment: 0,0:04:39.07,0:04:42.64,Sx-jp,甲斐ヒカル,0,0,0,karaoke,限界までシコシコと勃起させたところで
+Comment: 0,0:04:43.67,0:04:45.02,Sx-jp,甲斐ヒカル,0,0,0,karaoke,しゃぶり倒す！
+Comment: 0,0:04:50.66,0:04:51.90,Sx-jp,甲斐すずか,0,0,0,karaoke,ムリ…
+Comment: 0,0:04:51.90,0:04:54.26,Sx-jp,甲斐すずか,0,0,0,karaoke,こんなの…見てられない
+Comment: 0,0:04:54.26,0:04:55.78,Sx-jp,甲斐すずか,0,0,0,karaoke,アニキのチンポ…
+Comment: 0,0:04:55.78,0:04:58.03,Sx-jp,甲斐すずか,0,0,0,karaoke,今すぐ 欲しい！
+Comment: 0,0:04:58.03,0:04:58.90,Sx-jp,桜沢ともみ,0,0,0,karaoke,イックぅ！
+Comment: 0,0:04:59.52,0:05:02.15,Sx-jp,甲斐ヒカル,0,0,0,karaoke,今日はたくさん母乳が出る気がする
+Comment: 0,0:05:02.74,0:05:04.57,Sx-jp,甲斐ヒカル,0,0,0,karaoke,かわいいです 先輩！
+Comment: 0,0:05:07.09,0:05:09.90,Sx-jp,甲斐ヒカル,0,0,0,karaoke,せっかくだから 母乳計測しとこ
+Comment: 0,0:05:09.90,0:05:12.41,Sx-jp,甲斐ヒカル,0,0,0,karaoke,射乳おっぱいの写真も
+Comment: 0,0:05:12.41,0:05:14.87,Sx-jp,甲斐ヒカル,0,0,0,karaoke,いっぱい撮りましょうねー
+Comment: 0,0:05:15.58,0:05:16.38,Sx-jp,甲斐ヒカル,0,0,0,karaoke,あ！
+Comment: 0,0:05:16.38,0:05:19.50,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ちなみにこの時点では まだ母乳は出ない
+Comment: 0,0:05:19.50,0:05:20.88,Sx-jp,甲斐すずか,0,0,0,karaoke,はぁ？
+Comment: 0,0:05:23.03,0:05:25.42,Sx-jp,甲斐ヒカル,0,0,0,karaoke,手マンでもちょっと出るけど
+Comment: 0,0:05:25.42,0:05:27.38,Sx-jp,甲斐ヒカル,0,0,0,karaoke,チンポを挿れないとダメなんだ
+Comment: 0,0:05:29.19,0:05:32.01,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳が出そうになったところで…
+Comment: 0,0:05:32.01,0:05:32.98,Sx-jp,甲斐ヒカル,0,0,0,karaoke,寸止め！
+Comment: 0,0:05:34.72,0:05:36.81,Sx-jp,桜沢ともみ,0,0,0,karaoke,いやぁぁぁ！
+Comment: 0,0:05:36.81,0:05:38.89,Sx-jp,桜沢ともみ,0,0,0,karaoke,出したいィィ！
+Comment: 0,0:05:39.75,0:05:41.26,Sx-jp,桜沢ともみ,0,0,0,karaoke,出させて
+Comment: 0,0:05:41.26,0:05:43.82,Sx-jp,桜沢ともみ,0,0,0,karaoke,母乳出させて！
+Comment: 0,0:05:43.82,0:05:46.90,Sx-jp,桜沢ともみ,0,0,0,karaoke,おかひくなっひゃうぅぅ！
+Comment: 0,0:05:47.90,0:05:49.45,Sx-jp,甲斐ヒカル,0,0,0,karaoke,かわいすぎる！
+Comment: 0,0:05:49.45,0:05:51.41,Sx-jp,甲斐ヒカル,0,0,0,karaoke,あとエロい！
+Comment: 0,0:05:52.07,0:05:56.41,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくんのチンポー ほしいのぉ…
+Comment: 0,0:05:57.20,0:06:00.37,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ともみ先輩は 俺のすることを拒まない
+Comment: 0,0:06:02.07,0:06:05.29,Sx-jp,甲斐ヒカル,0,0,0,karaoke,どんなエッチなことでもさせてくれる
+Comment: 0,0:06:05.29,0:06:06.59,Sx-jp,甲斐ヒカル,0,0,0,karaoke,なぜなら
+Comment: 0,0:06:07.89,0:06:10.86,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母性と性欲が 強すぎるから！
+Comment: 0,0:06:11.40,0:06:14.89,Sx-jp,桜沢ともみ,0,0,0,karaoke,ミルク 出したいの
+Comment: 0,0:06:16.02,0:06:19.42,Sx-jp,甲斐ヒカル,0,0,0,karaoke,乳狂いの俺と チンポ狂いの先輩
+Comment: 0,0:06:19.42,0:06:22.02,Sx-jp,甲斐ヒカル,0,0,0,karaoke,持ちつ持たれつの ギブアンドテイクだ
+Comment: 0,0:06:24.83,0:06:26.45,Sx-jp,甲斐ヒカル,0,0,0,karaoke,わかっただろ
+Comment: 0,0:06:26.45,0:06:29.63,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ともみ先輩は セックスしないと
+Comment: 0,0:06:29.63,0:06:31.40,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳が射せないんだよ
+Comment: 0,0:06:33.46,0:06:36.08,Sx-jp,甲斐すずか,0,0,0,karaoke,アタシも手伝ってあげる
+Comment: 0,0:06:36.08,0:06:36.87,Sx-jp,甲斐すずか,0,0,0,karaoke,だから…
+Comment: 0,0:06:38.18,0:06:41.87,Sx-jp,甲斐すずか,0,0,0,karaoke,アタシにも 挿れて お兄ちゃん…
+Comment: 0,0:06:47.41,0:06:49.53,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ここに 挿れていいの？
+Comment: 0,0:06:49.53,0:06:52.38,Sx-jp,甲斐ヒカル,0,0,0,karaoke,こんなの 秒で射る！
+Comment: 0,0:06:53.34,0:06:56.42,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳乳首と 陥没乳首で…
+Comment: 0,0:06:57.53,0:06:59.53,Sx-jp,甲斐ヒカル,0,0,0,karaoke,乳首ックス しちゃってる！
+Comment: 0,0:07:01.61,0:07:05.29,Sx-jp,桜沢ともみ,0,0,0,karaoke,すずかちゃんの凹みに吸い付かれて
+Comment: 0,0:07:05.29,0:07:07.54,Sx-jp,桜沢ともみ,0,0,0,karaoke,ミルク出ちゃう
+Comment: 0,0:07:09.53,0:07:12.42,Sx-jp,甲斐すずか,0,0,0,karaoke,ともみ先輩の ミルク乳首が
+Comment: 0,0:07:12.42,0:07:13.18,Sx-jp,甲斐すずか,0,0,0,karaoke,陥没に…
+Comment: 0,0:07:13.94,0:07:15.72,Sx-jp,甲斐すずか,0,0,0,karaoke,入って来るぅ
+Comment: 0,0:07:17.29,0:07:19.44,Sx-jp,桜沢ともみ,0,0,0,karaoke,おっぱいだけでイク
+Comment: 0,0:07:19.44,0:07:21.03,Sx-jp,桜沢ともみ,0,0,0,karaoke,勃起しちゃう
+Comment: 0,0:07:23.28,0:07:26.83,Sx-jp,桜沢ともみ,0,0,0,karaoke,乳イキ射乳ミルクしちゃう
+Comment: 0,0:07:28.45,0:07:30.66,Sx-jp,甲斐ヒカル,0,0,0,karaoke,二人のメス乳おっぱい
+Comment: 0,0:07:30.66,0:07:33.43,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ザーメンを出すためだけに使っちゃってる
+Comment: 0,0:07:35.74,0:07:38.87,Sx-jp,甲斐ヒカル,0,0,0,karaoke,妹の発育デカパイを吸いながら
+Comment: 0,0:07:40.58,0:07:41.72,Sx-jp,甲斐すずか,0,0,0,karaoke,え…ちょッ…
+Comment: 0,0:07:41.72,0:07:44.16,Sx-jp,甲斐すずか,0,0,0,karaoke,陥没に舌入れちゃダメ…
+Comment: 0,0:07:44.95,0:07:47.86,Sx-jp,甲斐ヒカル,0,0,0,karaoke,隠れた乳首をいじって
+Comment: 0,0:07:49.54,0:07:51.90,Sx-jp,甲斐ヒカル,0,0,0,karaoke,下品な母乳ぱいを犯す！
+Comment: 0,0:07:57.22,0:07:58.46,Sx-jp,甲斐ヒカル,0,0,0,karaoke,先輩…
+Comment: 0,0:07:58.46,0:08:02.22,Sx-jp,甲斐ヒカル,0,0,0,karaoke,出して速攻お掃除フェラなんて 嬉しいです
+Comment: 0,0:08:04.34,0:08:08.56,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくんのチンポの匂い…精子の味…
+Comment: 0,0:08:08.56,0:08:09.67,Sx-jp,桜沢ともみ,0,0,0,karaoke,だいしゅきなの
+Comment: 0,0:08:11.56,0:08:13.70,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳セックス活動
+Comment: 0,0:08:13.70,0:08:16.68,Sx-jp,甲斐ヒカル,0,0,0,karaoke,今までも十分インモラルだったけど
+Comment: 0,0:08:17.88,0:08:20.14,Sx-jp,甲斐ヒカル,0,0,0,karaoke,妹に見られることによって
+Comment: 0,0:08:20.14,0:08:22.56,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ともみ先輩がよりエッチに…
+Comment: 0,0:08:23.46,0:08:24.39,Sx-jp,甲斐ヒカル,0,0,0,karaoke,これは
+Comment: 0,0:08:24.39,0:08:28.91,Sx-jp,甲斐ヒカル,0,0,0,karaoke,すずかにも協力してもらって しこたま母乳を搾らなければ！
+Comment: 0,0:08:31.23,0:08:34.86,Sx-jp,甲斐ヒカル,0,0,0,karaoke,かわいいママ二人に手厚くお世話されて
+Comment: 0,0:08:34.86,0:08:38.42,Sx-jp,甲斐ヒカル,0,0,0,karaoke,こんなにお世話されてるの…保育園以来かも
+Comment: 0,0:08:40.08,0:08:42.80,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくん ぴゅっぴゅっ…
+Comment: 0,0:08:43.32,0:08:45.13,Sx-jp,桜沢ともみ,0,0,0,karaoke,ぴゅっぴゅっしましょう
+Comment: 0,0:08:45.59,0:08:46.63,Sx-jp,甲斐ヒカル,0,0,0,karaoke,すずか…
+Comment: 0,0:08:46.63,0:08:49.43,Sx-jp,甲斐ヒカル,0,0,0,karaoke,アナル責めとか どこで覚えてきたの？
+Comment: 0,0:08:50.53,0:08:53.88,Sx-jp,甲斐すずか,0,0,0,karaoke,はッ…初めてに決まってるでしょ
+Comment: 0,0:08:54.78,0:08:56.04,Sx-jp,甲斐すずか,0,0,0,karaoke,もう…
+Comment: 0,0:08:56.04,0:08:57.16,Sx-jp,甲斐すずか,0,0,0,karaoke,アニキ
+Comment: 0,0:08:57.16,0:08:58.88,Sx-jp,甲斐すずか,0,0,0,karaoke,赤ちゃんみたい
+Comment: 0,0:08:59.44,0:09:00.26,Sx-jp,甲斐すずか,0,0,0,karaoke,もぉ
+Comment: 0,0:09:00.26,0:09:02.07,Sx-jp,甲斐すずか,0,0,0,karaoke,しょうがないなぁ
+Comment: 0,0:09:02.07,0:09:04.84,Sx-jp,甲斐すずか,0,0,0,karaoke,アニキのオムツは替えたことないけど
+Comment: 0,0:09:05.74,0:09:08.36,Sx-jp,甲斐すずか,0,0,0,karaoke,チンポのお世話はしてあげるね
+Comment: 0,0:09:09.03,0:09:10.55,Sx-jp,甲斐ヒカル,0,0,0,karaoke,とか言いながら
+Comment: 0,0:09:10.55,0:09:13.70,Sx-jp,甲斐ヒカル,0,0,0,karaoke,咥えてパイズリするだけで感じちゃうんだ
+Comment: 0,0:09:14.20,0:09:15.41,Sx-jp,甲斐すずか,0,0,0,karaoke,うるさい…
+Comment: 0,0:09:17.73,0:09:20.82,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ソレ マジで…ヤバ！
+Comment: 0,0:09:22.00,0:09:24.79,Sx-jp,甲斐すずか,0,0,0,karaoke,{\fad(0,1000)}出た…
+Comment: 0,0:09:29.40,0:09:31.90,Sx-jp,甲斐ヒカル,0,0,0,karaoke,しばらくするとそこには
+Comment: 0,0:09:31.90,0:09:35.33,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺のチンポを激しく欲する 二人のママが！
+Comment: 0,0:09:29.24,0:09:31.99,Sx-jp,桜沢ともみ,0,0,0,karaoke,{\an8}チンポ…チンポ
+Comment: 0,0:09:32.79,0:09:35.33,Sx-jp,甲斐すずか,0,0,0,karaoke,{\an8}チンポ チンポ
+Comment: 0,0:09:37.55,0:09:38.43,Sx-jp,甲斐ヒカル,0,0,0,karaoke,いかん！
+Comment: 0,0:09:38.43,0:09:41.15,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳セックス活動の域を超えている
+Comment: 0,0:09:44.09,0:09:45.78,Sx-jp,桜沢ともみ,0,0,0,karaoke,大丈夫よ
+Comment: 0,0:09:45.78,0:09:46.93,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくん
+Comment: 0,0:09:47.60,0:09:49.77,Sx-jp,桜沢ともみ,0,0,0,karaoke,何も心配いらないわ
+Comment: 0,0:09:49.77,0:09:52.49,Sx-jp,桜沢ともみ,0,0,0,karaoke,心置きなく赤ちゃんになって
+Comment: 0,0:09:52.49,0:09:55.08,Sx-jp,桜沢ともみ,0,0,0,karaoke,母乳セックス して
+Comment: 0,0:09:56.47,0:09:57.69,Sx-jp,甲斐ヒカル,0,0,0,karaoke,そうだ
+Comment: 0,0:09:57.69,0:10:00.61,Sx-jp,甲斐ヒカル,0,0,0,karaoke,赤ちゃんには赤ちゃんの役目があるはずだ
+Comment: 0,0:10:01.37,0:10:03.30,Sx-jp,甲斐ヒカル,0,0,0,karaoke,これは 人助け！
+Comment: 0,0:10:13.18,0:10:16.37,Sx-jp,甲斐ヒカル,0,0,0,karaoke,二人 同時に ハメハメ！
+Comment: 0,0:10:18.23,0:10:19.92,Sx-jp,桜沢ともみ,0,0,0,karaoke,た 足りないわ
+Comment: 0,0:10:19.92,0:10:21.53,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくんのチンポ
+Comment: 0,0:10:21.53,0:10:24.71,Sx-jp,桜沢ともみ,0,0,0,karaoke,根元から先っぽまで味わいたいの
+Comment: 0,0:10:27.87,0:10:32.06,Sx-jp,桜沢ともみ,0,0,0,karaoke,下から吸われると お母さんの気分になっちゃう
+Comment: 0,0:10:33.21,0:10:35.47,Sx-jp,桜沢ともみ,0,0,0,karaoke,そんなに激しくしたら
+Comment: 0,0:10:35.47,0:10:37.96,Sx-jp,桜沢ともみ,0,0,0,karaoke,おっぱいが壊れちゃう
+Comment: 0,0:10:41.70,0:10:43.82,Sx-jp,甲斐ヒカル,0,0,0,karaoke,見られて興奮した先輩は
+Comment: 0,0:10:43.82,0:10:45.99,Sx-jp,甲斐ヒカル,0,0,0,karaoke,母乳を撒き散らし
+Comment: 0,0:10:47.15,0:10:50.49,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺が子宮に激しくチンポを叩きつけ
+Comment: 0,0:10:51.30,0:10:54.12,Sx-jp,甲斐ヒカル,0,0,0,karaoke,思いっきりデカパイを搾ると
+Comment: 0,0:10:58.02,0:10:59.51,Sx-jp,甲斐ヒカル,0,0,0,karaoke,乳牛のように
+Comment: 0,0:10:59.51,0:11:01.92,Sx-jp,甲斐ヒカル,0,0,0,karaoke,{\fad(0,1000)}たっぷり母乳を射した
+Comment: 0,0:11:04.85,0:11:07.40,Sx-jp,桜沢ともみ,0,0,0,karaoke,いっぱい出しちゃったわ
+Comment: 0,0:11:07.40,0:11:09.80,Sx-jp,桜沢ともみ,0,0,0,karaoke,はしたなくてごめんなさい
+Comment: 0,0:11:09.80,0:11:11.32,Sx-jp,桜沢ともみ,0,0,0,karaoke,すずかちゃん
+Comment: 0,0:11:11.32,0:11:12.85,Sx-jp,桜沢ともみ,0,0,0,karaoke,チンポを…
+Comment: 0,0:11:13.89,0:11:15.10,Sx-jp,甲斐ヒカル,0,0,0,karaoke,すずか
+Comment: 0,0:11:15.10,0:11:16.90,Sx-jp,甲斐ヒカル,0,0,0,karaoke,無理しなくていいんだぞ
+Comment: 0,0:11:19.32,0:11:23.00,Sx-jp,甲斐すずか,0,0,0,karaoke,やだ もう我慢できない…
+Comment: 0,0:11:23.80,0:11:28.30,Sx-jp,甲斐ヒカル,0,0,0,karaoke,お前 さっき陥没乳首ほじくられて 喜んでたよな
+Comment: 0,0:11:28.30,0:11:29.93,Sx-jp,甲斐すずか,0,0,0,karaoke,え え…ちょ…
+Comment: 0,0:11:31.90,0:11:35.68,Sx-jp,甲斐ヒカル,0,0,0,karaoke,デカパイ デカ尻 ドMザコ妹
+Comment: 0,0:11:36.96,0:11:40.74,Sx-jp,甲斐すずか,0,0,0,karaoke,やッ…そういうの 反則…
+Comment: 0,0:11:45.35,0:11:46.84,Sx-jp,甲斐すずか,0,0,0,karaoke,お兄ちゃん…
+Comment: 0,0:11:51.52,0:11:54.24,Sx-jp,甲斐すずか,0,0,0,karaoke,イってるから イってるから…
+Comment: 0,0:11:55.42,0:11:58.85,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺のせいで苦しんでる ブラコン妹と…
+Comment: 0,0:12:02.39,0:12:06.49,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ともみ先輩の母乳を セックスで解放してー！
+Comment: 0,0:12:02.39,0:12:03.94,Sx-jp,甲斐すずか,0,0,0,karaoke,{\an8}壊れちゃう…
+Comment: 0,0:12:07.25,0:12:08.56,Sx-jp,甲斐すずか,0,0,0,karaoke,いい…
+Comment: 0,0:12:08.56,0:12:10.18,Sx-jp,甲斐すずか,0,0,0,karaoke,子宮 降りてきちゃ
+Comment: 0,0:12:10.18,0:12:12.45,Sx-jp,甲斐すずか,0,0,0,karaoke,イク イクイク イク！
+Comment: 0,0:12:14.12,0:12:17.92,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ママたちの体を チンポで楽にしてあげる
+Comment: 0,0:12:17.92,0:12:21.38,Sx-jp,甲斐ヒカル,0,0,0,karaoke,これが 俺という赤ちゃんの役割！
+Comment: 0,0:12:22.36,0:12:23.97,Sx-jp,甲斐ヒカル,0,0,0,karaoke,この中出しは
+Comment: 0,0:12:23.97,0:12:26.48,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ママたちへの 感謝の気持ち！
+Comment: 0,0:12:32.14,0:12:35.39,Sx-jp,桜沢ともみ,0,0,0,karaoke,{\an8}イックゥゥ！
+Comment: 0,0:12:32.14,0:12:35.39,Sx-jp,甲斐すずか,0,0,0,karaoke,イックゥゥ！
+Comment: 0,0:12:37.26,0:12:40.54,Sx-jp,桜沢ともみ,0,0,0,karaoke,とってもおっぱいが楽になったわ
+Comment: 0,0:12:40.54,0:12:43.86,Sx-jp,甲斐すずか,0,0,0,karaoke,アニキのチンポ…すごい
+Comment: 0,0:12:44.71,0:12:48.07,Sx-jp,桜沢ともみ,0,0,0,karaoke,こんなにナカに射精してもらって
+Comment: 0,0:12:48.07,0:12:51.03,Sx-jp,桜沢ともみ,0,0,0,karaoke,お礼しなきゃ
+Comment: 0,0:12:52.45,0:12:56.00,Sx-jp,桜沢ともみ,0,0,0,karaoke,理想のお母さんって 感じの人だね
+Comment: 0,0:12:56.22,0:12:56.92,Sx-jp,甲斐ヒカル,0,0,0,karaoke,え？
+Comment: 0,0:12:56.92,0:12:59.38,Sx-jp,甲斐ヒカル,0,0,0,karaoke,お前もおっぱいの虜になったのか？
+Comment: 0,0:12:59.38,0:13:01.17,Sx-jp,甲斐すずか,0,0,0,karaoke,違うわよ
+Comment: 0,0:13:02.01,0:13:04.17,Sx-jp,甲斐すずか,0,0,0,karaoke,どんな人かわかったし
+Comment: 0,0:13:04.17,0:13:05.18,Sx-jp,甲斐すずか,0,0,0,karaoke,っていうか
+Comment: 0,0:13:05.65,0:13:06.90,Sx-jp,甲斐すずか,0,0,0,karaoke,お兄ちゃん
+Comment: 0,0:13:06.90,0:13:09.67,Sx-jp,甲斐すずか,0,0,0,karaoke,もうちょっと私を意識してくれたって
+Comment: 0,0:13:10.22,0:13:10.92,Sx-jp,甲斐ヒカル,0,0,0,karaoke,え？
+Comment: 0,0:13:10.92,0:13:11.89,Sx-jp,甲斐ヒカル,0,0,0,karaoke,なんで？
+Comment: 0,0:13:11.89,0:13:13.54,Sx-jp,甲斐すずか,0,0,0,karaoke,なんでもないわ！
+Comment: 0,0:13:14.34,0:13:15.68,Sx-jp,甲斐すずか,0,0,0,karaoke,でも…
+Comment: 0,0:13:16.52,0:13:20.41,Sx-jp,甲斐すずか,0,0,0,karaoke,本当になんとも思われてないのは…ヤだ
+Comment: 0,0:13:22.34,0:13:23.70,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ったく
+Comment: 0,0:13:23.70,0:13:25.55,Sx-jp,甲斐ヒカル,0,0,0,karaoke,お前のブラコン
+Comment: 0,0:13:25.55,0:13:26.98,Sx-jp,甲斐ヒカル,0,0,0,karaoke,悪化してんじゃん
+Comment: 0,0:13:27.35,0:13:29.95,Sx-jp,甲斐ヒカル,0,0,0,karaoke,俺 母さんに殺されるわ
+Comment: 0,0:13:29.95,0:13:31.49,Sx-jp,甲斐すずか,0,0,0,karaoke,そんなことさせないし
+Comment: 0,0:13:32.58,0:13:34.28,Sx-jp,甲斐すずか,0,0,0,karaoke,ってかあの人
+Comment: 0,0:13:34.28,0:13:36.49,Sx-jp,甲斐すずか,0,0,0,karaoke,またアニキに何かしてないよね
+Comment: 0,0:13:37.22,0:13:39.96,Sx-jp,甲斐ヒカル,0,0,0,karaoke,ありがとう…すずか
+Comment: 0,0:13:39.96,0:13:42.00,Sx-jp,甲斐ヒカル,0,0,0,karaoke,冗談だから心配すんな
+Comment: 0,0:13:43.23,0:13:45.69,Sx-jp,甲斐すずか,0,0,0,karaoke,心配しすぎて
+Comment: 0,0:13:45.69,0:13:47.50,Sx-jp,甲斐すずか,0,0,0,karaoke,お腹痛い
+Comment: 0,0:13:49.26,0:13:54.43,Sx-jp,fx-eff,0,0,0,karaoke,うち…いろいろあったけどさ…
+Comment: 0,0:13:55.32,0:13:58.66,Sx-jp,甲斐ヒカル,0,0,0,karaoke,なんか 大丈夫になったのよ
+Comment: 0,0:13:58.66,0:14:00.96,Sx-jp,甲斐すずか,0,0,0,karaoke,ともみ先輩のおかげ？
+Comment: 0,0:14:00.96,0:14:02.43,Sx-jp,甲斐ヒカル,0,0,0,karaoke,かもね
+Comment: 0,0:14:02.43,0:14:04.44,Sx-jp,桜沢ともみ,0,0,0,karaoke,ヒカルくん すずかちゃん
+Comment: 0,0:14:06.08,0:14:08.42,Sx-jp,桜沢ともみ,0,0,0,karaoke,発車まで 時間あるから
+Comment: 0,0:14:08.98,0:14:10.63,Sx-jp,桜沢ともみ,0,0,0,karaoke,お茶にしましょう
+Comment: 0,0:14:13.29,0:14:16.33,Sx-jp,甲斐ヒカル,0,0,0,karaoke,この人の子宮から生まれ直したい
+Comment: 0,0:14:16.33,0:14:18.63,Sx-jp,甲斐ヒカル,0,0,0,karaoke,そう思わせてくれるだけで
+Comment: 0,0:14:18.63,0:14:20.66,Sx-jp,甲斐ヒカル,0,0,0,karaoke,救いなのかもと思った
+Comment: 0,0:14:24.11,0:14:25.25,Sx-jp,甲斐ヒカル,0,0,0,karaoke,どうやら
+Comment: 0,0:14:25.25,0:14:27.96,Sx-jp,甲斐ヒカル,0,0,0,karaoke,おっぱいは世界を救うらしい
+Comment: 0,0:14:28.69,0:14:30.98,Sx-jp,桜沢ともみ,0,0,0,karaoke,二人で何話してたの？
+Comment: 0,0:14:30.98,0:14:32.76,Sx-jp,桜沢ともみ,0,0,0,karaoke,私も混ぜて！
+Comment: 0,0:00:00.00,0:00:00.00,Sx-jp,,0,0,0,,—— SX - JP ——
+Comment: 0,0:00:00.00,0:00:00.00,Ex-special,,0,0,0,,—— FX ——
+Dialogue: 0,0:00:00.59,0:00:03.59,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アニキが一人暮らしを始めた頃
+Dialogue: 0,0:00:03.59,0:00:07.44,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アタシは アニキの部屋に通うようになった
+Dialogue: 0,0:00:08.35,0:00:11.49,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ブラコンはもう卒業しろよー
+Dialogue: 0,0:00:12.51,0:00:13.70,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}で
+Dialogue: 0,0:00:13.70,0:00:14.99,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}何か用？
+Dialogue: 0,0:00:15.64,0:00:17.10,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}「素行調査」よ
+Dialogue: 0,0:00:17.39,0:00:19.40,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}抜き打ちはやめて
+Dialogue: 0,0:00:20.82,0:00:23.04,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}うッ…これは…
+Dialogue: 0,0:00:23.04,0:00:25.07,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}すずかちゃんお目が高い！
+Dialogue: 0,0:00:25.07,0:00:27.94,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}それはともみ先輩抱き枕カバー
+Dialogue: 0,0:00:29.41,0:00:31.14,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}例の先輩…
+Dialogue: 0,0:00:31.14,0:00:33.41,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}付き合ってるんじゃ…ないの？
+Dialogue: 0,0:00:34.60,0:00:37.84,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}本物とセックスしてるなら 必要ないでしょう？
+Dialogue: 0,0:00:38.13,0:00:39.31,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}残念ながら…
+Dialogue: 0,0:00:39.31,0:00:41.89,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}俺と先輩は恋人じゃない
+Dialogue: 0,0:00:42.62,0:00:43.22,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}でも
+Dialogue: 0,0:00:43.69,0:00:45.10,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}俺がいないと
+Dialogue: 0,0:00:45.10,0:00:47.77,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}先輩は大変なことになるんだ
+Dialogue: 0,0:00:48.16,0:00:51.75,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}先輩には 俺の助けが必要なんだよ
+Dialogue: 0,0:00:55.13,0:00:57.57,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}かまかけた…だけなのに
+Dialogue: 0,0:00:59.30,0:01:02.63,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}やっぱ…エッチしてるんだ
+Dialogue: 0,0:01:04.53,0:01:05.68,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ムカつく
+Dialogue: 0,0:01:09.27,0:01:13.09,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}ともみ先輩も アニキのこと好きそーだけど…
+Dialogue: 0,0:01:13.95,0:01:16.63,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ムカつくから 教えてやらない
+Dialogue: 0,0:01:23.11,0:01:25.30,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}秘めた気持ちが…
+Dialogue: 0,0:01:25.30,0:01:27.85,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}外に 勃起たがってる
+Dialogue: 0,0:01:47.87,0:01:50.03,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}もう 出ないィ…
+Dialogue: 0,0:01:51.03,0:01:53.93,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}二人とも 許して
+Dialogue: 0,0:01:59.45,0:02:00.94,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}おっぱいが
+Dialogue: 0,0:02:00.94,0:02:03.03,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}空っぽになっちゃう
+Dialogue: 0,0:02:05.09,0:02:07.50,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}乳首 取れちゃう
+Dialogue: 0,0:02:07.50,0:02:08.95,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}もう ダメ
+Dialogue: 0,0:02:09.70,0:02:10.94,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}イクの…
+Dialogue: 0,0:02:12.05,0:02:13.90,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}{\fad(0,600)}ダメェェェ…
+Dialogue: 0,0:02:15.78,0:02:17.06,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}フーン
+Dialogue: 0,0:02:17.06,0:02:18.80,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}面白いね
+Dialogue: 0,0:02:18.80,0:02:20.47,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}妊娠してないのに
+Dialogue: 0,0:02:20.47,0:02:22.20,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}母乳が出るなんて
+Dialogue: 0,0:02:23.29,0:02:24.66,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ともみ先輩
+Dialogue: 0,0:02:24.66,0:02:28.43,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}生徒会長で おまけに有名人でしょう
+Dialogue: 0,0:02:28.43,0:02:29.53,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}すずか！
+Dialogue: 0,0:02:30.80,0:02:32.08,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}コレ
+Dialogue: 0,0:02:32.08,0:02:34.87,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ネットに上げちゃおっかな
+Dialogue: 0,0:02:36.17,0:02:38.72,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}こぉんなおっきいおっぱいから
+Dialogue: 0,0:02:38.72,0:02:42.42,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}エッチなミルクが出てくる なんて知られたら
+Dialogue: 0,0:02:43.06,0:02:45.43,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}もう学校に行けないよね
+Dialogue: 0,0:02:47.83,0:02:49.38,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}だからさぁ
+Dialogue: 0,0:02:49.38,0:02:51.44,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アタシも混ぜてよ アニキ
+Dialogue: 0,0:02:52.40,0:02:53.55,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}でないと
+Dialogue: 0,0:02:53.55,0:02:56.94,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アンタらの秘密 拡散しちゃうよ
+Dialogue: 0,0:02:59.10,0:03:03.09,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}私が すずかちゃんにヤキモチ焼いて
+Dialogue: 0,0:03:03.09,0:03:05.37,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ここでシたいってお願いしたの
+Dialogue: 0,0:03:05.86,0:03:07.58,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}大きい…
+Dialogue: 0,0:03:07.58,0:03:09.10,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}甘い…
+Dialogue: 0,0:03:09.10,0:03:11.33,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}ミルクの匂い…
+Dialogue: 0,0:03:12.22,0:03:13.90,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}すずかちゃんが
+Dialogue: 0,0:03:13.90,0:03:16.58,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}あんまりヒカルくんと仲良しだから
+Dialogue: 0,0:03:16.58,0:03:18.05,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}羨ましくて
+Dialogue: 0,0:03:21.19,0:03:22.60,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}あらあら
+Dialogue: 0,0:03:22.60,0:03:24.62,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}やっぱり兄妹なのね
+Dialogue: 0,0:03:27.59,0:03:30.83,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}ちょ…調子に乗らないで！
+Dialogue: 0,0:03:30.83,0:03:32.64,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}この母乳おっぱい
+Dialogue: 0,0:03:32.64,0:03:35.23,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}しっかり調べさせてもらうわよ！
+Dialogue: 0,0:03:35.96,0:03:37.53,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}や…やわらか！
+Dialogue: 0,0:03:37.53,0:03:38.69,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}んぁ…
+Dialogue: 0,0:03:40.71,0:03:42.08,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}やっぱお前
+Dialogue: 0,0:03:42.08,0:03:44.43,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}{\fad(0,500)}おっぱい好きなんだろ
+Dialogue: 0,0:03:47.75,0:03:49.35,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}いいか すずか
+Dialogue: 0,0:03:49.35,0:03:50.91,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}よく見ておけよ
+Dialogue: 0,0:03:53.52,0:03:54.93,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ともみ先輩は
+Dialogue: 0,0:03:54.93,0:03:57.83,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}乳輪の根元から勃起するタイプで
+Dialogue: 0,0:03:57.83,0:03:59.71,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}服の上からでも
+Dialogue: 0,0:03:59.71,0:04:01.51,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ほら パンパン
+Dialogue: 0,0:04:02.86,0:04:04.41,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}軽く引っ掻くと
+Dialogue: 0,0:04:04.41,0:04:06.83,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}じんわり母乳がしみてくる
+Dialogue: 0,0:04:09.04,0:04:12.25,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}揉みながら先っぽをシコシコすると…
+Dialogue: 0,0:04:16.56,0:04:19.48,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}母乳の我慢汁のようなものが出てくる
+Dialogue: 0,0:04:20.50,0:04:22.11,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}ひ…ヒカルくん…
+Dialogue: 0,0:04:24.40,0:04:25.55,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}しっ…
+Dialogue: 0,0:04:25.55,0:04:29.28,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}先輩の母乳を 性別問わず射せるのかを探る
+Dialogue: 0,0:04:29.28,0:04:30.63,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}いいチャンスです
+Dialogue: 0,0:04:31.63,0:04:32.45,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}でも…
+Dialogue: 0,0:04:33.17,0:04:36.17,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}すずかちゃんの見てる前で
+Dialogue: 0,0:04:36.17,0:04:37.59,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}こんな…
+Dialogue: 0,0:04:39.07,0:04:42.64,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}限界までシコシコと勃起させたところで
+Dialogue: 0,0:04:43.67,0:04:45.02,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}しゃぶり倒す！
+Dialogue: 0,0:04:50.66,0:04:51.90,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}ムリ…
+Dialogue: 0,0:04:51.90,0:04:54.26,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}こんなの…見てられない
+Dialogue: 0,0:04:54.26,0:04:55.78,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}アニキのチンポ…
+Dialogue: 0,0:04:55.78,0:04:58.03,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}今すぐ 欲しい！
+Dialogue: 0,0:04:58.03,0:04:58.90,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}イックぅ！
+Dialogue: 0,0:04:59.52,0:05:02.15,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}今日はたくさん母乳が出る気がする
+Dialogue: 0,0:05:02.74,0:05:04.57,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}かわいいです 先輩！
+Dialogue: 0,0:05:07.09,0:05:09.90,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}せっかくだから 母乳計測しとこ
+Dialogue: 0,0:05:09.90,0:05:12.41,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}射乳おっぱいの写真も
+Dialogue: 0,0:05:12.41,0:05:14.87,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}いっぱい撮りましょうねー
+Dialogue: 0,0:05:15.58,0:05:16.38,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}あ！
+Dialogue: 0,0:05:16.38,0:05:19.50,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ちなみにこの時点では まだ母乳は出ない
+Dialogue: 0,0:05:19.50,0:05:20.88,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}はぁ？
+Dialogue: 0,0:05:23.03,0:05:25.42,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}手マンでもちょっと出るけど
+Dialogue: 0,0:05:25.42,0:05:27.38,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}チンポを挿れないとダメなんだ
+Dialogue: 0,0:05:29.19,0:05:32.01,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}母乳が出そうになったところで…
+Dialogue: 0,0:05:32.01,0:05:32.98,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}寸止め！
+Dialogue: 0,0:05:34.72,0:05:36.81,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}いやぁぁぁ！
+Dialogue: 0,0:05:36.81,0:05:38.89,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}出したいィィ！
+Dialogue: 0,0:05:39.75,0:05:41.26,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}出させて
+Dialogue: 0,0:05:41.26,0:05:43.82,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}母乳出させて！
+Dialogue: 0,0:05:43.82,0:05:46.90,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}おかひくなっひゃうぅぅ！
+Dialogue: 0,0:05:47.90,0:05:49.45,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}かわいすぎる！
+Dialogue: 0,0:05:49.45,0:05:51.41,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}あとエロい！
+Dialogue: 0,0:05:52.07,0:05:56.41,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくんのチンポー ほしいのぉ…
+Dialogue: 0,0:05:57.20,0:06:00.37,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ともみ先輩は 俺のすることを拒まない
+Dialogue: 0,0:06:02.07,0:06:05.29,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}どんなエッチなことでもさせてくれる
+Dialogue: 0,0:06:05.29,0:06:06.59,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}なぜなら
+Dialogue: 0,0:06:07.89,0:06:10.86,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}母性と性欲が 強すぎるから！
+Dialogue: 0,0:06:11.40,0:06:14.89,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ミルク 出したいの
+Dialogue: 0,0:06:16.02,0:06:19.42,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}乳狂いの俺と チンポ狂いの先輩
+Dialogue: 0,0:06:19.42,0:06:22.02,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}持ちつ持たれつの ギブアンドテイクだ
+Dialogue: 0,0:06:24.83,0:06:26.45,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}わかっただろ
+Dialogue: 0,0:06:26.45,0:06:29.63,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ともみ先輩は セックスしないと
+Dialogue: 0,0:06:29.63,0:06:31.40,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}母乳が射せないんだよ
+Dialogue: 0,0:06:33.46,0:06:36.08,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アタシも手伝ってあげる
+Dialogue: 0,0:06:36.08,0:06:36.87,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}だから…
+Dialogue: 0,0:06:38.18,0:06:41.87,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}アタシにも 挿れて お兄ちゃん…
+Dialogue: 0,0:06:47.41,0:06:49.53,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}ここに 挿れていいの？
+Dialogue: 0,0:06:49.53,0:06:52.38,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}こんなの 秒で射る！
+Dialogue: 0,0:06:53.34,0:06:56.42,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}母乳乳首と 陥没乳首で…
+Dialogue: 0,0:06:57.53,0:06:59.53,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}乳首ックス しちゃってる！
+Dialogue: 0,0:07:01.61,0:07:05.29,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}すずかちゃんの凹みに吸い付かれて
+Dialogue: 0,0:07:05.29,0:07:07.54,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ミルク出ちゃう
+Dialogue: 0,0:07:09.53,0:07:12.42,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ともみ先輩の ミルク乳首が
+Dialogue: 0,0:07:12.42,0:07:13.18,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}陥没に…
+Dialogue: 0,0:07:13.94,0:07:15.72,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}入って来るぅ
+Dialogue: 0,0:07:17.29,0:07:19.44,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}おっぱいだけでイク
+Dialogue: 0,0:07:19.44,0:07:21.03,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}勃起しちゃう
+Dialogue: 0,0:07:23.28,0:07:26.83,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}乳イキ射乳ミルクしちゃう
+Dialogue: 0,0:07:28.45,0:07:30.66,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}二人のメス乳おっぱい
+Dialogue: 0,0:07:30.66,0:07:33.43,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ザーメンを出すためだけに使っちゃってる
+Dialogue: 0,0:07:35.74,0:07:38.87,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}妹の発育デカパイを吸いながら
+Dialogue: 0,0:07:40.58,0:07:41.72,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}え…ちょッ…
+Dialogue: 0,0:07:41.72,0:07:44.16,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}陥没に舌入れちゃダメ…
+Dialogue: 0,0:07:44.95,0:07:47.86,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}隠れた乳首をいじって
+Dialogue: 0,0:07:49.54,0:07:51.90,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}下品な母乳ぱいを犯す！
+Dialogue: 0,0:07:57.22,0:07:58.46,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}先輩…
+Dialogue: 0,0:07:58.46,0:08:02.22,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}出して速攻お掃除フェラなんて 嬉しいです
+Dialogue: 0,0:08:04.34,0:08:08.56,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくんのチンポの匂い…精子の味…
+Dialogue: 0,0:08:08.56,0:08:09.67,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}だいしゅきなの
+Dialogue: 0,0:08:11.56,0:08:13.70,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}母乳セックス活動
+Dialogue: 0,0:08:13.70,0:08:16.68,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}今までも十分インモラルだったけど
+Dialogue: 0,0:08:17.88,0:08:20.14,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}妹に見られることによって
+Dialogue: 0,0:08:20.14,0:08:22.56,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}ともみ先輩がよりエッチに…
+Dialogue: 0,0:08:23.46,0:08:24.39,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}これは
+Dialogue: 0,0:08:24.39,0:08:28.91,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}すずかにも協力してもらって しこたま母乳を搾らなければ！
+Dialogue: 0,0:08:31.23,0:08:34.86,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}かわいいママ二人に手厚くお世話されて
+Dialogue: 0,0:08:34.86,0:08:38.42,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}こんなにお世話されてるの…保育園以来かも
+Dialogue: 0,0:08:40.08,0:08:42.80,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくん ぴゅっぴゅっ…
+Dialogue: 0,0:08:43.32,0:08:45.13,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ぴゅっぴゅっしましょう
+Dialogue: 0,0:08:45.59,0:08:46.63,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}すずか…
+Dialogue: 0,0:08:46.63,0:08:49.43,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}アナル責めとか どこで覚えてきたの？
+Dialogue: 0,0:08:50.53,0:08:53.88,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}はッ…初めてに決まってるでしょ
+Dialogue: 0,0:08:54.78,0:08:56.04,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}もう…
+Dialogue: 0,0:08:56.04,0:08:57.16,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アニキ
+Dialogue: 0,0:08:57.16,0:08:58.88,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}赤ちゃんみたい
+Dialogue: 0,0:08:59.44,0:09:00.26,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}もぉ
+Dialogue: 0,0:09:00.26,0:09:02.07,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}しょうがないなぁ
+Dialogue: 0,0:09:02.07,0:09:04.84,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アニキのオムツは替えたことないけど
+Dialogue: 0,0:09:05.74,0:09:08.36,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}チンポのお世話はしてあげるね
+Dialogue: 0,0:09:09.03,0:09:10.55,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}とか言いながら
+Dialogue: 0,0:09:10.55,0:09:13.70,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}咥えてパイズリするだけで感じちゃうんだ
+Dialogue: 0,0:09:14.20,0:09:15.41,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}うるさい…
+Dialogue: 0,0:09:17.73,0:09:20.82,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}ソレ マジで…ヤバ！
+Dialogue: 0,0:09:22.00,0:09:24.79,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}{\fad(0,1000)}出た…
+Dialogue: 0,0:09:29.40,0:09:31.90,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}しばらくするとそこには
+Dialogue: 0,0:09:31.90,0:09:35.33,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}俺のチンポを激しく欲する 二人のママが！
+Dialogue: 0,0:09:29.24,0:09:31.99,Sx-jp,桜沢ともみ,0,0,1,fx,{\blur2}{\3c&H3D33C2&}{\an8}チンポ…チンポ
+Dialogue: 0,0:09:32.79,0:09:35.33,Sx-jp,甲斐すずか,0,0,1,fx,{\blur2}{\3c&HCA207D&}{\an8}チンポ チンポ
+Dialogue: 0,0:09:37.55,0:09:38.43,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}いかん！
+Dialogue: 0,0:09:38.43,0:09:41.15,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}母乳セックス活動の域を超えている
+Dialogue: 0,0:09:44.09,0:09:45.78,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}大丈夫よ
+Dialogue: 0,0:09:45.78,0:09:46.93,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくん
+Dialogue: 0,0:09:47.60,0:09:49.77,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}何も心配いらないわ
+Dialogue: 0,0:09:49.77,0:09:52.49,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}心置きなく赤ちゃんになって
+Dialogue: 0,0:09:52.49,0:09:55.08,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}母乳セックス して
+Dialogue: 0,0:09:56.47,0:09:57.69,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}そうだ
+Dialogue: 0,0:09:57.69,0:10:00.61,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}赤ちゃんには赤ちゃんの役目があるはずだ
+Dialogue: 0,0:10:01.37,0:10:03.30,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}これは 人助け！
+Dialogue: 0,0:10:13.18,0:10:16.37,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}二人 同時に ハメハメ！
+Dialogue: 0,0:10:18.23,0:10:19.92,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}た 足りないわ
+Dialogue: 0,0:10:19.92,0:10:21.53,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくんのチンポ
+Dialogue: 0,0:10:21.53,0:10:24.71,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}根元から先っぽまで味わいたいの
+Dialogue: 0,0:10:27.87,0:10:32.06,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}下から吸われると お母さんの気分になっちゃう
+Dialogue: 0,0:10:33.21,0:10:35.47,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}そんなに激しくしたら
+Dialogue: 0,0:10:35.47,0:10:37.96,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}おっぱいが壊れちゃう
+Dialogue: 0,0:10:41.70,0:10:43.82,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}見られて興奮した先輩は
+Dialogue: 0,0:10:43.82,0:10:45.99,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}母乳を撒き散らし
+Dialogue: 0,0:10:47.15,0:10:50.49,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}俺が子宮に激しくチンポを叩きつけ
+Dialogue: 0,0:10:51.30,0:10:54.12,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}思いっきりデカパイを搾ると
+Dialogue: 0,0:10:58.02,0:10:59.51,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}乳牛のように
+Dialogue: 0,0:10:59.51,0:11:01.92,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}{\fad(0,1000)}たっぷり母乳を射した
+Dialogue: 0,0:11:04.85,0:11:07.40,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}いっぱい出しちゃったわ
+Dialogue: 0,0:11:07.40,0:11:09.80,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}はしたなくてごめんなさい
+Dialogue: 0,0:11:09.80,0:11:11.32,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}すずかちゃん
+Dialogue: 0,0:11:11.32,0:11:12.85,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}チンポを…
+Dialogue: 0,0:11:13.89,0:11:15.10,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}すずか
+Dialogue: 0,0:11:15.10,0:11:16.90,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}無理しなくていいんだぞ
+Dialogue: 0,0:11:19.32,0:11:23.00,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}やだ もう我慢できない…
+Dialogue: 0,0:11:23.80,0:11:28.30,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}お前 さっき陥没乳首ほじくられて 喜んでたよな
+Dialogue: 0,0:11:28.30,0:11:29.93,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}え え…ちょ…
+Dialogue: 0,0:11:31.90,0:11:35.68,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}デカパイ デカ尻 ドMザコ妹
+Dialogue: 0,0:11:36.96,0:11:40.74,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}やッ…そういうの 反則…
+Dialogue: 0,0:11:45.35,0:11:46.84,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}お兄ちゃん…
+Dialogue: 0,0:11:51.52,0:11:54.24,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}イってるから イってるから…
+Dialogue: 0,0:11:55.42,0:11:58.85,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}俺のせいで苦しんでる ブラコン妹と…
+Dialogue: 0,0:12:02.39,0:12:06.49,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}ともみ先輩の母乳を セックスで解放してー！
+Dialogue: 0,0:12:02.39,0:12:03.94,Sx-jp,甲斐すずか,42,0,1,fx,{\blur2}{\3c&HCA207D&}{\an8}壊れちゃう…
+Dialogue: 0,0:12:07.25,0:12:08.56,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}いい…
+Dialogue: 0,0:12:08.56,0:12:10.18,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}子宮 降りてきちゃ
+Dialogue: 0,0:12:10.18,0:12:12.45,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}イク イクイク イク！
+Dialogue: 0,0:12:14.12,0:12:17.92,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ママたちの体を チンポで楽にしてあげる
+Dialogue: 0,0:12:17.92,0:12:21.38,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}これが 俺という赤ちゃんの役割！
+Dialogue: 0,0:12:22.36,0:12:23.97,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}この中出しは
+Dialogue: 0,0:12:23.97,0:12:26.48,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}ママたちへの 感謝の気持ち！
+Dialogue: 0,0:12:32.14,0:12:35.39,Sx-jp,桜沢ともみ,42,0,1,fx,{\blur2}{\3c&H3D33C2&}{\an8}イックゥゥ！
+Dialogue: 0,0:12:32.14,0:12:35.39,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}イックゥゥ！
+Dialogue: 0,0:12:37.26,0:12:40.54,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}とってもおっぱいが楽になったわ
+Dialogue: 0,0:12:40.54,0:12:43.86,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}アニキのチンポ…すごい
+Dialogue: 0,0:12:44.71,0:12:48.07,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}こんなにナカに射精してもらって
+Dialogue: 0,0:12:48.07,0:12:51.03,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}お礼しなきゃ
+Dialogue: 0,0:12:52.45,0:12:56.00,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}理想のお母さんって 感じの人だね
+Dialogue: 0,0:12:56.22,0:12:56.92,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}え？
+Dialogue: 0,0:12:56.92,0:12:59.38,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}お前もおっぱいの虜になったのか？
+Dialogue: 0,0:12:59.38,0:13:01.17,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}違うわよ
+Dialogue: 0,0:13:02.01,0:13:04.17,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}どんな人かわかったし
+Dialogue: 0,0:13:04.17,0:13:05.18,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}っていうか
+Dialogue: 0,0:13:05.65,0:13:06.90,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}お兄ちゃん
+Dialogue: 0,0:13:06.90,0:13:09.67,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}もうちょっと私を意識してくれたって
+Dialogue: 0,0:13:10.22,0:13:10.92,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}え？
+Dialogue: 0,0:13:10.92,0:13:11.89,Sx-jp,甲斐ヒカル,42,0,0,fx,{\blur2}{\3c&H9A8610&}なんで？
+Dialogue: 0,0:13:11.89,0:13:13.54,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}なんでもないわ！
+Dialogue: 0,0:13:14.34,0:13:15.68,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}でも…
+Dialogue: 0,0:13:16.52,0:13:20.41,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}本当になんとも思われてないのは…ヤだ
+Dialogue: 0,0:13:22.34,0:13:23.70,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ったく
+Dialogue: 0,0:13:23.70,0:13:25.55,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}お前のブラコン
+Dialogue: 0,0:13:25.55,0:13:26.98,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}悪化してんじゃん
+Dialogue: 0,0:13:27.35,0:13:29.95,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}俺 母さんに殺されるわ
+Dialogue: 0,0:13:29.95,0:13:31.49,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}そんなことさせないし
+Dialogue: 0,0:13:32.58,0:13:34.28,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}ってかあの人
+Dialogue: 0,0:13:34.28,0:13:36.49,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}またアニキに何かしてないよね
+Dialogue: 0,0:13:37.22,0:13:39.96,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}ありがとう…すずか
+Dialogue: 0,0:13:39.96,0:13:42.00,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}冗談だから心配すんな
+Dialogue: 0,0:13:43.23,0:13:45.69,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}心配しすぎて
+Dialogue: 0,0:13:45.69,0:13:47.50,Sx-jp,甲斐すずか,0,0,0,fx,{\blur2}{\3c&HCA207D&}お腹痛い
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,999.984375,707.28,1006.9859375)\alpha&HFF&\org(631.455,-100000)\frz-0.022\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(591,591,\3c&H9A8610&\t(1091,1091,\3c&H000000&))\t(1091,1191,\frz-0.011\alpha&HFF&\t(1191,1291,\frz0\alpha&H00&))\t(1551,1551,\3c&H9A8610&\t(3051,3051,\3c&H000000&))\t(3051,3151,\frz-0.017\alpha&HFF&\t(3151,3251,\frz0\alpha&H00&))\t(3801,3801,\3c&H9A8610&)\t(4051,4051,\3c&H000000&)\t(4051,4151,\frz-0.018\alpha&HFF&\t(4151,4251,\frz0\alpha&H00&))\t(4911,5011,\frz-0.012\alpha&HFF&)}う
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1006.9859375,707.28,1013.9875)\alpha&HFF&\org(631.455,-100000)\frz-0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(739,739,\3c&H9A8610&\t(1239,1239,\3c&H000000&))\t(1239,1339,\frz0.03\alpha&HFF&\t(1339,1439,\frz0\alpha&H00&))\t(1699,1699,\3c&H9A8610&\t(3199,3199,\3c&H000000&))\t(3199,3299,\frz0.017\alpha&HFF&\t(3299,3399,\frz0\alpha&H00&))\t(3949,3949,\3c&H9A8610&)\t(4199,4199,\3c&H000000&)\t(4199,4299,\frz0.024\alpha&HFF&\t(4299,4399,\frz0\alpha&H00&))\t(5059,5159,\frz-0.026\alpha&HFF&)}う
+Dialogue: 0,0:13:49.35,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1013.9875,707.28,1020.9890625)\alpha&HFF&\org(631.455,-100000)\frz0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(660,660,\3c&H9A8610&\t(1160,1160,\3c&H000000&))\t(1160,1260,\frz0.022\alpha&HFF&\t(1260,1360,\frz0\alpha&H00&))\t(1620,1620,\3c&H9A8610&\t(3120,3120,\3c&H000000&))\t(3120,3220,\frz0.027\alpha&HFF&\t(3220,3320,\frz0\alpha&H00&))\t(3870,3870,\3c&H9A8610&)\t(4120,4120,\3c&H000000&)\t(4120,4220,\frz-0.01\alpha&HFF&\t(4220,4320,\frz0\alpha&H00&))\t(4980,5080,\frz-0.011\alpha&HFF&)}う
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1020.9890625,707.28,1027.990625)\alpha&HFF&\org(631.455,-100000)\frz-0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(584,584,\3c&H9A8610&\t(1084,1084,\3c&H000000&))\t(1084,1184,\frz0.015\alpha&HFF&\t(1184,1284,\frz0\alpha&H00&))\t(1544,1544,\3c&H9A8610&\t(3044,3044,\3c&H000000&))\t(3044,3144,\frz-0.016\alpha&HFF&\t(3144,3244,\frz0\alpha&H00&))\t(3794,3794,\3c&H9A8610&)\t(4044,4044,\3c&H000000&)\t(4044,4144,\frz0.017\alpha&HFF&\t(4144,4244,\frz0\alpha&H00&))\t(4904,5004,\frz-0.01\alpha&HFF&)}う
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1027.990625,707.28,1034.9921875)\alpha&HFF&\org(631.455,-100000)\frz-0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(614,614,\3c&H9A8610&\t(1114,1114,\3c&H000000&))\t(1114,1214,\frz0.012\alpha&HFF&\t(1214,1314,\frz0\alpha&H00&))\t(1574,1574,\3c&H9A8610&\t(3074,3074,\3c&H000000&))\t(3074,3174,\frz0.02\alpha&HFF&\t(3174,3274,\frz0\alpha&H00&))\t(3824,3824,\3c&H9A8610&)\t(4074,4074,\3c&H000000&)\t(4074,4174,\frz-0.02\alpha&HFF&\t(4174,4274,\frz0\alpha&H00&))\t(4934,5034,\frz-0.012\alpha&HFF&)}う
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1034.9921875,707.28,1041.99375)\alpha&HFF&\org(631.455,-100000)\frz-0.026\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(692,692,\3c&H9A8610&\t(1192,1192,\3c&H000000&))\t(1192,1292,\frz-0.023\alpha&HFF&\t(1292,1392,\frz0\alpha&H00&))\t(1652,1652,\3c&H9A8610&\t(3152,3152,\3c&H000000&))\t(3152,3252,\frz-0.01\alpha&HFF&\t(3252,3352,\frz0\alpha&H00&))\t(3902,3902,\3c&H9A8610&)\t(4152,4152,\3c&H000000&)\t(4152,4252,\frz0.026\alpha&HFF&\t(4252,4352,\frz0\alpha&H00&))\t(5012,5112,\frz0.03\alpha&HFF&)}う
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1041.99375,707.28,1048.9953125)\alpha&HFF&\org(631.455,-100000)\frz0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(552,552,\3c&H9A8610&\t(1052,1052,\3c&H000000&))\t(1052,1152,\frz0.028\alpha&HFF&\t(1152,1252,\frz0\alpha&H00&))\t(1512,1512,\3c&H9A8610&\t(3012,3012,\3c&H000000&))\t(3012,3112,\frz-0.022\alpha&HFF&\t(3112,3212,\frz0\alpha&H00&))\t(3762,3762,\3c&H9A8610&)\t(4012,4012,\3c&H000000&)\t(4012,4112,\frz-0.011\alpha&HFF&\t(4112,4212,\frz0\alpha&H00&))\t(4872,4972,\frz0.023\alpha&HFF&)}う
+Dialogue: 0,0:13:49.45,0:13:54.24,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1048.9953125,707.28,1055.996875)\alpha&HFF&\org(631.455,-100000)\frz-0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(560,560,\3c&H9A8610&\t(1060,1060,\3c&H000000&))\t(1060,1160,\frz0.011\alpha&HFF&\t(1160,1260,\frz0\alpha&H00&))\t(1520,1520,\3c&H9A8610&\t(3020,3020,\3c&H000000&))\t(3020,3120,\frz0.013\alpha&HFF&\t(3120,3220,\frz0\alpha&H00&))\t(3770,3770,\3c&H9A8610&)\t(4020,4020,\3c&H000000&)\t(4020,4120,\frz0.022\alpha&HFF&\t(4120,4220,\frz0\alpha&H00&))\t(4880,4980,\frz0.027\alpha&HFF&)}う
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1055.996875,707.28,1062.9984375)\alpha&HFF&\org(631.455,-100000)\frz0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(693,693,\3c&H9A8610&\t(1193,1193,\3c&H000000&))\t(1193,1293,\frz-0.011\alpha&HFF&\t(1293,1393,\frz0\alpha&H00&))\t(1653,1653,\3c&H9A8610&\t(3153,3153,\3c&H000000&))\t(3153,3253,\frz-0.024\alpha&HFF&\t(3253,3353,\frz0\alpha&H00&))\t(3903,3903,\3c&H9A8610&)\t(4153,4153,\3c&H000000&)\t(4153,4253,\frz0.029\alpha&HFF&\t(4253,4353,\frz0\alpha&H00&))\t(5013,5113,\frz-0.018\alpha&HFF&)}う
+Dialogue: 0,0:13:49.42,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(631.455,1034.9921875)\clip(555.63,1062.9984375,707.28,1070)\alpha&HFF&\org(631.455,-100000)\frz0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(590,590,\3c&H9A8610&\t(1090,1090,\3c&H000000&))\t(1090,1190,\frz-0.026\alpha&HFF&\t(1190,1290,\frz0\alpha&H00&))\t(1550,1550,\3c&H9A8610&\t(3050,3050,\3c&H000000&))\t(3050,3150,\frz0.02\alpha&HFF&\t(3150,3250,\frz0\alpha&H00&))\t(3800,3800,\3c&H9A8610&)\t(4050,4050,\3c&H000000&)\t(4050,4150,\frz-0.021\alpha&HFF&\t(4150,4250,\frz0\alpha&H00&))\t(4910,5010,\frz0.023\alpha&HFF&)}う
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,999.984375,757.82,1006.9859375)\alpha&HFF&\org(681.995,-100000)\frz0.026\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(736,736,\3c&H9A8610&\t(1236,1236,\3c&H000000&))\t(1236,1336,\frz-0.03\alpha&HFF&\t(1336,1436,\frz0\alpha&H00&))\t(1696,1696,\3c&H9A8610&\t(3196,3196,\3c&H000000&))\t(3196,3296,\frz-0.027\alpha&HFF&\t(3296,3396,\frz0\alpha&H00&))\t(3946,3946,\3c&H9A8610&)\t(4196,4196,\3c&H000000&)\t(4196,4296,\frz-0.017\alpha&HFF&\t(4296,4396,\frz0\alpha&H00&))\t(5056,5156,\frz0.029\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.45,0:13:54.24,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1006.9859375,757.82,1013.9875)\alpha&HFF&\org(681.995,-100000)\frz-0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(560,560,\3c&H9A8610&\t(1060,1060,\3c&H000000&))\t(1060,1160,\frz-0.023\alpha&HFF&\t(1160,1260,\frz0\alpha&H00&))\t(1520,1520,\3c&H9A8610&\t(3020,3020,\3c&H000000&))\t(3020,3120,\frz-0.028\alpha&HFF&\t(3120,3220,\frz0\alpha&H00&))\t(3770,3770,\3c&H9A8610&)\t(4020,4020,\3c&H000000&)\t(4020,4120,\frz0.011\alpha&HFF&\t(4120,4220,\frz0\alpha&H00&))\t(4880,4980,\frz0.01\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1013.9875,757.82,1020.9890625)\alpha&HFF&\org(681.995,-100000)\frz-0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(731,731,\3c&H9A8610&\t(1231,1231,\3c&H000000&))\t(1231,1331,\frz-0.03\alpha&HFF&\t(1331,1431,\frz0\alpha&H00&))\t(1691,1691,\3c&H9A8610&\t(3191,3191,\3c&H000000&))\t(3191,3291,\frz0.014\alpha&HFF&\t(3291,3391,\frz0\alpha&H00&))\t(3941,3941,\3c&H9A8610&)\t(4191,4191,\3c&H000000&)\t(4191,4291,\frz0.018\alpha&HFF&\t(4291,4391,\frz0\alpha&H00&))\t(5051,5151,\frz-0.021\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1020.9890625,757.82,1027.990625)\alpha&HFF&\org(681.995,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(584,584,\3c&H9A8610&\t(1084,1084,\3c&H000000&))\t(1084,1184,\frz0.016\alpha&HFF&\t(1184,1284,\frz0\alpha&H00&))\t(1544,1544,\3c&H9A8610&\t(3044,3044,\3c&H000000&))\t(3044,3144,\frz0.011\alpha&HFF&\t(3144,3244,\frz0\alpha&H00&))\t(3794,3794,\3c&H9A8610&)\t(4044,4044,\3c&H000000&)\t(4044,4144,\frz-0.027\alpha&HFF&\t(4144,4244,\frz0\alpha&H00&))\t(4904,5004,\frz-0.013\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1027.990625,757.82,1034.9921875)\alpha&HFF&\org(681.995,-100000)\frz0.019\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(695,695,\3c&H9A8610&\t(1195,1195,\3c&H000000&))\t(1195,1295,\frz-0.023\alpha&HFF&\t(1295,1395,\frz0\alpha&H00&))\t(1655,1655,\3c&H9A8610&\t(3155,3155,\3c&H000000&))\t(3155,3255,\frz0.027\alpha&HFF&\t(3255,3355,\frz0\alpha&H00&))\t(3905,3905,\3c&H9A8610&)\t(4155,4155,\3c&H000000&)\t(4155,4255,\frz-0.017\alpha&HFF&\t(4255,4355,\frz0\alpha&H00&))\t(5015,5115,\frz-0.026\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1034.9921875,757.82,1041.99375)\alpha&HFF&\org(681.995,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(638,638,\3c&H9A8610&\t(1138,1138,\3c&H000000&))\t(1138,1238,\frz-0.028\alpha&HFF&\t(1238,1338,\frz0\alpha&H00&))\t(1598,1598,\3c&H9A8610&\t(3098,3098,\3c&H000000&))\t(3098,3198,\frz0.02\alpha&HFF&\t(3198,3298,\frz0\alpha&H00&))\t(3848,3848,\3c&H9A8610&)\t(4098,4098,\3c&H000000&)\t(4098,4198,\frz-0.016\alpha&HFF&\t(4198,4298,\frz0\alpha&H00&))\t(4958,5058,\frz0.028\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1041.99375,757.82,1048.9953125)\alpha&HFF&\org(681.995,-100000)\frz0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(572,572,\3c&H9A8610&\t(1072,1072,\3c&H000000&))\t(1072,1172,\frz0.018\alpha&HFF&\t(1172,1272,\frz0\alpha&H00&))\t(1532,1532,\3c&H9A8610&\t(3032,3032,\3c&H000000&))\t(3032,3132,\frz-0.029\alpha&HFF&\t(3132,3232,\frz0\alpha&H00&))\t(3782,3782,\3c&H9A8610&)\t(4032,4032,\3c&H000000&)\t(4032,4132,\frz0.029\alpha&HFF&\t(4132,4232,\frz0\alpha&H00&))\t(4892,4992,\frz0.021\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.27,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1048.9953125,757.82,1055.996875)\alpha&HFF&\org(681.995,-100000)\frz0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(740,740,\3c&H9A8610&\t(1240,1240,\3c&H000000&))\t(1240,1340,\frz-0.029\alpha&HFF&\t(1340,1440,\frz0\alpha&H00&))\t(1700,1700,\3c&H9A8610&\t(3200,3200,\3c&H000000&))\t(3200,3300,\frz-0.021\alpha&HFF&\t(3300,3400,\frz0\alpha&H00&))\t(3950,3950,\3c&H9A8610&)\t(4200,4200,\3c&H000000&)\t(4200,4300,\frz-0.03\alpha&HFF&\t(4300,4400,\frz0\alpha&H00&))\t(5060,5160,\frz-0.014\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.32,0:13:54.36,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1055.996875,757.82,1062.9984375)\alpha&HFF&\org(681.995,-100000)\frz0.017\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(684,684,\3c&H9A8610&\t(1184,1184,\3c&H000000&))\t(1184,1284,\frz0.014\alpha&HFF&\t(1284,1384,\frz0\alpha&H00&))\t(1644,1644,\3c&H9A8610&\t(3144,3144,\3c&H000000&))\t(3144,3244,\frz0.03\alpha&HFF&\t(3244,3344,\frz0\alpha&H00&))\t(3894,3894,\3c&H9A8610&)\t(4144,4144,\3c&H000000&)\t(4144,4244,\frz0.014\alpha&HFF&\t(4244,4344,\frz0\alpha&H00&))\t(5004,5104,\frz0.011\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(681.995,1034.9921875)\clip(606.17,1062.9984375,757.82,1070)\alpha&HFF&\org(681.995,-100000)\frz0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(649,649,\3c&H9A8610&\t(1149,1149,\3c&H000000&))\t(1149,1249,\frz-0.01\alpha&HFF&\t(1249,1349,\frz0\alpha&H00&))\t(1609,1609,\3c&H9A8610&\t(3109,3109,\3c&H000000&))\t(3109,3209,\frz-0.01\alpha&HFF&\t(3209,3309,\frz0\alpha&H00&))\t(3859,3859,\3c&H9A8610&)\t(4109,4109,\3c&H000000&)\t(4109,4209,\frz-0.02\alpha&HFF&\t(4209,4309,\frz0\alpha&H00&))\t(4969,5069,\frz-0.013\alpha&HFF&)}ち
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,999.984375,808.37,1006.9859375)\alpha&HFF&\org(732.545,-100000)\frz-0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(587,587,\3c&H9A8610&\t(1087,1087,\3c&H000000&))\t(1087,1187,\frz0.012\alpha&HFF&\t(1187,1287,\frz0\alpha&H00&))\t(1547,1547,\3c&H9A8610&\t(3047,3047,\3c&H000000&))\t(3047,3147,\frz0.01\alpha&HFF&\t(3147,3247,\frz0\alpha&H00&))\t(3797,3797,\3c&H9A8610&)\t(4047,4047,\3c&H000000&)\t(4047,4147,\frz-0.014\alpha&HFF&\t(4147,4247,\frz0\alpha&H00&))\t(4907,5007,\frz0.01\alpha&HFF&)}…
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1006.9859375,808.37,1013.9875)\alpha&HFF&\org(732.545,-100000)\frz0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(605,605,\3c&H9A8610&\t(1105,1105,\3c&H000000&))\t(1105,1205,\frz-0.018\alpha&HFF&\t(1205,1305,\frz0\alpha&H00&))\t(1565,1565,\3c&H9A8610&\t(3065,3065,\3c&H000000&))\t(3065,3165,\frz-0.021\alpha&HFF&\t(3165,3265,\frz0\alpha&H00&))\t(3815,3815,\3c&H9A8610&)\t(4065,4065,\3c&H000000&)\t(4065,4165,\frz0.024\alpha&HFF&\t(4165,4265,\frz0\alpha&H00&))\t(4925,5025,\frz0.024\alpha&HFF&)}…
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1013.9875,808.37,1020.9890625)\alpha&HFF&\org(732.545,-100000)\frz0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(559,559,\3c&H9A8610&\t(1059,1059,\3c&H000000&))\t(1059,1159,\frz0.022\alpha&HFF&\t(1159,1259,\frz0\alpha&H00&))\t(1519,1519,\3c&H9A8610&\t(3019,3019,\3c&H000000&))\t(3019,3119,\frz-0.016\alpha&HFF&\t(3119,3219,\frz0\alpha&H00&))\t(3769,3769,\3c&H9A8610&)\t(4019,4019,\3c&H000000&)\t(4019,4119,\frz0.016\alpha&HFF&\t(4119,4219,\frz0\alpha&H00&))\t(4879,4979,\frz-0.024\alpha&HFF&)}…
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1020.9890625,808.37,1027.990625)\alpha&HFF&\org(732.545,-100000)\frz0.025\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(731,731,\3c&H9A8610&\t(1231,1231,\3c&H000000&))\t(1231,1331,\frz0.015\alpha&HFF&\t(1331,1431,\frz0\alpha&H00&))\t(1691,1691,\3c&H9A8610&\t(3191,3191,\3c&H000000&))\t(3191,3291,\frz0.01\alpha&HFF&\t(3291,3391,\frz0\alpha&H00&))\t(3941,3941,\3c&H9A8610&)\t(4191,4191,\3c&H000000&)\t(4191,4291,\frz0.018\alpha&HFF&\t(4291,4391,\frz0\alpha&H00&))\t(5051,5151,\frz-0.022\alpha&HFF&)}…
+Dialogue: 0,0:13:49.37,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1027.990625,808.37,1034.9921875)\alpha&HFF&\org(732.545,-100000)\frz0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(640,640,\3c&H9A8610&\t(1140,1140,\3c&H000000&))\t(1140,1240,\frz0.014\alpha&HFF&\t(1240,1340,\frz0\alpha&H00&))\t(1600,1600,\3c&H9A8610&\t(3100,3100,\3c&H000000&))\t(3100,3200,\frz0.03\alpha&HFF&\t(3200,3300,\frz0\alpha&H00&))\t(3850,3850,\3c&H9A8610&)\t(4100,4100,\3c&H000000&)\t(4100,4200,\frz0.012\alpha&HFF&\t(4200,4300,\frz0\alpha&H00&))\t(4960,5060,\frz-0.023\alpha&HFF&)}…
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1034.9921875,808.37,1041.99375)\alpha&HFF&\org(732.545,-100000)\frz-0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(715,715,\3c&H9A8610&\t(1215,1215,\3c&H000000&))\t(1215,1315,\frz0.019\alpha&HFF&\t(1315,1415,\frz0\alpha&H00&))\t(1675,1675,\3c&H9A8610&\t(3175,3175,\3c&H000000&))\t(3175,3275,\frz0.017\alpha&HFF&\t(3275,3375,\frz0\alpha&H00&))\t(3925,3925,\3c&H9A8610&)\t(4175,4175,\3c&H000000&)\t(4175,4275,\frz-0.029\alpha&HFF&\t(4275,4375,\frz0\alpha&H00&))\t(5035,5135,\frz0.029\alpha&HFF&)}…
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1041.99375,808.37,1048.9953125)\alpha&HFF&\org(732.545,-100000)\frz0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(635,635,\3c&H9A8610&\t(1135,1135,\3c&H000000&))\t(1135,1235,\frz0.027\alpha&HFF&\t(1235,1335,\frz0\alpha&H00&))\t(1595,1595,\3c&H9A8610&\t(3095,3095,\3c&H000000&))\t(3095,3195,\frz-0.014\alpha&HFF&\t(3195,3295,\frz0\alpha&H00&))\t(3845,3845,\3c&H9A8610&)\t(4095,4095,\3c&H000000&)\t(4095,4195,\frz0.017\alpha&HFF&\t(4195,4295,\frz0\alpha&H00&))\t(4955,5055,\frz0.014\alpha&HFF&)}…
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1048.9953125,808.37,1055.996875)\alpha&HFF&\org(732.545,-100000)\frz0.017\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(718,718,\3c&H9A8610&\t(1218,1218,\3c&H000000&))\t(1218,1318,\frz-0.018\alpha&HFF&\t(1318,1418,\frz0\alpha&H00&))\t(1678,1678,\3c&H9A8610&\t(3178,3178,\3c&H000000&))\t(3178,3278,\frz0.03\alpha&HFF&\t(3278,3378,\frz0\alpha&H00&))\t(3928,3928,\3c&H9A8610&)\t(4178,4178,\3c&H000000&)\t(4178,4278,\frz-0.024\alpha&HFF&\t(4278,4378,\frz0\alpha&H00&))\t(5038,5138,\frz0.03\alpha&HFF&)}…
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1055.996875,808.37,1062.9984375)\alpha&HFF&\org(732.545,-100000)\frz-0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(644,644,\3c&H9A8610&\t(1144,1144,\3c&H000000&))\t(1144,1244,\frz0.03\alpha&HFF&\t(1244,1344,\frz0\alpha&H00&))\t(1604,1604,\3c&H9A8610&\t(3104,3104,\3c&H000000&))\t(3104,3204,\frz-0.022\alpha&HFF&\t(3204,3304,\frz0\alpha&H00&))\t(3854,3854,\3c&H9A8610&)\t(4104,4104,\3c&H000000&)\t(4104,4204,\frz-0.015\alpha&HFF&\t(4204,4304,\frz0\alpha&H00&))\t(4964,5064,\frz0.016\alpha&HFF&)}…
+Dialogue: 0,0:13:49.40,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(732.545,1034.9921875)\clip(656.72,1062.9984375,808.37,1070)\alpha&HFF&\org(732.545,-100000)\frz0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(610,610,\3c&H9A8610&\t(1110,1110,\3c&H000000&))\t(1110,1210,\frz-0.02\alpha&HFF&\t(1210,1310,\frz0\alpha&H00&))\t(1570,1570,\3c&H9A8610&\t(3070,3070,\3c&H000000&))\t(3070,3170,\frz0.02\alpha&HFF&\t(3170,3270,\frz0\alpha&H00&))\t(3820,3820,\3c&H9A8610&)\t(4070,4070,\3c&H000000&)\t(4070,4170,\frz0.012\alpha&HFF&\t(4170,4270,\frz0\alpha&H00&))\t(4930,5030,\frz-0.03\alpha&HFF&)}…
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,999.984375,858.92,1006.9859375)\alpha&HFF&\org(783.095,-100000)\frz-0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(576,576,\3c&H9A8610&\t(1076,1076,\3c&H000000&))\t(1076,1176,\frz-0.026\alpha&HFF&\t(1176,1276,\frz0\alpha&H00&))\t(1536,1536,\3c&H9A8610&\t(3036,3036,\3c&H000000&))\t(3036,3136,\frz-0.025\alpha&HFF&\t(3136,3236,\frz0\alpha&H00&))\t(3786,3786,\3c&H9A8610&)\t(4036,4036,\3c&H000000&)\t(4036,4136,\frz0.012\alpha&HFF&\t(4136,4236,\frz0\alpha&H00&))\t(4896,4996,\frz0.014\alpha&HFF&)}い
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1006.9859375,858.92,1013.9875)\alpha&HFF&\org(783.095,-100000)\frz-0.019\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(576,576,\3c&H9A8610&\t(1076,1076,\3c&H000000&))\t(1076,1176,\frz-0.027\alpha&HFF&\t(1176,1276,\frz0\alpha&H00&))\t(1536,1536,\3c&H9A8610&\t(3036,3036,\3c&H000000&))\t(3036,3136,\frz0.014\alpha&HFF&\t(3136,3236,\frz0\alpha&H00&))\t(3786,3786,\3c&H9A8610&)\t(4036,4036,\3c&H000000&)\t(4036,4136,\frz-0.016\alpha&HFF&\t(4136,4236,\frz0\alpha&H00&))\t(4896,4996,\frz-0.03\alpha&HFF&)}い
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1013.9875,858.92,1020.9890625)\alpha&HFF&\org(783.095,-100000)\frz-0.025\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(649,649,\3c&H9A8610&\t(1149,1149,\3c&H000000&))\t(1149,1249,\frz0.024\alpha&HFF&\t(1249,1349,\frz0\alpha&H00&))\t(1609,1609,\3c&H9A8610&\t(3109,3109,\3c&H000000&))\t(3109,3209,\frz-0.021\alpha&HFF&\t(3209,3309,\frz0\alpha&H00&))\t(3859,3859,\3c&H9A8610&)\t(4109,4109,\3c&H000000&)\t(4109,4209,\frz-0.017\alpha&HFF&\t(4209,4309,\frz0\alpha&H00&))\t(4969,5069,\frz-0.025\alpha&HFF&)}い
+Dialogue: 0,0:13:49.38,0:13:54.30,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1020.9890625,858.92,1027.990625)\alpha&HFF&\org(783.095,-100000)\frz0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(621,621,\3c&H9A8610&\t(1121,1121,\3c&H000000&))\t(1121,1221,\frz0.029\alpha&HFF&\t(1221,1321,\frz0\alpha&H00&))\t(1581,1581,\3c&H9A8610&\t(3081,3081,\3c&H000000&))\t(3081,3181,\frz-0.022\alpha&HFF&\t(3181,3281,\frz0\alpha&H00&))\t(3831,3831,\3c&H9A8610&)\t(4081,4081,\3c&H000000&)\t(4081,4181,\frz-0.021\alpha&HFF&\t(4181,4281,\frz0\alpha&H00&))\t(4941,5041,\frz-0.021\alpha&HFF&)}い
+Dialogue: 0,0:13:49.35,0:13:54.33,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1027.990625,858.92,1034.9921875)\alpha&HFF&\org(783.095,-100000)\frz-0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(653,653,\3c&H9A8610&\t(1153,1153,\3c&H000000&))\t(1153,1253,\frz0.026\alpha&HFF&\t(1253,1353,\frz0\alpha&H00&))\t(1613,1613,\3c&H9A8610&\t(3113,3113,\3c&H000000&))\t(3113,3213,\frz-0.025\alpha&HFF&\t(3213,3313,\frz0\alpha&H00&))\t(3863,3863,\3c&H9A8610&)\t(4113,4113,\3c&H000000&)\t(4113,4213,\frz0.012\alpha&HFF&\t(4213,4313,\frz0\alpha&H00&))\t(4973,5073,\frz0.03\alpha&HFF&)}い
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1034.9921875,858.92,1041.99375)\alpha&HFF&\org(783.095,-100000)\frz-0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(552,552,\3c&H9A8610&\t(1052,1052,\3c&H000000&))\t(1052,1152,\frz-0.021\alpha&HFF&\t(1152,1252,\frz0\alpha&H00&))\t(1512,1512,\3c&H9A8610&\t(3012,3012,\3c&H000000&))\t(3012,3112,\frz-0.029\alpha&HFF&\t(3112,3212,\frz0\alpha&H00&))\t(3762,3762,\3c&H9A8610&)\t(4012,4012,\3c&H000000&)\t(4012,4112,\frz0.015\alpha&HFF&\t(4112,4212,\frz0\alpha&H00&))\t(4872,4972,\frz0.011\alpha&HFF&)}い
+Dialogue: 0,0:13:49.28,0:13:54.40,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1041.99375,858.92,1048.9953125)\alpha&HFF&\org(783.095,-100000)\frz0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(722,722,\3c&H9A8610&\t(1222,1222,\3c&H000000&))\t(1222,1322,\frz0.015\alpha&HFF&\t(1322,1422,\frz0\alpha&H00&))\t(1682,1682,\3c&H9A8610&\t(3182,3182,\3c&H000000&))\t(3182,3282,\frz-0.02\alpha&HFF&\t(3282,3382,\frz0\alpha&H00&))\t(3932,3932,\3c&H9A8610&)\t(4182,4182,\3c&H000000&)\t(4182,4282,\frz-0.015\alpha&HFF&\t(4282,4382,\frz0\alpha&H00&))\t(5042,5142,\frz0.025\alpha&HFF&)}い
+Dialogue: 0,0:13:49.35,0:13:54.33,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1048.9953125,858.92,1055.996875)\alpha&HFF&\org(783.095,-100000)\frz0.026\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(659,659,\3c&H9A8610&\t(1159,1159,\3c&H000000&))\t(1159,1259,\frz-0.028\alpha&HFF&\t(1259,1359,\frz0\alpha&H00&))\t(1619,1619,\3c&H9A8610&\t(3119,3119,\3c&H000000&))\t(3119,3219,\frz-0.027\alpha&HFF&\t(3219,3319,\frz0\alpha&H00&))\t(3869,3869,\3c&H9A8610&)\t(4119,4119,\3c&H000000&)\t(4119,4219,\frz0.021\alpha&HFF&\t(4219,4319,\frz0\alpha&H00&))\t(4979,5079,\frz-0.026\alpha&HFF&)}い
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1055.996875,858.92,1062.9984375)\alpha&HFF&\org(783.095,-100000)\frz-0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(738,738,\3c&H9A8610&\t(1238,1238,\3c&H000000&))\t(1238,1338,\frz0.016\alpha&HFF&\t(1338,1438,\frz0\alpha&H00&))\t(1698,1698,\3c&H9A8610&\t(3198,3198,\3c&H000000&))\t(3198,3298,\frz0.024\alpha&HFF&\t(3298,3398,\frz0\alpha&H00&))\t(3948,3948,\3c&H9A8610&)\t(4198,4198,\3c&H000000&)\t(4198,4298,\frz-0.019\alpha&HFF&\t(4298,4398,\frz0\alpha&H00&))\t(5058,5158,\frz-0.015\alpha&HFF&)}い
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(783.095,1034.9921875)\clip(707.27,1062.9984375,858.92,1070)\alpha&HFF&\org(783.095,-100000)\frz0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(692,692,\3c&H9A8610&\t(1192,1192,\3c&H000000&))\t(1192,1292,\frz0.017\alpha&HFF&\t(1292,1392,\frz0\alpha&H00&))\t(1652,1652,\3c&H9A8610&\t(3152,3152,\3c&H000000&))\t(3152,3252,\frz-0.019\alpha&HFF&\t(3252,3352,\frz0\alpha&H00&))\t(3902,3902,\3c&H9A8610&)\t(4152,4152,\3c&H000000&)\t(4152,4252,\frz-0.018\alpha&HFF&\t(4252,4352,\frz0\alpha&H00&))\t(5012,5112,\frz0.018\alpha&HFF&)}い
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,999.984375,909.46,1006.9859375)\alpha&HFF&\org(833.635,-100000)\frz-0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(586,586,\3c&H9A8610&\t(1086,1086,\3c&H000000&))\t(1086,1186,\frz-0.018\alpha&HFF&\t(1186,1286,\frz0\alpha&H00&))\t(1546,1546,\3c&H9A8610&\t(3046,3046,\3c&H000000&))\t(3046,3146,\frz0.03\alpha&HFF&\t(3146,3246,\frz0\alpha&H00&))\t(3796,3796,\3c&H9A8610&)\t(4046,4046,\3c&H000000&)\t(4046,4146,\frz0.018\alpha&HFF&\t(4146,4246,\frz0\alpha&H00&))\t(4906,5006,\frz0.021\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1006.9859375,909.46,1013.9875)\alpha&HFF&\org(833.635,-100000)\frz-0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(633,633,\3c&H9A8610&\t(1133,1133,\3c&H000000&))\t(1133,1233,\frz0.028\alpha&HFF&\t(1233,1333,\frz0\alpha&H00&))\t(1593,1593,\3c&H9A8610&\t(3093,3093,\3c&H000000&))\t(3093,3193,\frz-0.028\alpha&HFF&\t(3193,3293,\frz0\alpha&H00&))\t(3843,3843,\3c&H9A8610&)\t(4093,4093,\3c&H000000&)\t(4093,4193,\frz-0.021\alpha&HFF&\t(4193,4293,\frz0\alpha&H00&))\t(4953,5053,\frz-0.029\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.28,0:13:54.40,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1013.9875,909.46,1020.9890625)\alpha&HFF&\org(833.635,-100000)\frz0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(722,722,\3c&H9A8610&\t(1222,1222,\3c&H000000&))\t(1222,1322,\frz0.029\alpha&HFF&\t(1322,1422,\frz0\alpha&H00&))\t(1682,1682,\3c&H9A8610&\t(3182,3182,\3c&H000000&))\t(3182,3282,\frz-0.011\alpha&HFF&\t(3282,3382,\frz0\alpha&H00&))\t(3932,3932,\3c&H9A8610&)\t(4182,4182,\3c&H000000&)\t(4182,4282,\frz0.018\alpha&HFF&\t(4282,4382,\frz0\alpha&H00&))\t(5042,5142,\frz-0.017\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1020.9890625,909.46,1027.990625)\alpha&HFF&\org(833.635,-100000)\frz0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(588,588,\3c&H9A8610&\t(1088,1088,\3c&H000000&))\t(1088,1188,\frz0.022\alpha&HFF&\t(1188,1288,\frz0\alpha&H00&))\t(1548,1548,\3c&H9A8610&\t(3048,3048,\3c&H000000&))\t(3048,3148,\frz0.01\alpha&HFF&\t(3148,3248,\frz0\alpha&H00&))\t(3798,3798,\3c&H9A8610&)\t(4048,4048,\3c&H000000&)\t(4048,4148,\frz-0.021\alpha&HFF&\t(4148,4248,\frz0\alpha&H00&))\t(4908,5008,\frz0.013\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1027.990625,909.46,1034.9921875)\alpha&HFF&\org(833.635,-100000)\frz-0.022\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(606,606,\3c&H9A8610&\t(1106,1106,\3c&H000000&))\t(1106,1206,\frz-0.016\alpha&HFF&\t(1206,1306,\frz0\alpha&H00&))\t(1566,1566,\3c&H9A8610&\t(3066,3066,\3c&H000000&))\t(3066,3166,\frz0.022\alpha&HFF&\t(3166,3266,\frz0\alpha&H00&))\t(3816,3816,\3c&H9A8610&)\t(4066,4066,\3c&H000000&)\t(4066,4166,\frz0.024\alpha&HFF&\t(4166,4266,\frz0\alpha&H00&))\t(4926,5026,\frz0.022\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.28,0:13:54.40,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1034.9921875,909.46,1041.99375)\alpha&HFF&\org(833.635,-100000)\frz0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(725,725,\3c&H9A8610&\t(1225,1225,\3c&H000000&))\t(1225,1325,\frz0.023\alpha&HFF&\t(1325,1425,\frz0\alpha&H00&))\t(1685,1685,\3c&H9A8610&\t(3185,3185,\3c&H000000&))\t(3185,3285,\frz0.03\alpha&HFF&\t(3285,3385,\frz0\alpha&H00&))\t(3935,3935,\3c&H9A8610&)\t(4185,4185,\3c&H000000&)\t(4185,4285,\frz-0.02\alpha&HFF&\t(4285,4385,\frz0\alpha&H00&))\t(5045,5145,\frz-0.015\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1041.99375,909.46,1048.9953125)\alpha&HFF&\org(833.635,-100000)\frz0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(603,603,\3c&H9A8610&\t(1103,1103,\3c&H000000&))\t(1103,1203,\frz0.024\alpha&HFF&\t(1203,1303,\frz0\alpha&H00&))\t(1563,1563,\3c&H9A8610&\t(3063,3063,\3c&H000000&))\t(3063,3163,\frz-0.013\alpha&HFF&\t(3163,3263,\frz0\alpha&H00&))\t(3813,3813,\3c&H9A8610&)\t(4063,4063,\3c&H000000&)\t(4063,4163,\frz0.025\alpha&HFF&\t(4163,4263,\frz0\alpha&H00&))\t(4923,5023,\frz-0.01\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1048.9953125,909.46,1055.996875)\alpha&HFF&\org(833.635,-100000)\frz-0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(713,713,\3c&H9A8610&\t(1213,1213,\3c&H000000&))\t(1213,1313,\frz0.026\alpha&HFF&\t(1313,1413,\frz0\alpha&H00&))\t(1673,1673,\3c&H9A8610&\t(3173,3173,\3c&H000000&))\t(3173,3273,\frz-0.03\alpha&HFF&\t(3273,3373,\frz0\alpha&H00&))\t(3923,3923,\3c&H9A8610&)\t(4173,4173,\3c&H000000&)\t(4173,4273,\frz0.023\alpha&HFF&\t(4273,4373,\frz0\alpha&H00&))\t(5033,5133,\frz-0.025\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1055.996875,909.46,1062.9984375)\alpha&HFF&\org(833.635,-100000)\frz0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(649,649,\3c&H9A8610&\t(1149,1149,\3c&H000000&))\t(1149,1249,\frz-0.028\alpha&HFF&\t(1249,1349,\frz0\alpha&H00&))\t(1609,1609,\3c&H9A8610&\t(3109,3109,\3c&H000000&))\t(3109,3209,\frz-0.014\alpha&HFF&\t(3209,3309,\frz0\alpha&H00&))\t(3859,3859,\3c&H9A8610&)\t(4109,4109,\3c&H000000&)\t(4109,4209,\frz-0.027\alpha&HFF&\t(4209,4309,\frz0\alpha&H00&))\t(4969,5069,\frz0.026\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(833.635,1034.9921875)\clip(757.81,1062.9984375,909.46,1070)\alpha&HFF&\org(833.635,-100000)\frz-0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(713,713,\3c&H9A8610&\t(1213,1213,\3c&H000000&))\t(1213,1313,\frz0.025\alpha&HFF&\t(1313,1413,\frz0\alpha&H00&))\t(1673,1673,\3c&H9A8610&\t(3173,3173,\3c&H000000&))\t(3173,3273,\frz-0.025\alpha&HFF&\t(3273,3373,\frz0\alpha&H00&))\t(3923,3923,\3c&H9A8610&)\t(4173,4173,\3c&H000000&)\t(4173,4273,\frz-0.013\alpha&HFF&\t(4273,4373,\frz0\alpha&H00&))\t(5033,5133,\frz-0.01\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,999.984375,960.01,1006.9859375)\alpha&HFF&\org(884.185,-100000)\frz-0.026\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(698,698,\3c&H9A8610&\t(1198,1198,\3c&H000000&))\t(1198,1298,\frz-0.015\alpha&HFF&\t(1298,1398,\frz0\alpha&H00&))\t(1658,1658,\3c&H9A8610&\t(3158,3158,\3c&H000000&))\t(3158,3258,\frz0.024\alpha&HFF&\t(3258,3358,\frz0\alpha&H00&))\t(3908,3908,\3c&H9A8610&)\t(4158,4158,\3c&H000000&)\t(4158,4258,\frz-0.028\alpha&HFF&\t(4258,4358,\frz0\alpha&H00&))\t(5018,5118,\frz-0.021\alpha&HFF&)}い
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1006.9859375,960.01,1013.9875)\alpha&HFF&\org(884.185,-100000)\frz0.022\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(615,615,\3c&H9A8610&\t(1115,1115,\3c&H000000&))\t(1115,1215,\frz0.02\alpha&HFF&\t(1215,1315,\frz0\alpha&H00&))\t(1575,1575,\3c&H9A8610&\t(3075,3075,\3c&H000000&))\t(3075,3175,\frz-0.01\alpha&HFF&\t(3175,3275,\frz0\alpha&H00&))\t(3825,3825,\3c&H9A8610&)\t(4075,4075,\3c&H000000&)\t(4075,4175,\frz0.021\alpha&HFF&\t(4175,4275,\frz0\alpha&H00&))\t(4935,5035,\frz-0.022\alpha&HFF&)}い
+Dialogue: 0,0:13:49.34,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1013.9875,960.01,1020.9890625)\alpha&HFF&\org(884.185,-100000)\frz0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(669,669,\3c&H9A8610&\t(1169,1169,\3c&H000000&))\t(1169,1269,\frz0.016\alpha&HFF&\t(1269,1369,\frz0\alpha&H00&))\t(1629,1629,\3c&H9A8610&\t(3129,3129,\3c&H000000&))\t(3129,3229,\frz-0.021\alpha&HFF&\t(3229,3329,\frz0\alpha&H00&))\t(3879,3879,\3c&H9A8610&)\t(4129,4129,\3c&H000000&)\t(4129,4229,\frz0.013\alpha&HFF&\t(4229,4329,\frz0\alpha&H00&))\t(4989,5089,\frz-0.016\alpha&HFF&)}い
+Dialogue: 0,0:13:49.33,0:13:54.35,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1020.9890625,960.01,1027.990625)\alpha&HFF&\org(884.185,-100000)\frz-0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(673,673,\3c&H9A8610&\t(1173,1173,\3c&H000000&))\t(1173,1273,\frz0.013\alpha&HFF&\t(1273,1373,\frz0\alpha&H00&))\t(1633,1633,\3c&H9A8610&\t(3133,3133,\3c&H000000&))\t(3133,3233,\frz-0.013\alpha&HFF&\t(3233,3333,\frz0\alpha&H00&))\t(3883,3883,\3c&H9A8610&)\t(4133,4133,\3c&H000000&)\t(4133,4233,\frz0.023\alpha&HFF&\t(4233,4333,\frz0\alpha&H00&))\t(4993,5093,\frz0.019\alpha&HFF&)}い
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1027.990625,960.01,1034.9921875)\alpha&HFF&\org(884.185,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(645,645,\3c&H9A8610&\t(1145,1145,\3c&H000000&))\t(1145,1245,\frz-0.03\alpha&HFF&\t(1245,1345,\frz0\alpha&H00&))\t(1605,1605,\3c&H9A8610&\t(3105,3105,\3c&H000000&))\t(3105,3205,\frz0.023\alpha&HFF&\t(3205,3305,\frz0\alpha&H00&))\t(3855,3855,\3c&H9A8610&)\t(4105,4105,\3c&H000000&)\t(4105,4205,\frz-0.024\alpha&HFF&\t(4205,4305,\frz0\alpha&H00&))\t(4965,5065,\frz0.012\alpha&HFF&)}い
+Dialogue: 0,0:13:49.38,0:13:54.30,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1034.9921875,960.01,1041.99375)\alpha&HFF&\org(884.185,-100000)\frz-0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(623,623,\3c&H9A8610&\t(1123,1123,\3c&H000000&))\t(1123,1223,\frz-0.026\alpha&HFF&\t(1223,1323,\frz0\alpha&H00&))\t(1583,1583,\3c&H9A8610&\t(3083,3083,\3c&H000000&))\t(3083,3183,\frz-0.011\alpha&HFF&\t(3183,3283,\frz0\alpha&H00&))\t(3833,3833,\3c&H9A8610&)\t(4083,4083,\3c&H000000&)\t(4083,4183,\frz0.025\alpha&HFF&\t(4183,4283,\frz0\alpha&H00&))\t(4943,5043,\frz0.015\alpha&HFF&)}い
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1041.99375,960.01,1048.9953125)\alpha&HFF&\org(884.185,-100000)\frz-0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(595,595,\3c&H9A8610&\t(1095,1095,\3c&H000000&))\t(1095,1195,\frz0.027\alpha&HFF&\t(1195,1295,\frz0\alpha&H00&))\t(1555,1555,\3c&H9A8610&\t(3055,3055,\3c&H000000&))\t(3055,3155,\frz-0.015\alpha&HFF&\t(3155,3255,\frz0\alpha&H00&))\t(3805,3805,\3c&H9A8610&)\t(4055,4055,\3c&H000000&)\t(4055,4155,\frz0.027\alpha&HFF&\t(4155,4255,\frz0\alpha&H00&))\t(4915,5015,\frz-0.015\alpha&HFF&)}い
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1048.9953125,960.01,1055.996875)\alpha&HFF&\org(884.185,-100000)\frz-0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(616,616,\3c&H9A8610&\t(1116,1116,\3c&H000000&))\t(1116,1216,\frz-0.025\alpha&HFF&\t(1216,1316,\frz0\alpha&H00&))\t(1576,1576,\3c&H9A8610&\t(3076,3076,\3c&H000000&))\t(3076,3176,\frz-0.012\alpha&HFF&\t(3176,3276,\frz0\alpha&H00&))\t(3826,3826,\3c&H9A8610&)\t(4076,4076,\3c&H000000&)\t(4076,4176,\frz0.018\alpha&HFF&\t(4176,4276,\frz0\alpha&H00&))\t(4936,5036,\frz0.017\alpha&HFF&)}い
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1055.996875,960.01,1062.9984375)\alpha&HFF&\org(884.185,-100000)\frz-0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(578,578,\3c&H9A8610&\t(1078,1078,\3c&H000000&))\t(1078,1178,\frz0.029\alpha&HFF&\t(1178,1278,\frz0\alpha&H00&))\t(1538,1538,\3c&H9A8610&\t(3038,3038,\3c&H000000&))\t(3038,3138,\frz0.02\alpha&HFF&\t(3138,3238,\frz0\alpha&H00&))\t(3788,3788,\3c&H9A8610&)\t(4038,4038,\3c&H000000&)\t(4038,4138,\frz-0.017\alpha&HFF&\t(4138,4238,\frz0\alpha&H00&))\t(4898,4998,\frz0.012\alpha&HFF&)}い
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(884.185,1034.9921875)\clip(808.36,1062.9984375,960.01,1070)\alpha&HFF&\org(884.185,-100000)\frz0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(648,648,\3c&H9A8610&\t(1148,1148,\3c&H000000&))\t(1148,1248,\frz0.011\alpha&HFF&\t(1248,1348,\frz0\alpha&H00&))\t(1608,1608,\3c&H9A8610&\t(3108,3108,\3c&H000000&))\t(3108,3208,\frz-0.023\alpha&HFF&\t(3208,3308,\frz0\alpha&H00&))\t(3858,3858,\3c&H9A8610&)\t(4108,4108,\3c&H000000&)\t(4108,4208,\frz-0.014\alpha&HFF&\t(4208,4308,\frz0\alpha&H00&))\t(4968,5068,\frz-0.019\alpha&HFF&)}い
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,999.984375,1010.56,1006.9859375)\alpha&HFF&\org(934.735,-100000)\frz-0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(634,634,\3c&H9A8610&\t(1134,1134,\3c&H000000&))\t(1134,1234,\frz0.023\alpha&HFF&\t(1234,1334,\frz0\alpha&H00&))\t(1594,1594,\3c&H9A8610&\t(3094,3094,\3c&H000000&))\t(3094,3194,\frz-0.025\alpha&HFF&\t(3194,3294,\frz0\alpha&H00&))\t(3844,3844,\3c&H9A8610&)\t(4094,4094,\3c&H000000&)\t(4094,4194,\frz0.022\alpha&HFF&\t(4194,4294,\frz0\alpha&H00&))\t(4954,5054,\frz-0.023\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1006.9859375,1010.56,1013.9875)\alpha&HFF&\org(934.735,-100000)\frz0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(739,739,\3c&H9A8610&\t(1239,1239,\3c&H000000&))\t(1239,1339,\frz-0.018\alpha&HFF&\t(1339,1439,\frz0\alpha&H00&))\t(1699,1699,\3c&H9A8610&\t(3199,3199,\3c&H000000&))\t(3199,3299,\frz0.017\alpha&HFF&\t(3299,3399,\frz0\alpha&H00&))\t(3949,3949,\3c&H9A8610&)\t(4199,4199,\3c&H000000&)\t(4199,4299,\frz0.02\alpha&HFF&\t(4299,4399,\frz0\alpha&H00&))\t(5059,5159,\frz0.028\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1013.9875,1010.56,1020.9890625)\alpha&HFF&\org(934.735,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(634,634,\3c&H9A8610&\t(1134,1134,\3c&H000000&))\t(1134,1234,\frz-0.018\alpha&HFF&\t(1234,1334,\frz0\alpha&H00&))\t(1594,1594,\3c&H9A8610&\t(3094,3094,\3c&H000000&))\t(3094,3194,\frz-0.024\alpha&HFF&\t(3194,3294,\frz0\alpha&H00&))\t(3844,3844,\3c&H9A8610&)\t(4094,4094,\3c&H000000&)\t(4094,4194,\frz-0.028\alpha&HFF&\t(4194,4294,\frz0\alpha&H00&))\t(4954,5054,\frz0.021\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1020.9890625,1010.56,1027.990625)\alpha&HFF&\org(934.735,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(708,708,\3c&H9A8610&\t(1208,1208,\3c&H000000&))\t(1208,1308,\frz-0.023\alpha&HFF&\t(1308,1408,\frz0\alpha&H00&))\t(1668,1668,\3c&H9A8610&\t(3168,3168,\3c&H000000&))\t(3168,3268,\frz-0.015\alpha&HFF&\t(3268,3368,\frz0\alpha&H00&))\t(3918,3918,\3c&H9A8610&)\t(4168,4168,\3c&H000000&)\t(4168,4268,\frz0.028\alpha&HFF&\t(4268,4368,\frz0\alpha&H00&))\t(5028,5128,\frz0.028\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.34,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1027.990625,1010.56,1034.9921875)\alpha&HFF&\org(934.735,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(664,664,\3c&H9A8610&\t(1164,1164,\3c&H000000&))\t(1164,1264,\frz-0.022\alpha&HFF&\t(1264,1364,\frz0\alpha&H00&))\t(1624,1624,\3c&H9A8610&\t(3124,3124,\3c&H000000&))\t(3124,3224,\frz-0.018\alpha&HFF&\t(3224,3324,\frz0\alpha&H00&))\t(3874,3874,\3c&H9A8610&)\t(4124,4124,\3c&H000000&)\t(4124,4224,\frz-0.011\alpha&HFF&\t(4224,4324,\frz0\alpha&H00&))\t(4984,5084,\frz0.011\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1034.9921875,1010.56,1041.99375)\alpha&HFF&\org(934.735,-100000)\frz0.025\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(573,573,\3c&H9A8610&\t(1073,1073,\3c&H000000&))\t(1073,1173,\frz-0.015\alpha&HFF&\t(1173,1273,\frz0\alpha&H00&))\t(1533,1533,\3c&H9A8610&\t(3033,3033,\3c&H000000&))\t(3033,3133,\frz0.026\alpha&HFF&\t(3133,3233,\frz0\alpha&H00&))\t(3783,3783,\3c&H9A8610&)\t(4033,4033,\3c&H000000&)\t(4033,4133,\frz0.016\alpha&HFF&\t(4133,4233,\frz0\alpha&H00&))\t(4893,4993,\frz0.028\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.44,0:13:54.24,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1041.99375,1010.56,1048.9953125)\alpha&HFF&\org(934.735,-100000)\frz-0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(563,563,\3c&H9A8610&\t(1063,1063,\3c&H000000&))\t(1063,1163,\frz0.022\alpha&HFF&\t(1163,1263,\frz0\alpha&H00&))\t(1523,1523,\3c&H9A8610&\t(3023,3023,\3c&H000000&))\t(3023,3123,\frz0.011\alpha&HFF&\t(3123,3223,\frz0\alpha&H00&))\t(3773,3773,\3c&H9A8610&)\t(4023,4023,\3c&H000000&)\t(4023,4123,\frz-0.028\alpha&HFF&\t(4123,4223,\frz0\alpha&H00&))\t(4883,4983,\frz0.025\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1048.9953125,1010.56,1055.996875)\alpha&HFF&\org(934.735,-100000)\frz-0.019\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(733,733,\3c&H9A8610&\t(1233,1233,\3c&H000000&))\t(1233,1333,\frz-0.023\alpha&HFF&\t(1333,1433,\frz0\alpha&H00&))\t(1693,1693,\3c&H9A8610&\t(3193,3193,\3c&H000000&))\t(3193,3293,\frz0.03\alpha&HFF&\t(3293,3393,\frz0\alpha&H00&))\t(3943,3943,\3c&H9A8610&)\t(4193,4193,\3c&H000000&)\t(4193,4293,\frz0.017\alpha&HFF&\t(4293,4393,\frz0\alpha&H00&))\t(5053,5153,\frz-0.015\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.36,0:13:54.32,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1055.996875,1010.56,1062.9984375)\alpha&HFF&\org(934.735,-100000)\frz-0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(649,649,\3c&H9A8610&\t(1149,1149,\3c&H000000&))\t(1149,1249,\frz-0.03\alpha&HFF&\t(1249,1349,\frz0\alpha&H00&))\t(1609,1609,\3c&H9A8610&\t(3109,3109,\3c&H000000&))\t(3109,3209,\frz-0.019\alpha&HFF&\t(3209,3309,\frz0\alpha&H00&))\t(3859,3859,\3c&H9A8610&)\t(4109,4109,\3c&H000000&)\t(4109,4209,\frz0.01\alpha&HFF&\t(4209,4309,\frz0\alpha&H00&))\t(4969,5069,\frz0.029\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(934.735,1034.9921875)\clip(858.91,1062.9984375,1010.56,1070)\alpha&HFF&\org(934.735,-100000)\frz-0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(586,586,\3c&H9A8610&\t(1086,1086,\3c&H000000&))\t(1086,1186,\frz0.014\alpha&HFF&\t(1186,1286,\frz0\alpha&H00&))\t(1546,1546,\3c&H9A8610&\t(3046,3046,\3c&H000000&))\t(3046,3146,\frz-0.017\alpha&HFF&\t(3146,3246,\frz0\alpha&H00&))\t(3796,3796,\3c&H9A8610&)\t(4046,4046,\3c&H000000&)\t(4046,4146,\frz0.019\alpha&HFF&\t(4146,4246,\frz0\alpha&H00&))\t(4906,5006,\frz0.011\alpha&HFF&)}ろ
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,999.984375,1061.1,1006.9859375)\alpha&HFF&\org(985.275,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(712,712,\3c&H9A8610&\t(1212,1212,\3c&H000000&))\t(1212,1312,\frz-0.016\alpha&HFF&\t(1312,1412,\frz0\alpha&H00&))\t(1672,1672,\3c&H9A8610&\t(3172,3172,\3c&H000000&))\t(3172,3272,\frz0.015\alpha&HFF&\t(3272,3372,\frz0\alpha&H00&))\t(3922,3922,\3c&H9A8610&)\t(4172,4172,\3c&H000000&)\t(4172,4272,\frz0.021\alpha&HFF&\t(4272,4372,\frz0\alpha&H00&))\t(5032,5132,\frz-0.029\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.33,0:13:54.35,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1006.9859375,1061.1,1013.9875)\alpha&HFF&\org(985.275,-100000)\frz0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(676,676,\3c&H9A8610&\t(1176,1176,\3c&H000000&))\t(1176,1276,\frz0.018\alpha&HFF&\t(1276,1376,\frz0\alpha&H00&))\t(1636,1636,\3c&H9A8610&\t(3136,3136,\3c&H000000&))\t(3136,3236,\frz0.023\alpha&HFF&\t(3236,3336,\frz0\alpha&H00&))\t(3886,3886,\3c&H9A8610&)\t(4136,4136,\3c&H000000&)\t(4136,4236,\frz0.014\alpha&HFF&\t(4236,4336,\frz0\alpha&H00&))\t(4996,5096,\frz0.014\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.32,0:13:54.36,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1013.9875,1061.1,1020.9890625)\alpha&HFF&\org(985.275,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(684,684,\3c&H9A8610&\t(1184,1184,\3c&H000000&))\t(1184,1284,\frz0.02\alpha&HFF&\t(1284,1384,\frz0\alpha&H00&))\t(1644,1644,\3c&H9A8610&\t(3144,3144,\3c&H000000&))\t(3144,3244,\frz0.016\alpha&HFF&\t(3244,3344,\frz0\alpha&H00&))\t(3894,3894,\3c&H9A8610&)\t(4144,4144,\3c&H000000&)\t(4144,4244,\frz-0.021\alpha&HFF&\t(4244,4344,\frz0\alpha&H00&))\t(5004,5104,\frz0.022\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1020.9890625,1061.1,1027.990625)\alpha&HFF&\org(985.275,-100000)\frz0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(611,611,\3c&H9A8610&\t(1111,1111,\3c&H000000&))\t(1111,1211,\frz0.023\alpha&HFF&\t(1211,1311,\frz0\alpha&H00&))\t(1571,1571,\3c&H9A8610&\t(3071,3071,\3c&H000000&))\t(3071,3171,\frz0.023\alpha&HFF&\t(3171,3271,\frz0\alpha&H00&))\t(3821,3821,\3c&H9A8610&)\t(4071,4071,\3c&H000000&)\t(4071,4171,\frz0.018\alpha&HFF&\t(4171,4271,\frz0\alpha&H00&))\t(4931,5031,\frz0.025\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1027.990625,1061.1,1034.9921875)\alpha&HFF&\org(985.275,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(744,744,\3c&H9A8610&\t(1244,1244,\3c&H000000&))\t(1244,1344,\frz-0.023\alpha&HFF&\t(1344,1444,\frz0\alpha&H00&))\t(1704,1704,\3c&H9A8610&\t(3204,3204,\3c&H000000&))\t(3204,3304,\frz0.025\alpha&HFF&\t(3304,3404,\frz0\alpha&H00&))\t(3954,3954,\3c&H9A8610&)\t(4204,4204,\3c&H000000&)\t(4204,4304,\frz0.026\alpha&HFF&\t(4304,4404,\frz0\alpha&H00&))\t(5064,5164,\frz0.02\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1034.9921875,1061.1,1041.99375)\alpha&HFF&\org(985.275,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(703,703,\3c&H9A8610&\t(1203,1203,\3c&H000000&))\t(1203,1303,\frz0.03\alpha&HFF&\t(1303,1403,\frz0\alpha&H00&))\t(1663,1663,\3c&H9A8610&\t(3163,3163,\3c&H000000&))\t(3163,3263,\frz-0.011\alpha&HFF&\t(3263,3363,\frz0\alpha&H00&))\t(3913,3913,\3c&H9A8610&)\t(4163,4163,\3c&H000000&)\t(4163,4263,\frz0.022\alpha&HFF&\t(4263,4363,\frz0\alpha&H00&))\t(5023,5123,\frz0.027\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1041.99375,1061.1,1048.9953125)\alpha&HFF&\org(985.275,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(639,639,\3c&H9A8610&\t(1139,1139,\3c&H000000&))\t(1139,1239,\frz0.03\alpha&HFF&\t(1239,1339,\frz0\alpha&H00&))\t(1599,1599,\3c&H9A8610&\t(3099,3099,\3c&H000000&))\t(3099,3199,\frz0.029\alpha&HFF&\t(3199,3299,\frz0\alpha&H00&))\t(3849,3849,\3c&H9A8610&)\t(4099,4099,\3c&H000000&)\t(4099,4199,\frz-0.015\alpha&HFF&\t(4199,4299,\frz0\alpha&H00&))\t(4959,5059,\frz0.03\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.36,0:13:54.33,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1048.9953125,1061.1,1055.996875)\alpha&HFF&\org(985.275,-100000)\frz-0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(650,650,\3c&H9A8610&\t(1150,1150,\3c&H000000&))\t(1150,1250,\frz-0.021\alpha&HFF&\t(1250,1350,\frz0\alpha&H00&))\t(1610,1610,\3c&H9A8610&\t(3110,3110,\3c&H000000&))\t(3110,3210,\frz0.013\alpha&HFF&\t(3210,3310,\frz0\alpha&H00&))\t(3860,3860,\3c&H9A8610&)\t(4110,4110,\3c&H000000&)\t(4110,4210,\frz0.03\alpha&HFF&\t(4210,4310,\frz0\alpha&H00&))\t(4970,5070,\frz0.019\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.28,0:13:54.40,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1055.996875,1061.1,1062.9984375)\alpha&HFF&\org(985.275,-100000)\frz0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(727,727,\3c&H9A8610&\t(1227,1227,\3c&H000000&))\t(1227,1327,\frz0.024\alpha&HFF&\t(1327,1427,\frz0\alpha&H00&))\t(1687,1687,\3c&H9A8610&\t(3187,3187,\3c&H000000&))\t(3187,3287,\frz0.016\alpha&HFF&\t(3287,3387,\frz0\alpha&H00&))\t(3937,3937,\3c&H9A8610&)\t(4187,4187,\3c&H000000&)\t(4187,4287,\frz-0.022\alpha&HFF&\t(4287,4387,\frz0\alpha&H00&))\t(5047,5147,\frz0.027\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(985.275,1034.9921875)\clip(909.45,1062.9984375,1061.1,1070)\alpha&HFF&\org(985.275,-100000)\frz0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(551,551,\3c&H9A8610&\t(1051,1051,\3c&H000000&))\t(1051,1151,\frz0.028\alpha&HFF&\t(1151,1251,\frz0\alpha&H00&))\t(1511,1511,\3c&H9A8610&\t(3011,3011,\3c&H000000&))\t(3011,3111,\frz-0.011\alpha&HFF&\t(3111,3211,\frz0\alpha&H00&))\t(3761,3761,\3c&H9A8610&)\t(4011,4011,\3c&H000000&)\t(4011,4111,\frz0.021\alpha&HFF&\t(4111,4211,\frz0\alpha&H00&))\t(4871,4971,\frz0.01\alpha&HFF&)}あ
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,999.984375,1111.65,1006.9859375)\alpha&HFF&\org(1035.825,-100000)\frz-0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(599,599,\3c&H9A8610&\t(1099,1099,\3c&H000000&))\t(1099,1199,\frz-0.014\alpha&HFF&\t(1199,1299,\frz0\alpha&H00&))\t(1559,1559,\3c&H9A8610&\t(3059,3059,\3c&H000000&))\t(3059,3159,\frz0.011\alpha&HFF&\t(3159,3259,\frz0\alpha&H00&))\t(3809,3809,\3c&H9A8610&)\t(4059,4059,\3c&H000000&)\t(4059,4159,\frz-0.01\alpha&HFF&\t(4159,4259,\frz0\alpha&H00&))\t(4919,5019,\frz0.015\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1006.9859375,1111.65,1013.9875)\alpha&HFF&\org(1035.825,-100000)\frz0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(708,708,\3c&H9A8610&\t(1208,1208,\3c&H000000&))\t(1208,1308,\frz0.012\alpha&HFF&\t(1308,1408,\frz0\alpha&H00&))\t(1668,1668,\3c&H9A8610&\t(3168,3168,\3c&H000000&))\t(3168,3268,\frz-0.01\alpha&HFF&\t(3268,3368,\frz0\alpha&H00&))\t(3918,3918,\3c&H9A8610&)\t(4168,4168,\3c&H000000&)\t(4168,4268,\frz0.029\alpha&HFF&\t(4268,4368,\frz0\alpha&H00&))\t(5028,5128,\frz-0.03\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.34,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1013.9875,1111.65,1020.9890625)\alpha&HFF&\org(1035.825,-100000)\frz0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(665,665,\3c&H9A8610&\t(1165,1165,\3c&H000000&))\t(1165,1265,\frz-0.016\alpha&HFF&\t(1265,1365,\frz0\alpha&H00&))\t(1625,1625,\3c&H9A8610&\t(3125,3125,\3c&H000000&))\t(3125,3225,\frz-0.028\alpha&HFF&\t(3225,3325,\frz0\alpha&H00&))\t(3875,3875,\3c&H9A8610&)\t(4125,4125,\3c&H000000&)\t(4125,4225,\frz0.014\alpha&HFF&\t(4225,4325,\frz0\alpha&H00&))\t(4985,5085,\frz-0.03\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.35,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1020.9890625,1111.65,1027.990625)\alpha&HFF&\org(1035.825,-100000)\frz-0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(660,660,\3c&H9A8610&\t(1160,1160,\3c&H000000&))\t(1160,1260,\frz0.01\alpha&HFF&\t(1260,1360,\frz0\alpha&H00&))\t(1620,1620,\3c&H9A8610&\t(3120,3120,\3c&H000000&))\t(3120,3220,\frz-0.01\alpha&HFF&\t(3220,3320,\frz0\alpha&H00&))\t(3870,3870,\3c&H9A8610&)\t(4120,4120,\3c&H000000&)\t(4120,4220,\frz0.011\alpha&HFF&\t(4220,4320,\frz0\alpha&H00&))\t(4980,5080,\frz0.025\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1027.990625,1111.65,1034.9921875)\alpha&HFF&\org(1035.825,-100000)\frz-0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(609,609,\3c&H9A8610&\t(1109,1109,\3c&H000000&))\t(1109,1209,\frz-0.014\alpha&HFF&\t(1209,1309,\frz0\alpha&H00&))\t(1569,1569,\3c&H9A8610&\t(3069,3069,\3c&H000000&))\t(3069,3169,\frz0.024\alpha&HFF&\t(3169,3269,\frz0\alpha&H00&))\t(3819,3819,\3c&H9A8610&)\t(4069,4069,\3c&H000000&)\t(4069,4169,\frz-0.026\alpha&HFF&\t(4169,4269,\frz0\alpha&H00&))\t(4929,5029,\frz-0.022\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1034.9921875,1111.65,1041.99375)\alpha&HFF&\org(1035.825,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(745,745,\3c&H9A8610&\t(1245,1245,\3c&H000000&))\t(1245,1345,\frz-0.018\alpha&HFF&\t(1345,1445,\frz0\alpha&H00&))\t(1705,1705,\3c&H9A8610&\t(3205,3205,\3c&H000000&))\t(3205,3305,\frz0.013\alpha&HFF&\t(3305,3405,\frz0\alpha&H00&))\t(3955,3955,\3c&H9A8610&)\t(4205,4205,\3c&H000000&)\t(4205,4305,\frz0.018\alpha&HFF&\t(4305,4405,\frz0\alpha&H00&))\t(5065,5165,\frz0.021\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.26,0:13:54.43,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1041.99375,1111.65,1048.9953125)\alpha&HFF&\org(1035.825,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(750,750,\3c&H9A8610&\t(1250,1250,\3c&H000000&))\t(1250,1350,\frz0.023\alpha&HFF&\t(1350,1450,\frz0\alpha&H00&))\t(1710,1710,\3c&H9A8610&\t(3210,3210,\3c&H000000&))\t(3210,3310,\frz-0.01\alpha&HFF&\t(3310,3410,\frz0\alpha&H00&))\t(3960,3960,\3c&H9A8610&)\t(4210,4210,\3c&H000000&)\t(4210,4310,\frz0.027\alpha&HFF&\t(4310,4410,\frz0\alpha&H00&))\t(5070,5170,\frz0.021\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1048.9953125,1111.65,1055.996875)\alpha&HFF&\org(1035.825,-100000)\frz-0.026\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(697,697,\3c&H9A8610&\t(1197,1197,\3c&H000000&))\t(1197,1297,\frz-0.012\alpha&HFF&\t(1297,1397,\frz0\alpha&H00&))\t(1657,1657,\3c&H9A8610&\t(3157,3157,\3c&H000000&))\t(3157,3257,\frz0.021\alpha&HFF&\t(3257,3357,\frz0\alpha&H00&))\t(3907,3907,\3c&H9A8610&)\t(4157,4157,\3c&H000000&)\t(4157,4257,\frz0.029\alpha&HFF&\t(4257,4357,\frz0\alpha&H00&))\t(5017,5117,\frz0.016\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.34,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1055.996875,1111.65,1062.9984375)\alpha&HFF&\org(1035.825,-100000)\frz0.011\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(667,667,\3c&H9A8610&\t(1167,1167,\3c&H000000&))\t(1167,1267,\frz-0.026\alpha&HFF&\t(1267,1367,\frz0\alpha&H00&))\t(1627,1627,\3c&H9A8610&\t(3127,3127,\3c&H000000&))\t(3127,3227,\frz0.012\alpha&HFF&\t(3227,3327,\frz0\alpha&H00&))\t(3877,3877,\3c&H9A8610&)\t(4127,4127,\3c&H000000&)\t(4127,4227,\frz0.029\alpha&HFF&\t(4227,4327,\frz0\alpha&H00&))\t(4987,5087,\frz-0.014\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1035.825,1034.9921875)\clip(960,1062.9984375,1111.65,1070)\alpha&HFF&\org(1035.825,-100000)\frz0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(557,557,\3c&H9A8610&\t(1057,1057,\3c&H000000&))\t(1057,1157,\frz0.024\alpha&HFF&\t(1157,1257,\frz0\alpha&H00&))\t(1517,1517,\3c&H9A8610&\t(3017,3017,\3c&H000000&))\t(3017,3117,\frz-0.023\alpha&HFF&\t(3117,3217,\frz0\alpha&H00&))\t(3767,3767,\3c&H9A8610&)\t(4017,4017,\3c&H000000&)\t(4017,4117,\frz0.029\alpha&HFF&\t(4117,4217,\frz0\alpha&H00&))\t(4877,4977,\frz-0.021\alpha&HFF&)}っ
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,999.984375,1162.2,1006.9859375)\alpha&HFF&\org(1086.375,-100000)\frz-0.022\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(598,598,\3c&H9A8610&\t(1098,1098,\3c&H000000&))\t(1098,1198,\frz-0.016\alpha&HFF&\t(1198,1298,\frz0\alpha&H00&))\t(1558,1558,\3c&H9A8610&\t(3058,3058,\3c&H000000&))\t(3058,3158,\frz-0.011\alpha&HFF&\t(3158,3258,\frz0\alpha&H00&))\t(3808,3808,\3c&H9A8610&)\t(4058,4058,\3c&H000000&)\t(4058,4158,\frz-0.017\alpha&HFF&\t(4158,4258,\frz0\alpha&H00&))\t(4918,5018,\frz0.011\alpha&HFF&)}た
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1006.9859375,1162.2,1013.9875)\alpha&HFF&\org(1086.375,-100000)\frz0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(579,579,\3c&H9A8610&\t(1079,1079,\3c&H000000&))\t(1079,1179,\frz0.024\alpha&HFF&\t(1179,1279,\frz0\alpha&H00&))\t(1539,1539,\3c&H9A8610&\t(3039,3039,\3c&H000000&))\t(3039,3139,\frz0.021\alpha&HFF&\t(3139,3239,\frz0\alpha&H00&))\t(3789,3789,\3c&H9A8610&)\t(4039,4039,\3c&H000000&)\t(4039,4139,\frz-0.03\alpha&HFF&\t(4139,4239,\frz0\alpha&H00&))\t(4899,4999,\frz0.024\alpha&HFF&)}た
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1013.9875,1162.2,1020.9890625)\alpha&HFF&\org(1086.375,-100000)\frz0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(597,597,\3c&H9A8610&\t(1097,1097,\3c&H000000&))\t(1097,1197,\frz0.02\alpha&HFF&\t(1197,1297,\frz0\alpha&H00&))\t(1557,1557,\3c&H9A8610&\t(3057,3057,\3c&H000000&))\t(3057,3157,\frz-0.016\alpha&HFF&\t(3157,3257,\frz0\alpha&H00&))\t(3807,3807,\3c&H9A8610&)\t(4057,4057,\3c&H000000&)\t(4057,4157,\frz-0.021\alpha&HFF&\t(4157,4257,\frz0\alpha&H00&))\t(4917,5017,\frz-0.024\alpha&HFF&)}た
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1020.9890625,1162.2,1027.990625)\alpha&HFF&\org(1086.375,-100000)\frz0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(703,703,\3c&H9A8610&\t(1203,1203,\3c&H000000&))\t(1203,1303,\frz-0.02\alpha&HFF&\t(1303,1403,\frz0\alpha&H00&))\t(1663,1663,\3c&H9A8610&\t(3163,3163,\3c&H000000&))\t(3163,3263,\frz0.025\alpha&HFF&\t(3263,3363,\frz0\alpha&H00&))\t(3913,3913,\3c&H9A8610&)\t(4163,4163,\3c&H000000&)\t(4163,4263,\frz0.011\alpha&HFF&\t(4263,4363,\frz0\alpha&H00&))\t(5023,5123,\frz0.017\alpha&HFF&)}た
+Dialogue: 0,0:13:49.32,0:13:54.36,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1027.990625,1162.2,1034.9921875)\alpha&HFF&\org(1086.375,-100000)\frz0.017\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(683,683,\3c&H9A8610&\t(1183,1183,\3c&H000000&))\t(1183,1283,\frz0.028\alpha&HFF&\t(1283,1383,\frz0\alpha&H00&))\t(1643,1643,\3c&H9A8610&\t(3143,3143,\3c&H000000&))\t(3143,3243,\frz-0.013\alpha&HFF&\t(3243,3343,\frz0\alpha&H00&))\t(3893,3893,\3c&H9A8610&)\t(4143,4143,\3c&H000000&)\t(4143,4243,\frz0.02\alpha&HFF&\t(4243,4343,\frz0\alpha&H00&))\t(5003,5103,\frz0.011\alpha&HFF&)}た
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1034.9921875,1162.2,1041.99375)\alpha&HFF&\org(1086.375,-100000)\frz0.025\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(734,734,\3c&H9A8610&\t(1234,1234,\3c&H000000&))\t(1234,1334,\frz-0.016\alpha&HFF&\t(1334,1434,\frz0\alpha&H00&))\t(1694,1694,\3c&H9A8610&\t(3194,3194,\3c&H000000&))\t(3194,3294,\frz0.011\alpha&HFF&\t(3294,3394,\frz0\alpha&H00&))\t(3944,3944,\3c&H9A8610&)\t(4194,4194,\3c&H000000&)\t(4194,4294,\frz-0.03\alpha&HFF&\t(4294,4394,\frz0\alpha&H00&))\t(5054,5154,\frz0.015\alpha&HFF&)}た
+Dialogue: 0,0:13:49.34,0:13:54.34,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1041.99375,1162.2,1048.9953125)\alpha&HFF&\org(1086.375,-100000)\frz-0.028\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(669,669,\3c&H9A8610&\t(1169,1169,\3c&H000000&))\t(1169,1269,\frz-0.019\alpha&HFF&\t(1269,1369,\frz0\alpha&H00&))\t(1629,1629,\3c&H9A8610&\t(3129,3129,\3c&H000000&))\t(3129,3229,\frz-0.021\alpha&HFF&\t(3229,3329,\frz0\alpha&H00&))\t(3879,3879,\3c&H9A8610&)\t(4129,4129,\3c&H000000&)\t(4129,4229,\frz-0.014\alpha&HFF&\t(4229,4329,\frz0\alpha&H00&))\t(4989,5089,\frz-0.03\alpha&HFF&)}た
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1048.9953125,1162.2,1055.996875)\alpha&HFF&\org(1086.375,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(582,582,\3c&H9A8610&\t(1082,1082,\3c&H000000&))\t(1082,1182,\frz-0.03\alpha&HFF&\t(1182,1282,\frz0\alpha&H00&))\t(1542,1542,\3c&H9A8610&\t(3042,3042,\3c&H000000&))\t(3042,3142,\frz-0.012\alpha&HFF&\t(3142,3242,\frz0\alpha&H00&))\t(3792,3792,\3c&H9A8610&)\t(4042,4042,\3c&H000000&)\t(4042,4142,\frz0.012\alpha&HFF&\t(4142,4242,\frz0\alpha&H00&))\t(4902,5002,\frz0.017\alpha&HFF&)}た
+Dialogue: 0,0:13:49.41,0:13:54.27,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1055.996875,1162.2,1062.9984375)\alpha&HFF&\org(1086.375,-100000)\frz0.019\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(592,592,\3c&H9A8610&\t(1092,1092,\3c&H000000&))\t(1092,1192,\frz-0.01\alpha&HFF&\t(1192,1292,\frz0\alpha&H00&))\t(1552,1552,\3c&H9A8610&\t(3052,3052,\3c&H000000&))\t(3052,3152,\frz0.012\alpha&HFF&\t(3152,3252,\frz0\alpha&H00&))\t(3802,3802,\3c&H9A8610&)\t(4052,4052,\3c&H000000&)\t(4052,4152,\frz-0.029\alpha&HFF&\t(4152,4252,\frz0\alpha&H00&))\t(4912,5012,\frz-0.028\alpha&HFF&)}た
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1086.375,1034.9921875)\clip(1010.55,1062.9984375,1162.2,1070)\alpha&HFF&\org(1086.375,-100000)\frz0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(707,707,\3c&H9A8610&\t(1207,1207,\3c&H000000&))\t(1207,1307,\frz-0.022\alpha&HFF&\t(1307,1407,\frz0\alpha&H00&))\t(1667,1667,\3c&H9A8610&\t(3167,3167,\3c&H000000&))\t(3167,3267,\frz-0.027\alpha&HFF&\t(3267,3367,\frz0\alpha&H00&))\t(3917,3917,\3c&H9A8610&)\t(4167,4167,\3c&H000000&)\t(4167,4267,\frz-0.023\alpha&HFF&\t(4267,4367,\frz0\alpha&H00&))\t(5027,5127,\frz-0.024\alpha&HFF&)}た
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,999.984375,1212.75,1006.9859375)\alpha&HFF&\org(1136.925,-100000)\frz0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(746,746,\3c&H9A8610&\t(1246,1246,\3c&H000000&))\t(1246,1346,\frz0.018\alpha&HFF&\t(1346,1446,\frz0\alpha&H00&))\t(1706,1706,\3c&H9A8610&\t(3206,3206,\3c&H000000&))\t(3206,3306,\frz-0.013\alpha&HFF&\t(3306,3406,\frz0\alpha&H00&))\t(3956,3956,\3c&H9A8610&)\t(4206,4206,\3c&H000000&)\t(4206,4306,\frz0.028\alpha&HFF&\t(4306,4406,\frz0\alpha&H00&))\t(5066,5166,\frz0.021\alpha&HFF&)}け
+Dialogue: 0,0:13:49.31,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1006.9859375,1212.75,1013.9875)\alpha&HFF&\org(1136.925,-100000)\frz-0.017\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(700,700,\3c&H9A8610&\t(1200,1200,\3c&H000000&))\t(1200,1300,\frz-0.03\alpha&HFF&\t(1300,1400,\frz0\alpha&H00&))\t(1660,1660,\3c&H9A8610&\t(3160,3160,\3c&H000000&))\t(3160,3260,\frz0.015\alpha&HFF&\t(3260,3360,\frz0\alpha&H00&))\t(3910,3910,\3c&H9A8610&)\t(4160,4160,\3c&H000000&)\t(4160,4260,\frz0.021\alpha&HFF&\t(4260,4360,\frz0\alpha&H00&))\t(5020,5120,\frz0.022\alpha&HFF&)}け
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1013.9875,1212.75,1020.9890625)\alpha&HFF&\org(1136.925,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(744,744,\3c&H9A8610&\t(1244,1244,\3c&H000000&))\t(1244,1344,\frz0.013\alpha&HFF&\t(1344,1444,\frz0\alpha&H00&))\t(1704,1704,\3c&H9A8610&\t(3204,3204,\3c&H000000&))\t(3204,3304,\frz-0.017\alpha&HFF&\t(3304,3404,\frz0\alpha&H00&))\t(3954,3954,\3c&H9A8610&)\t(4204,4204,\3c&H000000&)\t(4204,4304,\frz-0.024\alpha&HFF&\t(4304,4404,\frz0\alpha&H00&))\t(5064,5164,\frz0.012\alpha&HFF&)}け
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1020.9890625,1212.75,1027.990625)\alpha&HFF&\org(1136.925,-100000)\frz-0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(589,589,\3c&H9A8610&\t(1089,1089,\3c&H000000&))\t(1089,1189,\frz0.012\alpha&HFF&\t(1189,1289,\frz0\alpha&H00&))\t(1549,1549,\3c&H9A8610&\t(3049,3049,\3c&H000000&))\t(3049,3149,\frz-0.014\alpha&HFF&\t(3149,3249,\frz0\alpha&H00&))\t(3799,3799,\3c&H9A8610&)\t(4049,4049,\3c&H000000&)\t(4049,4149,\frz-0.016\alpha&HFF&\t(4149,4249,\frz0\alpha&H00&))\t(4909,5009,\frz-0.024\alpha&HFF&)}け
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1027.990625,1212.75,1034.9921875)\alpha&HFF&\org(1136.925,-100000)\frz0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(585,585,\3c&H9A8610&\t(1085,1085,\3c&H000000&))\t(1085,1185,\frz0.029\alpha&HFF&\t(1185,1285,\frz0\alpha&H00&))\t(1545,1545,\3c&H9A8610&\t(3045,3045,\3c&H000000&))\t(3045,3145,\frz0.015\alpha&HFF&\t(3145,3245,\frz0\alpha&H00&))\t(3795,3795,\3c&H9A8610&)\t(4045,4045,\3c&H000000&)\t(4045,4145,\frz-0.012\alpha&HFF&\t(4145,4245,\frz0\alpha&H00&))\t(4905,5005,\frz-0.014\alpha&HFF&)}け
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1034.9921875,1212.75,1041.99375)\alpha&HFF&\org(1136.925,-100000)\frz0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(553,553,\3c&H9A8610&\t(1053,1053,\3c&H000000&))\t(1053,1153,\frz0.015\alpha&HFF&\t(1153,1253,\frz0\alpha&H00&))\t(1513,1513,\3c&H9A8610&\t(3013,3013,\3c&H000000&))\t(3013,3113,\frz-0.025\alpha&HFF&\t(3113,3213,\frz0\alpha&H00&))\t(3763,3763,\3c&H9A8610&)\t(4013,4013,\3c&H000000&)\t(4013,4113,\frz0.029\alpha&HFF&\t(4113,4213,\frz0\alpha&H00&))\t(4873,4973,\frz-0.027\alpha&HFF&)}け
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1041.99375,1212.75,1048.9953125)\alpha&HFF&\org(1136.925,-100000)\frz-0.023\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(619,619,\3c&H9A8610&\t(1119,1119,\3c&H000000&))\t(1119,1219,\frz-0.028\alpha&HFF&\t(1219,1319,\frz0\alpha&H00&))\t(1579,1579,\3c&H9A8610&\t(3079,3079,\3c&H000000&))\t(3079,3179,\frz0.027\alpha&HFF&\t(3179,3279,\frz0\alpha&H00&))\t(3829,3829,\3c&H9A8610&)\t(4079,4079,\3c&H000000&)\t(4079,4179,\frz-0.02\alpha&HFF&\t(4179,4279,\frz0\alpha&H00&))\t(4939,5039,\frz0.02\alpha&HFF&)}け
+Dialogue: 0,0:13:49.33,0:13:54.35,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1048.9953125,1212.75,1055.996875)\alpha&HFF&\org(1136.925,-100000)\frz-0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(676,676,\3c&H9A8610&\t(1176,1176,\3c&H000000&))\t(1176,1276,\frz0.012\alpha&HFF&\t(1276,1376,\frz0\alpha&H00&))\t(1636,1636,\3c&H9A8610&\t(3136,3136,\3c&H000000&))\t(3136,3236,\frz0.015\alpha&HFF&\t(3236,3336,\frz0\alpha&H00&))\t(3886,3886,\3c&H9A8610&)\t(4136,4136,\3c&H000000&)\t(4136,4236,\frz-0.019\alpha&HFF&\t(4236,4336,\frz0\alpha&H00&))\t(4996,5096,\frz-0.029\alpha&HFF&)}け
+Dialogue: 0,0:13:49.33,0:13:54.35,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1055.996875,1212.75,1062.9984375)\alpha&HFF&\org(1136.925,-100000)\frz-0.012\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(675,675,\3c&H9A8610&\t(1175,1175,\3c&H000000&))\t(1175,1275,\frz-0.027\alpha&HFF&\t(1275,1375,\frz0\alpha&H00&))\t(1635,1635,\3c&H9A8610&\t(3135,3135,\3c&H000000&))\t(3135,3235,\frz-0.014\alpha&HFF&\t(3235,3335,\frz0\alpha&H00&))\t(3885,3885,\3c&H9A8610&)\t(4135,4135,\3c&H000000&)\t(4135,4235,\frz0.01\alpha&HFF&\t(4235,4335,\frz0\alpha&H00&))\t(4995,5095,\frz0.016\alpha&HFF&)}け
+Dialogue: 0,0:13:49.44,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1136.925,1034.9921875)\clip(1061.1,1062.9984375,1212.75,1070)\alpha&HFF&\org(1136.925,-100000)\frz0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(570,570,\3c&H9A8610&\t(1070,1070,\3c&H000000&))\t(1070,1170,\frz-0.023\alpha&HFF&\t(1170,1270,\frz0\alpha&H00&))\t(1530,1530,\3c&H9A8610&\t(3030,3030,\3c&H000000&))\t(3030,3130,\frz0.026\alpha&HFF&\t(3130,3230,\frz0\alpha&H00&))\t(3780,3780,\3c&H9A8610&)\t(4030,4030,\3c&H000000&)\t(4030,4130,\frz0.013\alpha&HFF&\t(4130,4230,\frz0\alpha&H00&))\t(4890,4990,\frz-0.013\alpha&HFF&)}け
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,999.984375,1263.29,1006.9859375)\alpha&HFF&\org(1187.465,-100000)\frz-0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(605,605,\3c&H9A8610&\t(1105,1105,\3c&H000000&))\t(1105,1205,\frz-0.022\alpha&HFF&\t(1205,1305,\frz0\alpha&H00&))\t(1565,1565,\3c&H9A8610&\t(3065,3065,\3c&H000000&))\t(3065,3165,\frz0.021\alpha&HFF&\t(3165,3265,\frz0\alpha&H00&))\t(3815,3815,\3c&H9A8610&)\t(4065,4065,\3c&H000000&)\t(4065,4165,\frz-0.028\alpha&HFF&\t(4165,4265,\frz0\alpha&H00&))\t(4925,5025,\frz-0.014\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1006.9859375,1263.29,1013.9875)\alpha&HFF&\org(1187.465,-100000)\frz0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(558,558,\3c&H9A8610&\t(1058,1058,\3c&H000000&))\t(1058,1158,\frz-0.01\alpha&HFF&\t(1158,1258,\frz0\alpha&H00&))\t(1518,1518,\3c&H9A8610&\t(3018,3018,\3c&H000000&))\t(3018,3118,\frz-0.014\alpha&HFF&\t(3118,3218,\frz0\alpha&H00&))\t(3768,3768,\3c&H9A8610&)\t(4018,4018,\3c&H000000&)\t(4018,4118,\frz-0.029\alpha&HFF&\t(4118,4218,\frz0\alpha&H00&))\t(4878,4978,\frz0.013\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.32,0:13:54.36,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1013.9875,1263.29,1020.9890625)\alpha&HFF&\org(1187.465,-100000)\frz-0.025\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(686,686,\3c&H9A8610&\t(1186,1186,\3c&H000000&))\t(1186,1286,\frz-0.021\alpha&HFF&\t(1286,1386,\frz0\alpha&H00&))\t(1646,1646,\3c&H9A8610&\t(3146,3146,\3c&H000000&))\t(3146,3246,\frz0.025\alpha&HFF&\t(3246,3346,\frz0\alpha&H00&))\t(3896,3896,\3c&H9A8610&)\t(4146,4146,\3c&H000000&)\t(4146,4246,\frz-0.025\alpha&HFF&\t(4246,4346,\frz0\alpha&H00&))\t(5006,5106,\frz-0.024\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1020.9890625,1263.29,1027.990625)\alpha&HFF&\org(1187.465,-100000)\frz0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(692,692,\3c&H9A8610&\t(1192,1192,\3c&H000000&))\t(1192,1292,\frz0.011\alpha&HFF&\t(1292,1392,\frz0\alpha&H00&))\t(1652,1652,\3c&H9A8610&\t(3152,3152,\3c&H000000&))\t(3152,3252,\frz0.017\alpha&HFF&\t(3252,3352,\frz0\alpha&H00&))\t(3902,3902,\3c&H9A8610&)\t(4152,4152,\3c&H000000&)\t(4152,4252,\frz0.016\alpha&HFF&\t(4252,4352,\frz0\alpha&H00&))\t(5012,5112,\frz-0.021\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1027.990625,1263.29,1034.9921875)\alpha&HFF&\org(1187.465,-100000)\frz-0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(701,701,\3c&H9A8610&\t(1201,1201,\3c&H000000&))\t(1201,1301,\frz-0.026\alpha&HFF&\t(1301,1401,\frz0\alpha&H00&))\t(1661,1661,\3c&H9A8610&\t(3161,3161,\3c&H000000&))\t(3161,3261,\frz0.028\alpha&HFF&\t(3261,3361,\frz0\alpha&H00&))\t(3911,3911,\3c&H9A8610&)\t(4161,4161,\3c&H000000&)\t(4161,4261,\frz-0.023\alpha&HFF&\t(4261,4361,\frz0\alpha&H00&))\t(5021,5121,\frz0.016\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1034.9921875,1263.29,1041.99375)\alpha&HFF&\org(1187.465,-100000)\frz0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(552,552,\3c&H9A8610&\t(1052,1052,\3c&H000000&))\t(1052,1152,\frz-0.028\alpha&HFF&\t(1152,1252,\frz0\alpha&H00&))\t(1512,1512,\3c&H9A8610&\t(3012,3012,\3c&H000000&))\t(3012,3112,\frz-0.026\alpha&HFF&\t(3112,3212,\frz0\alpha&H00&))\t(3762,3762,\3c&H9A8610&)\t(4012,4012,\3c&H000000&)\t(4012,4112,\frz-0.013\alpha&HFF&\t(4112,4212,\frz0\alpha&H00&))\t(4872,4972,\frz0.023\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.28,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1041.99375,1263.29,1048.9953125)\alpha&HFF&\org(1187.465,-100000)\frz-0.027\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(730,730,\3c&H9A8610&\t(1230,1230,\3c&H000000&))\t(1230,1330,\frz0.019\alpha&HFF&\t(1330,1430,\frz0\alpha&H00&))\t(1690,1690,\3c&H9A8610&\t(3190,3190,\3c&H000000&))\t(3190,3290,\frz-0.018\alpha&HFF&\t(3290,3390,\frz0\alpha&H00&))\t(3940,3940,\3c&H9A8610&)\t(4190,4190,\3c&H000000&)\t(4190,4290,\frz-0.019\alpha&HFF&\t(4290,4390,\frz0\alpha&H00&))\t(5050,5150,\frz0.018\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.31,0:13:54.37,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1048.9953125,1263.29,1055.996875)\alpha&HFF&\org(1187.465,-100000)\frz-0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(695,695,\3c&H9A8610&\t(1195,1195,\3c&H000000&))\t(1195,1295,\frz-0.026\alpha&HFF&\t(1295,1395,\frz0\alpha&H00&))\t(1655,1655,\3c&H9A8610&\t(3155,3155,\3c&H000000&))\t(3155,3255,\frz-0.02\alpha&HFF&\t(3255,3355,\frz0\alpha&H00&))\t(3905,3905,\3c&H9A8610&)\t(4155,4155,\3c&H000000&)\t(4155,4255,\frz0.015\alpha&HFF&\t(4255,4355,\frz0\alpha&H00&))\t(5015,5115,\frz-0.015\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.44,0:13:54.24,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1055.996875,1263.29,1062.9984375)\alpha&HFF&\org(1187.465,-100000)\frz0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(568,568,\3c&H9A8610&\t(1068,1068,\3c&H000000&))\t(1068,1168,\frz0.027\alpha&HFF&\t(1168,1268,\frz0\alpha&H00&))\t(1528,1528,\3c&H9A8610&\t(3028,3028,\3c&H000000&))\t(3028,3128,\frz0.01\alpha&HFF&\t(3128,3228,\frz0\alpha&H00&))\t(3778,3778,\3c&H9A8610&)\t(4028,4028,\3c&H000000&)\t(4028,4128,\frz-0.019\alpha&HFF&\t(4128,4228,\frz0\alpha&H00&))\t(4888,4988,\frz0.02\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1187.465,1034.9921875)\clip(1111.64,1062.9984375,1263.29,1070)\alpha&HFF&\org(1187.465,-100000)\frz0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(742,742,\3c&H9A8610&\t(1242,1242,\3c&H000000&))\t(1242,1342,\frz-0.021\alpha&HFF&\t(1342,1442,\frz0\alpha&H00&))\t(1702,1702,\3c&H9A8610&\t(3202,3202,\3c&H000000&))\t(3202,3302,\frz0.01\alpha&HFF&\t(3302,3402,\frz0\alpha&H00&))\t(3952,3952,\3c&H9A8610&)\t(4202,4202,\3c&H000000&)\t(4202,4302,\frz0.026\alpha&HFF&\t(4302,4402,\frz0\alpha&H00&))\t(5062,5162,\frz0.011\alpha&HFF&)}ど
+Dialogue: 0,0:13:49.44,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,999.984375,1313.84,1006.9859375)\alpha&HFF&\org(1238.015,-100000)\frz-0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(570,570,\3c&H9A8610&\t(1070,1070,\3c&H000000&))\t(1070,1170,\frz0.011\alpha&HFF&\t(1170,1270,\frz0\alpha&H00&))\t(1530,1530,\3c&H9A8610&\t(3030,3030,\3c&H000000&))\t(3030,3130,\frz0.014\alpha&HFF&\t(3130,3230,\frz0\alpha&H00&))\t(3780,3780,\3c&H9A8610&)\t(4030,4030,\3c&H000000&)\t(4030,4130,\frz0.014\alpha&HFF&\t(4130,4230,\frz0\alpha&H00&))\t(4890,4990,\frz-0.022\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.26,0:13:54.42,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1006.9859375,1313.84,1013.9875)\alpha&HFF&\org(1238.015,-100000)\frz-0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(741,741,\3c&H9A8610&\t(1241,1241,\3c&H000000&))\t(1241,1341,\frz-0.013\alpha&HFF&\t(1341,1441,\frz0\alpha&H00&))\t(1701,1701,\3c&H9A8610&\t(3201,3201,\3c&H000000&))\t(3201,3301,\frz0.014\alpha&HFF&\t(3301,3401,\frz0\alpha&H00&))\t(3951,3951,\3c&H9A8610&)\t(4201,4201,\3c&H000000&)\t(4201,4301,\frz0.016\alpha&HFF&\t(4301,4401,\frz0\alpha&H00&))\t(5061,5161,\frz-0.028\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.42,0:13:54.26,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1013.9875,1313.84,1020.9890625)\alpha&HFF&\org(1238.015,-100000)\frz-0.014\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(584,584,\3c&H9A8610&\t(1084,1084,\3c&H000000&))\t(1084,1184,\frz-0.012\alpha&HFF&\t(1184,1284,\frz0\alpha&H00&))\t(1544,1544,\3c&H9A8610&\t(3044,3044,\3c&H000000&))\t(3044,3144,\frz-0.021\alpha&HFF&\t(3144,3244,\frz0\alpha&H00&))\t(3794,3794,\3c&H9A8610&)\t(4044,4044,\3c&H000000&)\t(4044,4144,\frz-0.027\alpha&HFF&\t(4144,4244,\frz0\alpha&H00&))\t(4904,5004,\frz0.015\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1020.9890625,1313.84,1027.990625)\alpha&HFF&\org(1238.015,-100000)\frz-0.029\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(578,578,\3c&H9A8610&\t(1078,1078,\3c&H000000&))\t(1078,1178,\frz0.02\alpha&HFF&\t(1178,1278,\frz0\alpha&H00&))\t(1538,1538,\3c&H9A8610&\t(3038,3038,\3c&H000000&))\t(3038,3138,\frz-0.021\alpha&HFF&\t(3138,3238,\frz0\alpha&H00&))\t(3788,3788,\3c&H9A8610&)\t(4038,4038,\3c&H000000&)\t(4038,4138,\frz-0.012\alpha&HFF&\t(4138,4238,\frz0\alpha&H00&))\t(4898,4998,\frz0.021\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.30,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1027.990625,1313.84,1034.9921875)\alpha&HFF&\org(1238.015,-100000)\frz0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(705,705,\3c&H9A8610&\t(1205,1205,\3c&H000000&))\t(1205,1305,\frz-0.022\alpha&HFF&\t(1305,1405,\frz0\alpha&H00&))\t(1665,1665,\3c&H9A8610&\t(3165,3165,\3c&H000000&))\t(3165,3265,\frz0.027\alpha&HFF&\t(3265,3365,\frz0\alpha&H00&))\t(3915,3915,\3c&H9A8610&)\t(4165,4165,\3c&H000000&)\t(4165,4265,\frz0.027\alpha&HFF&\t(4265,4365,\frz0\alpha&H00&))\t(5025,5125,\frz-0.029\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1034.9921875,1313.84,1041.99375)\alpha&HFF&\org(1238.015,-100000)\frz0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(638,638,\3c&H9A8610&\t(1138,1138,\3c&H000000&))\t(1138,1238,\frz-0.021\alpha&HFF&\t(1238,1338,\frz0\alpha&H00&))\t(1598,1598,\3c&H9A8610&\t(3098,3098,\3c&H000000&))\t(3098,3198,\frz-0.025\alpha&HFF&\t(3198,3298,\frz0\alpha&H00&))\t(3848,3848,\3c&H9A8610&)\t(4098,4098,\3c&H000000&)\t(4098,4198,\frz0.028\alpha&HFF&\t(4198,4298,\frz0\alpha&H00&))\t(4958,5058,\frz0.019\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.27,0:13:54.41,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1041.99375,1313.84,1048.9953125)\alpha&HFF&\org(1238.015,-100000)\frz-0.02\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(736,736,\3c&H9A8610&\t(1236,1236,\3c&H000000&))\t(1236,1336,\frz-0.028\alpha&HFF&\t(1336,1436,\frz0\alpha&H00&))\t(1696,1696,\3c&H9A8610&\t(3196,3196,\3c&H000000&))\t(3196,3296,\frz-0.025\alpha&HFF&\t(3296,3396,\frz0\alpha&H00&))\t(3946,3946,\3c&H9A8610&)\t(4196,4196,\3c&H000000&)\t(4196,4296,\frz0.014\alpha&HFF&\t(4296,4396,\frz0\alpha&H00&))\t(5056,5156,\frz0.015\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.40,0:13:54.28,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1048.9953125,1313.84,1055.996875)\alpha&HFF&\org(1238.015,-100000)\frz0.021\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(601,601,\3c&H9A8610&\t(1101,1101,\3c&H000000&))\t(1101,1201,\frz-0.017\alpha&HFF&\t(1201,1301,\frz0\alpha&H00&))\t(1561,1561,\3c&H9A8610&\t(3061,3061,\3c&H000000&))\t(3061,3161,\frz-0.023\alpha&HFF&\t(3161,3261,\frz0\alpha&H00&))\t(3811,3811,\3c&H9A8610&)\t(4061,4061,\3c&H000000&)\t(4061,4161,\frz0.012\alpha&HFF&\t(4161,4261,\frz0\alpha&H00&))\t(4921,5021,\frz-0.029\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.35,0:13:54.33,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1055.996875,1313.84,1062.9984375)\alpha&HFF&\org(1238.015,-100000)\frz-0.024\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(659,659,\3c&H9A8610&\t(1159,1159,\3c&H000000&))\t(1159,1259,\frz-0.028\alpha&HFF&\t(1259,1359,\frz0\alpha&H00&))\t(1619,1619,\3c&H9A8610&\t(3119,3119,\3c&H000000&))\t(3119,3219,\frz0.019\alpha&HFF&\t(3219,3319,\frz0\alpha&H00&))\t(3869,3869,\3c&H9A8610&)\t(4119,4119,\3c&H000000&)\t(4119,4219,\frz0.014\alpha&HFF&\t(4219,4319,\frz0\alpha&H00&))\t(4979,5079,\frz-0.01\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.31,0:13:54.38,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1238.015,1034.9921875)\clip(1162.19,1062.9984375,1313.84,1070)\alpha&HFF&\org(1238.015,-100000)\frz0.013\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(700,700,\3c&H9A8610&\t(1200,1200,\3c&H000000&))\t(1200,1300,\frz0.02\alpha&HFF&\t(1300,1400,\frz0\alpha&H00&))\t(1660,1660,\3c&H9A8610&\t(3160,3160,\3c&H000000&))\t(3160,3260,\frz-0.02\alpha&HFF&\t(3260,3360,\frz0\alpha&H00&))\t(3910,3910,\3c&H9A8610&)\t(4160,4160,\3c&H000000&)\t(4160,4260,\frz-0.011\alpha&HFF&\t(4260,4360,\frz0\alpha&H00&))\t(5020,5120,\frz-0.013\alpha&HFF&)}さ
+Dialogue: 0,0:13:49.43,0:13:54.25,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,999.984375,1364.39,1006.9859375)\alpha&HFF&\org(1288.565,-100000)\frz-0.011\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(579,579,\3c&H9A8610&\t(1079,1079,\3c&H000000&))\t(1079,1179,\frz0.023\alpha&HFF&\t(1179,1279,\frz0\alpha&H00&))\t(1539,1539,\3c&H9A8610&\t(3039,3039,\3c&H000000&))\t(3039,3139,\frz-0.018\alpha&HFF&\t(3139,3239,\frz0\alpha&H00&))\t(3789,3789,\3c&H9A8610&)\t(4039,4039,\3c&H000000&)\t(4039,4139,\frz-0.011\alpha&HFF&\t(4139,4239,\frz0\alpha&H00&))\t(4899,4999,\frz0.018\alpha&HFF&)}…
+Dialogue: 0,0:13:49.33,0:13:54.35,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1006.9859375,1364.39,1013.9875)\alpha&HFF&\org(1288.565,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(674,674,\3c&H9A8610&\t(1174,1174,\3c&H000000&))\t(1174,1274,\frz-0.019\alpha&HFF&\t(1274,1374,\frz0\alpha&H00&))\t(1634,1634,\3c&H9A8610&\t(3134,3134,\3c&H000000&))\t(3134,3234,\frz-0.018\alpha&HFF&\t(3234,3334,\frz0\alpha&H00&))\t(3884,3884,\3c&H9A8610&)\t(4134,4134,\3c&H000000&)\t(4134,4234,\frz-0.03\alpha&HFF&\t(4234,4334,\frz0\alpha&H00&))\t(4994,5094,\frz-0.021\alpha&HFF&)}…
+Dialogue: 0,0:13:49.29,0:13:54.39,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1013.9875,1364.39,1020.9890625)\alpha&HFF&\org(1288.565,-100000)\frz-0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(711,711,\3c&H9A8610&\t(1211,1211,\3c&H000000&))\t(1211,1311,\frz-0.022\alpha&HFF&\t(1311,1411,\frz0\alpha&H00&))\t(1671,1671,\3c&H9A8610&\t(3171,3171,\3c&H000000&))\t(3171,3271,\frz0.016\alpha&HFF&\t(3271,3371,\frz0\alpha&H00&))\t(3921,3921,\3c&H9A8610&)\t(4171,4171,\3c&H000000&)\t(4171,4271,\frz0.024\alpha&HFF&\t(4271,4371,\frz0\alpha&H00&))\t(5031,5131,\frz0.024\alpha&HFF&)}…
+Dialogue: 0,0:13:49.38,0:13:54.30,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1020.9890625,1364.39,1027.990625)\alpha&HFF&\org(1288.565,-100000)\frz-0.03\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(621,621,\3c&H9A8610&\t(1121,1121,\3c&H000000&))\t(1121,1221,\frz-0.027\alpha&HFF&\t(1221,1321,\frz0\alpha&H00&))\t(1581,1581,\3c&H9A8610&\t(3081,3081,\3c&H000000&))\t(3081,3181,\frz0.013\alpha&HFF&\t(3181,3281,\frz0\alpha&H00&))\t(3831,3831,\3c&H9A8610&)\t(4081,4081,\3c&H000000&)\t(4081,4181,\frz-0.013\alpha&HFF&\t(4181,4281,\frz0\alpha&H00&))\t(4941,5041,\frz0.016\alpha&HFF&)}…
+Dialogue: 0,0:13:49.38,0:13:54.30,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1027.990625,1364.39,1034.9921875)\alpha&HFF&\org(1288.565,-100000)\frz0.017\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(624,624,\3c&H9A8610&\t(1124,1124,\3c&H000000&))\t(1124,1224,\frz0.017\alpha&HFF&\t(1224,1324,\frz0\alpha&H00&))\t(1584,1584,\3c&H9A8610&\t(3084,3084,\3c&H000000&))\t(3084,3184,\frz-0.022\alpha&HFF&\t(3184,3284,\frz0\alpha&H00&))\t(3834,3834,\3c&H9A8610&)\t(4084,4084,\3c&H000000&)\t(4084,4184,\frz0.026\alpha&HFF&\t(4184,4284,\frz0\alpha&H00&))\t(4944,5044,\frz0.014\alpha&HFF&)}…
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1034.9921875,1364.39,1041.99375)\alpha&HFF&\org(1288.565,-100000)\frz-0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(631,631,\3c&H9A8610&\t(1131,1131,\3c&H000000&))\t(1131,1231,\frz-0.011\alpha&HFF&\t(1231,1331,\frz0\alpha&H00&))\t(1591,1591,\3c&H9A8610&\t(3091,3091,\3c&H000000&))\t(3091,3191,\frz0.027\alpha&HFF&\t(3191,3291,\frz0\alpha&H00&))\t(3841,3841,\3c&H9A8610&)\t(4091,4091,\3c&H000000&)\t(4091,4191,\frz-0.017\alpha&HFF&\t(4191,4291,\frz0\alpha&H00&))\t(4951,5051,\frz0.025\alpha&HFF&)}…
+Dialogue: 0,0:13:49.37,0:13:54.31,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1041.99375,1364.39,1048.9953125)\alpha&HFF&\org(1288.565,-100000)\frz0.015\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(632,632,\3c&H9A8610&\t(1132,1132,\3c&H000000&))\t(1132,1232,\frz-0.014\alpha&HFF&\t(1232,1332,\frz0\alpha&H00&))\t(1592,1592,\3c&H9A8610&\t(3092,3092,\3c&H000000&))\t(3092,3192,\frz-0.014\alpha&HFF&\t(3192,3292,\frz0\alpha&H00&))\t(3842,3842,\3c&H9A8610&)\t(4092,4092,\3c&H000000&)\t(4092,4192,\frz-0.025\alpha&HFF&\t(4192,4292,\frz0\alpha&H00&))\t(4952,5052,\frz-0.029\alpha&HFF&)}…
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1048.9953125,1364.39,1055.996875)\alpha&HFF&\org(1288.565,-100000)\frz-0.01\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(613,613,\3c&H9A8610&\t(1113,1113,\3c&H000000&))\t(1113,1213,\frz0.013\alpha&HFF&\t(1213,1313,\frz0\alpha&H00&))\t(1573,1573,\3c&H9A8610&\t(3073,3073,\3c&H000000&))\t(3073,3173,\frz-0.014\alpha&HFF&\t(3173,3273,\frz0\alpha&H00&))\t(3823,3823,\3c&H9A8610&)\t(4073,4073,\3c&H000000&)\t(4073,4173,\frz-0.013\alpha&HFF&\t(4173,4273,\frz0\alpha&H00&))\t(4933,5033,\frz-0.029\alpha&HFF&)}…
+Dialogue: 0,0:13:49.45,0:13:54.23,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1055.996875,1364.39,1062.9984375)\alpha&HFF&\org(1288.565,-100000)\frz0.018\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(552,552,\3c&H9A8610&\t(1052,1052,\3c&H000000&))\t(1052,1152,\frz0.028\alpha&HFF&\t(1152,1252,\frz0\alpha&H00&))\t(1512,1512,\3c&H9A8610&\t(3012,3012,\3c&H000000&))\t(3012,3112,\frz0.01\alpha&HFF&\t(3112,3212,\frz0\alpha&H00&))\t(3762,3762,\3c&H9A8610&)\t(4012,4012,\3c&H000000&)\t(4012,4112,\frz0.014\alpha&HFF&\t(4112,4212,\frz0\alpha&H00&))\t(4872,4972,\frz-0.03\alpha&HFF&)}…
+Dialogue: 0,0:13:49.39,0:13:54.29,Sx-jp,fx-eff,0,0,0,fx,{\an5\pos(1288.565,1034.9921875)\clip(1212.74,1062.9984375,1364.39,1070)\alpha&HFF&\org(1288.565,-100000)\frz0.016\t(0,100,\frz0\alpha&H00&)\3c&H000000&\blur2\t(614,614,\3c&H9A8610&\t(1114,1114,\3c&H000000&))\t(1114,1214,\frz0.011\alpha&HFF&\t(1214,1314,\frz0\alpha&H00&))\t(1574,1574,\3c&H9A8610&\t(3074,3074,\3c&H000000&))\t(3074,3174,\frz-0.021\alpha&HFF&\t(3174,3274,\frz0\alpha&H00&))\t(3824,3824,\3c&H9A8610&)\t(4074,4074,\3c&H000000&)\t(4074,4174,\frz-0.024\alpha&HFF&\t(4174,4274,\frz0\alpha&H00&))\t(4934,5034,\frz0.016\alpha&HFF&)}…
+Dialogue: 0,0:13:55.32,0:13:58.66,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}なんか 大丈夫になったのよ
+Dialogue: 0,0:13:58.66,0:14:00.96,Sx-jp,甲斐すずか,42,0,0,fx,{\blur2}{\3c&HCA207D&}ともみ先輩のおかげ？
+Dialogue: 0,0:14:00.96,0:14:02.43,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}かもね
+Dialogue: 0,0:14:02.43,0:14:04.44,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}ヒカルくん すずかちゃん
+Dialogue: 0,0:14:06.08,0:14:08.42,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}発車まで 時間あるから
+Dialogue: 0,0:14:08.98,0:14:10.63,Sx-jp,桜沢ともみ,0,0,0,fx,{\blur2}{\3c&H3D33C2&}お茶にしましょう
+Dialogue: 0,0:14:13.29,0:14:16.33,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}この人の子宮から生まれ直したい
+Dialogue: 0,0:14:16.33,0:14:18.63,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}そう思わせてくれるだけで
+Dialogue: 0,0:14:18.63,0:14:20.66,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}救いなのかもと思った
+Dialogue: 0,0:14:24.11,0:14:25.25,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}どうやら
+Dialogue: 0,0:14:25.25,0:14:27.96,Sx-jp,甲斐ヒカル,0,0,0,fx,{\blur2}{\3c&H9A8610&}おっぱいは世界を救うらしい
+Dialogue: 0,0:14:28.69,0:14:30.98,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}二人で何話してたの？
+Dialogue: 0,0:14:30.98,0:14:32.76,Sx-jp,桜沢ともみ,42,0,0,fx,{\blur2}{\3c&H3D33C2&}私も混ぜて！
