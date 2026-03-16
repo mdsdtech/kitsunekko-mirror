@@ -1,0 +1,402 @@
+[Script Info]
+Title: Maho2 BDrip EP02
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Original Translation: Ming
+YCbCr Matrix: TV.709
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Script: FLsnow
+Script Updated By: WBX
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Curerpp_MR,法Q喵鸣体,75,&H00FFFFFF,&H00FFFFFF,&H00A766FF,&H645022A2,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,20,1
+Style: Curerpp_LK,法Q喵鸣体,75,&H00FFFFFF,&H00FFFFFF,&H00E479A1,&H64823651,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,20,1
+Style: Curerpp_ML,法Q喵鸣体,75,&H00FFFFFF,&H00FFFFFF,&H00A766FF,&H1EE479A1,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,20,1
+Style: Curerpp_FL,法Q喵鸣体,75,&H00FFFFFF,&H00FFFFFF,&H009FA430,&H6442B240,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,20,1
+Style: Curerpp_MO,法Q喵鸣体,75,&H00FFFFFF,&H00FFFFFF,&H004785EA,&H6414BAF6,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,20,1
+Style: Default_JP,方正正准黑_GBK,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: Miracle_JP,方正正准黑_GBK,80,&H00FFFFFF,&H00FFFFFF,&H00A766FF,&H645022A2,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: Magical_JP,方正正准黑_GBK,80,&H00FFFFFF,&H00FFFFFF,&H00E479A1,&H64823651,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: MagiMiraJP,方正正准黑_GBK,80,&H00FFFFFF,&H00FFFFFF,&H00A650FF,&H1EE06E9E,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: Mofurun_JP,方正正准黑_GBK,80,&H00FFFFFF,&H00FFFFFF,&H004785EA,&H6414BAF6,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: DarkMHS_JP,方正正准黑_GBK,80,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,1,0,0,0,100,100,1.5,0,1,3,2,2,15,15,54,1
+Style: OP,方正粗倩简体,52,&H00FFFFFF,&H00002EFF,&H00000000,&H64000000,0,0,0,0,100,100,3,0,1,1.5,4.5,2,15,15,3,1
+Style: OP_JP,SoukouMincho,70,&H00FFFFFF,&H00002EFF,&H00000000,&H64000000,1,0,0,0,100,100,3,0,1,1.5,4.5,2,15,15,60,1
+Style: ED_1,方正粗倩简体,50,&H00FFFFFF,&H00002EFF,&H009C64EF,&H64CCBDE9,0,0,0,0,100,100,3,0,1,6,0,2,15,15,3,1
+Style: ED_2,方正粗倩简体,50,&H00FFFFFF,&H00002EFF,&H00FFFFFF,&H00303032,0,0,0,0,100,100,3,0,1,10,5,2,15,15,3,1
+Style: ED_1_JP,SoukouMincho,70,&H00FFFFFF,&H00002EFF,&H009C64EF,&H64CCBDE9,0,0,0,0,100,100,3,0,1,6,0,2,15,15,70,1
+Style: ED_2_JP,SoukouMincho,70,&H00FFFFFF,&H00002EFF,&H00FFFFFF,&H00303032,0,0,0,0,100,100,3,0,1,10,5,2,15,15,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.33,0:00:02.24,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:00:04.52,0:00:05.23,Miracle_JP,,0,0,0,,あっ...
+Dialogue: 0,0:00:05.85,0:00:06.79,Magical_JP,,0,0,0,,はっ...
+Dialogue: 0,0:00:08.70,0:00:09.89,MagiMiraJP,,0,0,0,,はーちゃん？
+Dialogue: 0,0:01:45.37,0:01:46.35,Miracle_JP,,0,0,0,,はーちゃん
+Dialogue: 0,0:01:49.81,0:01:52.41,Mofurun_JP,,0,0,0,,魔法でちっちゃくなっちゃったモフ？
+Dialogue: 0,0:01:57.41,0:01:58.22,MagiMiraJP,,0,0,0,,えっ？
+Dialogue: 0,0:02:00.98,0:02:01.97,Miracle_JP,,0,0,0,,お名前は？
+Dialogue: 0,0:02:03.36,0:02:04.81,Miracle_JP,,0,0,0,,おうちはどこ？
+Dialogue: 0,0:02:07.06,0:02:08.89,Mofurun_JP,,0,0,0,,困ったモフ
+Dialogue: 0,0:02:16.15,0:02:16.91,Miracle_JP,,0,0,0,,えっ...
+Dialogue: 0,0:02:17.39,0:02:18.81,Magical_JP,,0,0,0,,あの人 知ってた
+Dialogue: 0,0:02:18.99,0:02:19.80,Miracle_JP,,0,0,0,,おっ...
+Dialogue: 0,0:02:20.51,0:02:21.73,Magical_JP,,0,0,0,,この子のこと
+Dialogue: 0,0:02:23.21,0:02:24.68,DarkMHS_JP,,0,0,0,,ではまた
+Dialogue: 0,0:02:25.85,0:02:27.05,DarkMHS_JP,,0,0,0,,キミも
+Dialogue: 0,0:02:29.80,0:02:33.26,Magical_JP,,0,0,0,,水晶さんのお告げと\N関係があるかもしれない
+Dialogue: 0,0:02:34.02,0:02:34.93,Miracle_JP,,0,0,0,,お告げ？
+Dialogue: 0,0:02:35.01,0:02:38.26,Magical_JP,,0,0,0,,魔法界で新たな災いが起こるって
+Dialogue: 0,0:02:38.68,0:02:44.30,Magical_JP,,0,0,0,,災いがなんなのか 校長先生に調べてくる\Nように頼まれて こっちに来たの
+Dialogue: 0,0:02:44.72,0:02:47.28,Magical_JP,,0,0,0,,きっと この子が鍵を握っているのよ
+Dialogue: 0,0:02:47.60,0:02:51.80,Magical_JP,,0,0,0,,校長先生のところに \N魔法学校に行きましょう
+Dialogue: 0,0:02:52.27,0:02:56.33,Miracle_JP,,0,0,0,,い...今 \N魔法学校って言いました？
+Dialogue: 0,0:02:57.22,0:02:59.80,Mofurun_JP,,0,0,0,,言いましたモフ
+Dialogue: 0,0:03:23.28,0:03:24.43,Magical_JP,,0,0,0,,3人分
+Dialogue: 0,0:03:30.95,0:03:35.60,Default_JP,,0,0,0,,2人分で結構です \N幼児の乗車料金は無料です
+Dialogue: 0,0:03:38.43,0:03:43.22,Default_JP,,0,0,0,,魔法界魔法学校行きが \N間もなく発車いたします
+Dialogue: 0,0:03:47.46,0:03:48.88,Magical_JP,,0,0,0,,気をつけてね
+Dialogue: 0,0:03:58.98,0:04:01.18,Default_JP,,0,0,0,,ことー！
+Dialogue: 0,0:04:08.06,0:04:10.11,Magical_JP,,0,0,0,,最近 はーちゃんと会った？
+Dialogue: 0,0:04:10.26,0:04:12.04,Miracle_JP,,0,0,0,,ううん リコは？
+Dialogue: 0,0:04:12.26,0:04:13.69,Magical_JP,,0,0,0,,私も会ってない
+Dialogue: 0,0:04:17.26,0:04:19.42,Mofurun_JP,,0,0,0,,苦しいモフ
+Dialogue: 0,0:04:22.85,0:04:25.26,Magical_JP,,0,0,0,,はーちゃんと関係ありそうだけど
+Dialogue: 0,0:04:25.60,0:04:27.85,Magical_JP,,0,0,0,,遠くから見守ってるって言ってたし
+Dialogue: 0,0:04:32.06,0:04:34.68,Magical_JP,,0,0,0,,というか 見てくれてるのかしら？
+Dialogue: 0,0:04:34.88,0:04:38.26,Miracle_JP,,0,0,0,,うーん どこでどうしてるんどこねー
+Dialogue: 0,0:04:38.45,0:04:40.15,Default_JP,,0,0,0,,カタカター
+Dialogue: 0,0:04:52.05,0:04:54.02,Miracle_JP,,0,0,0,,車内販売なんだけど
+Dialogue: 0,0:04:54.08,0:04:56.20,Magical_JP,,0,0,0,,ああ 私が払うから
+Dialogue: 0,0:04:57.44,0:04:58.80,Magical_JP,,0,0,0,,あと これも
+Dialogue: 0,0:05:05.26,0:05:07.26,Mofurun_JP,,0,0,0,,冷凍みかんモフ
+Dialogue: 0,0:05:09.32,0:05:10.60,Magical_JP,,0,0,0,,キュアップ・ラパパ
+Dialogue: 0,0:05:09.32,0:05:10.60,Curerpp_LK,,0,0,0,,CURE UP·RAPAPA
+Dialogue: 0,0:05:11.06,0:05:13.00,Magical_JP,,0,0,0,,氷よ 溶けなさい
+Dialogue: 0,0:05:17.25,0:05:18.88,Miracle_JP,,0,0,0,,久しぶりだ
+Dialogue: 0,0:05:18.95,0:05:19.97,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:05:21.75,0:05:23.37,Miracle_JP,,0,0,0,,とっても美味しいんだよ
+Dialogue: 0,0:05:43.03,0:05:44.32,Miracle_JP,,0,0,0,,魔法界？
+Dialogue: 0,0:05:45.31,0:05:46.73,Miracle_JP,,0,0,0,,わくわくもんだー！
+Dialogue: 0,0:05:46.78,0:05:48.64,Mofurun_JP,,0,0,0,,わくわくもんモフ
+Dialogue: 0,0:05:49.01,0:05:53.82,Magical_JP,,0,0,0,,本当に機械仕掛けじゃないのよね \Nあなたのぬいぐるみ
+Dialogue: 0,0:05:54.35,0:05:58.95,Miracle_JP,,0,0,0,,うん リコちゃんに会うまでは \Nしゃべったことも動いたこともなかったし
+Dialogue: 0,0:05:59.16,0:06:01.80,Miracle_JP,,0,0,0,,あ あと あなたじゃなくて \Nみらいね 私
+Dialogue: 0,0:06:01.93,0:06:03.50,Miracle_JP,,0,0,0,,朝日奈みらい
+Dialogue: 0,0:06:03.62,0:06:05.18,Miracle_JP,,0,0,0,,もうすぐ中学2年生
+Dialogue: 0,0:06:05.38,0:06:07.17,Magical_JP,,0,0,0,,それ 聞いたから
+Dialogue: 0,0:06:07.64,0:06:09.91,Miracle_JP,,0,0,0,,改めて自己紹介だよ
+Dialogue: 0,0:06:10.57,0:06:12.69,Miracle_JP,,0,0,0,,よろしくね リコちゃん
+Dialogue: 0,0:06:12.88,0:06:14.25,Mofurun_JP,,0,0,0,,よろしくモフ
+Dialogue: 0,0:06:14.56,0:06:17.08,Magical_JP,,0,0,0,,あ うっ ええ...
+Dialogue: 0,0:06:19.91,0:06:21.43,Miracle_JP,,0,0,0,,えっ あれ？
+Dialogue: 0,0:06:22.58,0:06:23.80,Magical_JP,,0,0,0,,みらい？
+Dialogue: 0,0:06:24.21,0:06:25.66,Mofurun_JP,,0,0,0,,どうしたモフ？
+Dialogue: 0,0:06:25.99,0:06:28.53,Miracle_JP,,0,0,0,,あっ ごめん 寝落ちしてた？
+Dialogue: 0,0:06:28.87,0:06:31.74,Miracle_JP,,0,0,0,,初めて魔法界に行くときの夢見てた
+Dialogue: 0,0:06:31.93,0:06:36.35,Magical_JP,,0,0,0,,寝落ちって \N冷凍みかん解凍して この数秒よ
+Dialogue: 0,0:06:36.44,0:06:37.79,Miracle_JP,,0,0,0,,えっ 本当に？
+Dialogue: 0,0:06:56.16,0:06:57.72,Magical_JP,,0,0,0,,あれが魔法界よ
+Dialogue: 0,0:07:11.44,0:07:15.46,Default_JP,,0,0,0,,久しぶりじゃの \Nみらいくん モフルンくん
+Dialogue: 0,0:07:15.86,0:07:16.97,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:07:17.06,0:07:19.28,Miracle_JP,,0,0,0,,校長先生もおかわりなく
+Dialogue: 0,0:07:21.15,0:07:23.68,Miracle_JP,,0,0,0,,魔法学校の校長先生だよ
+Dialogue: 0,0:07:24.16,0:07:25.46,Default_JP,,0,0,0,,この子が例の
+Dialogue: 0,0:07:25.56,0:07:26.48,Magical_JP,,0,0,0,,はい
+Dialogue: 0,0:07:26.68,0:07:30.17,Default_JP,,0,0,0,,リコ先生からの連絡で\N聞いてはいましたが
+Dialogue: 0,0:07:30.61,0:07:31.87,Default_JP,,0,0,0,,似ていますね
+Dialogue: 0,0:07:32.05,0:07:35.02,Default_JP,,0,0,0,,ああ 確かに ことはくんを思わせる
+Dialogue: 0,0:07:38.32,0:07:40.72,Default_JP,,0,0,0,,うん 髪の色は違えど
+Dialogue: 0,0:07:40.90,0:07:44.54,Miracle_JP,,0,0,0,,この髪とっても素敵だよね \Nひすい色でさ
+Dialogue: 0,0:07:57.27,0:07:58.59,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:07:59.10,0:08:01.46,Mofurun_JP,,0,0,0,,これじゃ モフルンが鬼モフ
+Dialogue: 0,0:08:03.80,0:08:08.73,Default_JP,,0,0,0,,14時間と4分後に \N怪物を生み出した者が現れると
+Dialogue: 0,0:08:08.93,0:08:11.10,Miracle_JP,,0,0,0,,はい そう言ってました
+Dialogue: 0,0:08:16.91,0:08:19.43,Magical_JP,,0,0,0,,その発言があってから \N5時間ですから
+Dialogue: 0,0:08:19.73,0:08:22.07,Magical_JP,,0,0,0,,再び彼が現れるまで...
+Dialogue: 0,0:08:22.25,0:08:25.18,Mofurun_JP,,0,0,0,,えっと...あと8時間モフ
+Dialogue: 0,0:08:25.52,0:08:26.56,Magical_JP,,0,0,0,,9時間よ
+Dialogue: 0,0:08:26.92,0:08:27.64,Miracle_JP,,0,0,0,,惜しい
+Dialogue: 0,0:08:28.17,0:08:29.68,Mofurun_JP,,0,0,0,,モ モフ...
+Dialogue: 0,0:08:30.11,0:08:32.72,Default_JP,,0,0,0,,という事は 現れる時刻は？
+Dialogue: 0,0:08:33.14,0:08:35.46,Mofurun_JP,,0,0,0,,えっと...モフ
+Dialogue: 0,0:08:35.76,0:08:37.87,Default_JP,,0,0,0,,深夜1時4分ですわ
+Dialogue: 0,0:08:38.51,0:08:41.41,Mofurun_JP,,0,0,0,,今 言おうと思ったモフ！
+Dialogue: 0,0:08:41.82,0:08:45.48,Default_JP,,0,0,0,,とにかく調べねばな その男のことを
+Dialogue: 0,0:08:46.42,0:08:48.17,Default_JP,,0,0,0,,そして あの子のことも
+Dialogue: 0,0:08:52.38,0:08:55.59,Default_JP,,0,0,0,,みらいくんとリコ先生は\N彼女といてあげなさい
+Dialogue: 0,0:08:56.00,0:08:59.44,Default_JP,,0,0,0,,一緒にいて欲しいというのが\N彼女の願いならば
+Dialogue: 0,0:08:59.89,0:09:00.57,MagiMiraJP,,0,0,0,,はい
+Dialogue: 0,0:09:03.81,0:09:05.47,Default_JP,,0,0,0,,はーちゃんそっくり
+Dialogue: 0,0:09:05.61,0:09:06.66,Default_JP,,0,0,0,,親戚？
+Dialogue: 0,0:09:06.88,0:09:09.41,Miracle_JP,,0,0,0,,まあ そんな感じなのかな
+Dialogue: 0,0:09:10.30,0:09:12.93,Magical_JP,,0,0,0,,ジュンが魔法界に帰ってるなんてね
+Dialogue: 0,0:09:13.22,0:09:19.16,Default_JP,,0,0,0,,ナシマホウ界でデザインの勉強しつつ \N偶にフランソワさんを手伝ってんだ
+Dialogue: 0,0:09:19.88,0:09:23.22,Default_JP,,0,0,0,,ジュンがデザインした\Nお洋服は大人気なの
+Dialogue: 0,0:09:23.88,0:09:26.69,Default_JP,,0,0,0,,みらいちゃんの魔法ガールの\N制服も最高でしょ
+Dialogue: 0,0:09:27.06,0:09:29.26,Miracle_JP,,0,0,0,,もうワクワクもんだよ！
+Dialogue: 0,0:09:29.96,0:09:33.01,Magical_JP,,0,0,0,,あれ作ったのジュンと\Nフランソアさんなの？
+Dialogue: 0,0:09:33.49,0:09:37.34,Magical_JP,,0,0,0,,魔法学校の生徒以外は\N制服着ちゃいけないのに
+Dialogue: 0,0:09:37.77,0:09:40.55,Default_JP,,0,0,0,,先生みたく固いこと言うなよ
+Dialogue: 0,0:09:40.75,0:09:42.66,Magical_JP,,0,0,0,,てか 私 先生だし！
+Dialogue: 0,0:09:46.10,0:09:47.95,Miracle_JP,,0,0,0,,ちょっと大きいかな
+Dialogue: 0,0:09:48.48,0:09:50.73,Magical_JP,,0,0,0,,だから制服ダメだって
+Dialogue: 0,0:09:51.09,0:09:53.25,Default_JP,,0,0,0,,キュアップ・ラパパ！
+Dialogue: 0,0:09:53.37,0:09:54.97,Default_JP,,0,0,0,,リボンをチョキチョキ
+Dialogue: 0,0:10:02.13,0:10:03.85,Default_JP,,0,0,0,,これならピッタリよ
+Dialogue: 0,0:10:04.42,0:10:05.97,Miracle_JP,,0,0,0,,私が着けてあげる
+Dialogue: 0,0:10:12.82,0:10:13.58,Miracle_JP,,0,0,0,,どう？
+Dialogue: 0,0:10:20.17,0:10:21.02,Miracle_JP,,0,0,0,,気に入った？
+Dialogue: 0,0:10:23.66,0:10:26.24,Default_JP,,0,0,0,,お名前 聞いてなかったわね
+Dialogue: 0,0:10:30.26,0:10:33.37,Miracle_JP,,0,0,0,,あ...名前は その
+Dialogue: 0,0:10:37.66,0:10:38.29,MagiMiraJP,,0,0,0,,え...
+Dialogue: 0,0:10:38.61,0:10:40.06,Default_JP,,0,0,0,,へー ひすいか
+Dialogue: 0,0:10:40.67,0:10:41.96,Miracle_JP,,0,0,0,,いい名前だね
+Dialogue: 0,0:10:42.33,0:10:43.22,Magical_JP,,0,0,0,,ええ
+Dialogue: 0,0:10:43.40,0:10:44.02,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:10:44.21,0:10:45.10,MagiMiraJP,,0,0,0,,ひすい
+Dialogue: 0,0:10:46.29,0:10:48.22,Default_JP,,0,0,0,,今聞いたような口振りじゃない？
+Dialogue: 0,0:10:48.68,0:10:49.81,Magical_JP,,0,0,0,,あ いや
+Dialogue: 0,0:10:50.25,0:10:51.87,Miracle_JP,,0,0,0,,そんな事ないよ
+Dialogue: 0,0:10:52.00,0:10:53.33,MagiMiraJP,,0,0,0,,アハハハ
+Dialogue: 0,0:10:53.84,0:10:55.46,Miracle_JP,,0,0,0,,ね ひーちゃん
+Dialogue: 0,0:11:07.08,0:11:08.69,Miracle_JP,,0,0,0,,欲しいって言われても...
+Dialogue: 0,0:11:08.72,0:11:09.96,Magical_JP,,0,0,0,,これは無理なの
+Dialogue: 0,0:11:10.51,0:11:13.70,Magical_JP,,0,0,0,,基本 魔法界で生まれた\N時に授かるものだから
+Dialogue: 0,0:11:15.64,0:11:16.75,MagiMiraJP,,0,0,0,,おっ？
+Dialogue: 0,0:11:22.98,0:11:25.92,Default_JP,,0,0,0,,2人乗り用か？あつらえてやる
+Dialogue: 0,0:11:26.27,0:11:27.28,Magical_JP,,0,0,0,,ありがとう
+Dialogue: 0,0:11:29.38,0:11:31.47,Magical_JP,,0,0,0,,もう少し大きくなったらね
+Dialogue: 0,0:11:33.17,0:11:34.15,Miracle_JP,,0,0,0,,あれって...
+Dialogue: 0,0:11:34.35,0:11:36.10,Default_JP,,0,0,0,,ああ 端材だけど
+Dialogue: 0,0:11:36.45,0:11:38.11,Miracle_JP,,0,0,0,,もらってもいいですか？
+Dialogue: 0,0:11:38.36,0:11:39.46,Default_JP,,0,0,0,,構わないよ
+Dialogue: 0,0:11:40.11,0:11:41.57,Miracle_JP,,0,0,0,,キュアップ・ラパパ！
+Dialogue: 0,0:11:40.11,0:11:41.57,Curerpp_MR,,0,0,0,,CURE UP·RAPAPA !
+Dialogue: 0,0:11:44.30,0:11:46.01,Miracle_JP,,0,0,0,,木よ 削れろ
+Dialogue: 0,0:11:49.84,0:11:51.61,Miracle_JP,,0,0,0,,うん いい感じ
+Dialogue: 0,0:11:57.30,0:12:00.04,Miracle_JP,,0,0,0,,はい 魔法は使えないけど
+Dialogue: 0,0:12:00.44,0:12:03.98,Miracle_JP,,0,0,0,,使いたい時は \Nいつでも願いを込めて振ってみて
+Dialogue: 0,0:12:05.76,0:12:09.45,Miracle_JP,,0,0,0,,ひーちゃんの代わりに \N私が魔法を使ってあげる
+Dialogue: 0,0:12:12.78,0:12:13.80,Magical_JP,,0,0,0,,言い方
+Dialogue: 0,0:12:14.01,0:12:15.86,Default_JP,,0,0,0,,いい腕だな みらいちゃん
+Dialogue: 0,0:12:16.07,0:12:18.46,Default_JP,,0,0,0,,俺の後を継いでくれねえかな？
+Dialogue: 0,0:12:18.69,0:12:21.06,Magical_JP,,0,0,0,,またまた 後継ぎだなんて
+Dialogue: 0,0:12:21.52,0:12:25.08,Default_JP,,0,0,0,,もういい歳だし \N引退を考えているんだ
+Dialogue: 0,0:12:25.24,0:12:26.09,Magical_JP,,0,0,0,,えっ...
+Dialogue: 0,0:12:26.88,0:12:30.76,Default_JP,,0,0,0,,今日明日のって話じゃないがな \Nハッハッハッハ
+Dialogue: 0,0:12:31.80,0:12:32.78,Magical_JP,,0,0,0,,おっ...
+Dialogue: 0,0:12:41.74,0:12:42.30,Default_JP,,0,0,0,,わん！
+Dialogue: 0,0:12:45.95,0:12:49.95,DarkMHS_JP,,0,0,0,,そろそろ出番だ 繙こうかな
+Dialogue: 0,0:12:51.72,0:12:53.54,Default_JP,,0,0,0,,（悲鳴）
+Dialogue: 0,0:13:48.40,0:13:50.91,Miracle_JP,,0,0,0,,あっ 来る時間じゃないんだよ
+Dialogue: 0,0:13:54.60,0:13:56.59,Magical_JP,,0,0,0,,やっぱり ひーちゃんを狙ってる
+Dialogue: 0,0:14:09.24,0:14:09.96,Magical_JP,,0,0,0,,あっ！
+Dialogue: 0,0:14:15.49,0:14:16.12,Miracle_JP,,0,0,0,,来た
+Dialogue: 0,0:14:25.15,0:14:27.23,Miracle_JP,,0,0,0,,ひーちゃん あそこに隠れてて
+Dialogue: 0,0:14:35.79,0:14:37.16,MagiMiraJP,,0,0,0,,{\fs50\b1}キュアップ・ラパパ！
+Dialogue: 0,0:14:35.79,0:14:37.16,Curerpp_ML,,0,0,0,,CURE UP{\fnCalibri}↗{\r}RA{\fnSegoe UI}♥{\r}PA{\fnSegoe UI}★{\r}PA !
+Dialogue: 0,0:14:41.02,0:14:42.11,MagiMiraJP,,0,0,0,,{\fs50\b1}ルビー !
+Dialogue: 0,0:14:41.02,0:14:42.11,Curerpp_ML,,0,0,0,,Ruby !
+Dialogue: 0,0:14:43.37,0:14:46.22,MagiMiraJP,,0,0,0,,{\fs50\b1}ミラクル·マジカル·ジュエリーレ!
+Dialogue: 0,0:14:43.37,0:14:46.22,Curerpp_ML,,0,0,0,,Miracle·Magical·Jewellery !
+Dialogue: 0,0:15:25.62,0:15:26.72,Miracle_JP,,0,0,0,,2人の奇跡！
+Dialogue: 0,0:15:27.03,0:15:28.29,Miracle_JP,,0,0,0,,{\fs50\b1}キュアミラクル !
+Dialogue: 0,0:15:27.03,0:15:28.29,Curerpp_MR,,0,0,0,,Cure Miracle !
+Dialogue: 0,0:15:29.24,0:15:30.59,Magical_JP,,0,0,0,,2人の魔法！
+Dialogue: 0,0:15:30.74,0:15:32.35,Magical_JP,,0,0,0,,{\fs50\b1}キュアマジカル !
+Dialogue: 0,0:15:30.74,0:15:32.35,Curerpp_LK,,0,0,0,,Cure Magical !
+Dialogue: 0,0:15:33.37,0:15:35.83,Curerpp_MR,,0,0,0,,Maho Girls {\3c&HE479A1&\4c&H823651&}Precure !
+Dialogue: 0,0:15:33.37,0:15:35.83,Miracle_JP,,0,0,0,,{\fs50\b1}魔法少女 {\3c&HE479A1&\4c&H823651&}光之美少女！
+Dialogue: 0,0:15:40.52,0:15:43.31,Mofurun_JP,,0,0,0,,モフ ルビーのプリキュアモフ
+Dialogue: 0,0:15:52.80,0:15:54.69,MagiMiraJP,,0,0,0,,だぁ！
+Dialogue: 0,0:16:06.17,0:16:08.04,Mofurun_JP,,0,0,0,,隠れるモフ モフ！
+Dialogue: 0,0:16:11.28,0:16:12.79,MagiMiraJP,,0,0,0,,ハッ！
+Dialogue: 0,0:16:16.42,0:16:17.07,Magical_JP,,0,0,0,,ダメだ！
+Dialogue: 0,0:16:22.38,0:16:23.46,Miracle_JP,,0,0,0,,今度はボール？
+Dialogue: 0,0:16:30.23,0:16:31.46,MagiMiraJP,,0,0,0,,ああ！
+Dialogue: 0,0:16:54.18,0:16:55.95,Curerpp_FL,,0,0,0,,CURE UP·RAPAPA
+Dialogue: 0,0:17:16.13,0:17:20.53,MagiMiraJP,,0,0,0,,ハッ！
+Dialogue: 0,0:17:25.15,0:17:26.88,Mofurun_JP,,0,0,0,,モフ！
+Dialogue: 0,0:17:32.42,0:17:33.27,MagiMiraJP,,0,0,0,,{\fs50\b1}ルビー !
+Dialogue: 0,0:17:32.42,0:17:33.27,Curerpp_ML,,0,0,0,,Ruby !
+Dialogue: 0,0:17:33.66,0:17:37.21,MagiMiraJP,,0,0,0,,紅の情熱よ 私達の手に！
+Dialogue: 0,0:17:41.40,0:17:43.94,MagiMiraJP,,0,0,0,,{\fs50\b1}フル フル リンクル！
+Dialogue: 0,0:17:41.40,0:17:43.94,Curerpp_ML,,0,0,0,,Full Full Linkru !
+Dialogue: 0,0:17:53.56,0:17:59.15,MagiMiraJP,,0,0,0,,{\fs50\b1}プリキュア ルビー \Nパッショナーレ！
+Dialogue: 0,0:17:53.56,0:17:59.15,Curerpp_ML,,0,0,0,,Precure Ruby Passionale !
+Dialogue: 0,0:18:25.72,0:18:27.44,Default_JP,,0,0,0,,モフルン ひーちゃん
+Dialogue: 0,0:18:27.98,0:18:29.23,Default_JP,,0,0,0,,大丈夫だった
+Dialogue: 0,0:18:29.27,0:18:30.21,Mofurun_JP,,0,0,0,,モフ
+Dialogue: 0,0:18:30.64,0:18:31.72,Default_JP,,0,0,0,,リコとみらいは？
+Dialogue: 0,0:18:33.59,0:18:37.42,Mofurun_JP,,0,0,0,,モフ あ...あっちモフ！\N買い物に行ったモフ
+Dialogue: 0,0:18:38.24,0:18:41.01,Mofurun_JP,,0,0,0,,二人がプリキュアだって内緒モフ
+Dialogue: 0,0:18:47.42,0:18:49.21,Default_JP,,0,0,0,,深夜1時4分
+Dialogue: 0,0:18:49.97,0:18:55.96,Default_JP,,0,0,0,,昼 姿を見せなかった \N例の男が現れるかもしれん 宣言通りにな
+Dialogue: 0,0:18:56.54,0:19:00.00,Default_JP,,0,0,0,,教師達で みらいくんの\N警備体制を敷く
+Dialogue: 0,0:19:00.14,0:19:00.77,MagiMiraJP,,0,0,0,,うん
+Dialogue: 0,0:19:32.81,0:19:34.42,Default_JP,,0,0,0,,こっちは異常ないわ
+Dialogue: 0,0:19:34.62,0:19:35.60,Magical_JP,,0,0,0,,こっちも
+Dialogue: 0,0:19:36.84,0:19:38.13,Magical_JP,,0,0,0,,はっ...
+Dialogue: 0,0:19:48.24,0:19:49.47,Default_JP,,0,0,0,,もう休んだら
+Dialogue: 0,0:19:49.74,0:19:54.29,Magical_JP,,0,0,0,,でも ナシマホウ界とまた\N行き来できるように 調べないと
+Dialogue: 0,0:19:58.35,0:19:59.86,Magical_JP,,0,0,0,,はっ...
+Dialogue: 0,0:20:01.32,0:20:02.33,Default_JP,,0,0,0,,大丈夫？
+Dialogue: 0,0:20:03.04,0:20:04.37,Magical_JP,,0,0,0,,今 夢を
+Dialogue: 0,0:20:04.62,0:20:05.28,Default_JP,,0,0,0,,夢？
+Dialogue: 0,0:20:07.04,0:20:10.81,Magical_JP,,0,0,0,,はっ 夢じゃない 違う \Nみらいが言ってたヤツだ
+Dialogue: 0,0:20:11.23,0:20:11.98,Default_JP,,0,0,0,,リコ？
+Dialogue: 0,0:20:15.65,0:20:16.51,Miracle_JP,,0,0,0,,あっ...
+Dialogue: 0,0:20:20.04,0:20:23.05,Mofurun_JP,,0,0,0,,ミラクル しっかりするモフ
+Dialogue: 0,0:20:28.41,0:20:29.58,Miracle_JP,,0,0,0,,マジカル...
+Dialogue: 0,0:20:38.17,0:20:39.50,Miracle_JP,,0,0,0,,ひーちゃんも...
+Dialogue: 0,0:20:40.32,0:20:43.69,DarkMHS_JP,,0,0,0,,さあ キミ達が見た未来だ
+Dialogue: 0,0:20:46.80,0:20:51.25,DarkMHS_JP,,0,0,0,,ひすい...キミが必要なんだ
+Dialogue: 0,0:20:57.87,0:20:59.61,Miracle_JP,,0,0,0,,あっ！
+Dialogue: 0,0:21:05.26,0:21:07.95,Miracle_JP,,0,0,0,,14時間と4分後
+Dialogue: 0,0:21:09.31,0:21:14.01,DarkMHS_JP,,0,0,0,,その時 キミは絶望した\N自分と向き合う事になる
+Dialogue: 0,0:21:24.43,0:21:27.50,Magical_JP,,0,0,0,,私も見たの あなたの言う通りだった
+Dialogue: 0,0:21:27.82,0:21:35.24,DarkMHS_JP,,0,0,0,,魔法の杖の音を聞き あなたの言う通りだった \Nその一節を聞きながらね
+Dialogue: 0,0:23:10.20,0:23:12.70,Magical_JP,,0,0,0,,私達が見たものって 一体なんなの？
+Dialogue: 0,0:23:12.82,0:23:15.47,Magical_JP,,0,0,0,,きっとナシマホウ界に\N手がかりがあるはずだわ
+Dialogue: 0,0:23:15.85,0:23:17.82,Magical_JP,,0,0,0,,魔法つかいプリキュア!!\N〜MIRAI DAYS〜
+Dialogue: 0,0:23:19.58,0:23:20.58,Magical_JP,,0,0,0,,{\fs50\b1}キュアップ・ラパパ！
+Dialogue: 0,0:23:19.58,0:23:20.58,Curerpp_LK,,0,0,0,,CURE UP·RAPAPA !
+Dialogue: 0,0:23:20.73,0:23:22.42,Magical_JP,,0,0,0,,今日もいい日になれ！
+Dialogue: 0,0:00:17.70,0:00:19.07,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}"キュアップ{\fnDroid Sans Fallback}·{\fn07LogoTypeGothic7}ラパパ{\i1}!{\i0}"と
+Dialogue: 0,0:00:19.25,0:00:20.40,OP_JP,NTP,0,0,0,,魔法{\fn07LogoTypeGothic7}の{\r}言葉{\fn07LogoTypeGothic7}で
+Dialogue: 0,0:00:19.25,0:00:20.40,OP_JP,NTP,0,0,0,,{\fs30\pos(934,940)}{\fn07LogoTypeGothic7}まほう     　ことば
+Dialogue: 0,0:00:20.56,0:00:22.23,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}ハチャメチャ{\r}大混乱{\fnDroid Sans Fallback}{\i1}!
+Dialogue: 0,0:00:20.56,0:00:22.23,OP_JP,NTP,0,0,0,,{\fs30\pos(1130,940)}{\fn07LogoTypeGothic7}だいこんらん
+Dialogue: 0,0:00:23.19,0:00:24.44,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}ズキズキ♡ときめき
+Dialogue: 0,0:00:24.61,0:00:25.86,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}ウキウキ{\fscx70}◇{\r}好{\fn07LogoTypeGothic7}き{\r}好{\fn07LogoTypeGothic7}き
+Dialogue: 0,0:00:24.61,0:00:25.86,OP_JP,NTP,0,0,0,,{\fs30\pos(1070,940)}{\fn07LogoTypeGothic7}す　 　　す
+Dialogue: 0,0:00:26.02,0:00:27.71,OP_JP,NTP,0,0,0,,劇的大興奮{\i1}{\fn07LogoTypeGothic7}!
+Dialogue: 0,0:00:26.02,0:00:27.71,OP_JP,NTP,0,0,0,,{\fs30\pos(950,940)}{\fn07LogoTypeGothic7}げきてきだいこうふん
+Dialogue: 0,0:00:27.90,0:00:29.77,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}マジ{\r}無理{\fn07LogoTypeGothic7\i1}！{\r}恋{\fn07LogoTypeGothic7}の{\r}涙
+Dialogue: 0,0:00:27.90,0:00:29.77,OP_JP,NTP,0,0,0,,{\fs30\pos(1042,940)}{\fn07LogoTypeGothic7}むり　     こい　  なみだ
+Dialogue: 0,0:00:29.97,0:00:33.31,OP_JP,NTP,0,0,0,,止{\fn07LogoTypeGothic7}める{\r}呪文{\fn07LogoTypeGothic7} そんなモン{\r}無{\fn07LogoTypeGothic7}いし
+Dialogue: 0,0:00:29.97,0:00:33.31,OP_JP,NTP,0,0,0,,{\fs30\pos(902,940)}{\fn07LogoTypeGothic7}と       　じゅもん　                      な
+Dialogue: 0,0:00:33.87,0:00:36.64,OP_JP,NTP,0,0,0,,変顔{\fn07LogoTypeGothic7}して {\r}笑{\fn07LogoTypeGothic7}わせちゃえ
+Dialogue: 0,0:00:33.87,0:00:36.64,OP_JP,NTP,0,0,0,,{\fs30\pos(812,940)}{\fn07LogoTypeGothic7}へんかお        　 わら
+Dialogue: 0,0:00:36.85,0:00:39.32,OP_JP,NTP,0,0,0,,魔法{\fn07LogoTypeGothic7}つかいプリキュア{\i1}!!
+Dialogue: 0,0:00:36.85,0:00:39.32,OP_JP,NTP,0,0,0,,{\fs30\pos(700,940)}{\fn07LogoTypeGothic7}まほう
+Dialogue: 0,0:00:44.31,0:00:46.35,OP_JP,NTP,0,0,0,,世界{\fn07LogoTypeGothic7}は{\r}DokkinーDokkin
+Dialogue: 0,0:00:44.31,0:00:46.35,OP_JP,NTP,0,0,0,,{\fs30\pos(924,940)}{\fn07LogoTypeGothic7}せかい　         ドッキン     ー     ドッキン
+Dialogue: 0,0:00:46.56,0:00:49.14,OP_JP,NTP,0,0,0,,記憶{\fn07LogoTypeGothic7}キラめく{\r}宝島
+Dialogue: 0,0:00:46.56,0:00:49.14,OP_JP,NTP,0,0,0,,{\fs30\pos(986,940)}{\fn07LogoTypeGothic7}きおく               ワンダーランド
+Dialogue: 0,0:00:49.73,0:00:51.90,OP_JP,NTP,0,0,0,,時計{\fn07LogoTypeGothic7}は{\r}TickーTack TickーTack
+Dialogue: 0,0:00:49.73,0:00:51.90,OP_JP,NTP,0,0,0,,{\fs30\pos(916,940)}{\fn07LogoTypeGothic7}とけい　        ティックータック             ティックータック
+Dialogue: 0,0:00:52.09,0:00:55.37,OP_JP,NTP,0,0,0,,休{\fn07LogoTypeGothic7}まず"{\r}今{\fn07LogoTypeGothic7}"を {\r}過去{\fn07LogoTypeGothic7}へと{\r}攫{\fn07LogoTypeGothic7}うよ
+Dialogue: 0,0:00:52.09,0:00:55.37,OP_JP,NTP,0,0,0,,{\fs30\pos(900,940)}{\fn07LogoTypeGothic7}やす          いま　         かこ          さら
+Dialogue: 0,0:00:56.02,0:00:58.69,OP_JP,NTP,0,0,0,,幸{\fn07LogoTypeGothic7}せだった{\r}時間{\fn07LogoTypeGothic7}の{\r}粒
+Dialogue: 0,0:00:56.02,0:00:58.69,OP_JP,NTP,0,0,0,,{\fs30\pos(952,940)}{\fn07LogoTypeGothic7}しあわ　              じかん      つぶ
+Dialogue: 0,0:00:58.87,0:01:01.30,OP_JP,NTP,0,0,0,,集{\fn07LogoTypeGothic7}めてできた{\r}宝石
+Dialogue: 0,0:00:58.87,0:01:01.30,OP_JP,NTP,0,0,0,,{\fs30\pos(962,940)}{\fn07LogoTypeGothic7}あつ                   ジュエリー
+Dialogue: 0,0:01:01.50,0:01:03.97,OP_JP,NTP,0,0,0,,未来{\fn07LogoTypeGothic7}に{\r}向{\fn07LogoTypeGothic7}け {\r}解{\fn07LogoTypeGothic7}き{\r}放{\fn07LogoTypeGothic7}つと
+Dialogue: 0,0:01:01.50,0:01:03.97,OP_JP,NTP,0,0,0,,{\fs30\pos(912,940)}{\fn07LogoTypeGothic7}みらい     　む      　 と     はな
+Dialogue: 0,0:01:04.15,0:01:06.99,OP_JP,NTP,0,0,0,,奇跡色{\fn07LogoTypeGothic7}に {\r}光{\fn07LogoTypeGothic7}るの
+Dialogue: 0,0:01:04.15,0:01:06.99,OP_JP,NTP,0,0,0,,{\fs30\pos(910,940)}{\fn07LogoTypeGothic7}きせきいろ    　   ひか
+Dialogue: 0,0:01:07.24,0:01:09.49,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}なんてね{\i1}！{\r}大人{\fn07LogoTypeGothic7}ぶって
+Dialogue: 0,0:01:07.24,0:01:09.49,OP_JP,NTP,0,0,0,,{\fs30\pos(1020,940)}{\fn07LogoTypeGothic7}おとな
+Dialogue: 0,0:01:09.66,0:01:12.90,OP_JP,NTP,0,0,0,,噴{\fn07LogoTypeGothic7}き{\r}出{\fn07LogoTypeGothic7}しちやう コドモでござる
+Dialogue: 0,0:01:09.66,0:01:12.90,OP_JP,NTP,0,0,0,,{\fs30\pos(616,940)}{\fn07LogoTypeGothic7}ふ　    だ
+Dialogue: 0,0:01:13.15,0:01:17.93,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}あの{\r}日{\fn07LogoTypeGothic7}の{\r}空 夢{\fn07LogoTypeGothic7}の{\r}続{\fn07LogoTypeGothic7}き {\fn07LogoTypeGothic7}キミも{\r}見{\fn07LogoTypeGothic7}てるね
+Dialogue: 0,0:01:13.15,0:01:17.93,OP_JP,NTP,0,0,0,,{\fs30\pos(930,940)}{\fn07LogoTypeGothic7}ひ　   そら　  ゆめ    つづ　                 み
+Dialogue: 0,0:01:18.11,0:01:20.23,OP_JP,NTP,0,0,0,,魔法{\fn07LogoTypeGothic7}は…{\r}超楽{\fn07LogoTypeGothic7}しい{\i1}!
+Dialogue: 0,0:01:18.11,0:01:20.23,OP_JP,NTP,0,0,0,,{\fs30\pos(902,940)}{\fn07LogoTypeGothic7}まほう　       ちょうたの
+Dialogue: 0,0:01:20.42,0:01:23.74,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}ブタ{\r}踊{\fn07LogoTypeGothic7}れば {\fn07LogoTypeGothic7}トントン{\r}拍子{\fn07LogoTypeGothic7}{\i1}?
+Dialogue: 0,0:01:20.42,0:01:23.74,OP_JP,NTP,0,0,0,,{\fs30)\pos(1000,940)}{\fn07LogoTypeGothic7}おど　                         ひょうし
+Dialogue: 0,0:01:23.97,0:01:27.15,OP_JP,NTP,0,0,0,,永遠{\fn07LogoTypeGothic7}まで {\r}仲間{\fn07LogoTypeGothic7}ね{\fscx70}◇{\r}{\fn07LogoTypeGothic7}もう
+Dialogue: 0,0:01:23.97,0:01:27.15,OP_JP,NTP,0,0,0,,{\fs30)\pos(844,940)}{\fn07LogoTypeGothic7}えいえん         　 なかま
+Dialogue: 0,0:01:27.31,0:01:29.63,OP_JP,NTP,0,0,0,,魔法{\fn07LogoTypeGothic7}つかいプリキュア{\i1}!!
+Dialogue: 0,0:01:27.31,0:01:29.63,OP_JP,NTP,0,0,0,,{\fs30\pos(700,940)}{\fn07LogoTypeGothic7}まほう
+Dialogue: 0,0:01:29.82,0:01:31.27,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}"キュアップ{\fnDroid Sans Fallback}·{\fn07LogoTypeGothic7}ラパパ{\i1}!{\i0}"と
+Dialogue: 0,0:01:31.47,0:01:32.68,OP_JP,NTP,0,0,0,,魔法{\fn07LogoTypeGothic7}の{\r}言葉{\fn07LogoTypeGothic7}で
+Dialogue: 0,0:01:31.47,0:01:32.68,OP_JP,NTP,0,0,0,,{\fs30\pos(926,940)}{\fn07LogoTypeGothic7}まほう  　   ことば
+Dialogue: 0,0:01:32.85,0:01:34.52,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}ハチャメチャ{\r}大混乱{\fnDroid Sans Fallback}{\i1}!
+Dialogue: 0,0:01:32.85,0:01:34.52,OP_JP,NTP,0,0,0,,{\fs30\pos(1130,940)}{\fn07LogoTypeGothic7}だいこんらん
+Dialogue: 0,0:01:35.55,0:01:36.83,OP_JP,NTP,0,0,0,,{\fn07LogoTypeGothic7}あれコレ{\fscx70}◇{\r}{\fn07LogoTypeGothic7}どれソレ
+Dialogue: 0,0:01:37.01,0:01:38.15,OP_JP,NTP,0,0,0,,晴{\fn07LogoTypeGothic7}々{\fscx70}◇{\r}惚{\fn07LogoTypeGothic7}れぼれ
+Dialogue: 0,0:01:37.01,0:01:38.15,OP_JP,NTP,0,0,0,,{\fs30\pos(866,940)}{\fn07LogoTypeGothic7}はればれ　   ほ
+Dialogue: 0,0:01:38.34,0:01:40.16,OP_JP,NTP,0,0,0,,誰{\i1}{\fn07LogoTypeGothic7}？{\i0}{\r}誰{\i1}{\fn07LogoTypeGothic7}？{\i0}{\r}大変身{\i1}{\fn07LogoTypeGothic7}!
+Dialogue: 0,0:01:38.34,0:01:40.16,OP_JP,NTP,0,0,0,,{\fs30\pos(942,940)}{\fn07LogoTypeGothic7}だれ  　 だれ  　  だいへんしん
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+Dialogue: 1,0:21:44.87,0:21:47.71,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}オドロキ{\i1}？{\i0}モモの{\r}{\be20}木{\fn07LogoTypeGothic7\i1}？{\i0}{\r}{\be20}Okie-Dokie{\fn07LogoTypeGothic7}{\i1}!!
+Dialogue: 1,0:21:44.87,0:21:47.71,ED_1_JP,NTP,0,0,0,,{\be20\pos(1106,920)}{\fs30}{\fn07LogoTypeGothic7}き　            オキドキ
+Dialogue: 1,0:21:47.85,0:21:50.29,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}トンガリ{\r}{\be20}帽子{\fn07LogoTypeGothic7}がお{\r}{\be20}気{\fn07LogoTypeGothic7}に{\i1}？
+Dialogue: 1,0:21:47.85,0:21:50.29,ED_1_JP,NTP,0,0,0,,{\be20\pos(1024,920)}{\fs30}{\fn07LogoTypeGothic7}ぼうし         　き
+Dialogue: 1,0:21:50.69,0:21:53.40,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}トリプル{\i1}！{\i0}パワフル{\i1}!! {\i0}アンサンブル{\i1}!!!
+Dialogue: 1,0:21:53.53,0:21:57.66,ED_1_JP,NTP,0,0,0,,{\be20}呪文{\fn07LogoTypeGothic7}を{\r}{\be20}唱{\fn07LogoTypeGothic7}えて{\r}{\be20}叶{\fn07LogoTypeGothic7}えるハピネス
+Dialogue: 1,0:21:53.53,0:21:57.66,ED_1_JP,NTP,0,0,0,,{\be20\pos(775,920)}{\fs30}{\fn07LogoTypeGothic7}じゅうぶん　   とな        かな
+Dialogue: 1,0:21:58.50,0:22:00.25,ED_1_JP,NTP,0,0,0,,{\be20}魔法{\fn07LogoTypeGothic7}ガールズ{\i1}！
+Dialogue: 1,0:21:58.50,0:22:00.25,ED_1_JP,NTP,0,0,0,,{\be20\pos(814,920)}{\fs30}{\fn07LogoTypeGothic7}まほう
+Dialogue: 1,0:22:00.93,0:22:04.36,ED_1_JP,NTP,0,0,0,,{\be20}手{\fn07LogoTypeGothic7}と{\r}{\be20}手{\fn07LogoTypeGothic7}ぎゅっとした{\r}{\be20}瞬間
+Dialogue: 1,0:22:00.93,0:22:04.36,ED_1_JP,NTP,0,0,0,,{\be20\pos(950,920)}{\fs30}{\fn07LogoTypeGothic7}て     　て                           とき
+Dialogue: 1,0:22:04.50,0:22:07.28,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}BIBIBI {\r}{\be20}全身通{\fn07LogoTypeGothic7}じた
+Dialogue: 1,0:22:04.50,0:22:07.28,ED_1_JP,NTP,0,0,0,,{\be20\pos(922,920)}{\fs30}{\fn07LogoTypeGothic7}びびび　    ぜんしん つう
+Dialogue: 1,0:22:07.58,0:22:13.26,ED_1_JP,NTP,0,0,0,,{\be20}出逢{\fn07LogoTypeGothic7}いってた{\r}{\be20}宝物 {\fn07LogoTypeGothic7}それってもう{\r}{\be20}魔法{\fn07LogoTypeGothic7\i1}！
+Dialogue: 1,0:22:07.58,0:22:13.26,ED_1_JP,NTP,0,0,0,,{\be20\pos(934,920)}{\fs30}{\fn07LogoTypeGothic7}であ                　たからもの                          　まほう
+Dialogue: 1,0:22:13.51,0:22:16.03,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}止まる{\r}{\be20}日常 歪{\fn07LogoTypeGothic7}む{\r}{\be20}時空
+Dialogue: 1,0:22:13.51,0:22:16.03,ED_1_JP,NTP,0,0,0,,{\be20\pos(960,920)}{\fs30}{\fn07LogoTypeGothic7}と　       にちじょう 　ゆが    　じくう
+Dialogue: 1,0:22:16.20,0:22:18.77,ED_1_JP,NTP,0,0,0,,{\be20}一緒{\fn07LogoTypeGothic7}ならね{\i1}！{\i0}{\r}{\be20}Let's enjoy{\fn07LogoTypeGothic7\i1}！
+Dialogue: 1,0:22:16.20,0:22:18.77,ED_1_JP,NTP,0,0,0,,{\be20\pos(888,920)}{\fs30}{\fn07LogoTypeGothic7}いっしょ                    　レッツエンジョイ
+Dialogue: 1,0:22:18.92,0:22:21.60,ED_1_JP,NTP,0,0,0,,{\be20}奇想天外{\fn07LogoTypeGothic7\i1}??{\i0}っていう{\r}{\be20}展開{\i1}{\fn07LogoTypeGothic7\i1}!?
+Dialogue: 1,0:22:18.92,0:22:21.60,ED_1_JP,NTP,0,0,0,,{\be20\pos(942,920)}{\fs30}{\fn07LogoTypeGothic7}きそうてんがい                      　てんかい
+Dialogue: 1,0:22:21.77,0:22:24.57,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}ステッキ{\r}{\be20}降{\fn07LogoTypeGothic7}ってチェンジ{\i1}！
+Dialogue: 1,0:22:21.77,0:22:24.57,ED_1_JP,NTP,0,0,0,,{\be20\pos(868,920)}{\fs30}{\fn07LogoTypeGothic7}ふ
+Dialogue: 1,0:22:27.27,0:22:29.75,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}キセキラリンク
+Dialogue: 1,0:22:29.95,0:22:38.30,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}ココロに{\r}{\be20}生{\fn07LogoTypeGothic7}まれた {\r}{\be20}輝{\fn07LogoTypeGothic7}きを{\r}{\be20}重{\fn07LogoTypeGothic7}ねあって {\r}{\be20}強{\fn07LogoTypeGothic7}いヒカリ{\r}{\be20}放{\fn07LogoTypeGothic7}つ
+Dialogue: 1,0:22:29.95,0:22:38.30,ED_1_JP,NTP,0,0,0,,{\be20\pos(1052,920)}{\fs30}{\fn07LogoTypeGothic7}う　             かがや      　かさ                　つよ               　はな
+Dialogue: 1,0:22:38.50,0:22:45.20,ED_1_JP,NTP,0,0,0,,{\be20}違{\fn07LogoTypeGothic7}う{\r}{\be20}色持{\fn07LogoTypeGothic7}つ{\r}{\be20}笑顔{\fn07LogoTypeGothic7}の{\r}{\be20}宝石{\fn07LogoTypeGothic7}が
+Dialogue: 1,0:22:38.50,0:22:45.20,ED_1_JP,NTP,0,0,0,,{\be20\pos(932,920)}{\fs30}{\fn07LogoTypeGothic7}ちが   　いろ　も　     えがお　     ほうせき
+Dialogue: 1,0:22:45.40,0:22:51.59,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}ここから{\r}{\be20}描{\fn07LogoTypeGothic7}く 「{\r}{\be20}今{\fn07LogoTypeGothic7}」を{\r}{\be20}変{\fn07LogoTypeGothic7}えていく
+Dialogue: 1,0:22:45.40,0:22:51.59,ED_1_JP,NTP,0,0,0,,{\be20\pos(950,920)}{\fs30}{\fn07LogoTypeGothic7}えが         　にま       　か
+Dialogue: 1,0:22:52.30,0:22:55.51,ED_1_JP,NTP,0,0,0,,{\be20}魔法{\fn07LogoTypeGothic7}つかいプリキュア{\i1}！
+Dialogue: 1,0:22:52.30,0:22:55.51,ED_1_JP,NTP,0,0,0,,{\be20\pos(702,920)}{\fs30}{\fn07LogoTypeGothic7}まほう
+Dialogue: 1,0:22:55.66,0:23:00.12,ED_1_JP,NTP,0,0,0,,{\be20}{\fn07LogoTypeGothic7}キュアップ{\fnDroid Sans Fallback}·{\fn07LogoTypeGothic7}ラパパ{\i1}！
+Dialogue: 0,0:21:44.87,0:21:44.87,ED_1_JP,,0,0,0,,
+Dialogue: 0,0:21:44.87,0:21:47.71,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}オドロキ{\i1}？{\i0}モモの{\r}{\be40}木{\fn07LogoTypeGothic7\i1}？{\i0}{\r}{\be40}Okie-Dokie{\fn07LogoTypeGothic7}{\i1}!!
+Dialogue: 0,0:21:44.87,0:21:47.71,ED_2_JP,NTP,0,0,0,,{\be40\pos(1106,920)}{\fs30}{\fn07LogoTypeGothic7}き　            オキドキ
+Dialogue: 0,0:21:47.85,0:21:50.29,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}トンガリ{\r}{\be40}帽子{\fn07LogoTypeGothic7}がお{\r}{\be40}気{\fn07LogoTypeGothic7}に{\i1}？
+Dialogue: 0,0:21:47.85,0:21:50.29,ED_2_JP,NTP,0,0,0,,{\be40\pos(1024,920)}{\fs30}{\fn07LogoTypeGothic7}ぼうし         　き
+Dialogue: 0,0:21:50.69,0:21:53.40,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}トリプル{\i1}！{\i0}パワフル{\i1}!! {\i0}アンサンブル{\i1}!!!
+Dialogue: 0,0:21:53.53,0:21:57.66,ED_2_JP,NTP,0,0,0,,{\be40}呪文{\fn07LogoTypeGothic7}を{\r}{\be40}唱{\fn07LogoTypeGothic7}えて{\r}{\be40}叶{\fn07LogoTypeGothic7}えるハピネス
+Dialogue: 0,0:21:53.53,0:21:57.66,ED_2_JP,NTP,0,0,0,,{\be40\pos(775,920)}{\fs30}{\fn07LogoTypeGothic7}じゅうぶん　   とな        かな
+Dialogue: 0,0:21:58.50,0:22:00.25,ED_2_JP,NTP,0,0,0,,{\be40}魔法{\fn07LogoTypeGothic7}ガールズ{\i1}！
+Dialogue: 0,0:21:58.50,0:22:00.25,ED_2_JP,NTP,0,0,0,,{\be40\pos(814,920)}{\fs30}{\fn07LogoTypeGothic7}まほう
+Dialogue: 0,0:22:00.93,0:22:04.36,ED_2_JP,NTP,0,0,0,,{\be40}手{\fn07LogoTypeGothic7}と{\r}{\be40}手{\fn07LogoTypeGothic7}ぎゅっとした{\r}{\be40}瞬間
+Dialogue: 0,0:22:00.93,0:22:04.36,ED_2_JP,NTP,0,0,0,,{\be40\pos(950,920)}{\fs30}{\fn07LogoTypeGothic7}て     　て                           とき
+Dialogue: 0,0:22:04.50,0:22:07.28,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}BIBIBI {\r}{\be40}全身通{\fn07LogoTypeGothic7}じた
+Dialogue: 0,0:22:04.50,0:22:07.28,ED_2_JP,NTP,0,0,0,,{\be40\pos(922,920)}{\fs30}{\fn07LogoTypeGothic7}びびび　    ぜんしん つう
+Dialogue: 0,0:22:07.58,0:22:13.26,ED_2_JP,NTP,0,0,0,,{\be40}出逢{\fn07LogoTypeGothic7}いってた{\r}{\be40}宝物 {\fn07LogoTypeGothic7}それってもう{\r}{\be40}魔法{\fn07LogoTypeGothic7\i1}！
+Dialogue: 0,0:22:07.58,0:22:13.26,ED_2_JP,NTP,0,0,0,,{\be40\pos(934,920)}{\fs30}{\fn07LogoTypeGothic7}であ                　たからもの                          　まほう
+Dialogue: 0,0:22:13.51,0:22:16.03,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}止まる{\r}{\be40}日常 歪{\fn07LogoTypeGothic7}む{\r}{\be40}時空
+Dialogue: 0,0:22:13.51,0:22:16.03,ED_2_JP,NTP,0,0,0,,{\be40\pos(960,920)}{\fs30}{\fn07LogoTypeGothic7}と　       にちじょう 　ゆが    　じくう
+Dialogue: 0,0:22:16.20,0:22:18.77,ED_2_JP,NTP,0,0,0,,{\be40}一緒{\fn07LogoTypeGothic7}ならね{\i1}！{\i0}{\r}{\be40}Let's enjoy{\fn07LogoTypeGothic7\i1}！
+Dialogue: 0,0:22:16.20,0:22:18.77,ED_2_JP,NTP,0,0,0,,{\be40\pos(888,920)}{\fs30}{\fn07LogoTypeGothic7}いっしょ                    　レッツエンジョイ
+Dialogue: 0,0:22:18.92,0:22:21.60,ED_2_JP,NTP,0,0,0,,{\be40}奇想天外{\fn07LogoTypeGothic7\i1}??{\i0}っていう{\r}{\be40}展開{\i1}{\fn07LogoTypeGothic7\i1}!?
+Dialogue: 0,0:22:18.92,0:22:21.60,ED_2_JP,NTP,0,0,0,,{\be40\pos(942,920)}{\fs30}{\fn07LogoTypeGothic7}きそうてんがい                      　てんかい
+Dialogue: 0,0:22:21.77,0:22:24.57,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}ステッキ{\r}{\be40}降{\fn07LogoTypeGothic7}ってチェンジ{\i1}！
+Dialogue: 0,0:22:21.77,0:22:24.57,ED_2_JP,NTP,0,0,0,,{\be40\pos(868,920)}{\fs30}{\fn07LogoTypeGothic7}ふ
+Dialogue: 0,0:22:27.27,0:22:29.75,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}キセキラリンク
+Dialogue: 0,0:22:29.95,0:22:38.30,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}ココロに{\r}{\be40}生{\fn07LogoTypeGothic7}まれた {\r}{\be40}輝{\fn07LogoTypeGothic7}きを{\r}{\be40}重{\fn07LogoTypeGothic7}ねあって {\r}{\be40}強{\fn07LogoTypeGothic7}いヒカリ{\r}{\be40}放{\fn07LogoTypeGothic7}つ
+Dialogue: 0,0:22:29.95,0:22:38.30,ED_2_JP,NTP,0,0,0,,{\be40\pos(1052,920)}{\fs30}{\fn07LogoTypeGothic7}う　             かがや      　かさ                　つよ               　はな
+Dialogue: 0,0:22:38.50,0:22:45.20,ED_2_JP,NTP,0,0,0,,{\be40}違{\fn07LogoTypeGothic7}う{\r}{\be40}色持{\fn07LogoTypeGothic7}つ{\r}{\be40}笑顔{\fn07LogoTypeGothic7}の{\r}{\be40}宝石{\fn07LogoTypeGothic7}が
+Dialogue: 0,0:22:38.50,0:22:45.20,ED_2_JP,NTP,0,0,0,,{\be40\pos(932,920)}{\fs30}{\fn07LogoTypeGothic7}ちが   　いろ　も　     えがお　     ほうせき
+Dialogue: 0,0:22:45.40,0:22:51.59,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}ここから{\r}{\be40}描{\fn07LogoTypeGothic7}く 「{\r}{\be40}今{\fn07LogoTypeGothic7}」を{\r}{\be40}変{\fn07LogoTypeGothic7}えていく
+Dialogue: 0,0:22:45.40,0:22:51.59,ED_2_JP,NTP,0,0,0,,{\be40\pos(950,920)}{\fs30}{\fn07LogoTypeGothic7}えが         　にま       　か
+Dialogue: 0,0:22:52.30,0:22:55.51,ED_2_JP,NTP,0,0,0,,{\be40}魔法{\fn07LogoTypeGothic7}つかいプリキュア{\i1}！
+Dialogue: 0,0:22:52.30,0:22:55.51,ED_2_JP,NTP,0,0,0,,{\be40\pos(702,920)}{\fs30}{\fn07LogoTypeGothic7}まほう
+Dialogue: 0,0:22:55.66,0:23:00.12,ED_2_JP,NTP,0,0,0,,{\be40}{\fn07LogoTypeGothic7}キュアップ{\fnDroid Sans Fallback}·{\fn07LogoTypeGothic7}ラパパ{\i1}！
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+
