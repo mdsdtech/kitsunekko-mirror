@@ -1,0 +1,377 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 3840
+PlayResY: 2160
+LayoutResX: 3840
+LayoutResY: 2160
+Title: 葬送的芙莉莲 - 34.chs（WEB Ver.）
+Original Script: 拨雪寻春（Haruhana）
+Original Translation: 平原、猫耳千织酱、怪魔的小跟班
+Original Timing: 混乱怪魔
+Script Updated By: 一星、怪魔的小跟班、纺凪未来
+Update Details: 2026年3月9日11:34:43
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: RAW/WEB - 34.mkv
+Video File: RAW/WEB - 34.mkv
+Keyframes File: RAW/WEB - 34.mkv.kf.txt
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Scroll Position: 372
+Active Line: 376
+Video Position: 23254
+
+[Assfonts Rename Info]
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正屏显雅宋_GBK,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,10,1
+Style: Dial-JPN,ONQYTPQV,140,&H00FFFFFF,&H000000FF,&H004C4C4C,&H9B4C4C4C,0,0,0,0,100,100,1,0,1,4,2,2,40,40,80,1
+Style: ED-JP,A-OTF Ryumin Pro B-KL,100,&H00000000,&H000000FF,&H6FFFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,3,0,2,10,10,49,1
+Style: OP-JPN,A-OTF Ryumin Pro B-KL,100,&H00FFFFFF,&H000000FF,&H0030201F,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,10,10,52,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:46.23,0:00:47.24,Dial-JPN,,0,0,0,,{\c&F3F2F5\bord2\blur0.7\3c&4F5343\4c&4F5343}下がるな
+Dialogue: 0,0:00:47.24,0:00:47.94,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}下がるな
+Dialogue: 0,0:00:47.94,0:00:49.24,Dial-JPN,,0,0,0,,{\bord1.5}{\blur0.7}村人を守れ
+Dialogue: 0,0:03:28.06,0:03:29.94,Dial-JPN,,0,0,0,,{\c&C4C4C0\bord1.5\blur0.7\3c&262626\4c&262626}お願いします
+Dialogue: 0,0:03:29.94,0:03:33.19,Dial-JPN,,0,0,0,,{\c&A39E9F}{\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}まだ幼い息子がいるんです
+Dialogue: 0,0:03:35.82,0:03:36.99,Dial-JPN,,0,0,0,,{\c&A39E9F}{\bord1.5\blur0.7\3c&0D0D0D\4c&0D0D0D}黙れ
+Dialogue: 0,0:03:38.07,0:03:42.33,Dial-JPN,,0,0,0,,{\c&DBD2D1\bord2.5\blur0.7\3c&0D0D0D\4c&0D0D0D}こっちはそんな言葉数えきれないほど聞いているんだ
+Dialogue: 0,0:04:05.48,0:04:09.48,Dial-JPN,,0,0,0,,{\c&AEA9B0}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}それで　その息子というのは　どこにいるんだ
+Dialogue: 0,0:04:10.56,0:04:13.94,Dial-JPN,,0,0,0,,{\c&B2ABAB\bord2\blur0.7\3c&000000\4c&000000}頼むから　少しは本当のことを言ってくれ
+Dialogue: 0,0:04:29.62,0:04:33.75,Dial-JPN,,0,0,0,,{\c&DCDCDC}{\bord2.5\blur0.7\3c&262626\4c&262626}ゼーリエ様からの直々の討伐要請
+Dialogue: 0,0:04:33.75,0:04:35.71,Dial-JPN,,0,0,0,,{\c&DCDCDC}{\bord2.5\blur0.7\3c&262626\4c&262626}何事かと思ったが
+Dialogue: 0,0:04:36.63,0:04:40.43,Dial-JPN,,0,0,0,,{\c&DCDCDC}{\bord2.5\blur0.7\3c&262626\4c&262626}魔族に襲われた故郷のなれの果てか
+Dialogue: 0,0:04:44.76,0:04:48.06,Dial-JPN,,666,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&000000\4c&000000}愛着のようなものはまるでなかったが
+Dialogue: 0,0:04:48.85,0:04:51.31,Dial-JPN,,999,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&000000\4c&000000}こうしてみると　寂しいものだな
+Dialogue: 0,0:05:03.95,0:05:06.66,Dial-JPN,,0,0,0,,{\c&DFE5E8}{\bord1.5\blur0.7\3c&1B1726\4c&1B1726}ゲナウ　か
+Dialogue: 0,0:05:07.37,0:05:07.79,Dial-JPN,,0,0,0,,{\c&EBEBEB\bord2\blur0.7\t(396,438,\c&CFCFCF\3c&0D0D0D\4c&0D0D0D)}ああ
+Dialogue: 0,0:05:11.67,0:05:15.30,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}ゲナウ…村が魔族に
+Dialogue: 0,0:05:16.30,0:05:19.55,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}分かっている　もう片づけた
+Dialogue: 0,0:05:19.55,0:05:21.68,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}やつらは皆殺しにしたよ
+Dialogue: 0,0:05:24.68,0:05:27.06,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}村のみんなは
+Dialogue: 0,0:05:30.69,0:05:33.56,Dial-JPN,,0,0,0,,{\c&ECEAEC\bord2\blur0.7\3c&333333\4c&333333}無事だよ　みんな無事だ
+Dialogue: 0,0:05:34.36,0:05:35.77,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord1.7\blur0.7\3c&0D0D0D\4c&0D0D0D}お前も助かる
+Dialogue: 0,0:05:37.07,0:05:39.86,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord1.7\blur0.7\3c&0D0D0D\4c&0D0D0D}一級魔法使いの新入りが１人
+Dialogue: 0,0:05:39.86,0:05:41.74,Dial-JPN,,0,0,0,,{\c&D2D3D4}{\bord1.7\blur0.7\3c&0D0D0D\4c&0D0D0D}私と一緒に来ていてな
+Dialogue: 0,0:05:42.45,0:05:47.20,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7\3c&212526\4c&212526\c&F1EFE8}魔法使いのくせに　女神様の魔法が使えるんだ
+Dialogue: 0,0:05:47.66,0:05:49.20,Dial-JPN,,0,0,0,,{\bord2.5\blur0.7\3c&212526\4c&212526\c&F1EFE8}変わったやつだろ
+Dialogue: 0,0:05:50.12,0:05:52.92,Dial-JPN,,0,0,0,,{\c&DBDBDB}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}だから　お前のケガもすぐ治せるよ
+Dialogue: 0,0:05:53.50,0:05:55.71,Dial-JPN,,0,0,0,,{\c&DBDBDB}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}店もまたすぐに開けられる
+Dialogue: 0,0:05:57.67,0:06:01.72,Dial-JPN,,0,0,0,,{\c&F2F2F2\bord2.3\blur0.7\3c&333333\4c&333333}どうだ　少しはマシなパンを焼けるようにはなったか
+Dialogue: 0,0:06:02.80,0:06:06.80,Dial-JPN,,0,0,0,,{\c&D9DDDE}{\bord2.3\blur0.7\3c&1A1A1A\4c&1A1A1A}ここのところ　冷えた硬いパンしか食えていなくてな
+Dialogue: 0,0:06:06.80,0:06:09.72,Dial-JPN,,0,0,0,,{\c&D9DDDE}{\bord2.3\blur0.7\3c&1A1A1A\4c&1A1A1A}ぜひ焼きたてを食わせてもらいたいものだ
+Dialogue: 0,0:06:10.93,0:06:11.85,Dial-JPN,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333\4c&333333}いや
+Dialogue: 0,0:06:12.48,0:06:15.65,Dial-JPN,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333\4c&333333}この際　焼きたてでなくてもかまわない
+Dialogue: 0,0:06:15.65,0:06:18.73,Dial-JPN,,0,0,0,,{\c&F2F2F2\bord2\blur0.7\3c&333333\4c&333333}売れ残りでも　昔のような失敗作でもいい
+Dialogue: 0,0:06:18.73,0:06:19.44,Dial-JPN,,0,0,0,,{\c&F0EFF0}{\bord2\blur0.7\3c&333333\4c&333333}売れ残りでも　昔のような失敗作でもいい
+Dialogue: 0,0:06:20.82,0:06:22.40,Dial-JPN,,0,0,0,,{\c&F0EFF0}{\bord2\blur0.7\3c&333333\4c&333333}贅沢は言わん
+Dialogue: 0,0:06:38.29,0:06:39.46,Dial-JPN,,0,0,0,,{\c&BBBDBF\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ゲナウさん
+Dialogue: 0,0:06:44.51,0:06:46.43,Dial-JPN,,0,0,0,,{\c&AEB1B5}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ケガ人をこちらに
+Dialogue: 0,0:06:46.43,0:06:47.76,Dial-JPN,,0,0,0,,{\c&AEB1B5}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ケガ人?
+Dialogue: 0,0:06:47.76,0:06:49.43,Dial-JPN,,0,0,0,,{\c&AEB1B5}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}気休めを言うな　メトーデ
+Dialogue: 0,0:06:50.27,0:06:53.31,Dial-JPN,,0,0,0,,{\c&CACCCC\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}もう死んでいるんだろ　こいつ
+Dialogue: 0,0:06:55.35,0:06:58.77,Dial-JPN,,0,0,0,,{\c&AEB1B5}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}見つけた時には　もう助からない状態だった
+Dialogue: 0,0:06:59.77,0:07:01.69,Dial-JPN,,0,0,0,,{\c&CDCED1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ひどいにおいだろ
+Dialogue: 0,0:07:02.15,0:07:05.32,Dial-JPN,,0,0,0,,{\c&CDCED1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}腹のケガが　もう腐り始めてたんだ
+Dialogue: 0,0:07:05.32,0:07:07.78,Dial-JPN,,0,0,0,,{\c&CDCED1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}こんなやつが助かるはずがない
+Dialogue: 0,0:07:08.78,0:07:12.79,Dial-JPN,,0,0,0,,{\c&CDCED1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}それでも　こいつは私にしがみついてきたんだ
+Dialogue: 0,0:07:27.22,0:07:29.80,Dial-JPN,,0,0,0,,{\c&E8E8E8}{\bord2\blur0.7\3c&333333\4c&333333}こいつはパン屋の息子だった
+Dialogue: 0,0:07:30.39,0:07:33.68,Dial-JPN,,0,0,0,,{\c&ACABB0\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}子供の頃はよく一緒に遊んでいたな
+Dialogue: 0,0:07:34.81,0:07:38.69,Dial-JPN,,0,0,0,,{\c&A7A7A8}{\bord2.4\blur0.7\3c&000000\4c&000000}親父さんが亡くなってからは　こいつが後を継いだんだが
+Dialogue: 0,0:07:39.27,0:07:42.44,Dial-JPN,,0,0,0,,{\c&A7A7A8}{\bord2.4\blur0.7\3c&000000\4c&000000}こいつの焼くパンは　あまりうまくなかった
+Dialogue: 0,0:07:45.53,0:07:47.57,Dial-JPN,,0,0,0,,{\c&C7BFC1\bord2\blur0.7\3c&1E2927\4c&1E2927}もう食えないんだな
+Dialogue: 0,0:07:50.16,0:07:53.20,Dial-JPN,,0,0,0,,{\c&A7A7A8}{\bord2.4\blur0.7\3c&000000\4c&000000}みんな一緒だ　こいつも寂しくない
+Dialogue: 0,0:07:55.66,0:07:59.58,Dial-JPN,,0,0,0,,{\c&D3D7DB\bord2\blur0.7\3c&13211F\4c&13211F}なんで　私たちではなく　こいつらなんだろうな
+Dialogue: 0,0:08:00.75,0:08:03.34,Dial-JPN,,0,0,0,,{\c&D3D7DB\bord2\blur0.7\3c&13211F\4c&13211F}この村のやつらは　私たちと違って
+Dialogue: 0,0:08:03.88,0:08:07.09,Dial-JPN,,0,0,0,,{\c&9C9797}{\bord2\blur0.7\3c&000000\4c&000000}戦いの道を選んだわけじゃない
+Dialogue: 0,0:08:17.02,0:08:18.81,Dial-JPN,,0,0,0,,{\c&9C9797}{\bord2\blur0.7\3c&000000\4c&000000}死ぬのなら
+Dialogue: 0,0:08:18.81,0:08:23.65,Dial-JPN,,0,0,0,,{\c&9C9797}{\bord2\blur0.7\3c&000000\4c&000000}一級魔法使いという戦いの道を選んだ私たちであるべきだ
+Dialogue: 0,0:08:23.65,0:08:25.19,Dial-JPN,,0,0,0,,{\c&A2A4A6\bord2\blur0.7\3c&000000\4c&000000}ゲナウさん
+Dialogue: 0,0:08:27.15,0:08:32.70,Dial-JPN,,0,0,0,,{\c&A2A4A6\bord2\blur0.7\3c&000000\4c&000000}駐留していたノルム騎士団の要請が北部支部に届いた頃には
+Dialogue: 0,0:08:32.70,0:08:34.87,Dial-JPN,,0,0,0,,{\c&A2A4A6\bord2\blur0.7\3c&000000\4c&000000}村はもう滅んでいました
+Dialogue: 0,0:08:36.29,0:08:39.29,Dial-JPN,,0,0,0,,{\c&E4DEDF}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}ゲナウさんに責任はありません
+Dialogue: 0,0:08:41.25,0:08:43.42,Dial-JPN,,0,0,0,,{\c&D4CDCE\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}村をもうひと回り見てくる
+Dialogue: 0,0:08:46.88,0:08:50.09,Dial-JPN,,0,0,0,,{\c&C4BEC3}{\bord2\blur0.7\3c&000000\4c&000000}少しは休んだほうがいいのではないのですか
+Dialogue: 0,0:08:51.30,0:08:52.43,Dial-JPN,,0,0,0,,{\c&C4BEC3}{\bord2\blur0.7\3c&000000\4c&000000}なぜ
+Dialogue: 0,0:08:52.43,0:08:53.56,Dial-JPN,,0,0,0,,{\c&C4BEC3}{\bord2\blur0.7\3c&000000\4c&000000}なぜって
+Dialogue: 0,0:08:56.31,0:08:57.31,Dial-JPN,,0,0,0,,{\c&F0F1F2}{\bord2\blur0.7\3c&333333\4c&333333}静かに
+Dialogue: 0,0:08:58.31,0:09:00.60,Dial-JPN,,0,0,0,,{\c&DBD9DB\bord2\blur0.7\3c&32363D\4c&32363D}私の目が一つ潰された
+Dialogue: 0,0:09:01.27,0:09:03.06,Dial-JPN,,0,0,0,,{\c&DBD9DB\bord2\blur0.7\3c&32363D\4c&32363D}戦士が１人と
+Dialogue: 0,0:09:03.06,0:09:05.57,Dial-JPN,,0,0,0,,{\c&DBD9DB\bord2\blur0.7\3c&32363D\4c&32363D}潜伏した魔法使いが１人
+Dialogue: 0,0:09:05.57,0:09:06.44,Dial-JPN,,0,0,0,,{\c&DBD9DB\bord2\blur0.7\3c&32363D\4c&32363D}いや　２人か
+Dialogue: 0,0:09:07.49,0:09:08.70,Dial-JPN,,0,0,0,,{\c&DBD9DB}{\bord2.2\blur0.7\3c&0D0D0D\4c&0D0D0D}２人です
+Dialogue: 0,0:09:09.32,0:09:11.53,Dial-JPN,,0,0,0,,{\c&DBD9DB}{\bord2.2\blur0.7\3c&0D0D0D\4c&0D0D0D}かなりの手だれだな
+Dialogue: 0,0:09:11.53,0:09:12.78,Dial-JPN,,0,0,0,,{\c&DBD9DB}{\bord2.2\blur0.7\3c&0D0D0D\4c&0D0D0D}敵だと思うか
+Dialogue: 0,0:09:18.16,0:09:20.75,Dial-JPN,,0,0,0,,{\c&DBD9DB}{\bord2.2\blur0.7\3c&0D0D0D\4c&0D0D0D}いえ　たぶんこれは
+Dialogue: 0,0:09:32.09,0:09:34.30,Dial-JPN,,0,0,0,,{\c&CBC6CC\bord2.3\blur0.7\3c&0D0D0D\4c&0D0D0D}何だ　フリーレンか
+Dialogue: 0,0:09:35.93,0:09:38.39,Dial-JPN,,0,0,0,,{\c&CBC6CC\bord2.3\blur0.7\3c&0D0D0D\4c&0D0D0D}ということは　もう１人の反応
+Dialogue: 0,0:09:38.39,0:09:40.56,Dial-JPN,,0,0,0,,{\c&CBC6CC\bord2.3\blur0.7\3c&0D0D0D\4c&0D0D0D}フェルン　一級魔法使いだな
+Dialogue: 0,0:09:42.73,0:09:44.31,Dial-JPN,,0,0,0,,{\c&F5F0F2}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}えっと
+Dialogue: 0,0:09:44.31,0:09:48.23,Dial-JPN,,0,0,0,,{\c&F5F0F2}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}メトーデと　一級試験の時の試験官か
+Dialogue: 0,0:09:48.23,0:09:50.15,Dial-JPN,,0,0,0,,{\c&F5F0F2}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}たしかゲナウだっけ
+Dialogue: 0,0:09:50.65,0:09:51.86,Dial-JPN,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}まったく
+Dialogue: 0,0:09:51.86,0:09:56.08,Dial-JPN,,1011,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}すごい殺意のこもった魔力だったから魔族かと思ったよ
+Dialogue: 0,0:09:57.54,0:09:58.62,Dial-JPN,,0,0,0,,{\c&CBCACC}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}そうか
+Dialogue: 0,0:09:58.62,0:10:02.04,Dial-JPN,,0,0,0,,{\c&CBCACC}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}紛らわしいことをしたな　悪かった
+Dialogue: 0,0:10:02.04,0:10:03.67,Dial-JPN,,0,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}本当です
+Dialogue: 0,0:10:03.67,0:10:05.54,Dial-JPN,,333,0,0,,{\c&D1D1D1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}気が気ではありませんでした
+Dialogue: 0,0:10:06.42,0:10:09.05,Dial-JPN,,0,0,0,,{\c&B9BCBD}{\bord2\blur0.7\3c&000000\4c&000000}フェルン　大丈夫　味方だよ
+Dialogue: 0,0:10:09.05,0:10:10.72,Dial-JPN,,0,0,0,,{\c&B9BCBD}{\bord2\blur0.7\3c&000000\4c&000000}シュタルクに伝えて
+Dialogue: 0,0:10:10.72,0:10:11.80,Dial-JPN,,0,0,0,,{\c&B9BCBD}{\bord2\blur0.7\3c&000000\4c&000000}はい
+Dialogue: 0,0:10:15.68,0:10:16.80,Dial-JPN,,0,0,0,,{\c&BDB7BC\bord2\blur0.7\3c&000000\4c&000000}そうですか
+Dialogue: 0,0:10:16.80,0:10:20.81,Dial-JPN,,0,0,0,,{\c&E3DBD8}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}フェルンさんも　討伐要請を受けていたんですね
+Dialogue: 0,0:10:21.35,0:10:23.31,Dial-JPN,,0,0,0,,{\c&E3DBD8}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}北部高原にいたからね
+Dialogue: 0,0:10:23.81,0:10:26.56,Dial-JPN,,0,0,0,,{\c&E7E3E8\bord2\blur0.7\3c&333333\4c&333333}それで　状況は?
+Dialogue: 0,0:10:38.37,0:10:39.91,Dial-JPN,,0,0,0,,{\c&B6B0B8}{\bord2\blur0.7\3c&000000\4c&000000}祈っているのか
+Dialogue: 0,0:10:40.41,0:10:41.54,Dial-JPN,,0,0,0,,{\c&D0CBD1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}悪いか
+Dialogue: 0,0:10:42.00,0:10:44.42,Dial-JPN,,0,0,0,,{\c&D0CBD1\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}いいや　そうは思わん
+Dialogue: 0,0:10:45.08,0:10:47.42,Dial-JPN,,0,0,0,,{\c&EBE8EA}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}俺の村も魔族に滅ぼされた
+Dialogue: 0,0:10:49.05,0:10:50.05,Dial-JPN,,0,0,0,,{\c&B9B6BA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}そうか
+Dialogue: 0,0:10:53.09,0:10:53.68,Dial-JPN,,0,0,0,,{\c&B9B6BA\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}なあ
+Dialogue: 0,0:10:54.76,0:10:57.22,Dial-JPN,,0,0,0,,{\c&D9DCDE}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}魔族って　人間を食べるんだよな
+Dialogue: 0,0:10:59.10,0:11:01.27,Dial-JPN,,0,0,0,,{\c&D9DCDE}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}なんで死体が残っているんだ
+Dialogue: 0,0:11:01.93,0:11:03.56,Dial-JPN,,0,0,0,,{\c&D9DCDE}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}俺の村も　そうだった
+Dialogue: 0,0:11:04.27,0:11:07.36,Dial-JPN,,0,0,0,,{\c&C5C1C7\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}さあな　理由は知らん
+Dialogue: 0,0:11:07.36,0:11:10.32,Dial-JPN,,0,0,0,,{\c&C5C1C7\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}あいつらは腹いっぱいでも　人を殺すんだよ
+Dialogue: 0,0:11:11.69,0:11:13.28,Dial-JPN,,0,0,0,,{\c&CACCCF}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}なんでだろうな
+Dialogue: 0,0:11:15.15,0:11:16.41,Dial-JPN,,0,0,0,,{\c&E3DBD8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}そうですか
+Dialogue: 0,0:11:16.87,0:11:19.87,Dial-JPN,,0,0,0,,{\c&E3DBD8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}村にいた魔族は　２人が倒したんですね
+Dialogue: 0,0:11:19.87,0:11:22.75,Dial-JPN,,0,0,0,,{\c&E3DBD8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}ひと足　遅かったみたいだね
+Dialogue: 0,0:11:22.75,0:11:25.46,Dial-JPN,,0,0,0,,{\c&E3DBD8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}これでも　急いだつもりだったんだけど
+Dialogue: 0,0:11:25.46,0:11:30.00,Dial-JPN,,0,0,0,,{\c&BFBEBB}{\bord2\blur0.7\3c&333333\4c&333333}ただ　ゲナウさんがひとつ腑に落ちない点があると
+Dialogue: 0,0:11:37.01,0:11:40.14,Dial-JPN,,0,0,0,,{\c&E4E1E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}村に駐留していたノルム騎士団だ
+Dialogue: 0,0:11:40.14,0:11:41.64,Dial-JPN,,0,0,0,,{\c&E4E1E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}ノルム騎士団?
+Dialogue: 0,0:11:42.14,0:11:44.77,Dial-JPN,,0,0,0,,{\c&E4E1E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}ノルム商会領にもいたでしょ
+Dialogue: 0,0:11:44.77,0:11:47.98,Dial-JPN,,0,0,0,,{\c&E4E1E8\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}商会が保有する軍事勢力だよ
+Dialogue: 0,0:11:48.90,0:11:51.61,Dial-JPN,,0,0,0,,{\c&E8DFE5}{\bord2\blur0.7\3c&333333\4c&333333}ずいぶん少人数なんですね
+Dialogue: 0,0:11:51.61,0:11:54.61,Dial-JPN,,0,0,0,,{\c&E8DFE5}{\bord2\blur0.7\3c&333333\4c&333333}村落の駐留部隊なんて　こんなものだ
+Dialogue: 0,0:11:55.36,0:11:56.95,Dial-JPN,,0,0,0,,{\c&D1CDCD\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}それでも　彼らは
+Dialogue: 0,0:11:56.95,0:12:00.07,Dial-JPN,,0,0,0,,{\c&D1CDCD\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}この村には　もったいないほどの精鋭だったよ
+Dialogue: 0,0:12:01.74,0:12:04.00,Dial-JPN,,0,0,0,,{\c&C2BEC4}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}隊長は　この男だった
+Dialogue: 0,0:12:04.00,0:12:07.75,Dial-JPN,,0,0,0,,{\c&A39F9E\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}長年　村を守り続けてきた英傑だ
+Dialogue: 0,0:12:10.75,0:12:12.38,Dial-JPN,,0,0,0,,{\c&DAD5DB}{\bord2\blur0.7}驚いた
+Dialogue: 0,0:12:12.38,0:12:15.01,Dial-JPN,,0,0,0,,{\c&DAD5DB}{\bord2\blur0.7}この人　シュタルクより　はるかに強いね
+Dialogue: 0,0:12:15.51,0:12:18.09,Dial-JPN,,0,0,0,,{\c&A39F9E\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}そりゃ　俺と比べたら　そうでしょ
+Dialogue: 0,0:12:19.26,0:12:21.47,Dial-JPN,,0,0,0,,{\c&A39F9E\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}えっと　死因は
+Dialogue: 0,0:12:21.47,0:12:23.68,Dial-JPN,,0,0,0,,{\c&A39F9E\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}検死魔法の結果
+Dialogue: 0,0:12:23.68,0:12:26.64,Dial-JPN,,0,0,0,,{\c&A39F9E\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}彼らの死因は剣による斬撃で　全員即死です
+Dialogue: 0,0:12:26.64,0:12:29.06,Dial-JPN,,0,0,0,,{\c&DED7D7}{\bord2\blur0.7\3c&333333\4c&333333}彼らの死因は剣による斬撃で　全員即死です
+Dialogue: 0,0:12:30.10,0:12:31.98,Dial-JPN,,0,0,0,,{\c&C2C0C2\bord2\blur0.7\3c&000000\4c&000000}村にいた魔族たちは
+Dialogue: 0,0:12:31.98,0:12:35.32,Dial-JPN,,0,0,0,,{\c&C2C0C2\bord2\blur0.7\3c&000000\4c&000000}彼らの足元にも及ばない　雑魚ばかりだった
+Dialogue: 0,0:12:37.07,0:12:40.41,Dial-JPN,,0,0,0,,{\c&C2C0C2\bord2\blur0.7\3c&000000\4c&000000}恐らく　村を襲った魔族はまだ生きている
+Dialogue: 0,0:12:42.03,0:12:43.49,Dial-JPN,,0,0,0,,{\c&DADBE0}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}よかったな
+Dialogue: 0,0:12:43.49,0:12:46.66,Dial-JPN,,0,0,0,,{\c&DADBE0}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}お前たちがここに来たのはムダ足なんかじゃない
+Dialogue: 0,0:12:48.54,0:12:49.79,Dial-JPN,,0,0,0,,{\c&DADBE0}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}そう
+Dialogue: 0,0:12:49.79,0:12:52.67,Dial-JPN,,0,0,0,,{\c&DADBE0}{\bord2\blur0.7\3c&0D0D0D\4c&0D0D0D}それじゃあ　手伝えることはまだありそうだね
+Dialogue: 0,0:12:54.71,0:12:59.13,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&333333\4c&333333}一緒にそいつに人類の恐ろしさを教えてあげよう
+Dialogue: 0,0:13:09.02,0:13:12.94,Dial-JPN,,0,0,0,,{\c&C5C9C9}{\bord2\blur0.7\3c&000000\4c&000000}こうで　こう　こう
+Dialogue: 0,0:13:13.65,0:13:15.40,Dial-JPN,,0,0,0,,{\c&E1E6ED\bord2\blur0.7\3c&262626\4c&262626}こうですかね
+Dialogue: 0,0:13:18.03,0:13:20.78,Dial-JPN,,0,0,0,,{\c&D9DEDD}{\bord2\blur0.7\3c&333333\4c&333333}それだと　かなり動きに無理があるな
+Dialogue: 0,0:13:21.61,0:13:25.29,Dial-JPN,,0,0,0,,{\c&CBCED1\bord2\blur0.7\3c&000000\4c&000000}でも　騎士たちの傷の状態だと
+Dialogue: 0,0:13:26.12,0:13:27.66,Dial-JPN,,0,0,0,,{\c&D3D6DC}{\bord2\blur0.7\3c&000000\4c&000000}もしかしたら
+Dialogue: 0,0:13:29.21,0:13:30.92,Dial-JPN,,0,0,0,,{\c&D3D6DC}{\bord2\blur0.7\3c&000000\4c&000000}二刀流なのかも
+Dialogue: 0,0:13:34.38,0:13:35.67,Dial-JPN,,0,0,0,,{\c&D5D9DB\bord2\blur0.7\3c&000000\4c&000000}だとしたら
+Dialogue: 0,0:13:38.13,0:13:43.43,Dial-JPN,,0,0,0,,{\c&EBEDF2}{\bord2\blur0.7\3c&333333\4c&333333}魔族は基本的に短時間の潜伏でしか魔力を隠さないから
+Dialogue: 0,0:13:43.43,0:13:47.31,Dial-JPN,,0,0,0,,{\c&EBEDF2}{\bord2\blur0.7\3c&333333\4c&333333}今は魔力探知の範囲外にいると考えていいと思う
+Dialogue: 0,0:13:47.81,0:13:50.89,Dial-JPN,,0,0,0,,{\c&EBEDF2\bord2\blur0.7\3c&333333\4c&333333}この村の近くは　安全ということですね
+Dialogue: 0,0:13:51.48,0:13:53.48,Dial-JPN,,0,0,0,,{\c&F0F2F1}{\bord2\blur0.7\3c&333333\4c&333333}ゲナウに周辺にある
+Dialogue: 0,0:13:53.48,0:13:57.32,Dial-JPN,,0,0,0,,{\c&F0F2F1}{\bord2\blur0.7\3c&333333\4c&333333}魔族の拠点になりそうな場所を教えてもらったから
+Dialogue: 0,0:13:57.32,0:13:59.32,Dial-JPN,,0,0,0,,{\c&F0F2F1}{\bord2\blur0.7\3c&333333\4c&333333}そこを中心に調べていこう
+Dialogue: 0,0:13:59.82,0:14:00.74,Dial-JPN,,0,0,0,,{\c&EBEDF2\bord2\blur0.7\3c&333333\4c&333333}はい
+Dialogue: 0,0:14:11.08,0:14:13.71,Dial-JPN,,0,0,0,,{\c&F0F2F1}{\bord2\blur0.7\3c&333333\4c&333333}まあ　その前に夕食かな
+Dialogue: 0,0:14:13.71,0:14:16.46,Dial-JPN,,0,0,0,,{\c&F0F2F1}{\bord2\blur0.7\3c&333333\4c&333333}腹が減っては戦はできぬだ
+Dialogue: 0,0:14:23.22,0:14:25.68,Dial-JPN,,0,0,0,,{\c&DCE4E6\bord2.5\blur0.7\3c&0D0D0D\4c&0D0D0D}また　このパンか
+Dialogue: 0,0:14:26.47,0:14:30.14,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}流通網が回復するまでの辛抱だね
+Dialogue: 0,0:14:32.48,0:14:33.23,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}ゲナウは?
+Dialogue: 0,0:14:34.31,0:14:36.86,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}まだ教会だと思います
+Dialogue: 0,0:14:36.86,0:14:39.57,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}ゲナウさんの分のパンは　わたくしが
+Dialogue: 0,0:14:39.57,0:14:44.03,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}いや　メトーデは　敵の分析結果を教えて
+Dialogue: 0,0:14:44.03,0:14:46.45,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}先に敵の構成を知りたい
+Dialogue: 0,0:14:46.87,0:14:49.08,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}じゃあ　俺が渡してくるよ
+Dialogue: 0,0:14:50.54,0:14:51.91,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}お願いします
+Dialogue: 0,0:14:53.96,0:14:56.38,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}それで　分析の結果は?
+Dialogue: 0,0:14:57.25,0:14:59.84,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}正確な敵の構成を把握するには
+Dialogue: 0,0:14:59.84,0:15:02.34,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}もう少しかかりそうですが
+Dialogue: 0,0:15:02.34,0:15:03.97,Dial-JPN,,0,0,0,,{\c&C8CBCF\bord2\blur0.7\3c&000000\4c&000000}分かったことはあります
+Dialogue: 0,0:15:04.55,0:15:05.68,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}そっか
+Dialogue: 0,0:15:05.68,0:15:08.01,Dial-JPN,,0,0,0,,{\c&EBEFF2}{\bord2\blur0.7\3c&333333\4c&333333}じゃあ　先に作戦会議
+Dialogue: 0,0:15:17.36,0:15:20.73,Dial-JPN,,0,0,0,,{\c&C0C0C4\bord2\blur0.7\3c&000000\4c&000000}の　前に　やっぱり夕食にしようか
+Dialogue: 0,0:15:28.32,0:15:30.49,Dial-JPN,,0,0,0,,{\c&A7BED1}{\bord2\blur0.7\3c&000000\4c&000000}何だ　もう出発か
+Dialogue: 0,0:15:31.24,0:15:34.62,Dial-JPN,,0,0,0,,{\c&CCE6FF\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}いや　夕食だってさ
+Dialogue: 0,0:15:40.42,0:15:41.75,Dial-JPN,,0,0,0,,{\c&CCE6FF}{\bord2\blur0.7\3c&212136\4c&212136}硬いな
+Dialogue: 0,0:15:42.26,0:15:43.26,Dial-JPN,,0,0,0,,{\c&CCE6FF}{\bord2\blur0.7\3c&212136\4c&212136}うん
+Dialogue: 0,0:15:43.97,0:15:45.88,Dial-JPN,,0,0,0,,{\c&CCE6FF}{\bord2\blur0.7\3c&212136\4c&212136}何をやっていたんだ
+Dialogue: 0,0:15:47.14,0:15:51.31,Dial-JPN,,0,0,0,,{\c&CCE6FF}{\bord2\blur0.7\3c&212136\4c&212136}魔族の襲撃で　教会の結界が壊されていたからな
+Dialogue: 0,0:15:51.81,0:15:54.64,Dial-JPN,,0,0,0,,{\c&CCE6FF}{\bord2\blur0.7\3c&212136\4c&212136}より強力なものに張り替えておいた
+Dialogue: 0,0:15:55.64,0:15:58.90,Dial-JPN,,0,0,0,,{\c&969FB5\bord2\blur0.7\3c&000000\4c&000000}中にあいつらの死体もあるしな
+Dialogue: 0,0:15:59.48,0:16:03.07,Dial-JPN,,0,0,0,,{\c&BCD4EB}{\bord2.5}{\blur0.7\3c&292430\4c&292430}なあ　なんで　死体を　そのままにしてるんだ
+Dialogue: 0,0:16:03.78,0:16:05.99,Dial-JPN,,0,0,0,,{\c&BCD4EB}{\bord2.5}{\blur0.7\3c&292430\4c&292430}埋葬するなら手伝うぜ
+Dialogue: 0,0:16:05.99,0:16:08.41,Dial-JPN,,0,0,0,,{\c&BCD4EB}{\bord2.5}{\blur0.7\3c&292430\4c&292430}力仕事は得意なんだ
+Dialogue: 0,0:16:08.41,0:16:09.87,Dial-JPN,,0,0,0,,{\c&BCD4EB}{\bord2.5}{\blur0.7\3c&292430\4c&292430}そうか
+Dialogue: 0,0:16:09.87,0:16:13.37,Dial-JPN,,0,0,0,,{\c&BCD4EB}{\bord2.5}{\blur0.7\3c&292430\4c&292430}北部高原出身じゃないやつには　分からないか
+Dialogue: 0,0:16:16.50,0:16:20.17,Dial-JPN,,0,0,0,,{\c&BCD8EB}{\bord2.5\blur0.7\3c&18151C\4c&18151C}基本的に北部高原の村落に墓地はない
+Dialogue: 0,0:16:21.84,0:16:26.17,Dial-JPN,,0,0,0,,{\c&BFBEBB\bord2\blur0.7\3c&000000\4c&000000}あるとしても　堅牢な城塞都市の片隅か
+Dialogue: 0,0:16:26.72,0:16:30.18,Dial-JPN,,0,0,0,,{\c&EDF8FA}{\bord2\blur0.7\3c&333333\4c&333333}結界に守られたお貴族様の墓くらいだ
+Dialogue: 0,0:16:30.89,0:16:33.47,Dial-JPN,,0,0,0,,{\c&CCE6FF\bord2\blur0.7\3c&212136\4c&212136}あとはすべて魔物の少ない
+Dialogue: 0,0:16:33.47,0:16:36.94,Dial-JPN,,0,0,0,,{\c&CCE6FF\bord2\blur0.7\3c&212136\4c&212136}北部高原南端の共同墓地に埋葬される
+Dialogue: 0,0:16:37.56,0:16:40.06,Dial-JPN,,0,0,0,,{\c&F5F5F5}{\bord2\blur0.7\3c&333333\4c&333333}わざわざ死体を運び出すんだ
+Dialogue: 0,0:16:40.81,0:16:43.44,Dial-JPN,,0,0,0,,{\c&F5F5F5}{\bord2\blur0.7\3c&333333\4c&333333}ノルム騎士団の護衛をつけてな
+Dialogue: 0,0:16:44.69,0:16:46.53,Dial-JPN,,0,0,0,,{\c&BCD2E6\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}なぜだか分かるか
+Dialogue: 0,0:16:46.53,0:16:47.70,Dial-JPN,,0,0,0,,{\c&BCD2E6\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}いや
+Dialogue: 0,0:16:48.74,0:16:50.45,Dial-JPN,,0,0,0,,{\c&B0BFCF}{\bord2\blur0.7\3c&000000\4c&000000}下手に墓を作ると
+Dialogue: 0,0:16:50.45,0:16:53.58,Dial-JPN,,0,0,0,,{\c&B0BFCF}{\bord2\blur0.7\3c&000000\4c&000000}腐臭につられて　魔物が集まってくるんだ
+Dialogue: 0,0:16:54.83,0:16:57.08,Dial-JPN,,0,0,0,,{\c&78705D\bord2\blur0.7\3c&000000\4c&000000}地獄のような光景だよ
+Dialogue: 0,0:16:57.58,0:16:59.46,Dial-JPN,,0,0,0,,{\c&78705D\bord2\blur0.7\3c&000000\4c&000000}そこには骨も残らない
+Dialogue: 0,0:17:01.17,0:17:02.96,Dial-JPN,,0,0,0,,{\c&C7DDF2}{\bord2\blur0.7\3c&333333\4c&333333}ノルム商会の連中は
+Dialogue: 0,0:17:02.96,0:17:06.97,Dial-JPN,,0,0,0,,{\c&C7DDF2}{\bord2\blur0.7\3c&333333\4c&333333}ずいぶん前から　死体を燃やすようにと主張している
+Dialogue: 0,0:17:07.92,0:17:11.68,Dial-JPN,,0,0,0,,{\c&CCE6FF\bord2\blur0.7\3c&212136\4c&212136}実に商人らしい合理的な考え方だ
+Dialogue: 0,0:17:11.68,0:17:13.35,Dial-JPN,,0,0,0,,{\c&CCE6FF\bord2\blur0.7\3c&212136\4c&212136}私も賛成だよ
+Dialogue: 0,0:17:18.18,0:17:21.44,Dial-JPN,,0,0,0,,{\c&9CAAB8}{\bord2\blur0.7\3c&000000\4c&000000}でも　聖職者連中が黙っていない
+Dialogue: 0,0:17:22.02,0:17:24.61,Dial-JPN,,0,0,0,,{\c&9CAAB8}{\bord2\blur0.7\3c&000000\4c&000000}やつらの気持ちも分かるよ
+Dialogue: 0,0:17:24.61,0:17:26.23,Dial-JPN,,0,0,0,,{\c&9CAAB8}{\bord2\blur0.7\3c&000000\4c&000000}痛いほど分かる
+Dialogue: 0,0:17:27.24,0:17:30.61,Dial-JPN,,1111,0,0,,{\c&9CAAB8}{\bord2\blur0.7\3c&000000\4c&000000}苦しんで死んだ人間を火に焼べるなんざ
+Dialogue: 0,0:17:30.61,0:17:32.45,Dial-JPN,,1111,0,0,,{\c&9CAAB8}{\bord2\blur0.7\3c&000000\4c&000000}正気の沙汰じゃない
+Dialogue: 0,0:17:35.91,0:17:38.25,Dial-JPN,,0,0,0,,{\c&C4E3FF\bord2\blur0.7\3c&212136\4c&212136}でも　いつかは　そうするべきだ
+Dialogue: 0,0:17:39.04,0:17:43.25,Dial-JPN,,0,0,0,,{\c&A7B4C2}{\bord2\blur0.7\3c&000000\4c&000000}どうせ　このままじゃ　誰も故郷の地で眠れない
+Dialogue: 0,0:17:54.64,0:17:58.18,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}相変わらず　パンを　食べている時の音じゃないですね
+Dialogue: 0,0:17:58.60,0:18:01.60,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}何だか　こうして一緒に食事をしていると
+Dialogue: 0,0:18:01.60,0:18:03.52,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}不思議な気分です
+Dialogue: 0,0:18:04.19,0:18:06.44,Dial-JPN,,0,0,0,,{\c&CDD2D4}{\bord2\blur0.7\3c&000000\4c&000000}正直　フリーレンさんたちと
+Dialogue: 0,0:18:06.44,0:18:10.49,Dial-JPN,,0,0,0,,{\c&CDD2D4}{\bord2\blur0.7\3c&000000\4c&000000}こんなところで再会するとは　思っていませんでしたから
+Dialogue: 0,0:18:10.49,0:18:11.78,Dial-JPN,,0,0,0,,{\c&CDD2D4}{\bord2\blur0.7\3c&000000\4c&000000}こっちもね
+Dialogue: 0,0:18:13.45,0:18:15.83,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}山一つ向こうで野営してたら
+Dialogue: 0,0:18:15.83,0:18:19.16,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}討伐要請の書面が届いたからね
+Dialogue: 0,0:18:19.16,0:18:21.21,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}何事かと思ったよ
+Dialogue: 0,0:18:29.01,0:18:30.67,Dial-JPN,,0,0,0,,{\c&E2E2E2}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}何だ　こいつ
+Dialogue: 0,0:18:30.67,0:18:32.93,Dial-JPN,,0,0,0,,{\c&E2E2E2}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}手紙を持っていますね
+Dialogue: 0,0:18:34.01,0:18:37.68,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}メトーデとゲナウこそ　なんで　こんなところにいるの?
+Dialogue: 0,0:18:38.14,0:18:40.77,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}偶然　近くに他の一級魔法使いが
+Dialogue: 0,0:18:40.77,0:18:43.31,Dial-JPN,,0,0,0,,{\c&F2F9FC\bord2\blur0.7\3c&333333\4c&333333}２人もいたとは思えないんだけど
+Dialogue: 0,0:18:43.81,0:18:47.48,Dial-JPN,,1111,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}今　わたくしは　ゼーリエ様の命令で
+Dialogue: 0,0:18:47.48,0:18:49.32,Dial-JPN,,1111,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}ゲナウさんと２人組で
+Dialogue: 0,0:18:49.32,0:18:53.28,Dial-JPN,,1111,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}北部高原の魔族の討伐任務をしていますから
+Dialogue: 0,0:18:53.86,0:18:57.53,Dial-JPN,,666,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}一級魔法使いって　そんなことまでするんだ
+Dialogue: 0,0:18:57.53,0:18:59.20,Dial-JPN,,1,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}ならなくて　よかったよ
+Dialogue: 0,0:18:59.70,0:19:02.96,Dial-JPN,,444,0,0,,{\c&D0D7DB\bord2\blur0.7\3c&000000\4c&000000}というよりも　弟子としての仕事ですね
+Dialogue: 0,0:19:03.58,0:19:04.58,Dial-JPN,,0,0,0,,{\c&D4D9D9}{\bord2\blur0.7\3c&000000\4c&000000}弟子?
+Dialogue: 0,0:19:05.04,0:19:06.21,Dial-JPN,,0,0,0,,{\c&D4D9D9}{\bord2\blur0.7\3c&000000\4c&000000}ええ
+Dialogue: 0,0:19:06.21,0:19:11.97,Dial-JPN,,0,0,0,,{\c&D4D9D9}{\bord2\blur0.7\3c&000000\4c&000000}一級魔法使いは基本的に\Nゼーリエ様の弟子になることになるので
+Dialogue: 0,0:19:11.97,0:19:14.55,Dial-JPN,,0,0,0,,{\c&D4D9D9}{\bord2\blur0.7\3c&000000\4c&000000}そういえば　そんなこと言ってたっけ
+Dialogue: 0,0:19:15.05,0:19:17.10,Dial-JPN,,0,0,0,,{\c&EDF1F7\bord2\blur0.7\3c&333333\4c&333333}私は断りましたよ
+Dialogue: 0,0:19:17.10,0:19:18.93,Dial-JPN,,0,0,0,,{\c&EDF1F7\bord2\blur0.7\3c&333333\4c&333333}フェルンは　いい子だね
+Dialogue: 0,0:19:19.89,0:19:24.06,Dial-JPN,,888,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}それで　２人ともゼーリエのわがままを聞いているわけだ
+Dialogue: 0,0:19:24.06,0:19:25.44,Dial-JPN,,0,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}大変だね
+Dialogue: 0,0:19:25.44,0:19:27.44,Dial-JPN,,0,0,0,,{\c&C9CBD1}{\bord2\blur0.7\3c&000000\4c&000000}そうでもないですよ
+Dialogue: 0,0:19:28.31,0:19:31.94,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}むしろ　もっと　お役に立ちたいというか
+Dialogue: 0,0:19:32.82,0:19:36.32,Dial-JPN,,0,0,0,,{\c&EBF0F5}{\bord2\blur0.7\3c&333333\4c&333333}あの人　ちっちゃくて　かわいいじゃないですか
+Dialogue: 0,0:19:36.78,0:19:38.66,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}そうかな
+Dialogue: 0,0:19:38.66,0:19:40.24,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}もちろん　フリーレンさんも
+Dialogue: 0,0:19:40.24,0:19:42.70,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}負けないくらい　かわいらしいですよ
+Dialogue: 0,0:19:43.20,0:19:44.66,Dial-JPN,,0,0,0,,{\c&D4D9D9\bord2\blur0.7\3c&000000\4c&000000}ありがとう
+Dialogue: 0,0:19:46.50,0:19:50.96,Dial-JPN,,0,0,0,,{\c&E9F0F5}{\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}それに　ゲナウさんほどの反面教師もいませんしね
+Dialogue: 0,0:19:52.17,0:19:55.47,Dial-JPN,,0,333,0,,{\c&C8CACC\bord2\blur0.7\3c&000000\4c&000000}お前は　私のようにはなるな
+Dialogue: 0,0:19:58.39,0:20:00.97,Dial-JPN,,0,0,0,,{\c&CFD4D4}{\bord2\blur0.7\3c&000000\4c&000000}さて　おなかも満たされたし
+Dialogue: 0,0:20:02.10,0:20:04.23,Dial-JPN,,0,0,0,,{\c&EDF6FA\bord2\blur0.7\3c&333333\4c&333333}作戦会議といこうか
+Dialogue: 0,0:20:06.10,0:20:09.52,Dial-JPN,,0,0,0,,{\c&D1E6FF}{\bord2\blur0.7\3c&29344F\4c&29344F}それで　敵の分析のほうは　どうなっている
+Dialogue: 0,0:20:10.82,0:20:12.36,Dial-JPN,,0,0,0,,{\c&D1E6FF}{\bord2\blur0.7\3c&29344F\4c&29344F}何か分かったか
+Dialogue: 0,0:20:12.78,0:20:14.19,Dial-JPN,,0,0,0,,{\c&D1E6FF}{\bord2\blur0.7\3c&29344F\4c&29344F}ああ
+Dialogue: 0,0:20:14.19,0:20:17.82,Dial-JPN,,0,0,0,,{\c&D1E6FF}{\bord2\blur0.7\3c&29344F\4c&29344F}正確な魔族の数とかはまだ解析中らしいけど
+Dialogue: 0,0:20:18.53,0:20:20.58,Dial-JPN,,0,0,0,,{\c&BED7ED\bord2\blur0.7\3c&161B21\4c&161B21}一つだけ分かったことがあるぜ
+Dialogue: 0,0:20:22.99,0:20:25.79,Dial-JPN,,0,0,0,,{\c&F2FBFF}{\bord2\blur0.7\3c&48474F\4c&48474F}敵は二刀流って言ってたっけ
+Dialogue: 0,0:20:25.79,0:20:26.96,Dial-JPN,,0,0,0,,{\c&F2FBFF}{\bord2\blur0.7\3c&48474F\4c&48474F}それが
+Dialogue: 0,0:20:28.17,0:20:31.59,Dial-JPN,,0,0,0,,{\c&C5C9C9}{\bord2\blur0.7\3c&000000\4c&000000}最初はそのように仮定していたのですが
+Dialogue: 0,0:20:31.59,0:20:34.96,Dial-JPN,,0,0,0,,{\c&C5C9C9}{\bord2\blur0.7\3c&000000\4c&000000}やはり　釈然としない点がありまして
+Dialogue: 0,0:20:34.96,0:20:36.30,Dial-JPN,,0,0,0,,{\c&C5C9C9}{\bord2\blur0.7\3c&000000\4c&000000}どういうこと
+Dialogue: 0,0:20:36.30,0:20:38.38,Dial-JPN,,0,0,0,,{\c&C4C8CC\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}わたくしの知るかぎり
+Dialogue: 0,0:20:38.38,0:20:40.76,Dial-JPN,,0,0,0,,{\c&C4C8CC\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}二刀流は　どれも基本的に
+Dialogue: 0,0:20:40.76,0:20:44.68,Dial-JPN,,0,0,0,,{\c&C4C8CC\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}攻守のバランスを保つことに重きが置かれています
+Dialogue: 0,0:20:45.27,0:20:48.48,Dial-JPN,,0,0,0,,{\c&E9EDF0}{\bord2\blur0.7\3c&333333\4c&333333}なので　１本は　致命傷を与える長剣
+Dialogue: 0,0:20:48.48,0:20:52.32,Dial-JPN,,0,0,0,,{\c&E9EDF0}{\bord2\blur0.7\3c&333333\4c&333333}もう１本は　取り回しのよい短剣にするのが主流です
+Dialogue: 0,0:20:54.44,0:20:58.40,Dial-JPN,,0,0,0,,{\c&CBD0D6\bord2\blur0.7\3c&1A1A1A\4c&1A1A1A}つまり　斬り跡には自然と差が生まれるのです
+Dialogue: 0,0:21:02.28,0:21:06.41,Dial-JPN,,0,0,0,,{\c&E8EDED}{\bord2\blur0.7\3c&333333\4c&333333}大きな剣を２本操る　怪力の持ち主ってことでしょうか
+Dialogue: 0,0:21:06.87,0:21:07.96,Dial-JPN,,0,0,0,,{\c&C5C9C9\bord2\blur0.7\3c&000000\4c&000000}ええ
+Dialogue: 0,0:21:07.96,0:21:12.46,Dial-JPN,,0,0,0,,{\c&C5C9C9\bord2\blur0.7\3c&000000\4c&000000}そう思って　遺体の傷や戦闘の痕跡からイメージして
+Dialogue: 0,0:21:12.46,0:21:15.13,Dial-JPN,,0,0,0,,{\c&C5C9C9\bord2\blur0.7\3c&000000\4c&000000}同じ斬り方を試みたのですが
+Dialogue: 0,0:21:16.92,0:21:21.43,Dial-JPN,,0,0,0,,{\c&C5C9C9\bord2\blur0.7\3c&000000\4c&000000}やはり　二刀流ではどうしても動きに無理が生じてしまいます
+Dialogue: 0,0:21:22.55,0:21:26.64,Dial-JPN,,0,1511,0,,{\c&DEE3E2}{\bord2\blur0.7\3c&333333\4c&333333}これ以上は　まだ　臆測の域を出ないのですが
+Dialogue: 0,0:21:28.14,0:21:29.56,Dial-JPN,,0,1511,0,,{\c&DEE3E2}{\bord2\blur0.7\3c&333333\4c&333333}いいから　教えて
+Dialogue: 0,0:21:33.82,0:21:34.27,Dial-JPN,,0,0,0,,{\c&D2D6D8\bord2.5\blur0.7\3c&000000\4c&000000}悪い
+Dialogue: 0,0:21:34.27,0:21:35.44,Dial-JPN,,0,0,0,,{\c&D2D6D8\bord2.5\blur0.7\3c&000000\4c&000000}すみません
+Dialogue: 0,0:21:48.87,0:21:49.83,Dial-JPN,,0,0,0,,{\c&B4B8B8}{\bord2\blur0.7\3c&000000\4c&000000}敵は四刀流です
+Dialogue: 0,0:21:49.83,0:21:52.33,Dial-JPN,,0,0,0,,{\c&D3D9DE\bord2\blur0.7\3c&000000\4c&000000}敵は四刀流です
+Dialogue: 0,0:21:54.63,0:21:55.59,Dial-JPN,,0,0,0,,{\c&D1E6FF}{\bord2\blur0.7\3c&29344F\4c&29344F}そうか
+Dialogue: 0,0:21:56.71,0:22:00.22,Dial-JPN,,0,0,0,,{\c&B1C8E6\bord2\blur0.7\3c&29344F\4c&29344F}騎士や建物に　刻まれた斬り跡を見るかぎり
+Dialogue: 0,0:22:00.22,0:22:02.34,Dial-JPN,,0,0,0,,{\c&B1C8E6\bord2\blur0.7\3c&29344F\4c&29344F}そう考えるほうが自然だって
+Dialogue: 0,0:22:08.64,0:22:10.31,Dial-JPN,,0,0,0,,{\c&A3B2C2}{\bord2\blur0.7\3c&000000\4c&000000}四刀流
+Dialogue: 0,0:01:34.12,0:01:39.16,OP-JPN,,0,0,0,,{\fad(200,526)\blur2}終わりが来たら　なんて言おう
+Dialogue: 0,0:01:39.54,0:01:44.04,OP-JPN,,0,0,0,,{\fad(200,526)\blur2}どうせなら　ほら　哀しくない様に
+Dialogue: 0,0:01:45.08,0:01:50.09,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}いつかのあなたの言葉が
+Dialogue: 0,0:01:50.47,0:01:52.26,OP-JPN,,0,0,0,,{\fad(200,200)\blur2}酷く刺さってる
+Dialogue: 0,0:01:52.26,0:01:58.60,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}温かく残ってる
+Dialogue: 0,0:02:06.23,0:02:08.90,OP-JPN,,0,0,0,,{\fad(200,300)}{\blur2}知れば知るだけでいいのに
+Dialogue: 0,0:02:08.90,0:02:11.61,OP-JPN,,0,0,0,,{\fad(200,300)}{\blur2}何かを求めてしまう
+Dialogue: 0,0:02:11.61,0:02:12.49,OP-JPN,,0,0,0,,{\fad(200,200)\blur2}大丈夫
+Dialogue: 0,0:02:12.49,0:02:14.53,OP-JPN,,0,0,0,,{\fad(200,300)}{\blur2}どこにも行かないよ
+Dialogue: 0,0:02:14.53,0:02:16.95,OP-JPN,,0,0,0,,{\fad(200,300)}{\blur2}どこにも行けないよ
+Dialogue: 0,0:02:16.95,0:02:21.58,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}忘れないのに
+Dialogue: 0,0:02:22.08,0:02:27.17,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}何故か遠くなる
+Dialogue: 0,0:02:27.50,0:02:33.17,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}瞳の裏にいつも君は居る
+Dialogue: 0,0:02:33.17,0:02:38.14,OP-JPN,,0,0,0,,{\fad(200,500)\blur2}今も　ずっとそう
+Dialogue: 0,0:02:38.68,0:02:41.18,OP-JPN,,0,0,0,,{\fad(200,300)\blur2}いつかね もう少しね
+Dialogue: 0,0:02:41.18,0:02:45.48,OP-JPN,,0,0,0,,{\fad(200,300)\blur2}世界に優しい風が吹いたら
+Dialogue: 0,0:02:45.48,0:02:49.65,OP-JPN,,0,0,0,,{\fad(200,300)\blur2}何か変わるのでしょうか
+Dialogue: 0,0:02:49.86,0:02:52.24,OP-JPN,,0,0,0,,{\fad(200,300)\blur2\pos(1920,1476.8)}「帰りたい場所がある」
+Dialogue: 0,0:02:52.24,0:02:54.95,OP-JPN,,0,0,0,,{\fad(200,300)\blur2}誰もがこの星の子孫
+Dialogue: 0,0:02:54.95,0:02:57.87,OP-JPN,,0,0,0,,{\fad(200,300)\blur2}約束はね　大事にね
+Dialogue: 0,0:02:57.87,0:03:00.99,OP-JPN,,0,0,0,,{\fad(200,200)\blur2}温かく残ってる
+Dialogue: 0,0:03:00.74,0:03:02.95,OP-JPN,,0,0,0,,{\fad(200,0)\blur2\pos(1920,1788.8)}温かく残ってる
+Dialogue: 0,0:22:19.94,0:22:22.36,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(0,500)}So don't you worry
+Dialogue: 1,0:22:19.94,0:22:22.36,ED-JP,,0,0,0,,{\fad(0,500)}So don't you worry
+Dialogue: 0,0:22:22.91,0:22:26.87,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あなたに知られないように
+Dialogue: 1,0:22:22.91,0:22:26.87,ED-JP,,0,0,0,,{\fad(300,500)}あなたに知られないように
+Dialogue: 0,0:22:27.45,0:22:31.71,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あなたを守れますように
+Dialogue: 1,0:22:27.45,0:22:31.71,ED-JP,,0,0,0,,{\fad(300,500)}あなたを守れますように
+Dialogue: 0,0:22:31.71,0:22:37.71,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}The story has only just begun
+Dialogue: 1,0:22:31.71,0:22:37.71,ED-JP,,0,0,0,,{\fad(300,500)}The story has only just begun
+Dialogue: 0,0:22:38.34,0:22:44.93,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あてのない 道なき道にいてもどうか
+Dialogue: 1,0:22:38.34,0:22:44.93,ED-JP,,0,0,0,,{\fad(300,500)}あてのない 道なき道にいてもどうか
+Dialogue: 0,0:22:45.55,0:22:49.81,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}迷いながらいてもどうか
+Dialogue: 1,0:22:45.55,0:22:49.81,ED-JP,,0,0,0,,{\fad(300,500)}迷いながらいてもどうか
+Dialogue: 0,0:22:49.81,0:22:57.02,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,300)}希望が そこにあるよう ともにあるよう
+Dialogue: 1,0:22:49.81,0:22:57.02,ED-JP,,0,0,0,,{\fad(300,300)}希望が そこにあるよう ともにあるよう
+Dialogue: 0,0:22:57.48,0:22:59.19,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}We are…
+Dialogue: 1,0:22:57.48,0:22:59.19,ED-JP,,0,0,0,,{\fad(300,500)}We are…
+Dialogue: 0,0:22:59.19,0:23:02.03,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,300)}どこにでも行ける羽を
+Dialogue: 1,0:22:59.19,0:23:02.03,ED-JP,,0,0,0,,{\fad(300,300)}どこにでも行ける羽を
+Dialogue: 0,0:23:02.03,0:23:03.70,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,200)}We are…
+Dialogue: 1,0:23:02.03,0:23:03.70,ED-JP,,0,0,0,,{\fad(200,200)}We are…
+Dialogue: 0,0:23:03.70,0:23:06.20,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}あなたに授けたの
+Dialogue: 1,0:23:03.70,0:23:06.20,ED-JP,,0,0,0,,{\fad(300,500)}あなたに授けたの
+Dialogue: 0,0:23:06.20,0:23:13.58,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,500)}どんな闇も晴らしてしまえるように
+Dialogue: 1,0:23:06.20,0:23:13.58,ED-JP,,0,0,0,,{\fad(300,500)}どんな闇も晴らしてしまえるように
+Dialogue: 0,0:23:14.42,0:23:17.00,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,200)}You gave me Holy brave
+Dialogue: 1,0:23:14.42,0:23:17.00,ED-JP,,0,0,0,,{\fad(300,200)}You gave me Holy brave
+Dialogue: 0,0:23:17.42,0:23:21.59,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}恐れずに進めOh Holy brave
+Dialogue: 1,0:23:17.42,0:23:21.59,ED-JP,,0,0,0,,{\fad(200,200)}恐れずに進めOh Holy brave
+Dialogue: 0,0:23:21.97,0:23:26.34,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}振り返ればいつも Holy trace
+Dialogue: 1,0:23:21.97,0:23:26.34,ED-JP,,0,0,0,,{\fad(200,200)}振り返ればいつも Holy trace
+Dialogue: 0,0:23:26.34,0:23:30.77,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}あなたが笑ってた
+Dialogue: 1,0:23:26.34,0:23:30.77,ED-JP,,0,0,0,,{\fad(200,200)}あなたが笑ってた
+Dialogue: 0,0:23:32.56,0:23:35.10,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}だからHoly brave
+Dialogue: 1,0:23:32.56,0:23:35.10,ED-JP,,0,0,0,,{\fad(200,200)}だからHoly brave
+Dialogue: 0,0:23:35.56,0:23:39.77,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}躓きながらでもHoly brave
+Dialogue: 1,0:23:35.56,0:23:39.77,ED-JP,,0,0,0,,{\fad(200,200)}躓きながらでもHoly brave
+Dialogue: 0,0:23:40.07,0:23:44.45,ED-JP,,0,0,0,,{\bord6\blur2\1a&ff\fad(200,200)}私は踏みだせる 遠くへ
+Dialogue: 1,0:23:40.07,0:23:44.45,ED-JP,,0,0,0,,{\fad(200,200)}私は踏みだせる 遠くへ
+Dialogue: 0,0:23:44.45,0:23:47.66,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(300,0)}あなたがいる場所へ
+Dialogue: 1,0:23:44.45,0:23:47.66,ED-JP,,0,0,0,,{\fad(300,200)}あなたがいる場所へ
+Dialogue: 0,0:23:47.66,0:23:49.99,ED-JP,,0,0,0,,{\bord6\blur3\1a&ff\fad(522,0)\pos(1920,1879.48)}あなたがいる場所へ
+Dialogue: 1,0:23:47.66,0:23:49.99,ED-JP,,0,0,0,,{\fad(522,0)\pos(1920,1879.48)}あなたがいる場所へ
