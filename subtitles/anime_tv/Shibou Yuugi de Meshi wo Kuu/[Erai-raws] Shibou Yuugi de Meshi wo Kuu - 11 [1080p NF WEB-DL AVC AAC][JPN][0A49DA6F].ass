@@ -1,0 +1,340 @@
+﻿[Script Info]
+Title: [Erai-raws] ja
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.71,0:00:10.42,Default,,0,0,0,,{\c&Hffffff&}（幽鬼(ユウキ)）なんで\N切り株の服を着てるんです？
+Dialogue: 0,0:00:14.38,0:00:17.72,Default,,0,0,0,,{\c&Hffffff&}（伽羅(キャラ)）ゆったりとした服の方が\N好きなんだ
+Dialogue: 0,0:00:18.22,0:00:21.06,Default,,0,0,0,,{\c&Hffffff&}あなたは その格好のままで\N恥ずかしくないの？
+Dialogue: 0,0:00:24.44,0:00:25.40,Default,,0,0,0,,{\c&Hffffff&}-（伽羅）あっ\N-（幽鬼）ハァッ…
+Dialogue: 0,0:00:27.44,0:00:29.77,Default,,0,0,0,,{\c&Hffffff&}（伽羅）萌黄(モエギ)は特別だよ
+Dialogue: 0,0:00:30.36,0:00:32.44,Default,,0,0,0,,{\c&Hffffff&}迷路で会わなかった？
+Dialogue: 0,0:00:37.24,0:00:38.87,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）死んでました
+Dialogue: 0,0:00:43.96,0:00:45.29,Default,,0,0,0,,{\c&Hffffff&}そう
+Dialogue: 0,0:00:48.42,0:00:50.71,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）なぜ ここまで？
+Dialogue: 0,0:00:56.38,0:00:58.26,Default,,0,0,0,,{\c&Hffffff&}（伽羅）分かんないかな？
+Dialogue: 0,0:00:58.97,0:01:03.68,Default,,0,0,0,,{\c&Hffffff&}ゲームやってたら\N人を殺す機会ぐらいあるでしょう？
+Dialogue: 0,0:01:05.77,0:01:08.19,Default,,0,0,0,,{\an8\c&Hffffff&}殺すまで\Nいかなくてもさ
+Dialogue: 0,0:01:12.28,0:01:15.53,Default,,0,0,0,,{\c&Hffffff&}椅子をバーンって\N蹴飛ばしたことは？
+Dialogue: 0,0:01:15.61,0:01:18.16,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）\N八つ当たりってことですか？
+Dialogue: 0,0:01:18.24,0:01:19.82,Default,,0,0,0,,{\c&Hffffff&}すっきりした？
+Dialogue: 0,0:01:21.58,0:01:23.58,Default,,0,0,0,,{\c&Hffffff&}そのときは
+Dialogue: 0,0:01:25.50,0:01:27.58,Default,,0,0,0,,{\c&Hffffff&}そういうことだよ
+Dialogue: 0,0:01:32.59,0:01:35.13,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）そんな八つ当たりで
+Dialogue: 0,0:01:35.84,0:01:38.47,Default,,0,0,0,,{\c&Hffffff&}この人が負けたっていうんですか
+Dialogue: 0,0:01:41.05,0:01:43.01,Default,,0,0,0,,{\c&Hffffff&}見たら分かるでしょ
+Dialogue: 0,0:01:45.06,0:01:49.48,Default,,0,0,0,,{\c&Hffffff&}96回目の最古参ですよ　それが！
+Dialogue: 0,0:01:50.81,0:01:52.27,Default,,0,0,0,,{\c&Hffffff&}（伽羅）弱かったよ
+Dialogue: 0,0:01:53.44,0:01:56.57,Default,,0,0,0,,{\c&Hffffff&}ろくに動ける体じゃ\Nなかったみたいだし
+Dialogue: 0,0:01:57.78,0:01:58.82,Default,,0,0,0,,{\c&Hffffff&}え…
+Dialogue: 0,0:01:59.57,0:02:02.58,Default,,0,0,0,,{\c&Hffffff&}（伽羅）よく見てみなよ それ
+Dialogue: 0,0:02:08.75,0:02:11.75,Default,,0,0,0,,{\c&Hffffff&}中身 おかしいでしょ
+Dialogue: 0,0:02:13.17,0:02:16.76,Default,,0,0,0,,{\c&Hffffff&}いいだけ稼いだんだから\Nもうやめればよかったのに
+Dialogue: 0,0:02:18.13,0:02:21.72,Default,,0,0,0,,{\c&Hffffff&}なんだろう 中毒だったのかな
+Dialogue: 0,0:02:31.98,0:02:33.06,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ…
+Dialogue: 0,0:02:38.40,0:02:40.03,Default,,0,0,0,,{\c&Hffffff&}-（伽羅）ねえ！\N-（幽鬼）あっ…
+Dialogue: 0,0:02:49.83,0:02:54.29,Default,,0,0,0,,{\c&Hffffff&}（伽羅）ハァ ハァ…
+Dialogue: 0,0:03:03.55,0:03:04.39,Default,,0,0,0,,{\c&Hffffff&}（発砲音）
+Dialogue: 0,0:03:05.89,0:03:07.14,Default,,0,0,0,,{\c&Hffffff&}（着弾音）\N（伽羅）あっ…
+Dialogue: 0,0:03:07.77,0:03:08.85,Default,,0,0,0,,{\c&Hffffff&}（倒れる音）
+Dialogue: 0,0:03:10.77,0:03:12.44,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ハァ…
+Dialogue: 0,0:03:36.29,0:03:37.88,Default,,0,0,0,,{\an8\c&Hffffff&}（引き金を引く音）
+Dialogue: 0,0:03:37.88,0:03:38.88,Default,,0,0,0,,{\an8\c&Hffffff&}（引き金を引く音）
+Dialogue: 0,0:03:37.88,0:03:38.88,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）んっ…
+Dialogue: 0,0:03:38.88,0:03:40.42,Default,,0,0,0,,{\an8\c&Hffffff&}（引き金を引く音）
+Dialogue: 0,0:03:40.51,0:03:42.05,Default,,0,0,0,,{\c&Hffffff&}-（幽鬼）ハァッ…\N-（伽羅）フフッ
+Dialogue: 0,0:03:44.14,0:03:46.30,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ… くう！
+Dialogue: 0,0:03:49.52,0:03:50.81,Default,,0,0,0,,{\c&Hffffff&}（伽羅）ふっ…
+Dialogue: 0,0:03:50.89,0:03:51.73,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）んっ…
+Dialogue: 0,0:03:51.81,0:03:55.98,Default,,0,0,0,,{\c&Hffffff&}ハァ ハァ…
+Dialogue: 0,0:03:57.15,0:03:58.48,Default,,0,0,0,,{\c&Hffffff&}鎧(よろい)だよ
+Dialogue: 0,0:04:00.15,0:04:01.99,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）反則だろ！
+Dialogue: 0,0:04:02.07,0:04:05.99,Default,,0,0,0,,{\c&Hffffff&}（伽羅）なんで生身の丸腰で\N参加しようと思えるの？
+Dialogue: 0,0:04:06.07,0:04:09.74,Default,,0,0,0,,{\c&Hffffff&}相手より強い装備を持とうって\Nならないの？
+Dialogue: 0,0:04:14.04,0:04:17.63,Default,,0,0,0,,{\c&Hffffff&}無駄だって\Nあちこちに埋め込んであるから
+Dialogue: 0,0:04:17.71,0:04:18.88,Default,,0,0,0,,{\c&Hffffff&}（発砲音）
+Dialogue: 0,0:04:20.51,0:04:23.22,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:04:23.22,0:04:24.38,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:04:23.22,0:04:24.38,Default,,0,0,0,,{\c&Hffffff&}（伽羅）フフッ…
+Dialogue: 0,0:04:27.14,0:04:28.18,Default,,0,0,0,,{\c&Hffffff&}（発砲音）
+Dialogue: 0,0:04:28.76,0:04:30.06,Default,,0,0,0,,{\c&Hffffff&}-（伽羅）んっ！\N-（幽鬼）ぐっ…
+Dialogue: 0,0:04:30.14,0:04:31.77,Default,,0,0,0,,{\c&Hffffff&}くう…
+Dialogue: 0,0:04:32.48,0:04:33.31,Default,,0,0,0,,{\c&Hffffff&}んっ！
+Dialogue: 0,0:04:34.35,0:04:37.19,Default,,0,0,0,,{\c&Hffffff&}ハァ ハァ…
+Dialogue: 0,0:04:42.24,0:04:43.49,Default,,0,0,0,,{\c&Hffffff&}（伽羅）フフ…
+Dialogue: 0,0:04:46.07,0:04:47.57,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ふん！
+Dialogue: 0,0:04:48.41,0:04:49.41,Default,,0,0,0,,{\c&Hffffff&}（ナイフが刺さる音）\N（幽鬼）うっ…
+Dialogue: 0,0:05:04.55,0:05:05.59,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ぐはっ…
+Dialogue: 0,0:05:10.26,0:05:13.22,Default,,0,0,0,,{\c&Hffffff&}うう… ああ…
+Dialogue: 0,0:05:15.94,0:05:19.86,Default,,0,0,0,,{\c&Hffffff&}いいねえ いきなり首に来るか
+Dialogue: 0,0:05:19.94,0:05:21.23,Default,,0,0,0,,{\c&Hffffff&}いいよ！
+Dialogue: 0,0:05:21.32,0:05:24.86,Default,,0,0,0,,{\c&Hffffff&}そこにいる雑魚よか\Nよっぽどセンスあるよ
+Dialogue: 0,0:05:26.20,0:05:28.70,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）喜ぶな…
+Dialogue: 0,0:05:29.53,0:05:30.37,Default,,0,0,0,,{\c&Hffffff&}んっ！
+Dialogue: 0,0:05:30.45,0:05:35.12,Default,,0,0,0,,{\c&Hffffff&}今どき バトルジャンキーとか\Nはやんねえんだよ
+Dialogue: 0,0:05:37.67,0:05:40.59,Default,,0,0,0,,{\c&Hffffff&}（伽羅）あなたにだけは\N言われたくないなあ
+Dialogue: 0,0:05:41.96,0:05:44.67,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）私の何を知ってんだ
+Dialogue: 0,0:05:45.34,0:05:48.72,Default,,0,0,0,,{\c&Hffffff&}（伽羅）見れば分かるよ\Nバレバレだもの
+Dialogue: 0,0:05:52.72,0:05:54.68,Default,,0,0,0,,{\c&Hffffff&}私と同じ
+Dialogue: 0,0:05:56.43,0:06:00.36,Default,,0,0,0,,{\c&Hffffff&}この世界が\N居心地いいんでしょう？
+Dialogue: 0,0:06:00.90,0:06:02.15,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ハァッ…
+Dialogue: 0,0:06:02.23,0:06:07.61,Default,,0,0,0,,{\c&Hffffff&}（伽羅）フフッ 最高だよね ここは
+Dialogue: 0,0:06:08.20,0:06:10.66,Default,,0,0,0,,{\c&Hffffff&}変なルールは １個もない
+Dialogue: 0,0:06:10.74,0:06:13.95,Default,,0,0,0,,{\c&Hffffff&}気色悪いヤツは 殺してもいい
+Dialogue: 0,0:06:14.04,0:06:17.29,Default,,0,0,0,,{\c&Hffffff&}好きにやって\Nおとがめがないどころか
+Dialogue: 0,0:06:17.37,0:06:21.92,Default,,0,0,0,,{\c&Hffffff&}時には かわいい女の子が\N私を慕ってくれる
+Dialogue: 0,0:06:24.05,0:06:26.71,Default,,0,0,0,,{\c&Hffffff&}私たちには ここしかない
+Dialogue: 0,0:06:27.80,0:06:30.38,Default,,0,0,0,,{\c&Hffffff&}ここで死ねたら本望
+Dialogue: 0,0:06:32.14,0:06:36.47,Default,,0,0,0,,{\c&Hffffff&}そう思ってるんでしょ 心の底では
+Dialogue: 0,0:06:39.02,0:06:40.31,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）違う
+Dialogue: 0,0:06:41.10,0:06:43.06,Default,,0,0,0,,{\c&Hffffff&}そう言いたかった
+Dialogue: 0,0:06:44.27,0:06:45.57,Default,,0,0,0,,{\c&Hffffff&}けれど
+Dialogue: 0,0:06:46.28,0:06:47.57,Default,,0,0,0,,{\an8\c&Hffffff&}♪～
+Dialogue: 0,0:06:47.57,0:06:51.28,Default,,0,0,0,,{\an8\c&Hffffff&}♪～
+Dialogue: 0,0:06:47.57,0:06:51.28,Default,,0,0,0,,{\c&Hffffff&}それだけのものを\N幽鬼は持っていなかった
+Dialogue: 0,0:06:51.28,0:06:52.57,Default,,0,0,0,,{\c&Hffffff&}それだけのものを\N幽鬼は持っていなかった
+Dialogue: 0,0:07:15.43,0:07:19.56,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）どうやら\N舞台を降りるときが来たらしい
+Dialogue: 0,0:07:21.31,0:07:26.11,Default,,0,0,0,,{\c&Hffffff&}心残りは 笑えるくらいなかった
+Dialogue: 0,0:07:33.28,0:07:36.12,Default,,0,0,0,,{\c&Hffffff&}（白士(ハクシ)）お前は なぜ\Nゲームをするんだ？
+Dialogue: 0,0:07:37.03,0:07:41.08,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）知らないよ もういいだろ
+Dialogue: 0,0:07:42.62,0:07:47.34,Default,,0,0,0,,{\c&Hffffff&}私がどこから来て どこへ行くのか
+Dialogue: 0,0:07:48.63,0:07:50.97,Default,,0,0,0,,{\c&Hffffff&}私は何者なのか
+Dialogue: 0,0:07:52.76,0:07:54.59,Default,,0,0,0,,{\c&Hffffff&}幽霊だよ
+Dialogue: 0,0:07:55.93,0:07:59.02,Default,,0,0,0,,{\c&Hffffff&}この世界に生まれてすらいない
+Dialogue: 0,0:07:59.77,0:08:01.93,Default,,0,0,0,,{\c&Hffffff&}死ぬことすらない
+Dialogue: 0,0:08:02.98,0:08:04.77,Default,,0,0,0,,{\c&Hffffff&}ただ さまよって
+Dialogue: 0,0:08:05.86,0:08:09.11,Default,,0,0,0,,{\c&Hffffff&}このまま どこかへ流れていくだけ
+Dialogue: 0,0:08:11.15,0:08:12.65,Default,,0,0,0,,{\c&Hffffff&}ただ このまま
+Dialogue: 0,0:08:11.15,0:08:12.65,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:08:12.65,0:08:14.11,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:08:14.11,0:08:15.87,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:08:14.11,0:08:15.87,Default,,0,0,0,,{\c&Hffffff&}消えるだけ
+Dialogue: 0,0:08:20.58,0:08:23.29,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）んっ んん…
+Dialogue: 0,0:08:27.92,0:08:29.09,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:08:42.27,0:08:43.68,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ…
+Dialogue: 0,0:09:07.83,0:09:08.83,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ハァッ…
+Dialogue: 0,0:09:17.18,0:09:19.22,Default,,0,0,0,,{\c&Hffffff&}ああ…
+Dialogue: 0,0:09:33.32,0:09:34.40,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）ハァッ！
+Dialogue: 0,0:09:39.91,0:09:43.24,Default,,0,0,0,,{\c&Hffffff&}（青井(アオイ)）この味 おいしいです
+Dialogue: 0,0:09:46.71,0:09:48.04,Default,,0,0,0,,{\c&Hffffff&}ありがとう
+Dialogue: 0,0:09:50.25,0:09:53.67,Default,,0,0,0,,{\c&Hffffff&}この味 おいしいです
+Dialogue: 0,0:10:03.56,0:10:04.89,Default,,0,0,0,,{\c&Hffffff&}ありがとう
+Dialogue: 0,0:10:08.44,0:10:09.81,Default,,0,0,0,,{\c&Hffffff&}ありがとう
+Dialogue: 0,0:10:11.06,0:10:12.02,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）青井
+Dialogue: 0,0:10:13.40,0:10:15.53,Default,,0,0,0,,{\c&Hffffff&}（金子(キンコ)）さっきも言ったけどさ
+Dialogue: 0,0:10:16.53,0:10:19.57,Default,,0,0,0,,{\c&Hffffff&}金子は もっと\N不真面目になっていいよ
+Dialogue: 0,0:10:24.08,0:10:29.21,Default,,0,0,0,,{\c&Hffffff&}誰かのためじゃなくてさ\N自分のために
+Dialogue: 0,0:10:31.38,0:10:35.05,Default,,0,0,0,,{\c&Hffffff&}ほら\N少しぐらい ひきょうな方が
+Dialogue: 0,0:10:35.13,0:10:37.26,Default,,0,0,0,,{\c&Hffffff&}人として深みが出るよ
+Dialogue: 0,0:10:41.05,0:10:42.89,Default,,0,0,0,,{\c&Hffffff&}そうでしょうか
+Dialogue: 0,0:10:44.72,0:10:47.77,Default,,0,0,0,,{\c&Hffffff&}うん きっとそうだ
+Dialogue: 0,0:10:52.02,0:10:55.36,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ ああ…
+Dialogue: 0,0:11:01.11,0:11:02.70,Default,,0,0,0,,{\c&Hffffff&}金子
+Dialogue: 0,0:11:06.33,0:11:07.87,Default,,0,0,0,,{\c&Hffffff&}金子
+Dialogue: 0,0:11:11.46,0:11:13.25,Default,,0,0,0,,{\c&Hffffff&}金子…
+Dialogue: 0,0:11:15.80,0:11:18.30,Default,,0,0,0,,{\c&Hffffff&}（墨家(スミヤカ)）次で 30回なんだ
+Dialogue: 0,0:11:23.22,0:11:25.72,Default,,0,0,0,,{\c&Hffffff&}あんなジンクス\N本気にしてるんです？
+Dialogue: 0,0:11:25.81,0:11:30.10,Default,,0,0,0,,{\c&Hffffff&}（ブザー）
+Dialogue: 0,0:11:33.81,0:11:38.53,Default,,0,0,0,,{\c&Hffffff&}（墨家）墨家さんって\N案外 かわいいんですね
+Dialogue: 0,0:11:48.62,0:11:50.04,Default,,0,0,0,,{\c&Hffffff&}（紅野(ベニヤ)）桃乃(モモノ)さん
+Dialogue: 0,0:11:51.04,0:11:52.46,Default,,0,0,0,,{\c&Hffffff&}（桃乃）紅野さん
+Dialogue: 0,0:11:54.46,0:11:55.84,Default,,0,0,0,,{\c&Hffffff&}（紅野）桃乃さん
+Dialogue: 0,0:11:56.59,0:11:58.00,Default,,0,0,0,,{\c&Hffffff&}（桃乃）紅野さん
+Dialogue: 0,0:11:59.34,0:12:00.72,Default,,0,0,0,,{\c&Hffffff&}（紅野）桃乃さん
+Dialogue: 0,0:12:01.63,0:12:02.97,Default,,0,0,0,,{\c&Hffffff&}（桃乃）紅野さん
+Dialogue: 0,0:12:04.80,0:12:06.39,Default,,0,0,0,,{\c&Hffffff&}（紅野）紅野さん
+Dialogue: 0,0:12:06.47,0:12:06.89,Default,,0,0,0,,{\c&Hffffff&}（黒糖(コクトー)）お願い 一生のお願い
+Dialogue: 0,0:12:06.89,0:12:08.47,Default,,0,0,0,,{\c&Hffffff&}（黒糖(コクトー)）お願い 一生のお願い
+Dialogue: 0,0:12:06.89,0:12:08.47,Default,,0,0,0,,{\an8\c&Hffffff&}（桃乃）桃乃さん
+Dialogue: 0,0:12:08.47,0:12:09.85,Default,,0,0,0,,{\c&Hffffff&}（黒糖(コクトー)）お願い 一生のお願い
+Dialogue: 0,0:12:10.43,0:12:11.68,Default,,0,0,0,,{\c&Hffffff&}私 生きてとは言わない
+Dialogue: 0,0:12:11.68,0:12:13.31,Default,,0,0,0,,{\c&Hffffff&}私 生きてとは言わない
+Dialogue: 0,0:12:11.68,0:12:13.31,Default,,0,0,0,,{\an8\c&Hffffff&}（毛糸(ケイト)）べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:13.31,0:12:13.89,Default,,0,0,0,,{\an8\c&Hffffff&}（毛糸(ケイト)）べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:13.89,0:12:15.73,Default,,0,0,0,,{\an8\c&Hffffff&}（毛糸(ケイト)）べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:13.89,0:12:15.73,Default,,0,0,0,,{\c&Hffffff&}死なないで お願い
+Dialogue: 0,0:12:15.73,0:12:15.81,Default,,0,0,0,,{\c&Hffffff&}死なないで お願い
+Dialogue: 0,0:12:15.81,0:12:16.98,Default,,0,0,0,,{\c&Hffffff&}死なないで お願い
+Dialogue: 0,0:12:15.81,0:12:16.98,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:16.98,0:12:18.36,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:18.36,0:12:19.28,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:18.36,0:12:19.28,Default,,0,0,0,,{\c&Hffffff&}一生のお願い
+Dialogue: 0,0:12:19.36,0:12:20.23,Default,,0,0,0,,{\c&Hffffff&}（智恵(チエ)）ゲームクリア\Nおめでとうございます
+Dialogue: 0,0:12:20.23,0:12:22.15,Default,,0,0,0,,{\c&Hffffff&}（智恵(チエ)）ゲームクリア\Nおめでとうございます
+Dialogue: 0,0:12:20.23,0:12:22.15,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:22.15,0:12:22.24,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:22.24,0:12:23.49,Default,,0,0,0,,{\an8\c&Hffffff&}べつに\N死にたくないだけですよ
+Dialogue: 0,0:12:22.24,0:12:23.49,Default,,0,0,0,,{\c&Hffffff&}今日は 何が食べたいですか？
+Dialogue: 0,0:12:23.49,0:12:23.57,Default,,0,0,0,,{\c&Hffffff&}今日は 何が食べたいですか？
+Dialogue: 0,0:12:23.57,0:12:24.78,Default,,0,0,0,,{\c&Hffffff&}今日は 何が食べたいですか？
+Dialogue: 0,0:12:23.57,0:12:24.78,Default,,0,0,0,,{\an8\c&Hffffff&}（言葉(コトハ)）\Nあれ？　でも それで…
+Dialogue: 0,0:12:24.78,0:12:25.57,Default,,0,0,0,,{\an8\c&Hffffff&}（言葉(コトハ)）\Nあれ？　でも それで…
+Dialogue: 0,0:12:25.57,0:12:26.41,Default,,0,0,0,,{\an8\c&Hffffff&}（言葉(コトハ)）\Nあれ？　でも それで…
+Dialogue: 0,0:12:25.57,0:12:26.41,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ…
+Dialogue: 0,0:12:26.49,0:12:30.49,Default,,0,0,0,,{\c&Hffffff&}（言葉）どうして 私の名前\N詩織(しおり)っていうの？
+Dialogue: 0,0:12:30.58,0:12:33.00,Default,,0,0,0,,{\c&Hffffff&}その絨毯(じゅうたん)みたいにさ
+Dialogue: 0,0:12:33.08,0:12:35.29,Default,,0,0,0,,{\c&Hffffff&}言葉(ことば)を大切に
+Dialogue: 0,0:12:35.37,0:12:39.67,Default,,0,0,0,,{\c&Hffffff&}誰かのために\N思いを抱えることができる人に
+Dialogue: 0,0:12:40.88,0:12:43.26,Default,,0,0,0,,{\c&Hffffff&}もう なってるね
+Dialogue: 0,0:12:43.34,0:12:46.80,Default,,0,0,0,,{\c&Hffffff&}（吾妻(アズマ)）べつに\Nダメってことはないと思うけど
+Dialogue: 0,0:12:48.35,0:12:53.23,Default,,0,0,0,,{\c&Hffffff&}自分のこと 名前で呼んでるよりは\Nマシだと思う
+Dialogue: 0,0:12:53.89,0:12:55.60,Default,,0,0,0,,{\c&Hffffff&}ハハハ… そりゃ そうだな
+Dialogue: 0,0:12:55.60,0:12:56.44,Default,,0,0,0,,{\c&Hffffff&}ハハハ… そりゃ そうだな
+Dialogue: 0,0:12:55.60,0:12:56.44,Default,,0,0,0,,{\an8\c&Hffffff&}（幽鬼）吾妻…
+Dialogue: 0,0:12:56.52,0:12:57.81,Default,,0,0,0,,{\c&Hffffff&}（狸狐(リコ)）止めなくていいの？
+Dialogue: 0,0:12:59.57,0:13:03.86,Default,,0,0,0,,{\c&Hffffff&}私が勝手に自分で死んでさ
+Dialogue: 0,0:13:05.24,0:13:09.37,Default,,0,0,0,,{\c&Hffffff&}それで…\Nあいつの使命は 果たせるの？
+Dialogue: 0,0:13:10.03,0:13:11.20,Default,,0,0,0,,{\c&Hffffff&}（御城(ミシロ)）狸狐
+Dialogue: 0,0:13:16.29,0:13:19.50,Default,,0,0,0,,{\c&Hffffff&}狸狐 ありがとう
+Dialogue: 0,0:13:21.46,0:13:22.92,Default,,0,0,0,,{\c&Hffffff&}（狸狐）御城さん
+Dialogue: 0,0:13:24.84,0:13:27.93,Default,,0,0,0,,{\c&Hffffff&}御城さん ありがとう
+Dialogue: 0,0:13:31.60,0:13:33.10,Default,,0,0,0,,{\c&Hffffff&}御城…
+Dialogue: 0,0:13:35.94,0:13:40.36,Default,,0,0,0,,{\c&Hffffff&}（御城）私は\Nあなたと出会えてよかった
+Dialogue: 0,0:13:41.15,0:13:41.98,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あ…
+Dialogue: 0,0:13:43.03,0:13:49.41,Default,,0,0,0,,{\c&Hffffff&}（御城）だって あのときの私は\N誰よりも美しかったもの
+Dialogue: 0,0:13:51.78,0:13:55.16,Default,,0,0,0,,{\c&Hffffff&}あなたも そうではなくて？
+Dialogue: 0,0:13:56.58,0:13:57.41,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）うう…
+Dialogue: 0,0:13:57.50,0:13:59.04,Default,,0,0,0,,{\c&Hffffff&}（狸狐）私は？
+Dialogue: 0,0:14:00.33,0:14:02.13,Default,,0,0,0,,{\c&Hffffff&}（御城）あなたもですよ
+Dialogue: 0,0:14:03.59,0:14:07.34,Default,,0,0,0,,{\c&Hffffff&}（萌黄）“そして\Nよだかの星は燃えつづけました”
+Dialogue: 0,0:14:07.84,0:14:10.72,Default,,0,0,0,,{\c&Hffffff&}“いつまでも いつまでも\N燃えつづけました”
+Dialogue: 0,0:14:10.72,0:14:12.64,Default,,0,0,0,,{\c&Hffffff&}“いつまでも いつまでも\N燃えつづけました”
+Dialogue: 0,0:14:10.72,0:14:12.64,Default,,0,0,0,,{\an8\c&Hffffff&}（幽鬼の泣き声）
+Dialogue: 0,0:14:12.64,0:14:14.22,Default,,0,0,0,,{\an8\c&Hffffff&}（幽鬼の泣き声）
+Dialogue: 0,0:14:14.22,0:14:15.72,Default,,0,0,0,,{\an8\c&Hffffff&}（幽鬼の泣き声）
+Dialogue: 0,0:14:14.22,0:14:15.72,Default,,0,0,0,,{\c&Hffffff&}“今でもまだ 燃えています”
+Dialogue: 0,0:14:15.72,0:14:17.81,Default,,0,0,0,,{\c&Hffffff&}“今でもまだ 燃えています”
+Dialogue: 0,0:14:20.94,0:14:23.52,Default,,0,0,0,,{\an8\c&Hffffff&}（萌黄）今でもまだ\N燃えています
+Dialogue: 0,0:14:27.11,0:14:28.61,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:28.61,0:14:29.74,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:28.61,0:14:29.74,Default,,0,0,0,,{\c&Hffffff&}私は…
+Dialogue: 0,0:14:29.74,0:14:30.20,Default,,0,0,0,,{\c&Hffffff&}私は…
+Dialogue: 0,0:14:32.16,0:14:32.70,Default,,0,0,0,,{\c&Hffffff&}私は 萌黄が羨ましかった
+Dialogue: 0,0:14:32.70,0:14:35.29,Default,,0,0,0,,{\c&Hffffff&}私は 萌黄が羨ましかった
+Dialogue: 0,0:14:32.70,0:14:35.29,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:35.29,0:14:36.66,Default,,0,0,0,,{\c&Hffffff&}私は 萌黄が羨ましかった
+Dialogue: 0,0:14:36.66,0:14:37.83,Default,,0,0,0,,{\c&Hffffff&}私は 萌黄が羨ましかった
+Dialogue: 0,0:14:36.66,0:14:37.83,Default,,0,0,0,,{\an8\c&Hffffff&}（萌黄たち）今でも\Nまだ 燃えています
+Dialogue: 0,0:14:37.83,0:14:38.79,Default,,0,0,0,,{\an8\c&Hffffff&}（萌黄たち）今でも\Nまだ 燃えています
+Dialogue: 0,0:14:38.87,0:14:40.67,Default,,0,0,0,,{\c&Hffffff&}私は…
+Dialogue: 0,0:14:41.29,0:14:41.92,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:41.92,0:14:43.92,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:41.92,0:14:43.92,Default,,0,0,0,,{\c&Hffffff&}ここに生きた全ての人間が
+Dialogue: 0,0:14:43.92,0:14:46.05,Default,,0,0,0,,{\c&Hffffff&}ここに生きた全ての人間が
+Dialogue: 0,0:14:46.13,0:14:47.30,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:47.30,0:14:49.05,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:14:47.30,0:14:49.05,Default,,0,0,0,,{\c&Hffffff&}羨ましかった
+Dialogue: 0,0:14:50.18,0:14:52.80,Default,,0,0,0,,{\c&Hffffff&}（檜皮(ヒワダ)たち）\N今でもまだ 燃えています
+Dialogue: 0,0:14:54.39,0:14:57.06,Default,,0,0,0,,{\c&Hffffff&}今でもまだ 燃えています
+Dialogue: 0,0:14:58.68,0:15:01.40,Default,,0,0,0,,{\c&Hffffff&}今でもまだ 燃えています
+Dialogue: 0,0:15:02.65,0:15:03.31,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）これは\Nとある いかれた世界の話
+Dialogue: 0,0:15:03.31,0:15:06.07,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）これは\Nとある いかれた世界の話
+Dialogue: 0,0:15:03.31,0:15:06.07,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:06.07,0:15:07.82,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）これは\Nとある いかれた世界の話
+Dialogue: 0,0:15:07.82,0:15:08.49,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）これは\Nとある いかれた世界の話
+Dialogue: 0,0:15:07.82,0:15:08.49,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:08.49,0:15:10.20,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:10.28,0:15:11.57,Default,,0,0,0,,{\c&Hffffff&}だけど
+Dialogue: 0,0:15:11.66,0:15:13.32,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:13.32,0:15:14.87,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:13.32,0:15:14.87,Default,,0,0,0,,{\c&Hffffff&}これは 彼女たちが
+Dialogue: 0,0:15:14.87,0:15:15.53,Default,,0,0,0,,{\c&Hffffff&}これは 彼女たちが
+Dialogue: 0,0:15:15.53,0:15:17.62,Default,,0,0,0,,{\c&Hffffff&}これは 彼女たちが
+Dialogue: 0,0:15:15.53,0:15:17.62,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:17.62,0:15:18.29,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:18.37,0:15:19.50,Default,,0,0,0,,{\c&Hffffff&}確かに生きた世界の話
+Dialogue: 0,0:15:19.50,0:15:21.71,Default,,0,0,0,,{\c&Hffffff&}確かに生きた世界の話
+Dialogue: 0,0:15:19.50,0:15:21.71,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:23.42,0:15:26.25,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:26.92,0:15:29.84,Default,,0,0,0,,{\an8\c&Hffffff&}今でもまだ\N燃えています
+Dialogue: 0,0:15:26.92,0:15:29.84,Default,,0,0,0,,{\c&Hffffff&}私も… 私だって…
+Dialogue: 0,0:15:29.84,0:15:32.26,Default,,0,0,0,,{\c&Hffffff&}私も… 私だって…
+Dialogue: 0,0:15:32.34,0:15:33.84,Default,,0,0,0,,{\c&Hffffff&}（白士）泣きすぎだ
+Dialogue: 0,0:15:34.35,0:15:35.35,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）え…
+Dialogue: 0,0:15:41.10,0:15:45.11,Default,,0,0,0,,{\c&Hffffff&}（白士）さあ お前は\Nなぜ ゲームをするんだ？
+Dialogue: 0,0:15:53.45,0:15:53.95,Default,,0,0,0,,{\an8\c&Hffffff&}（ブザー）
+Dialogue: 0,0:15:53.95,0:15:56.99,Default,,0,0,0,,{\an8\c&Hffffff&}（ブザー）
+Dialogue: 0,0:15:53.95,0:15:56.99,Default,,0,0,0,,{\c&Hffffff&}もう分かるよ お前にも
+Dialogue: 0,0:15:56.99,0:15:58.45,Default,,0,0,0,,{\an8\c&Hffffff&}（ブザー）
+Dialogue: 0,0:16:23.64,0:16:26.48,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）私は 白士さんの弟子だ
+Dialogue: 0,0:16:28.44,0:16:31.36,Default,,0,0,0,,{\c&Hffffff&}あの人の意志は 私が継ぐ
+Dialogue: 0,0:16:32.49,0:16:34.91,Default,,0,0,0,,{\c&Hffffff&}99回のクリアは
+Dialogue: 0,0:16:35.91,0:16:38.03,Default,,0,0,0,,{\c&Hffffff&}私が達成する
+Dialogue: 0,0:16:39.16,0:16:42.91,Default,,0,0,0,,{\c&Hffffff&}私は この世界で生きるんだ！
+Dialogue: 0,0:16:43.00,0:16:44.67,Default,,0,0,0,,{\c&Hffffff&}（伽羅）ハァッ…
+Dialogue: 0,0:16:50.38,0:16:54.09,Default,,0,0,0,,{\c&Hffffff&}いいよ おいで
+Dialogue: 0,0:16:56.84,0:16:58.51,Default,,0,0,0,,{\c&Hffffff&}（白士）信じろ
+Dialogue: 0,0:16:58.60,0:17:01.56,Default,,0,0,0,,{\c&Hffffff&}お前は 肯定することを覚えるんだ
+Dialogue: 0,0:17:01.64,0:17:03.06,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）え？
+Dialogue: 0,0:17:03.14,0:17:06.31,Default,,0,0,0,,{\c&Hffffff&}いつもの“否定しろ”じゃ\Nないんですか？
+Dialogue: 0,0:17:07.23,0:17:08.06,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ…
+Dialogue: 0,0:17:10.65,0:17:14.74,Default,,0,0,0,,{\c&Hffffff&}（白士）お前が\N私よりも長く続けたいなら だな
+Dialogue: 0,0:17:16.11,0:17:18.32,Default,,0,0,0,,{\c&Hffffff&}私のスタイルにも 限界はある
+Dialogue: 0,0:17:19.49,0:17:21.33,Default,,0,0,0,,{\c&Hffffff&}疑うだけではなく
+Dialogue: 0,0:17:21.41,0:17:23.45,Default,,0,0,0,,{\c&Hffffff&}信じることも覚えろ
+Dialogue: 0,0:17:24.66,0:17:26.83,Default,,0,0,0,,{\c&Hffffff&}お前は意外と 得意なはずだ
+Dialogue: 0,0:17:30.42,0:17:31.42,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）あっ！
+Dialogue: 0,0:17:33.55,0:17:34.80,Default,,0,0,0,,{\c&Hffffff&}-（幽鬼）くっ！\N-（伽羅）うわ…
+Dialogue: 0,0:17:35.92,0:17:37.09,Default,,0,0,0,,{\c&Hffffff&}（伽羅）んっ…
+Dialogue: 0,0:17:37.76,0:17:38.59,Default,,0,0,0,,{\c&Hffffff&}ハァッ…
+Dialogue: 0,0:17:40.14,0:17:45.06,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）どんな気持ちで\Nあの人は これを隠したのか
+Dialogue: 0,0:17:46.31,0:17:49.31,Default,,0,0,0,,{\c&Hffffff&}鼻が ツンとした
+Dialogue: 0,0:17:52.19,0:17:55.07,Default,,0,0,0,,{\c&Hffffff&}胸が 熱くなった
+Dialogue: 0,0:17:55.15,0:17:55.99,Default,,0,0,0,,{\c&Hffffff&}（発砲音）
+Dialogue: 0,0:17:56.07,0:17:57.24,Default,,0,0,0,,{\c&Hffffff&}（伽羅）がっ…
+Dialogue: 0,0:17:57.32,0:17:58.74,Default,,0,0,0,,{\c&Hffffff&}ぐっ うう…
+Dialogue: 0,0:17:58.82,0:18:00.24,Default,,0,0,0,,{\c&Hffffff&}くっ うっ…
+Dialogue: 0,0:18:01.83,0:18:03.29,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）うああーっ！
+Dialogue: 0,0:18:03.29,0:18:03.74,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）うああーっ！
+Dialogue: 0,0:18:03.29,0:18:03.74,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:18:03.74,0:18:03.83,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:18:03.83,0:18:04.87,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:18:03.83,0:18:04.87,Default,,0,0,0,,{\c&Hffffff&}（伽羅）ああっ！
+Dialogue: 0,0:18:04.87,0:18:06.25,Default,,0,0,0,,{\an8\c&Hffffff&}（発砲音）
+Dialogue: 0,0:18:08.00,0:18:09.00,Default,,0,0,0,,{\c&Hffffff&}（倒れる音）
+Dialogue: 0,0:18:36.94,0:18:38.70,Default,,0,0,0,,{\c&Hffffff&}（萌黄）おかえりなさい
+Dialogue: 0,0:18:51.00,0:18:52.67,Default,,0,0,0,,{\c&Hffffff&}（伽羅）愛してる
+Dialogue: 0,0:19:15.73,0:19:17.23,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）やるかい？
+Dialogue: 0,0:19:26.49,0:19:29.71,Default,,0,0,0,,{\c&Hffffff&}（藍里(アイリ)）もう\N５人 殺したのでいいです
+Dialogue: 0,0:19:31.79,0:19:33.83,Default,,0,0,0,,{\c&Hffffff&}うんざりです
+Dialogue: 0,0:19:35.50,0:19:39.92,Default,,0,0,0,,{\c&Hffffff&}もう金輪際 関わりたくないです\Nこんなゲーム
+Dialogue: 0,0:19:42.38,0:19:44.34,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）そうだろうね
+Dialogue: 0,0:19:57.86,0:19:59.94,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）夕方の５時だった
+Dialogue: 0,0:20:00.99,0:20:06.99,Default,,0,0,0,,{\c&Hffffff&}いつもの活動するタイミングでは\Nまだ なかった
+Dialogue: 0,0:20:09.29,0:20:11.08,Default,,0,0,0,,{\c&Hffffff&}私は考えた
+Dialogue: 0,0:20:12.08,0:20:14.88,Default,,0,0,0,,{\c&Hffffff&}99回を生き延びるのに
+Dialogue: 0,0:20:15.46,0:20:20.51,Default,,0,0,0,,{\c&Hffffff&}私がしなければいけないことは\Nなんだろう
+Dialogue: 0,0:20:24.05,0:20:25.51,Default,,0,0,0,,{\c&Hffffff&}１つずつ
+Dialogue: 0,0:20:27.55,0:20:29.10,Default,,0,0,0,,{\c&Hffffff&}１つずつ
+Dialogue: 0,0:20:30.81,0:20:33.48,Default,,0,0,0,,{\c&Hffffff&}できることから始めていって
+Dialogue: 0,0:20:34.10,0:20:37.44,Default,,0,0,0,,{\c&Hffffff&}これが 最後の１つだった
+Dialogue: 0,0:20:39.86,0:20:44.53,Default,,0,0,0,,{\c&Hffffff&}年齢的には\N高校生でも通るはずなのだが
+Dialogue: 0,0:20:45.36,0:20:49.58,Default,,0,0,0,,{\c&Hffffff&}なぜか ものすごく恥ずかしかった
+Dialogue: 0,0:20:50.37,0:20:55.62,Default,,0,0,0,,{\c&Hffffff&}中学を出て 当てもない暮らしを\N続けているうち
+Dialogue: 0,0:20:56.46,0:21:00.30,Default,,0,0,0,,{\c&Hffffff&}人目が怖くて\N出歩けなくなっていた
+Dialogue: 0,0:21:14.02,0:21:17.06,Default,,0,0,0,,{\c&Hffffff&}（幽鬼）キンモクセイの\Nいいにおいがした
+Dialogue: 0,0:21:21.94,0:21:27.24,Default,,0,0,0,,{\c&Hffffff&}背中にじんわりと\N温かい熱を感じた
+Dialogue: 0,0:21:29.41,0:21:31.16,Default,,0,0,0,,{\c&Hffffff&}私は歩く
+Dialogue: 0,0:21:32.16,0:21:33.75,Default,,0,0,0,,{\c&Hffffff&}歩き続ける
+Dialogue: 0,0:21:39.63,0:21:45.26,Default,,0,0,0,,{\c&Hffffff&}これから私は この世界で\Nプレイヤーとして生きていく
+Dialogue: 0,0:21:46.22,0:21:51.97,Default,,0,0,0,,{\c&Hffffff&}これから私は\Nこのゲームを99回クリアする
+Dialogue: 0,0:21:55.68,0:21:57.52,Default,,0,0,0,,{\c&Hffffff&}これから私は…
+Dialogue: 0,0:22:19.54,0:22:24.55,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:23:27.03,0:23:28.94,Default,,0,0,0,,{\an8\c&Hffffff&}（エージェント）\N迎えにまいりました
+Dialogue: 0,0:23:30.45,0:23:31.95,Default,,0,0,0,,{\c&Hffffff&}ゲームは終わりましたよ
+Dialogue: 0,0:23:34.99,0:23:37.45,Default,,0,0,0,,{\an8\c&Hffffff&}もう死んだふりは\Nいりません
+Dialogue: 0,0:23:45.34,0:23:47.05,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:23:47.05,0:23:48.96,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:23:47.05,0:23:48.96,Default,,0,0,0,,{\c&Hffffff&}（白士）もう終わりか
