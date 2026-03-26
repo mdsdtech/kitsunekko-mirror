@@ -14,9 +14,12 @@ concurrency:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
   pages: write
   id-token: write
+  # Give the default GITHUB_TOKEN write permission to commit and push the
+  # added or changed files to the repository.
+  # Needed to save new subtitle files after sync.
+  contents: write
 
 jobs:
   synchronize-repo:
@@ -92,9 +95,9 @@ jobs:
           ktools -c ktools.toml sanitize
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: Synchronize Mirror with Kitsunekko
+          commit_message: Synchronize Repository with Kitsunekko
           commit_user_name: GitHub Actions
           commit_user_email: noreply@github.com
           commit_author: GitHub <noreply@github.com>
