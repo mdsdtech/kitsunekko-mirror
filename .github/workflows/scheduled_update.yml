@@ -1,12 +1,25 @@
-name: Scheduled Kitsunekko sync
+name: Scheduled Kitsunekko sync and Site deploy
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "0 */3 * * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  run-script:
+  synchronize-repo:
     name: Synchronize with Kitsunekko
     runs-on: ubuntu-latest
 
@@ -29,6 +42,14 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v6
 
+      - name: Disk Info
+        shell: bash
+        run: |
+          echo "Subtitles folder size:"
+          du -sh subtitles
+          echo "Disk usage:"
+          df -h .
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -44,9 +65,7 @@ jobs:
           KITSU_API_URL: ${{ secrets.KITSUAPIURL }}
           KITSU_API_KEY: ${{ secrets.KITSUAPIKEY }}
         run: >-
-          python -m
-          kitsunekko_tools -c ktools.toml
-          sync --api
+          ktools -c ktools.toml sync --api
 
       - name: Install fdupes
         uses: awalsh128/cache-apt-pkgs-action@latest
@@ -65,16 +84,12 @@ jobs:
       - name: Sync ignore files
         shell: bash
         run: >-
-          python -m
-          kitsunekko_tools -c ktools.toml
-          ignore add_all
+          ktools -c ktools.toml ignore add_all
 
       - name: Sanitize
         shell: bash
         run: >-
-          python -m
-          kitsunekko_tools -c ktools.toml
-          sanitize
+          ktools -c ktools.toml sanitize
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -84,9 +99,32 @@ jobs:
           commit_user_email: noreply@github.com
           commit_author: GitHub <noreply@github.com>
 
-      - name: Dispatch Deploy
-        uses: aurelien-baudet/workflow-dispatch@3133c5d135c7dbe4be4f9793872b6ef331b53bc7 # pin@v2
+      - name: Build website
+        shell: bash
+        run: |
+          rm -rf -- _site
+          ktools -c ktools.toml copy_site_resources
+          ktools -c ktools.toml build
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          workflow: Deploy # match workflow name (not filename)
-          token: ${{ secrets.GITHUB_TOKEN }}
-          wait-for-completion: false
+          # Upload the site folder
+          path: '_site'
+
+  # Deployment job
+  # Reference: https://github.com/actions/starter-workflows/blob/main/pages/mdbook.yml
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: synchronize-repo
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
