@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.60,0:00:08.48,Default,,0000,0000,0000,,{\pos(220,382)\c&H0000FFFF\fscx50\fscy50}きんかざん
+Dialogue: 0,0:00:04.60,0:00:08.48,Default,,0000,0000,0000,,{\pos(380,382)\c&H0000FFFF\fscx50\fscy50}さんじょう
+Dialogue: 0,0:00:04.60,0:00:08.48,Default,,0000,0000,0000,,{\pos(220,436)\c&H0000FFFF}金華山の山上に立つ岐阜城{\fscx50}。
+Dialogue: 0,0:00:08.48,0:00:13.11,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}永禄{\fscx50}１０{\fscx100}年
+Dialogue: 0,0:00:08.48,0:00:13.11,Default,,0000,0000,0000,,{\pos(160,442)\c&H0000FFFF\fscx50\fscy50}いなばやまじょう
+Dialogue: 0,0:00:08.48,0:00:13.11,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}稲葉山城と呼ばれていた{\fscx50}　{\fscx100}この城を➡
+Dialogue: 0,0:00:13.11,0:00:16.12,Default,,0000,0000,0000,,{\pos(280,436)\c&H0000FFFF}信長は攻略しました{\fscx50}。
+Dialogue: 0,0:00:18.62,0:00:23.42,Default,,0000,0000,0000,,{\pos(160,376)\c&H0000FFFF}山上には
+Dialogue: 0,0:00:18.62,0:00:23.42,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}信長が整備させたという石垣や➡
+Dialogue: 0,0:00:23.42,0:00:29.63,Default,,0000,0000,0000,,{\pos(200,376)\c&H0000FFFF}斎藤家の時代のものを踏襲した
+Dialogue: 0,0:00:23.42,0:00:29.63,Default,,0000,0000,0000,,{\pos(220,436)\c&H0000FFFF}門の跡などが残されています{\fscx50}。
+Dialogue: 0,0:00:32.43,0:00:37.27,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}麓には
+Dialogue: 0,0:00:32.43,0:00:37.27,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}信長が大規模な改修を行ったという➡
+Dialogue: 0,0:00:37.27,0:00:39.81,Default,,0000,0000,0000,,{\pos(320,436)\c&H0000FFFF}館がありました{\fscx50}。
+Dialogue: 0,0:00:39.81,0:00:42.71,Default,,0000,0000,0000,,{\pos(140,442)\c&H0000FFFF\fscx50\fscy50}きんぱくがわら
+Dialogue: 0,0:00:39.81,0:00:42.71,Default,,0000,0000,0000,,{\pos(140,496)\c&H0000FFFF}金箔瓦を使用した建物や➡
+Dialogue: 0,0:00:42.71,0:00:46.58,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}巨大な岩盤を背景にした
+Dialogue: 0,0:00:42.71,0:00:46.58,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}庭などがあったことが➡
+Dialogue: 0,0:00:46.58,0:00:49.08,Default,,0000,0000,0000,,{\pos(320,436)\c&H0000FFFF}分かっています{\fscx50}。
+Dialogue: 0,0:00:53.82,0:00:58.16,Default,,0000,0000,0000,,{\pos(220,496)\c&H0000FFFF}城下町の整備も行った信長{\fscx50}。
+Dialogue: 0,0:00:58.16,0:01:01.76,Default,,0000,0000,0000,,{\pos(180,496)\c&H0000FFFF}楽市{\fscx50}　{\fscx100}楽座と呼ばれる政策には➡
+Dialogue: 0,0:01:01.76,0:01:04.10,Default,,0000,0000,0000,,{\pos(260,496)\c&H0000FFFF}城下の繁栄だけでなく➡
+Dialogue: 0,0:01:04.10,0:01:08.60,Default,,0000,0000,0000,,{\pos(200,436)\c&H0000FFFF}戦乱によって荒廃した町を
+Dialogue: 0,0:01:04.10,0:01:08.60,Default,,0000,0000,0000,,{\pos(220,496)\c&H0000FFFF}復興する目的もあったと➡
+Dialogue: 0,0:01:08.60,0:01:11.30,Default,,0000,0000,0000,,{\pos(300,496)\c&H0000FFFF}考えられています{\fscx50}。
+Dialogue: 0,0:01:14.94,0:01:19.81,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}およそ{\fscx50}１０{\fscx100}年間{\fscx50}　{\fscx100}岐阜を居城とする信長{\fscx50}。
+Dialogue: 0,0:01:19.81,0:01:26.82,Default,,0000,0000,0000,,{\pos(180,256)\c&H0000FFFF}足利義昭を擁し
+Dialogue: 0,0:01:19.81,0:01:26.82,Default,,0000,0000,0000,,{\pos(380,292)\c&H0000FFFF\fscx50\fscy50}じょうらく
+Dialogue: 0,0:01:19.81,0:01:26.82,Default,,0000,0000,0000,,{\pos(200,346)\c&H0000FFFF}この地から上洛を果たすのです{\fscx50}。
