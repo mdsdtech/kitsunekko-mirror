@@ -1,0 +1,41 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(240,196)\c&H0000FFFF}かつて{\fscx50}　{\fscx100}京都御苑の西側に
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(260,256)\c&H0000FFFF}あったとされる二条御所{\fscx50}。
+Dialogue: 0,0:00:09.41,0:00:15.72,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}織田信長が
+Dialogue: 0,0:00:09.41,0:00:15.72,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}将軍{\fscx50}　{\fscx100}足利義昭のために造った居城です{\fscx50}。
+Dialogue: 0,0:00:17.95,0:00:19.99,Default,,0000,0000,0000,,{\pos(220,436)\c&H0000FFFF}ルイス{\fscx50}・{\fscx100}フロイスによると➡
+Dialogue: 0,0:00:19.99,0:00:27.63,Default,,0000,0000,0000,,{\pos(140,196)\c&H0000FFFF}信長が陣頭に立ち
+Dialogue: 0,0:00:19.99,0:00:27.63,Default,,0000,0000,0000,,{\pos(160,256)\c&H0000FFFF}城は{\fscx50}　{\fscx100}僅か{\fscx50}７０{\fscx100}日間で完成したといいます{\fscx50}。
+Dialogue: 0,0:00:27.63,0:00:30.66,Default,,0000,0000,0000,,{\pos(240,436)\c&H0000FFFF}堅固な石垣と堀で守られ➡
+Dialogue: 0,0:00:30.66,0:00:34.97,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}美しく広い庭が備えられていました{\fscx50}。
+Dialogue: 0,0:00:36.97,0:00:42.14,Default,,0000,0000,0000,,{\pos(220,346)\c&H0000FFFF}秀吉が晩年{\fscx50}　{\fscx100}作庭に関わった
+Dialogue: 0,0:00:36.97,0:00:42.14,Default,,0000,0000,0000,,{\pos(260,382)\c&H0000FFFF\fscx50\fscy50}だいごじ
+Dialogue: 0,0:00:36.97,0:00:42.14,Default,,0000,0000,0000,,{\pos(240,436)\c&H0000FFFF}醍醐寺の庭園に➡
+Dialogue: 0,0:00:42.14,0:00:48.31,Default,,0000,0000,0000,,{\pos(200,346)\c&H0000FFFF}二条御所に置かれていたという
+Dialogue: 0,0:00:42.14,0:00:48.31,Default,,0000,0000,0000,,{\pos(220,382)\c&H0000FFFF\fscx50\fscy50}ふじといし
+Dialogue: 0,0:00:42.14,0:00:48.31,Default,,0000,0000,0000,,{\pos(220,436)\c&H0000FFFF}藤戸石が残されています{\fscx50}。
+Dialogue: 0,0:00:48.31,0:00:53.19,Default,,0000,0000,0000,,{\pos(280,376)\c&H0000FFFF}天下の名石とうたわれ
+Dialogue: 0,0:00:48.31,0:00:53.19,Default,,0000,0000,0000,,{\pos(300,436)\c&H0000FFFF}足利義満をはじめ➡
+Dialogue: 0,0:00:53.19,0:00:57.49,Default,,0000,0000,0000,,{\pos(140,496)\c&H0000FFFF}時の権力者たちに受け継がれてきました{\fscx50}。
+Dialogue: 0,0:00:59.33,0:01:02.60,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}当時{\fscx50}　{\fscx100}細川邸にあった藤戸石を➡
+Dialogue: 0,0:01:02.60,0:01:07.47,Default,,0000,0000,0000,,{\pos(160,376)\c&H0000FFFF}信長自ら
+Dialogue: 0,0:01:02.60,0:01:07.47,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}京の町を鳴り物入りで練り歩き➡
+Dialogue: 0,0:01:07.47,0:01:10.77,Default,,0000,0000,0000,,{\pos(180,496)\c&H0000FFFF}運び込んだと伝えられています{\fscx50}。
+Dialogue: 0,0:01:12.61,0:01:17.78,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}二条御所築城は
+Dialogue: 0,0:01:12.61,0:01:17.78,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}将軍家の権威を誇示するとともに➡
+Dialogue: 0,0:01:17.78,0:01:23.58,Default,,0000,0000,0000,,{\pos(140,286)\c&H0000FFFF}信長の存在を
+Dialogue: 0,0:01:17.78,0:01:23.58,Default,,0000,0000,0000,,{\pos(160,346)\c&H0000FFFF}強く印象づけることとなったのです{\fscx50}。

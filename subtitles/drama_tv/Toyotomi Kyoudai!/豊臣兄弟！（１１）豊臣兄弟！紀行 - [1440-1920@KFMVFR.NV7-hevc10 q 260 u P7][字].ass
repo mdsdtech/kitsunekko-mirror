@@ -1,0 +1,49 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.94,0:00:11.41,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}かつて{\fscx50}　{\fscx100}国際貿易の拠点として栄えた
+Dialogue: 0,0:00:04.94,0:00:11.41,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}商業都市でした{\fscx50}。
+Dialogue: 0,0:00:11.41,0:00:16.25,Default,,0000,0000,0000,,{\pos(540,376)\c&H0000FFFF}西洋の日本地図には
+Dialogue: 0,0:00:11.41,0:00:16.25,Default,,0000,0000,0000,,{\pos(480,412)\c&H0000FFFF\fscx50\fscy50}サカイ
+Dialogue: 0,0:00:11.41,0:00:16.25,Default,,0000,0000,0000,,{\pos(440,466)\c&H0000FFFF\fscx50}「Ｓａｃａｙ」{\fscx100}の文字が記され➡
+Dialogue: 0,0:00:16.25,0:00:21.09,Default,,0000,0000,0000,,{\pos(180,406)\c&H0000FFFF}海外にも知られた町だったことが
+Dialogue: 0,0:00:16.25,0:00:21.09,Default,,0000,0000,0000,,{\pos(200,466)\c&H0000FFFF}分かります{\fscx50}。
+Dialogue: 0,0:00:21.09,0:00:24.96,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}現在{\fscx50}　{\fscx100}路面電車が走る大通りは➡
+Dialogue: 0,0:00:24.96,0:00:29.63,Default,,0000,0000,0000,,{\pos(200,436)\c&H0000FFFF}町の南北を貫く紀州街道です{\fscx50}。
+Dialogue: 0,0:00:29.63,0:00:36.64,Default,,0000,0000,0000,,{\pos(160,346)\c&H0000FFFF}町の出入りは制限され
+Dialogue: 0,0:00:29.63,0:00:36.64,Default,,0000,0000,0000,,{\pos(180,406)\c&H0000FFFF}海と堀によって守られていました{\fscx50}。
+Dialogue: 0,0:00:38.30,0:00:43.14,Default,,0000,0000,0000,,{\pos(220,352)\c&H0000FFFF\fscx50\fscy50}さかいみなみのしょう
+Dialogue: 0,0:00:38.30,0:00:43.14,Default,,0000,0000,0000,,{\pos(540,352)\c&H0000FFFF\fscx50\fscy50}あぐちじんじゃ
+Dialogue: 0,0:00:38.30,0:00:43.14,Default,,0000,0000,0000,,{\pos(260,406)\c&H0000FFFF}堺南荘の鎮守{\fscx50}　{\fscx100}開口神社{\fscx50}。
+Dialogue: 0,0:00:43.14,0:00:45.98,Default,,0000,0000,0000,,{\pos(520,346)\c&H0000FFFF}この町は
+Dialogue: 0,0:00:43.14,0:00:45.98,Default,,0000,0000,0000,,{\pos(540,382)\c&H0000FFFF\fscx50\fscy50}えごうしゅう
+Dialogue: 0,0:00:43.14,0:00:45.98,Default,,0000,0000,0000,,{\pos(540,436)\c&H0000FFFF}会合衆と呼ばれる➡
+Dialogue: 0,0:00:45.98,0:00:48.88,Default,,0000,0000,0000,,{\pos(500,376)\c&H0000FFFF}有力商人たちによって
+Dialogue: 0,0:00:45.98,0:00:48.88,Default,,0000,0000,0000,,{\pos(520,436)\c&H0000FFFF}自治が行われ➡
+Dialogue: 0,0:00:48.88,0:00:54.65,Default,,0000,0000,0000,,{\pos(560,286)\c&H0000FFFF}境内には
+Dialogue: 0,0:00:48.88,0:00:54.65,Default,,0000,0000,0000,,{\pos(640,322)\c&H0000FFFF\fscx50\fscy50}かいごうしょ
+Dialogue: 0,0:00:48.88,0:00:54.65,Default,,0000,0000,0000,,{\pos(560,376)\c&H0000FFFF}その会合所が
+Dialogue: 0,0:00:48.88,0:00:54.65,Default,,0000,0000,0000,,{\pos(560,436)\c&H0000FFFF}あったといいます{\fscx50}。
+Dialogue: 0,0:00:54.65,0:00:58.53,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}会合衆の中には{\fscx50}　{\fscx100}茶人としても知られる➡
+Dialogue: 0,0:00:58.53,0:01:02.46,Default,,0000,0000,0000,,{\pos(220,352)\c&H0000FFFF\fscx50\fscy50}そうきゅう
+Dialogue: 0,0:00:58.53,0:01:02.46,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}今井宗久や
+Dialogue: 0,0:00:58.53,0:01:02.46,Default,,0000,0000,0000,,{\pos(160,442)\c&H0000FFFF\fscx50\fscy50}せんのりきゅう
+Dialogue: 0,0:00:58.53,0:01:02.46,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}千{\fscx50}　{\fscx100}利休もいました{\fscx50}。
+Dialogue: 0,0:01:02.46,0:01:05.30,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}茶の湯を通じて
+Dialogue: 0,0:01:02.46,0:01:05.30,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}大名と結び➡
+Dialogue: 0,0:01:05.30,0:01:09.94,Default,,0000,0000,0000,,{\pos(180,496)\c&H0000FFFF}茶室は{\fscx50}　{\fscx100}政治の場ともなりました{\fscx50}。
+Dialogue: 0,0:01:09.94,0:01:16.81,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}鉄砲生産と{\fscx50}　{\fscx100}海上貿易で富を蓄えた町
+Dialogue: 0,0:01:09.94,0:01:16.81,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}堺を手に入れることこそが➡
+Dialogue: 0,0:01:16.81,0:01:20.11,Default,,0000,0000,0000,,{\pos(220,496)\c&H0000FFFF}信長のねらいだったのです{\fscx50}。
