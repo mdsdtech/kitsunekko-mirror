@@ -6,12 +6,16 @@
 #### *📣 updates every 3 hours*
 #### *👉 Browse catalog: [subtitles.ajatt.top](https://subtitles.ajatt.top/)*
 
-This repository contains `srt` and `ass` subtitle files for Japanese anime and TV shows.
-Additionally, it includes all subtitle files
-from Japanese [kitsunekko](https://kitsunekko.net/subtitles/japanese/).
+This repository contains `srt` and `ass` subtitle files for Japanese anime and TV shows,
+**collected and contributed by volunteers**.
+It also includes subtitle files
+from the [kitsunekko](https://kitsunekko.net/subtitles/japanese/) website.
 The kitsunekko mirror was created using [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools),
 a simple program that downloads all files from `kitsunekko`
 and saves them in a specified directory on your hard drive.
+
+To keep this repository active and growing, we need your help.
+If you have subtitles that aren't yet included, please **[consider contributing](#modifications)** them.
 
 ## Download
 
