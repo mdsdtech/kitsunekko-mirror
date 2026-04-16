@@ -1,0 +1,655 @@
+﻿[Script Info]
+Title: [Erai-raws] 02.ja
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:19.56,0:00:21.43,Default,,0,0,0,,{\c&Hffffff&}（酔いどれ天使）わしは決めた！
+Dialogue: 0,0:00:21.52,0:00:25.02,Default,,0,0,0,,{\c&Hffffff&}（酔いどれ天使）今期のノルマ\N達成するまで酒は一滴も飲まん！
+Dialogue: 0,0:00:25.10,0:00:25.94,Default,,0,0,0,,{\c&Hffffff&}んっ んっ…
+Dialogue: 0,0:00:26.02,0:00:28.02,Default,,0,0,0,,{\an8\c&Hffffff&}（部下Ａ）\Nくう～ なんて決意だ！
+Dialogue: 0,0:00:28.11,0:00:29.57,Default,,0,0,0,,{\an8\c&Hffffff&}涙 ちょちょ切れるぜ～
+Dialogue: 0,0:00:29.65,0:00:31.28,Default,,0,0,0,,{\an8\c&Hffffff&}（部下Ｂ）ぜってー\Nノルマ達成して
+Dialogue: 0,0:00:31.36,0:00:33.45,Default,,0,0,0,,{\an8\c&Hffffff&}おやっさんを\N男にするぞ～！
+Dialogue: 0,0:00:33.53,0:00:35.53,Default,,0,0,0,,{\c&Hffffff&}（鉄男(てつお)のあくび）\N（部下Ａ･Ｂ）うお～！
+Dialogue: 0,0:00:35.61,0:00:36.45,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ん？
+Dialogue: 0,0:00:36.53,0:00:38.12,Default,,0,0,0,,{\c&Hffffff&}（うめ組班長）\N霊魂が出そうなポイントを
+Dialogue: 0,0:00:38.20,0:00:39.91,Default,,0,0,0,,{\c&Hffffff&}手分けして当たりましょう
+Dialogue: 0,0:00:40.41,0:00:42.91,Default,,0,0,0,,{\c&Hffffff&}例えば… 例えば…
+Dialogue: 0,0:00:43.41,0:00:45.08,Default,,0,0,0,,{\c&Hffffff&}とにかく あちこち回るよ！
+Dialogue: 0,0:00:45.17,0:00:46.08,Default,,0,0,0,,{\c&Hffffff&}（うめ組一同）はい！
+Dialogue: 0,0:00:47.17,0:00:49.46,Default,,0,0,0,,{\c&Hffffff&}（ふじ組班長）\N下界をしらみ潰しだ！
+Dialogue: 0,0:00:49.54,0:00:53.21,Default,,0,0,0,,{\c&Hffffff&}休むな　ダベるな\Nとにかく気合いだー！
+Dialogue: 0,0:00:53.30,0:00:53.92,Default,,0,0,0,,{\c&Hffffff&}（ふじ組一同）オーッス！
+Dialogue: 0,0:00:53.92,0:00:54.63,Default,,0,0,0,,{\c&Hffffff&}（ふじ組一同）オーッス！
+Dialogue: 0,0:00:53.92,0:00:54.63,Default,,0,0,0,,{\an8\c&Hffffff&}（大勢の走り去る足音）
+Dialogue: 0,0:00:54.63,0:00:55.30,Default,,0,0,0,,{\an8\c&Hffffff&}（大勢の走り去る足音）
+Dialogue: 0,0:00:55.30,0:00:55.97,Default,,0,0,0,,{\an8\c&Hffffff&}（大勢の走り去る足音）
+Dialogue: 0,0:00:55.30,0:00:55.97,Default,,0,0,0,,{\c&Hffffff&}（ふじ組班長）ん？\N何 のぞいてんだ コラ～！
+Dialogue: 0,0:00:55.97,0:00:58.22,Default,,0,0,0,,{\c&Hffffff&}（ふじ組班長）ん？\N何 のぞいてんだ コラ～！
+Dialogue: 0,0:00:58.30,0:01:02.43,Default,,0,0,0,,{\c&Hffffff&}チッ！　カタいこと言うなよ\N協力しようぜ
+Dialogue: 0,0:01:02.52,0:01:03.52,Default,,0,0,0,,{\c&Hffffff&}な？
+Dialogue: 0,0:01:03.60,0:01:07.19,Default,,0,0,0,,{\c&Hffffff&}ハア… よその組 面倒 見るほど\N暇じゃねえんだ
+Dialogue: 0,0:01:07.27,0:01:08.31,Default,,0,0,0,,{\c&Hffffff&}（鉄男）あー
+Dialogue: 0,0:01:08.81,0:01:10.44,Default,,0,0,0,,{\c&Hffffff&}じゃあ うめ組ちゃーん
+Dialogue: 0,0:01:10.52,0:01:11.69,Default,,0,0,0,,{\c&Hffffff&}んっ…
+Dialogue: 0,0:01:12.32,0:01:14.57,Default,,0,0,0,,{\c&Hffffff&}あんたが成仏したい？
+Dialogue: 0,0:01:15.24,0:01:17.24,Default,,0,0,0,,{\c&Hffffff&}なんだよ おい
+Dialogue: 0,0:01:17.32,0:01:19.62,Default,,0,0,0,,{\c&Hffffff&}“困った時はお互いさま”って
+Dialogue: 0,0:01:20.12,0:01:22.29,Default,,0,0,0,,{\c&Hffffff&}-（酔いどれ天使）どーん 邪魔だ！\N-（鉄男）ぐあっ！
+Dialogue: 0,0:01:22.37,0:01:23.79,Default,,0,0,0,,{\c&Hffffff&}（ふじ組班長）俺たちも遅れんな！
+Dialogue: 0,0:01:24.54,0:01:26.29,Default,,0,0,0,,{\c&Hffffff&}なんて薄情なヤツらだ！
+Dialogue: 0,0:01:26.37,0:01:27.29,Default,,0,0,0,,{\c&Hffffff&}いっ…
+Dialogue: 0,0:01:27.87,0:01:30.59,Default,,0,0,0,,{\c&Hffffff&}部長！　見ました？　あれ
+Dialogue: 0,0:01:30.67,0:01:33.17,Default,,0,0,0,,{\c&Hffffff&}チームワークが\N送迎部のモットーでしょ？
+Dialogue: 0,0:01:33.25,0:01:36.30,Default,,0,0,0,,{\c&Hffffff&}（部長）\N給料が出来高払いになったんだ
+Dialogue: 0,0:01:36.38,0:01:38.76,Default,,0,0,0,,{\c&Hffffff&}みんな 余裕がないんだろう
+Dialogue: 0,0:01:39.26,0:01:44.10,Default,,0,0,0,,{\c&Hffffff&}（雄一(ゆういち)）\N成績の悪い組に給料は払いません
+Dialogue: 0,0:01:45.48,0:01:46.64,Default,,0,0,0,,{\c&Hffffff&}マズいぞ
+Dialogue: 0,0:01:46.73,0:01:50.61,Default,,0,0,0,,{\c&Hffffff&}俺らみたいな弱小の班は\N孤立しちまったら やってけねえ
+Dialogue: 0,0:01:51.82,0:01:54.11,Default,,0,0,0,,{\c&Hffffff&}なんとか霊魂を見つけねえと
+Dialogue: 0,0:01:54.19,0:01:55.61,Default,,0,0,0,,{\c&Hffffff&}（美咲(みさき)）テツ！
+Dialogue: 0,0:01:55.69,0:01:57.32,Default,,0,0,0,,{\c&Hffffff&}（鉄男）見つけたか？
+Dialogue: 0,0:01:57.40,0:01:59.66,Default,,0,0,0,,{\c&Hffffff&}（美咲）見ろ ベストスコアじゃ！
+Dialogue: 0,0:01:59.74,0:02:01.37,Default,,0,0,0,,{\c&Hffffff&}あんたも少しは働け！
+Dialogue: 0,0:02:01.99,0:02:04.87,Default,,0,0,0,,{\c&Hffffff&}（覆面男:英語なまり）\Nそうカッカすんなよ テツゥ～
+Dialogue: 0,0:02:05.45,0:02:07.62,Default,,0,0,0,,{\c&Hffffff&}お前も見るか～？
+Dialogue: 0,0:02:08.58,0:02:09.50,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ん？
+Dialogue: 0,0:02:10.21,0:02:12.84,Default,,0,0,0,,{\c&Hffffff&}（歓声）\N（レスラーたちの力む声）
+Dialogue: 0,0:02:12.92,0:02:15.13,Default,,0,0,0,,{\c&Hffffff&}（鉄男）出た！　デスティーノ！
+Dialogue: 0,0:02:15.21,0:02:17.13,Default,,0,0,0,,{\c&Hffffff&}（動画から聞こえる歓声）\N（鉄男）いきなり大技！
+Dialogue: 0,0:02:17.22,0:02:20.14,Default,,0,0,0,,{\c&Hffffff&}アドレナリン！\Nノルアドレナリン！
+Dialogue: 0,0:02:20.22,0:02:23.89,Default,,0,0,0,,{\c&Hffffff&}セロトニン セロトニン\Nドーパミ～ン！
+Dialogue: 0,0:02:20.22,0:02:23.89,Default,,0,0,0,,{\an8\c&Hffffff&}（レフェリーの\Nスリーカウントの声）
+Dialogue: 0,0:02:23.97,0:02:25.72,Default,,0,0,0,,{\c&Hffffff&}（ゴングと歓声）\N（鉄男）く～！
+Dialogue: 0,0:02:26.47,0:02:28.89,Default,,0,0,0,,{\c&Hffffff&}やっぱプロレスは熱いなあ
+Dialogue: 0,0:02:28.98,0:02:32.48,Default,,0,0,0,,{\c&Hffffff&}今日もやってるよ\N歓楽園(かんらくえん)でプロレス
+Dialogue: 0,0:02:32.56,0:02:33.57,Default,,0,0,0,,{\c&Hffffff&}見に行く？
+Dialogue: 0,0:02:33.65,0:02:36.99,Default,,0,0,0,,{\c&Hffffff&}（鉄男）アッハハハハ\Nお前は相変わらずだなあ
+Dialogue: 0,0:02:37.07,0:02:37.90,Default,,0,0,0,,{\c&Hffffff&}（覆面男）ん？
+Dialogue: 0,0:02:37.99,0:02:43.62,Default,,0,0,0,,{\c&Hffffff&}いや 冥界も下界も\Nせちがらくなっちまったなあって
+Dialogue: 0,0:02:44.91,0:02:46.62,Default,,0,0,0,,{\c&Hffffff&}昔は分かりやすかった
+Dialogue: 0,0:02:47.62,0:02:53.17,Default,,0,0,0,,{\c&Hffffff&}みんな がむしゃらに生きて\N死んだらスッキリあの世行きってな
+Dialogue: 0,0:02:54.42,0:02:56.46,Default,,0,0,0,,{\c&Hffffff&}今は いろいろと複雑だ
+Dialogue: 0,0:02:56.55,0:02:59.80,Default,,0,0,0,,{\c&Hffffff&}死んでからもウジウジしてる霊魂が\Nわんさか いる
+Dialogue: 0,0:03:01.01,0:03:03.80,Default,,0,0,0,,{\c&Hffffff&}うちの班長\Nおせっかいがモットーでな
+Dialogue: 0,0:03:03.89,0:03:05.81,Default,,0,0,0,,{\c&Hffffff&}（ゲームの効果音）\N（鉄男）ほっとけねえんだとよ
+Dialogue: 0,0:03:07.39,0:03:09.10,Default,,0,0,0,,{\c&Hffffff&}いいじゃねえか
+Dialogue: 0,0:03:09.18,0:03:11.90,Default,,0,0,0,,{\c&Hffffff&}お前らの そういうとこ\N嫌いじゃない
+Dialogue: 0,0:03:11.98,0:03:14.06,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nそうか 分かってくれるか！
+Dialogue: 0,0:03:14.15,0:03:16.15,Default,,0,0,0,,{\c&Hffffff&}やっぱ持つべきものは友だなあ
+Dialogue: 0,0:03:16.23,0:03:19.24,Default,,0,0,0,,{\c&Hffffff&}（携帯電話の着信音）
+Dialogue: 0,0:03:21.20,0:03:22.32,Default,,0,0,0,,{\c&Hffffff&}おう 俺だ
+Dialogue: 0,0:03:24.07,0:03:26.08,Default,,0,0,0,,{\c&Hffffff&}何？　霊魂が？
+Dialogue: 0,0:03:26.16,0:03:27.54,Default,,0,0,0,,{\c&Hffffff&}分かった　すぐ行く
+Dialogue: 0,0:03:27.62,0:03:28.83,Default,,0,0,0,,{\c&Hffffff&}（携帯電話を畳む音）
+Dialogue: 0,0:03:30.33,0:03:32.12,Default,,0,0,0,,{\c&Hffffff&}（鉄男）霊魂が出たのか？
+Dialogue: 0,0:03:32.67,0:03:33.83,Default,,0,0,0,,{\c&Hffffff&}（覆面男）ああ
+Dialogue: 0,0:03:33.92,0:03:36.34,Default,,0,0,0,,{\c&Hffffff&}おし！　行くぞ 相棒
+Dialogue: 0,0:03:36.84,0:03:38.42,Default,,0,0,0,,{\c&Hffffff&}（覆面男）それは無理だ
+Dialogue: 0,0:03:38.50,0:03:39.46,Default,,0,0,0,,{\c&Hffffff&}は？
+Dialogue: 0,0:03:40.22,0:03:42.47,Default,,0,0,0,,{\c&Hffffff&}おいおい ダチじゃねえか
+Dialogue: 0,0:03:42.55,0:03:45.47,Default,,0,0,0,,{\c&Hffffff&}それはそれ これはこれ
+Dialogue: 0,0:03:46.30,0:03:48.85,Default,,0,0,0,,{\c&Hffffff&}（ゲームの効果音）\N（鉄男）そりゃねえだろ　なあ！
+Dialogue: 0,0:03:48.93,0:03:50.56,Default,,0,0,0,,{\c&Hffffff&}（覆面男）\N悪く思うな　うちもノルマで必死
+Dialogue: 0,0:03:50.56,0:03:52.10,Default,,0,0,0,,{\c&Hffffff&}（覆面男）\N悪く思うな　うちもノルマで必死
+Dialogue: 0,0:03:50.56,0:03:52.10,Default,,0,0,0,,{\an8\c&Hffffff&}（ドアが開く音）
+Dialogue: 0,0:03:52.10,0:03:52.81,Default,,0,0,0,,{\c&Hffffff&}（覆面男）\N悪く思うな　うちもノルマで必死
+Dialogue: 0,0:03:52.89,0:03:55.98,Default,,0,0,0,,{\c&Hffffff&}じゃ 夕方 歓楽園で
+Dialogue: 0,0:03:56.65,0:03:59.03,Default,,0,0,0,,{\c&Hffffff&}（机をたたく音）\N（鉄男）行くか ボケ！
+Dialogue: 0,0:03:59.11,0:04:01.57,Default,,0,0,0,,{\c&Hffffff&}この二枚舌 エリート詐欺師が！
+Dialogue: 0,0:04:02.78,0:04:03.49,Default,,0,0,0,,{\c&Hffffff&}あ～ もう やめやめ！　んっ！
+Dialogue: 0,0:04:03.49,0:04:04.86,Default,,0,0,0,,{\c&Hffffff&}あ～ もう やめやめ！　んっ！
+Dialogue: 0,0:04:03.49,0:04:04.86,Default,,0,0,0,,{\an8\c&Hffffff&}（ソファに座る音）
+Dialogue: 0,0:04:04.86,0:04:07.20,Default,,0,0,0,,{\c&Hffffff&}あ～ もう やめやめ！　んっ！
+Dialogue: 0,0:04:07.28,0:04:10.70,Default,,0,0,0,,{\c&Hffffff&}全部 めんどくさく\Nなっちまった あ…
+Dialogue: 0,0:04:10.79,0:04:11.70,Default,,0,0,0,,{\c&Hffffff&}（美咲）テツ
+Dialogue: 0,0:04:12.21,0:04:13.21,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ん？
+Dialogue: 0,0:04:13.29,0:04:17.21,Default,,0,0,0,,{\c&Hffffff&}（美咲）\N諦めたら そこで試合終了じゃよ
+Dialogue: 0,0:04:17.29,0:04:19.21,Default,,0,0,0,,{\c&Hffffff&}説得力ゼロ
+Dialogue: 0,0:04:19.30,0:04:21.76,Default,,0,0,0,,{\c&Hffffff&}（ゲームの効果音）\N（鉄男）せめてゲームをやめて言え
+Dialogue: 0,0:04:22.72,0:04:24.01,Default,,0,0,0,,{\c&Hffffff&}（ため息）
+Dialogue: 0,0:04:24.59,0:04:26.97,Default,,0,0,0,,{\c&Hffffff&}ったく どいつもこいつも
+Dialogue: 0,0:04:27.64,0:04:28.47,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:04:31.06,0:04:32.39,Default,,0,0,0,,{\c&Hffffff&}なんだ これ
+Dialogue: 0,0:04:34.10,0:04:35.48,Default,,0,0,0,,{\c&Hffffff&}ぬいぐるみか？
+Dialogue: 0,0:04:36.56,0:04:39.36,Default,,0,0,0,,{\c&Hffffff&}アッハハ！　いい感触だな
+Dialogue: 0,0:04:39.44,0:04:40.32,Default,,0,0,0,,{\c&Hffffff&}（美咲）あ…
+Dialogue: 0,0:04:42.07,0:04:44.61,Default,,0,0,0,,{\c&Hffffff&}ホント マシュマロみたいじゃ
+Dialogue: 0,0:04:49.33,0:04:50.33,Default,,0,0,0,,{\c&Hffffff&}-（ミニプロト）ていっ！\N-（鉄男）どわっ
+Dialogue: 0,0:04:52.00,0:04:54.00,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N気安く触らないでちょうだい！
+Dialogue: 0,0:04:54.08,0:04:55.75,Default,,0,0,0,,{\c&Hffffff&}しゃべったぞ
+Dialogue: 0,0:04:55.83,0:04:57.00,Default,,0,0,0,,{\c&Hffffff&}ぬいぐるみが？
+Dialogue: 0,0:04:57.08,0:04:59.17,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nぬいぐるみじゃないの
+Dialogue: 0,0:04:59.25,0:05:03.01,Default,,0,0,0,,{\c&Hffffff&}私はナビゲーションＡＩ(エーアイ)\Nプロトタイプ ミニ
+Dialogue: 0,0:05:03.09,0:05:03.97,Default,,0,0,0,,{\c&Hffffff&}（鉄男）は？
+Dialogue: 0,0:05:04.05,0:05:07.26,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）ん～ まったく\N話に聞いたとおり愚鈍ね
+Dialogue: 0,0:05:07.34,0:05:08.64,Default,,0,0,0,,{\c&Hffffff&}（鉄男）あんだと？
+Dialogue: 0,0:05:08.72,0:05:10.97,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）端的に言ってあげる
+Dialogue: 0,0:05:11.06,0:05:14.64,Default,,0,0,0,,{\c&Hffffff&}私は天使ロボット プロトタイプの\Nミニサイズだから⸺
+Dialogue: 0,0:05:14.73,0:05:17.65,Default,,0,0,0,,{\c&Hffffff&}“ミニプロト”とでも\N呼んでちょうだい
+Dialogue: 0,0:05:17.73,0:05:21.73,Default,,0,0,0,,{\c&Hffffff&}（美咲）\N天使ロボット！　ハイカラじゃ～
+Dialogue: 0,0:05:22.90,0:05:26.03,Default,,0,0,0,,{\c&Hffffff&}ロボットだかホビットだか\N知んねえけどよ
+Dialogue: 0,0:05:26.11,0:05:27.03,Default,,0,0,0,,{\c&Hffffff&}なんの用だよ
+Dialogue: 0,0:05:27.11,0:05:28.78,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）あなたたちのような
+Dialogue: 0,0:05:28.87,0:05:31.49,Default,,0,0,0,,{\c&Hffffff&}ろくに仕事をしない天使たちに\N同行して
+Dialogue: 0,0:05:31.58,0:05:35.46,Default,,0,0,0,,{\c&Hffffff&}成仏のいろはを\N調教するために来たのよっ！
+Dialogue: 0,0:05:35.54,0:05:37.42,Default,,0,0,0,,{\c&Hffffff&}（鉄男）調教だあ？
+Dialogue: 0,0:05:37.50,0:05:40.46,Default,,0,0,0,,{\an8\c&Hffffff&}さっきから態度デカいな\Nこの白まんじゅう
+Dialogue: 0,0:05:40.54,0:05:42.55,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\Nぐっ… 無礼者！
+Dialogue: 0,0:05:42.63,0:05:45.01,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\Nテテテテテ…
+Dialogue: 0,0:05:42.63,0:05:45.01,Default,,0,0,0,,{\c&Hffffff&}頑張れ～ 頑張れ～
+Dialogue: 0,0:05:45.01,0:05:45.09,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\Nテテテテテ…
+Dialogue: 0,0:05:45.09,0:05:45.92,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\Nテテテテテ…
+Dialogue: 0,0:05:45.09,0:05:45.92,Default,,0,0,0,,{\c&Hffffff&}もうちょっとだ！
+Dialogue: 0,0:05:45.92,0:05:46.80,Default,,0,0,0,,{\c&Hffffff&}もうちょっとだ！
+Dialogue: 0,0:05:46.88,0:05:49.72,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nアハハハハ　手 短かすぎじゃ！
+Dialogue: 0,0:05:49.80,0:05:51.18,Default,,0,0,0,,{\c&Hffffff&}（鉄男と美咲の笑う声）
+Dialogue: 0,0:05:51.76,0:05:52.89,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）もう知らない！
+Dialogue: 0,0:05:52.97,0:05:54.18,Default,,0,0,0,,{\c&Hffffff&}（鉄男）おっ いじけた
+Dialogue: 0,0:05:54.27,0:05:56.43,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N私の助けは要らないのね
+Dialogue: 0,0:05:56.52,0:05:58.81,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nおう 要らねえから 帰れ帰れ
+Dialogue: 0,0:05:58.90,0:06:01.94,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）ハッ！　それは残念
+Dialogue: 0,0:06:02.02,0:06:05.69,Default,,0,0,0,,{\c&Hffffff&}せっかく耳寄りな霊魂情報を\N持ってきたのに
+Dialogue: 0,0:06:05.78,0:06:06.69,Default,,0,0,0,,{\c&Hffffff&}（鉄男）霊魂？
+Dialogue: 0,0:06:06.78,0:06:09.36,Default,,0,0,0,,{\c&Hffffff&}どこだ　教えてくれ 霊魂！
+Dialogue: 0,0:06:09.45,0:06:11.57,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nわ～たしの助けなんて
+Dialogue: 0,0:06:11.66,0:06:12.99,Default,,0,0,0,,{\c&Hffffff&}要らないんでしょお～？
+Dialogue: 0,0:06:13.08,0:06:15.66,Default,,0,0,0,,{\c&Hffffff&}あ～ 要る 要る　やっぱ要る
+Dialogue: 0,0:06:13.08,0:06:15.66,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロトの\N不明瞭なうなり声）
+Dialogue: 0,0:06:15.75,0:06:17.41,Default,,0,0,0,,{\c&Hffffff&}そういうことは先に言ってくれよ
+Dialogue: 0,0:06:17.50,0:06:19.46,Default,,0,0,0,,{\c&Hffffff&}ほら 頭 もんじゃう
+Dialogue: 0,0:06:19.54,0:06:20.58,Default,,0,0,0,,{\c&Hffffff&}わしも～
+Dialogue: 0,0:06:20.67,0:06:22.13,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）んっ ぐぐっ…
+Dialogue: 0,0:06:22.21,0:06:25.51,Default,,0,0,0,,{\c&Hffffff&}私の体で遊ぶなー！
+Dialogue: 0,0:06:25.59,0:06:28.01,Default,,0,0,0,,{\c&Hffffff&}（荒い息遣い）
+Dialogue: 0,0:06:28.63,0:06:30.93,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N命令には従ってもらうから
+Dialogue: 0,0:06:31.01,0:06:32.01,Default,,0,0,0,,{\c&Hffffff&}いいわね？
+Dialogue: 0,0:06:32.10,0:06:34.10,Default,,0,0,0,,{\c&Hffffff&}もっこり！　冴羽(さえば)リョーカイ！
+Dialogue: 0,0:06:34.18,0:06:35.52,Default,,0,0,0,,{\c&Hffffff&}ラジャコング！
+Dialogue: 0,0:06:35.60,0:06:37.93,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）いいのか？　それ…
+Dialogue: 0,0:06:38.02,0:06:39.02,Default,,0,0,0,,{\c&Hffffff&}んー
+Dialogue: 0,0:06:39.10,0:06:42.06,Default,,0,0,0,,{\c&Hffffff&}じゃあ 霊魂の現在地を…
+Dialogue: 0,0:06:42.56,0:06:45.73,Default,,0,0,0,,{\c&Hffffff&}Ｘ(エックス)座標 １万1573メートル
+Dialogue: 0,0:06:45.82,0:06:49.03,Default,,0,0,0,,{\c&Hffffff&}Ｙ(ワイ)座標 ２万2694メートル付近を
+Dialogue: 0,0:06:49.11,0:06:51.78,Default,,0,0,0,,{\c&Hffffff&}時速６キロのスピードで北上中
+Dialogue: 0,0:06:51.86,0:06:54.58,Default,,0,0,0,,{\c&Hffffff&}ふんふんふん　すぐ向かうわよっ！
+Dialogue: 0,0:06:54.66,0:06:56.04,Default,,0,0,0,,{\c&Hffffff&}は？　あ？　どこだって？
+Dialogue: 0,0:06:56.12,0:06:58.62,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nえ？　座標も読めないの？
+Dialogue: 0,0:06:58.70,0:07:01.79,Default,,0,0,0,,{\c&Hffffff&}ブァ～カが服着たようなヤツという\N評判は本当ね
+Dialogue: 0,0:07:01.87,0:07:03.54,Default,,0,0,0,,{\c&Hffffff&}（鉄男）キーッ！
+Dialogue: 0,0:07:07.13,0:07:10.05,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト:得意げに）\N私に ついてきなさ～い！
+Dialogue: 0,0:07:11.18,0:07:12.18,Default,,0,0,0,,{\c&Hffffff&}（鉄男）んっ！
+Dialogue: 0,0:07:12.72,0:07:15.56,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nほら もっと気張って こがんか
+Dialogue: 0,0:07:15.64,0:07:17.81,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nあんたも たまには代われよ！
+Dialogue: 0,0:07:18.39,0:07:21.44,Default,,0,0,0,,{\c&Hffffff&}（美咲）たまにはな　今ではない
+Dialogue: 0,0:07:21.52,0:07:22.81,Default,,0,0,0,,{\c&Hffffff&}にしても！
+Dialogue: 0,0:07:22.90,0:07:24.52,Default,,0,0,0,,{\c&Hffffff&}空 飛べるなんて ずりいぞ！
+Dialogue: 0,0:07:24.61,0:07:27.02,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N早くしないと日が暮れるわよっ！
+Dialogue: 0,0:07:27.11,0:07:28.15,Default,,0,0,0,,{\c&Hffffff&}（鉄男の荒い息）
+Dialogue: 0,0:07:29.19,0:07:31.24,Default,,0,0,0,,{\c&Hffffff&}（鉄男）だあっ！　待てって！
+Dialogue: 0,0:07:31.32,0:07:32.78,Default,,0,0,0,,{\c&Hffffff&}（鉄男の荒い息遣い）
+Dialogue: 0,0:07:38.79,0:07:41.54,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nふむ この辺りのはずよっ
+Dialogue: 0,0:07:42.87,0:07:44.79,Default,,0,0,0,,{\c&Hffffff&}（鉄男）いたぞ　あそこだ！
+Dialogue: 0,0:07:45.88,0:07:50.47,Default,,0,0,0,,{\c&Hffffff&}（美咲）“むの97の０３(れーさん)”　内藤為介(ないとうためすけ)
+Dialogue: 0,0:07:50.55,0:07:53.76,Default,,0,0,0,,{\c&Hffffff&}正確じゃなあ　大したもんじゃ
+Dialogue: 0,0:07:53.84,0:07:55.43,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）フフフッ
+Dialogue: 0,0:07:55.51,0:07:58.89,Default,,0,0,0,,{\c&Hffffff&}冥界最新のテクノロジーを\Nナメないでちょうだい
+Dialogue: 0,0:07:58.97,0:08:01.43,Default,,0,0,0,,{\c&Hffffff&}いい？　三方から迫るわよっ
+Dialogue: 0,0:08:01.52,0:08:04.02,Default,,0,0,0,,{\c&Hffffff&}気付かれないように近づいて⸺
+Dialogue: 0,0:08:04.10,0:08:06.02,Default,,0,0,0,,{\c&Hffffff&}囲い込んで 一気に…
+Dialogue: 0,0:08:06.11,0:08:07.11,Default,,0,0,0,,{\c&Hffffff&}いっ いっ いっ…
+Dialogue: 0,0:08:07.19,0:08:09.36,Default,,0,0,0,,{\c&Hffffff&}（舌打ち）\N（ため息）
+Dialogue: 0,0:08:09.44,0:08:10.74,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）あのバカども！
+Dialogue: 0,0:08:12.11,0:08:13.11,Default,,0,0,0,,{\c&Hffffff&}（内藤）ん？
+Dialogue: 0,0:08:14.57,0:08:15.99,Default,,0,0,0,,{\c&Hffffff&}（内藤）誰だ お前ら
+Dialogue: 0,0:08:16.07,0:08:19.04,Default,,0,0,0,,{\c&Hffffff&}おっと 怪しいもんじゃねえぜ
+Dialogue: 0,0:08:19.12,0:08:22.00,Default,,0,0,0,,{\c&Hffffff&}わしらは天国の案内人じゃ
+Dialogue: 0,0:08:22.08,0:08:25.58,Default,,0,0,0,,{\c&Hffffff&}（鉄男）おとなしくしてれば\Nすぐ済むからな
+Dialogue: 0,0:08:26.38,0:08:29.00,Default,,0,0,0,,{\c&Hffffff&}（内藤）悪いこと言わねえ　消えな
+Dialogue: 0,0:08:29.09,0:08:32.59,Default,,0,0,0,,{\c&Hffffff&}お？　やんのか？　おもしれえ
+Dialogue: 0,0:08:33.09,0:08:34.30,Default,,0,0,0,,{\c&Hffffff&}-（内藤）んっ！\N-（鉄男）ぐおっ！
+Dialogue: 0,0:08:35.09,0:08:36.09,Default,,0,0,0,,{\c&Hffffff&}（えずく音）
+Dialogue: 0,0:08:36.59,0:08:37.51,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ぐおわっ！
+Dialogue: 0,0:08:37.60,0:08:39.64,Default,,0,0,0,,{\c&Hffffff&}（倒れた音）\N（美咲）大丈夫か？　テツ！
+Dialogue: 0,0:08:39.72,0:08:41.10,Default,,0,0,0,,{\c&Hffffff&}（鉄男）アッハハッ
+Dialogue: 0,0:08:41.60,0:08:43.39,Default,,0,0,0,,{\c&Hffffff&}悪くないパンチだ
+Dialogue: 0,0:08:43.48,0:08:46.15,Default,,0,0,0,,{\c&Hffffff&}生前はプロボクサーってとこか
+Dialogue: 0,0:08:46.23,0:08:48.86,Default,,0,0,0,,{\c&Hffffff&}だが見た目より軽いな
+Dialogue: 0,0:08:48.94,0:08:50.78,Default,,0,0,0,,{\c&Hffffff&}猪木(いのき)の張り手に比べれば⸺
+Dialogue: 0,0:08:50.86,0:08:52.11,Default,,0,0,0,,{\c&Hffffff&}うっ… こんなの…
+Dialogue: 0,0:08:52.19,0:08:53.15,Default,,0,0,0,,{\c&Hffffff&}（倒れた音）
+Dialogue: 0,0:08:54.15,0:08:56.03,Default,,0,0,0,,{\c&Hffffff&}（美咲）カンカンカーン！
+Dialogue: 0,0:08:56.11,0:08:58.82,Default,,0,0,0,,{\c&Hffffff&}た～んば選手～　ノーックアウッ！
+Dialogue: 0,0:08:58.91,0:09:00.16,Default,,0,0,0,,{\c&Hffffff&}（走り去る足音）
+Dialogue: 0,0:09:02.50,0:09:04.91,Default,,0,0,0,,{\c&Hffffff&}（鉄男）あっ！　いっ… いてえ…
+Dialogue: 0,0:09:05.00,0:09:07.46,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）勝手なこと\Nするなって言ったでしょ！
+Dialogue: 0,0:09:08.21,0:09:11.30,Default,,0,0,0,,{\c&Hffffff&}私の指示に従って\N効率的に動いていれば
+Dialogue: 0,0:09:11.38,0:09:14.47,Default,,0,0,0,,{\c&Hffffff&}今頃は霊魂１体の成仏が\N完了してたわよっ！
+Dialogue: 0,0:09:14.55,0:09:17.97,Default,,0,0,0,,{\c&Hffffff&}細けえこと ちまちま考えて\N動けるかっつうの
+Dialogue: 0,0:09:18.05,0:09:21.97,Default,,0,0,0,,{\c&Hffffff&}うちら 考えるより\N感じるタイプじゃけえ
+Dialogue: 0,0:09:22.06,0:09:23.89,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）少しは反省なさい！
+Dialogue: 0,0:09:24.39,0:09:25.89,Default,,0,0,0,,{\c&Hffffff&}もっと効率的に…
+Dialogue: 0,0:09:25.98,0:09:27.23,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nまあまあ お説教は あとにして
+Dialogue: 0,0:09:27.23,0:09:29.36,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nまあまあ お説教は あとにして
+Dialogue: 0,0:09:27.23,0:09:29.36,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロトの\N力む声）
+Dialogue: 0,0:09:29.44,0:09:30.40,Default,,0,0,0,,{\c&Hffffff&}まずは さっきの霊魂を見つけんと
+Dialogue: 0,0:09:30.40,0:09:32.02,Default,,0,0,0,,{\c&Hffffff&}まずは さっきの霊魂を見つけんと
+Dialogue: 0,0:09:30.40,0:09:32.02,Default,,0,0,0,,{\an8\c&Hffffff&}（近づく足音）
+Dialogue: 0,0:09:32.11,0:09:35.36,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nそうそう　“効率的に”だろ？
+Dialogue: 0,0:09:35.44,0:09:36.86,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）くっ… んんっ…
+Dialogue: 0,0:09:36.95,0:09:38.32,Default,,0,0,0,,{\c&Hffffff&}クソ！
+Dialogue: 0,0:09:39.45,0:09:42.12,Default,,0,0,0,,{\c&Hffffff&}聞いたとおりのボンクラども
+Dialogue: 0,0:09:42.79,0:09:46.87,Default,,0,0,0,,{\c&Hffffff&}それにしても あの霊魂\Nどうして逃げるんだろう
+Dialogue: 0,0:09:46.96,0:09:49.21,Default,,0,0,0,,{\c&Hffffff&}今更 あがいたって無駄なのに
+Dialogue: 0,0:09:49.29,0:09:50.38,Default,,0,0,0,,{\c&Hffffff&}んっ
+Dialogue: 0,0:09:50.46,0:09:54.01,Default,,0,0,0,,{\c&Hffffff&}（人々のはしゃぐ声）\N（携帯電話の着信音）
+Dialogue: 0,0:09:54.09,0:09:55.88,Default,,0,0,0,,{\c&Hffffff&}（鉄男）見つかったのか？
+Dialogue: 0,0:09:56.51,0:09:59.39,Default,,0,0,0,,{\c&Hffffff&}あ？　動物園？
+Dialogue: 0,0:10:00.51,0:10:03.89,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）霊魂は現在\Nゾウの檻(おり)付近にいるわ
+Dialogue: 0,0:10:04.81,0:10:07.14,Default,,0,0,0,,{\c&Hffffff&}いい？　二手に分かれて
+Dialogue: 0,0:10:08.02,0:10:08.94,Default,,0,0,0,,{\c&Hffffff&}（鉄男）了解
+Dialogue: 0,0:10:09.02,0:10:10.65,Default,,0,0,0,,{\c&Hffffff&}班長　挟み撃ちだ
+Dialogue: 0,0:10:10.73,0:10:11.61,Default,,0,0,0,,{\c&Hffffff&}（美咲）おう
+Dialogue: 0,0:10:13.52,0:10:15.69,Default,,0,0,0,,{\c&Hffffff&}-（鉄男）へへへっ\N-（内藤）ん？
+Dialogue: 0,0:10:15.78,0:10:17.15,Default,,0,0,0,,{\c&Hffffff&}（鉄男）見～つけた
+Dialogue: 0,0:10:17.74,0:10:19.41,Default,,0,0,0,,{\c&Hffffff&}（内藤）また あんたか
+Dialogue: 0,0:10:21.03,0:10:21.87,Default,,0,0,0,,{\c&Hffffff&}シュッ フッ！
+Dialogue: 0,0:10:21.95,0:10:22.91,Default,,0,0,0,,{\c&Hffffff&}（鉄男）危ねっ！
+Dialogue: 0,0:10:22.99,0:10:26.16,Default,,0,0,0,,{\c&Hffffff&}お前のパンチは全て見切った！
+Dialogue: 0,0:10:26.25,0:10:27.41,Default,,0,0,0,,{\c&Hffffff&}なんてな
+Dialogue: 0,0:10:27.50,0:10:28.37,Default,,0,0,0,,{\c&Hffffff&}（内藤）チッ
+Dialogue: 0,0:10:28.91,0:10:29.75,Default,,0,0,0,,{\c&Hffffff&}フン
+Dialogue: 0,0:10:30.25,0:10:31.38,Default,,0,0,0,,{\an8\c&Hffffff&}（走り去る足音）
+Dialogue: 0,0:10:30.25,0:10:31.38,Default,,0,0,0,,{\c&Hffffff&}無駄だ
+Dialogue: 0,0:10:31.38,0:10:31.46,Default,,0,0,0,,{\an8\c&Hffffff&}（走り去る足音）
+Dialogue: 0,0:10:31.46,0:10:32.25,Default,,0,0,0,,{\an8\c&Hffffff&}（走り去る足音）
+Dialogue: 0,0:10:31.46,0:10:32.25,Default,,0,0,0,,{\c&Hffffff&}班長　そっち行ったぞ！
+Dialogue: 0,0:10:32.25,0:10:33.71,Default,,0,0,0,,{\c&Hffffff&}班長　そっち行ったぞ！
+Dialogue: 0,0:10:33.79,0:10:34.67,Default,,0,0,0,,{\c&Hffffff&}え？
+Dialogue: 0,0:10:37.21,0:10:38.26,Default,,0,0,0,,{\c&Hffffff&}あれ？
+Dialogue: 0,0:10:39.93,0:10:43.68,Default,,0,0,0,,{\c&Hffffff&}（ゾウの鳴き声）\N（美咲のうなる声）
+Dialogue: 0,0:10:43.76,0:10:47.73,Default,,0,0,0,,{\c&Hffffff&}顔に一撃 入れて\Nひるんだ隙に鼻をつかんで…
+Dialogue: 0,0:10:47.81,0:10:49.94,Default,,0,0,0,,{\c&Hffffff&}（鉄男）立ち向かう相手が違ーう！
+Dialogue: 0,0:10:50.77,0:10:51.65,Default,,0,0,0,,{\c&Hffffff&}（美咲）ん？
+Dialogue: 0,0:10:51.73,0:10:53.36,Default,,0,0,0,,{\c&Hffffff&}逃げられちまったじゃねえか
+Dialogue: 0,0:10:53.44,0:10:55.44,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nな～にをしてんのよ！
+Dialogue: 0,0:10:57.07,0:11:00.32,Default,,0,0,0,,{\c&Hffffff&}見ろ ゾウのウンコって\Nでっかいぞう
+Dialogue: 0,0:11:00.40,0:11:01.86,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nあんたの口に突っ込んだろか！
+Dialogue: 0,0:11:00.40,0:11:01.86,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\Nウンコって
+Dialogue: 0,0:11:01.95,0:11:03.28,Default,,0,0,0,,{\c&Hffffff&}-（美咲）いや…\N-（ミニプロト）ウンコって言うな
+Dialogue: 0,0:11:03.37,0:11:05.37,Default,,0,0,0,,{\c&Hffffff&}-（鉄男）ウンコはダメだろ\N-（美咲）ウ… ウンコ…
+Dialogue: 0,0:11:06.54,0:11:09.08,Default,,0,0,0,,{\c&Hffffff&}クソッ しつけえヤツらだ
+Dialogue: 0,0:11:09.16,0:11:11.04,Default,,0,0,0,,{\c&Hffffff&}どうすれば… ハア… くっ！
+Dialogue: 0,0:11:11.12,0:11:11.96,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:11:12.04,0:11:14.96,Default,,0,0,0,,{\c&Hffffff&}（飼育員のすすり泣き）
+Dialogue: 0,0:11:16.46,0:11:18.05,Default,,0,0,0,,{\c&Hffffff&}（獣医）ご臨終です
+Dialogue: 0,0:11:18.55,0:11:23.43,Default,,0,0,0,,{\c&Hffffff&}（飼育員）ううっ…\Nルー竹芝(たけしば)　よく頑張ったなあ
+Dialogue: 0,0:11:24.10,0:11:24.97,Default,,0,0,0,,{\c&Hffffff&}んっ？
+Dialogue: 0,0:11:27.06,0:11:29.98,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nハッ！　霊魂の信号が消えた！
+Dialogue: 0,0:11:30.06,0:11:32.44,Default,,0,0,0,,{\c&Hffffff&}（鉄男）何やってんだよ ポンコツ
+Dialogue: 0,0:11:32.52,0:11:35.27,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nいざって時にダメなタイプじゃな
+Dialogue: 0,0:11:35.36,0:11:38.65,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）あなたたちだけには\N言われたくないわねえ！
+Dialogue: 0,0:11:38.73,0:11:42.24,Default,,0,0,0,,{\c&Hffffff&}（飼育員）ギャーッ！\Nルー竹芝が生き返ったー！
+Dialogue: 0,0:11:42.32,0:11:43.74,Default,,0,0,0,,{\c&Hffffff&}（鉄男･美咲）ん？
+Dialogue: 0,0:11:43.82,0:11:46.74,Default,,0,0,0,,{\c&Hffffff&}（内藤）\Nすげえ！　体がか～るい軽い！
+Dialogue: 0,0:11:46.83,0:11:48.49,Default,,0,0,0,,{\c&Hffffff&}（内藤の鼻歌）\N（鉄男）うおっ
+Dialogue: 0,0:11:48.58,0:11:50.00,Default,,0,0,0,,{\c&Hffffff&}（遠ざかるジャンプ音）\N（近づく荒い息）
+Dialogue: 0,0:11:50.08,0:11:52.00,Default,,0,0,0,,{\c&Hffffff&}（飼育員）ルー竹芝～！
+Dialogue: 0,0:11:52.08,0:11:53.75,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）生き返った？
+Dialogue: 0,0:11:53.83,0:11:57.34,Default,,0,0,0,,{\c&Hffffff&}まさか動物の死体に憑依(ひょうい)したの？
+Dialogue: 0,0:11:57.42,0:11:59.63,Default,,0,0,0,,{\c&Hffffff&}いけない！　追いかけるわよ！
+Dialogue: 0,0:11:59.71,0:12:00.80,Default,,0,0,0,,{\c&Hffffff&}う… あ…
+Dialogue: 0,0:12:00.88,0:12:01.88,Default,,0,0,0,,{\c&Hffffff&}めっちゃ跳ぶなあ\N８メートルは いったぞ
+Dialogue: 0,0:12:01.88,0:12:03.43,Default,,0,0,0,,{\c&Hffffff&}めっちゃ跳ぶなあ\N８メートルは いったぞ
+Dialogue: 0,0:12:01.88,0:12:03.43,Default,,0,0,0,,{\an8\c&Hffffff&}（ミニプロト）\N追いかけ…
+Dialogue: 0,0:12:03.43,0:12:03.84,Default,,0,0,0,,{\c&Hffffff&}めっちゃ跳ぶなあ\N８メートルは いったぞ
+Dialogue: 0,0:12:03.93,0:12:04.47,Default,,0,0,0,,{\an8\c&Hffffff&}追いかけるわ…
+Dialogue: 0,0:12:04.47,0:12:05.51,Default,,0,0,0,,{\an8\c&Hffffff&}追いかけるわ…
+Dialogue: 0,0:12:04.47,0:12:05.51,Default,,0,0,0,,{\c&Hffffff&}いいガタイ　ミルコみてえだった
+Dialogue: 0,0:12:05.51,0:12:06.14,Default,,0,0,0,,{\c&Hffffff&}いいガタイ　ミルコみてえだった
+Dialogue: 0,0:12:06.14,0:12:07.14,Default,,0,0,0,,{\c&Hffffff&}いいガタイ　ミルコみてえだった
+Dialogue: 0,0:12:06.14,0:12:07.14,Default,,0,0,0,,{\an8\c&Hffffff&}追い…
+Dialogue: 0,0:12:07.22,0:12:09.89,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nダベってんじゃねえ！
+Dialogue: 0,0:12:09.97,0:12:11.77,Default,,0,0,0,,{\c&Hffffff&}んなこと言ったって
+Dialogue: 0,0:12:11.85,0:12:14.60,Default,,0,0,0,,{\c&Hffffff&}俺たち 生身の肉体に触れねえのに
+Dialogue: 0,0:12:14.69,0:12:16.65,Default,,0,0,0,,{\c&Hffffff&}憑依した霊魂をどうやって？
+Dialogue: 0,0:12:16.73,0:12:17.65,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）ハア…
+Dialogue: 0,0:12:17.73,0:12:21.69,Default,,0,0,0,,{\c&Hffffff&}これを１錠 のめば\N３時間は体が実体化するの
+Dialogue: 0,0:12:21.78,0:12:24.07,Default,,0,0,0,,{\c&Hffffff&}現世の物にも触れることができるわ
+Dialogue: 0,0:12:24.16,0:12:26.91,Default,,0,0,0,,{\c&Hffffff&}ふーん これ１錠で？　マジ？
+Dialogue: 0,0:12:26.99,0:12:27.91,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）フッ！
+Dialogue: 0,0:12:27.99,0:12:32.91,Default,,0,0,0,,{\c&Hffffff&}開発に莫大(ばくだい)な予算と時間をかけた\N画期的な発明よ
+Dialogue: 0,0:12:33.54,0:12:36.50,Default,,0,0,0,,{\c&Hffffff&}完成のために\N冥界の英知を結集させた⸺
+Dialogue: 0,0:12:36.50,0:12:37.04,Default,,0,0,0,,{\c&Hffffff&}完成のために\N冥界の英知を結集させた⸺
+Dialogue: 0,0:12:36.50,0:12:37.04,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）\N待て コラ カンガルー！
+Dialogue: 0,0:12:37.04,0:12:37.13,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）\N待て コラ カンガルー！
+Dialogue: 0,0:12:37.13,0:12:38.13,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）\N待て コラ カンガルー！
+Dialogue: 0,0:12:37.13,0:12:38.13,Default,,0,0,0,,{\c&Hffffff&}奇跡の…
+Dialogue: 0,0:12:38.13,0:12:38.21,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）\N待て コラ カンガルー！
+Dialogue: 0,0:12:38.21,0:12:39.63,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）\N待て コラ カンガルー！
+Dialogue: 0,0:12:38.21,0:12:39.63,Default,,0,0,0,,{\c&Hffffff&}ゴホッ… ゴホッ…
+Dialogue: 0,0:12:39.63,0:12:40.05,Default,,0,0,0,,{\c&Hffffff&}ゴホッ… ゴホッ…
+Dialogue: 0,0:12:40.67,0:12:43.05,Default,,0,0,0,,{\c&Hffffff&}バカ… 潰す
+Dialogue: 0,0:12:44.01,0:12:46.01,Default,,0,0,0,,{\c&Hffffff&}（女性）たくましい二の腕
+Dialogue: 0,0:12:46.09,0:12:49.43,Default,,0,0,0,,{\c&Hffffff&}（男性）どんなことからも\Nお前を守ってやるぜ
+Dialogue: 0,0:12:49.51,0:12:51.39,Default,,0,0,0,,{\c&Hffffff&}（女性）ス･テ･キ
+Dialogue: 0,0:12:51.47,0:12:52.93,Default,,0,0,0,,{\c&Hffffff&}（内藤）あ～らよ！
+Dialogue: 0,0:12:53.02,0:12:54.73,Default,,0,0,0,,{\c&Hffffff&}（男性）うおっ どわーっ！
+Dialogue: 0,0:12:54.81,0:12:56.19,Default,,0,0,0,,{\c&Hffffff&}（女性）キャーッ！
+Dialogue: 0,0:12:56.27,0:12:58.69,Default,,0,0,0,,{\c&Hffffff&}（営業マン）いい天気だな～
+Dialogue: 0,0:12:58.77,0:13:01.19,Default,,0,0,0,,{\c&Hffffff&}この ひとときが\N人生 唯一の安らぎ…
+Dialogue: 0,0:13:01.28,0:13:01.69,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤）\Nほっと… スタンプ！
+Dialogue: 0,0:13:01.69,0:13:03.24,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤）\Nほっと… スタンプ！
+Dialogue: 0,0:13:01.69,0:13:03.24,Default,,0,0,0,,{\c&Hffffff&}ぐおわっ！　ぐああっ…
+Dialogue: 0,0:13:03.24,0:13:03.69,Default,,0,0,0,,{\c&Hffffff&}ぐおわっ！　ぐああっ…
+Dialogue: 0,0:13:03.78,0:13:05.61,Default,,0,0,0,,{\c&Hffffff&}（内藤）へへへへへ～
+Dialogue: 0,0:13:05.70,0:13:08.24,Default,,0,0,0,,{\c&Hffffff&}こりゃ最高だ～！　ハハッ！
+Dialogue: 0,0:13:08.32,0:13:09.20,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:13:09.91,0:13:12.08,Default,,0,0,0,,{\c&Hffffff&}（近づくジャンプ音）\N（鉄男）もう逃がさねえぞ
+Dialogue: 0,0:13:13.29,0:13:16.96,Default,,0,0,0,,{\c&Hffffff&}おイタは そのへんにして\N神妙にお縄につけ！
+Dialogue: 0,0:13:17.54,0:13:18.54,Default,,0,0,0,,{\c&Hffffff&}（内藤）はん！
+Dialogue: 0,0:13:19.38,0:13:21.80,Default,,0,0,0,,{\c&Hffffff&}どきな　ケガするぜ
+Dialogue: 0,0:13:21.88,0:13:23.09,Default,,0,0,0,,{\c&Hffffff&}上等だ
+Dialogue: 0,0:13:24.22,0:13:26.09,Default,,0,0,0,,{\c&Hffffff&}リベンジマッチといこうか！
+Dialogue: 0,0:13:26.18,0:13:26.97,Default,,0,0,0,,{\c&Hffffff&}（内藤）ほいっ
+Dialogue: 0,0:13:27.05,0:13:27.97,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ぐあっ！
+Dialogue: 0,0:13:29.55,0:13:33.97,Default,,0,0,0,,{\c&Hffffff&}（かすかなうめき声）
+Dialogue: 0,0:13:35.73,0:13:36.44,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nこれが有名なカンガルーキックかあ
+Dialogue: 0,0:13:36.44,0:13:37.60,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nこれが有名なカンガルーキックかあ
+Dialogue: 0,0:13:36.44,0:13:37.60,Default,,0,0,0,,{\an8\c&Hffffff&}（倒れた音）
+Dialogue: 0,0:13:37.60,0:13:38.73,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nこれが有名なカンガルーキックかあ
+Dialogue: 0,0:13:38.81,0:13:41.77,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N感心しとるバヤイか！
+Dialogue: 0,0:13:42.44,0:13:45.11,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nなん… ちゅう… 蹴りしてやがんだ
+Dialogue: 0,0:13:45.19,0:13:47.78,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N早くなんとかしなさい！
+Dialogue: 0,0:13:47.86,0:13:51.87,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ううっ… むちゃ言うな！\N見りゃ分かるだろ！
+Dialogue: 0,0:13:51.95,0:13:56.62,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）逃した霊魂のせいで\N人間界に甚大な被害が出たら
+Dialogue: 0,0:13:56.71,0:14:02.04,Default,,0,0,0,,{\c&Hffffff&}冥界法第17条に基づき\Nたんぽぽ組は お取り潰しよっ！
+Dialogue: 0,0:14:02.55,0:14:03.63,Default,,0,0,0,,{\c&Hffffff&}（鉄男）え？
+Dialogue: 0,0:14:03.71,0:14:05.17,Default,,0,0,0,,{\c&Hffffff&}アッハハハハ
+Dialogue: 0,0:14:05.26,0:14:08.30,Default,,0,0,0,,{\c&Hffffff&}もうノルマを気にする必要が\Nなくなるな テツ
+Dialogue: 0,0:14:08.38,0:14:09.64,Default,,0,0,0,,{\c&Hffffff&}（鉄男）笑えねえよ！
+Dialogue: 0,0:14:09.72,0:14:11.76,Default,,0,0,0,,{\c&Hffffff&}超ヤベえじゃねえか！
+Dialogue: 0,0:14:11.85,0:14:12.85,Default,,0,0,0,,{\c&Hffffff&}チッ！
+Dialogue: 0,0:14:13.35,0:14:18.52,Default,,0,0,0,,{\c&Hffffff&}うお～！
+Dialogue: 0,0:14:18.60,0:14:20.19,Default,,0,0,0,,{\c&Hffffff&}-（内藤）タイガーマスク\N-（鉄男）ぐあーっ！
+Dialogue: 0,0:14:21.11,0:14:23.11,Default,,0,0,0,,{\c&Hffffff&}-（内藤）元気ですか～\N-（鉄男）ぐうっ！
+Dialogue: 0,0:14:23.61,0:14:28.11,Default,,0,0,0,,{\c&Hffffff&}（鉄男）くっ… ダメだ ハア…\Nそもそもの身体能力が違いすぎる
+Dialogue: 0,0:14:28.20,0:14:30.53,Default,,0,0,0,,{\c&Hffffff&}どうすりゃいいんだ クソーッ！
+Dialogue: 0,0:14:30.61,0:14:32.74,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\N私の言うことを聞かないで⸺
+Dialogue: 0,0:14:32.83,0:14:35.54,Default,,0,0,0,,{\c&Hffffff&}非効率なことをやり続けた報いよ
+Dialogue: 0,0:14:35.62,0:14:38.62,Default,,0,0,0,,{\c&Hffffff&}あなたたちは もう おしまいねっ
+Dialogue: 0,0:14:39.12,0:14:40.71,Default,,0,0,0,,{\c&Hffffff&}（美咲）まだ終わらんよ
+Dialogue: 0,0:14:40.79,0:14:41.67,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ん？
+Dialogue: 0,0:14:42.25,0:14:45.17,Default,,0,0,0,,{\c&Hffffff&}ヤツの動きは大体 分かったけえ
+Dialogue: 0,0:14:45.80,0:14:49.26,Default,,0,0,0,,{\c&Hffffff&}一度やってみたかったことが\Nあるんじゃ
+Dialogue: 0,0:14:49.76,0:14:52.55,Default,,0,0,0,,{\c&Hffffff&}（近づくジャンプ音）\N（内藤の荒い息遣い）
+Dialogue: 0,0:14:52.64,0:14:54.18,Default,,0,0,0,,{\c&Hffffff&}（内藤）急がねえと
+Dialogue: 0,0:14:55.26,0:14:57.02,Default,,0,0,0,,{\c&Hffffff&}早く あそこに…
+Dialogue: 0,0:14:58.06,0:14:58.93,Default,,0,0,0,,{\c&Hffffff&}（内藤）ん？
+Dialogue: 0,0:15:00.06,0:15:01.90,Default,,0,0,0,,{\c&Hffffff&}なんだ？　どけ！
+Dialogue: 0,0:15:03.11,0:15:03.94,Default,,0,0,0,,{\c&Hffffff&}フン！
+Dialogue: 0,0:15:05.52,0:15:06.78,Default,,0,0,0,,{\c&Hffffff&}てえい！
+Dialogue: 0,0:15:06.86,0:15:08.69,Default,,0,0,0,,{\c&Hffffff&}へっへっへっへ…
+Dialogue: 0,0:15:08.78,0:15:09.86,Default,,0,0,0,,{\c&Hffffff&}どうだい！
+Dialogue: 0,0:15:09.95,0:15:11.53,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nやーっぱり すごいジャンプじゃな
+Dialogue: 0,0:15:11.61,0:15:12.45,Default,,0,0,0,,{\c&Hffffff&}（内藤）あ？
+Dialogue: 0,0:15:12.53,0:15:13.03,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\Nコミカルな音楽）
+Dialogue: 0,0:15:13.03,0:15:14.74,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\Nコミカルな音楽）
+Dialogue: 0,0:15:13.03,0:15:14.74,Default,,0,0,0,,{\c&Hffffff&}おっ！　なんだ お前！
+Dialogue: 0,0:15:14.74,0:15:14.83,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\Nコミカルな音楽）
+Dialogue: 0,0:15:14.83,0:15:15.53,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\Nコミカルな音楽）
+Dialogue: 0,0:15:14.83,0:15:15.53,Default,,0,0,0,,{\c&Hffffff&}一度 カンガルーに\N乗ってみたかったんじゃ～
+Dialogue: 0,0:15:15.53,0:15:17.29,Default,,0,0,0,,{\c&Hffffff&}一度 カンガルーに\N乗ってみたかったんじゃ～
+Dialogue: 0,0:15:17.37,0:15:20.21,Default,,0,0,0,,{\c&Hffffff&}（内藤）\Nどっけっ！　ふっざけるな お前！
+Dialogue: 0,0:15:17.37,0:15:20.21,Default,,0,0,0,,{\an8\c&Hffffff&}（美咲の笑う声）
+Dialogue: 0,0:15:20.29,0:15:22.21,Default,,0,0,0,,{\c&Hffffff&}お～ おいおい 降りろ！
+Dialogue: 0,0:15:22.29,0:15:24.08,Default,,0,0,0,,{\c&Hffffff&}カッ！　この… おい！
+Dialogue: 0,0:15:24.17,0:15:25.54,Default,,0,0,0,,{\c&Hffffff&}うわっ！　だあ～
+Dialogue: 0,0:15:25.63,0:15:27.42,Default,,0,0,0,,{\c&Hffffff&}（激しく飛び跳ねる音）\N（美咲）もっと もっとじゃ～！
+Dialogue: 0,0:15:27.50,0:15:29.47,Default,,0,0,0,,{\c&Hffffff&}（内藤）これなら ど～だっ！
+Dialogue: 0,0:15:29.55,0:15:30.93,Default,,0,0,0,,{\c&Hffffff&}（美咲）ま～だまだー！
+Dialogue: 0,0:15:31.01,0:15:32.01,Default,,0,0,0,,{\c&Hffffff&}（内藤の力む声）
+Dialogue: 0,0:15:32.09,0:15:34.35,Default,,0,0,0,,{\c&Hffffff&}このまま終われねえんだ！
+Dialogue: 0,0:15:34.43,0:15:37.01,Default,,0,0,0,,{\c&Hffffff&}俺は… 俺は～っ！
+Dialogue: 0,0:15:37.10,0:15:38.52,Default,,0,0,0,,{\c&Hffffff&}（美咲）ふんっ！
+Dialogue: 0,0:15:39.14,0:15:40.02,Default,,0,0,0,,{\c&Hffffff&}（たたく音）
+Dialogue: 0,0:15:43.48,0:15:44.36,Default,,0,0,0,,{\c&Hffffff&}（美咲）あ…
+Dialogue: 0,0:15:45.23,0:15:46.36,Default,,0,0,0,,{\c&Hffffff&}（内藤）あ…
+Dialogue: 0,0:15:47.73,0:15:48.61,Default,,0,0,0,,{\c&Hffffff&}（走ってくる足音）
+Dialogue: 0,0:15:48.69,0:15:50.11,Default,,0,0,0,,{\c&Hffffff&}やったか？
+Dialogue: 0,0:15:50.74,0:15:52.78,Default,,0,0,0,,{\c&Hffffff&}あ… って おいおい
+Dialogue: 0,0:15:52.86,0:15:55.28,Default,,0,0,0,,{\c&Hffffff&}なんで霊魂も\Nカンガルーになってるんだ？
+Dialogue: 0,0:15:55.37,0:15:57.74,Default,,0,0,0,,{\c&Hffffff&}（美咲）肉体との相性がよすぎると
+Dialogue: 0,0:15:57.83,0:16:00.96,Default,,0,0,0,,{\c&Hffffff&}霊魂の形が\N変わってしまうことがあるんじゃ
+Dialogue: 0,0:16:01.04,0:16:02.79,Default,,0,0,0,,{\c&Hffffff&}（内藤:沈んだ声）クソ～ 放せ～
+Dialogue: 0,0:16:02.87,0:16:07.80,Default,,0,0,0,,{\c&Hffffff&}無駄だ　マス大山(おおやま)の御霊(ごりょう)に\N腕相撲で勝った女だぜ
+Dialogue: 0,0:16:07.88,0:16:11.80,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）いいから\Nさっさと成仏させなっさいっ！
+Dialogue: 0,0:16:11.88,0:16:13.43,Default,,0,0,0,,{\c&Hffffff&}（鉄男）分かってるよ
+Dialogue: 0,0:16:15.01,0:16:16.68,Default,,0,0,0,,{\c&Hffffff&}観念しな
+Dialogue: 0,0:16:16.76,0:16:19.85,Default,,0,0,0,,{\c&Hffffff&}（内藤のむせび泣き）
+Dialogue: 0,0:16:19.93,0:16:23.19,Default,,0,0,0,,{\c&Hffffff&}（内藤）\Nもう少しだけ待ってくれ うっ…
+Dialogue: 0,0:16:23.27,0:16:26.52,Default,,0,0,0,,{\c&Hffffff&}このままじゃ死にきれないんだ
+Dialogue: 0,0:16:27.02,0:16:31.11,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）ん～ 何してるの？\Nもう無駄な時間を使わないで
+Dialogue: 0,0:16:31.19,0:16:32.57,Default,,0,0,0,,{\c&Hffffff&}（美咲）まあまあ
+Dialogue: 0,0:16:32.65,0:16:33.24,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤の泣く声）
+Dialogue: 0,0:16:33.24,0:16:35.66,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤の泣く声）
+Dialogue: 0,0:16:33.24,0:16:35.66,Default,,0,0,0,,{\c&Hffffff&}ここまで来たんじゃ\N聞くだけ聞いてやろう テツ
+Dialogue: 0,0:16:35.66,0:16:37.07,Default,,0,0,0,,{\c&Hffffff&}ここまで来たんじゃ\N聞くだけ聞いてやろう テツ
+Dialogue: 0,0:16:37.66,0:16:40.58,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ったく しゃあねえなあ
+Dialogue: 0,0:16:40.66,0:16:42.83,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）は？　バカなの？
+Dialogue: 0,0:16:42.91,0:16:44.96,Default,,0,0,0,,{\c&Hffffff&}あれだけ問題を起こした霊魂を
+Dialogue: 0,0:16:45.04,0:16:49.46,Default,,0,0,0,,{\c&Hffffff&}これ以上 放置するなんて\N言語道断よ！
+Dialogue: 0,0:16:49.55,0:16:52.59,Default,,0,0,0,,{\c&Hffffff&}こうなったら やむを得ない
+Dialogue: 0,0:16:52.67,0:16:56.09,Default,,0,0,0,,{\c&Hffffff&}私が自ら成仏を！
+Dialogue: 0,0:16:58.05,0:16:58.93,Default,,0,0,0,,{\c&Hffffff&}（美咲）バックハグ
+Dialogue: 0,0:16:59.01,0:17:01.18,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト:こもった声）\Nうぐぐ… 何をするの 放しなさい！
+Dialogue: 0,0:17:01.27,0:17:02.47,Default,,0,0,0,,{\c&Hffffff&}んごぐぐっ…
+Dialogue: 0,0:17:02.56,0:17:03.93,Default,,0,0,0,,{\c&Hffffff&}暴れても無駄だ！
+Dialogue: 0,0:17:04.02,0:17:07.23,Default,,0,0,0,,{\c&Hffffff&}ジャンボ鶴田(つるた)の御霊を\N押さえ込んだ女だぜ
+Dialogue: 0,0:17:07.31,0:17:08.44,Default,,0,0,0,,{\c&Hffffff&}（美咲）シュワッチ
+Dialogue: 0,0:17:08.94,0:17:10.57,Default,,0,0,0,,{\c&Hffffff&}（鉄男）さてと
+Dialogue: 0,0:17:10.65,0:17:13.69,Default,,0,0,0,,{\c&Hffffff&}じゃあ聞くとするか 最後の懺悔(ざんげ)を
+Dialogue: 0,0:17:13.78,0:17:17.24,Default,,0,0,0,,{\c&Hffffff&}あ… それでは お言葉に甘えて
+Dialogue: 0,0:17:17.95,0:17:19.20,Default,,0,0,0,,{\c&Hffffff&}（内藤のせきばらい）
+Dialogue: 0,0:17:19.28,0:17:22.91,Default,,0,0,0,,{\c&Hffffff&}（内藤）俺が生まれたのは\N蒸し暑い真夏の午後
+Dialogue: 0,0:17:23.00,0:17:24.20,Default,,0,0,0,,{\c&Hffffff&}生い立ちから？
+Dialogue: 0,0:17:24.29,0:17:26.75,Default,,0,0,0,,{\c&Hffffff&}（遠くの犬のほえる声）
+Dialogue: 0,0:17:26.83,0:17:28.33,Default,,0,0,0,,{\c&Hffffff&}（内藤）こうして 俺は
+Dialogue: 0,0:17:28.42,0:17:31.00,Default,,0,0,0,,{\c&Hffffff&}ケンカに明け暮れた毎日から\N抜け出して
+Dialogue: 0,0:17:31.59,0:17:33.80,Default,,0,0,0,,{\c&Hffffff&}晴れてプロボクサーになった
+Dialogue: 0,0:17:34.34,0:17:37.51,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nようやく本題に入ってきたなあ
+Dialogue: 0,0:17:37.59,0:17:41.14,Default,,0,0,0,,{\c&Hffffff&}退屈すぎて\Nこっちが成仏しそうだあ
+Dialogue: 0,0:17:41.22,0:17:45.23,Default,,0,0,0,,{\c&Hffffff&}だが なかなか順調には\Nいかなくてな
+Dialogue: 0,0:17:45.73,0:17:46.44,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N感傷的な音楽）
+Dialogue: 0,0:17:46.44,0:17:48.73,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N感傷的な音楽）
+Dialogue: 0,0:17:46.44,0:17:48.73,Default,,0,0,0,,{\c&Hffffff&}デビュー以来\N勝てない時期が続いた
+Dialogue: 0,0:17:48.73,0:17:50.15,Default,,0,0,0,,{\c&Hffffff&}デビュー以来\N勝てない時期が続いた
+Dialogue: 0,0:17:50.23,0:17:51.19,Default,,0,0,0,,{\c&Hffffff&}（荒い息遣い）
+Dialogue: 0,0:17:51.27,0:17:53.57,Default,,0,0,0,,{\c&Hffffff&}（内藤）それでも必死で特訓したよ
+Dialogue: 0,0:17:54.23,0:17:58.66,Default,,0,0,0,,{\c&Hffffff&}それこそ人生の全てを\Nボクシングに捧げた
+Dialogue: 0,0:17:59.66,0:18:03.66,Default,,0,0,0,,{\c&Hffffff&}ようやくタイトルマッチの\Nチャンスをつかんだ矢先
+Dialogue: 0,0:18:03.74,0:18:05.29,Default,,0,0,0,,{\c&Hffffff&}事故で…
+Dialogue: 0,0:18:06.08,0:18:08.58,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nそろそろ気が済んだでしょ？
+Dialogue: 0,0:18:08.67,0:18:09.96,Default,,0,0,0,,{\c&Hffffff&}いいかげん成仏を…
+Dialogue: 0,0:18:10.04,0:18:11.92,Default,,0,0,0,,{\c&Hffffff&}（鉄男の泣く声）
+Dialogue: 0,0:18:12.50,0:18:13.46,Default,,0,0,0,,{\c&Hffffff&}分かる！
+Dialogue: 0,0:18:13.96,0:18:16.42,Default,,0,0,0,,{\c&Hffffff&}分かるぞ お前の気持ち！
+Dialogue: 0,0:18:16.51,0:18:19.09,Default,,0,0,0,,{\c&Hffffff&}（鉄男のすすり泣き）\N（内藤）は… はあ… どうも
+Dialogue: 0,0:18:19.18,0:18:23.10,Default,,0,0,0,,{\c&Hffffff&}要するに漢(おとこ)たちの聖地で\N試合をできなかったことが
+Dialogue: 0,0:18:23.18,0:18:25.47,Default,,0,0,0,,{\c&Hffffff&}お前の心残りってことだろ？
+Dialogue: 0,0:18:25.56,0:18:27.94,Default,,0,0,0,,{\c&Hffffff&}（内藤）\Nあ… いや あの… 話はまだ…
+Dialogue: 0,0:18:28.02,0:18:31.11,Default,,0,0,0,,{\c&Hffffff&}く～！　熱い男だな！
+Dialogue: 0,0:18:31.19,0:18:32.56,Default,,0,0,0,,{\c&Hffffff&}めっちゃ感動した！
+Dialogue: 0,0:18:32.65,0:18:35.57,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤）\Nあっ… え？　あ…
+Dialogue: 0,0:18:32.65,0:18:35.57,Default,,0,0,0,,{\c&Hffffff&}いいよ～！　あんた いいよ～！
+Dialogue: 0,0:18:36.15,0:18:38.82,Default,,0,0,0,,{\c&Hffffff&}ここに熱いもん持ってるねえ！
+Dialogue: 0,0:18:38.90,0:18:41.82,Default,,0,0,0,,{\c&Hffffff&}任せろ！　俺が一肌 脱いでやる！
+Dialogue: 0,0:18:41.91,0:18:45.87,Default,,0,0,0,,{\c&Hffffff&}いよっ テツ！\N横に割れた太っ腹！
+Dialogue: 0,0:18:46.45,0:18:47.83,Default,,0,0,0,,{\c&Hffffff&}（内藤）あの…
+Dialogue: 0,0:18:47.91,0:18:51.83,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nん～ まだ続くのお～？　ん…
+Dialogue: 0,0:18:52.63,0:18:56.84,Default,,0,0,0,,{\c&Hffffff&}（場内アナウンス）\N本日の試合は全て終了しました
+Dialogue: 0,0:18:57.67,0:19:00.84,Default,,0,0,0,,{\c&Hffffff&}テツのヤツ 来なかったな
+Dialogue: 0,0:19:00.93,0:19:02.59,Default,,0,0,0,,{\c&Hffffff&}（鉄男）シュッ シュッ
+Dialogue: 0,0:19:02.68,0:19:05.22,Default,,0,0,0,,{\c&Hffffff&}テツが一番 やる気じゃの
+Dialogue: 0,0:19:05.31,0:19:07.60,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）んもう 勝手にして
+Dialogue: 0,0:19:07.68,0:19:10.85,Default,,0,0,0,,{\c&Hffffff&}アッハハッ 闘魂が騒ぐぜ！
+Dialogue: 0,0:19:11.48,0:19:13.23,Default,,0,0,0,,{\c&Hffffff&}あ… あの～
+Dialogue: 0,0:19:13.31,0:19:14.69,Default,,0,0,0,,{\c&Hffffff&}（鉄男）遠慮は要らねえ！
+Dialogue: 0,0:19:14.77,0:19:17.11,Default,,0,0,0,,{\c&Hffffff&}ここは お前が\N立てるはずだったリング！
+Dialogue: 0,0:19:17.19,0:19:20.95,Default,,0,0,0,,{\c&Hffffff&}恨みっこなしで\N思いっ切り やろうぜ！
+Dialogue: 0,0:19:21.45,0:19:22.74,Default,,0,0,0,,{\c&Hffffff&}（ゴングの音）
+Dialogue: 0,0:19:22.82,0:19:24.12,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N闘志を高める音楽）
+Dialogue: 0,0:19:22.82,0:19:24.12,Default,,0,0,0,,{\c&Hffffff&}食らえ！
+Dialogue: 0,0:19:24.12,0:19:24.20,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N闘志を高める音楽）
+Dialogue: 0,0:19:24.20,0:19:26.49,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N闘志を高める音楽）
+Dialogue: 0,0:19:24.20,0:19:26.49,Default,,0,0,0,,{\c&Hffffff&}ブーメランテリオス～！
+Dialogue: 0,0:19:26.58,0:19:28.37,Default,,0,0,0,,{\c&Hffffff&}-（内藤）はいっ\N-（鉄男）ぐおーっ！
+Dialogue: 0,0:19:29.83,0:19:32.50,Default,,0,0,0,,{\c&Hffffff&}んんっ… まだまだ～！
+Dialogue: 0,0:19:32.58,0:19:35.42,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）\Nなんで ここまで つきあうの？
+Dialogue: 0,0:19:35.50,0:19:37.50,Default,,0,0,0,,{\c&Hffffff&}たかが霊魂１体に
+Dialogue: 0,0:19:37.59,0:19:40.51,Default,,0,0,0,,{\c&Hffffff&}そうじゃ　たかが霊魂１体
+Dialogue: 0,0:19:41.09,0:19:42.01,Default,,0,0,0,,{\c&Hffffff&}生前は失敗ばかりの\Nつまらない人生
+Dialogue: 0,0:19:42.01,0:19:43.34,Default,,0,0,0,,{\c&Hffffff&}生前は失敗ばかりの\Nつまらない人生
+Dialogue: 0,0:19:42.01,0:19:43.34,Default,,0,0,0,,{\an8\c&Hffffff&}（内藤）くあっ…
+Dialogue: 0,0:19:43.34,0:19:44.76,Default,,0,0,0,,{\c&Hffffff&}生前は失敗ばかりの\Nつまらない人生
+Dialogue: 0,0:19:44.85,0:19:45.68,Default,,0,0,0,,{\c&Hffffff&}最後くらい\N好きに やらしてやっても
+Dialogue: 0,0:19:45.68,0:19:46.85,Default,,0,0,0,,{\c&Hffffff&}最後くらい\N好きに やらしてやっても
+Dialogue: 0,0:19:45.68,0:19:46.85,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）どわっ！
+Dialogue: 0,0:19:46.85,0:19:48.27,Default,,0,0,0,,{\c&Hffffff&}最後くらい\N好きに やらしてやっても
+Dialogue: 0,0:19:48.35,0:19:50.02,Default,,0,0,0,,{\c&Hffffff&}バチ当たらんじゃろ
+Dialogue: 0,0:19:51.23,0:19:52.27,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）フン
+Dialogue: 0,0:19:54.35,0:19:55.81,Default,,0,0,0,,{\c&Hffffff&}（鉄男）うっ！　ぐおっ…
+Dialogue: 0,0:19:56.73,0:19:58.48,Default,,0,0,0,,{\c&Hffffff&}（内藤）ぐあっ！　カッ…
+Dialogue: 0,0:19:59.53,0:20:01.90,Default,,0,0,0,,{\c&Hffffff&}（美咲）ほーら いい顔しとるぞ
+Dialogue: 0,0:20:01.99,0:20:03.91,Default,,0,0,0,,{\c&Hffffff&}うおおーっ！
+Dialogue: 0,0:20:03.99,0:20:05.91,Default,,0,0,0,,{\c&Hffffff&}うおおーっ！
+Dialogue: 0,0:20:08.24,0:20:12.41,Default,,0,0,0,,{\c&Hffffff&}ぐあああーっ！
+Dialogue: 0,0:20:14.96,0:20:17.46,Default,,0,0,0,,{\c&Hffffff&}（鉄男の力む息）\N（ゴングの音）
+Dialogue: 0,0:20:20.59,0:20:22.17,Default,,0,0,0,,{\c&Hffffff&}気が済んだかい？
+Dialogue: 0,0:20:22.26,0:20:25.26,Default,,0,0,0,,{\c&Hffffff&}ああ ありがとな にいちゃん
+Dialogue: 0,0:20:25.76,0:20:28.89,Default,,0,0,0,,{\c&Hffffff&}こんな楽しい試合\N生まれて初めてだ
+Dialogue: 0,0:20:29.51,0:20:32.94,Default,,0,0,0,,{\c&Hffffff&}これが俺のベストマッチだなんてよ
+Dialogue: 0,0:20:33.56,0:20:34.94,Default,,0,0,0,,{\c&Hffffff&}皮肉だぜ
+Dialogue: 0,0:20:35.52,0:20:37.40,Default,,0,0,0,,{\c&Hffffff&}肉体的な才能に
+Dialogue: 0,0:20:37.48,0:20:40.94,Default,,0,0,0,,{\c&Hffffff&}どこまでいっても\N努力は かなわねえんだな
+Dialogue: 0,0:20:41.03,0:20:45.07,Default,,0,0,0,,{\c&Hffffff&}（鉄男）まあ でも\Nこれで お前も心置きなく…
+Dialogue: 0,0:20:45.16,0:20:48.53,Default,,0,0,0,,{\c&Hffffff&}実はボクシングには\Nもう飽きてたんだ
+Dialogue: 0,0:20:50.16,0:20:53.66,Default,,0,0,0,,{\c&Hffffff&}（鉄男）はあ？　お前\Nなんで先に言わねえんだ！
+Dialogue: 0,0:20:53.75,0:20:56.79,Default,,0,0,0,,{\c&Hffffff&}（内藤）だって勝手に話が進むから
+Dialogue: 0,0:20:57.29,0:21:01.26,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nハア… ったく 殴られ損じゃねえか
+Dialogue: 0,0:21:02.26,0:21:07.30,Default,,0,0,0,,{\c&Hffffff&}（内藤）俺 どうしても\N行きたい所があって…
+Dialogue: 0,0:21:07.80,0:21:10.81,Default,,0,0,0,,{\an8\c&Hffffff&}（遠くの車の走行音）
+Dialogue: 0,0:21:07.80,0:21:10.81,Default,,0,0,0,,{\c&Hffffff&}それは あのホテルの…
+Dialogue: 0,0:21:10.81,0:21:11.47,Default,,0,0,0,,{\an8\c&Hffffff&}（遠くの車の走行音）
+Dialogue: 0,0:21:11.56,0:21:13.31,Default,,0,0,0,,{\c&Hffffff&}（女性たちのはしゃぐ声）
+Dialogue: 0,0:21:11.56,0:21:13.31,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N明るく軽快な音楽）
+Dialogue: 0,0:21:13.31,0:21:13.39,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N明るく軽快な音楽）
+Dialogue: 0,0:21:13.39,0:21:14.85,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N明るく軽快な音楽）
+Dialogue: 0,0:21:13.39,0:21:14.85,Default,,0,0,0,,{\c&Hffffff&}（内藤）ああ いい…
+Dialogue: 0,0:21:14.85,0:21:15.60,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N明るく軽快な音楽）
+Dialogue: 0,0:21:15.69,0:21:17.02,Default,,0,0,0,,{\c&Hffffff&}いい！
+Dialogue: 0,0:21:17.69,0:21:19.61,Default,,0,0,0,,{\c&Hffffff&}すごくいい！
+Dialogue: 0,0:21:20.19,0:21:23.11,Default,,0,0,0,,{\c&Hffffff&}目の裏に焼き付けろ 永遠に！
+Dialogue: 0,0:21:23.74,0:21:27.86,Default,,0,0,0,,{\c&Hffffff&}厳しいトレーニングばっかりで\N全然 いいことなかった！
+Dialogue: 0,0:21:28.53,0:21:31.58,Default,,0,0,0,,{\c&Hffffff&}一度でいいから\Nチャンピオンになって
+Dialogue: 0,0:21:31.66,0:21:34.00,Default,,0,0,0,,{\c&Hffffff&}美女たちにチヤホヤされたくって
+Dialogue: 0,0:21:34.08,0:21:37.00,Default,,0,0,0,,{\c&Hffffff&}それだけが人生の心残りでなあ
+Dialogue: 0,0:21:37.08,0:21:38.63,Default,,0,0,0,,{\c&Hffffff&}ただのムッツリかよ
+Dialogue: 0,0:21:39.17,0:21:43.09,Default,,0,0,0,,{\c&Hffffff&}こういうストイックなのに\N多いんじゃ 意外と
+Dialogue: 0,0:21:43.17,0:21:44.63,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）しょうもな
+Dialogue: 0,0:21:44.72,0:21:46.51,Default,,0,0,0,,{\c&Hffffff&}（内藤）ああ…
+Dialogue: 0,0:21:46.59,0:21:51.89,Default,,0,0,0,,{\c&Hffffff&}夢にまで見た\N見渡すかぎり美女 美女 美女～！
+Dialogue: 0,0:21:51.97,0:21:56.44,Default,,0,0,0,,{\c&Hffffff&}（高笑い）
+Dialogue: 0,0:21:56.52,0:22:00.15,Default,,0,0,0,,{\c&Hffffff&}（内藤）女！　女！　女～！
+Dialogue: 0,0:22:02.32,0:22:03.19,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）まっ
+Dialogue: 0,0:22:03.28,0:22:05.40,Default,,0,0,0,,{\an8\c&Hffffff&}人間なんて\Nこんなもんだよな
+Dialogue: 0,0:22:05.90,0:22:08.07,Default,,0,0,0,,{\an8\c&Hffffff&}（美咲）\Nお前と殴り合うことで
+Dialogue: 0,0:22:08.16,0:22:11.87,Default,,0,0,0,,{\an8\c&Hffffff&}ヤツは心のパンツが\N脱げたのかもしれんな
+Dialogue: 0,0:22:14.29,0:22:16.29,Default,,0,0,0,,{\c&Hffffff&}めでたし めでたし
+Dialogue: 0,0:22:16.37,0:22:18.79,Default,,0,0,0,,{\c&Hffffff&}（ミニプロト）そんなわけなーい！
+Dialogue: 0,0:22:18.87,0:22:21.38,Default,,0,0,0,,{\c&Hffffff&}無駄 無駄 無駄 無駄\N無駄 無駄 無駄 無駄ー！
+Dialogue: 0,0:22:21.46,0:22:24.30,Default,,0,0,0,,{\c&Hffffff&}こんなことやってるから\Nノルマを達成できないのよ～！
+Dialogue: 0,0:22:24.38,0:22:26.47,Default,,0,0,0,,{\c&Hffffff&}オラ オラ オラ オラ\Nオラ オラ オラ！
+Dialogue: 0,0:22:26.55,0:22:29.55,Default,,0,0,0,,{\c&Hffffff&}カタいこと言うなー！\N結果オーライじゃーい！
+Dialogue: 0,0:22:31.60,0:22:32.93,Default,,0,0,0,,{\c&Hffffff&}（美咲･鉄男）あ…
+Dialogue: 0,0:22:36.73,0:22:38.27,Default,,0,0,0,,{\c&Hffffff&}-（鉄男）うお～！\N-（美咲）うわ～！
+Dialogue: 0,0:22:45.48,0:22:46.53,Default,,0,0,0,,{\c&Hffffff&}（力む声）
+Dialogue: 0,0:22:50.11,0:22:52.53,Default,,0,0,0,,{\c&Hffffff&}何者じゃ お前は
+Dialogue: 0,0:22:52.62,0:22:54.41,Default,,0,0,0,,{\c&Hffffff&}（正樹(まさき)）京河(きょうが)正樹
+Dialogue: 0,0:22:54.91,0:22:57.79,Default,,0,0,0,,{\c&Hffffff&}今日付けで送迎部に着任しました
+Dialogue: 0,0:22:57.87,0:23:01.33,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nまたか　京河の大バーゲンだな
+Dialogue: 0,0:23:01.42,0:23:04.67,Default,,0,0,0,,{\c&Hffffff&}（美咲）\Nお前もイチジク浣腸(かんちょう)の親族か？
+Dialogue: 0,0:23:04.75,0:23:07.05,Default,,0,0,0,,{\c&Hffffff&}“理事会の会長”！
+Dialogue: 0,0:23:07.63,0:23:09.55,Default,,0,0,0,,{\c&Hffffff&}京河大吾郎(だいごろう)は父
+Dialogue: 0,0:23:09.63,0:23:12.05,Default,,0,0,0,,{\c&Hffffff&}そして僕は三兄弟の末っ子
+Dialogue: 0,0:23:12.64,0:23:15.68,Default,,0,0,0,,{\c&Hffffff&}そんなサラブレッドが\Nなんで現場に？
+Dialogue: 0,0:23:16.26,0:23:19.06,Default,,0,0,0,,{\c&Hffffff&}ひょっとして末っ子のパシリ君？
+Dialogue: 0,0:23:19.14,0:23:21.40,Default,,0,0,0,,{\c&Hffffff&}（美咲）京河の最弱カードじゃな
+Dialogue: 0,0:23:21.48,0:23:23.19,Default,,0,0,0,,{\c&Hffffff&}んんっ… うるっさい！
+Dialogue: 0,0:23:23.27,0:23:24.61,Default,,0,0,0,,{\c&Hffffff&}（美咲）それにしても
+Dialogue: 0,0:23:24.69,0:23:27.69,Default,,0,0,0,,{\c&Hffffff&}どうして あんな窮屈な所に\N入ってたんじゃ？
+Dialogue: 0,0:23:27.78,0:23:31.15,Default,,0,0,0,,{\c&Hffffff&}まずは あなたたちの\Nお手並み拝見と思い
+Dialogue: 0,0:23:31.24,0:23:34.49,Default,,0,0,0,,{\c&Hffffff&}姿を変えて監視させてもらいました
+Dialogue: 0,0:23:34.57,0:23:36.12,Default,,0,0,0,,{\c&Hffffff&}とんだ根暗君だな
+Dialogue: 0,0:23:36.20,0:23:38.16,Default,,0,0,0,,{\c&Hffffff&}口調まで変えちゃって まあ
+Dialogue: 0,0:23:38.25,0:23:41.00,Default,,0,0,0,,{\c&Hffffff&}（正樹）話をちゃんと聞きなさい！
+Dialogue: 0,0:23:41.54,0:23:45.75,Default,,0,0,0,,{\c&Hffffff&}ハア… いいですか\Nあなたたちは とにかく無駄が多い
+Dialogue: 0,0:23:46.25,0:23:49.26,Default,,0,0,0,,{\c&Hffffff&}余計なことばかりして\N全然 仕事になってない
+Dialogue: 0,0:23:49.34,0:23:51.47,Default,,0,0,0,,{\c&Hffffff&}（鉄男）それは どうも偉そうに
+Dialogue: 0,0:23:51.55,0:23:54.76,Default,,0,0,0,,{\c&Hffffff&}これからは僕が お目付け役として
+Dialogue: 0,0:23:54.85,0:23:56.97,Default,,0,0,0,,{\c&Hffffff&}あなたたちの行動を\N管理させてもらいます
+Dialogue: 0,0:23:57.06,0:23:59.64,Default,,0,0,0,,{\c&Hffffff&}（鉄男）ああん？　うざってえなあ
+Dialogue: 0,0:23:59.72,0:24:03.65,Default,,0,0,0,,{\c&Hffffff&}（正樹）健全な成仏活動を\Nビシバシ教授しますので
+Dialogue: 0,0:24:03.73,0:24:05.31,Default,,0,0,0,,{\c&Hffffff&}そのつもりで
+Dialogue: 0,0:24:05.40,0:24:08.48,Default,,0,0,0,,{\c&Hffffff&}（鉄男）\Nはいはい　じゃ そゆことで～
+Dialogue: 0,0:24:09.07,0:24:12.74,Default,,0,0,0,,{\c&Hffffff&}（正樹）待ちなさい！\Nまだ仕事は終わってない
+Dialogue: 0,0:24:13.32,0:24:16.49,Default,,0,0,0,,{\c&Hffffff&}これから反省会を行います
+Dialogue: 0,0:24:16.58,0:24:17.95,Default,,0,0,0,,{\c&Hffffff&}（美咲･鉄男）は？
+Dialogue: 0,0:24:19.49,0:24:23.71,Default,,0,0,0,,{\c&Hffffff&}（正樹）ひじょ～に\Nタイムパフォーマンスが悪いですね
+Dialogue: 0,0:24:23.79,0:24:26.67,Default,,0,0,0,,{\c&Hffffff&}まず初めに\N削らないといけないのは…
+Dialogue: 0,0:24:26.75,0:24:29.09,Default,,0,0,0,,{\c&Hffffff&}疲れてんだけどなあ
+Dialogue: 0,0:24:26.75,0:24:29.09,Default,,0,0,0,,{\an8\c&Hffffff&}（正樹が指導をする声）
+Dialogue: 0,0:24:29.17,0:24:31.92,Default,,0,0,0,,{\c&Hffffff&}いや～ こっそり帰っても\Nバレんじゃろ
+Dialogue: 0,0:24:32.01,0:24:33.01,Default,,0,0,0,,{\c&Hffffff&}ああ そうだな
+Dialogue: 0,0:24:33.09,0:24:35.18,Default,,0,0,0,,{\c&Hffffff&}-（美咲）よっこらせと\N-（正樹）まだ終わってませんよ！
+Dialogue: 0,0:24:35.26,0:24:36.18,Default,,0,0,0,,{\c&Hffffff&}（美咲）あ… バレた
+Dialogue: 0,0:24:36.26,0:24:37.60,Default,,0,0,0,,{\c&Hffffff&}（正樹）\N霊魂の成仏に重要なのは いかに…
+Dialogue: 0,0:24:37.60,0:24:38.85,Default,,0,0,0,,{\c&Hffffff&}（正樹）\N霊魂の成仏に重要なのは いかに…
+Dialogue: 0,0:24:37.60,0:24:38.85,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）ん？　え？
+Dialogue: 0,0:24:38.85,0:24:38.93,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）ん？　え？
+Dialogue: 0,0:24:38.93,0:24:39.81,Default,,0,0,0,,{\an8\c&Hffffff&}（鉄男）ん？　え？
+Dialogue: 0,0:24:38.93,0:24:39.81,Default,,0,0,0,,{\c&Hffffff&}（美咲）いかに～
+Dialogue: 0,0:24:39.89,0:24:41.06,Default,,0,0,0,,{\c&Hffffff&}-（正樹）相手に\N-（美咲）相手に～
+Dialogue: 0,0:24:39.89,0:24:41.06,Default,,0,0,0,,{\an8\c&Hffffff&}あ～
+Dialogue: 0,0:24:41.14,0:24:41.89,Default,,0,0,0,,{\c&Hffffff&}（正樹）\Nバレないように射程圏内に…
+Dialogue: 0,0:24:41.89,0:24:42.89,Default,,0,0,0,,{\c&Hffffff&}（正樹）\Nバレないように射程圏内に…
+Dialogue: 0,0:24:41.89,0:24:42.89,Default,,0,0,0,,{\an8\c&Hffffff&}あ～
+Dialogue: 0,0:24:42.89,0:24:43.85,Default,,0,0,0,,{\c&Hffffff&}（正樹）\Nバレないように射程圏内に…
+Dialogue: 0,0:24:45.10,0:24:45.98,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N緊迫感に満ちた音楽）
+Dialogue: 0,0:24:45.98,0:24:46.98,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N緊迫感に満ちた音楽）
+Dialogue: 0,0:24:45.98,0:24:46.98,Default,,0,0,0,,{\c&Hffffff&}（磯部(いそべ)）止まれ
+Dialogue: 0,0:24:46.98,0:24:48.02,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N緊迫感に満ちた音楽）
+Dialogue: 0,0:24:48.02,0:24:48.61,Default,,0,0,0,,{\an8\c&Hffffff&}（ＢＧＭ:\N緊迫感に満ちた音楽）
+Dialogue: 0,0:24:48.02,0:24:48.61,Default,,0,0,0,,{\c&Hffffff&}（磯部）おとなしく成仏に応じろ
+Dialogue: 0,0:24:48.61,0:24:50.19,Default,,0,0,0,,{\c&Hffffff&}（磯部）おとなしく成仏に応じろ
+Dialogue: 0,0:24:52.32,0:24:55.74,Default,,0,0,0,,{\c&Hffffff&}（女性霊魂）\N出会ったばかりでサヨナラなの？
+Dialogue: 0,0:24:58.66,0:25:00.66,Default,,0,0,0,,{\c&Hffffff&}（色っぽい吐息）
+Dialogue: 0,0:25:01.37,0:25:02.66,Default,,0,0,0,,{\c&Hffffff&}うっ…
+Dialogue: 0,0:25:02.75,0:25:04.71,Default,,0,0,0,,{\c&Hffffff&}（女性霊魂）乱暴は嫌よ
+Dialogue: 0,0:25:04.79,0:25:06.92,Default,,0,0,0,,{\c&Hffffff&}（色っぽい声）優しくしてね
+Dialogue: 0,0:25:08.08,0:25:09.92,Default,,0,0,0,,{\c&Hffffff&}（磯部の力む息遣い）
+Dialogue: 0,0:25:10.55,0:25:11.63,Default,,0,0,0,,{\c&Hffffff&}（磯部）べふっ！
+Dialogue: 0,0:25:12.51,0:25:14.51,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:26:29.79,0:26:31.79,Default,,0,0,0,,{\c&Hffffff&}～♪
