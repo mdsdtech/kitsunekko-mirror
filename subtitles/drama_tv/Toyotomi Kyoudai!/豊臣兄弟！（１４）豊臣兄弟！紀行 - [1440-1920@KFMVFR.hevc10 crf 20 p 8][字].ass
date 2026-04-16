@@ -1,0 +1,45 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.61,0:00:13.11,Default,,0000,0000,0000,,{\pos(180,382)\c&H0000FFFF\fscx50\fscy50}かねがさきじょう
+Dialogue: 0,0:00:06.61,0:00:13.11,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}金ヶ崎城は{\fscx50}　{\fscx100}越前へ向かう陸路と
+Dialogue: 0,0:00:06.61,0:00:13.11,Default,,0000,0000,0000,,{\pos(200,496)\c&H0000FFFF}海路を押さえる要衝に築かれ➡
+Dialogue: 0,0:00:13.11,0:00:20.29,Default,,0000,0000,0000,,{\pos(440,382)\c&H0000FFFF\fscx50\fscy50}てづつやまじょう
+Dialogue: 0,0:00:13.11,0:00:20.29,Default,,0000,0000,0000,,{\pos(240,436)\c&H0000FFFF}尾根続きの天筒山城と共に
+Dialogue: 0,0:00:13.11,0:00:20.29,Default,,0000,0000,0000,,{\pos(260,496)\c&H0000FFFF}朝倉氏の重要な城でした{\fscx50}。
+Dialogue: 0,0:00:20.29,0:00:27.63,Default,,0000,0000,0000,,{\pos(400,322)\c&H0000FFFF\fscx50\fscy50}みょうけんじ
+Dialogue: 0,0:00:20.29,0:00:27.63,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}信長は{\fscx50}　{\fscx100}城下の妙顕寺に本陣を構えると
+Dialogue: 0,0:00:20.29,0:00:27.63,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}２つの城を攻略{\fscx50}。
+Dialogue: 0,0:00:27.63,0:00:31.13,Default,,0000,0000,0000,,{\pos(220,496)\c&H0000FFFF}越前侵攻の拠点としました{\fscx50}。
+Dialogue: 0,0:00:31.13,0:00:38.87,Default,,0000,0000,0000,,{\pos(340,292)\c&H0000FFFF\fscx50\fscy50}あざい
+Dialogue: 0,0:00:31.13,0:00:38.87,Default,,0000,0000,0000,,{\pos(200,346)\c&H0000FFFF}しかし{\fscx50}　{\fscx100}浅井長政の離反により
+Dialogue: 0,0:00:31.13,0:00:38.87,Default,,0000,0000,0000,,{\pos(220,406)\c&H0000FFFF}信長は撤退を決断{\fscx50}。
+Dialogue: 0,0:00:38.87,0:00:46.31,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}追撃の危険が迫る中
+Dialogue: 0,0:00:38.87,0:00:46.31,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}しんがりを務めたのが{\fscx50}　{\fscx100}秀吉たちです{\fscx50}。
+Dialogue: 0,0:00:46.31,0:00:50.18,Default,,0000,0000,0000,,{\pos(180,172)\c&H0000FFFF\fscx50\fscy50}しろあと
+Dialogue: 0,0:00:46.31,0:00:50.18,Default,,0000,0000,0000,,{\pos(640,172)\c&H0000FFFF\fscx50\fscy50}ほりきり
+Dialogue: 0,0:00:46.31,0:00:50.18,Default,,0000,0000,0000,,{\pos(180,226)\c&H0000FFFF}城跡に残る細い尾根道や{\fscx50}　{\fscx100}堀切は➡
+Dialogue: 0,0:00:50.18,0:00:54.05,Default,,0000,0000,0000,,{\pos(160,226)\c&H0000FFFF}撤退の難しさを今に伝えています{\fscx50}。
+Dialogue: 0,0:00:54.05,0:01:01.06,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}この撤退戦は{\fscx50}　{\fscx100}後に
+Dialogue: 0,0:00:54.05,0:01:01.06,Default,,0000,0000,0000,,{\pos(320,442)\c&H0000FFFF\fscx50\fscy50}の
+Dialogue: 0,0:00:54.05,0:01:01.06,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}金ヶ崎の退き口と呼ばれました{\fscx50}。
+Dialogue: 0,0:01:02.76,0:01:05.10,Default,,0000,0000,0000,,{\pos(280,496)\c&H0000FFFF}秀吉らに背後を任せ➡
+Dialogue: 0,0:01:05.10,0:01:09.77,Default,,0000,0000,0000,,{\pos(580,352)\c&H0000FFFF\fscx50\fscy50}くつき
+Dialogue: 0,0:01:05.10,0:01:09.77,Default,,0000,0000,0000,,{\pos(220,406)\c&H0000FFFF}信長は若狭街道から朽木へ{\fscx50}。
+Dialogue: 0,0:01:09.77,0:01:17.41,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}この地には{\fscx50}　{\fscx100}信長が身を潜めたという
+Dialogue: 0,0:01:09.77,0:01:17.41,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}隠れ岩が残されています{\fscx50}。
+Dialogue: 0,0:01:17.41,0:01:21.28,Default,,0000,0000,0000,,{\pos(140,346)\c&H0000FFFF}信長を無事{\fscx50}　{\fscx100}帰還させた{\fscx50}　{\fscx100}この働きは➡
+Dialogue: 0,0:01:21.28,0:01:27.09,Default,,0000,0000,0000,,{\pos(140,286)\c&H0000FFFF}秀吉たちにとって
+Dialogue: 0,0:01:21.28,0:01:27.09,Default,,0000,0000,0000,,{\pos(160,346)\c&H0000FFFF}出世への確かな足掛かりとなったのです{\fscx50}。
