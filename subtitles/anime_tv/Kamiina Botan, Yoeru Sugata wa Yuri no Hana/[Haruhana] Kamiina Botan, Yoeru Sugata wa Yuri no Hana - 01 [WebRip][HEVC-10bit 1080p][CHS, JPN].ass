@@ -1,0 +1,1199 @@
+﻿[Script Info]
+Title: 上伊那牡丹，酒醉身姿似百合花般 - 01.chs [WEB]
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 3840
+PlayResY: 2160
+Original Script: 拨雪寻春[Haruhana]
+Original Translation: 和伊、Yurinori、平原
+Original Timing: 混乱怪魔
+Script Updated By: 一星、火树银花
+Update Details: 2026年4月11日12:26:58
+
+[Assfonts Rename Info]
+Chiron GoRound TC SB ---- ESUFBAKJ
+FOT-TsukuMin Pr5 E ---- WXMCNOFY
+FOT-TsukuMin Pr5 L ---- FVTRVAXH
+Jiyucho ---- VZRWDGQN
+KeinannMaruPOP ---- QDOKRNKN
+beautiful font ---- KYQNRVHJ
+今昔吉行 ---- SQDIXLDN
+你比时光更温柔 ---- TNPXPWZT
+方正FW筑紫明朝 简 L ---- GQGLTGXN
+方正VDL信札体 简 SemiBold ---- BJFXSNCE
+方正中雅宋_GBK ---- WNZCBUTW
+方正兰亭圆_GBK_中 ---- MWBSQKDQ
+方正兰亭圆_GBK_中粗 ---- QUVECKCW
+方正兰亭圆_GBK_特 ---- OFUENQPW
+方正兰亭圆_GBK_粗 ---- JNJJXEJE
+方正字迹-喜体 简繁 ---- NQVXDRFO
+方正字迹-柔刀隶 简繁 ---- EDKSWJDO
+方正字迹-逸龙正楷 简繁 ---- HJGDHYYT
+方正悠黑_GBK 513B ---- KKNTQBMQ
+方正标雅宋_GBK ---- QTGVGQZE
+杨任东竹石体-Extralight ---- ZXIQYQFV
+梦源黑体 CN W20 ---- DDJEBGXP
+梦源黑体 CN W25 ---- HBCDHPZR
+汇文港黑 ---- OFOIONAA
+汉仪新蒂小丸子体 ---- YNRTGLZM
+汉仪新蒂黑板报体底字 ---- XGOAHWTZ
+汉仪神奇图鉴 U ---- WYJNLEVZ
+汉仪胖墩墩 W ---- YINGZVKN
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,GQGLTGXN,100,&H00FFFFFF,&H000000FF,&H002B2B2B,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: ███ 辅助行 ███,GQGLTGXN,100,&H00FFFFFF,&H000000FF,&H002B2B2B,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: STAFF,GQGLTGXN,80,&H00F7F7F7,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,9,47,47,156,1
+Style: Dial-CHI,QUVECKCW,130,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,10,0,1,2,2,2,47,47,151,1
+Style: Dial-JPN,ESUFBAKJ,105,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,0,0,1,2,2,2,47,47,45,1
+Style: Tips,QUVECKCW,100,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,10,0,1,2,2,7,47,47,47,1
+Style: Ruby,OFUENQPW,70,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,2,0,1,2,2,2,47,47,290,1
+Style: Ruby_chi,JNJJXEJE,70,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,2,0,1,2,2,2,47,47,290,1
+Style: ED-JPN,WXMCNOFY,118,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,7,0,1,0,0,2,47,47,44,1
+Style: ED-CHI,WNZCBUTW,140,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,10,0,1,0,0,2,47,47,150,1
+Style: OP-CHI,京華老宋体,145,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,80,100,10,0,1,0,0,2,47,47,147,1
+Style: OP-JPN,FVTRVAXH,127,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,80,100,7,0,1,0,0,2,47,47,43,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.02,Default,,0,0,0,,----------「制作人员」----------
+Comment: 0,0:00:00.00,0:00:00.02,Default,,0,0,0,,----------「台词」----------
+Comment: 0,0:00:00.00,0:00:00.02,Default,,0,0,0,,----------「屏幕字」----------
+Comment: 0,0:21:34.23,0:21:36.23,Default,,0,0,0,,----------「追踪」----------
+Comment: 0,0:04:05.31,0:04:11.61,Default,,0,0,0,,----------「OP」----------
+Comment: 0,0:04:05.31,0:04:11.61,Default,,0,0,0,,----------「ED」----------
+Comment: 0,0:00:00.00,0:00:00.02,Default,,0,0,0,,----------「01 完」----------
+Dialogue: 0,0:03:58.93,0:04:00.43,STAFF,,0,0,0,,{\fs70\fnGQGLTGXN\pos(1920.54,2100)}{\blur0.5\fscx80\bord0.1\3c&ffffff\an2\fsp3}译制 拨雪寻春    本字幕基于「ＡGＰＬｖ３通用协议」许可使用    翻译 Yurinori 和伊    校对 平原    时轴 混乱怪魔    繁化 一星
+Dialogue: 1,0:00:23.88,0:00:25.51,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord2.5}真漂亮
+Dialogue: 0,0:00:23.88,0:00:25.51,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord2.5}きれえ
+Dialogue: 1,0:00:26.80,0:00:28.76,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}大一学妹 这边
+Dialogue: 0,0:00:26.80,0:00:28.76,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}1年生　こっちだよ
+Dialogue: 1,0:00:28.76,0:00:31.01,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}大一学妹 这边
+Dialogue: 0,0:00:28.76,0:00:31.01,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}1年生　こっちだよ
+Dialogue: 1,0:00:31.01,0:00:32.39,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}来啦
+Dialogue: 0,0:00:31.01,0:00:32.39,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}はい
+Dialogue: 1,0:00:38.02,0:00:39.10,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}咦
+Dialogue: 0,0:00:38.02,0:00:39.10,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}あれ
+Dialogue: 1,0:00:39.69,0:00:41.44,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}宿舍协管上哪儿去了
+Dialogue: 0,0:00:39.69,0:00:41.44,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}寮長どこいったの
+Dialogue: 0,0:00:39.69,0:00:41.44,Tips,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord2}注，以下均简称协管
+Dialogue: 1,0:00:41.90,0:00:43.52,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}刚才不是还在吗
+Dialogue: 0,0:00:41.90,0:00:43.52,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}いないの
+Dialogue: 1,0:00:43.52,0:00:46.61,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}她怎么又失踪了
+Dialogue: 0,0:00:43.52,0:00:46.61,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}いぶき　やっぱり消えたわね
+Dialogue: 1,0:00:46.61,0:00:50.78,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}她还真是一点不合群
+Dialogue: 0,0:00:46.61,0:00:50.78,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755\blur0.7\bord2}ホントに団体行動できませんね　寮長って
+Dialogue: 1,0:00:50.78,0:00:54.66,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord2.5}代她给你赔个不是了
+Dialogue: 0,0:00:50.78,0:00:54.66,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord2.5}ごめんね　1年生　上がしまらなくて
+Dialogue: 1,0:00:55.12,0:00:57.50,Dial-CHI,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}请问 她一个人跑去干嘛了
+Dialogue: 0,0:00:55.12,0:00:57.50,Dial-JPN,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}寮長さん　何してるんでしょう
+Dialogue: 1,0:00:57.50,0:00:59.33,Dial-CHI,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}只有一个「可能」
+Dialogue: 0,0:00:57.50,0:00:59.33,Dial-JPN,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}どうせ「アレ」でしょ
+Dialogue: 1,0:00:59.33,0:01:00.92,Dial-CHI,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}就是那个「可能」
+Dialogue: 0,0:00:59.33,0:01:00.92,Dial-JPN,,0,0,0,,{\3c&211B1F\4c&211B1F\blur0.7\bord3\c&EDEAE6}「アレ」だよな
+Dialogue: 1,0:01:01.54,0:01:03.67,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}我去找一找她
+Dialogue: 0,0:01:01.54,0:01:03.67,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}ちょっと私　呼んできます
+Dialogue: 1,0:01:03.67,0:01:06.71,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}好啦 你这大一新生就别管她了
+Dialogue: 0,0:01:03.67,0:01:06.71,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}いいよ　1年生　ほっときな
+Dialogue: 1,0:01:06.71,0:01:08.17,Dial-CHI,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}不如留下和我们一起吃午饭吧
+Dialogue: 0,0:01:06.71,0:01:08.17,Dial-JPN,,0,0,0,,{\3c&373755\4c&373755}{\blur0.7\bord3}持ってきたお弁当食べようよ
+Dialogue: 1,0:01:08.17,0:01:09.80,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}不如留下和我们一起吃午饭吧
+Dialogue: 0,0:01:08.17,0:01:09.80,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}持ってきたお弁当食べようよ
+Dialogue: 1,0:01:10.43,0:01:13.93,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}我就想着和协管说说话
+Dialogue: 0,0:01:10.43,0:01:13.93,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}私が寮長さんともお話ししたいだけなんで
+Dialogue: 1,0:01:13.93,0:01:16.68,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}而且 她没准是迷路了
+Dialogue: 0,0:01:13.93,0:01:16.68,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}道に迷っているかもしれないですし
+Dialogue: 1,0:01:18.43,0:01:20.77,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}那我去找她了
+Dialogue: 0,0:01:18.43,0:01:20.77,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}上伊那ぼたん　行ってきます
+Dialogue: 1,0:01:23.48,0:01:24.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}她人真好
+Dialogue: 0,0:01:23.48,0:01:24.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}いい子だ
+Dialogue: 1,0:01:24.69,0:01:25.98,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}是啊
+Dialogue: 0,0:01:24.69,0:01:25.98,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}ほーんと
+Dialogue: 1,0:01:25.98,0:01:27.15,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}那啥
+Dialogue: 0,0:01:25.98,0:01:27.15,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}ねえ
+Dialogue: 1,0:01:27.65,0:01:29.65,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}就这么让她去 真的好吗
+Dialogue: 0,0:01:27.65,0:01:29.65,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}行かせて良かったの
+Dialogue: 1,0:02:22.08,0:02:24.17,Dial-CHI,,0,0,0,,{\c&F2F2F2\3c&373755\4c&373755}{\blur0.7\bord3.5}我总是一个人喝酒
+Dialogue: 0,0:02:22.08,0:02:24.17,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&373755\4c&373755}{\blur0.7\bord3.5}ずっとひとり飲みだった
+Dialogue: 1,0:02:25.58,0:02:27.92,Dial-CHI,,0,0,0,,{\c&E6E6E6\3c&26263B\4c&26263B\blur0.7\bord3}你好 我要一杯嗨棒
+Dialogue: 0,0:02:25.58,0:02:27.92,Dial-JPN,,0,0,0,,{\c&E6E6E6\3c&26263B\4c&26263B\blur0.7\bord3}すみません　ハイボールひとつ
+Dialogue: 0,0:02:25.58,0:02:27.92,Tips,,0,0,0,,{\c&ffffff}{\3c&373755\4c&373755\blur0.7\bord2}嗨棒：英语 {\fsp0}highball{\fsp}，泛指烈酒（通常为威士忌）\N和碳酸饮料混合加冰调制而成的鸡尾酒\N在日本一般的配方是威士忌加苏打水
+Dialogue: 2,0:02:25.58,0:02:27.92,Ruby,,831,0,0,,{\c&E6E6E6}{\3c&26263B\4c&26263B\blur0.7\bord2.5}highball
+Dialogue: 1,0:02:27.92,0:02:29.50,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}好嘞
+Dialogue: 0,0:02:27.92,0:02:29.50,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}はーい
+Dialogue: 1,0:02:31.01,0:02:34.72,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}不好意思 小姐您看起来很年轻…
+Dialogue: 0,0:02:31.01,0:02:34.72,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}ごめんね　お姉さん若く見えるんだけど
+Dialogue: 1,0:02:34.72,0:02:36.43,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}需要身份证是吧
+Dialogue: 0,0:02:34.72,0:02:36.43,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}身分証ですよね
+Dialogue: 1,0:02:37.35,0:02:38.14,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}给
+Dialogue: 0,0:02:37.35,0:02:38.14,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}どうぞ
+Dialogue: 1,0:02:39.18,0:02:41.02,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}我瞅瞅
+Dialogue: 0,0:02:39.18,0:02:41.02,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}えーっと
+Dialogue: 1,0:02:43.98,0:02:47.19,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}没问题 谢谢惠顾
+Dialogue: 0,0:02:43.98,0:02:47.19,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}はい　大丈夫です　ありがとうございます
+Dialogue: 1,0:02:47.19,0:02:49.27,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}您等一会
+Dialogue: 0,0:02:47.19,0:02:49.27,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}少々お待ちくださーい
+Dialogue: 1,0:02:51.44,0:02:54.95,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord3}一个人喝酒放得开些 也没什么顾虑
+Dialogue: 0,0:02:51.44,0:02:54.95,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord3}ひとりの方が楽だし　気兼ねもしない
+Dialogue: 1,0:02:54.95,0:02:56.86,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord3}以后我肯定也会继续一个人喝
+Dialogue: 0,0:02:54.95,0:02:56.86,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord3}きっとこれからだって
+Dialogue: 1,0:02:57.57,0:02:59.45,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}谢谢您的耐心等待
+Dialogue: 0,0:02:57.57,0:02:59.45,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}お待たせしましたー
+Dialogue: 1,0:02:59.45,0:03:01.33,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}您要的嗨棒
+Dialogue: 0,0:02:59.45,0:03:01.33,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}ハイボールでーす
+Dialogue: 1,0:03:01.33,0:03:03.12,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}快看快看
+Dialogue: 0,0:03:01.33,0:03:03.12,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}ねえ　見てあれ
+Dialogue: 1,0:03:03.12,0:03:04.75,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}真漂亮吧
+Dialogue: 0,0:03:03.12,0:03:04.75,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}めっちゃキレイじゃん
+Dialogue: 1,0:03:04.75,0:03:05.46,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}凑过去看看
+Dialogue: 0,0:03:04.75,0:03:05.46,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}行ってみよ
+Dialogue: 1,0:03:05.46,0:03:06.29,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}嗯
+Dialogue: 0,0:03:05.46,0:03:06.29,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}うん
+Dialogue: 1,0:03:07.50,0:03:12.17,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}脚畔芝樱盛开 远处武甲山耸立
+Dialogue: 0,0:03:07.50,0:03:12.17,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}足元に芝桜　向こうには武甲山
+Dialogue: 1,0:03:12.17,0:03:14.76,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}但我既不拍花 也不拍山
+Dialogue: 0,0:03:12.17,0:03:14.76,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}なのに山でも花でもなく
+Dialogue: 1,0:03:14.76,0:03:18.26,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}却在这拍露天小摊 是否有点
+Dialogue: 0,0:03:14.76,0:03:18.26,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}出店撮ってる私って一体
+Dialogue: 1,0:03:18.26,0:03:20.14,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}管它的呢
+Dialogue: 0,0:03:18.26,0:03:20.14,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}ま　いっか
+Dialogue: 1,0:03:29.15,0:03:30.23,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}找到了
+Dialogue: 0,0:03:29.15,0:03:30.23,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}いた
+Dialogue: 1,0:03:41.83,0:03:43.54,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}这么好喝吗
+Dialogue: 0,0:03:41.83,0:03:43.54,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}おいしそ
+Dialogue: 1,0:05:29.35,0:05:31.73,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}为啥说「让她去真的好吗」
+Dialogue: 0,0:05:29.35,0:05:31.73,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}「行かせてよかったの」って何
+Dialogue: 1,0:05:33.77,0:05:38.53,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}伊吹她啊 很大「可能」就是喝酒吧
+Dialogue: 0,0:05:33.77,0:05:38.53,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}だっていぶき　多分「アレ」　お酒飲んでるでしょ
+Dialogue: 1,0:05:38.53,0:05:42.74,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}但她可不乐意喝酒的时候给人瞧见
+Dialogue: 0,0:05:38.53,0:05:42.74,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}彼女　お酒飲んでるところ　人に見られるの嫌いじゃない
+Dialogue: 1,0:05:42.74,0:05:45.07,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}至于为什么 就不知道了
+Dialogue: 0,0:05:42.74,0:05:45.07,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}なんでか知らないけど
+Dialogue: 1,0:05:50.37,0:05:52.37,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}协管 你打嗝可真响啊
+Dialogue: 0,0:05:50.37,0:05:52.37,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}あの　寮長さん　立派なしゃっくりですね
+Dialogue: 1,0:05:52.37,0:05:54.83,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&37375547476E\blur0.7\bord2.3}协管 你打嗝可真响啊
+Dialogue: 0,0:05:52.37,0:05:54.83,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&37375547476E\blur0.7\bord2.3}あの　寮長さん　立派なしゃっくりですね
+Dialogue: 1,0:06:00.38,0:06:01.88,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}在听吗
+Dialogue: 0,0:06:00.38,0:06:01.88,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}寮長さん
+Dialogue: 1,0:06:05.80,0:06:09.60,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}你是大一那个 上伊那
+Dialogue: 0,0:06:05.80,0:06:09.60,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}ちょっ…ひっく　1年の　上伊那さん
+Dialogue: 1,0:06:10.22,0:06:12.81,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}等会 抱歉 我刚喝了酒
+Dialogue: 0,0:06:10.22,0:06:12.81,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}待　ごめ　飲んだから
+Dialogue: 1,0:06:15.52,0:06:17.90,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}懂了 这是喝酒喝的
+Dialogue: 0,0:06:15.52,0:06:17.90,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}お酒飲むとしゃっくり出ちゃうんですね
+Dialogue: 1,0:06:18.44,0:06:23.07,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2.25}被人看见丢死人了 所以我才老是一个人喝
+Dialogue: 0,0:06:18.44,0:06:23.07,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2.25}失礼だし　恥ずかしいから人前で飲めないの
+Dialogue: 1,0:06:23.90,0:06:25.91,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2.25}说来自己酒瘾倒也大
+Dialogue: 0,0:06:23.90,0:06:25.91,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2.25}お酒は好きなんだけどね
+Dialogue: 1,0:06:27.16,0:06:30.83,Dial-CHI,,0,0,0,,{\c&ffffff\3c&585887\4c&585887}{\blur0.7\bord2}我也挺想试试看
+Dialogue: 0,0:06:27.16,0:06:30.83,Dial-JPN,,0,0,0,,{\c&ffffff\3c&585887\4c&585887}{\blur0.7\bord2}私もそれ　飲んでみたいな
+Dialogue: 1,0:06:32.04,0:06:33.58,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}可以吗
+Dialogue: 0,0:06:32.04,0:06:33.58,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}ダメですか
+Dialogue: 1,0:06:33.58,0:06:36.67,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}我看你吨吨吨很爽的样子
+Dialogue: 0,0:06:33.58,0:06:36.67,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}寮長さんがあんまりおいしそうに飲むから
+Dialogue: 1,0:06:36.67,0:06:38.42,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}也就觉得「蛮有意思」
+Dialogue: 0,0:06:36.67,0:06:38.42,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}「いいな」って思って
+Dialogue: 1,0:06:39.92,0:06:42.55,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}你能喝酒吗？
+Dialogue: 0,0:06:39.92,0:06:42.55,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}上伊那さん　お酒飲めるの
+Dialogue: 1,0:06:42.55,0:06:45.18,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}法定年龄倒是过了
+Dialogue: 0,0:06:42.55,0:06:45.18,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}法律的には　飲めます
+Dialogue: 1,0:06:45.18,0:06:48.43,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}我复读了一年嘛 现在满二十了
+Dialogue: 0,0:06:45.18,0:06:48.43,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}私　浪人してて　今20歳なんで
+Dialogue: 1,0:06:48.97,0:06:52.43,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.2}酒力好不好就不一定了
+Dialogue: 0,0:06:48.97,0:06:52.43,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.2}体質的には　わかんないです
+Dialogue: 1,0:06:52.43,0:06:55.94,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}毕竟我一次都没喝过呢 对吧
+Dialogue: 0,0:06:52.43,0:06:55.94,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}なにせ　一度も飲んだことないので
+Dialogue: 1,0:06:59.44,0:07:02.99,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}在你眼里 我喝酒的样子很享受吗
+Dialogue: 0,0:06:59.44,0:07:02.99,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}…私　そんなに美味しそうに飲んでた
+Dialogue: 1,0:07:05.95,0:07:10.45,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}你不介意的话 我这杯嗨棒剩点
+Dialogue: 0,0:07:05.95,0:07:10.45,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}いいよ　飲みさしのハイボールでよければ
+Dialogue: 1,0:07:15.41,0:07:17.08,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}那我不客气了
+Dialogue: 0,0:07:15.41,0:07:17.08,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}ありがとうございます
+Dialogue: 1,0:07:19.96,0:07:21.80,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.8}这是间接接吻了吧
+Dialogue: 0,0:07:19.96,0:07:21.80,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.8}間接キスだね
+Dialogue: 1,0:07:21.80,0:07:23.51,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.8}你这话说的 上头了？
+Dialogue: 0,0:07:21.80,0:07:23.51,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.8}酔ってます
+Dialogue: 1,0:07:31.76,0:07:33.52,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}怎么样
+Dialogue: 0,0:07:31.76,0:07:33.52,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}ど…　どう
+Dialogue: 1,0:07:36.48,0:07:38.02,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}好多气泡 其他的味道就…
+Dialogue: 0,0:07:36.48,0:07:38.02,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}しゅわしゅわしてよくわから
+Dialogue: 1,0:07:38.02,0:07:39.02,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}好多气泡 其他的味道就…
+Dialogue: 0,0:07:38.02,0:07:39.02,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}しゅわしゅわしてよくわから
+Dialogue: 1,0:07:45.57,0:07:47.86,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}我不大能接受碳酸饮料
+Dialogue: 0,0:07:45.57,0:07:47.86,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}炭酸　苦手なんです
+Dialogue: 1,0:07:50.16,0:07:52.74,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}我们似乎没差诶
+Dialogue: 0,0:07:50.16,0:07:52.74,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}私たち　おそろいですねえ
+Dialogue: 1,0:07:54.41,0:07:55.41,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}是啊
+Dialogue: 0,0:07:54.41,0:07:55.41,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}うん
+Dialogue: 1,0:07:56.33,0:07:58.96,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}你不用这么担心我
+Dialogue: 0,0:07:56.33,0:07:58.96,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}あんまり気にしない方がいいですよ
+Dialogue: 1,0:07:58.96,0:08:01.84,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}任谁都会打嗝的
+Dialogue: 0,0:07:58.96,0:08:01.84,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}しゃっくりもげっぷも誰だってしますし
+Dialogue: 1,0:08:03.59,0:08:06.92,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}这学妹可真是个小棉袄
+Dialogue: 0,0:08:03.59,0:08:06.92,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}気の使える良い後輩が入ってきたな
+Dialogue: 1,0:08:07.38,0:08:08.97,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}嗯 你说的
+Dialogue: 0,0:08:07.38,0:08:08.97,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}うん　そうだ
+Dialogue: 1,0:08:08.97,0:08:09.97,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}对
+Dialogue: 0,0:08:08.97,0:08:09.97,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}ねっ
+Dialogue: 1,0:08:15.02,0:08:18.98,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}不过你也挺小气的 吃独食
+Dialogue: 0,0:08:15.02,0:08:18.98,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}それにしても寮長はズルいですねえ
+Dialogue: 1,0:08:19.48,0:08:22.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}喝这么好喝的 都不带她们一起
+Dialogue: 0,0:08:19.48,0:08:22.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}こんなおいしいの　ひとりで飲んでたんだ
+Dialogue: 1,0:08:27.15,0:08:28.70,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}你啊
+Dialogue: 0,0:08:27.15,0:08:28.70,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}寮長って
+Dialogue: 1,0:08:32.66,0:08:34.70,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}人还怪可爱呢
+Dialogue: 0,0:08:32.66,0:08:34.70,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}寮長ってかわいいですね
+Dialogue: 1,0:08:38.91,0:08:43.13,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}我刚刚说「蛮有意思」 是说你 不是说喝酒哦
+Dialogue: 0,0:08:38.91,0:08:43.13,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}さっきの「いいな」は　寮長が「いいな」ってイミですよ
+Dialogue: 1,0:08:43.13,0:08:45.42,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}你这是在逗我玩吗
+Dialogue: 0,0:08:43.13,0:08:45.42,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}何よ　それ
+Dialogue: 1,0:08:45.42,0:08:46.30,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}醉了啊
+Dialogue: 0,0:08:45.42,0:08:46.30,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}酔ってる
+Dialogue: 1,0:08:46.30,0:08:47.63,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}人家不知道啦
+Dialogue: 0,0:08:46.30,0:08:47.63,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}知りませんよぉ
+Dialogue: 1,0:08:47.63,0:08:48.88,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2.5}人家不知道啦
+Dialogue: 0,0:08:47.63,0:08:48.88,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2.5}知りませんよぉ
+Dialogue: 1,0:08:48.88,0:08:50.68,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}该和她们汇合了
+Dialogue: 0,0:08:48.88,0:08:50.68,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}もう戻ろう
+Dialogue: 1,0:08:51.55,0:08:53.14,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}先别急
+Dialogue: 0,0:08:51.55,0:08:53.14,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}待って下さい
+Dialogue: 1,0:08:55.01,0:08:57.31,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}我以前都是一个人喝
+Dialogue: 0,0:08:55.01,0:08:57.31,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}私はずっとひとり飲み
+Dialogue: 1,0:08:57.85,0:08:58.64,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}这下可坏了
+Dialogue: 0,0:08:57.85,0:08:58.64,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}でも　「この娘となら」と
+Dialogue: 1,0:08:58.64,0:09:00.81,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}这下可坏了
+Dialogue: 0,0:08:58.64,0:09:00.81,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}でも　「この娘となら」と
+Dialogue: 1,0:09:00.81,0:09:04.40,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}一个不小心 还真把她当成酒友了
+Dialogue: 0,0:09:00.81,0:09:04.40,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}うかつにも思ってしまったのは　きっと
+Dialogue: 1,0:09:08.65,0:09:13.24,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}{\t(941,1483,\3c&47476E\4c&47476E\bord1.5)}这就都怪她了 喝酒的时候一脸享受样
+Dialogue: 0,0:09:08.65,0:09:13.24,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}{\t(941,1483,\3c&47476E\4c&47476E\bord1.5)}上伊那ぼたんが実にうまそうにお酒を飲むせいだ
+Dialogue: 1,0:09:07.94,0:09:10.45,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}对了 大家生气了吗
+Dialogue: 0,0:09:07.94,0:09:10.45,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}ねえ　みんな怒ってた
+Dialogue: 0,0:09:10.45,0:09:12.03,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}「またか」とか
+Dialogue: 1,0:09:10.45,0:09:12.03,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}她们都说你又跑了
+Dialogue: 1,0:09:12.03,0:09:15.28,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}都说你不合群
+Dialogue: 0,0:09:12.03,0:09:15.28,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord1.5}団体行動できない人だなーとか言ってましたよ
+Dialogue: 1,0:09:15.28,0:09:17.83,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}叫她们说去呗
+Dialogue: 0,0:09:15.28,0:09:17.83,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}言わせておけば
+Dialogue: 1,0:09:32.55,0:09:34.80,Dial-CHI,,0,0,0,,{\c&E1E1E6\3c&26263B\4c&26263B\blur0.7\bord2}咦
+Dialogue: 0,0:09:32.55,0:09:34.80,Dial-JPN,,0,0,0,,{\c&E1E1E6\3c&26263B\4c&26263B\blur0.7\bord2}あれ
+Dialogue: 1,0:09:37.56,0:09:38.47,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.3}钥匙哪去了
+Dialogue: 0,0:09:37.56,0:09:38.47,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.3}どこ
+Dialogue: 1,0:09:40.27,0:09:42.73,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}上伊那 你也是刚刚回来吗
+Dialogue: 0,0:09:40.27,0:09:42.73,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}上伊那さんも今帰り
+Dialogue: 1,0:09:43.73,0:09:44.98,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}是协管
+Dialogue: 0,0:09:43.73,0:09:44.98,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}寮長
+Dialogue: 1,0:09:44.98,0:09:46.23,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}这么卷
+Dialogue: 0,0:09:44.98,0:09:46.23,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}おつかれ
+Dialogue: 1,0:09:46.23,0:09:50.24,Dial-CHI,,0,0,0,,{\c&ffffff\3c&595862\4c&595862\blur0.7\bord2}我才从外面回来 卷什么卷啊
+Dialogue: 0,0:09:46.23,0:09:50.24,Dial-JPN,,0,0,0,,{\c&ffffff\3c&595862\4c&595862\blur0.7\bord2}「おつかれ」って　まだ昼過ぎですよ
+Dialogue: 1,0:09:50.24,0:09:52.95,Dial-CHI,,0,0,0,,{\c&ffffff\3c&595862\4c&595862\blur0.7\bord2}大学生之间都是这么打招呼的
+Dialogue: 0,0:09:50.24,0:09:52.95,Dial-JPN,,0,0,0,,{\c&ffffff\3c&595862\4c&595862\blur0.7\bord2}大学生のあいさつみたいなものだよ
+Dialogue: 1,0:09:52.95,0:09:55.37,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}早上好 你好
+Dialogue: 0,0:09:52.95,0:09:55.37,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}「おはよう」　「こんにちは」
+Dialogue: 1,0:09:55.37,0:09:57.70,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}晚上好 晚安
+Dialogue: 0,0:09:55.37,0:09:57.70,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}「こんばんは」　「おやすみ」
+Dialogue: 1,0:09:57.70,0:09:59.54,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}都是一句 「这么卷」啊
+Dialogue: 0,0:09:57.70,0:09:59.54,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}全部「おつかれ」で済ませられる
+Dialogue: 1,0:09:59.54,0:10:01.62,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}一大早就说「这么卷」吗
+Dialogue: 0,0:09:59.54,0:10:01.62,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}「おはよう」も
+Dialogue: 1,0:10:02.04,0:10:05.96,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}那听到的人不管想不想卷 都必须卷了
+Dialogue: 0,0:10:02.04,0:10:05.96,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}疲れてなくても　それ聞いたら　朝から疲れちゃいますよ
+Dialogue: 1,0:10:05.96,0:10:07.29,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}那你是真卷
+Dialogue: 0,0:10:05.96,0:10:07.29,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}マジメか
+Dialogue: 1,0:10:08.67,0:10:10.55,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}对了 协管
+Dialogue: 0,0:10:08.67,0:10:10.55,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}そうだ　寮長
+Dialogue: 1,0:10:11.34,0:10:13.05,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}有空和我喝杯茶吗
+Dialogue: 0,0:10:11.34,0:10:13.05,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}今からお茶しませんか
+Dialogue: 1,0:10:13.51,0:10:15.97,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}就茶的点心也有 美滴很
+Dialogue: 0,0:10:13.51,0:10:15.97,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}おいしいお菓子があるんですよ
+Dialogue: 1,0:10:15.97,0:10:17.56,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}和我喝茶吗
+Dialogue: 0,0:10:15.97,0:10:17.56,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}私と
+Dialogue: 1,0:10:18.01,0:10:20.39,Dial-CHI,,0,0,0,,{\c&C1D3E0\3c&131321\4c&131321}{\blur0.7\bord2.5}{\t(1526,2568,2,\c&F2F2F2)}就你在这 那还能是谁嘛
+Dialogue: 0,0:10:18.01,0:10:20.39,Dial-JPN,,0,0,0,,{\c&C1D3E0\3c&131321\4c&131321}{\blur0.7\bord2.5}{\t(1526,2568,2,\c&F2F2F2)}他に誰がいるんですか
+Dialogue: 1,0:10:20.39,0:10:24.81,Dial-CHI,,0,0,0,,{\c&F2F2F2\3c&373755\4c&373755\blur0.7\bord3}{\t(-854,188,2,\c&F2F2F2)}可是可以 就怕是和我喝着挺无聊的
+Dialogue: 0,0:10:20.39,0:10:24.81,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&373755\4c&373755\blur0.7\bord3}{\t(-854,188,2,\c&F2F2F2)}いいけど　楽しくないと思うよ　私となんて
+Dialogue: 1,0:10:25.31,0:10:27.82,Dial-CHI,,0,0,0,,{\c&F2F2F2\3c&26263B\4c&26263B\blur0.7\bord2}无不无聊
+Dialogue: 0,0:10:25.31,0:10:27.82,Dial-JPN,,0,0,0,,{\c&F2F2F2\3c&26263B\4c&26263B\blur0.7\bord2}楽しいか　楽しくないか
+Dialogue: 1,0:10:28.36,0:10:30.57,Dial-CHI,,0,0,0,,{\c&EEF0F5\3c&26263B\4c&26263B}{\blur0.7\bord2}那取决于我的感受啦
+Dialogue: 0,0:10:28.36,0:10:30.57,Dial-JPN,,0,0,0,,{\c&EEF0F5\3c&26263B\4c&26263B}{\blur0.7\bord2}それは私が決めます
+Dialogue: 1,0:10:36.32,0:10:37.07,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}我先整理下房间
+Dialogue: 0,0:10:36.32,0:10:37.07,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}じゃあ　部屋を片付けるので
+Dialogue: 1,0:10:37.07,0:10:39.29,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}我先整理下房间
+Dialogue: 0,0:10:37.07,0:10:39.29,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}じゃあ　部屋を片付けるので
+Dialogue: 1,0:10:39.29,0:10:42.08,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}麻烦你在外面等我一下
+Dialogue: 0,0:10:39.29,0:10:42.08,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}少しの間外で待っててください
+Dialogue: 1,0:10:42.08,0:10:43.71,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}装模作样收拾一下？
+Dialogue: 0,0:10:42.08,0:10:43.71,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}それって「フリ」
+Dialogue: 1,0:10:43.71,0:10:45.04,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}装什么装啊
+Dialogue: 0,0:10:43.71,0:10:45.04,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}違いますから
+Dialogue: 1,0:10:45.04,0:10:48.21,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}马上就好 你可别来偷看
+Dialogue: 0,0:10:45.04,0:10:48.21,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}すぐ済むので　のぞかないでくださいね
+Dialogue: 1,0:10:48.21,0:10:49.50,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}绝对不可以哦
+Dialogue: 0,0:10:48.21,0:10:49.50,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}絶対ですよ
+Dialogue: 1,0:10:50.13,0:10:51.51,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}行行行
+Dialogue: 0,0:10:50.13,0:10:51.51,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}はいはい
+Dialogue: 1,0:10:52.55,0:10:55.59,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}{\t(1812,2354,\3c&6A6F73\4c&6A6F73)}对了 把那玩意也拿过来
+Dialogue: 0,0:10:52.55,0:10:55.59,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}{\t(1812,2354,\3c&6A6F73\4c&6A6F73)}そうだ　あれもってこよっと
+Dialogue: 1,0:10:59.43,0:11:02.85,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}塑料瓶都收好了
+Dialogue: 0,0:10:59.43,0:11:02.85,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}ペットボトルはこれで全部　っと
+Dialogue: 1,0:11:02.85,0:11:04.31,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}至于衣服嘛
+Dialogue: 0,0:11:02.85,0:11:04.31,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}洋服は
+Dialogue: 1,0:11:10.57,0:11:12.19,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}没辙了
+Dialogue: 0,0:11:10.57,0:11:12.19,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}しかたない
+Dialogue: 1,0:11:12.19,0:11:14.57,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}全部塞进衣柜里吧
+Dialogue: 0,0:11:12.19,0:11:14.57,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}全部クローゼットに押しこもう
+Dialogue: 1,0:11:18.32,0:11:21.79,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.3}没时间用吸尘器打扫了
+Dialogue: 0,0:11:18.32,0:11:21.79,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.3}掃除機をかける余裕はないな
+Dialogue: 1,0:11:21.79,0:11:24.33,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.3}以后一定要定期打扫
+Dialogue: 0,0:11:21.79,0:11:24.33,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.3}定期的にかけるようにしよう
+Dialogue: 1,0:11:26.37,0:11:31.50,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}现在才发现 家里那么干净全是托了我妈的福
+Dialogue: 0,0:11:26.37,0:11:31.50,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}実家がいつも綺麗だったのは　お母さんのおかげだったんだな
+Dialogue: 1,0:11:33.67,0:11:34.84,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}好
+Dialogue: 0,0:11:33.67,0:11:34.84,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}よし
+Dialogue: 1,0:11:35.30,0:11:37.84,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}久等了
+Dialogue: 0,0:11:35.30,0:11:37.84,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}お待たせしました　って
+Dialogue: 1,0:11:42.35,0:11:46.06,Dial-CHI,,222,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}你手里藏着什么呢
+Dialogue: 0,0:11:42.35,0:11:46.06,Dial-JPN,,222,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}それ　手に何持ってるんですか
+Dialogue: 1,0:11:46.60,0:11:48.10,Dial-CHI,,222,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}这就被你发现了
+Dialogue: 0,0:11:46.60,0:11:48.10,Dial-JPN,,222,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}バレちゃったか
+Dialogue: 1,0:11:48.73,0:11:51.32,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}一起喝点葡萄酒 怎么样
+Dialogue: 0,0:11:48.73,0:11:51.32,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}ワイン　一緒にどう
+Dialogue: 0,0:11:48.73,0:11:51.32,Tips,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}源作印 巨峰：山梨県巨峰葡萄酿就的桃红甜型葡萄酒，酒体轻盈
+Dialogue: 1,0:11:51.32,0:11:55.36,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}这牌子适合没怎么喝过酒的人 也没有气泡
+Dialogue: 0,0:11:51.32,0:11:55.36,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}初心者でも飲みやすい銘柄で　炭酸も入ってないよ
+Dialogue: 1,0:11:56.86,0:12:00.37,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}可我之前是邀请你喝茶来着
+Dialogue: 0,0:11:56.86,0:12:00.37,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}私は「お茶しましょう」　って言ったんですけど
+Dialogue: 1,0:12:02.62,0:12:03.66,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}不能小酌两口吗
+Dialogue: 0,0:12:02.62,0:12:03.66,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}だめ
+Dialogue: 1,0:12:09.63,0:12:13.17,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.4}我喝就是了 用不着萌混过关
+Dialogue: 0,0:12:09.63,0:12:13.17,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.4}そんな顔しなくてもダメなんて言いませんよ
+Dialogue: 1,0:12:13.63,0:12:15.17,Dial-CHI,,777,0,0,,{\c&ffffff}{\3c&26263B\4c&26263B\blur0.7\bord2}看得出 你酒瘾发作了
+Dialogue: 0,0:12:13.63,0:12:15.17,Dial-JPN,,777,0,0,,{\c&ffffff}{\3c&26263B\4c&26263B\blur0.7\bord2}飲みたいんでしょ
+Dialogue: 1,0:12:16.01,0:12:17.09,Dial-CHI,,222,0,0,,{\c&ffffff}{\3c&26263B\4c&26263B\blur0.7\bord2}你真好
+Dialogue: 0,0:12:16.01,0:12:17.09,Dial-JPN,,222,0,0,,{\c&ffffff}{\3c&26263B\4c&26263B\blur0.7\bord2}やさし
+Dialogue: 1,0:12:20.34,0:12:21.93,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}不知道说什么就说「这么卷」
+Dialogue: 0,0:12:20.34,0:12:21.93,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}とりあえず　おつかれ
+Dialogue: 1,0:12:21.93,0:12:23.18,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.2}只有这句吗
+Dialogue: 0,0:12:21.93,0:12:23.18,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.2}語彙がない
+Dialogue: 1,0:12:24.31,0:12:26.18,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}那可不 习惯就好
+Dialogue: 0,0:12:24.31,0:12:26.18,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}慣れて欲しいな
+Dialogue: 1,0:12:29.31,0:12:33.36,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}想来我也好久没和人碰杯了
+Dialogue: 0,0:12:29.31,0:12:33.36,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}そういえば　乾杯なんてひさしぶりだな
+Dialogue: 1,0:12:37.19,0:12:39.61,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}你房间布置得还挺可爱
+Dialogue: 0,0:12:37.19,0:12:39.61,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}部屋　かわいいね
+Dialogue: 1,0:12:39.61,0:12:42.57,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}别一直打量人家的房间啦
+Dialogue: 0,0:12:39.61,0:12:42.57,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}あ…　あんまりじろじろ見ないでください
+Dialogue: 1,0:12:42.57,0:12:44.45,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}怪难为情的
+Dialogue: 0,0:12:42.57,0:12:44.45,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}恥ずかしいから
+Dialogue: 1,0:12:47.33,0:12:48.71,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}好好喝
+Dialogue: 0,0:12:47.33,0:12:48.71,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}これ　美味っ
+Dialogue: 1,0:12:48.71,0:12:51.79,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}我还以为葡萄酒会更难入口呢
+Dialogue: 0,0:12:48.71,0:12:51.79,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}ワインってもっと飲みづらいものかと思ってた
+Dialogue: 1,0:12:53.63,0:12:55.13,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}你喜欢就好
+Dialogue: 0,0:12:53.63,0:12:55.13,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}良かった
+Dialogue: 1,0:12:55.13,0:12:58.80,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}还得是经典款 没必要追求花里胡哨的
+Dialogue: 0,0:12:55.13,0:12:58.80,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}複雑な味よりシンプルなやつを選んで正解だ
+Dialogue: 1,0:12:59.55,0:13:01.84,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我想想
+Dialogue: 0,0:12:59.55,0:13:01.84,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}なんて言うか
+Dialogue: 1,0:13:03.14,0:13:05.47,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}该怎么形容呢
+Dialogue: 0,0:13:03.14,0:13:05.47,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}どう言えば良いんだろ
+Dialogue: 1,0:13:05.47,0:13:07.81,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}很好喝
+Dialogue: 0,0:13:05.47,0:13:07.81,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}美味しくて
+Dialogue: 1,0:13:07.81,0:13:09.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}很美味
+Dialogue: 0,0:13:07.81,0:13:09.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}おいしい
+Dialogue: 1,0:13:09.69,0:13:11.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}我也只会这几句
+Dialogue: 0,0:13:09.69,0:13:11.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2.5}私も語彙がない
+Dialogue: 5,0:13:12.77,0:13:18.15,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}多喝就知道怎么形容酒的香气和味道了
+Dialogue: 4,0:13:12.77,0:13:18.15,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}種類飲めば　香りや味の特徴が拾えて語彙も増えるよ
+Dialogue: 1,0:13:22.16,0:13:26.91,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}那同一杯酒 你能品出更多风味吗
+Dialogue: 0,0:13:22.16,0:13:26.91,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}じゃあ　寮長と私では　感じてる味が違うのか
+Dialogue: 1,0:13:28.16,0:13:31.04,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}等 等一下 靠太近了
+Dialogue: 0,0:13:28.16,0:13:31.04,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}ちょっ　ちょ　ちょっと　近い近い
+Dialogue: 1,0:13:34.29,0:13:37.67,Dial-CHI,,222,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}怎么了
+Dialogue: 0,0:13:34.29,0:13:37.67,Dial-JPN,,222,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}な　何
+Dialogue: 1,0:13:38.63,0:13:40.51,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.3}太不公平了
+Dialogue: 0,0:13:38.63,0:13:40.51,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.3}やっぱり寮長はズルい
+Dialogue: 1,0:13:40.51,0:13:42.05,Dial-CHI,,0,555,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}你指的是
+Dialogue: 0,0:13:40.51,0:13:42.05,Dial-JPN,,0,555,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}何がよ
+Dialogue: 1,0:13:42.05,0:13:45.55,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我想和你一样 品到更多风味
+Dialogue: 0,0:13:42.05,0:13:45.55,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}私も寮長みたいにワインを味わいたいです
+Dialogue: 1,0:13:49.64,0:13:53.44,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}把你的舌头给我
+Dialogue: 0,0:13:49.64,0:13:53.44,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}私　寮長の舌が欲しいな
+Dialogue: 1,0:13:56.19,0:13:58.23,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}要是有你的舌头
+Dialogue: 0,0:13:56.19,0:13:58.23,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}寮長の舌があれば
+Dialogue: 1,0:13:58.23,0:14:03.07,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}就能从这瓶酒中品出更多风味了
+Dialogue: 0,0:13:58.23,0:14:03.07,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}もっともーっと　このワインが美味しく感じると思うのです
+Dialogue: 1,0:14:04.11,0:14:05.62,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}上伊那
+Dialogue: 0,0:14:04.11,0:14:05.62,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}上伊那さん
+Dialogue: 1,0:14:05.62,0:14:08.54,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}你喝酒后 整个人变了好多
+Dialogue: 0,0:14:05.62,0:14:08.54,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}お酒入ると随分人が変わるよね
+Dialogue: 1,0:14:08.54,0:14:10.41,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}是吗
+Dialogue: 0,0:14:08.54,0:14:10.41,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}そぉですか
+Dialogue: 1,0:14:11.21,0:14:13.00,Dial-CHI,,0,0,0,,{\c&ffffff\3c&444469\4c&444469\blur0.7\bord2}差点忘了点心
+Dialogue: 0,0:14:11.21,0:14:13.00,Dial-JPN,,0,0,0,,{\c&ffffff\3c&444469\4c&444469\blur0.7\bord2}これ　おかしどうぞ
+Dialogue: 1,0:14:13.00,0:14:15.21,Dial-CHI,,0,155,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}用十万石馒头来下酒吗
+Dialogue: 0,0:14:13.00,0:14:15.21,Dial-JPN,,0,155,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}ワインに十万石まんじゅう？
+Dialogue: 0,0:14:13.00,0:14:15.21,Tips,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}注：琦玉县行田市糕点店「十万石福茶屋」所售日式糕点\N价格便宜，地方特色鲜明
+Dialogue: 1,0:14:15.21,0:14:17.54,Dial-CHI,,0,155,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}这个可好吃了
+Dialogue: 0,0:14:15.21,0:14:17.54,Dial-JPN,,0,155,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2.5}おいしーですよぉ
+Dialogue: 1,0:14:21.42,0:14:25.22,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}上伊那牡丹 一喝酒就上头
+Dialogue: 0,0:14:21.42,0:14:25.22,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.2}上伊那ぼたんは　お酒を飲むとヘンになる
+Dialogue: 1,0:14:26.10,0:14:27.51,Dial-CHI,,1511,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}还是说
+Dialogue: 0,0:14:26.10,0:14:27.51,Dial-JPN,,1511,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}それとも
+Dialogue: 1,0:14:27.51,0:14:32.10,Dial-CHI,,1511,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}大家都这样 只是我不知道
+Dialogue: 0,0:14:27.51,0:14:32.10,Dial-JPN,,1511,0,0,,{\c&ffffff\3c&444469\4c&444469}{\blur0.7\bord2}私が知らないだけで　皆こうなるのだろうか
+Dialogue: 1,0:14:26.93,0:14:31.43,Dial-CHI,,0,1333,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}好吃 太好吃了
+Dialogue: 0,0:14:26.93,0:14:31.43,Dial-JPN,,0,1333,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}おいしぃ　おいしすぎるぅ
+Dialogue: 1,0:14:37.40,0:14:41.65,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}与人喝酒 也是别有一番风味
+Dialogue: 0,0:14:37.40,0:14:41.65,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}人とお酒を飲むと　はじめてのことばかりだ
+Dialogue: 1,0:14:36.11,0:14:38.73,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2.5\blur0.7\bord2}风儿在耳边低语
+Dialogue: 0,0:14:36.11,0:14:38.73,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2.5\blur0.7\bord2}風が語りかけます
+Dialogue: 0,0:14:36.11,0:14:38.73,Ruby_chi,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2.5\blur0.7\bord2}注：十万石馒头的广告词
+Dialogue: 1,0:14:39.40,0:14:40.94,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2\blur0.7\bord2}你说什么呢
+Dialogue: 0,0:14:39.40,0:14:40.94,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2\blur0.7\bord2}なんですか　それ
+Dialogue: 1,0:14:42.36,0:14:43.99,Dial-CHI,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2\blur0.7\bord2}原来你不知道这段广告词吗
+Dialogue: 0,0:14:42.36,0:14:43.99,Dial-JPN,,0,0,0,,{\an8\c&ffffff\3c&373755\4c&373755bord2\blur0.7\bord2}分かって言ってたんじゃないの
+Dialogue: 1,0:14:50.87,0:14:54.62,Dial-CHI,,0,0,0,,{\c&67686E\3c&000000\4c&000000}{\blur0.7\bord2.5}我差不多该回去了
+Dialogue: 0,0:14:50.87,0:14:54.62,Dial-JPN,,0,0,0,,{\c&67686E\3c&000000\4c&000000}{\blur0.7\bord2.5}それじゃあ　私はそろそろ戻るかな
+Dialogue: 1,0:14:55.42,0:14:56.88,Dial-CHI,,0,0,0,,{\c&67686E\3c&000000\4c&000000}{\blur0.7\bord2.5}谁在说话
+Dialogue: 0,0:14:55.42,0:14:56.88,Dial-JPN,,0,0,0,,{\c&67686E\3c&000000\4c&000000}{\blur0.7\bord2.5}話し声
+Dialogue: 1,0:14:58.75,0:15:01.38,Dial-CHI,,0,0,0,,{\an3}{\c&515152\3c&000000\4c&000000}{\blur0.7\bord2.5}我还想请你看看我的作业呢
+Dialogue: 0,0:14:58.75,0:15:01.38,Dial-JPN,,0,0,0,,{\an3}{\c&515152\3c&000000\4c&000000}{\blur0.7\bord2.5}課題手伝ってもらおうと思ってたのに
+Dialogue: 1,0:14:59.59,0:15:01.38,Dial-CHI,,0,0,0,,{\c&515152\3c&000000\4c&000000}{\blur0.7\bord2.5}这么晚了
+Dialogue: 0,0:14:59.59,0:15:01.38,Dial-JPN,,0,0,0,,{\c&515152\3c&000000\4c&000000}{\blur0.7\bord2.5}こんな時間に
+Dialogue: 1,0:15:01.88,0:15:03.05,Dial-CHI,,0,0,0,,{\c&666365\3c&000000\4c&000000}{\blur0.7\bord2}会是谁呢
+Dialogue: 0,0:15:01.88,0:15:03.05,Dial-JPN,,0,0,0,,{\c&666365\3c&000000\4c&000000}{\blur0.7\bord2}誰だろ
+Dialogue: 1,0:15:01.88,0:15:04.13,Dial-CHI,,0,0,0,,{\an3}{\c&666365\3c&000000\4c&000000}{\blur0.7\bord2}你先试着自己独立完成
+Dialogue: 0,0:15:01.88,0:15:04.13,Dial-JPN,,0,0,0,,{\an3}{\c&666365\3c&000000\4c&000000}{\blur0.7\bord2}まずはひとりでがんばってみなよ
+Dialogue: 1,0:15:05.01,0:15:05.63,Dial-CHI,,1111,0,0,,{\c&615D5D\3c&000000\4c&000000}{\blur0.7\bord2}别这么绝情嘛
+Dialogue: 0,0:15:05.01,0:15:05.63,Dial-JPN,,1111,0,0,,{\c&615D5D\3c&000000\4c&000000}{\blur0.7\bord2}でも
+Dialogue: 1,0:15:05.01,0:15:05.63,Dial-CHI,,0,555,0,,{\c&615D5D\3c&000000\4c&000000}{\blur0.7\bord2}快点放手啦
+Dialogue: 0,0:15:05.01,0:15:05.63,Dial-JPN,,0,555,0,,{\c&615D5D\3c&000000\4c&000000}{\blur0.7\bord2}こら　放しなさい
+Dialogue: 1,0:15:05.63,0:15:07.14,Dial-CHI,,0,555,0,,{\c&7D7777\3c&000000\4c&000000}{\blur0.7\bord2}快点放手啦
+Dialogue: 0,0:15:05.63,0:15:07.14,Dial-JPN,,0,555,0,,{\c&7D7777\3c&000000\4c&000000}{\blur0.7\bord2}こら　放しなさい
+Dialogue: 1,0:15:05.63,0:15:06.64,Dial-CHI,,1111,0,0,,{\c&7D7777\3c&000000\4c&000000\blur0.7\bord2.5}别这么绝情嘛
+Dialogue: 0,0:15:05.63,0:15:06.64,Dial-JPN,,1111,0,0,,{\c&7D7777\3c&000000\4c&000000\blur0.7\bord2.5}でも
+Dialogue: 1,0:15:07.14,0:15:08.39,Dial-CHI,,0,555,0,,{\c&7D7777\3c&000000\4c&000000\blur0.7\bord2.5}是伊吹 还有…
+Dialogue: 0,0:15:07.14,0:15:08.39,Dial-JPN,,0,555,0,,{\c&7D7777\3c&000000\4c&000000\blur0.7\bord2.5}いぶきと
+Dialogue: 1,0:15:09.64,0:15:12.68,Dial-CHI,,0,0,0,,{\an8}{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}你可是协管 怎么能抛下学妹不管
+Dialogue: 0,0:15:09.64,0:15:12.68,Dial-JPN,,0,0,0,,{\an8}{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}そんなあ　後輩見捨てないでくださいよ　寮長
+Dialogue: 1,0:15:10.81,0:15:12.68,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}还有上伊那
+Dialogue: 0,0:15:10.81,0:15:12.68,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}上伊那さん
+Dialogue: 1,0:15:12.68,0:15:15.14,Dial-CHI,,0,0,0,,{\an8\c&777778\3c&000000\4c&000000\blur0.7\bord2}你可是协管 怎么能抛下学妹不管
+Dialogue: 0,0:15:12.68,0:15:15.14,Dial-JPN,,0,0,0,,{\an8\c&777778\3c&000000\4c&000000\blur0.7\bord2}そんなあ　後輩見捨てないでくださいよ　寮長
+Dialogue: 1,0:15:14.60,0:15:17.69,Dial-CHI,,0,0,0,,{\fad(0,983)}{\an7\c&777778\3c&000000\4c&000000\blur0.7\bord2}行啦 你加油吧
+Dialogue: 0,0:15:14.60,0:15:17.69,Dial-JPN,,0,0,0,,{\fad(0,983)}{\an7\c&777778\3c&000000\4c&000000\blur0.7\bord2}はいはい　頑張ってね
+Dialogue: 1,0:15:15.14,0:15:17.69,Dial-CHI,,0,0,0,,{\fad(0,983)}{\an8\c&777778\3c&000000\4c&000000\blur0.7\bord2}求求了
+Dialogue: 0,0:15:15.14,0:15:17.69,Dial-JPN,,0,0,0,,{\fad(0,983)}{\an8\c&777778\3c&000000\4c&000000\blur0.7\bord2}お願いです
+Dialogue: 1,0:15:29.24,0:15:31.45,Dial-CHI,,0,0,0,,{\c&E6EFF7\3c&26263B\4c&26263B\blur0.7\bord2.5}作业赶不完了
+Dialogue: 0,0:15:29.24,0:15:31.45,Dial-JPN,,0,0,0,,{\c&E6EFF7\3c&26263B\4c&26263B\blur0.7\bord2.5}課題が終わらない
+Dialogue: 1,0:15:32.08,0:15:36.21,Dial-CHI,,0,0,0,,{\c&D8E7F2\3c&26263B\4c&26263B}{\blur0.7\bord2.8}昨天就该硬拉着协管帮忙的
+Dialogue: 0,0:15:32.08,0:15:36.21,Dial-JPN,,0,0,0,,{\c&D8E7F2\3c&26263B\4c&26263B}{\blur0.7\bord2.8}やっぱり昨日寮長に　手伝ってもらえばよかった
+Dialogue: 1,0:15:38.96,0:15:41.38,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}你在听什么歌呢
+Dialogue: 0,0:15:38.96,0:15:41.38,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}上伊那さん　何聴いてるの
+Dialogue: 1,0:15:43.42,0:15:44.72,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}我听过这首歌
+Dialogue: 0,0:15:43.42,0:15:44.72,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}この曲　知ってる
+Dialogue: 1,0:15:45.42,0:15:46.93,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}郡上学姐
+Dialogue: 0,0:15:45.42,0:15:46.93,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}郡上先輩
+Dialogue: 1,0:15:46.93,0:15:49.68,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}这么晚还在用功呢
+Dialogue: 0,0:15:46.93,0:15:49.68,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}遅くまでがんばってるね　上伊那さん
+Dialogue: 1,0:15:49.68,0:15:50.80,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}赶作业吗
+Dialogue: 0,0:15:49.68,0:15:50.80,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}課題？
+Dialogue: 1,0:15:50.80,0:15:53.47,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}嗯 卡在这里了
+Dialogue: 0,0:15:50.80,0:15:53.47,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}はい　ちょっと手こずってて
+Dialogue: 1,0:15:53.47,0:15:54.73,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}我看看
+Dialogue: 0,0:15:53.47,0:15:54.73,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3}どれどれ
+Dialogue: 1,0:15:57.23,0:16:00.61,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}郡上奏 研一
+Dialogue: 0,0:15:57.23,0:16:00.61,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}郡上かなでさん　修士1年
+Dialogue: 1,0:16:00.61,0:16:04.11,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}也住在这里 比我和协管都年长
+Dialogue: 0,0:16:00.61,0:16:04.11,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}寮生で　私や寮長の先輩
+Dialogue: 1,0:16:04.11,0:16:06.53,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}想必很聪明
+Dialogue: 0,0:16:04.11,0:16:06.53,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}きっとすごく頭がいい
+Dialogue: 1,0:16:06.53,0:16:09.24,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}这还是我第一次和她单独说话
+Dialogue: 0,0:16:06.53,0:16:09.24,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.6}ちゃんとお話しするのはこれが初めて
+Dialogue: 1,0:16:11.83,0:16:16.16,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3.5}把35行到40行删掉 再执行看看
+Dialogue: 0,0:16:11.83,0:16:16.16,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3.5}35行目から40行目　消して実行してみて
+Dialogue: 1,0:16:16.58,0:16:17.25,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3.5}我试试
+Dialogue: 0,0:16:16.58,0:16:17.25,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755\blur0.7\bord3.5}はい
+Dialogue: 1,0:16:19.63,0:16:20.75,Dial-CHI,,0,0,0,,{\c&F2F8FF}{\3c&373755\4c&373755\blur0.7\bord3}成功了
+Dialogue: 0,0:16:19.63,0:16:20.75,Dial-JPN,,0,0,0,,{\c&F2F8FF}{\3c&373755\4c&373755\blur0.7\bord3}できた
+Dialogue: 1,0:16:20.75,0:16:23.25,Dial-CHI,,0,0,0,,{\c&F2F8FF}{\3c&373755\4c&373755\blur0.7\bord3}剩下的你就好好加油吧
+Dialogue: 0,0:16:20.75,0:16:23.25,Dial-JPN,,0,0,0,,{\c&F2F8FF}{\3c&373755\4c&373755\blur0.7\bord3}あと一歩　だったね
+Dialogue: 1,0:16:23.25,0:16:26.76,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}谢谢学姐指点
+Dialogue: 0,0:16:23.25,0:16:26.76,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}あの　ありがとうございます
+Dialogue: 1,0:16:26.76,0:16:28.76,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}我才能顺利完成作业
+Dialogue: 0,0:16:26.76,0:16:28.76,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}課題手伝ってもらっちゃって
+Dialogue: 1,0:16:28.76,0:16:33.56,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}不客气 一年级课多 很辛苦吧
+Dialogue: 0,0:16:28.76,0:16:33.56,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}気にしないで　1年生は授業多いし大変でしょ
+Dialogue: 1,0:16:34.10,0:16:36.14,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}你是哪个专业来着
+Dialogue: 0,0:16:34.10,0:16:36.14,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}上伊那さん　学科どこだっけ
+Dialogue: 1,0:16:36.14,0:16:38.85,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}理工学部的工程管理
+Dialogue: 0,0:16:36.14,0:16:38.85,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}管理工です　理工学部の
+Dialogue: 1,0:16:39.81,0:16:41.90,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}和伊吹一样
+Dialogue: 0,0:16:39.81,0:16:41.90,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}いぶきと一緒か
+Dialogue: 1,0:16:41.90,0:16:45.19,Dial-CHI,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}看你比我和伊吹都用功 有时间玩吗
+Dialogue: 0,0:16:41.90,0:16:45.19,Dial-JPN,,0,0,0,,{\c&F2F8FF\3c&373755\4c&373755}{\blur0.7\bord2.5}いぶきや私より忙しそうだけど　ちゃんと遊んでる
+Dialogue: 1,0:16:45.19,0:16:47.44,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}有的
+Dialogue: 0,0:16:45.19,0:16:47.44,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}そうですねえ
+Dialogue: 1,0:16:47.44,0:16:49.78,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}我会和班上同学一起逛街
+Dialogue: 0,0:16:47.44,0:16:49.78,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}クラスのみんなと買い物行ったり
+Dialogue: 1,0:16:49.78,0:16:52.20,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}参加各个社团的迎新活动
+Dialogue: 0,0:16:49.78,0:16:52.20,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}サークルの新歓に顔出したり
+Dialogue: 1,0:16:52.20,0:16:55.45,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}对了 还会和协管喝酒
+Dialogue: 0,0:16:52.20,0:16:55.45,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E}{\blur0.7\bord2}あと　寮長とお酒飲んだり
+Dialogue: 1,0:16:58.29,0:16:59.71,Dial-CHI,,0,0,0,,{\c&E6EBF5\3c&161621\4c&161621\blur0.7\bord2}怎么了
+Dialogue: 0,0:16:58.29,0:16:59.71,Dial-JPN,,0,0,0,,{\c&E6EBF5\3c&161621\4c&161621\blur0.7\bord2}はい？
+Dialogue: 1,0:17:03.38,0:17:08.17,Dial-CHI,,0,0,0,,{\c&F2F7FF\3c&373755\4c&373755}{\blur0.7\bord2.5}因为她向来一个人喝酒
+Dialogue: 0,0:17:03.38,0:17:08.17,Dial-JPN,,0,0,0,,{\c&F2F7FF\3c&373755\4c&373755}{\blur0.7\bord2.5}いやさあ　いぶきって　お酒はいつも1人で飲むからね
+Dialogue: 1,0:17:08.17,0:17:10.47,Dial-CHI,,0,0,0,,{\c&F2F7FF\3c&373755\4c&373755}{\blur0.7\bord2.5}没想到会和你喝
+Dialogue: 0,0:17:08.17,0:17:10.47,Dial-JPN,,0,0,0,,{\c&F2F7FF\3c&373755\4c&373755}{\blur0.7\bord2.5}めずらしーって思って
+Dialogue: 1,0:17:15.97,0:17:18.68,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}可能你对她来说挺特别的吧
+Dialogue: 0,0:17:15.97,0:17:18.68,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}上伊那さんは特別なのかしら
+Dialogue: 1,0:17:20.73,0:17:24.15,Dial-CHI,,0,0,0,,{\c&F2F7FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}郡上学姐居然会抽烟
+Dialogue: 0,0:17:20.73,0:17:24.15,Dial-JPN,,0,0,0,,{\c&F2F7FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}郡上先輩　タバコ吸うんだ
+Dialogue: 1,0:17:24.61,0:17:27.11,Dial-CHI,,1111,0,0,,{\c&F2F7FF\3c&373755\4c&373755\blur0.7\bord3}抱歉 不知不觉就点上了
+Dialogue: 0,0:17:24.61,0:17:27.11,Dial-JPN,,1111,0,0,,{\c&F2F7FF\3c&373755\4c&373755\blur0.7\bord3}ゴメン　無意識に点けてた
+Dialogue: 1,0:17:27.11,0:17:28.36,Dial-CHI,,555,0,0,,{\c&F2F7FF\3c&373755\4c&373755\blur0.7\bord3}我这就灭掉
+Dialogue: 0,0:17:27.11,0:17:28.36,Dial-JPN,,555,0,0,,{\c&F2F7FF\3c&373755\4c&373755\blur0.7\bord3}すぐ消すから
+Dialogue: 1,0:17:28.36,0:17:30.36,Dial-CHI,,555,0,0,,{\c&ffffff}{\3c&373755\4c&373755\blur0.7\bord3}我不介意的
+Dialogue: 0,0:17:28.36,0:17:30.36,Dial-JPN,,555,0,0,,{\c&ffffff}{\3c&373755\4c&373755\blur0.7\bord3}大丈夫ですよ
+Dialogue: 1,0:17:30.36,0:17:34.32,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}郡上学姐这种高颜值美女吸烟
+Dialogue: 0,0:17:30.36,0:17:34.32,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}郡上先輩みたいな美人さんがタバコ吸ってると
+Dialogue: 1,0:17:34.32,0:17:35.87,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}有股女明星的气质
+Dialogue: 0,0:17:34.32,0:17:35.87,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}女優見てるみたい
+Dialogue: 1,0:17:37.83,0:17:40.37,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}头一次听人这么夸我
+Dialogue: 0,0:17:37.83,0:17:40.37,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}そんなこと初めて言われたよ
+Dialogue: 1,0:17:40.91,0:17:43.46,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.7}你可真有意思
+Dialogue: 0,0:17:40.91,0:17:43.46,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.7}おもしろいね　上伊那さんは
+Dialogue: 1,0:17:43.46,0:17:45.09,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.7}居然说我像女明星
+Dialogue: 0,0:17:43.46,0:17:45.09,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.7}女優ときたか
+Dialogue: 1,0:17:47.38,0:17:51.38,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}既然你已经做完作业了
+Dialogue: 0,0:17:47.38,0:17:51.38,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}ねえ　課題　もう終わりなんだったら
+Dialogue: 1,0:17:56.68,0:17:58.89,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}那就来陪陪我吧
+Dialogue: 0,0:17:56.68,0:17:58.89,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}私にちょっと付き合わない
+Dialogue: 1,0:18:04.31,0:18:06.69,Dial-CHI,,0,0,0,,{\c&DFEAF2\3c&161621\4c&161621\blur0.7\bord2.7}你最近看过什么电影吗
+Dialogue: 0,0:18:04.31,0:18:06.69,Dial-JPN,,0,0,0,,{\c&DFEAF2\3c&161621\4c&161621\blur0.7\bord2.7}映画　最近何か観た
+Dialogue: 1,0:18:08.11,0:18:10.07,Dial-CHI,,0,0,0,,{\c&DFEAF2\3c&161621\4c&161621\blur0.7\bord2.7}看过玩具总动员之类的
+Dialogue: 0,0:18:08.11,0:18:10.07,Dial-JPN,,0,0,0,,{\c&DFEAF2\3c&161621\4c&161621\blur0.7\bord2.7}トイストーリーとか
+Dialogue: 1,0:18:10.61,0:18:13.28,Dial-CHI,,1111,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我第一次来这房间
+Dialogue: 0,0:18:10.61,0:18:13.28,Dial-JPN,,1111,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}こんな部屋はじめてきた
+Dialogue: 1,0:18:13.70,0:18:16.07,Dial-CHI,,222,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}看什么呢
+Dialogue: 0,0:18:13.70,0:18:16.07,Dial-JPN,,222,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}んーそうだなあ
+Dialogue: 1,0:18:16.70,0:18:18.58,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}你看这种电影吗
+Dialogue: 0,0:18:16.70,0:18:18.58,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord3}ここらへんどうかな
+Dialogue: 1,0:18:23.08,0:18:27.59,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}看着很深奥 像是大人看的电影
+Dialogue: 0,0:18:23.08,0:18:27.59,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}難しそう　大人の人が見る映画だあ
+Dialogue: 1,0:18:28.34,0:18:29.80,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}就看这部吧
+Dialogue: 0,0:18:28.34,0:18:29.80,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}じゃあ　これを
+Dialogue: 1,0:18:31.92,0:18:34.55,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&47476E\4c&47476E}{\blur0.7\bord1.6}我真能看得进去吗
+Dialogue: 0,0:18:31.92,0:18:34.55,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&47476E\4c&47476E}{\blur0.7\bord1.6}楽しめるか不安だなあ
+Dialogue: 1,0:18:35.89,0:18:37.89,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}学姐
+Dialogue: 0,0:18:35.89,0:18:37.89,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}先輩
+Dialogue: 1,0:18:38.39,0:18:42.14,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2}这架子上摆满了酒 瓶身都好漂亮
+Dialogue: 0,0:18:38.39,0:18:42.14,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2}この棚　きれいな瓶のお酒がたくさんある
+Dialogue: 1,0:18:42.14,0:18:46.15,Dial-CHI,,0,0,0,,{\c&E1E9F2\3c&26263B\4c&26263B\blur0.7\bord2}像宝石一样闪闪发光
+Dialogue: 0,0:18:42.14,0:18:46.15,Dial-JPN,,0,0,0,,{\c&E1E9F2\3c&26263B\4c&26263B\blur0.7\bord2}まるで　宝石みたい
+Dialogue: 1,0:18:46.77,0:18:48.11,Dial-CHI,,0,0,0,,{\c&DCE6F2\3c&151521\4c&151521}{\blur0.7\bord2.5}我可以喝吗
+Dialogue: 0,0:18:46.77,0:18:48.11,Dial-JPN,,0,0,0,,{\c&DCE6F2\3c&151521\4c&151521}{\blur0.7\bord2.5}これって飲んでみても
+Dialogue: 1,0:18:48.11,0:18:48.98,Dial-CHI,,0,0,0,,{\c&E4E8F0\3c&151521\4c&151521\blur0.7\bord2}不行
+Dialogue: 0,0:18:48.11,0:18:48.98,Dial-JPN,,0,0,0,,{\c&E4E8F0\3c&151521\4c&151521\blur0.7\bord2}だめ
+Dialogue: 1,0:18:50.36,0:18:54.53,Dial-CHI,,0,0,0,,{\c&F2F7FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}那架子上的酒 全都是伊吹的
+Dialogue: 0,0:18:50.36,0:18:54.53,Dial-JPN,,0,0,0,,{\c&F2F7FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}その棚の中のお酒　全部いぶきのだから
+Dialogue: 1,0:18:55.11,0:18:56.82,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755\blur0.7\bord2.5}这么多都是她的吗
+Dialogue: 0,0:18:55.11,0:18:56.82,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755\blur0.7\bord2.5}これ全部
+Dialogue: 1,0:18:58.12,0:18:59.45,Dial-CHI,,0,0,0,,{\c&EBF3FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}稍微等我一下
+Dialogue: 0,0:18:58.12,0:18:59.45,Dial-JPN,,0,0,0,,{\c&EBF3FF\3c&26263B\4c&26263B}{\blur0.7\bord2.5}ちょっと待ってて
+Dialogue: 1,0:19:04.16,0:19:05.50,Dial-CHI,,0,0,0,,{\c&DFE7F2\3c&151521\4c&151521\blur0.7\bord2.5}这是什么
+Dialogue: 0,0:19:04.16,0:19:05.50,Dial-JPN,,0,0,0,,{\c&DFE7F2\3c&151521\4c&151521\blur0.7\bord2.5}これって
+Dialogue: 1,0:19:07.25,0:19:08.38,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}日本酒
+Dialogue: 0,0:19:07.25,0:19:08.38,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}日本酒よ
+Dialogue: 0,0:19:07.25,0:19:08.38,Tips,,0,0,0,,{\c&ffffff}{\3c&151521\4c&151521}{\blur0.7\bord2}秩父锦 纯米大吟酿：使用美山锦米长期低温发酵酿成的美酒
+Dialogue: 1,0:19:08.88,0:19:11.80,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5\t(1603,1769,\bord2)}给 这酒算是我的心头好
+Dialogue: 0,0:19:08.88,0:19:11.80,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5\t(1603,1769,\bord2)}はい　私のお気に入りでよければ
+Dialogue: 1,0:19:12.55,0:19:14.63,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}谢谢学姐
+Dialogue: 0,0:19:12.55,0:19:14.63,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}ありがとうございます
+Dialogue: 1,0:19:21.64,0:19:24.39,Dial-CHI,,0,0,0,,{\c&ffffff}{\3c&373755\4c&373755\blur0.7\bord2.8}这是酒 还是水
+Dialogue: 0,0:19:21.64,0:19:24.39,Dial-JPN,,0,0,0,,{\c&ffffff}{\3c&373755\4c&373755\blur0.7\bord2.8}お酒？お水？
+Dialogue: 1,0:19:26.14,0:19:30.15,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}但又有股果味
+Dialogue: 0,0:19:26.14,0:19:30.15,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}でも　果物感もあるというか
+Dialogue: 1,0:19:30.15,0:19:31.65,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}喝起来很清爽
+Dialogue: 0,0:19:30.15,0:19:31.65,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}味が透き通ってて
+Dialogue: 1,0:19:32.19,0:19:35.65,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}我这是头一回喝日本酒 可真好喝
+Dialogue: 0,0:19:32.19,0:19:35.65,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord3}日本酒って初めてですけど　すごく美味しい
+Dialogue: 1,0:19:36.41,0:19:37.91,Dial-CHI,,0,0,0,,{\c&F5F8FF\3c&26263B\4c&26263B\blur0.7\bord2.5}有那么好喝吗
+Dialogue: 0,0:19:36.41,0:19:37.91,Dial-JPN,,0,0,0,,{\c&F5F8FF\3c&26263B\4c&26263B\blur0.7\bord2.5}そんなに美味しい
+Dialogue: 1,0:19:42.08,0:19:43.66,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}那你觉得
+Dialogue: 0,0:19:42.08,0:19:43.66,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}じゃあ
+Dialogue: 1,0:19:47.92,0:19:51.42,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}伊吹也会喜欢这酒吗
+Dialogue: 0,0:19:47.92,0:19:51.42,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}いぶきも気に入ると思う　このお酒
+Dialogue: 1,0:19:52.38,0:19:53.88,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}协管吗
+Dialogue: 0,0:19:52.38,0:19:53.88,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}寮長？
+Dialogue: 1,0:19:54.42,0:19:56.68,Dial-CHI,,0,0,0,,{\c&EBEFF7\3c&26263B\4c&26263B\blur0.7\bord2.5}我说不清
+Dialogue: 0,0:19:54.42,0:19:56.68,Dial-JPN,,0,0,0,,{\c&EBEFF7\3c&26263B\4c&26263B\blur0.7\bord2.5}そうですねえ
+Dialogue: 1,0:19:57.72,0:20:00.22,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}再多喝点可能就明白了
+Dialogue: 0,0:19:57.72,0:20:00.22,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}もっと飲んだら分かるかも
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\t(979,980,\alpha&ff)}再喝点
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\t(979,980,\alpha&ff)}はい
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(2605,2605,\alpha&00)\t(3982,3983,\alpha&ff)}真好喝
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(2605,2605,\alpha&00)\t(3982,3983,\alpha&ff)}うま
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(4774,4774,\alpha&00)\t(5984,5985,\alpha&ff)}我还要
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(4774,4774,\alpha&00)\t(5984,5985,\alpha&ff)}おかわり
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(6025,6025,\alpha&00)\t(7193,7194,\alpha&ff)}好的
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(6025,6025,\alpha&00)\t(7193,7194,\alpha&ff)}はい
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(8862,8862,\alpha&00)\t(9988,9989,\alpha&ff)}真好喝
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(8862,8862,\alpha&00)\t(9988,9989,\alpha&ff)}うま
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(10739,10739,\alpha&00)\t(11990,11991,\alpha&ff)}我还要
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(10739,10739,\alpha&00)\t(11990,11991,\alpha&ff)}おかわり
+Dialogue: 1,0:20:00.68,0:20:13.69,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2009,1919.19,1148.6)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(12031,12031,\alpha&00)\t(12991,12992,\alpha&ff)}好的
+Dialogue: 0,0:20:00.68,0:20:13.69,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2\move(1920,2115,1919.19,1158.7)\t(\fscx9.537\fscy9.537\bord0.19\shad0.19)}{\alpha&ff\t(12031,12031,\alpha&00)\t(12991,12992,\alpha&ff)}はい
+Dialogue: 1,0:20:13.69,0:20:15.44,Dial-CHI,,0,0,0,,{\c&E9F0F7\3c&373755\4c&373755}{\blur0.7\bord2.5}再来一杯
+Dialogue: 0,0:20:13.69,0:20:15.44,Dial-JPN,,0,0,0,,{\c&E9F0F7\3c&373755\4c&373755}{\blur0.7\bord2.5}もう一杯
+Dialogue: 1,0:20:15.44,0:20:16.82,Dial-CHI,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}不行不行
+Dialogue: 0,0:20:15.44,0:20:16.82,Dial-JPN,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}もうダメ
+Dialogue: 1,0:20:16.82,0:20:17.45,Dial-CHI,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}不给了
+Dialogue: 0,0:20:16.82,0:20:17.45,Dial-JPN,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}終わり
+Dialogue: 1,0:20:17.45,0:20:18.86,Dial-CHI,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}要喝光了
+Dialogue: 0,0:20:17.45,0:20:18.86,Dial-JPN,,0,0,0,,{\c&F2F6FF\3c&373755\4c&373755\blur0.7\bord3}なくなっちゃう
+Dialogue: 1,0:20:20.20,0:20:22.33,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}现在明白了吗
+Dialogue: 0,0:20:20.20,0:20:22.33,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}で　どう思う
+Dialogue: 1,0:20:22.33,0:20:23.58,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}你喝糊涂了吗
+Dialogue: 0,0:20:22.33,0:20:23.58,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}え　じゃなくて
+Dialogue: 1,0:20:23.58,0:20:26.79,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}我想知道伊吹愿不愿意陪我喝这酒
+Dialogue: 0,0:20:23.58,0:20:26.79,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.7}いぶきがそのお酒　私と飲んでくれるかよ
+Dialogue: 1,0:20:28.75,0:20:32.29,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}不知道她喝酒挑不挑
+Dialogue: 0,0:20:28.75,0:20:32.29,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}寮長　お酒の好き嫌いあるのかなあ
+Dialogue: 1,0:20:32.29,0:20:35.46,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}这酒这么好喝 我想她会喜欢的
+Dialogue: 0,0:20:32.29,0:20:35.46,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}これおいしいし　気に入ると思うけど
+Dialogue: 1,0:20:36.05,0:20:38.05,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}陪你喝？
+Dialogue: 0,0:20:36.05,0:20:38.05,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}「私と」？
+Dialogue: 1,0:20:38.51,0:20:41.47,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755\blur0.7\bord3}学姐要问的原来是这个啊
+Dialogue: 0,0:20:38.51,0:20:41.47,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755\blur0.7\bord3}えっと　そういう話でしたっけ　郡上先輩
+Dialogue: 1,0:20:41.47,0:20:43.01,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2.5}学姐要问的原来是这个啊
+Dialogue: 0,0:20:41.47,0:20:43.01,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2.5}えっと　そういう話でしたっけ　郡上先輩
+Dialogue: 1,0:20:43.01,0:20:44.97,Dial-CHI,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2.5}呃 不是 那啥
+Dialogue: 0,0:20:43.01,0:20:44.97,Dial-JPN,,0,0,0,,{\c&F5F9FF\3c&373755\4c&373755}{\blur0.7\bord2.5}いや　違くて　別に
+Dialogue: 1,0:20:44.97,0:20:46.06,Dial-CHI,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}呃 不是 那啥
+Dialogue: 0,0:20:44.97,0:20:46.06,Dial-JPN,,0,0,0,,{\c&ffffff\3c&47476E\4c&47476E\blur0.7\bord2}いや　違くて　別に
+Dialogue: 1,0:20:48.48,0:20:50.77,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}你这是什么表情
+Dialogue: 0,0:20:48.48,0:20:50.77,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}何　その顔は
+Dialogue: 1,0:20:50.77,0:20:53.19,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我算是明白了
+Dialogue: 0,0:20:50.77,0:20:53.19,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}私　わかっちゃいました
+Dialogue: 1,0:20:53.19,0:20:56.19,Dial-CHI,,0,0,0,,{\c&E4EAF2\3c&26263B\4c&26263B\blur0.7\bord2.5}郡上学姐
+Dialogue: 0,0:20:53.19,0:20:56.19,Dial-JPN,,0,0,0,,{\c&E4EAF2\3c&26263B\4c&26263B\blur0.7\bord2.5}郡上先輩はつまり
+Dialogue: 1,0:21:01.20,0:21:03.70,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}非常非常喜欢协管
+Dialogue: 0,0:21:01.20,0:21:03.70,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B}{\blur0.7\bord2}寮長が大好きなんですね
+Dialogue: 1,0:21:03.70,0:21:06.62,Dial-CHI,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}郡上学姐好可爱
+Dialogue: 0,0:21:03.70,0:21:06.62,Dial-JPN,,0,0,0,,{\c&ffffff\3c&26263B\4c&26263B\blur0.7\bord2}郡上先輩　かわいい
+Dialogue: 1,0:21:08.71,0:21:10.37,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}你你你 你说什么呢
+Dialogue: 0,0:21:08.71,0:21:10.37,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}なななな…　なにそれ
+Dialogue: 1,0:21:10.37,0:21:11.71,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}才不是那样子呢
+Dialogue: 0,0:21:10.37,0:21:11.71,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}そんなんじゃないし
+Dialogue: 0,0:21:11.71,0:21:14.50,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}私はその　単に普段から　いぶきがお酒なんかでも
+Dialogue: 1,0:21:11.71,0:21:14.50,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我只是看伊吹她啊
+Dialogue: 0,0:21:14.50,0:21:17.21,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}とりわけ日本酒　お一人でよく飲んでるなぁとか思って
+Dialogue: 1,0:21:14.50,0:21:17.21,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}平时老是一个人喝酒
+Dialogue: 0,0:21:17.21,0:21:19.42,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}ほら　今年は寮長とかやってもらってるし
+Dialogue: 1,0:21:17.21,0:21:19.42,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}今年她不是当协管了吗
+Dialogue: 0,0:21:19.42,0:21:19.97,Dial-JPN,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}多少は労ってもいいかなっ
+Dialogue: 1,0:21:19.42,0:21:19.97,Dial-CHI,,0,1555,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}我就想着犒劳一下她
+Dialogue: 1,0:21:12.04,0:21:14.92,Dial-CHI,,1766,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}但是协管一喝酒就会打嗝
+Dialogue: 0,0:21:12.04,0:21:14.92,Dial-JPN,,1766,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}でも寮長　しゃっくり癖のせいで
+Dialogue: 1,0:21:14.92,0:21:17.76,Dial-CHI,,2066,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}恐怕不愿意和其他人喝酒吧
+Dialogue: 0,0:21:14.92,0:21:17.76,Dial-JPN,,2066,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2.5}私以外と飲まないだろうしな
+Dialogue: 0,0:21:19.97,0:21:20.97,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}多少は労ってもいいかなっ
+Dialogue: 1,0:21:19.97,0:21:20.97,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2.5}我就想着犒劳一下她
+Dialogue: 1,0:21:22.22,0:21:24.80,Dial-CHI,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}话又说回来 这酒可真好喝
+Dialogue: 0,0:21:22.22,0:21:24.80,Dial-JPN,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}それにしてもおいしいわね　このお酒
+Dialogue: 1,0:21:24.80,0:21:28.89,Dial-CHI,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}真是的 学姐 别像小孩子一样遮羞啦
+Dialogue: 0,0:21:24.80,0:21:28.89,Dial-JPN,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}もっ　子供みたいな照れ隠し　やめてくださいよ
+Dialogue: 1,0:21:28.89,0:21:30.94,Dial-CHI,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}这样一点都不可爱
+Dialogue: 0,0:21:28.89,0:21:30.94,Dial-JPN,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}カワイクないっ
+Dialogue: 1,0:21:30.94,0:21:32.98,Dial-CHI,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}{\t(1059,2018,\c&000000\alpha&ff)}干脆全部喝光得了
+Dialogue: 0,0:21:30.94,0:21:32.98,Dial-JPN,,0,0,0,,{\c&736F6F\3c&000000\4c&000000}{\blur0.7\bord2}{\t(1059,2018,\c&000000\alpha&ff)}もういっそ全部飲んじゃう
+Dialogue: 1,0:21:43.49,0:21:46.28,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord1.8}我们似乎没差诶
+Dialogue: 0,0:21:43.49,0:21:46.28,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord1.8}私たち　おそろいですねえ
+Dialogue: 1,0:21:47.54,0:21:51.79,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}我刚刚说「蛮有意思」 是说你 不是说喝酒哦
+Dialogue: 0,0:21:47.54,0:21:51.79,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755\blur0.7\bord2}さっきの「いいな」は　寮長が「いいな」ってイミですよ
+Dialogue: 1,0:21:52.25,0:21:56.04,Dial-CHI,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}把你的舌头给我
+Dialogue: 0,0:21:52.25,0:21:56.04,Dial-JPN,,0,0,0,,{\c&ffffff\3c&373755\4c&373755}{\blur0.7\bord2}私　寮長の舌が欲しいな
+Dialogue: 0,0:02:00.39,0:02:04.40,Default,,0,0,0,,{\c&88CDD2\bord2\blur0.7\3c&544A26\fnYINGZVKN\fscy120\fs120\fsp15\pos(2311.33,546)}集市
+Dialogue: 0,0:02:04.40,0:02:06.65,Default,,0,0,0,,{\fsp10\fs120\c&CCD3E3\3c&ffffff\bord1\blur1\3c&2D3242\fnHBCDHPZR\pos(1943.33,578.67)\frz356}味噌土豆
+Dialogue: 1,0:02:04.40,0:02:06.65,Default,,0,0,0,,{\fscy80\fsp10\fs120\c&736E6E\3c&736E6E\bord1\fn@HJGDHYYT\frz262.8\pos(3039.66,583.67)}荞麦面
+Dialogue: 0,0:02:04.40,0:02:06.65,Default,,0,0,0,,{\c&F5F3EB\blur5\p1\pos(0,0)\clip()}m 2965.34 573.33 l 3032 573.33 3029.33 624 3021.33 698.67 3005.34 829.33 2994.66 914.67 2909.33 912 2922.67 776 2946.67 642.67
+Dialogue: 0,0:02:06.65,0:02:08.15,Default,,0,0,0,,{\fax-0.2\fsp0\fscx70\fs110\shad4\4c&88B3CD\c&4E636E\frz12.34\pos(1522.97,478.97)}{\3c&5C7582\bord\blur\fnQDOKRNKN\pos(1526,498)}乌冬面
+Dialogue: 0,0:02:06.65,0:02:08.15,Default,,0,0,0,,{\fax-0.2\fsp0\fscx70\fs110\shad4\4c&88B3CD\c&4E636E\frz13.44\pos(1845.13,406.53)}{\3c&5C7582\bord\blur\fnQDOKRNKN\pos(1526,498)}荞麦面
+Dialogue: 0,0:02:08.15,0:02:09.65,Default,,0,0,0,,{\fscx80\c&B8CBD9\bord1\3c&323738\xshad-1\yshad1\4c&323738\4a&77\blur1\fax0.1\fnOFOIONAA\frz353.7\pos(984.38,426)}烤猪肉  鹿肉串
+Dialogue: 1,0:02:39.18,0:02:40.89,Default,,0,0,0,,{\fad(0,313)\fs75\fnDDJEBGXP\c&3C3A41\pos(2407.33,900.66)}学号{\fsp132} {\fsp}E3751073\N学部{\fsp135} {\fsp}理工学部 工程管理\N姓名\N\N出生日期{\fsp32} {\fsp}2004年8月8日\N{\fs85\fnHBCDHPZR}兹证明该生系我校在读学生\N\N{\fnDDJEBGXP\fs75}发证日期{\fsp30} {\fsp}2023年4月1日\N有效期限{\fsp30} {\fsp}见背面封缄
+Dialogue: 1,0:02:39.18,0:02:40.89,Default,,0,0,0,,{\fad(0,313)\fs130\fnDDJEBGXP\c&3C3A41\pos(2658,1053.71)}砺波伊吹
+Dialogue: 0,0:02:39.18,0:02:40.89,Default,,0,0,0,,{\fad(0,313)\alpha&22\blur7\c&FCFBFD\p1\fscx827\fscy673\pos(2348.4,876.4)}m 0 0 l 100 0 100 100 0 100
+Dialogue: 1,0:09:30.05,0:09:32.55,Default,,0,0,0,,{\fsp20\fn@SQDIXLDN\c&97A9BD\3c&584A42\bord3\xshad5\yshad-5\4c&95999C\fs200\frz270\pos(2604.4,815.4)}大学生宿舍
+Dialogue: 0,0:09:30.05,0:09:32.55,Default,,0,0,0,,{\fsp20\fn@SQDIXLDN\c&43362F\fs200\frz270\pos(2604.4,845.4)}大学生宿舍
+Dialogue: 1,0:10:35.57,0:10:37.07,Default,,0,0,0,,{\fnBJFXSNCE\fsp16\pos(1933.87,1563.21)}{\c&DADADB\3c&DADADB\bord0\fs150\an8\pos(1936.54,1536.54)}上伊那牡丹
+Dialogue: 0,0:10:35.57,0:10:37.07,Default,,0,0,0,,{\fnBJFXSNCE\fsp16\pos(1933.87,1563.21)}{\c&DADADB\4c&2F3340\3c&2F3340\be2\bord1\yshad8\fs150\an8\pos(1936.54,1536.54)}上伊那牡丹
+Dialogue: 0,0:13:14.65,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(200,0)\fs150\c&333CCE\fnWYJNLEVZ\pos(1118.33,273.33)}辣辣的？
+Dialogue: 0,0:13:14.40,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(200,0)\fs150\c&9953E4\fnWYJNLEVZ\pos(2360,480)}甜甜的？
+Dialogue: 0,0:13:14.52,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(200,0)\fs150\c&1295E9\fnWYJNLEVZ\pos(1175.93,743.6)}酸酸的
+Dialogue: 0,0:13:14.27,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(200,0)\fs150\fsp-10\c&A73AB7\fnWYJNLEVZ\pos(2253.33,912)}葡萄味
+Dialogue: 0,0:13:13.65,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(0,0)\fax-0.2\fs130\c&3E3D59\3c&FEEBF3\bord40\blur10\fnEDKSWJDO\fsp-20\pos(1784,1048)\clip(m 1782.67 1058 l 1923.78 1058.67 2222 1060 2296 1484 1330 1416 1348 1040)}萌新
+Dialogue: 0,0:13:13.40,0:13:20.65,███ 辅助行 ███,,0,0,0,,{\fad(200,0)\fax-0.2\fs170\c&3E3D59\fnTNPXPWZT\fsp-20\pos(2106.67,1716.67)}大佬
+Dialogue: 0,0:13:14.27,0:13:20.65,Default,,0,0,0,,{\fad(200,0)\fs\c&3E3D59\fnZXIQYQFV\fsp-20\3c&DCE3FE\bord10\blur5\pos(1670.4,1161.6)\clip(m 1634 1162 l 1666 1210 1684 1272 1690 1302 1700 1370 2430 1414 2428 974 1554 1004)}较明显蜂蜜香气
+Dialogue: 0,0:13:14.15,0:13:20.65,Default,,0,0,0,,{\fad(200,0)\c&3E3D59\fnZXIQYQFV\fsp-10\pos(2280.93,1628.27)}风味浓郁
+Dialogue: 0,0:13:14.02,0:13:20.65,Default,,0,0,0,,{\fad(200,0)\c&3E3D59\fnZXIQYQFV\fsp-20\3c&DCE3FE\bord15\blur5\pos(1176.93,1809.06)}些许香草味
+Dialogue: 0,0:18:20.08,0:18:22.08,Default,,0,0,0,,{\c&6E78E4\fscx70\fnMWBSQKDQ\pos(1448.71,381.14)}《软柿子》      {\fs70\fnQUVECKCW}英格玛·伯格曼
+Dialogue: 1,0:21:34.23,0:21:36.23,Default,,0,0,0,,{\fsp15\fnYNRTGLZM\fs180\c&1B1C1F\clip()\frz353.4\pos(1600.3,1417.8)}砺
+Dialogue: 1,0:21:34.23,0:21:36.23,Default,,0,0,0,,{\fsp15\fnYNRTGLZM\fs180\c&1B1C1F\clip()\frz349.7\pos(1770.62,1405.81)}波
+Dialogue: 1,0:21:34.23,0:21:36.23,Default,,0,0,0,,{\fsp15\fnYNRTGLZM\fs200\c&1B1C1F\clip()\frz353.6\pos(1912.71,1401.42)}伊
+Dialogue: 1,0:21:34.23,0:21:36.23,Default,,0,0,0,,{\fsp15\fnYNRTGLZM\fs170\c&1B1C1F\clip()\frz349\pos(2098.68,1419.42)}吹
+Dialogue: 0,0:21:34.23,0:21:36.23,Default,,0,0,0,,{\alpha&22\c&2E3037\blur20\pos(0,0)\p1\clip()}m 1670.86 1460.57 l 2290.29 1449.14 2294.86 1611.43 2169.14 1613.71 1657.14 1606.86 1540.57 1609.14 1547.42 1455.99
+Dialogue: 1,0:07:40.06,0:07:40.10,Default,,0,0,0,,{=8}{\fscx100\fscy100\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.5\pos(1900.8,1570.6)}嗝
+Dialogue: 1,0:07:40.10,0:07:40.14,Default,,0,0,0,,{=8}{\fscx100\fscy100\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.51\pos(1900.77,1569.81)}嗝
+Dialogue: 1,0:07:40.14,0:07:40.18,Default,,0,0,0,,{=8}{\fscx108.72\fscy108.72\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.94,1539.3)}嗝
+Dialogue: 1,0:07:40.18,0:07:40.23,Default,,0,0,0,,{=8}{\fscx108.74\fscy108.74\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.88,1538.54)}嗝
+Dialogue: 1,0:07:40.23,0:07:40.27,Default,,0,0,0,,{=8}{\fscx108.75\fscy108.75\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.84,1537.78)}嗝
+Dialogue: 1,0:07:40.27,0:07:40.31,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.79,1537.08)}嗝
+Dialogue: 1,0:07:40.31,0:07:40.35,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.71\pos(1908.77,1536.28)}嗝
+Dialogue: 1,0:07:40.35,0:07:40.39,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.77,1535.48)}嗝
+Dialogue: 1,0:07:40.39,0:07:40.43,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.79,1534.75)}嗝
+Dialogue: 1,0:07:40.43,0:07:40.48,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.79,1533.96)}嗝
+Dialogue: 1,0:07:40.48,0:07:40.52,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.77,1533.17)}嗝
+Dialogue: 1,0:07:40.52,0:07:40.56,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.75,1532.43)}嗝
+Dialogue: 1,0:07:40.56,0:07:40.60,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.77,1531.63)}嗝
+Dialogue: 1,0:07:40.60,0:07:40.64,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.76,1530.83)}嗝
+Dialogue: 1,0:07:40.64,0:07:40.69,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.71\pos(1908.76,1530.07)}嗝
+Dialogue: 1,0:07:40.69,0:07:40.73,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.77,1529.28)}嗝
+Dialogue: 1,0:07:40.73,0:07:40.77,Default,,0,0,0,,{=8}{\fscx108.78\fscy108.78\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.76,1528.48)}嗝
+Dialogue: 1,0:07:40.77,0:07:40.81,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.78,1527.73)}嗝
+Dialogue: 1,0:07:40.81,0:07:40.85,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.71\pos(1908.76,1526.93)}嗝
+Dialogue: 1,0:07:40.85,0:07:40.89,Default,,0,0,0,,{=8}{\fscx108.77\fscy108.77\alpha&H00&\an3\fsp10\fs190\c&3C3B49\fnXGOAHWTZ\frz5.7\pos(1908.76,1526.15)}嗝
+Dialogue: 0,0:20:00.67,0:20:00.72,Default,,0,0,0,,{=9}{\fscx100\fscy100\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1992.53,1125.33)}咕嘟
+Dialogue: 0,0:20:00.72,0:20:00.76,Default,,0,0,0,,{=9}{\fscx99.71\fscy99.71\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.39\pos(1992.36,1122.06)}咕嘟
+Dialogue: 0,0:20:00.76,0:20:00.80,Default,,0,0,0,,{=9}{\fscx99.41\fscy99.41\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1992.12,1118.84)}咕嘟
+Dialogue: 0,0:20:00.80,0:20:00.84,Default,,0,0,0,,{=9}{\fscx99.12\fscy99.12\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1991.91,1115.64)}咕嘟
+Dialogue: 0,0:20:00.84,0:20:00.88,Default,,0,0,0,,{=9}{\fscx98.83\fscy98.83\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1991.7,1112.45)}咕嘟
+Dialogue: 0,0:20:00.88,0:20:00.92,Default,,0,0,0,,{=9}{\fscx98.54\fscy98.54\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1991.49,1109.25)}咕嘟
+Dialogue: 0,0:20:00.92,0:20:00.97,Default,,0,0,0,,{=9}{\fscx98.24\fscy98.24\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1991.27,1106.13)}咕嘟
+Dialogue: 0,0:20:00.97,0:20:01.01,Default,,0,0,0,,{=9}{\fscx97.96\fscy97.96\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1991.04,1102.99)}咕嘟
+Dialogue: 0,0:20:01.01,0:20:01.05,Default,,0,0,0,,{=9}{\fscx97.66\fscy97.66\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1990.85,1099.85)}咕嘟
+Dialogue: 0,0:20:01.05,0:20:01.09,Default,,0,0,0,,{=9}{\fscx97.37\fscy97.37\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1990.64,1096.78)}咕嘟
+Dialogue: 0,0:20:01.09,0:20:01.13,Default,,0,0,0,,{=9}{\fscx97.07\fscy97.07\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1990.41,1093.69)}咕嘟
+Dialogue: 0,0:20:01.13,0:20:01.17,Default,,0,0,0,,{=9}{\fscx96.79\fscy96.79\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1990.2,1090.61)}咕嘟
+Dialogue: 0,0:20:01.17,0:20:01.22,Default,,0,0,0,,{=9}{\fscx96.5\fscy96.5\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1989.99,1087.59)}咕嘟
+Dialogue: 0,0:20:01.22,0:20:01.26,Default,,0,0,0,,{=9}{\fscx96.21\fscy96.21\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1989.79,1084.54)}咕嘟
+Dialogue: 0,0:20:01.26,0:20:01.30,Default,,0,0,0,,{=9}{\fscx95.92\fscy95.92\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1989.57,1081.52)}咕嘟
+Dialogue: 0,0:20:01.30,0:20:01.34,Default,,0,0,0,,{=9}{\fscx95.62\fscy95.62\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1989.36,1078.54)}咕嘟
+Dialogue: 0,0:20:01.34,0:20:01.38,Default,,0,0,0,,{=9}{\fscx95.34\fscy95.34\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1989.15,1075.57)}咕嘟
+Dialogue: 0,0:20:01.38,0:20:01.43,Default,,0,0,0,,{=9}{\fscx95.05\fscy95.05\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1988.95,1072.64)}咕嘟
+Dialogue: 0,0:20:01.43,0:20:01.47,Default,,0,0,0,,{=9}{\fscx94.76\fscy94.76\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1988.72,1069.7)}咕嘟
+Dialogue: 0,0:20:01.47,0:20:01.51,Default,,0,0,0,,{=9}{\fscx94.47\fscy94.47\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1988.51,1066.76)}咕嘟
+Dialogue: 0,0:20:01.51,0:20:01.55,Default,,0,0,0,,{=9}{\fscx94.17\fscy94.17\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1988.29,1063.87)}咕嘟
+Dialogue: 0,0:20:01.55,0:20:01.59,Default,,0,0,0,,{=9}{\fscx93.87\fscy93.87\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1988.07,1060.95)}咕嘟
+Dialogue: 0,0:20:01.59,0:20:01.63,Default,,0,0,0,,{=9}{\fscx93.58\fscy93.58\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1987.85,1058.1)}咕嘟
+Dialogue: 0,0:20:01.63,0:20:01.68,Default,,0,0,0,,{=9}{\fscx93.3\fscy93.3\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1987.66,1055.28)}咕嘟
+Dialogue: 0,0:20:01.68,0:20:01.72,Default,,0,0,0,,{=9}{\fscx93.01\fscy93.01\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1987.43,1052.42)}咕嘟
+Dialogue: 0,0:20:01.72,0:20:01.76,Default,,0,0,0,,{=9}{\fscx92.71\fscy92.71\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1987.22,1049.6)}咕嘟
+Dialogue: 0,0:20:01.76,0:20:01.80,Default,,0,0,0,,{=9}{\fscx92.42\fscy92.42\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1987.01,1046.83)}咕嘟
+Dialogue: 0,0:20:01.80,0:20:01.84,Default,,0,0,0,,{=9}{\fscx92.13\fscy92.13\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1986.79,1044.02)}咕嘟
+Dialogue: 0,0:20:01.84,0:20:01.88,Default,,0,0,0,,{=9}{\fscx91.84\fscy91.84\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1986.57,1041.25)}咕嘟
+Dialogue: 0,0:20:01.88,0:20:01.93,Default,,0,0,0,,{=9}{\fscx91.54\fscy91.54\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1986.37,1038.53)}咕嘟
+Dialogue: 0,0:20:01.93,0:20:01.97,Default,,0,0,0,,{=9}{\fscx91.26\fscy91.26\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1986.16,1035.79)}咕嘟
+Dialogue: 0,0:20:01.97,0:20:02.01,Default,,0,0,0,,{=9}{\fscx90.97\fscy90.97\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1985.95,1033.1)}咕嘟
+Dialogue: 0,0:20:02.01,0:20:02.05,Default,,0,0,0,,{=9}{\fscx90.68\fscy90.68\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1985.72,1030.42)}咕嘟
+Dialogue: 0,0:20:02.05,0:20:02.09,Default,,0,0,0,,{=9}{\fscx90.38\fscy90.38\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1985.5,1027.71)}咕嘟
+Dialogue: 0,0:20:02.09,0:20:02.13,Default,,0,0,0,,{=9}{\fscx90.09\fscy90.09\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.42\pos(1985.29,1025.11)}咕嘟
+Dialogue: 0,0:20:02.13,0:20:02.18,Default,,0,0,0,,{=9}{\fscx89.81\fscy89.81\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1985.08,1022.46)}咕嘟
+Dialogue: 0,0:20:02.18,0:20:02.22,Default,,0,0,0,,{=9}{\fscx89.51\fscy89.51\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1984.87,1019.83)}咕嘟
+Dialogue: 0,0:20:02.22,0:20:02.26,Default,,0,0,0,,{=9}{\fscx89.22\fscy89.22\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1984.65,1017.26)}咕嘟
+Dialogue: 0,0:20:02.26,0:20:02.30,Default,,0,0,0,,{=9}{\fscx88.92\fscy88.92\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.42\pos(1984.43,1014.65)}咕嘟
+Dialogue: 0,0:20:02.30,0:20:02.34,Default,,0,0,0,,{=9}{\fscx88.64\fscy88.64\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1984.23,1012.07)}咕嘟
+Dialogue: 0,0:20:02.34,0:20:02.38,Default,,0,0,0,,{=9}{\fscx88.34\fscy88.34\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.42\pos(1984.02,1009.54)}咕嘟
+Dialogue: 0,0:20:02.38,0:20:02.43,Default,,0,0,0,,{=9}{\fscx88.06\fscy88.06\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1983.8,1006.99)}咕嘟
+Dialogue: 0,0:20:02.43,0:20:02.47,Default,,0,0,0,,{=9}{\fscx87.77\fscy87.77\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1983.58,1004.49)}咕嘟
+Dialogue: 0,0:20:02.47,0:20:02.51,Default,,0,0,0,,{=9}{\fscx87.48\fscy87.48\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1983.36,1001.99)}咕嘟
+Dialogue: 0,0:20:02.51,0:20:02.55,Default,,0,0,0,,{=9}{\fscx87.19\fscy87.19\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1983.17,999.52)}咕嘟
+Dialogue: 0,0:20:02.55,0:20:02.59,Default,,0,0,0,,{=9}{\fscx86.89\fscy86.89\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.4\pos(1982.94,997.07)}咕嘟
+Dialogue: 0,0:20:02.59,0:20:02.63,Default,,0,0,0,,{=9}{\fscx86.6\fscy86.6\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1982.73,994.64)}咕嘟
+Dialogue: 0,0:20:02.63,0:20:02.68,Default,,0,0,0,,{=9}{\fscx86.31\fscy86.31\alpha&H00&\fs200\c&333256\fn@NQVXDRFO\frz275.41\pos(1982.51,992.2)}咕嘟
+Dialogue: 0,0:20:02.68,0:20:02.72,Default,,0,0,0,,{=11}{\fscx100\fscy100\alpha&H00&\fs250\bord4\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(795.2,1096)\frz291.1}好 喝
+Dialogue: 0,0:20:02.72,0:20:02.76,Default,,0,0,0,,{=11}{\fscx99.66\fscy99.66\alpha&H00&\fs250\bord3.99\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(795.75,1094.13)\frz291.1}好 喝
+Dialogue: 0,0:20:02.76,0:20:02.80,Default,,0,0,0,,{=11}{\fscx99.32\fscy99.32\alpha&H00&\fs250\bord3.97\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(796.41,1092.31)\frz291.1}好 喝
+Dialogue: 0,0:20:02.80,0:20:02.84,Default,,0,0,0,,{=11}{\fscx98.99\fscy98.99\alpha&H00&\fs250\bord3.96\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(796.95,1090.43)\frz291.1}好 喝
+Dialogue: 0,0:20:02.84,0:20:02.88,Default,,0,0,0,,{=11}{\fscx98.65\fscy98.65\alpha&H00&\fs250\bord3.95\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(797.58,1088.63)\frz291.1}好 喝
+Dialogue: 0,0:20:02.88,0:20:02.93,Default,,0,0,0,,{=11}{\fscx98.3\fscy98.3\alpha&H00&\fs250\bord3.93\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(798.3,1086.82)\frz291.1}好 喝
+Dialogue: 0,0:20:02.93,0:20:02.97,Default,,0,0,0,,{=11}{\fscx97.97\fscy97.97\alpha&H00&\fs250\bord3.92\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(798.97,1085.03)\frz291.1}好 喝
+Dialogue: 0,0:20:02.97,0:20:03.01,Default,,0,0,0,,{=11}{\fscx97.63\fscy97.63\alpha&H00&\fs250\bord3.91\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(799.64,1083.27)\frz291.1}好 喝
+Dialogue: 0,0:20:03.01,0:20:03.05,Default,,0,0,0,,{=11}{\fscx97.29\fscy97.29\alpha&H00&\fs250\bord3.89\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(800.38,1081.52)\frz291.11}好 喝
+Dialogue: 0,0:20:03.05,0:20:03.09,Default,,0,0,0,,{=11}{\fscx96.96\fscy96.96\alpha&H00&\fs250\bord3.88\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(801.11,1079.74)\frz291.1}好 喝
+Dialogue: 0,0:20:03.09,0:20:03.14,Default,,0,0,0,,{=11}{\fscx96.62\fscy96.62\alpha&H00&\fs250\bord3.86\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(801.89,1077.96)\frz291.1}好 喝
+Dialogue: 0,0:20:03.14,0:20:03.18,Default,,0,0,0,,{=11}{\fscx96.28\fscy96.28\alpha&H00&\fs250\bord3.85\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(802.67,1076.19)\frz291.1}好 喝
+Dialogue: 0,0:20:03.18,0:20:03.22,Default,,0,0,0,,{=11}{\fscx95.93\fscy95.93\alpha&H00&\fs250\bord3.84\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(803.49,1074.51)\frz291.11}好 喝
+Dialogue: 0,0:20:03.22,0:20:03.26,Default,,0,0,0,,{=11}{\fscx95.6\fscy95.6\alpha&H00&\fs250\bord3.82\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(804.29,1072.8)\frz291.1}好 喝
+Dialogue: 0,0:20:03.26,0:20:03.30,Default,,0,0,0,,{=11}{\fscx95.25\fscy95.25\alpha&H00&\fs250\bord3.81\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(805.2,1071.1)\frz291.11}好 喝
+Dialogue: 0,0:20:03.30,0:20:03.34,Default,,0,0,0,,{=11}{\fscx94.92\fscy94.92\alpha&H00&\fs250\bord3.8\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(806.1,1069.4)\frz291.1}好 喝
+Dialogue: 0,0:20:03.34,0:20:03.39,Default,,0,0,0,,{=11}{\fscx94.58\fscy94.58\alpha&H00&\fs250\bord3.78\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(806.97,1067.73)\frz291.1}好 喝
+Dialogue: 0,0:20:03.39,0:20:03.43,Default,,0,0,0,,{=11}{\fscx94.24\fscy94.24\alpha&H00&\fs250\bord3.77\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(807.95,1066.08)\frz291.1}好 喝
+Dialogue: 0,0:20:03.43,0:20:03.47,Default,,0,0,0,,{=11}{\fscx93.9\fscy93.9\alpha&H00&\fs250\bord3.76\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(808.9,1064.39)\frz291.1}好 喝
+Dialogue: 0,0:20:03.47,0:20:03.51,Default,,0,0,0,,{=11}{\fscx93.55\fscy93.55\alpha&H00&\fs250\bord3.74\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(809.85,1062.77)\frz291.1}好 喝
+Dialogue: 0,0:20:03.51,0:20:03.55,Default,,0,0,0,,{=11}{\fscx93.22\fscy93.22\alpha&H00&\fs250\bord3.73\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(810.83,1061.14)\frz291.11}好 喝
+Dialogue: 0,0:20:03.55,0:20:03.59,Default,,0,0,0,,{=11}{\fscx92.88\fscy92.88\alpha&H00&\fs250\bord3.72\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(811.85,1059.5)\frz291.1}好 喝
+Dialogue: 0,0:20:03.59,0:20:03.64,Default,,0,0,0,,{=11}{\fscx92.54\fscy92.54\alpha&H00&\fs250\bord3.7\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(812.87,1057.91)\frz291.11}好 喝
+Dialogue: 0,0:20:03.64,0:20:03.68,Default,,0,0,0,,{=11}{\fscx92.2\fscy92.2\alpha&H00&\fs250\bord3.69\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(813.94,1056.31)\frz291.1}好 喝
+Dialogue: 0,0:20:03.68,0:20:03.72,Default,,0,0,0,,{=11}{\fscx91.87\fscy91.87\alpha&H00&\fs250\bord3.67\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(815.06,1054.7)\frz291.1}好 喝
+Dialogue: 0,0:20:03.72,0:20:03.76,Default,,0,0,0,,{=11}{\fscx91.53\fscy91.53\alpha&H00&\fs250\bord3.66\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(816.13,1053.16)\frz291.1}好 喝
+Dialogue: 0,0:20:03.76,0:20:03.80,Default,,0,0,0,,{=11}{\fscx91.19\fscy91.19\alpha&H00&\fs250\bord3.65\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(817.24,1051.6)\frz291.1}好 喝
+Dialogue: 0,0:20:03.80,0:20:03.84,Default,,0,0,0,,{=11}{\fscx90.85\fscy90.85\alpha&H00&\fs250\bord3.63\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(818.4,1050.05)\frz291.1}好 喝
+Dialogue: 0,0:20:03.84,0:20:03.89,Default,,0,0,0,,{=11}{\fscx90.51\fscy90.51\alpha&H00&\fs250\bord3.62\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(819.56,1048.52)\frz291.11}好 喝
+Dialogue: 0,0:20:03.89,0:20:03.93,Default,,0,0,0,,{=11}{\fscx90.18\fscy90.18\alpha&H00&\fs250\bord3.61\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(820.76,1046.98)\frz291.1}好 喝
+Dialogue: 0,0:20:03.93,0:20:03.97,Default,,0,0,0,,{=11}{\fscx89.84\fscy89.84\alpha&H00&\fs250\bord3.59\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(821.94,1045.46)\frz291.1}好 喝
+Dialogue: 0,0:20:03.97,0:20:04.01,Default,,0,0,0,,{=11}{\fscx89.5\fscy89.5\alpha&H00&\fs250\bord3.58\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(823.16,1043.94)\frz291.1}好 喝
+Dialogue: 0,0:20:04.01,0:20:04.05,Default,,0,0,0,,{=11}{\fscx89.17\fscy89.17\alpha&H00&\fs250\bord3.57\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(824.4,1042.45)\frz291.1}好 喝
+Dialogue: 0,0:20:04.05,0:20:04.09,Default,,0,0,0,,{=11}{\fscx88.82\fscy88.82\alpha&H00&\fs250\bord3.55\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(825.73,1040.97)\frz291.1}好 喝
+Dialogue: 0,0:20:04.09,0:20:04.14,Default,,0,0,0,,{=11}{\fscx88.48\fscy88.48\alpha&H00&\fs250\bord3.54\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(826.98,1039.56)\frz291.11}好 喝
+Dialogue: 0,0:20:04.14,0:20:04.18,Default,,0,0,0,,{=11}{\fscx88.15\fscy88.15\alpha&H00&\fs250\bord3.53\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(828.29,1038.1)\frz291.11}好 喝
+Dialogue: 0,0:20:04.18,0:20:04.22,Default,,0,0,0,,{=11}{\fscx87.81\fscy87.81\alpha&H00&\fs250\bord3.51\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(829.67,1036.63)\frz291.1}好 喝
+Dialogue: 0,0:20:04.22,0:20:04.26,Default,,0,0,0,,{=11}{\fscx87.47\fscy87.47\alpha&H00&\fs250\bord3.5\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(831.04,1035.22)\frz291.11}好 喝
+Dialogue: 0,0:20:04.26,0:20:04.30,Default,,0,0,0,,{=11}{\fscx87.13\fscy87.13\alpha&H00&\fs250\bord3.49\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(832.44,1033.77)\frz291.1}好 喝
+Dialogue: 0,0:20:04.30,0:20:04.34,Default,,0,0,0,,{=11}{\fscx86.8\fscy86.8\alpha&H00&\fs250\bord3.47\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(833.84,1032.33)\frz291.1}好 喝
+Dialogue: 0,0:20:04.34,0:20:04.39,Default,,0,0,0,,{=11}{\fscx86.45\fscy86.45\alpha&H00&\fs250\bord3.46\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(835.26,1030.97)\frz291.11}好 喝
+Dialogue: 0,0:20:04.39,0:20:04.43,Default,,0,0,0,,{=11}{\fscx86.11\fscy86.11\alpha&H00&\fs250\bord3.44\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(836.76,1029.57)\frz291.1}好 喝
+Dialogue: 0,0:20:04.43,0:20:04.47,Default,,0,0,0,,{=11}{\fscx85.78\fscy85.78\alpha&H00&\fs250\bord3.43\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(838.21,1028.18)\frz291.1}好 喝
+Dialogue: 0,0:20:04.47,0:20:04.51,Default,,0,0,0,,{=11}{\fscx85.44\fscy85.44\alpha&H00&\fs250\bord3.42\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(839.7,1026.84)\frz291.1}好 喝
+Dialogue: 0,0:20:04.51,0:20:04.55,Default,,0,0,0,,{=11}{\fscx85.1\fscy85.1\alpha&H00&\fs250\bord3.4\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(841.22,1025.5)\frz291.1}好 喝
+Dialogue: 0,0:20:04.55,0:20:04.59,Default,,0,0,0,,{=11}{\fscx84.76\fscy84.76\alpha&H00&\fs250\bord3.39\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(842.76,1024.17)\frz291.11}好 喝
+Dialogue: 0,0:20:04.59,0:20:04.64,Default,,0,0,0,,{=11}{\fscx84.42\fscy84.42\alpha&H00&\fs250\bord3.38\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(844.32,1022.85)\frz291.11}好 喝
+Dialogue: 0,0:20:04.64,0:20:04.68,Default,,0,0,0,,{=11}{\fscx84.09\fscy84.09\alpha&H00&\fs250\bord3.36\3c&9F57CB\c&DEA8FF\fn@KKNTQBMQ\pos(845.87,1021.57)\frz291.11}好 喝
+Dialogue: 0,0:20:04.68,0:20:04.72,Default,,0,0,0,,{=12}{\fscx100\fscy100\alpha&H00&\fsp15\fs200\bord3.5\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1279.66,882.66)\frz264.3}再来点
+Dialogue: 0,0:20:04.72,0:20:04.76,Default,,0,0,0,,{=12}{\fscx99.59\fscy99.59\alpha&H00&\fsp15\fs200\bord3.49\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1279.99,882.25)\frz264.31}再来点
+Dialogue: 0,0:20:04.76,0:20:04.80,Default,,0,0,0,,{=12}{\fscx99.19\fscy99.19\alpha&H00&\fsp15\fs200\bord3.47\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1280.37,881.86)\frz264.3}再来点
+Dialogue: 0,0:20:04.80,0:20:04.85,Default,,0,0,0,,{=12}{\fscx98.79\fscy98.79\alpha&H00&\fsp15\fs200\bord3.46\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1280.77,881.49)\frz264.3}再来点
+Dialogue: 0,0:20:04.85,0:20:04.89,Default,,0,0,0,,{=12}{\fscx98.37\fscy98.37\alpha&H00&\fsp15\fs200\bord3.44\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1281.19,881.11)\frz264.31}再来点
+Dialogue: 0,0:20:04.89,0:20:04.93,Default,,0,0,0,,{=12}{\fscx97.98\fscy97.98\alpha&H00&\fsp15\fs200\bord3.43\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1281.59,880.77)\frz264.3}再来点
+Dialogue: 0,0:20:04.93,0:20:04.97,Default,,0,0,0,,{=12}{\fscx97.57\fscy97.57\alpha&H00&\fsp15\fs200\bord3.41\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1282.06,880.44)\frz264.3}再来点
+Dialogue: 0,0:20:04.97,0:20:05.01,Default,,0,0,0,,{=12}{\fscx97.17\fscy97.17\alpha&H00&\fsp15\fs200\bord3.4\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1282.48,880.08)\frz264.31}再来点
+Dialogue: 0,0:20:05.01,0:20:05.05,Default,,0,0,0,,{=12}{\fscx96.77\fscy96.77\alpha&H00&\fsp15\fs200\bord3.39\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1283.01,879.74)\frz264.3}再来点
+Dialogue: 0,0:20:05.05,0:20:05.10,Default,,0,0,0,,{=12}{\fscx96.37\fscy96.37\alpha&H00&\fsp15\fs200\bord3.37\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1283.49,879.41)\frz264.29}再来点
+Dialogue: 0,0:20:05.10,0:20:05.14,Default,,0,0,0,,{=12}{\fscx95.96\fscy95.96\alpha&H00&\fsp15\fs200\bord3.36\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1283.99,879.09)\frz264.3}再来点
+Dialogue: 0,0:20:05.14,0:20:05.18,Default,,0,0,0,,{=12}{\fscx95.55\fscy95.55\alpha&H00&\fsp15\fs200\bord3.34\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1284.55,878.78)\frz264.3}再来点
+Dialogue: 0,0:20:05.18,0:20:05.22,Default,,0,0,0,,{=12}{\fscx95.16\fscy95.16\alpha&H00&\fsp15\fs200\bord3.33\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1285.09,878.48)\frz264.29}再来点
+Dialogue: 0,0:20:05.22,0:20:05.26,Default,,0,0,0,,{=12}{\fscx94.75\fscy94.75\alpha&H00&\fsp15\fs200\bord3.32\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1285.65,878.2)\frz264.3}再来点
+Dialogue: 0,0:20:05.26,0:20:05.30,Default,,0,0,0,,{=12}{\fscx94.34\fscy94.34\alpha&H00&\fsp15\fs200\bord3.3\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1286.26,877.9)\frz264.3}再来点
+Dialogue: 0,0:20:05.30,0:20:05.35,Default,,0,0,0,,{=12}{\fscx93.94\fscy93.94\alpha&H00&\fsp15\fs200\bord3.29\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1286.85,877.64)\frz264.29}再来点
+Dialogue: 0,0:20:05.35,0:20:05.39,Default,,0,0,0,,{=12}{\fscx93.54\fscy93.54\alpha&H00&\fsp15\fs200\bord3.27\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1287.5,877.37)\frz264.29}再来点
+Dialogue: 0,0:20:05.39,0:20:05.43,Default,,0,0,0,,{=12}{\fscx93.12\fscy93.12\alpha&H00&\fsp15\fs200\bord3.26\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1288.13,877.13)\frz264.3}再来点
+Dialogue: 0,0:20:05.43,0:20:05.47,Default,,0,0,0,,{=12}{\fscx92.72\fscy92.72\alpha&H00&\fsp15\fs200\bord3.25\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1288.79,876.91)\frz264.3}再来点
+Dialogue: 0,0:20:05.47,0:20:05.51,Default,,0,0,0,,{=12}{\fscx92.33\fscy92.33\alpha&H00&\fsp15\fs200\bord3.23\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1289.48,876.67)\frz264.29}再来点
+Dialogue: 0,0:20:05.51,0:20:05.55,Default,,0,0,0,,{=12}{\fscx91.91\fscy91.91\alpha&H00&\fsp15\fs200\bord3.22\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1290.17,876.45)\frz264.3}再来点
+Dialogue: 0,0:20:05.55,0:20:05.60,Default,,0,0,0,,{=12}{\fscx91.51\fscy91.51\alpha&H00&\fsp15\fs200\bord3.2\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1290.89,876.22)\frz264.3}再来点
+Dialogue: 0,0:20:05.60,0:20:05.64,Default,,0,0,0,,{=12}{\fscx91.1\fscy91.1\alpha&H00&\fsp15\fs200\bord3.19\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1291.63,876.06)\frz264.31}再来点
+Dialogue: 0,0:20:05.64,0:20:05.68,Default,,0,0,0,,{=12}{\fscx90.7\fscy90.7\alpha&H00&\fsp15\fs200\bord3.17\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1292.38,875.84)\frz264.3}再来点
+Dialogue: 0,0:20:05.68,0:20:05.72,Default,,0,0,0,,{=12}{\fscx90.3\fscy90.3\alpha&H00&\fsp15\fs200\bord3.16\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1293.16,875.64)\frz264.3}再来点
+Dialogue: 0,0:20:05.72,0:20:05.76,Default,,0,0,0,,{=12}{\fscx89.89\fscy89.89\alpha&H00&\fsp15\fs200\bord3.15\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1293.96,875.47)\frz264.3}再来点
+Dialogue: 0,0:20:05.76,0:20:05.80,Default,,0,0,0,,{=12}{\fscx89.49\fscy89.49\alpha&H00&\fsp15\fs200\bord3.13\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1294.76,875.27)\frz264.29}再来点
+Dialogue: 0,0:20:05.80,0:20:05.85,Default,,0,0,0,,{=12}{\fscx89.08\fscy89.08\alpha&H00&\fsp15\fs200\bord3.12\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1295.62,875.11)\frz264.3}再来点
+Dialogue: 0,0:20:05.85,0:20:05.89,Default,,0,0,0,,{=12}{\fscx88.68\fscy88.68\alpha&H00&\fsp15\fs200\bord3.1\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1296.41,875)\frz264.3}再来点
+Dialogue: 0,0:20:05.89,0:20:05.93,Default,,0,0,0,,{=12}{\fscx88.26\fscy88.26\alpha&H00&\fsp15\fs200\bord3.09\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1297.3,874.85)\frz264.31}再来点
+Dialogue: 0,0:20:05.93,0:20:05.97,Default,,0,0,0,,{=12}{\fscx87.87\fscy87.87\alpha&H00&\fsp15\fs200\bord3.08\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1298.16,874.7)\frz264.31}再来点
+Dialogue: 0,0:20:05.97,0:20:06.01,Default,,0,0,0,,{=12}{\fscx87.47\fscy87.47\alpha&H00&\fsp15\fs200\bord3.06\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1299.04,874.6)\frz264.3}再来点
+Dialogue: 0,0:20:06.01,0:20:06.05,Default,,0,0,0,,{=12}{\fscx87.06\fscy87.06\alpha&H00&\fsp15\fs200\bord3.05\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1299.99,874.49)\frz264.3}再来点
+Dialogue: 0,0:20:06.05,0:20:06.10,Default,,0,0,0,,{=12}{\fscx86.66\fscy86.66\alpha&H00&\fsp15\fs200\bord3.03\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1300.9,874.36)\frz264.3}再来点
+Dialogue: 0,0:20:06.10,0:20:06.14,Default,,0,0,0,,{=12}{\fscx86.26\fscy86.26\alpha&H00&\fsp15\fs200\bord3.02\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1301.86,874.29)\frz264.3}再来点
+Dialogue: 0,0:20:06.14,0:20:06.18,Default,,0,0,0,,{=12}{\fscx85.85\fscy85.85\alpha&H00&\fsp15\fs200\bord3\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1302.84,874.21)\frz264.3}再来点
+Dialogue: 0,0:20:06.18,0:20:06.22,Default,,0,0,0,,{=12}{\fscx85.44\fscy85.44\alpha&H00&\fsp15\fs200\bord2.99\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1303.81,874.11)\frz264.31}再来点
+Dialogue: 0,0:20:06.22,0:20:06.26,Default,,0,0,0,,{=12}{\fscx85.04\fscy85.04\alpha&H00&\fsp15\fs200\bord2.98\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1304.83,874.04)\frz264.3}再来点
+Dialogue: 0,0:20:06.26,0:20:06.30,Default,,0,0,0,,{=12}{\fscx84.64\fscy84.64\alpha&H00&\fsp15\fs200\bord2.96\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1305.88,873.95)\frz264.29}再来点
+Dialogue: 0,0:20:06.30,0:20:06.35,Default,,0,0,0,,{=12}{\fscx84.23\fscy84.23\alpha&H00&\fsp15\fs200\bord2.95\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1306.89,873.91)\frz264.3}再来点
+Dialogue: 0,0:20:06.35,0:20:06.39,Default,,0,0,0,,{=12}{\fscx83.83\fscy83.83\alpha&H00&\fsp15\fs200\bord2.93\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1307.99,873.86)\frz264.29}再来点
+Dialogue: 0,0:20:06.39,0:20:06.43,Default,,0,0,0,,{=12}{\fscx83.42\fscy83.42\alpha&H00&\fsp15\fs200\bord2.92\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1309.04,873.86)\frz264.3}再来点
+Dialogue: 0,0:20:06.43,0:20:06.47,Default,,0,0,0,,{=12}{\fscx83.03\fscy83.03\alpha&H00&\fsp15\fs200\bord2.91\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1310.11,873.81)\frz264.29}再来点
+Dialogue: 0,0:20:06.47,0:20:06.51,Default,,0,0,0,,{=12}{\fscx82.61\fscy82.61\alpha&H00&\fsp15\fs200\bord2.89\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1311.26,873.81)\frz264.3}再来点
+Dialogue: 0,0:20:06.51,0:20:06.56,Default,,0,0,0,,{=12}{\fscx82.22\fscy82.22\alpha&H00&\fsp15\fs200\bord2.88\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1312.39,873.8)\frz264.29}再来点
+Dialogue: 0,0:20:06.56,0:20:06.60,Default,,0,0,0,,{=12}{\fscx81.83\fscy81.83\alpha&H00&\fsp15\fs200\bord2.86\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1313.53,873.79)\frz264.28}再来点
+Dialogue: 0,0:20:06.60,0:20:06.64,Default,,0,0,0,,{=12}{\fscx81.41\fscy81.41\alpha&H00&\fsp15\fs200\bord2.85\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1314.72,873.8)\frz264.29}再来点
+Dialogue: 0,0:20:06.64,0:20:06.68,Default,,0,0,0,,{=12}{\fscx81.01\fscy81.01\alpha&H00&\fsp15\fs200\bord2.84\3c&142ED8\c&4E7DF4\fn@KKNTQBMQ\pos(1315.91,873.82)\frz264.29}再来点
+Dialogue: 0,0:20:06.68,0:20:06.72,Default,,0,0,0,,{=16}{\fscx100\fscy100\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1965.72,1092.57)}咕嘟
+Dialogue: 0,0:20:06.72,0:20:06.76,Default,,0,0,0,,{=16}{\fscx99.51\fscy99.51\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1965.48,1090.62)}咕嘟
+Dialogue: 0,0:20:06.76,0:20:06.81,Default,,0,0,0,,{=16}{\fscx99\fscy99\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1965.26,1088.71)}咕嘟
+Dialogue: 0,0:20:06.81,0:20:06.85,Default,,0,0,0,,{=16}{\fscx98.51\fscy98.51\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1965.03,1086.84)}咕嘟
+Dialogue: 0,0:20:06.85,0:20:06.89,Default,,0,0,0,,{=16}{\fscx98\fscy98\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1964.8,1084.96)}咕嘟
+Dialogue: 0,0:20:06.89,0:20:06.93,Default,,0,0,0,,{=16}{\fscx97.5\fscy97.5\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1964.55,1083.09)}咕嘟
+Dialogue: 0,0:20:06.93,0:20:06.97,Default,,0,0,0,,{=16}{\fscx97\fscy97\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1964.31,1081.25)}咕嘟
+Dialogue: 0,0:20:06.97,0:20:07.01,Default,,0,0,0,,{=16}{\fscx96.5\fscy96.5\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1964.09,1079.42)}咕嘟
+Dialogue: 0,0:20:07.01,0:20:07.06,Default,,0,0,0,,{=16}{\fscx95.99\fscy95.99\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1963.85,1077.63)}咕嘟
+Dialogue: 0,0:20:07.06,0:20:07.10,Default,,0,0,0,,{=16}{\fscx95.51\fscy95.51\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1963.63,1075.85)}咕嘟
+Dialogue: 0,0:20:07.10,0:20:07.14,Default,,0,0,0,,{=16}{\fscx94.99\fscy94.99\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1963.41,1074.05)}咕嘟
+Dialogue: 0,0:20:07.14,0:20:07.18,Default,,0,0,0,,{=16}{\fscx94.49\fscy94.49\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1963.15,1072.33)}咕嘟
+Dialogue: 0,0:20:07.18,0:20:07.22,Default,,0,0,0,,{=16}{\fscx93.98\fscy93.98\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1962.9,1070.58)}咕嘟
+Dialogue: 0,0:20:07.22,0:20:07.26,Default,,0,0,0,,{=16}{\fscx93.48\fscy93.48\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1962.68,1068.85)}咕嘟
+Dialogue: 0,0:20:07.26,0:20:07.31,Default,,0,0,0,,{=16}{\fscx92.97\fscy92.97\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1962.45,1067.17)}咕嘟
+Dialogue: 0,0:20:07.31,0:20:07.35,Default,,0,0,0,,{=16}{\fscx92.48\fscy92.48\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1962.22,1065.48)}咕嘟
+Dialogue: 0,0:20:07.35,0:20:07.39,Default,,0,0,0,,{=16}{\fscx91.98\fscy91.98\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1961.98,1063.82)}咕嘟
+Dialogue: 0,0:20:07.39,0:20:07.43,Default,,0,0,0,,{=16}{\fscx91.48\fscy91.48\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1961.75,1062.17)}咕嘟
+Dialogue: 0,0:20:07.43,0:20:07.47,Default,,0,0,0,,{=16}{\fscx90.98\fscy90.98\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1961.51,1060.53)}咕嘟
+Dialogue: 0,0:20:07.47,0:20:07.51,Default,,0,0,0,,{=16}{\fscx90.47\fscy90.47\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1961.28,1058.92)}咕嘟
+Dialogue: 0,0:20:07.51,0:20:07.56,Default,,0,0,0,,{=16}{\fscx89.97\fscy89.97\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1961.05,1057.36)}咕嘟
+Dialogue: 0,0:20:07.56,0:20:07.60,Default,,0,0,0,,{=16}{\fscx89.48\fscy89.48\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1960.83,1055.77)}咕嘟
+Dialogue: 0,0:20:07.60,0:20:07.64,Default,,0,0,0,,{=16}{\fscx88.97\fscy88.97\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1960.58,1054.23)}咕嘟
+Dialogue: 0,0:20:07.64,0:20:07.68,Default,,0,0,0,,{=16}{\fscx88.46\fscy88.46\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1960.35,1052.68)}咕嘟
+Dialogue: 0,0:20:07.68,0:20:07.72,Default,,0,0,0,,{=16}{\fscx87.97\fscy87.97\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1960.12,1051.17)}咕嘟
+Dialogue: 0,0:20:07.72,0:20:07.76,Default,,0,0,0,,{=16}{\fscx87.47\fscy87.47\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1959.88,1049.67)}咕嘟
+Dialogue: 0,0:20:07.76,0:20:07.81,Default,,0,0,0,,{=16}{\fscx86.96\fscy86.96\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1959.65,1048.18)}咕嘟
+Dialogue: 0,0:20:07.81,0:20:07.85,Default,,0,0,0,,{=16}{\fscx86.46\fscy86.46\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1959.41,1046.71)}咕嘟
+Dialogue: 0,0:20:07.85,0:20:07.89,Default,,0,0,0,,{=16}{\fscx85.96\fscy85.96\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1959.17,1045.28)}咕嘟
+Dialogue: 0,0:20:07.89,0:20:07.93,Default,,0,0,0,,{=16}{\fscx85.45\fscy85.45\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1958.93,1043.84)}咕嘟
+Dialogue: 0,0:20:07.93,0:20:07.97,Default,,0,0,0,,{=16}{\fscx84.94\fscy84.94\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1958.72,1042.41)}咕嘟
+Dialogue: 0,0:20:07.97,0:20:08.01,Default,,0,0,0,,{=16}{\fscx84.46\fscy84.46\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1958.49,1041.05)}咕嘟
+Dialogue: 0,0:20:08.01,0:20:08.06,Default,,0,0,0,,{=16}{\fscx83.95\fscy83.95\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1958.25,1039.67)}咕嘟
+Dialogue: 0,0:20:08.06,0:20:08.10,Default,,0,0,0,,{=16}{\fscx83.45\fscy83.45\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1958.02,1038.32)}咕嘟
+Dialogue: 0,0:20:08.10,0:20:08.14,Default,,0,0,0,,{=16}{\fscx82.93\fscy82.93\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1957.78,1036.96)}咕嘟
+Dialogue: 0,0:20:08.14,0:20:08.18,Default,,0,0,0,,{=16}{\fscx82.43\fscy82.43\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1957.54,1035.64)}咕嘟
+Dialogue: 0,0:20:08.18,0:20:08.22,Default,,0,0,0,,{=16}{\fscx81.94\fscy81.94\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1957.33,1034.35)}咕嘟
+Dialogue: 0,0:20:08.22,0:20:08.27,Default,,0,0,0,,{=16}{\fscx81.44\fscy81.44\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1957.09,1033.05)}咕嘟
+Dialogue: 0,0:20:08.27,0:20:08.31,Default,,0,0,0,,{=16}{\fscx80.94\fscy80.94\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1956.85,1031.77)}咕嘟
+Dialogue: 0,0:20:08.31,0:20:08.35,Default,,0,0,0,,{=16}{\fscx80.44\fscy80.44\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1956.62,1030.52)}咕嘟
+Dialogue: 0,0:20:08.35,0:20:08.39,Default,,0,0,0,,{=16}{\fscx79.93\fscy79.93\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.41\pos(1956.39,1029.3)}咕嘟
+Dialogue: 0,0:20:08.39,0:20:08.43,Default,,0,0,0,,{=16}{\fscx79.44\fscy79.44\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.4\pos(1956.16,1028.07)}咕嘟
+Dialogue: 0,0:20:08.43,0:20:08.47,Default,,0,0,0,,{=16}{\fscx78.94\fscy78.94\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1955.94,1026.89)}咕嘟
+Dialogue: 0,0:20:08.47,0:20:08.52,Default,,0,0,0,,{=16}{\fscx78.43\fscy78.43\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1955.69,1025.7)}咕嘟
+Dialogue: 0,0:20:08.52,0:20:08.56,Default,,0,0,0,,{=16}{\fscx77.93\fscy77.93\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1955.45,1024.53)}咕嘟
+Dialogue: 0,0:20:08.56,0:20:08.60,Default,,0,0,0,,{=16}{\fscx77.42\fscy77.42\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1955.21,1023.39)}咕嘟
+Dialogue: 0,0:20:08.60,0:20:08.64,Default,,0,0,0,,{=16}{\fscx76.91\fscy76.91\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.39\pos(1954.98,1022.25)}咕嘟
+Dialogue: 0,0:20:08.64,0:20:08.68,Default,,0,0,0,,{=16}{\fscx76.42\fscy76.42\alpha&H00&\fs120\c&333256\fn@NQVXDRFO\frz275.38\pos(1954.74,1021.15)}咕嘟
+Dialogue: 0,0:20:08.68,0:20:08.72,Default,,0,0,0,,{=15}{\fscx100\fscy100\alpha&H00&\fs190\bord3\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1326.57,1014.76)}好喝
+Dialogue: 0,0:20:08.72,0:20:08.77,Default,,0,0,0,,{=15}{\fscx99.34\fscy99.34\alpha&H00&\fs190\bord2.98\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.12\pos(1328.83,1014.21)}好喝
+Dialogue: 0,0:20:08.77,0:20:08.81,Default,,0,0,0,,{=15}{\fscx98.67\fscy98.67\alpha&H00&\fs190\bord2.96\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1331.15,1013.58)}好喝
+Dialogue: 0,0:20:08.81,0:20:08.85,Default,,0,0,0,,{=15}{\fscx98\fscy98\alpha&H00&\fs190\bord2.94\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1333.5,1013.02)}好喝
+Dialogue: 0,0:20:08.85,0:20:08.89,Default,,0,0,0,,{=15}{\fscx97.35\fscy97.35\alpha&H00&\fs190\bord2.92\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.12\pos(1335.8,1012.52)}好喝
+Dialogue: 0,0:20:08.89,0:20:08.93,Default,,0,0,0,,{=15}{\fscx96.68\fscy96.68\alpha&H00&\fs190\bord2.9\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.12\pos(1338.22,1011.97)}好喝
+Dialogue: 0,0:20:08.93,0:20:08.97,Default,,0,0,0,,{=15}{\fscx96.02\fscy96.02\alpha&H00&\fs190\bord2.88\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.12\pos(1340.62,1011.47)}好喝
+Dialogue: 0,0:20:08.97,0:20:09.02,Default,,0,0,0,,{=15}{\fscx95.38\fscy95.38\alpha&H00&\fs190\bord2.86\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1342.94,1010.9)}好喝
+Dialogue: 0,0:20:09.02,0:20:09.06,Default,,0,0,0,,{=15}{\fscx94.72\fscy94.72\alpha&H00&\fs190\bord2.84\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.09\pos(1345.43,1010.36)}好喝
+Dialogue: 0,0:20:09.06,0:20:09.10,Default,,0,0,0,,{=15}{\fscx94.07\fscy94.07\alpha&H00&\fs190\bord2.82\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1347.88,1009.91)}好喝
+Dialogue: 0,0:20:09.10,0:20:09.14,Default,,0,0,0,,{=15}{\fscx93.39\fscy93.39\alpha&H00&\fs190\bord2.8\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1350.38,1009.43)}好喝
+Dialogue: 0,0:20:09.14,0:20:09.18,Default,,0,0,0,,{=15}{\fscx92.73\fscy92.73\alpha&H00&\fs190\bord2.78\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.09\pos(1352.91,1008.93)}好喝
+Dialogue: 0,0:20:09.18,0:20:09.22,Default,,0,0,0,,{=15}{\fscx92.05\fscy92.05\alpha&H00&\fs190\bord2.76\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.12\pos(1355.4,1008.56)}好喝
+Dialogue: 0,0:20:09.22,0:20:09.27,Default,,0,0,0,,{=15}{\fscx91.41\fscy91.41\alpha&H00&\fs190\bord2.74\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.09\pos(1357.95,1008.04)}好喝
+Dialogue: 0,0:20:09.27,0:20:09.31,Default,,0,0,0,,{=15}{\fscx90.73\fscy90.73\alpha&H00&\fs190\bord2.72\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1360.58,1007.63)}好喝
+Dialogue: 0,0:20:09.31,0:20:09.35,Default,,0,0,0,,{=15}{\fscx90.06\fscy90.06\alpha&H00&\fs190\bord2.7\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1363.19,1007.25)}好喝
+Dialogue: 0,0:20:09.35,0:20:09.39,Default,,0,0,0,,{=15}{\fscx89.42\fscy89.42\alpha&H00&\fs190\bord2.68\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1365.74,1006.82)}好喝
+Dialogue: 0,0:20:09.39,0:20:09.43,Default,,0,0,0,,{=15}{\fscx88.75\fscy88.75\alpha&H00&\fs190\bord2.66\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1368.44,1006.46)}好喝
+Dialogue: 0,0:20:09.43,0:20:09.47,Default,,0,0,0,,{=15}{\fscx88.09\fscy88.09\alpha&H00&\fs190\bord2.64\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1371.03,1006.03)}好喝
+Dialogue: 0,0:20:09.47,0:20:09.52,Default,,0,0,0,,{=15}{\fscx87.43\fscy87.43\alpha&H00&\fs190\bord2.62\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1373.73,1005.66)}好喝
+Dialogue: 0,0:20:09.52,0:20:09.56,Default,,0,0,0,,{=15}{\fscx86.77\fscy86.77\alpha&H00&\fs190\bord2.6\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1376.44,1005.3)}好喝
+Dialogue: 0,0:20:09.56,0:20:09.60,Default,,0,0,0,,{=15}{\fscx86.12\fscy86.12\alpha&H00&\fs190\bord2.58\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1379.17,1004.91)}好喝
+Dialogue: 0,0:20:09.60,0:20:09.64,Default,,0,0,0,,{=15}{\fscx85.44\fscy85.44\alpha&H00&\fs190\bord2.56\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.11\pos(1381.91,1004.61)}好喝
+Dialogue: 0,0:20:09.64,0:20:09.68,Default,,0,0,0,,{=15}{\fscx84.8\fscy84.8\alpha&H00&\fs190\bord2.54\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1384.76,1004.19)}好喝
+Dialogue: 0,0:20:09.68,0:20:09.72,Default,,0,0,0,,{=15}{\fscx84.11\fscy84.11\alpha&H00&\fs190\bord2.52\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.09\pos(1387.48,1003.93)}好喝
+Dialogue: 0,0:20:09.72,0:20:09.77,Default,,0,0,0,,{=15}{\fscx83.47\fscy83.47\alpha&H00&\fs190\bord2.5\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1390.28,1003.65)}好喝
+Dialogue: 0,0:20:09.77,0:20:09.81,Default,,0,0,0,,{=15}{\fscx82.8\fscy82.8\alpha&H00&\fs190\bord2.48\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.1\pos(1393.11,1003.36)}好喝
+Dialogue: 0,0:20:09.81,0:20:09.85,Default,,0,0,0,,{=15}{\fscx82.14\fscy82.14\alpha&H00&\fs190\bord2.46\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1396.02,1003.02)}好喝
+Dialogue: 0,0:20:09.85,0:20:09.89,Default,,0,0,0,,{=15}{\fscx81.48\fscy81.48\alpha&H00&\fs190\bord2.44\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1398.85,1002.75)}好喝
+Dialogue: 0,0:20:09.89,0:20:09.93,Default,,0,0,0,,{=15}{\fscx80.84\fscy80.84\alpha&H00&\fs190\bord2.43\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.05\pos(1401.67,1002.45)}好喝
+Dialogue: 0,0:20:09.93,0:20:09.98,Default,,0,0,0,,{=15}{\fscx80.16\fscy80.16\alpha&H00&\fs190\bord2.4\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.06\pos(1404.65,1002.21)}好喝
+Dialogue: 0,0:20:09.98,0:20:10.02,Default,,0,0,0,,{=15}{\fscx79.51\fscy79.51\alpha&H00&\fs190\bord2.39\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.05\pos(1407.63,1001.95)}好喝
+Dialogue: 0,0:20:10.02,0:20:10.06,Default,,0,0,0,,{=15}{\fscx78.84\fscy78.84\alpha&H00&\fs190\bord2.37\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.06\pos(1410.52,1001.78)}好喝
+Dialogue: 0,0:20:10.06,0:20:10.10,Default,,0,0,0,,{=15}{\fscx78.18\fscy78.18\alpha&H00&\fs190\bord2.35\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1413.57,1001.6)}好喝
+Dialogue: 0,0:20:10.10,0:20:10.14,Default,,0,0,0,,{=15}{\fscx77.51\fscy77.51\alpha&H00&\fs190\bord2.33\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1416.62,1001.42)}好喝
+Dialogue: 0,0:20:10.14,0:20:10.18,Default,,0,0,0,,{=15}{\fscx76.87\fscy76.87\alpha&H00&\fs190\bord2.31\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1419.65,1001.22)}好喝
+Dialogue: 0,0:20:10.18,0:20:10.23,Default,,0,0,0,,{=15}{\fscx76.19\fscy76.19\alpha&H00&\fs190\bord2.29\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1422.68,1001.08)}好喝
+Dialogue: 0,0:20:10.23,0:20:10.27,Default,,0,0,0,,{=15}{\fscx75.54\fscy75.54\alpha&H00&\fs190\bord2.27\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.05\pos(1425.85,1000.85)}好喝
+Dialogue: 0,0:20:10.27,0:20:10.31,Default,,0,0,0,,{=15}{\fscx74.87\fscy74.87\alpha&H00&\fs190\bord2.25\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1428.95,1000.75)}好喝
+Dialogue: 0,0:20:10.31,0:20:10.35,Default,,0,0,0,,{=15}{\fscx74.21\fscy74.21\alpha&H00&\fs190\bord2.23\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1431.98,1000.66)}好喝
+Dialogue: 0,0:20:10.35,0:20:10.39,Default,,0,0,0,,{=15}{\fscx73.54\fscy73.54\alpha&H00&\fs190\bord2.21\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1435.17,1000.5)}好喝
+Dialogue: 0,0:20:10.39,0:20:10.43,Default,,0,0,0,,{=15}{\fscx72.88\fscy72.88\alpha&H00&\fs190\bord2.19\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.07\pos(1438.4,1000.36)}好喝
+Dialogue: 0,0:20:10.43,0:20:10.48,Default,,0,0,0,,{=15}{\fscx72.22\fscy72.22\alpha&H00&\fs190\bord2.17\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1441.58,1000.31)}好喝
+Dialogue: 0,0:20:10.48,0:20:10.52,Default,,0,0,0,,{=15}{\fscx71.57\fscy71.57\alpha&H00&\fs190\bord2.15\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.05\pos(1444.81,1000.14)}好喝
+Dialogue: 0,0:20:10.52,0:20:10.56,Default,,0,0,0,,{=15}{\fscx70.9\fscy70.9\alpha&H00&\fs190\bord2.13\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1447.95,1000.15)}好喝
+Dialogue: 0,0:20:10.56,0:20:10.60,Default,,0,0,0,,{=15}{\fscx70.23\fscy70.23\alpha&H00&\fs190\bord2.11\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.09\pos(1451.19,1000.11)}好喝
+Dialogue: 0,0:20:10.60,0:20:10.64,Default,,0,0,0,,{=15}{\fscx69.58\fscy69.58\alpha&H00&\fs190\bord2.09\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.06\pos(1454.56,999.97)}好喝
+Dialogue: 0,0:20:10.64,0:20:10.68,Default,,0,0,0,,{=15}{\fscx68.92\fscy68.92\alpha&H00&\fs190\bord2.07\3c&B471DD\c&DEA8FF\fn@KKNTQBMQ\frz291.08\pos(1457.94,999.98)}好喝
+Dialogue: 0,0:20:10.68,0:20:10.73,Default,,0,0,0,,{=14}{\fscx100\fscy100\alpha&H00&\fsp15\fs100\bord2\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.3\pos(1649.86,940.86)}再来点
+Dialogue: 0,0:20:10.73,0:20:10.77,Default,,0,0,0,,{=14}{\fscx99.02\fscy99.02\alpha&H00&\fsp15\fs100\bord1.98\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.32\pos(1651.57,941.57)}再来点
+Dialogue: 0,0:20:10.77,0:20:10.81,Default,,0,0,0,,{=14}{\fscx98.05\fscy98.05\alpha&H00&\fsp15\fs100\bord1.96\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.31\pos(1653.25,942.28)}再来点
+Dialogue: 0,0:20:10.81,0:20:10.85,Default,,0,0,0,,{=14}{\fscx97.08\fscy97.08\alpha&H00&\fsp15\fs100\bord1.94\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.3\pos(1655.04,942.97)}再来点
+Dialogue: 0,0:20:10.85,0:20:10.89,Default,,0,0,0,,{=14}{\fscx96.09\fscy96.09\alpha&H00&\fsp15\fs100\bord1.92\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.31\pos(1656.77,943.73)}再来点
+Dialogue: 0,0:20:10.89,0:20:10.93,Default,,0,0,0,,{=14}{\fscx95.15\fscy95.15\alpha&H00&\fsp15\fs100\bord1.9\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.29\pos(1658.56,944.43)}再来点
+Dialogue: 0,0:20:10.93,0:20:10.98,Default,,0,0,0,,{=14}{\fscx94.21\fscy94.21\alpha&H00&\fsp15\fs100\bord1.88\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.27\pos(1660.28,945.15)}再来点
+Dialogue: 0,0:20:10.98,0:20:11.02,Default,,0,0,0,,{=14}{\fscx93.21\fscy93.21\alpha&H00&\fsp15\fs100\bord1.86\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.31\pos(1662.05,945.93)}再来点
+Dialogue: 0,0:20:11.02,0:20:11.06,Default,,0,0,0,,{=14}{\fscx92.21\fscy92.21\alpha&H00&\fsp15\fs100\bord1.84\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.35\pos(1663.85,946.76)}再来点
+Dialogue: 0,0:20:11.06,0:20:11.10,Default,,0,0,0,,{=14}{\fscx91.25\fscy91.25\alpha&H00&\fsp15\fs100\bord1.82\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.33\pos(1665.71,947.51)}再来点
+Dialogue: 0,0:20:11.10,0:20:11.14,Default,,0,0,0,,{=14}{\fscx90.31\fscy90.31\alpha&H00&\fsp15\fs100\bord1.81\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.29\pos(1667.52,948.26)}再来点
+Dialogue: 0,0:20:11.14,0:20:11.18,Default,,0,0,0,,{=14}{\fscx89.32\fscy89.32\alpha&H00&\fsp15\fs100\bord1.79\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.34\pos(1669.33,949.09)}再来点
+Dialogue: 0,0:20:11.18,0:20:11.23,Default,,0,0,0,,{=14}{\fscx88.34\fscy88.34\alpha&H00&\fsp15\fs100\bord1.77\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.33\pos(1671.22,949.9)}再来点
+Dialogue: 0,0:20:11.23,0:20:11.27,Default,,0,0,0,,{=14}{\fscx87.42\fscy87.42\alpha&H00&\fsp15\fs100\bord1.75\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.27\pos(1673.19,950.6)}再来点
+Dialogue: 0,0:20:11.27,0:20:11.31,Default,,0,0,0,,{=14}{\fscx86.43\fscy86.43\alpha&H00&\fsp15\fs100\bord1.73\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.29\pos(1675.07,951.46)}再来点
+Dialogue: 0,0:20:11.31,0:20:11.35,Default,,0,0,0,,{=14}{\fscx85.46\fscy85.46\alpha&H00&\fsp15\fs100\bord1.71\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.31\pos(1677.02,952.31)}再来点
+Dialogue: 0,0:20:11.35,0:20:11.39,Default,,0,0,0,,{=14}{\fscx84.47\fscy84.47\alpha&H00&\fsp15\fs100\bord1.69\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.32\pos(1678.94,953.17)}再来点
+Dialogue: 0,0:20:11.39,0:20:11.44,Default,,0,0,0,,{=14}{\fscx83.49\fscy83.49\alpha&H00&\fsp15\fs100\bord1.67\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.34\pos(1680.98,954.02)}再来点
+Dialogue: 0,0:20:11.44,0:20:11.48,Default,,0,0,0,,{=14}{\fscx82.55\fscy82.55\alpha&H00&\fsp15\fs100\bord1.65\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.32\pos(1682.93,954.86)}再来点
+Dialogue: 0,0:20:11.48,0:20:11.52,Default,,0,0,0,,{=14}{\fscx81.61\fscy81.61\alpha&H00&\fsp15\fs100\bord1.63\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.29\pos(1684.88,955.66)}再来点
+Dialogue: 0,0:20:11.52,0:20:11.56,Default,,0,0,0,,{=14}{\fscx80.65\fscy80.65\alpha&H00&\fsp15\fs100\bord1.61\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.27\pos(1686.91,956.53)}再来点
+Dialogue: 0,0:20:11.56,0:20:11.60,Default,,0,0,0,,{=14}{\fscx79.67\fscy79.67\alpha&H00&\fsp15\fs100\bord1.59\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.27\pos(1688.97,957.39)}再来点
+Dialogue: 0,0:20:11.60,0:20:11.64,Default,,0,0,0,,{=14}{\fscx78.69\fscy78.69\alpha&H00&\fsp15\fs100\bord1.57\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.28\pos(1691.05,958.3)}再来点
+Dialogue: 0,0:20:11.64,0:20:11.69,Default,,0,0,0,,{=14}{\fscx77.76\fscy77.76\alpha&H00&\fsp15\fs100\bord1.56\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.26\pos(1693.1,959.17)}再来点
+Dialogue: 0,0:20:11.69,0:20:11.73,Default,,0,0,0,,{=14}{\fscx76.77\fscy76.77\alpha&H00&\fsp15\fs100\bord1.54\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.3\pos(1695.23,960.11)}再来点
+Dialogue: 0,0:20:11.73,0:20:11.77,Default,,0,0,0,,{=14}{\fscx75.8\fscy75.8\alpha&H00&\fsp15\fs100\bord1.52\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.24\pos(1697.46,960.97)}再来点
+Dialogue: 0,0:20:11.77,0:20:11.81,Default,,0,0,0,,{=14}{\fscx74.81\fscy74.81\alpha&H00&\fsp15\fs100\bord1.5\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.28\pos(1699.54,961.92)}再来点
+Dialogue: 0,0:20:11.81,0:20:11.85,Default,,0,0,0,,{=14}{\fscx73.82\fscy73.82\alpha&H00&\fsp15\fs100\bord1.48\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.3\pos(1701.73,962.89)}再来点
+Dialogue: 0,0:20:11.85,0:20:11.89,Default,,0,0,0,,{=14}{\fscx72.89\fscy72.89\alpha&H00&\fsp15\fs100\bord1.46\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.24\pos(1703.9,963.76)}再来点
+Dialogue: 0,0:20:11.89,0:20:11.94,Default,,0,0,0,,{=14}{\fscx71.93\fscy71.93\alpha&H00&\fsp15\fs100\bord1.44\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.26\pos(1706.01,964.76)}再来点
+Dialogue: 0,0:20:11.94,0:20:11.98,Default,,0,0,0,,{=14}{\fscx70.99\fscy70.99\alpha&H00&\fsp15\fs100\bord1.42\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.2\pos(1708.29,965.64)}再来点
+Dialogue: 0,0:20:11.98,0:20:12.02,Default,,0,0,0,,{=14}{\fscx69.99\fscy69.99\alpha&H00&\fsp15\fs100\bord1.4\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.23\pos(1710.51,966.64)}再来点
+Dialogue: 0,0:20:12.02,0:20:12.06,Default,,0,0,0,,{=14}{\fscx69\fscy69\alpha&H00&\fsp15\fs100\bord1.38\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.28\pos(1712.74,967.65)}再来点
+Dialogue: 0,0:20:12.06,0:20:12.10,Default,,0,0,0,,{=14}{\fscx68.06\fscy68.06\alpha&H00&\fsp15\fs100\bord1.36\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.25\pos(1715.02,968.64)}再来点
+Dialogue: 0,0:20:12.10,0:20:12.14,Default,,0,0,0,,{=14}{\fscx67.04\fscy67.04\alpha&H00&\fsp15\fs100\bord1.34\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.31\pos(1717.33,969.69)}再来点
+Dialogue: 0,0:20:12.14,0:20:12.19,Default,,0,0,0,,{=14}{\fscx66.08\fscy66.08\alpha&H00&\fsp15\fs100\bord1.32\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.3\pos(1719.62,970.67)}再来点
+Dialogue: 0,0:20:12.19,0:20:12.23,Default,,0,0,0,,{=14}{\fscx65.13\fscy65.13\alpha&H00&\fsp15\fs100\bord1.3\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.28\pos(1721.92,971.67)}再来点
+Dialogue: 0,0:20:12.23,0:20:12.27,Default,,0,0,0,,{=14}{\fscx64.17\fscy64.17\alpha&H00&\fsp15\fs100\bord1.28\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.25\pos(1724.27,972.68)}再来点
+Dialogue: 0,0:20:12.27,0:20:12.31,Default,,0,0,0,,{=14}{\fscx63.2\fscy63.2\alpha&H00&\fsp15\fs100\bord1.26\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.25\pos(1726.62,973.7)}再来点
+Dialogue: 0,0:20:12.31,0:20:12.35,Default,,0,0,0,,{=14}{\fscx62.23\fscy62.23\alpha&H00&\fsp15\fs100\bord1.24\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.27\pos(1729.01,974.75)}再来点
+Dialogue: 0,0:20:12.35,0:20:12.39,Default,,0,0,0,,{=14}{\fscx61.27\fscy61.27\alpha&H00&\fsp15\fs100\bord1.23\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.23\pos(1731.4,975.78)}再来点
+Dialogue: 0,0:20:12.39,0:20:12.44,Default,,0,0,0,,{=14}{\fscx60.3\fscy60.3\alpha&H00&\fsp15\fs100\bord1.21\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.22\pos(1733.86,976.83)}再来点
+Dialogue: 0,0:20:12.44,0:20:12.48,Default,,0,0,0,,{=14}{\fscx59.32\fscy59.32\alpha&H00&\fsp15\fs100\bord1.19\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.26\pos(1736.27,977.92)}再来点
+Dialogue: 0,0:20:12.48,0:20:12.52,Default,,0,0,0,,{=14}{\fscx58.38\fscy58.38\alpha&H00&\fsp15\fs100\bord1.17\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.21\pos(1738.68,978.99)}再来点
+Dialogue: 0,0:20:12.52,0:20:12.56,Default,,0,0,0,,{=14}{\fscx57.42\fscy57.42\alpha&H00&\fsp15\fs100\bord1.15\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.17\pos(1741.2,980.03)}再来点
+Dialogue: 0,0:20:12.56,0:20:12.60,Default,,0,0,0,,{=14}{\fscx56.43\fscy56.43\alpha&H00&\fsp15\fs100\bord1.13\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.21\pos(1743.66,981.17)}再来点
+Dialogue: 0,0:20:12.60,0:20:12.64,Default,,0,0,0,,{=14}{\fscx55.45\fscy55.45\alpha&H00&\fsp15\fs100\bord1.11\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.22\pos(1746.16,982.28)}再来点
+Dialogue: 0,0:20:12.64,0:20:12.69,Default,,0,0,0,,{=14}{\fscx54.49\fscy54.49\alpha&H00&\fsp15\fs100\bord1.09\3c&3A4FD6\c&4E7DF4\fn@KKNTQBMQ\frz264.19\pos(1748.74,983.37)}再来点
+Dialogue: 0,0:20:12.69,0:20:12.73,Default,,0,0,0,,{=13}{\fscx100\fscy100\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.4\pos(1932.01,1074.57)}咕嘟
+Dialogue: 0,0:20:12.73,0:20:12.77,Default,,0,0,0,,{=13}{\fscx98.22\fscy98.22\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.42\pos(1931.74,1073.88)}咕嘟
+Dialogue: 0,0:20:12.77,0:20:12.81,Default,,0,0,0,,{=13}{\fscx96.35\fscy96.35\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.46\pos(1931.53,1073.1)}咕嘟
+Dialogue: 0,0:20:12.81,0:20:12.85,Default,,0,0,0,,{=13}{\fscx94.5\fscy94.5\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.5\pos(1931.29,1072.4)}咕嘟
+Dialogue: 0,0:20:12.85,0:20:12.89,Default,,0,0,0,,{=13}{\fscx92.7\fscy92.7\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.51\pos(1931.06,1071.74)}咕嘟
+Dialogue: 0,0:20:12.89,0:20:12.94,Default,,0,0,0,,{=13}{\fscx90.84\fscy90.84\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.57\pos(1930.81,1071.07)}咕嘟
+Dialogue: 0,0:20:12.94,0:20:12.98,Default,,0,0,0,,{=13}{\fscx89.01\fscy89.01\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.6\pos(1930.57,1070.44)}咕嘟
+Dialogue: 0,0:20:12.98,0:20:13.02,Default,,0,0,0,,{=13}{\fscx87.22\fscy87.22\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.7\pos(1930.36,1069.85)}咕嘟
+Dialogue: 0,0:20:13.02,0:20:13.06,Default,,0,0,0,,{=13}{\fscx85.3\fscy85.3\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.68\pos(1930.13,1069.17)}咕嘟
+Dialogue: 0,0:20:13.06,0:20:13.10,Default,,0,0,0,,{=13}{\fscx83.52\fscy83.52\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.64\pos(1929.91,1068.6)}咕嘟
+Dialogue: 0,0:20:13.10,0:20:13.15,Default,,0,0,0,,{=13}{\fscx81.77\fscy81.77\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.58\pos(1929.67,1068.02)}咕嘟
+Dialogue: 0,0:20:13.15,0:20:13.19,Default,,0,0,0,,{=13}{\fscx79.85\fscy79.85\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.83\pos(1929.45,1067.48)}咕嘟
+Dialogue: 0,0:20:13.19,0:20:13.23,Default,,0,0,0,,{=13}{\fscx78.04\fscy78.04\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.74\pos(1929.19,1066.97)}咕嘟
+Dialogue: 0,0:20:13.23,0:20:13.27,Default,,0,0,0,,{=13}{\fscx76.28\fscy76.28\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.9\pos(1928.95,1066.52)}咕嘟
+Dialogue: 0,0:20:13.27,0:20:13.31,Default,,0,0,0,,{=13}{\fscx74.41\fscy74.41\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.89\pos(1928.72,1065.94)}咕嘟
+Dialogue: 0,0:20:13.31,0:20:13.35,Default,,0,0,0,,{=13}{\fscx72.67\fscy72.67\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz275.91\pos(1928.5,1065.52)}咕嘟
+Dialogue: 0,0:20:13.35,0:20:13.40,Default,,0,0,0,,{=13}{\fscx70.82\fscy70.82\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276\pos(1928.29,1065.06)}咕嘟
+Dialogue: 0,0:20:13.40,0:20:13.44,Default,,0,0,0,,{=13}{\fscx68.99\fscy68.99\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.11\pos(1928.1,1064.64)}咕嘟
+Dialogue: 0,0:20:13.44,0:20:13.48,Default,,0,0,0,,{=13}{\fscx67.21\fscy67.21\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.14\pos(1927.85,1064.19)}咕嘟
+Dialogue: 0,0:20:13.48,0:20:13.52,Default,,0,0,0,,{=13}{\fscx65.42\fscy65.42\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.16\pos(1927.62,1063.82)}咕嘟
+Dialogue: 0,0:20:13.52,0:20:13.56,Default,,0,0,0,,{=13}{\fscx63.73\fscy63.73\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.11\pos(1927.39,1063.46)}咕嘟
+Dialogue: 0,0:20:13.56,0:20:13.60,Default,,0,0,0,,{=13}{\fscx61.99\fscy61.99\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.14\pos(1927.2,1063.1)}咕嘟
+Dialogue: 0,0:20:13.60,0:20:13.65,Default,,0,0,0,,{=13}{\fscx60\fscy60\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.42\pos(1926.95,1062.72)}咕嘟
+Dialogue: 0,0:20:13.65,0:20:13.69,Default,,0,0,0,,{=13}{\fscx58.86\fscy58.86\alpha&H00&\fs30\c&333256\fn@NQVXDRFO\frz276.34\pos(1926.83,1062.41)}咕嘟
+Dialogue: 0,0:04:05.31,0:04:11.61,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}我总是拼命地逞强
+Dialogue: 1,0:04:05.31,0:04:11.61,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}我总是拼命地逞强
+Dialogue: 0,0:04:05.31,0:04:11.61,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}めいっぱい背伸びしてきたけど
+Dialogue: 1,0:04:05.31,0:04:11.61,OP-JPN,,0,0,0,,{\c&000000\3c&000000\xbord1\ybord0\pos(1920,2117)}めいっぱい背伸びしてきたけど
+Dialogue: 0,0:04:11.61,0:04:18.03,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}可在你面前还是笨拙慌张
+Dialogue: 1,0:04:11.61,0:04:18.03,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}可在你面前还是笨拙慌张
+Dialogue: 0,0:04:11.61,0:04:18.03,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}君の前じゃ上手くできない
+Dialogue: 1,0:04:11.61,0:04:18.03,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}君の前じゃ上手くできない
+Dialogue: 0,0:04:18.03,0:04:23.70,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}这份心情正以比碳酸气泡消散更快的速度
+Dialogue: 1,0:04:18.03,0:04:23.70,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}这份心情正以比碳酸气泡消散更快的速度
+Dialogue: 0,0:04:18.03,0:04:23.70,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}炭酸が抜けるより早いスピードで
+Dialogue: 1,0:04:18.03,0:04:23.70,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}炭酸が抜けるより早いスピードで
+Dialogue: 0,0:04:23.70,0:04:26.33,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}逐渐发生变化
+Dialogue: 1,0:04:23.70,0:04:26.33,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}逐渐发生变化
+Dialogue: 0,0:04:23.70,0:04:26.33,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}変わっていく気持ち
+Dialogue: 1,0:04:23.70,0:04:26.33,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}変わっていく気持ち
+Dialogue: 0,0:04:26.33,0:04:33.21,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}快到自己都还没发觉
+Dialogue: 1,0:04:26.33,0:04:33.21,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}快到自己都还没发觉
+Dialogue: 0,0:04:26.33,0:04:33.21,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}まだ自分でも気づいてない
+Dialogue: 1,0:04:26.33,0:04:33.21,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}まだ自分でも気づいてない
+Dialogue: 0,0:04:33.21,0:04:33.79,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}虽然这和我最初期望的未来有些不同
+Dialogue: 1,0:04:33.21,0:04:33.79,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}虽然这和我最初期望的未来有些不同
+Dialogue: 0,0:04:33.21,0:04:33.79,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 1,0:04:33.21,0:04:33.79,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 0,0:04:33.79,0:04:46.85,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\4c&ffffff\shad4\bord10\blur9\pos(1920,2013)}虽然这和我最初期望的未来有些不同
+Dialogue: 1,0:04:33.79,0:04:46.85,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}虽然这和我最初期望的未来有些不同
+Dialogue: 0,0:04:33.79,0:04:46.85,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\4c&ffffff\shad4\pos(1920,2117)}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 1,0:04:33.79,0:04:46.85,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 0,0:04:46.85,0:04:59.70,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}但最后我只要能在你身边就足够了
+Dialogue: 1,0:04:46.85,0:04:59.70,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}但最后我只要能在你身边就足够了
+Dialogue: 0,0:04:46.85,0:04:59.70,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}最後はなにもいらない ただそばにいて
+Dialogue: 1,0:04:46.85,0:04:59.70,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}最後はなにもいらない ただそばにいて
+Dialogue: 0,0:04:59.70,0:05:06.08,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}笨拙的我们总是产生分歧 互相怀疑
+Dialogue: 1,0:04:59.70,0:05:06.08,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}笨拙的我们总是产生分歧 互相怀疑
+Dialogue: 0,0:04:59.70,0:05:06.08,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}不器用ですれ違って勘繰ってばっか僕たちは
+Dialogue: 1,0:04:59.70,0:05:06.08,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}不器用ですれ違って勘繰ってばっか僕たちは
+Dialogue: 0,0:05:06.08,0:05:12.54,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}说不出口 说不出口 多么任性
+Dialogue: 1,0:05:06.08,0:05:12.54,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}说不出口 说不出口 多么任性
+Dialogue: 0,0:05:06.08,0:05:12.54,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}言えない言えないなんて勝手なんだろう
+Dialogue: 1,0:05:06.08,0:05:12.54,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}言えない言えないなんて勝手なんだろう
+Dialogue: 0,0:05:12.54,0:05:17.09,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}即使幻想着「有你的明天真好」
+Dialogue: 1,0:05:12.54,0:05:17.09,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}即使幻想着「有你的明天真好」
+Dialogue: 0,0:05:12.54,0:05:17.09,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}君がいる明日がいいなって思っていたって
+Dialogue: 1,0:05:12.54,0:05:17.09,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}君がいる明日がいいなって思っていたって
+Dialogue: 0,0:05:17.09,0:05:18.76,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}一切也无法改变
+Dialogue: 1,0:05:17.09,0:05:18.76,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}一切也无法改变
+Dialogue: 0,0:05:17.09,0:05:18.76,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}変えられない
+Dialogue: 1,0:05:17.09,0:05:18.76,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}変えられない
+Dialogue: 0,0:05:18.76,0:05:22.55,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}可我必须将心意传达给你
+Dialogue: 1,0:05:18.76,0:05:22.55,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}可我必须将心意传达给你
+Dialogue: 0,0:05:18.76,0:05:22.55,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}伝えなくちゃ
+Dialogue: 1,0:05:18.76,0:05:22.55,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}伝えなくちゃ
+Dialogue: 0,0:05:22.55,0:05:24.05,OP-CHI,,0,0,0,,{\4c&ffffff\shad4\fnQTGVGQZE\c&000000\1a&ff\3c&ffffff\bord10\blur9\pos(1920,2013)}可我必须将心意传达给你
+Dialogue: 1,0:05:22.55,0:05:24.05,OP-CHI,,0,0,0,,{\fnQTGVGQZE\c&000000\3c&000000\ybord0.1\3a&88\pos(1920,2013)}可我必须将心意传达给你
+Dialogue: 0,0:05:22.55,0:05:24.05,OP-JPN,,0,0,0,,{\4c&ffffff\shad4\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}伝えなくちゃ
+Dialogue: 1,0:05:22.55,0:05:24.05,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}伝えなくちゃ
+Dialogue: 1,0:22:16.57,0:22:22.45,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}我心随水面泛起了涟漪
+Dialogue: 0,0:22:16.57,0:22:22.45,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}我心随水面泛起了涟漪
+Dialogue: 1,0:22:22.45,0:22:28.29,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}只得移开视线故作平静
+Dialogue: 0,0:22:22.45,0:22:28.29,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}只得移开视线故作平静
+Dialogue: 1,0:22:28.29,0:22:34.50,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}光是能和你肩并肩
+Dialogue: 0,0:22:28.29,0:22:34.50,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}光是能和你肩并肩
+Dialogue: 1,0:22:34.50,0:22:38.88,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}我就羞得脸红耳赤
+Dialogue: 0,0:22:34.50,0:22:38.88,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}我就羞得脸红耳赤
+Dialogue: 1,0:22:38.88,0:22:41.80,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}微醺 吐气 带着羞怯
+Dialogue: 0,0:22:38.88,0:22:41.80,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}微醺 吐气 带着羞怯
+Dialogue: 1,0:22:41.80,0:22:44.68,ED-CHI,,0,0,0,,{\fad(300,300)\pos(2142,2010)\fs140\bord4.5\3c&6836AF}沉入温柔的梦乡
+Dialogue: 0,0:22:41.80,0:22:44.68,ED-CHI,,0,0,0,,{\fad(300,300)\pos(2142,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}沉入温柔的梦乡
+Dialogue: 1,0:22:44.68,0:22:47.64,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}轻触你的衣袖时心潮难抑
+Dialogue: 0,0:22:44.68,0:22:47.64,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}轻触你的衣袖时心潮难抑
+Dialogue: 1,0:22:47.64,0:22:50.64,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}四目相对时
+Dialogue: 0,0:22:47.64,0:22:50.64,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}四目相对时
+Dialogue: 1,0:22:50.64,0:22:53.48,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}仿佛要细细品味
+Dialogue: 0,0:22:50.64,0:22:53.48,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}仿佛要细细品味
+Dialogue: 1,0:22:53.48,0:22:57.23,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}彼此眼底的目光
+Dialogue: 0,0:22:53.48,0:22:57.23,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}彼此眼底的目光
+Dialogue: 1,0:22:57.23,0:23:03.24,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}轻唤你的名字
+Dialogue: 0,0:22:57.23,0:23:03.24,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}轻唤你的名字
+Dialogue: 1,0:23:04.82,0:23:10.74,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}流过喉间的滋味中
+Dialogue: 0,0:23:04.82,0:23:10.74,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}流过喉间的滋味中
+Dialogue: 1,0:23:10.74,0:23:16.58,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}满溢着懵懂的情愫
+Dialogue: 0,0:23:10.74,0:23:16.58,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}满溢着懵懂的情愫
+Dialogue: 1,0:23:16.58,0:23:25.38,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}憧憬与创伤 一切都于此刻
+Dialogue: 0,0:23:16.58,0:23:25.38,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}憧憬与创伤 一切都于此刻
+Dialogue: 1,0:23:25.38,0:23:33.27,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord4.5\3c&6836AF}交相辉映
+Dialogue: 0,0:23:25.38,0:23:33.27,ED-CHI,,0,0,0,,{\fad(300,300)\pos(1920,2010)\fs140\bord2\3c&ffffff\1a&ff\blur4}交相辉映
+Dialogue: 1,0:22:16.57,0:22:22.45,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}水面の波紋から　顔逸らしたのは
+Dialogue: 1,0:22:22.45,0:22:28.29,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}私の心　揺らいだの隠したくて
+Dialogue: 1,0:22:28.29,0:22:34.50,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}あなたと並んでるだけの心臓が
+Dialogue: 1,0:22:34.50,0:22:38.88,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}火照りやまない
+Dialogue: 1,0:22:38.88,0:22:41.80,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}酔い　吐息　はにかんで
+Dialogue: 1,0:22:41.80,0:22:44.68,ED-JPN,,0,0,0,,{\fad(300,300)\pos(2142,2116)\fs118\bord4\3c&6836AF}柔い夢を見て
+Dialogue: 1,0:22:44.68,0:22:47.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}袖触れて　満ち引いて
+Dialogue: 1,0:22:47.64,0:22:50.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}目が合った
+Dialogue: 1,0:22:50.64,0:22:53.48,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}奥底のまぶしさを
+Dialogue: 1,0:22:53.48,0:22:57.23,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}一口味わうように
+Dialogue: 1,0:22:57.23,0:23:03.24,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}名前を呼ぶ
+Dialogue: 1,0:23:04.82,0:23:10.74,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}喉通ったフレイバーには
+Dialogue: 1,0:23:10.74,0:23:16.58,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}初めて知る感情あふれ
+Dialogue: 1,0:23:16.58,0:23:25.38,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}あこがれも傷も全て　今
+Dialogue: 1,0:23:25.38,0:23:33.27,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&6836AF}溶け込んで　光る
+Dialogue: 0,0:22:16.57,0:22:22.45,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}水面の波紋から　顔逸らしたのは
+Dialogue: 0,0:22:22.45,0:22:28.29,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}私の心　揺らいだの隠したくて
+Dialogue: 0,0:22:28.29,0:22:34.50,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}あなたと並んでるだけの心臓が
+Dialogue: 0,0:22:34.50,0:22:38.88,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}火照りやまない
+Dialogue: 0,0:22:38.88,0:22:41.80,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}酔い　吐息　はにかんで
+Dialogue: 0,0:22:41.80,0:22:44.68,ED-JPN,,0,0,0,,{\fad(300,300)\pos(2142,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}柔い夢を見て
+Dialogue: 0,0:22:44.68,0:22:47.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}袖触れて　満ち引いて
+Dialogue: 0,0:22:47.64,0:22:50.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}目が合った
+Dialogue: 0,0:22:50.64,0:22:53.48,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}奥底のまぶしさを
+Dialogue: 0,0:22:53.48,0:22:57.23,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}一口味わうように
+Dialogue: 0,0:22:57.23,0:23:03.24,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}名前を呼ぶ
+Dialogue: 0,0:23:04.82,0:23:10.74,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}喉通ったフレイバーには
+Dialogue: 0,0:23:10.74,0:23:16.58,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}初めて知る感情あふれ
+Dialogue: 0,0:23:16.58,0:23:25.38,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}あこがれも傷も全て　今
+Dialogue: 0,0:23:25.38,0:23:33.27,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}溶け込んで　光る
