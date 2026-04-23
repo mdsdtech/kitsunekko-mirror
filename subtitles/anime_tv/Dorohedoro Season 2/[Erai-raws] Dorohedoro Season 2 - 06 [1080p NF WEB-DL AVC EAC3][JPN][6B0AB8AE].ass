@@ -1,0 +1,409 @@
+﻿[Script Info]
+Title: [Erai-raws] ja
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.34,0:00:12.51,Default,,0,0,0,,{\c&Hffffff&}（カイマン）大葉ギョーザが\N2302個…
+Dialogue: 0,0:00:13.38,0:00:16.55,Default,,0,0,0,,{\c&Hffffff&}大葉ギョーザが2303個…
+Dialogue: 0,0:00:17.39,0:00:20.72,Default,,0,0,0,,{\c&Hffffff&}大葉ギョーザが2304個…
+Dialogue: 0,0:00:21.89,0:00:23.18,Default,,0,0,0,,{\c&Hffffff&}（カイマン）んあ…
+Dialogue: 0,0:00:23.69,0:00:25.85,Default,,0,0,0,,{\c&Hffffff&}全然 眠れねえや
+Dialogue: 0,0:00:25.94,0:00:27.81,Default,,0,0,0,,{\c&Hffffff&}いろいろ考えちまって…
+Dialogue: 0,0:00:28.40,0:00:31.28,Default,,0,0,0,,{\c&Hffffff&}ギョーザ数えるのは 腹減るだけで
+Dialogue: 0,0:00:31.36,0:00:33.53,Default,,0,0,0,,{\c&Hffffff&}全く効果ねえし
+Dialogue: 0,0:00:33.61,0:00:34.95,Default,,0,0,0,,{\c&Hffffff&}（夏木(なつき)のいびき）
+Dialogue: 0,0:00:40.74,0:00:41.75,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ハァ～
+Dialogue: 0,0:00:41.83,0:00:42.70,Default,,0,0,0,,{\c&Hffffff&}（物音）\N（カイマン）ん？
+Dialogue: 0,0:00:42.79,0:00:44.96,Default,,0,0,0,,{\c&Hffffff&}-（毒蛾(どくが)）100ニックあった\N-（鉄条(てつじょう)）やったな
+Dialogue: 0,0:00:45.71,0:00:48.92,Default,,0,0,0,,{\c&Hffffff&}ここの自販機は\N毎晩 小銭が得られるな
+Dialogue: 0,0:00:49.42,0:00:51.71,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）バイトのあとの\Nひと仕事だ
+Dialogue: 0,0:00:51.80,0:00:55.80,Default,,0,0,0,,{\c&Hffffff&}魔法使いにも\N貧しいやつらがいるもんだな
+Dialogue: 0,0:00:55.88,0:00:56.72,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:00:56.80,0:00:58.22,Default,,0,0,0,,{\c&Hffffff&}十字目(じゅうじめ)？
+Dialogue: 0,0:01:00.06,0:01:01.06,Default,,0,0,0,,{\c&Hffffff&}間違いない
+Dialogue: 0,0:01:02.81,0:01:03.93,Default,,0,0,0,,{\c&Hffffff&}うっ？　あっ！
+Dialogue: 0,0:01:05.14,0:01:06.52,Default,,0,0,0,,{\c&Hffffff&}あ… あれ？
+Dialogue: 0,0:01:08.48,0:01:10.52,Default,,0,0,0,,{\c&Hffffff&}（鉄条）何者だ 貴様
+Dialogue: 0,0:01:13.07,0:01:15.03,Default,,0,0,0,,{\c&Hffffff&}（カイマン）お… 俺は…
+Dialogue: 0,0:01:16.07,0:01:18.57,Default,,0,0,0,,{\c&Hffffff&}栗鼠(りす)の友達だ
+Dialogue: 0,0:01:20.49,0:01:22.49,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:02:47.95,0:02:49.96,Default,,0,0,0,,{\an8\c&Hffffff&}〜♪
+Dialogue: 0,0:02:51.21,0:02:52.96,Default,,0,0,0,,{\c&Hffffff&}（鳥太(ちょうた)）煙(えん)…
+Dialogue: 0,0:02:53.04,0:02:54.21,Default,,0,0,0,,{\c&Hffffff&}（ドアが開く音）
+Dialogue: 0,0:02:54.71,0:02:57.46,Default,,0,0,0,,{\c&Hffffff&}（心(しん)）よお\N煙さんが倒れたんだって？
+Dialogue: 0,0:02:57.55,0:03:00.09,Default,,0,0,0,,{\c&Hffffff&}（鳥太）あっ 心君　能井(のい)ちゃん
+Dialogue: 0,0:03:00.68,0:03:03.51,Default,,0,0,0,,{\c&Hffffff&}あれ？　君らはホールの人間ども…
+Dialogue: 0,0:03:03.60,0:03:04.97,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）こんにちは～
+Dialogue: 0,0:03:05.05,0:03:06.26,Default,,0,0,0,,{\c&Hffffff&}（ジョンソン）ギュチィ
+Dialogue: 0,0:03:06.76,0:03:09.52,Default,,0,0,0,,{\c&Hffffff&}（心）俺の知り合いなんだ\N見逃してくれ
+Dialogue: 0,0:03:09.60,0:03:10.89,Default,,0,0,0,,{\c&Hffffff&}（鳥太）へえ～
+Dialogue: 0,0:03:10.98,0:03:12.48,Default,,0,0,0,,{\c&Hffffff&}（能井）おい ニカイドウは？
+Dialogue: 0,0:03:12.56,0:03:16.98,Default,,0,0,0,,{\c&Hffffff&}（鳥太）実は今までのニカイドウは\N俺が化けてたんだよね～
+Dialogue: 0,0:03:17.07,0:03:18.23,Default,,0,0,0,,{\c&Hffffff&}気づかなかった？
+Dialogue: 0,0:03:18.32,0:03:19.74,Default,,0,0,0,,{\c&Hffffff&}何ィ～！
+Dialogue: 0,0:03:19.82,0:03:24.37,Default,,0,0,0,,{\c&Hffffff&}本物のニカイドウはトカゲ男と\N逃げちゃったんだよね～
+Dialogue: 0,0:03:24.45,0:03:26.37,Default,,0,0,0,,{\c&Hffffff&}今はどこにいるやら…
+Dialogue: 0,0:03:26.45,0:03:30.12,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）そうだったのか\Nやったな カイマン君
+Dialogue: 0,0:03:31.50,0:03:32.37,Default,,0,0,0,,{\c&Hffffff&}（煙）カッ！
+Dialogue: 0,0:03:32.46,0:03:34.25,Default,,0,0,0,,{\c&Hffffff&}（鳥太）あっ 煙が起きた！
+Dialogue: 0,0:03:34.33,0:03:36.67,Default,,0,0,0,,{\c&Hffffff&}-（部下Ａ）ボス 大丈夫ですか？\N-（部下Ｂ）ボス！
+Dialogue: 0,0:03:36.75,0:03:37.80,Default,,0,0,0,,{\c&Hffffff&}（鳥太）煙！
+Dialogue: 0,0:03:37.88,0:03:40.30,Default,,0,0,0,,{\c&Hffffff&}煙～！ よかったあ～！
+Dialogue: 0,0:03:40.38,0:03:41.67,Default,,0,0,0,,{\c&Hffffff&}（煙）カーッ！
+Dialogue: 0,0:03:41.76,0:03:44.43,Default,,0,0,0,,{\c&Hffffff&}-（部下Ｂ）わーっ 鳥太さん！\N-（鳥太）しびびび…
+Dialogue: 0,0:03:51.52,0:03:54.69,Default,,0,0,0,,{\c&Hffffff&}（心）もしかして\Nニカイドウの所へ行くのか？
+Dialogue: 0,0:03:55.27,0:03:58.07,Default,,0,0,0,,{\c&Hffffff&}（煙）俺の中の契約書が\N導いているのだ
+Dialogue: 0,0:03:58.65,0:04:01.57,Default,,0,0,0,,{\c&Hffffff&}トカゲ野郎は俺自ら始末する
+Dialogue: 0,0:04:01.65,0:04:03.82,Default,,0,0,0,,{\c&Hffffff&}お前らも後からついてこい！
+Dialogue: 0,0:04:11.41,0:04:13.83,Default,,0,0,0,,{\c&Hffffff&}（夏木のいびき）
+Dialogue: 0,0:04:15.33,0:04:16.33,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）ん…
+Dialogue: 0,0:04:16.96,0:04:18.04,Default,,0,0,0,,{\c&Hffffff&}カイマン？
+Dialogue: 0,0:04:20.17,0:04:21.34,Default,,0,0,0,,{\c&Hffffff&}（藤田(ふじた)）おーい
+Dialogue: 0,0:04:21.42,0:04:24.09,Default,,0,0,0,,{\c&Hffffff&}恵比寿　(えびす)いるのか？
+Dialogue: 0,0:04:30.60,0:04:31.43,Default,,0,0,0,,{\c&Hffffff&}恵比…
+Dialogue: 0,0:04:33.27,0:04:34.44,Default,,0,0,0,,{\c&Hffffff&}（恵比寿）あっ
+Dialogue: 0,0:04:34.52,0:04:36.19,Default,,0,0,0,,{\c&Hffffff&}（恵比寿のニセモノ）ガ… ア…
+Dialogue: 0,0:04:37.11,0:04:38.44,Default,,0,0,0,,{\c&Hffffff&}（藤田）恵比寿…
+Dialogue: 0,0:04:38.52,0:04:40.07,Default,,0,0,0,,{\c&Hffffff&}藤田…
+Dialogue: 0,0:04:40.15,0:04:41.73,Default,,0,0,0,,{\c&Hffffff&}-（藤田）恵比寿！\N-（恵比寿）あっ！
+Dialogue: 0,0:04:42.94,0:04:43.99,Default,,0,0,0,,{\c&Hffffff&}（藤田）恵比寿！
+Dialogue: 0,0:04:46.20,0:04:47.62,Default,,0,0,0,,{\c&Hffffff&}あっ ああ…
+Dialogue: 0,0:04:47.70,0:04:49.37,Default,,0,0,0,,{\c&Hffffff&}え… 恵比寿！
+Dialogue: 0,0:04:49.45,0:04:50.45,Default,,0,0,0,,{\c&Hffffff&}（ニセモノ）ゲヒッ
+Dialogue: 0,0:04:51.41,0:04:53.25,Default,,0,0,0,,{\c&Hffffff&}ゲヒヒッ…　ドゥア！
+Dialogue: 0,0:04:53.33,0:04:54.66,Default,,0,0,0,,{\c&Hffffff&}（藤田）ギャ～ッ！
+Dialogue: 0,0:04:56.29,0:04:59.00,Default,,0,0,0,,{\c&Hffffff&}ああ！　ハァ ハァ ハァ…
+Dialogue: 0,0:04:59.09,0:04:59.92,Default,,0,0,0,,{\c&Hffffff&}あっ？
+Dialogue: 0,0:05:00.96,0:05:02.63,Default,,0,0,0,,{\c&Hffffff&}（ニセモノ）ゲヒッ
+Dialogue: 0,0:05:02.71,0:05:04.09,Default,,0,0,0,,{\c&Hffffff&}（恵比寿）あ… あ…
+Dialogue: 0,0:05:06.34,0:05:08.80,Default,,0,0,0,,{\c&Hffffff&}（魔法の着弾音）\N（ニセモノ）グワッ
+Dialogue: 0,0:05:08.89,0:05:11.47,Default,,0,0,0,,{\c&Hffffff&}-（藤田）ハァハァ…\N-（ニセモノ）グア
+Dialogue: 0,0:05:11.56,0:05:14.35,Default,,0,0,0,,{\c&Hffffff&}（藤田）化け物め！\N恵比寿 しっかりしろ！
+Dialogue: 0,0:05:14.43,0:05:16.94,Default,,0,0,0,,{\c&Hffffff&}今すぐ 能井さんを\N呼んでやるからな
+Dialogue: 0,0:05:17.85,0:05:19.40,Default,,0,0,0,,{\c&Hffffff&}わあああっ！
+Dialogue: 0,0:05:22.69,0:05:24.32,Default,,0,0,0,,{\c&Hffffff&}ああーっ！　くっ！
+Dialogue: 0,0:05:24.40,0:05:26.99,Default,,0,0,0,,{\c&Hffffff&}ハァ ハァ ハァ…
+Dialogue: 0,0:05:27.78,0:05:29.70,Default,,0,0,0,,{\c&Hffffff&}（ニセモノ）ゲヒ ギヒヒ…
+Dialogue: 0,0:05:29.78,0:05:32.79,Default,,0,0,0,,{\c&Hffffff&}ダ…ダメだ　俺の魔法じゃ…
+Dialogue: 0,0:05:33.29,0:05:33.95,Default,,0,0,0,,{\c&Hffffff&}ぐわっ
+Dialogue: 0,0:05:34.04,0:05:35.96,Default,,0,0,0,,{\c&Hffffff&}ぐっ　ううっ…
+Dialogue: 0,0:05:36.04,0:05:38.46,Default,,0,0,0,,{\c&Hffffff&}（切り裂く音）\N（藤田）う… うっ
+Dialogue: 0,0:05:39.17,0:05:40.96,Default,,0,0,0,,{\c&Hffffff&}これは黒い粉？
+Dialogue: 0,0:05:41.04,0:05:42.59,Default,,0,0,0,,{\c&Hffffff&}クソーッ！
+Dialogue: 0,0:05:42.67,0:05:44.09,Default,,0,0,0,,{\c&Hffffff&}（ニセモノの笑い声）
+Dialogue: 0,0:05:44.17,0:05:46.59,Default,,0,0,0,,{\c&Hffffff&}（速くなる鼓動の音）
+Dialogue: 0,0:05:50.60,0:05:52.35,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）栗鼠の友達だと？
+Dialogue: 0,0:05:53.47,0:05:55.85,Default,,0,0,0,,{\c&Hffffff&}お前 まさか 会川(あいかわ)か？
+Dialogue: 0,0:05:55.93,0:05:58.35,Default,,0,0,0,,{\c&Hffffff&}ア… イ… カワ？
+Dialogue: 0,0:06:00.44,0:06:02.44,Default,,0,0,0,,{\c&Hffffff&}（爆発音）
+Dialogue: 0,0:06:06.57,0:06:08.15,Default,,0,0,0,,{\c&Hffffff&}（カイマン）何だ ありゃあ？
+Dialogue: 0,0:06:08.65,0:06:10.24,Default,,0,0,0,,{\c&Hffffff&}（牛島田(うししまだ)）毒蛾　鉄条！
+Dialogue: 0,0:06:10.32,0:06:12.49,Default,,0,0,0,,{\c&Hffffff&}大変だ　煙が来たんじゃ！
+Dialogue: 0,0:06:12.58,0:06:14.62,Default,,0,0,0,,{\c&Hffffff&}-（鉄条）狙いは俺たちか？\N-（毒蛾）あっ！
+Dialogue: 0,0:06:14.70,0:06:15.87,Default,,0,0,0,,{\c&Hffffff&}バイト代がまだ！
+Dialogue: 0,0:06:15.95,0:06:18.37,Default,,0,0,0,,{\c&Hffffff&}（牛島田）そんなこと\N言っとる場合か！
+Dialogue: 0,0:06:19.12,0:06:21.17,Default,,0,0,0,,{\c&Hffffff&}毒蛾！　何してんだ 行くぞ
+Dialogue: 0,0:06:21.25,0:06:22.13,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）ああ
+Dialogue: 0,0:06:22.21,0:06:23.50,Default,,0,0,0,,{\c&Hffffff&}どうした？
+Dialogue: 0,0:06:23.59,0:06:27.42,Default,,0,0,0,,{\c&Hffffff&}いや… あいつ 何だか\N懐かしいような気がしてな
+Dialogue: 0,0:06:32.97,0:06:35.06,Default,,0,0,0,,{\c&Hffffff&}（夏木）な 何が起こったんだ？
+Dialogue: 0,0:06:35.14,0:06:37.73,Default,,0,0,0,,{\c&Hffffff&}アニキー！　ニカイドウさーん！
+Dialogue: 0,0:06:37.81,0:06:39.64,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）ハァ ハァ…
+Dialogue: 0,0:06:39.73,0:06:41.90,Default,,0,0,0,,{\c&Hffffff&}（荒い息）
+Dialogue: 0,0:06:41.98,0:06:43.73,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ニカイドウ！
+Dialogue: 0,0:06:44.48,0:06:45.53,Default,,0,0,0,,{\c&Hffffff&}カイマン…
+Dialogue: 0,0:06:45.61,0:06:47.90,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ニカイドウ\Nどうした？
+Dialogue: 0,0:06:47.99,0:06:50.32,Default,,0,0,0,,{\c&Hffffff&}胸が苦しい…
+Dialogue: 0,0:06:50.41,0:06:52.49,Default,,0,0,0,,{\c&Hffffff&}煙が近くにいるんだ
+Dialogue: 0,0:06:52.99,0:06:56.16,Default,,0,0,0,,{\c&Hffffff&}よし 俺におぶされ　逃げるぞ！
+Dialogue: 0,0:06:56.24,0:06:58.08,Default,,0,0,0,,{\c&Hffffff&}（客たち）ハァ ハァ…
+Dialogue: 0,0:06:58.16,0:06:59.83,Default,,0,0,0,,{\c&Hffffff&}（悲鳴）
+Dialogue: 0,0:06:59.91,0:07:03.13,Default,,0,0,0,,{\c&Hffffff&}（カイマン）うおおああーっ！
+Dialogue: 0,0:07:03.21,0:07:04.17,Default,,0,0,0,,{\c&Hffffff&}はあっ
+Dialogue: 0,0:07:04.25,0:07:07.21,Default,,0,0,0,,{\c&Hffffff&}どわあああ！　ほっ！　ふっ！
+Dialogue: 0,0:07:08.80,0:07:12.30,Default,,0,0,0,,{\c&Hffffff&}てっ　ふっ！　うわっとと！
+Dialogue: 0,0:07:14.22,0:07:15.68,Default,,0,0,0,,{\c&Hffffff&}うおおおーっ
+Dialogue: 0,0:07:16.76,0:07:18.31,Default,,0,0,0,,{\c&Hffffff&}たっ とっ…
+Dialogue: 0,0:07:20.48,0:07:21.31,Default,,0,0,0,,{\c&Hffffff&}ハッ
+Dialogue: 0,0:07:23.98,0:07:26.57,Default,,0,0,0,,{\c&Hffffff&}（煙）久しぶりだな ニカイドウ
+Dialogue: 0,0:07:26.65,0:07:27.86,Default,,0,0,0,,{\c&Hffffff&}煙！
+Dialogue: 0,0:07:28.40,0:07:32.07,Default,,0,0,0,,{\c&Hffffff&}そして お前がトカゲ男か
+Dialogue: 0,0:07:32.16,0:07:34.57,Default,,0,0,0,,{\c&Hffffff&}俺のパートナーを返してもらうぞ
+Dialogue: 0,0:07:34.66,0:07:37.12,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ヘッ\Nちょうどよかったぜ
+Dialogue: 0,0:07:37.20,0:07:38.04,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）カイマン！
+Dialogue: 0,0:07:38.12,0:07:41.21,Default,,0,0,0,,{\c&Hffffff&}（カイマン）逃げ回るなんて\N性に合わねえからなあ
+Dialogue: 0,0:07:41.29,0:07:44.21,Default,,0,0,0,,{\c&Hffffff&}ブッ殺してやるぜ キノコ野郎！
+Dialogue: 0,0:07:44.29,0:07:46.00,Default,,0,0,0,,{\c&Hffffff&}テメーが死ねば
+Dialogue: 0,0:07:46.09,0:07:49.46,Default,,0,0,0,,{\c&Hffffff&}ニカイドウにかかった\N契約とやらの魔法も解ける
+Dialogue: 0,0:07:50.09,0:07:51.13,Default,,0,0,0,,{\c&Hffffff&}来い
+Dialogue: 0,0:07:51.22,0:07:54.09,Default,,0,0,0,,{\c&Hffffff&}二度と生き返れんように\Nバラバラにしてやる
+Dialogue: 0,0:07:54.18,0:07:57.72,Default,,0,0,0,,{\c&Hffffff&}いくらすげえ魔法使いだ\Nっつったってなあ
+Dialogue: 0,0:07:57.81,0:08:01.98,Default,,0,0,0,,{\c&Hffffff&}俺には 魔法が効かねえんだよ！
+Dialogue: 0,0:08:05.48,0:08:07.11,Default,,0,0,0,,{\c&Hffffff&}ぬう！　うおっ？
+Dialogue: 0,0:08:07.19,0:08:08.36,Default,,0,0,0,,{\c&Hffffff&}チッ！
+Dialogue: 0,0:08:11.28,0:08:12.95,Default,,0,0,0,,{\c&Hffffff&}うっ ぐほっ！
+Dialogue: 0,0:08:13.03,0:08:13.86,Default,,0,0,0,,{\c&Hffffff&}てえい！
+Dialogue: 0,0:08:14.78,0:08:15.78,Default,,0,0,0,,{\c&Hffffff&}はっ！
+Dialogue: 0,0:08:19.45,0:08:21.87,Default,,0,0,0,,{\c&Hffffff&}（煙）どうした それで終わりか？
+Dialogue: 0,0:08:21.95,0:08:23.04,Default,,0,0,0,,{\c&Hffffff&}（カイマン）くっ…
+Dialogue: 0,0:08:23.12,0:08:24.87,Default,,0,0,0,,{\c&Hffffff&}（煙）貴様は俺のキノコを
+Dialogue: 0,0:08:24.96,0:08:27.50,Default,,0,0,0,,{\c&Hffffff&}マヌケな魔法だと\N思っているようだが
+Dialogue: 0,0:08:28.00,0:08:30.76,Default,,0,0,0,,{\c&Hffffff&}その恐ろしさを全く分かっていない
+Dialogue: 0,0:08:31.63,0:08:33.80,Default,,0,0,0,,{\c&Hffffff&}貴様は 松村(まつむら)の敵(かたき)でもある
+Dialogue: 0,0:08:34.38,0:08:37.30,Default,,0,0,0,,{\c&Hffffff&}一番苦しむ方法で殺してやろう
+Dialogue: 0,0:08:37.39,0:08:39.14,Default,,0,0,0,,{\c&Hffffff&}（カイマン）やってみやがれ！
+Dialogue: 0,0:08:40.22,0:08:41.64,Default,,0,0,0,,{\c&Hffffff&}（胞子を吹く音）
+Dialogue: 0,0:08:44.48,0:08:49.65,Default,,0,0,0,,{\c&Hffffff&}確かに 俺は貴様の肉体に\N魔法をかけることはできないが…
+Dialogue: 0,0:08:49.73,0:08:52.03,Default,,0,0,0,,{\c&Hffffff&}（指を鳴らす音）\N（ニカイドウ）あっ
+Dialogue: 0,0:08:52.61,0:08:56.16,Default,,0,0,0,,{\c&Hffffff&}直接 貴様にかけなくても\N小さな胞子を飛ばして
+Dialogue: 0,0:08:56.24,0:08:58.78,Default,,0,0,0,,{\c&Hffffff&}キノコを作り出すことができるのだ
+Dialogue: 0,0:08:58.87,0:09:01.08,Default,,0,0,0,,{\c&Hffffff&}何をゴチャゴチャ言ってやがる
+Dialogue: 0,0:09:01.16,0:09:02.95,Default,,0,0,0,,{\c&Hffffff&}さっさと かかってきやがれ
+Dialogue: 0,0:09:03.04,0:09:04.96,Default,,0,0,0,,{\c&Hffffff&}（煙）もう終わっている
+Dialogue: 0,0:09:05.04,0:09:05.87,Default,,0,0,0,,{\c&Hffffff&}何？
+Dialogue: 0,0:09:06.50,0:09:10.96,Default,,0,0,0,,{\c&Hffffff&}（煙）今 その胞子たちは\Nお前の体内へ入り
+Dialogue: 0,0:09:11.05,0:09:13.30,Default,,0,0,0,,{\c&Hffffff&}奥へ奥へと…
+Dialogue: 0,0:09:13.80,0:09:15.59,Default,,0,0,0,,{\c&Hffffff&}ハッ！　カイマン！
+Dialogue: 0,0:09:15.68,0:09:18.09,Default,,0,0,0,,{\c&Hffffff&}（煙）そして発生する\N（指を鳴らす音）
+Dialogue: 0,0:09:18.18,0:09:19.47,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ぐほ！
+Dialogue: 0,0:09:30.77,0:09:31.98,Default,,0,0,0,,{\c&Hffffff&}（藤田）安心しろ
+Dialogue: 0,0:09:32.94,0:09:36.36,Default,,0,0,0,,{\c&Hffffff&}あの化け物は 俺の魔法で倒したよ
+Dialogue: 0,0:09:36.45,0:09:37.49,Default,,0,0,0,,{\c&Hffffff&}大丈夫だ
+Dialogue: 0,0:09:38.70,0:09:41.08,Default,,0,0,0,,{\c&Hffffff&}一生懸命 煙さんに頼んで
+Dialogue: 0,0:09:41.16,0:09:44.12,Default,,0,0,0,,{\c&Hffffff&}キクラゲの魔法を\N使わせてもらうから…
+Dialogue: 0,0:09:44.20,0:09:46.37,Default,,0,0,0,,{\c&Hffffff&}苦しいのは今だけだ
+Dialogue: 0,0:09:46.46,0:09:50.38,Default,,0,0,0,,{\c&Hffffff&}次に目が覚めた時は どこも痛く…
+Dialogue: 0,0:10:00.60,0:10:01.55,Default,,0,0,0,,{\c&Hffffff&}（心）ん？
+Dialogue: 0,0:10:02.05,0:10:05.02,Default,,0,0,0,,{\c&Hffffff&}煙さん また派手にやってやがるぜ
+Dialogue: 0,0:10:05.10,0:10:06.39,Default,,0,0,0,,{\c&Hffffff&}（能井）迷惑な！
+Dialogue: 0,0:10:07.98,0:10:10.65,Default,,0,0,0,,{\c&Hffffff&}（カイマン）う…　うう…
+Dialogue: 0,0:10:11.94,0:10:13.40,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）てやっ
+Dialogue: 0,0:10:14.40,0:10:15.36,Default,,0,0,0,,{\c&Hffffff&}ふっ！
+Dialogue: 0,0:10:16.74,0:10:17.65,Default,,0,0,0,,{\c&Hffffff&}（指を鳴らす音）
+Dialogue: 0,0:10:18.61,0:10:20.41,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）うわああ！
+Dialogue: 0,0:10:21.53,0:10:23.49,Default,,0,0,0,,{\c&Hffffff&}（煙）あまり乱暴するなよ
+Dialogue: 0,0:10:23.58,0:10:27.79,Default,,0,0,0,,{\c&Hffffff&}そのキノコが傷つけば\Nお前の足も傷ついたことになる
+Dialogue: 0,0:10:28.54,0:10:32.96,Default,,0,0,0,,{\c&Hffffff&}しかし契約書が\Nまだ完全に再生していないとはいえ
+Dialogue: 0,0:10:33.04,0:10:35.55,Default,,0,0,0,,{\c&Hffffff&}よく俺に攻撃ができたものだ
+Dialogue: 0,0:10:36.34,0:10:38.72,Default,,0,0,0,,{\c&Hffffff&}そんなに この男が大事か？
+Dialogue: 0,0:10:38.80,0:10:41.14,Default,,0,0,0,,{\c&Hffffff&}ああ… 大事だよ
+Dialogue: 0,0:10:41.22,0:10:45.18,Default,,0,0,0,,{\c&Hffffff&}私の たった１人の\N大事な友達なんだ
+Dialogue: 0,0:10:45.26,0:10:46.18,Default,,0,0,0,,{\c&Hffffff&}（煙）ぬっ！
+Dialogue: 0,0:10:46.27,0:10:47.56,Default,,0,0,0,,{\c&Hffffff&}（会川）隙あり！
+Dialogue: 0,0:10:47.64,0:10:48.73,Default,,0,0,0,,{\c&Hffffff&}（煙）ぐはあっ
+Dialogue: 0,0:10:53.19,0:10:54.11,Default,,0,0,0,,{\c&Hffffff&}カイマン？
+Dialogue: 0,0:10:54.69,0:10:57.49,Default,,0,0,0,,{\c&Hffffff&}（会川）クソッ\Nメチャクチャ痛(いて)えな
+Dialogue: 0,0:10:57.57,0:11:01.11,Default,,0,0,0,,{\c&Hffffff&}人の体ん中に\Nキノコなんか生やしやがって！
+Dialogue: 0,0:11:04.62,0:11:08.12,Default,,0,0,0,,{\c&Hffffff&}（煙）き…貴様ァ～！
+Dialogue: 0,0:11:08.95,0:11:10.87,Default,,0,0,0,,{\c&Hffffff&}死ねえーっ！
+Dialogue: 0,0:11:11.46,0:11:12.88,Default,,0,0,0,,{\c&Hffffff&}むうおおおお
+Dialogue: 0,0:11:12.96,0:11:13.75,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）カイマン！
+Dialogue: 0,0:11:17.59,0:11:19.26,Default,,0,0,0,,{\c&Hffffff&}お前 顔が…
+Dialogue: 0,0:11:20.72,0:11:22.89,Default,,0,0,0,,{\c&Hffffff&}うああああ！
+Dialogue: 0,0:11:24.85,0:11:26.89,Default,,0,0,0,,{\c&Hffffff&}（爆発音）
+Dialogue: 0,0:11:27.68,0:11:29.02,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）カイマン…
+Dialogue: 0,0:11:32.69,0:11:34.77,Default,,0,0,0,,{\c&Hffffff&}カイ… マ…
+Dialogue: 0,0:11:41.20,0:11:44.20,Default,,0,0,0,,{\c&Hffffff&}ギョーザ… 食いてえな…
+Dialogue: 0,0:11:44.87,0:11:46.03,Default,,0,0,0,,{\c&Hffffff&}クソ…
+Dialogue: 0,0:11:52.21,0:11:57.00,Default,,0,0,0,,{\c&Hffffff&}（カース）お前は俺ではなく\N他者によって殺されてしまった
+Dialogue: 0,0:12:10.27,0:12:11.64,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）カイマン
+Dialogue: 0,0:12:12.14,0:12:15.48,Default,,0,0,0,,{\c&Hffffff&}あれが お前の\N本当の顔だったんだな
+Dialogue: 0,0:12:17.06,0:12:19.32,Default,,0,0,0,,{\c&Hffffff&}やっと元に戻れたんだな
+Dialogue: 0,0:12:21.40,0:12:24.82,Default,,0,0,0,,{\c&Hffffff&}覚えているか？　昨日の約束
+Dialogue: 0,0:12:26.37,0:12:28.58,Default,,0,0,0,,{\c&Hffffff&}一緒にホールに帰ろう
+Dialogue: 0,0:12:31.16,0:12:33.04,Default,,0,0,0,,{\c&Hffffff&}な？ カイマン…
+Dialogue: 0,0:12:36.04,0:12:38.04,Default,,0,0,0,,{\c&Hffffff&}（心）やれやれ…
+Dialogue: 0,0:12:38.13,0:12:41.96,Default,,0,0,0,,{\c&Hffffff&}煙さんがトカゲ野郎の死体を\N回収しとけって言ってたけど
+Dialogue: 0,0:12:42.76,0:12:45.05,Default,,0,0,0,,{\c&Hffffff&}どうやって捜すんだよ
+Dialogue: 0,0:12:46.05,0:12:48.30,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）カイマン君 まさか⸺
+Dialogue: 0,0:12:48.39,0:12:51.31,Default,,0,0,0,,{\c&Hffffff&}本当に殺されてしまったのだろうか
+Dialogue: 0,0:12:51.39,0:12:53.06,Default,,0,0,0,,{\c&Hffffff&}（心）おい カスカベさん
+Dialogue: 0,0:12:53.14,0:12:53.98,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）ん？
+Dialogue: 0,0:12:54.06,0:12:55.73,Default,,0,0,0,,{\c&Hffffff&}（心）これ 見てみろよ
+Dialogue: 0,0:12:56.81,0:12:57.94,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）すごい
+Dialogue: 0,0:12:58.02,0:12:59.48,Default,,0,0,0,,{\c&Hffffff&}（ジョンソン）ショッキング
+Dialogue: 0,0:12:59.57,0:13:02.86,Default,,0,0,0,,{\c&Hffffff&}（心）この辺りは地下に\Nマグマが流れていたんだな
+Dialogue: 0,0:13:02.94,0:13:04.36,Default,,0,0,0,,{\c&Hffffff&}-（カスカベ）あれは！\N-（心）あ？
+Dialogue: 0,0:13:05.40,0:13:08.32,Default,,0,0,0,,{\c&Hffffff&}（カスカベ）カイマン君の… 首？
+Dialogue: 0,0:13:09.45,0:13:11.37,Default,,0,0,0,,{\c&Hffffff&}（虫の羽音）
+Dialogue: 0,0:13:13.95,0:13:15.46,Default,,0,0,0,,{\an8\c&Hffffff&}（牛島田）むう…
+Dialogue: 0,0:13:17.46,0:13:20.25,Default,,0,0,0,,{\c&Hffffff&}（葉が擦れる音）
+Dialogue: 0,0:13:22.21,0:13:24.05,Default,,0,0,0,,{\c&Hffffff&}（牛島田）煙は\N追ってきてないようじゃ
+Dialogue: 0,0:13:24.13,0:13:25.30,Default,,0,0,0,,{\c&Hffffff&}（佐治(さじ)）そうか…
+Dialogue: 0,0:13:25.38,0:13:29.39,Default,,0,0,0,,{\c&Hffffff&}しかし もうしばらく ここに\N潜んでいたほうがよさそうだな
+Dialogue: 0,0:13:30.47,0:13:32.26,Default,,0,0,0,,{\c&Hffffff&}どうした？ 毒蛾
+Dialogue: 0,0:13:33.60,0:13:35.77,Default,,0,0,0,,{\c&Hffffff&}ボスのことを考えていた
+Dialogue: 0,0:13:38.81,0:13:39.81,Default,,0,0,0,,{\c&Hffffff&}（鉄条）俺もだ
+Dialogue: 0,0:13:40.36,0:13:42.23,Default,,0,0,0,,{\c&Hffffff&}最近 よく思い出す
+Dialogue: 0,0:13:42.90,0:13:44.53,Default,,0,0,0,,{\c&Hffffff&}みんなには話したかな
+Dialogue: 0,0:13:45.24,0:13:49.24,Default,,0,0,0,,{\c&Hffffff&}ボスと２人でダングヒルにある\Nエリート魔法使いが集まる店に
+Dialogue: 0,0:13:49.32,0:13:51.16,Default,,0,0,0,,{\c&Hffffff&}行ったことがあったんだが
+Dialogue: 0,0:13:51.78,0:13:55.75,Default,,0,0,0,,{\c&Hffffff&}一番奥の席にいた\Nこの店を仕切ってる野郎は
+Dialogue: 0,0:13:55.83,0:13:57.83,Default,,0,0,0,,{\c&Hffffff&}ボスと目が合った途端…
+Dialogue: 0,0:13:57.92,0:13:58.75,Default,,0,0,0,,{\c&Hffffff&}気絶した！
+Dialogue: 0,0:13:58.83,0:13:59.92,Default,,0,0,0,,{\c&Hffffff&}（豚(とん)･佐治）ハハハ…
+Dialogue: 0,0:14:00.00,0:14:01.50,Default,,0,0,0,,{\c&Hffffff&}（牛島田）待て待て！
+Dialogue: 0,0:14:01.59,0:14:04.80,Default,,0,0,0,,{\c&Hffffff&}その手の話だったら\Nわしにもあるぞい
+Dialogue: 0,0:14:06.17,0:14:08.76,Default,,0,0,0,,{\c&Hffffff&}（豚）なんと\Nあの食い物に卑しいボスが
+Dialogue: 0,0:14:08.84,0:14:10.93,Default,,0,0,0,,{\c&Hffffff&}俺にハンバーガーを\N恵んでくれたんだ
+Dialogue: 0,0:14:11.01,0:14:13.64,Default,,0,0,0,,{\c&Hffffff&}（牛島田）お前が物欲しそうに\Nしてたからじゃろう
+Dialogue: 0,0:14:13.72,0:14:14.89,Default,,0,0,0,,{\c&Hffffff&}意地汚いやつめ
+Dialogue: 0,0:14:14.97,0:14:16.48,Default,,0,0,0,,{\c&Hffffff&}（豚）エヘヘヘ
+Dialogue: 0,0:14:16.56,0:14:17.56,Default,,0,0,0,,{\c&Hffffff&}（佐治）毒蛾？
+Dialogue: 0,0:14:18.31,0:14:21.94,Default,,0,0,0,,{\c&Hffffff&}俺はボスと初めて会った日のことを\N思い出していた
+Dialogue: 0,0:14:23.77,0:14:27.65,Default,,0,0,0,,{\c&Hffffff&}ガキの頃の俺たちは\N何の目的もなく
+Dialogue: 0,0:14:27.74,0:14:29.32,Default,,0,0,0,,{\c&Hffffff&}ただ 生きていたよな
+Dialogue: 0,0:14:30.78,0:14:35.58,Default,,0,0,0,,{\c&Hffffff&}魔法が使えない自分の存在に\N疑問を感じながら
+Dialogue: 0,0:14:35.66,0:14:39.08,Default,,0,0,0,,{\c&Hffffff&}食い物を盗まないと\N生きてはいけなかった
+Dialogue: 0,0:14:40.42,0:14:42.33,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＡ）悪童どもめ！
+Dialogue: 0,0:14:42.42,0:14:43.71,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＢ）どう始末する？
+Dialogue: 0,0:14:44.42,0:14:45.75,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＡ）うわああ！
+Dialogue: 0,0:14:45.84,0:14:47.13,Default,,0,0,0,,{\c&Hffffff&}何だ このツバは？　痛え～
+Dialogue: 0,0:14:47.21,0:14:50.22,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＢ）このガキ！\N口を切り取ってやる
+Dialogue: 0,0:14:50.30,0:14:51.43,Default,,0,0,0,,{\c&Hffffff&}（鉄条）やめろ！
+Dialogue: 0,0:14:51.51,0:14:52.26,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＢ）ぐっ！
+Dialogue: 0,0:14:52.34,0:14:53.22,Default,,0,0,0,,{\c&Hffffff&}（豚）鉄条！
+Dialogue: 0,0:14:53.30,0:14:56.77,Default,,0,0,0,,{\c&Hffffff&}（牛島田）この魔法使いども！\Nなんてことするんじゃ
+Dialogue: 0,0:14:56.85,0:15:01.02,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＡ）おい 決めたぞ\Nこいつらの処刑法を
+Dialogue: 0,0:15:01.60,0:15:04.11,Default,,0,0,0,,{\c&Hffffff&}ホールだ ホールに捨てよう
+Dialogue: 0,0:15:05.61,0:15:07.28,Default,,0,0,0,,{\c&Hffffff&}（３人）うう…
+Dialogue: 0,0:15:07.36,0:15:08.82,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）ハハハハ…
+Dialogue: 0,0:15:08.90,0:15:09.78,Default,,0,0,0,,{\c&Hffffff&}（３人）あ…
+Dialogue: 0,0:15:09.86,0:15:11.70,Default,,0,0,0,,{\c&Hffffff&}（毒蛾の笑い声）\N（佐治）毒蛾？
+Dialogue: 0,0:15:11.78,0:15:13.37,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）この体の痛み…
+Dialogue: 0,0:15:14.62,0:15:17.04,Default,,0,0,0,,{\c&Hffffff&}俺の中の魔法使いの血が
+Dialogue: 0,0:15:17.12,0:15:20.16,Default,,0,0,0,,{\c&Hffffff&}ホールの雨を拒絶している証拠だ
+Dialogue: 0,0:15:20.25,0:15:22.54,Default,,0,0,0,,{\c&Hffffff&}俺たちは魔法使いだった！
+Dialogue: 0,0:15:22.63,0:15:23.79,Default,,0,0,0,,{\c&Hffffff&}（鉄条）毒蛾…
+Dialogue: 0,0:15:23.88,0:15:25.79,Default,,0,0,0,,{\c&Hffffff&}（牛島田）そうじゃ\Nそのとおりじゃ！
+Dialogue: 0,0:15:25.88,0:15:27.88,Default,,0,0,0,,{\c&Hffffff&}（４人の笑い声）
+Dialogue: 0,0:15:27.96,0:15:29.92,Default,,0,0,0,,{\c&Hffffff&}（魔法使いＡ）何だ こいつら
+Dialogue: 0,0:15:30.01,0:15:31.76,Default,,0,0,0,,{\c&Hffffff&}（刺さる音）\N（魔法使いＡ）うっ
+Dialogue: 0,0:15:32.26,0:15:33.09,Default,,0,0,0,,{\c&Hffffff&}うう…
+Dialogue: 0,0:15:34.05,0:15:35.14,Default,,0,0,0,,{\c&Hffffff&}（倒れる音）
+Dialogue: 0,0:15:35.85,0:15:38.18,Default,,0,0,0,,{\c&Hffffff&}（毒蛾の声）ボスは\N魔法使いどもを倒して
+Dialogue: 0,0:15:38.27,0:15:39.73,Default,,0,0,0,,{\c&Hffffff&}ドアを通っていった
+Dialogue: 0,0:15:40.89,0:15:42.98,Default,,0,0,0,,{\c&Hffffff&}俺たちは\Nそれに吸い込まれるように
+Dialogue: 0,0:15:43.06,0:15:44.56,Default,,0,0,0,,{\c&Hffffff&}ついていったんだ
+Dialogue: 0,0:15:46.32,0:15:50.49,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）その後 俺たちのような\Nやつらが増えていって
+Dialogue: 0,0:15:50.57,0:15:52.74,Default,,0,0,0,,{\c&Hffffff&}組織はデカくなっていった
+Dialogue: 0,0:15:53.82,0:15:55.49,Default,,0,0,0,,{\c&Hffffff&}ボスは今どこに…
+Dialogue: 0,0:15:56.78,0:15:58.99,Default,,0,0,0,,{\c&Hffffff&}（夏木）アニキー！　どこ〜？
+Dialogue: 0,0:15:59.08,0:16:01.75,Default,,0,0,0,,{\c&Hffffff&}アニキー！　ニカイドウさーん！
+Dialogue: 0,0:16:01.83,0:16:03.50,Default,,0,0,0,,{\c&Hffffff&}どこ〜？
+Dialogue: 0,0:16:20.85,0:16:22.18,Default,,0,0,0,,{\c&Hffffff&}（はう音）
+Dialogue: 0,0:16:22.27,0:16:23.27,Default,,0,0,0,,{\c&Hffffff&}（栗鼠）誰だ？
+Dialogue: 0,0:16:30.07,0:16:32.28,Default,,0,0,0,,{\c&Hffffff&}うっ うう…
+Dialogue: 0,0:16:32.36,0:16:34.36,Default,,0,0,0,,{\c&Hffffff&}う… うわあっ
+Dialogue: 0,0:16:34.86,0:16:36.53,Default,,0,0,0,,{\c&Hffffff&}なっ 何だ お前！
+Dialogue: 0,0:16:38.62,0:16:40.29,Default,,0,0,0,,{\c&Hffffff&}お… 俺？
+Dialogue: 0,0:16:40.37,0:16:41.16,Default,,0,0,0,,{\c&Hffffff&}うわっ
+Dialogue: 0,0:16:42.87,0:16:46.04,Default,,0,0,0,,{\c&Hffffff&}ぐおおおお！　がああっ…
+Dialogue: 0,0:16:48.38,0:16:51.05,Default,,0,0,0,,{\c&Hffffff&}ああ…　うっ…　あ…
+Dialogue: 0,0:16:51.13,0:16:52.80,Default,,0,0,0,,{\c&Hffffff&}（悲鳴）
+Dialogue: 0,0:16:52.88,0:16:55.30,Default,,0,0,0,,{\c&Hffffff&}うああああ！
+Dialogue: 0,0:16:55.38,0:16:56.80,Default,,0,0,0,,{\c&Hffffff&}ぐわあっ！
+Dialogue: 0,0:17:03.89,0:17:06.02,Default,,0,0,0,,{\c&Hffffff&}（牛島田）お前 何て名前じゃ？
+Dialogue: 0,0:17:06.10,0:17:07.06,Default,,0,0,0,,{\c&Hffffff&}（夏木）夏木
+Dialogue: 0,0:17:08.02,0:17:11.32,Default,,0,0,0,,{\c&Hffffff&}トカゲみたいな顔した\Nカイマンってアニキと一緒に
+Dialogue: 0,0:17:11.40,0:17:13.57,Default,,0,0,0,,{\c&Hffffff&}ボスに会いに来たんだ
+Dialogue: 0,0:17:13.65,0:17:15.82,Default,,0,0,0,,{\c&Hffffff&}（佐治）カイマン？\Nそんなやつ知らんぞ
+Dialogue: 0,0:17:15.90,0:17:17.82,Default,,0,0,0,,{\c&Hffffff&}そっかあ…
+Dialogue: 0,0:17:17.91,0:17:21.08,Default,,0,0,0,,{\c&Hffffff&}やっぱりアニキは\Nアジトの場所も知らないし
+Dialogue: 0,0:17:21.16,0:17:25.33,Default,,0,0,0,,{\c&Hffffff&}十字目も消えちゃったし\N偽者だったのかなあ
+Dialogue: 0,0:17:25.41,0:17:29.17,Default,,0,0,0,,{\c&Hffffff&}でも たとえ\Nニセ十字目だったとしても心配だな
+Dialogue: 0,0:17:29.25,0:17:30.34,Default,,0,0,0,,{\c&Hffffff&}（豚）わああ！
+Dialogue: 0,0:17:30.42,0:17:31.34,Default,,0,0,0,,{\c&Hffffff&}うわっ！
+Dialogue: 0,0:17:31.42,0:17:32.59,Default,,0,0,0,,{\c&Hffffff&}（鉄条）どうした？
+Dialogue: 0,0:17:32.67,0:17:33.84,Default,,0,0,0,,{\c&Hffffff&}あ… あれ
+Dialogue: 0,0:17:33.92,0:17:35.34,Default,,0,0,0,,{\c&Hffffff&}（ハエの羽音）
+Dialogue: 0,0:17:36.18,0:17:41.47,Default,,0,0,0,,{\c&Hffffff&}（カース）我が名はカース\Nこの世で最も不吉なもの
+Dialogue: 0,0:17:42.06,0:17:46.10,Default,,0,0,0,,{\c&Hffffff&}我を見るな　我が名を口にするな
+Dialogue: 0,0:17:47.06,0:17:49.35,Default,,0,0,0,,{\c&Hffffff&}（鉄条）なっ！　何者だ 貴様！
+Dialogue: 0,0:17:49.44,0:17:50.98,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）ハッ よせ！
+Dialogue: 0,0:17:51.07,0:17:52.73,Default,,0,0,0,,{\c&Hffffff&}（鉄条）化け物め！
+Dialogue: 0,0:17:52.82,0:17:54.19,Default,,0,0,0,,{\c&Hffffff&}（カース）はああ！
+Dialogue: 0,0:17:56.20,0:17:57.40,Default,,0,0,0,,{\c&Hffffff&}（鉄条）くっ
+Dialogue: 0,0:17:57.49,0:17:59.36,Default,,0,0,0,,{\c&Hffffff&}-（カース）はあ！\N-（鉄条）ぐっ！
+Dialogue: 0,0:18:00.24,0:18:01.24,Default,,0,0,0,,{\c&Hffffff&}（豚）鉄条！
+Dialogue: 0,0:18:01.33,0:18:02.70,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）豚 やめろ！
+Dialogue: 0,0:18:04.16,0:18:04.70,Default,,0,0,0,,{\c&Hffffff&}あっ
+Dialogue: 0,0:18:05.29,0:18:06.21,Default,,0,0,0,,{\c&Hffffff&}（カース）くあっ！
+Dialogue: 0,0:18:06.29,0:18:07.08,Default,,0,0,0,,{\c&Hffffff&}（豚）うっ…
+Dialogue: 0,0:18:07.16,0:18:09.25,Default,,0,0,0,,{\c&Hffffff&}みんな！ やつを攻撃するな
+Dialogue: 0,0:18:09.83,0:18:12.88,Default,,0,0,0,,{\c&Hffffff&}殺意も持ってはダメだ！\N皆殺しにされるぞ
+Dialogue: 0,0:18:12.96,0:18:14.25,Default,,0,0,0,,{\c&Hffffff&}（豚）うう…
+Dialogue: 0,0:18:14.34,0:18:16.26,Default,,0,0,0,,{\c&Hffffff&}（鉄条のうめき声）
+Dialogue: 0,0:18:26.68,0:18:30.85,Default,,0,0,0,,{\c&Hffffff&}（カース）我はカース\N全てを奪う者
+Dialogue: 0,0:18:38.57,0:18:40.41,Default,,0,0,0,,{\c&Hffffff&}（川尻(かわじり)）う… うう…
+Dialogue: 0,0:18:41.45,0:18:45.37,Default,,0,0,0,,{\c&Hffffff&}（川尻）魔法使いに戻されて\N力が弱まっている
+Dialogue: 0,0:18:46.20,0:18:49.75,Default,,0,0,0,,{\c&Hffffff&}この男だけは\N何とか連れてこれたが…
+Dialogue: 0,0:18:50.46,0:18:52.25,Default,,0,0,0,,{\c&Hffffff&}息もしていない
+Dialogue: 0,0:18:52.33,0:18:56.96,Default,,0,0,0,,{\c&Hffffff&}それに… とても冷たい…
+Dialogue: 0,0:19:08.48,0:19:09.89,Default,,0,0,0,,{\c&Hffffff&}“ハングリーバグ”
+Dialogue: 0,0:19:10.94,0:19:12.40,Default,,0,0,0,,{\c&Hffffff&}（ドアが開く音）\N（ニカイドウ）ん？
+Dialogue: 0,0:19:17.32,0:19:18.49,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ただいま
+Dialogue: 0,0:19:18.57,0:19:20.90,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）おかえり\N帰ってきたんだな
+Dialogue: 0,0:19:20.99,0:19:23.66,Default,,0,0,0,,{\c&Hffffff&}ああ もういいんだ
+Dialogue: 0,0:19:23.74,0:19:28.16,Default,,0,0,0,,{\c&Hffffff&}自分が誰なのか 何者かなんて\N思い出さないほうが
+Dialogue: 0,0:19:29.83,0:19:30.91,Default,,0,0,0,,{\c&Hffffff&}そっか…
+Dialogue: 0,0:19:31.00,0:19:32.92,Default,,0,0,0,,{\c&Hffffff&}（振動音）
+Dialogue: 0,0:19:33.50,0:19:35.54,Default,,0,0,0,,{\c&Hffffff&}とりあえず １杯やるか
+Dialogue: 0,0:19:35.63,0:19:37.00,Default,,0,0,0,,{\c&Hffffff&}（カイマン）じゃあ ギョーザもな
+Dialogue: 0,0:19:37.09,0:19:38.42,Default,,0,0,0,,{\c&Hffffff&}分かってるって
+Dialogue: 0,0:19:38.51,0:19:41.43,Default,,0,0,0,,{\c&Hffffff&}（雷鳴）
+Dialogue: 0,0:19:43.59,0:19:44.93,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ニカイドウ？
+Dialogue: 0,0:19:48.22,0:19:49.81,Default,,0,0,0,,{\c&Hffffff&}俺も手伝うよ
+Dialogue: 0,0:19:53.02,0:19:54.44,Default,,0,0,0,,{\c&Hffffff&}ニカイドウ？
+Dialogue: 0,0:19:56.32,0:19:59.61,Default,,0,0,0,,{\c&Hffffff&}（ニカイドウ）\Nカイマン… どうして？
+Dialogue: 0,0:20:00.53,0:20:01.57,Default,,0,0,0,,{\c&Hffffff&}（カイマン）ニカ…
+Dialogue: 0,0:20:03.53,0:20:04.70,Default,,0,0,0,,{\c&Hffffff&}な… に？
+Dialogue: 0,0:20:12.04,0:20:13.33,Default,,0,0,0,,{\c&Hffffff&}（振動音）
+Dialogue: 0,0:20:14.29,0:20:15.58,Default,,0,0,0,,{\c&Hffffff&}（振動音）
+Dialogue: 0,0:20:23.13,0:20:24.72,Default,,0,0,0,,{\c&Hffffff&}（首のない男）グチャ…
+Dialogue: 0,0:20:24.80,0:20:26.30,Default,,0,0,0,,{\c&Hffffff&}グチャグチャ…
+Dialogue: 0,0:20:43.03,0:20:43.99,Default,,0,0,0,,{\c&Hffffff&}グチャ…
+Dialogue: 0,0:20:46.99,0:20:47.87,Default,,0,0,0,,{\c&Hffffff&}グチャ…
+Dialogue: 0,0:20:52.25,0:20:53.08,Default,,0,0,0,,{\c&Hffffff&}グチャ…
+Dialogue: 0,0:20:58.63,0:20:59.54,Default,,0,0,0,,{\c&Hffffff&}グチャ…
+Dialogue: 0,0:21:02.01,0:21:03.09,Default,,0,0,0,,{\c&Hffffff&}グ…
+Dialogue: 0,0:21:22.53,0:21:24.44,Default,,0,0,0,,{\c&Hffffff&}（会川）嫌な夢を見た
+Dialogue: 0,0:21:25.90,0:21:28.57,Default,,0,0,0,,{\c&Hffffff&}誰かを殺す夢だ
+Dialogue: 0,0:21:28.66,0:21:31.54,Default,,0,0,0,,{\c&Hffffff&}俺の大切な人…
+Dialogue: 0,0:21:33.33,0:21:35.50,Default,,0,0,0,,{\c&Hffffff&}前にも同じようなことが…
+Dialogue: 0,0:21:36.37,0:21:38.79,Default,,0,0,0,,{\c&Hffffff&}（首のない男）グチャ\Nグチャグチャ？
+Dialogue: 0,0:21:39.88,0:21:41.04,Default,,0,0,0,,{\c&Hffffff&}何だって？
+Dialogue: 0,0:21:42.30,0:21:44.30,Default,,0,0,0,,{\c&Hffffff&}俺の… 名前？
+Dialogue: 0,0:21:47.84,0:21:49.30,Default,,0,0,0,,{\c&Hffffff&}何だっけ…
+Dialogue: 0,0:21:50.93,0:21:54.35,Default,,0,0,0,,{\c&Hffffff&}（毒蛾）これを…\Nきっと役に立ちますよ
+Dialogue: 0,0:21:54.43,0:21:55.56,Default,,0,0,0,,{\c&Hffffff&}さあ 早く！
+Dialogue: 0,0:21:57.64,0:22:00.40,Default,,0,0,0,,{\c&Hffffff&}（首のない男）グチャグチャ\Nグチャグチャ
+Dialogue: 0,0:22:00.48,0:22:03.44,Default,,0,0,0,,{\c&Hffffff&}（会川）何？\Nあいつは出ていった？
+Dialogue: 0,0:22:03.94,0:22:06.82,Default,,0,0,0,,{\c&Hffffff&}ここに長くいたから変化した？
+Dialogue: 0,0:22:10.41,0:22:11.24,Default,,0,0,0,,{\c&Hffffff&}やめろ！
+Dialogue: 0,0:22:11.33,0:22:13.45,Default,,0,0,0,,{\c&Hffffff&}（栗鼠）すげえことが\N分かったんだ！
+Dialogue: 0,0:22:13.54,0:22:14.04,Default,,0,0,0,,{\c&Hffffff&}（会川）栗鼠！
+Dialogue: 0,0:22:14.12,0:22:15.58,Default,,0,0,0,,{\c&Hffffff&}（栗鼠）まだ確定じゃないが
+Dialogue: 0,0:22:15.66,0:22:16.96,Default,,0,0,0,,{\c&Hffffff&}（会川）ダメだ！
+Dialogue: 0,0:22:17.04,0:22:18.33,Default,,0,0,0,,{\c&Hffffff&}（振動音）
+Dialogue: 0,0:22:26.05,0:22:27.47,Default,,0,0,0,,{\c&Hffffff&}（近づく足音）
+Dialogue: 0,0:22:27.55,0:22:29.72,Default,,0,0,0,,{\c&Hffffff&}（壊(かい)）時を操る…
+Dialogue: 0,0:22:29.80,0:22:31.97,Default,,0,0,0,,{\c&Hffffff&}（足音）
+Dialogue: 0,0:22:36.02,0:22:39.60,Default,,0,0,0,,{\c&Hffffff&}俺をこのまま死なせてくれ
+Dialogue: 0,0:22:41.48,0:22:42.61,Default,,0,0,0,,{\c&Hffffff&}（首のない男）グチャ
+Dialogue: 0,0:22:48.03,0:22:50.03,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:24:15.91,0:24:17.91,Default,,0,0,0,,{\c&Hffffff&}～♪
+Dialogue: 0,0:24:26.59,0:24:28.80,Default,,0,0,0,,{\c&Hffffff&}（ナレーション）\Nそして魔の19で分かること
+Dialogue: 0,0:24:28.88,0:24:31.05,Default,,0,0,0,,{\c&Hffffff&}それは まだ混沌(こんとん)の中
