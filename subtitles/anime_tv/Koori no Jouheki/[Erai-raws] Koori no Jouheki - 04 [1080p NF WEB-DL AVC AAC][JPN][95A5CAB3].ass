@@ -1,0 +1,534 @@
+﻿[Script Info]
+Title: [Erai-raws] ja.cc
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:15.30,0:00:16.89,Default,,0,0,0,,{\c&Hffffff&}（安曇(あずみ)美姫(みき)）ミナトってさ…
+Dialogue: 0,0:00:21.27,0:00:23.69,Default,,0,0,0,,{\c&Hffffff&}（美姫）こゆんのこと\Nどう思ってんの？
+Dialogue: 0,0:00:30.86,0:00:32.28,Default,,0,0,0,,{\c&Hffffff&}（雨宮(あまみや)湊(ミナト)）たまに見かけて…
+Dialogue: 0,0:00:33.15,0:00:37.03,Default,,0,0,0,,{\c&Hffffff&}うちの高校に あまりいない\Nタイプだな～とか思って…
+Dialogue: 0,0:00:37.82,0:00:39.37,Default,,0,0,0,,{\c&Hffffff&}（ミナト）顔 覚えてて…
+Dialogue: 0,0:00:40.49,0:00:41.83,Default,,0,0,0,,{\c&Hffffff&}それで…
+Dialogue: 0,0:00:43.62,0:00:44.50,Default,,0,0,0,,{\c&Hffffff&}ん…
+Dialogue: 0,0:00:46.96,0:00:48.21,Default,,0,0,0,,{\c&Hffffff&}（ミナト）また１人…
+Dialogue: 0,0:00:49.34,0:00:51.88,Default,,0,0,0,,{\c&Hffffff&}見かける度に何となく気になって…
+Dialogue: 0,0:00:52.38,0:00:54.01,Default,,0,0,0,,{\c&Hffffff&}ずっと思ってた
+Dialogue: 0,0:00:55.01,0:00:57.93,Default,,0,0,0,,{\c&Hffffff&}あの子 かわいそうだな～って
+Dialogue: 0,0:00:58.55,0:00:59.26,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:00:59.76,0:01:00.85,Default,,0,0,0,,{\c&Hffffff&}ミナト
+Dialogue: 0,0:01:02.22,0:01:05.23,Default,,0,0,0,,{\c&Hffffff&}ミナトって いっつもそうだよね
+Dialogue: 0,0:01:05.31,0:01:08.10,Default,,0,0,0,,{\c&Hffffff&}“１人でいるから”とか\N“かわいそう”とか…
+Dialogue: 0,0:01:08.65,0:01:11.69,Default,,0,0,0,,{\c&Hffffff&}けど それって すごく傲慢(ごうまん)だよ
+Dialogue: 0,0:01:11.78,0:01:12.86,Default,,0,0,0,,{\c&Hffffff&}傲慢？
+Dialogue: 0,0:01:14.57,0:01:15.70,Default,,0,0,0,,{\c&Hffffff&}傲慢じゃん
+Dialogue: 0,0:01:16.91,0:01:19.53,Default,,0,0,0,,{\c&Hffffff&}（美姫）勝手に\Nかわいそうとか思われて
+Dialogue: 0,0:01:20.08,0:01:23.79,Default,,0,0,0,,{\c&Hffffff&}同情されてるって\N気づいた時の虚しさ 分かる？
+Dialogue: 0,0:01:24.45,0:01:27.62,Default,,0,0,0,,{\c&Hffffff&}ミナトは人に自分のこと\N見てほしいだけじゃん
+Dialogue: 0,0:01:28.00,0:01:29.88,Default,,0,0,0,,{\c&Hffffff&}自分に依存してほしいだけだよ
+Dialogue: 0,0:01:30.38,0:01:33.46,Default,,0,0,0,,{\c&Hffffff&}そういう理由で\Nこゆんに近づかないで
+Dialogue: 0,0:01:37.88,0:01:39.89,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:03:01.34,0:03:03.34,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
+Dialogue: 0,0:03:12.90,0:03:16.98,Default,,0,0,0,,{\c&Hffffff&}（美姫）かわいそうかどうかなんて\Nミナトが決めることじゃないから
+Dialogue: 0,0:03:17.07,0:03:19.74,Default,,0,0,0,,{\c&Hffffff&}自分がこうあるべきって思うこと
+Dialogue: 0,0:03:19.82,0:03:21.20,Default,,0,0,0,,{\c&Hffffff&}こゆんに押し付けないで
+Dialogue: 0,0:03:22.53,0:03:24.12,Default,,0,0,0,,{\c&Hffffff&}確かに そうだったかも
+Dialogue: 0,0:03:25.62,0:03:27.08,Default,,0,0,0,,{\c&Hffffff&}けど 最初だけだよ
+Dialogue: 0,0:03:27.70,0:03:28.83,Default,,0,0,0,,{\c&Hffffff&}氷川(ひかわ)さんのこと
+Dialogue: 0,0:03:28.91,0:03:32.37,Default,,0,0,0,,{\c&Hffffff&}最初は いつも１人で\Nかわいそうって思ってたけど
+Dialogue: 0,0:03:33.29,0:03:35.46,Default,,0,0,0,,{\c&Hffffff&}（ミナト）実際\Nそんなことなかったし…
+Dialogue: 0,0:03:36.29,0:03:37.09,Default,,0,0,0,,{\c&Hffffff&}今は…
+Dialogue: 0,0:03:39.30,0:03:41.09,Default,,0,0,0,,{\c&Hffffff&}別の興味って感じ
+Dialogue: 0,0:03:41.59,0:03:42.38,Default,,0,0,0,,{\c&Hffffff&}安心して
+Dialogue: 0,0:03:42.47,0:03:43.22,Default,,0,0,0,,{\c&Hffffff&}え？
+Dialogue: 0,0:03:43.30,0:03:44.47,Default,,0,0,0,,{\an8\c&Hffffff&}こゆん
+Dialogue: 0,0:03:44.55,0:03:46.60,Default,,0,0,0,,{\an8\c&Hffffff&}ミナトみたいなのは\Nタイプじゃないと思う…
+Dialogue: 0,0:03:47.10,0:03:48.01,Default,,0,0,0,,{\c&Hffffff&}（ミナト）違う
+Dialogue: 0,0:03:48.10,0:03:51.18,Default,,0,0,0,,{\c&Hffffff&}ていうか そういうのは\N事実でもオブラートに包みなさい
+Dialogue: 0,0:03:51.68,0:03:55.69,Default,,0,0,0,,{\c&Hffffff&}とにかく！　こゆんに\N変な近づき方しないで！
+Dialogue: 0,0:03:55.77,0:03:58.86,Default,,0,0,0,,{\c&Hffffff&}いや… 別に\Nしゃべるぐらい いいでしょ
+Dialogue: 0,0:03:58.94,0:04:01.36,Default,,0,0,0,,{\c&Hffffff&}美姫(みき)は氷川さんの保護者なの？
+Dialogue: 0,0:04:01.44,0:04:02.32,Default,,0,0,0,,{\c&Hffffff&}にゃっ…
+Dialogue: 0,0:04:02.40,0:04:04.28,Default,,0,0,0,,{\c&Hffffff&}過保護は子供を歪ませるわよ
+Dialogue: 0,0:04:04.36,0:04:05.11,Default,,0,0,0,,{\c&Hffffff&}うぐぐ…
+Dialogue: 0,0:04:06.20,0:04:10.20,Default,,0,0,0,,{\c&Hffffff&}私は… もう\Nこゆんを傷つけたくないの
+Dialogue: 0,0:04:11.25,0:04:13.83,Default,,0,0,0,,{\c&Hffffff&}（ミナト）“傷ついてほしくない”\Nじゃなくて？
+Dialogue: 0,0:04:14.33,0:04:15.08,Default,,0,0,0,,{\c&Hffffff&}は～
+Dialogue: 0,0:04:15.58,0:04:19.71,Default,,0,0,0,,{\c&Hffffff&}ていうか… もしかして\N氷川さんって あのバスケ部の子？
+Dialogue: 0,0:04:19.80,0:04:20.88,Default,,0,0,0,,{\c&Hffffff&}ギクッ
+Dialogue: 0,0:04:20.96,0:04:22.84,Default,,0,0,0,,{\c&Hffffff&}あ… やっぱり？
+Dialogue: 0,0:04:22.92,0:04:23.68,Default,,0,0,0,,{\c&Hffffff&}だとしたら美姫が\Nそんな怒るのも分かるよ
+Dialogue: 0,0:04:23.68,0:04:25.64,Default,,0,0,0,,{\c&Hffffff&}だとしたら美姫が\Nそんな怒るのも分かるよ
+Dialogue: 0,0:04:23.68,0:04:25.64,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫の焦る息）
+Dialogue: 0,0:04:26.22,0:04:28.22,Default,,0,0,0,,{\c&Hffffff&}うう… う…
+Dialogue: 0,0:04:28.72,0:04:30.85,Default,,0,0,0,,{\c&Hffffff&}ああ～！　もぉ～っ！
+Dialogue: 0,0:04:30.93,0:04:35.02,Default,,0,0,0,,{\c&Hffffff&}だから こゆんとミナトが\N絡むの嫌だったの～！
+Dialogue: 0,0:04:35.10,0:04:38.15,Default,,0,0,0,,{\c&Hffffff&}（ミナト）なんでヨータはよくて\N俺だけダメなんだよ？
+Dialogue: 0,0:04:35.10,0:04:38.15,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）あ～あ～あ～！
+Dialogue: 0,0:04:38.23,0:04:40.69,Default,,0,0,0,,{\c&Hffffff&}だってミナトは勘いいじゃん！
+Dialogue: 0,0:04:40.78,0:04:42.94,Default,,0,0,0,,{\c&Hffffff&}（ミナト）暗に\Nヨータは鈍感って言ってるぞ
+Dialogue: 0,0:04:42.94,0:04:43.44,Default,,0,0,0,,{\c&Hffffff&}（ミナト）暗に\Nヨータは鈍感って言ってるぞ
+Dialogue: 0,0:04:42.94,0:04:43.44,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）いや… ちが…
+Dialogue: 0,0:04:43.44,0:04:44.07,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）いや… ちが…
+Dialogue: 0,0:04:44.15,0:04:45.49,Default,,0,0,0,,{\c&Hffffff&}（ミナト）失礼だからな それ
+Dialogue: 0,0:04:45.57,0:04:46.66,Default,,0,0,0,,{\c&Hffffff&}（美姫）いやぁ～ えへへへ…
+Dialogue: 0,0:04:49.49,0:04:51.66,Default,,0,0,0,,{\c&Hffffff&}（氷川(ひかわ)小雪(こゆき)）わ～ すごい
+Dialogue: 0,0:04:51.74,0:04:53.20,Default,,0,0,0,,{\c&Hffffff&}全然 違う
+Dialogue: 0,0:04:51.74,0:04:53.20,Default,,0,0,0,,{\an8\c&Hffffff&}（相撲の太鼓の音）
+Dialogue: 0,0:04:53.29,0:04:54.83,Default,,0,0,0,,{\c&Hffffff&}お相撲さんの手形みたい
+Dialogue: 0,0:04:54.91,0:04:55.33,Default,,0,0,0,,{\an8\c&Hffffff&}（相撲の行司の掛け声）
+Dialogue: 0,0:04:55.33,0:04:55.79,Default,,0,0,0,,{\an8\c&Hffffff&}（相撲の行司の掛け声）
+Dialogue: 0,0:04:55.33,0:04:55.79,Default,,0,0,0,,{\c&Hffffff&}（日野(ひの)陽太(ヨータ)）何 その例え？
+Dialogue: 0,0:04:55.79,0:04:57.17,Default,,0,0,0,,{\c&Hffffff&}（日野(ひの)陽太(ヨータ)）何 その例え？
+Dialogue: 0,0:04:57.25,0:04:58.42,Default,,0,0,0,,{\c&Hffffff&}いいなぁ～
+Dialogue: 0,0:04:58.50,0:04:59.67,Default,,0,0,0,,{\c&Hffffff&}いいの？
+Dialogue: 0,0:04:59.75,0:05:04.05,Default,,0,0,0,,{\c&Hffffff&}バスケ部だった時\Nボールをこう持つの憧れてたけど
+Dialogue: 0,0:05:04.13,0:05:04.55,Default,,0,0,0,,{\an8\c&Hffffff&}（中学生の小雪）あっ…
+Dialogue: 0,0:05:04.55,0:05:05.05,Default,,0,0,0,,{\an8\c&Hffffff&}（中学生の小雪）あっ…
+Dialogue: 0,0:05:04.55,0:05:05.05,Default,,0,0,0,,{\c&Hffffff&}全然 できなかったんだよね
+Dialogue: 0,0:05:05.05,0:05:06.68,Default,,0,0,0,,{\c&Hffffff&}全然 できなかったんだよね
+Dialogue: 0,0:05:06.76,0:05:09.05,Default,,0,0,0,,{\c&Hffffff&}こゆんの手じゃね～
+Dialogue: 0,0:05:11.26,0:05:13.27,Default,,0,0,0,,{\c&Hffffff&}って え？　バスケ部？
+Dialogue: 0,0:05:13.35,0:05:15.06,Default,,0,0,0,,{\c&Hffffff&}こゆん バスケ部だったの？
+Dialogue: 0,0:05:15.14,0:05:16.73,Default,,0,0,0,,{\c&Hffffff&}言ってよ！
+Dialogue: 0,0:05:16.81,0:05:20.23,Default,,0,0,0,,{\c&Hffffff&}あ… でも私は\Nヨータと違って全然…
+Dialogue: 0,0:05:20.86,0:05:22.57,Default,,0,0,0,,{\c&Hffffff&}途中で辞めちゃったし…
+Dialogue: 0,0:05:24.74,0:05:25.65,Default,,0,0,0,,{\c&Hffffff&}（ヨータ）あれ…？
+Dialogue: 0,0:05:33.58,0:05:36.37,Default,,0,0,0,,{\c&Hffffff&}（ミナト）さっきの\N“同情される虚しさ”ってさ
+Dialogue: 0,0:05:37.79,0:05:42.75,Default,,0,0,0,,{\c&Hffffff&}美姫 俺が声かけたこと\Nずっと そういう風に思ってた？
+Dialogue: 0,0:05:42.84,0:05:43.96,Default,,0,0,0,,{\c&Hffffff&}えっ ギクッ！
+Dialogue: 0,0:05:44.05,0:05:46.88,Default,,0,0,0,,{\c&Hffffff&}え～ あ～ それは…
+Dialogue: 0,0:05:48.38,0:05:49.39,Default,,0,0,0,,{\c&Hffffff&}ごめんな
+Dialogue: 0,0:05:49.97,0:05:51.89,Default,,0,0,0,,{\c&Hffffff&}確かに同情だったのかも
+Dialogue: 0,0:05:52.47,0:05:53.43,Default,,0,0,0,,{\c&Hffffff&}（美姫）あ…
+Dialogue: 0,0:05:54.93,0:05:57.77,Default,,0,0,0,,{\c&Hffffff&}（生徒たちの話し声）
+Dialogue: 0,0:06:00.02,0:06:01.90,Default,,0,0,0,,{\c&Hffffff&}（ミナト）１人で\Nつまらなそうにしてるのが
+Dialogue: 0,0:06:01.98,0:06:03.69,Default,,0,0,0,,{\c&Hffffff&}気になって声かけたから…
+Dialogue: 0,0:06:04.57,0:06:07.07,Default,,0,0,0,,{\c&Hffffff&}けど 友達になってから
+Dialogue: 0,0:06:07.15,0:06:09.70,Default,,0,0,0,,{\c&Hffffff&}美姫のこと\Nそういう風に見たこと 一度もない
+Dialogue: 0,0:06:09.78,0:06:10.49,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:06:10.57,0:06:14.24,Default,,0,0,0,,{\c&Hffffff&}美姫と友達になって\Nヨータも加わって
+Dialogue: 0,0:06:14.33,0:06:16.25,Default,,0,0,0,,{\c&Hffffff&}俺は すごい楽しかったから…
+Dialogue: 0,0:06:17.04,0:06:20.21,Default,,0,0,0,,{\c&Hffffff&}美姫がそんな風に悩んでたの\N気づけなかった
+Dialogue: 0,0:06:21.38,0:06:23.25,Default,,0,0,0,,{\c&Hffffff&}嫌な思いさせて ごめん
+Dialogue: 0,0:06:26.46,0:06:27.80,Default,,0,0,0,,{\c&Hffffff&}ミナト…
+Dialogue: 0,0:06:30.38,0:06:31.43,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナト）わあ…
+Dialogue: 0,0:06:30.38,0:06:31.43,Default,,0,0,0,,{\c&Hffffff&}ほんと そういうとこー！\N近いわ！
+Dialogue: 0,0:06:31.43,0:06:33.39,Default,,0,0,0,,{\c&Hffffff&}ほんと そういうとこー！\N近いわ！
+Dialogue: 0,0:06:33.47,0:06:38.31,Default,,0,0,0,,{\c&Hffffff&}私も楽しかった！　し…\Nめちゃくちゃ助けられた！
+Dialogue: 0,0:06:38.39,0:06:40.14,Default,,0,0,0,,{\c&Hffffff&}あ～ も～っ
+Dialogue: 0,0:06:40.23,0:06:43.15,Default,,0,0,0,,{\c&Hffffff&}ので！　これからもヨロシク！
+Dialogue: 0,0:06:43.23,0:06:46.57,Default,,0,0,0,,{\c&Hffffff&}（泣き声）
+Dialogue: 0,0:06:46.65,0:06:47.40,Default,,0,0,0,,{\c&Hffffff&}ははっ
+Dialogue: 0,0:06:47.49,0:06:49.15,Default,,0,0,0,,{\c&Hffffff&}うん よろしく
+Dialogue: 0,0:06:49.24,0:06:51.16,Default,,0,0,0,,{\c&Hffffff&}（美姫）あ… ニット汚れる…
+Dialogue: 0,0:06:51.24,0:06:53.53,Default,,0,0,0,,{\c&Hffffff&}大丈夫 そんなキレイじゃないから
+Dialogue: 0,0:06:55.20,0:06:56.04,Default,,0,0,0,,{\c&Hffffff&}（美姫）え…？
+Dialogue: 0,0:06:58.16,0:07:00.29,Default,,0,0,0,,{\c&Hffffff&}（美姫）なんだ… 私…
+Dialogue: 0,0:07:01.08,0:07:03.58,Default,,0,0,0,,{\c&Hffffff&}結局 私はずっと
+Dialogue: 0,0:07:03.67,0:07:08.01,Default,,0,0,0,,{\c&Hffffff&}ミナトと対等な友達に\Nなりたかっただけなのかもしれない
+Dialogue: 0,0:07:10.13,0:07:13.05,Default,,0,0,0,,{\c&Hffffff&}あ～！　ほんと子供だな～
+Dialogue: 0,0:07:15.05,0:07:16.31,Default,,0,0,0,,{\c&Hffffff&}美姫？
+Dialogue: 0,0:07:16.39,0:07:19.64,Default,,0,0,0,,{\c&Hffffff&}ふっ… も～！　待ってって！
+Dialogue: 0,0:07:20.44,0:07:23.48,Default,,0,0,0,,{\c&Hffffff&}（小雪）２人… 飲み物\N買いに行ってるんだよね？
+Dialogue: 0,0:07:23.98,0:07:25.65,Default,,0,0,0,,{\c&Hffffff&}ずいぶん かかるな～
+Dialogue: 0,0:07:25.73,0:07:29.19,Default,,0,0,0,,{\c&Hffffff&}ね～　今\Nカカオ育ててるところかも
+Dialogue: 0,0:07:29.28,0:07:30.70,Default,,0,0,0,,{\c&Hffffff&}-（小雪）そこから？\N-（ヨータ）ふふっ
+Dialogue: 0,0:07:30.70,0:07:31.07,Default,,0,0,0,,{\c&Hffffff&}-（小雪）そこから？\N-（ヨータ）ふふっ
+Dialogue: 0,0:07:30.70,0:07:31.07,Default,,0,0,0,,{\an8\c&Hffffff&}（戸が開く音）
+Dialogue: 0,0:07:31.07,0:07:31.15,Default,,0,0,0,,{\an8\c&Hffffff&}（戸が開く音）
+Dialogue: 0,0:07:31.15,0:07:31.82,Default,,0,0,0,,{\an8\c&Hffffff&}（戸が開く音）
+Dialogue: 0,0:07:31.15,0:07:31.82,Default,,0,0,0,,{\c&Hffffff&}（小雪･ヨータ）あ…
+Dialogue: 0,0:07:31.82,0:07:32.20,Default,,0,0,0,,{\c&Hffffff&}（小雪･ヨータ）あ…
+Dialogue: 0,0:07:32.28,0:07:34.70,Default,,0,0,0,,{\c&Hffffff&}（美姫）ごめん！　お待たせ～
+Dialogue: 0,0:07:34.78,0:07:36.33,Default,,0,0,0,,{\c&Hffffff&}見て 新商品
+Dialogue: 0,0:07:36.41,0:07:39.25,Default,,0,0,0,,{\an8\c&Hffffff&}“小豆マシマシ汁\N濃いめ”だって
+Dialogue: 0,0:07:39.33,0:07:40.83,Default,,0,0,0,,{\an8\c&Hffffff&}へへ…\Nみんなで飲も～！
+Dialogue: 0,0:07:40.91,0:07:42.42,Default,,0,0,0,,{\c&Hffffff&}強制だって
+Dialogue: 0,0:07:44.25,0:07:45.08,Default,,0,0,0,,{\c&Hffffff&}（小雪･ヨータ）ん？
+Dialogue: 0,0:07:46.67,0:07:47.42,Default,,0,0,0,,{\c&Hffffff&}（小雪･ヨータ）んんっ！
+Dialogue: 0,0:07:47.92,0:07:51.80,Default,,0,0,0,,{\c&Hffffff&}ははっ ラーメンみたい\Nでも頭 さえそう
+Dialogue: 0,0:07:51.88,0:07:55.85,Default,,0,0,0,,{\c&Hffffff&}でしょ？　これキメれば\N試験も乗り切れそうじゃない？
+Dialogue: 0,0:07:55.93,0:07:58.72,Default,,0,0,0,,{\c&Hffffff&}（小雪）美姫…\Nやっぱり何かあった？
+Dialogue: 0,0:08:02.56,0:08:04.98,Default,,0,0,0,,{\c&Hffffff&}これ… 聞いていいのかな
+Dialogue: 0,0:08:07.06,0:08:08.11,Default,,0,0,0,,{\c&Hffffff&}（小雪）美姫
+Dialogue: 0,0:08:09.28,0:08:13.32,Default,,0,0,0,,{\c&Hffffff&}飲み物買いに行った時\N雨宮(あまみや)君と何かあった？
+Dialogue: 0,0:08:13.82,0:08:15.24,Default,,0,0,0,,{\c&Hffffff&}えっ… ええ…
+Dialogue: 0,0:08:15.32,0:08:16.87,Default,,0,0,0,,{\c&Hffffff&}えっと…
+Dialogue: 0,0:08:16.95,0:08:18.62,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）あれやこれや…
+Dialogue: 0,0:08:19.20,0:08:22.37,Default,,0,0,0,,{\c&Hffffff&}こゆんがカレードリンク\N買った話とかしてた
+Dialogue: 0,0:08:22.46,0:08:23.46,Default,,0,0,0,,{\c&Hffffff&}（小雪）なんで？
+Dialogue: 0,0:08:23.96,0:08:26.33,Default,,0,0,0,,{\c&Hffffff&}間違えて買わせちゃったからって
+Dialogue: 0,0:08:26.42,0:08:28.38,Default,,0,0,0,,{\c&Hffffff&}今日の ミナトが払ってくれたよ
+Dialogue: 0,0:08:28.46,0:08:31.13,Default,,0,0,0,,{\an8\c&Hffffff&}ええ？\N気にしないでいいのに…
+Dialogue: 0,0:08:31.21,0:08:34.76,Default,,0,0,0,,{\c&Hffffff&}ほら こゆんが気にするから\N黙ってたんだって
+Dialogue: 0,0:08:34.84,0:08:35.47,Default,,0,0,0,,{\an8\c&Hffffff&}（天使ノート）\Nバイバイ またね～
+Dialogue: 0,0:08:35.47,0:08:36.26,Default,,0,0,0,,{\an8\c&Hffffff&}（天使ノート）\Nバイバイ またね～
+Dialogue: 0,0:08:35.47,0:08:36.26,Default,,0,0,0,,{\c&Hffffff&}あっ 待って！\N今日やったとこ抜けてきそう！
+Dialogue: 0,0:08:36.26,0:08:38.14,Default,,0,0,0,,{\c&Hffffff&}あっ 待って！\N今日やったとこ抜けてきそう！
+Dialogue: 0,0:08:38.22,0:08:40.39,Default,,0,0,0,,{\c&Hffffff&}ちょ ノート！　復習！
+Dialogue: 0,0:08:40.47,0:08:42.48,Default,,0,0,0,,{\c&Hffffff&}う～ 待って！　行かないで！
+Dialogue: 0,0:08:42.56,0:08:43.64,Default,,0,0,0,,{\c&Hffffff&}あ～ ちょちょ…
+Dialogue: 0,0:08:43.73,0:08:48.06,Default,,0,0,0,,{\c&Hffffff&}（小雪）にしても 今の話に\N泣く要素はなくない？
+Dialogue: 0,0:08:51.69,0:08:53.15,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）たくさん\N詰め込みまくった
+Dialogue: 0,0:08:53.24,0:08:55.15,Default,,0,0,0,,{\an8\c&Hffffff&}テスト勉強期間は\N終わり…
+Dialogue: 0,0:08:57.45,0:08:58.70,Default,,0,0,0,,{\c&Hffffff&}テスト初日
+Dialogue: 0,0:08:59.49,0:09:01.37,Default,,0,0,0,,{\c&Hffffff&}（チャイム）
+Dialogue: 0,0:09:01.45,0:09:02.41,Default,,0,0,0,,{\c&Hffffff&}（諏訪(すわ)）始め
+Dialogue: 0,0:09:07.00,0:09:07.92,Default,,0,0,0,,{\c&Hffffff&}（小雪）ん？
+Dialogue: 0,0:09:08.50,0:09:11.67,Default,,0,0,0,,{\c&Hffffff&}本当に まんまだな…\Nありがとう過去問
+Dialogue: 0,0:09:12.88,0:09:13.59,Default,,0,0,0,,{\c&Hffffff&}はっ！
+Dialogue: 0,0:09:13.67,0:09:16.43,Default,,0,0,0,,{\c&Hffffff&}（美姫）この問題\N“ヨータ塾(ゼミ)”でやったやつ！
+Dialogue: 0,0:09:24.73,0:09:26.69,Default,,0,0,0,,{\c&Hffffff&}（美姫）出だし好調～　イエーイ！
+Dialogue: 0,0:09:26.77,0:09:27.85,Default,,0,0,0,,{\c&Hffffff&}ふっ…
+Dialogue: 0,0:09:31.32,0:09:33.94,Default,,0,0,0,,{\c&Hffffff&}（美姫）\Nいける…　今回 いける！
+Dialogue: 0,0:09:40.87,0:09:42.91,Default,,0,0,0,,{\c&Hffffff&}（チャイム）
+Dialogue: 0,0:09:42.99,0:09:44.50,Default,,0,0,0,,{\c&Hffffff&}（松本(まつもと)）はい そこまで
+Dialogue: 0,0:09:51.29,0:09:52.63,Default,,0,0,0,,{\c&Hffffff&}（霜島(しもじま)月子(つきこ)）ふ～っ…
+Dialogue: 0,0:09:53.80,0:09:54.88,Default,,0,0,0,,{\c&Hffffff&}（小雪）は～…
+Dialogue: 0,0:10:04.27,0:10:06.10,Default,,0,0,0,,{\c&Hffffff&}（小雪）あ 通知…
+Dialogue: 0,0:10:06.18,0:10:08.02,Default,,0,0,0,,{\c&Hffffff&}なんか 数 多いな…
+Dialogue: 0,0:10:09.10,0:10:10.02,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）こゆんー
+Dialogue: 0,0:10:10.10,0:10:12.44,Default,,0,0,0,,{\an8\c&Hffffff&}帰り お昼\Nどっか食べに行こ～
+Dialogue: 0,0:10:12.52,0:10:13.48,Default,,0,0,0,,{\an8\c&Hffffff&}あ これグループだ
+Dialogue: 0,0:10:13.57,0:10:14.69,Default,,0,0,0,,{\an8\c&Hffffff&}ヨータも来る？
+Dialogue: 0,0:10:14.78,0:10:16.53,Default,,0,0,0,,{\an8\c&Hffffff&}ついでみたいな\N言い方しちゃった
+Dialogue: 0,0:10:16.61,0:10:18.20,Default,,0,0,0,,{\an8\c&Hffffff&}来てください\Nクゥン…
+Dialogue: 0,0:10:18.28,0:10:19.82,Default,,0,0,0,,{\an8\c&Hffffff&}（ヨータ）ハハッ\N行く～
+Dialogue: 0,0:10:19.91,0:10:21.12,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）こゆんカモン
+Dialogue: 0,0:10:21.20,0:10:22.12,Default,,0,0,0,,{\c&Hffffff&}（小雪）ふふっ
+Dialogue: 0,0:10:22.20,0:10:24.62,Default,,0,0,0,,{\c&Hffffff&}-（ヨータ）あ こゆん見っけ\N-（小雪）ん？
+Dialogue: 0,0:10:26.70,0:10:29.75,Default,,0,0,0,,{\c&Hffffff&}なんか 俺らが先に\N合流しちゃったね～
+Dialogue: 0,0:10:29.83,0:10:32.04,Default,,0,0,0,,{\c&Hffffff&}美姫 まだ教室かな？
+Dialogue: 0,0:10:34.84,0:10:36.71,Default,,0,0,0,,{\c&Hffffff&}あれ～？
+Dialogue: 0,0:10:36.80,0:10:37.88,Default,,0,0,0,,{\c&Hffffff&}（ミナト）美姫 どした？
+Dialogue: 0,0:10:37.97,0:10:40.22,Default,,0,0,0,,{\c&Hffffff&}ああ ミナト　ヨータは？
+Dialogue: 0,0:10:40.30,0:10:41.51,Default,,0,0,0,,{\c&Hffffff&}もう下 降りたよ
+Dialogue: 0,0:10:41.59,0:10:43.93,Default,,0,0,0,,{\c&Hffffff&}え？　そうなの～？
+Dialogue: 0,0:10:44.01,0:10:45.01,Default,,0,0,0,,{\c&Hffffff&}何か用事？
+Dialogue: 0,0:10:45.10,0:10:49.39,Default,,0,0,0,,{\c&Hffffff&}あ… いや　こゆんとヨータと\Nお昼食べに行こって…
+Dialogue: 0,0:10:50.10,0:10:51.15,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:10:51.23,0:10:52.31,Default,,0,0,0,,{\c&Hffffff&}（ミナト）何？　美姫…
+Dialogue: 0,0:10:52.40,0:10:53.98,Default,,0,0,0,,{\c&Hffffff&}ヒヤ～！　冷た～ッ！\N（苦笑い）
+Dialogue: 0,0:10:53.98,0:10:54.90,Default,,0,0,0,,{\c&Hffffff&}ヒヤ～！　冷た～ッ！\N（苦笑い）
+Dialogue: 0,0:10:53.98,0:10:54.90,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナト）俺のこと
+Dialogue: 0,0:10:54.90,0:10:54.98,Default,,0,0,0,,{\c&Hffffff&}ヒヤ～！　冷た～ッ！\N（苦笑い）
+Dialogue: 0,0:10:54.98,0:10:55.57,Default,,0,0,0,,{\c&Hffffff&}ヒヤ～！　冷た～ッ！\N（苦笑い）
+Dialogue: 0,0:10:54.98,0:10:55.57,Default,,0,0,0,,{\an8\c&Hffffff&}仲間外れに\Nしようとしてる？
+Dialogue: 0,0:10:55.57,0:10:56.65,Default,,0,0,0,,{\an8\c&Hffffff&}仲間外れに\Nしようとしてる？
+Dialogue: 0,0:10:56.65,0:10:57.23,Default,,0,0,0,,{\an8\c&Hffffff&}仲間外れに\Nしようとしてる？
+Dialogue: 0,0:10:56.65,0:10:57.23,Default,,0,0,0,,{\c&Hffffff&}え～ 違うって～！
+Dialogue: 0,0:10:57.23,0:10:58.65,Default,,0,0,0,,{\c&Hffffff&}え～ 違うって～！
+Dialogue: 0,0:11:01.24,0:11:03.16,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）じー…
+Dialogue: 0,0:11:03.74,0:11:06.87,Default,,0,0,0,,{\c&Hffffff&}え 分かんない…\Nあと５個も間違いある？
+Dialogue: 0,0:11:06.95,0:11:08.16,Default,,0,0,0,,{\c&Hffffff&}ブドウの数は？
+Dialogue: 0,0:11:08.25,0:11:09.16,Default,,0,0,0,,{\c&Hffffff&}もう見た
+Dialogue: 0,0:11:09.25,0:11:10.66,Default,,0,0,0,,{\c&Hffffff&}あ 見っけ
+Dialogue: 0,0:11:10.75,0:11:11.67,Default,,0,0,0,,{\c&Hffffff&}あ ここも
+Dialogue: 0,0:11:12.21,0:11:12.79,Default,,0,0,0,,{\c&Hffffff&}あ！
+Dialogue: 0,0:11:12.88,0:11:14.92,Default,,0,0,0,,{\c&Hffffff&}ちょっと待って！　ミナト速い！
+Dialogue: 0,0:11:15.00,0:11:17.76,Default,,0,0,0,,{\c&Hffffff&}早く全部 見つけないと\Nドリア来ないよ
+Dialogue: 0,0:11:17.84,0:11:19.09,Default,,0,0,0,,{\c&Hffffff&}そういうシステム？
+Dialogue: 0,0:11:19.17,0:11:20.17,Default,,0,0,0,,{\c&Hffffff&}はははっ
+Dialogue: 0,0:11:21.09,0:11:24.26,Default,,0,0,0,,{\c&Hffffff&}（小雪）なんか\N普通に仲良しだな…
+Dialogue: 0,0:11:24.97,0:11:26.43,Default,,0,0,0,,{\c&Hffffff&}よかった
+Dialogue: 0,0:11:27.31,0:11:28.81,Default,,0,0,0,,{\c&Hffffff&}考えすぎかな…
+Dialogue: 0,0:11:32.02,0:11:34.27,Default,,0,0,0,,{\c&Hffffff&}（ミナト）氷川さん\Nここ来たことある？
+Dialogue: 0,0:11:34.36,0:11:35.44,Default,,0,0,0,,{\c&Hffffff&}え？
+Dialogue: 0,0:11:35.52,0:11:37.44,Default,,0,0,0,,{\c&Hffffff&}あ… ううん 初めて
+Dialogue: 0,0:11:38.23,0:11:40.78,Default,,0,0,0,,{\c&Hffffff&}あまり放課後 寄り道しないから…
+Dialogue: 0,0:11:42.45,0:11:43.20,Default,,0,0,0,,{\c&Hffffff&}（ミナト）ん？
+Dialogue: 0,0:11:43.28,0:11:44.70,Default,,0,0,0,,{\c&Hffffff&}-（美姫）Ｙｏｕ(ユー)\N-（ミナト）わぁ！
+Dialogue: 0,0:11:43.28,0:11:44.70,Default,,0,0,0,,{\an8\c&Hffffff&}（衝撃音）
+Dialogue: 0,0:11:44.78,0:11:47.70,Default,,0,0,0,,{\c&Hffffff&}（美姫）コラ\Nなんだその哀れみの目は
+Dialogue: 0,0:11:47.79,0:11:49.20,Default,,0,0,0,,{\c&Hffffff&}あっ？
+Dialogue: 0,0:11:49.29,0:11:50.71,Default,,0,0,0,,{\c&Hffffff&}（ミナト）違うって
+Dialogue: 0,0:11:51.96,0:11:54.33,Default,,0,0,0,,{\an8\c&Hffffff&}（４人）\Nごちそうさまでした
+Dialogue: 0,0:11:54.42,0:11:57.17,Default,,0,0,0,,{\c&Hffffff&}（小雪）安いのに\N意外とおいしかった…
+Dialogue: 0,0:12:00.63,0:12:03.84,Default,,0,0,0,,{\c&Hffffff&}氷川さんって\N部活 入ってないよね？
+Dialogue: 0,0:12:04.34,0:12:06.10,Default,,0,0,0,,{\c&Hffffff&}バイトとかしてんの？
+Dialogue: 0,0:12:06.18,0:12:07.85,Default,,0,0,0,,{\c&Hffffff&}（小雪）あ… うん…
+Dialogue: 0,0:12:07.93,0:12:10.10,Default,,0,0,0,,{\c&Hffffff&}あまりシフト入ってないけど
+Dialogue: 0,0:12:10.18,0:12:11.60,Default,,0,0,0,,{\c&Hffffff&}（ミナト）何のバイト？
+Dialogue: 0,0:12:11.68,0:12:13.69,Default,,0,0,0,,{\c&Hffffff&}地元の飲食店
+Dialogue: 0,0:12:13.77,0:12:17.11,Default,,0,0,0,,{\c&Hffffff&}近所の年配しか来ない緩～い店…
+Dialogue: 0,0:12:17.19,0:12:19.36,Default,,0,0,0,,{\c&Hffffff&}バイトない日とか 何してんの？
+Dialogue: 0,0:12:19.44,0:12:20.99,Default,,0,0,0,,{\c&Hffffff&}ちょっと ミナト…
+Dialogue: 0,0:12:21.07,0:12:24.07,Default,,0,0,0,,{\c&Hffffff&}えっと… 何してるっけ？
+Dialogue: 0,0:12:25.36,0:12:26.99,Default,,0,0,0,,{\c&Hffffff&}（小雪）本 読んだり…
+Dialogue: 0,0:12:30.12,0:12:31.91,Default,,0,0,0,,{\c&Hffffff&}（五十嵐(いがらし)翼(つばさ)）\N何 それ？　つまんなそ～
+Dialogue: 0,0:12:32.87,0:12:34.50,Default,,0,0,0,,{\c&Hffffff&}（小雪）映画 見たり…
+Dialogue: 0,0:12:34.58,0:12:36.33,Default,,0,0,0,,{\c&Hffffff&}これ 面白いか？
+Dialogue: 0,0:12:36.83,0:12:38.71,Default,,0,0,0,,{\c&Hffffff&}（小雪）あとは予習とか…
+Dialogue: 0,0:12:38.79,0:12:40.09,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）ガ～リ勉
+Dialogue: 0,0:12:42.30,0:12:43.59,Default,,0,0,0,,{\c&Hffffff&}（小雪）特には何も…
+Dialogue: 0,0:12:44.68,0:12:46.84,Default,,0,0,0,,{\c&Hffffff&}ぼーっとしてることが多いかも…
+Dialogue: 0,0:12:47.68,0:12:49.01,Default,,0,0,0,,{\c&Hffffff&}（ミナト）そうなの？
+Dialogue: 0,0:12:49.10,0:12:50.85,Default,,0,0,0,,{\c&Hffffff&}えー もったいない
+Dialogue: 0,0:12:50.93,0:12:51.85,Default,,0,0,0,,{\c&Hffffff&}（美姫）キッ！
+Dialogue: 0,0:12:51.93,0:12:55.14,Default,,0,0,0,,{\c&Hffffff&}こゆんは私と遊んだり 忙しいの！
+Dialogue: 0,0:12:55.23,0:12:55.94,Default,,0,0,0,,{\c&Hffffff&}さようですか
+Dialogue: 0,0:12:56.02,0:12:57.35,Default,,0,0,0,,{\c&Hffffff&}あは～
+Dialogue: 0,0:13:01.65,0:13:03.03,Default,,0,0,0,,{\c&Hffffff&}（店員）別々ですか？
+Dialogue: 0,0:13:03.11,0:13:04.11,Default,,0,0,0,,{\c&Hffffff&}（小雪）はい
+Dialogue: 0,0:13:04.70,0:13:05.82,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナト）ああ…
+Dialogue: 0,0:13:04.70,0:13:05.82,Default,,0,0,0,,{\c&Hffffff&}ねえ ちょっとミナト 何なの？
+Dialogue: 0,0:13:05.82,0:13:06.82,Default,,0,0,0,,{\c&Hffffff&}ねえ ちょっとミナト 何なの？
+Dialogue: 0,0:13:06.91,0:13:08.57,Default,,0,0,0,,{\an8\c&Hffffff&}グイグイ\N行かないでくんない？
+Dialogue: 0,0:13:08.66,0:13:09.78,Default,,0,0,0,,{\an8\c&Hffffff&}言ったよね！
+Dialogue: 0,0:13:09.87,0:13:12.08,Default,,0,0,0,,{\an8\c&Hffffff&}え～？　だって…
+Dialogue: 0,0:13:12.66,0:13:15.83,Default,,0,0,0,,{\c&Hffffff&}俺らだけ盛り上がってたら\N氷川さん 退屈じゃん
+Dialogue: 0,0:13:12.66,0:13:15.83,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫･ヨータ･\Nミナトの盛り上がる声）
+Dialogue: 0,0:13:15.92,0:13:17.75,Default,,0,0,0,,{\c&Hffffff&}はっ！　確かに！
+Dialogue: 0,0:13:17.83,0:13:18.83,Default,,0,0,0,,{\c&Hffffff&}（ミナト）ね？
+Dialogue: 0,0:13:21.67,0:13:22.63,Default,,0,0,0,,{\c&Hffffff&}（ため息）
+Dialogue: 0,0:13:22.71,0:13:26.38,Default,,0,0,0,,{\c&Hffffff&}（小雪）質問されるのって\Nちょっと疲れるな…
+Dialogue: 0,0:13:26.93,0:13:28.34,Default,,0,0,0,,{\c&Hffffff&}（ドアが開く音）
+Dialogue: 0,0:13:29.09,0:13:30.18,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）は～\Nおなかいっぱーい！
+Dialogue: 0,0:13:30.18,0:13:31.06,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）は～\Nおなかいっぱーい！
+Dialogue: 0,0:13:30.18,0:13:31.06,Default,,0,0,0,,{\c&Hffffff&}（小雪）人も環境も\Nあの頃とは違うのに…
+Dialogue: 0,0:13:31.06,0:13:31.14,Default,,0,0,0,,{\c&Hffffff&}（小雪）人も環境も\Nあの頃とは違うのに…
+Dialogue: 0,0:13:31.14,0:13:32.26,Default,,0,0,0,,{\c&Hffffff&}（小雪）人も環境も\Nあの頃とは違うのに…
+Dialogue: 0,0:13:31.14,0:13:32.26,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナト）そりゃな
+Dialogue: 0,0:13:32.26,0:13:32.35,Default,,0,0,0,,{\c&Hffffff&}（小雪）人も環境も\Nあの頃とは違うのに…
+Dialogue: 0,0:13:32.35,0:13:34.18,Default,,0,0,0,,{\c&Hffffff&}（小雪）人も環境も\Nあの頃とは違うのに…
+Dialogue: 0,0:13:32.35,0:13:34.18,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫のセリフ）
+Dialogue: 0,0:13:34.77,0:13:37.65,Default,,0,0,0,,{\c&Hffffff&}自分のことを話すのが\Nいまだに苦手だ
+Dialogue: 0,0:13:39.23,0:13:40.86,Default,,0,0,0,,{\c&Hffffff&}嫌いなわけじゃない
+Dialogue: 0,0:13:41.44,0:13:44.44,Default,,0,0,0,,{\c&Hffffff&}けど自分の内側を\N知られるのは 怖い
+Dialogue: 0,0:13:45.03,0:13:47.11,Default,,0,0,0,,{\c&Hffffff&}“私”を否定されないように
+Dialogue: 0,0:13:47.61,0:13:51.16,Default,,0,0,0,,{\c&Hffffff&}これ以上 私が私を\N嫌いにならないように
+Dialogue: 0,0:13:52.12,0:13:54.95,Default,,0,0,0,,{\c&Hffffff&}近づかれると 距離を取ってしまう
+Dialogue: 0,0:13:55.91,0:13:57.96,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）お前 変わってるよな～
+Dialogue: 0,0:14:00.04,0:14:01.79,Default,,0,0,0,,{\c&Hffffff&}（小雪）“普通”って何だろ…
+Dialogue: 0,0:14:05.46,0:14:07.63,Default,,0,0,0,,{\c&Hffffff&}（生徒たちの話し声）
+Dialogue: 0,0:14:07.72,0:14:10.18,Default,,0,0,0,,{\an8\c&Hffffff&}テスト おつかれ～！
+Dialogue: 0,0:14:10.26,0:14:12.10,Default,,0,0,0,,{\an8\c&Hffffff&}（めえたち）イエ～ッ！
+Dialogue: 0,0:14:12.72,0:14:14.72,Default,,0,0,0,,{\c&Hffffff&}（まり）美姫ちゃん\Nこれ食べる？　イチゴ味だよ
+Dialogue: 0,0:14:14.81,0:14:15.98,Default,,0,0,0,,{\c&Hffffff&}ありがとう
+Dialogue: 0,0:14:17.73,0:14:20.98,Default,,0,0,0,,{\c&Hffffff&}（田中(たなか)）安曇(あずみ)さん\N今日も輝いてる！
+Dialogue: 0,0:14:23.40,0:14:24.90,Default,,0,0,0,,{\c&Hffffff&}（衝撃音）\N（女子生徒）え？
+Dialogue: 0,0:14:24.98,0:14:26.74,Default,,0,0,0,,{\c&Hffffff&}（小雪）気持ち悪い…
+Dialogue: 0,0:14:27.44,0:14:30.20,Default,,0,0,0,,{\c&Hffffff&}試験は何とか乗り切ったけど…
+Dialogue: 0,0:14:30.28,0:14:33.16,Default,,0,0,0,,{\c&Hffffff&}胃が… ムカムカする…
+Dialogue: 0,0:14:35.41,0:14:37.29,Default,,0,0,0,,{\c&Hffffff&}-（小雪）ノリコ…\N-（ノリコ）あ？
+Dialogue: 0,0:14:37.37,0:14:38.79,Default,,0,0,0,,{\c&Hffffff&}（小雪）ヘルプ…
+Dialogue: 0,0:14:38.87,0:14:39.87,Default,,0,0,0,,{\c&Hffffff&}あんた まーた くつろぎに…
+Dialogue: 0,0:14:39.87,0:14:41.17,Default,,0,0,0,,{\c&Hffffff&}あんた まーた くつろぎに…
+Dialogue: 0,0:14:39.87,0:14:41.17,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）ああ… あ…
+Dialogue: 0,0:14:41.25,0:14:42.00,Default,,0,0,0,,{\c&Hffffff&}暖取る所じゃないって\N何度 言えば…
+Dialogue: 0,0:14:42.00,0:14:43.42,Default,,0,0,0,,{\c&Hffffff&}暖取る所じゃないって\N何度 言えば…
+Dialogue: 0,0:14:42.00,0:14:43.42,Default,,0,0,0,,{\an8\c&Hffffff&}ああ…
+Dialogue: 0,0:14:43.42,0:14:43.79,Default,,0,0,0,,{\c&Hffffff&}暖取る所じゃないって\N何度 言えば…
+Dialogue: 0,0:14:43.88,0:14:46.84,Default,,0,0,0,,{\c&Hffffff&}（小雪）いや\N今日のは本当のやつ… あぁぁ…
+Dialogue: 0,0:14:46.92,0:14:48.30,Default,,0,0,0,,{\c&Hffffff&}（ノリコ）あらま\N（倒れる音）
+Dialogue: 0,0:14:53.30,0:14:54.64,Default,,0,0,0,,{\c&Hffffff&}胃が痛い…
+Dialogue: 0,0:14:55.35,0:14:56.77,Default,,0,0,0,,{\c&Hffffff&}やだ ストレス？
+Dialogue: 0,0:14:56.85,0:14:58.64,Default,,0,0,0,,{\c&Hffffff&}何か変なもの食べた？
+Dialogue: 0,0:14:59.14,0:15:01.65,Default,,0,0,0,,{\c&Hffffff&}今日 まだ何も食べてない…
+Dialogue: 0,0:15:01.73,0:15:04.40,Default,,0,0,0,,{\c&Hffffff&}あ… けどコーヒーは３杯 飲んだ
+Dialogue: 0,0:15:04.90,0:15:08.69,Default,,0,0,0,,{\c&Hffffff&}それよ　楽になるまで\N寝てていいから
+Dialogue: 0,0:15:08.78,0:15:11.66,Default,,0,0,0,,{\c&Hffffff&}制服で布団に入るの気持ち悪いな…
+Dialogue: 0,0:15:11.74,0:15:13.70,Default,,0,0,0,,{\c&Hffffff&}わがまま言わないの
+Dialogue: 0,0:15:14.20,0:15:15.83,Default,,0,0,0,,{\c&Hffffff&}（カーテンを閉める音）
+Dialogue: 0,0:15:16.45,0:15:17.49,Default,,0,0,0,,{\c&Hffffff&}はあ…
+Dialogue: 0,0:15:18.87,0:15:21.21,Default,,0,0,0,,{\c&Hffffff&}（西高(にしこう)男子１）なあ\N明天(めいてん)におな中のやついる？
+Dialogue: 0,0:15:21.29,0:15:23.83,Default,,0,0,0,,{\c&Hffffff&}（西高男子２）いるいる\Nガリ勉だったわ　はははっ
+Dialogue: 0,0:15:23.92,0:15:26.96,Default,,0,0,0,,{\c&Hffffff&}（西高男子３）\N頭よくなきゃ来れね～って
+Dialogue: 0,0:15:28.38,0:15:30.59,Default,,0,0,0,,{\c&Hffffff&}（西高男子１）\N五十嵐(いがらし)は？　いる？　おな中
+Dialogue: 0,0:15:30.67,0:15:32.09,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）あー？
+Dialogue: 0,0:15:33.01,0:15:35.55,Default,,0,0,0,,{\c&Hffffff&}知らね～ いねーだろ こんなと…
+Dialogue: 0,0:15:35.55,0:15:36.68,Default,,0,0,0,,{\c&Hffffff&}知らね～ いねーだろ こんなと…
+Dialogue: 0,0:15:35.55,0:15:36.68,Default,,0,0,0,,{\an8\c&Hffffff&}（風が吹く音）
+Dialogue: 0,0:15:36.68,0:15:37.85,Default,,0,0,0,,{\an8\c&Hffffff&}（風が吹く音）
+Dialogue: 0,0:15:37.93,0:15:40.18,Default,,0,0,0,,{\c&Hffffff&}（美姫）お菓子 余っちゃったね～\N買いすぎたかな？
+Dialogue: 0,0:15:40.18,0:15:41.27,Default,,0,0,0,,{\c&Hffffff&}（美姫）お菓子 余っちゃったね～\N買いすぎたかな？
+Dialogue: 0,0:15:40.18,0:15:41.27,Default,,0,0,0,,{\an8\c&Hffffff&}（まり）ふふっ
+Dialogue: 0,0:15:41.27,0:15:41.81,Default,,0,0,0,,{\c&Hffffff&}（美姫）お菓子 余っちゃったね～\N買いすぎたかな？
+Dialogue: 0,0:15:41.89,0:15:43.31,Default,,0,0,0,,{\c&Hffffff&}（めえ）ね～
+Dialogue: 0,0:15:43.40,0:15:44.77,Default,,0,0,0,,{\c&Hffffff&}（むー子）あ 西高(にしこう)…
+Dialogue: 0,0:15:44.86,0:15:45.86,Default,,0,0,0,,{\c&Hffffff&}（美姫）ん？
+Dialogue: 0,0:15:45.94,0:15:48.11,Default,,0,0,0,,{\c&Hffffff&}（風が吹く音）
+Dialogue: 0,0:15:48.19,0:15:49.32,Default,,0,0,0,,{\c&Hffffff&}（西高男子１）五十嵐？
+Dialogue: 0,0:15:49.82,0:15:50.74,Default,,0,0,0,,{\c&Hffffff&}（美姫）うっ！
+Dialogue: 0,0:15:52.66,0:15:53.86,Default,,0,0,0,,{\c&Hffffff&}（美姫･五十嵐）え…
+Dialogue: 0,0:15:58.83,0:16:00.12,Default,,0,0,0,,{\c&Hffffff&}-（五十嵐）え…\N-（美姫）う…
+Dialogue: 0,0:15:58.83,0:16:00.12,Default,,0,0,0,,{\an8\c&Hffffff&}（矢が刺さる音）
+Dialogue: 0,0:16:00.20,0:16:00.70,Default,,0,0,0,,{\c&Hffffff&}ごめん… 先 帰ってて！\N中学の友達見つけて…
+Dialogue: 0,0:16:00.70,0:16:01.87,Default,,0,0,0,,{\c&Hffffff&}ごめん… 先 帰ってて！\N中学の友達見つけて…
+Dialogue: 0,0:16:00.70,0:16:01.87,Default,,0,0,0,,{\an8\c&Hffffff&}（まりたち）あ…
+Dialogue: 0,0:16:01.87,0:16:04.08,Default,,0,0,0,,{\c&Hffffff&}ごめん… 先 帰ってて！\N中学の友達見つけて…
+Dialogue: 0,0:16:04.17,0:16:05.42,Default,,0,0,0,,{\c&Hffffff&}分かった～
+Dialogue: 0,0:16:05.96,0:16:07.63,Default,,0,0,0,,{\c&Hffffff&}（めえ）バイバ～イ\N（美姫の荒い息）
+Dialogue: 0,0:16:07.71,0:16:08.96,Default,,0,0,0,,{\c&Hffffff&}いや なんで？
+Dialogue: 0,0:16:09.05,0:16:09.88,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:16:11.42,0:16:14.47,Default,,0,0,0,,{\c&Hffffff&}安曇… お前…
+Dialogue: 0,0:16:14.55,0:16:15.51,Default,,0,0,0,,{\c&Hffffff&}え？
+Dialogue: 0,0:16:15.59,0:16:16.51,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）うふふふ
+Dialogue: 0,0:16:16.51,0:16:17.81,Default,,0,0,0,,{\an8\c&Hffffff&}（美姫）うふふふ
+Dialogue: 0,0:16:16.51,0:16:17.81,Default,,0,0,0,,{\c&Hffffff&}なんか すげぇ雰囲気 変わったな…
+Dialogue: 0,0:16:17.81,0:16:19.26,Default,,0,0,0,,{\c&Hffffff&}なんか すげぇ雰囲気 変わったな…
+Dialogue: 0,0:16:19.35,0:16:20.18,Default,,0,0,0,,{\c&Hffffff&}どうした？　ゴリラ
+Dialogue: 0,0:16:20.18,0:16:20.52,Default,,0,0,0,,{\c&Hffffff&}どうした？　ゴリラ
+Dialogue: 0,0:16:20.18,0:16:20.52,Default,,0,0,0,,{\an8\c&Hffffff&}（中学生の美姫）\Nウッホホ ホ ウホーッ！
+Dialogue: 0,0:16:20.52,0:16:21.52,Default,,0,0,0,,{\an8\c&Hffffff&}（中学生の美姫）\Nウッホホ ホ ウホーッ！
+Dialogue: 0,0:16:21.52,0:16:21.98,Default,,0,0,0,,{\an8\c&Hffffff&}（中学生の美姫）\Nウッホホ ホ ウホーッ！
+Dialogue: 0,0:16:21.52,0:16:21.98,Default,,0,0,0,,{\c&Hffffff&}う… うるさいなー！
+Dialogue: 0,0:16:21.98,0:16:23.52,Default,,0,0,0,,{\c&Hffffff&}う… うるさいなー！
+Dialogue: 0,0:16:24.10,0:16:24.94,Default,,0,0,0,,{\c&Hffffff&}（美姫）ん…
+Dialogue: 0,0:16:26.11,0:16:27.15,Default,,0,0,0,,{\c&Hffffff&}ちょちょちょ…
+Dialogue: 0,0:16:27.65,0:16:28.52,Default,,0,0,0,,{\c&Hffffff&}あ？
+Dialogue: 0,0:16:29.02,0:16:30.48,Default,,0,0,0,,{\c&Hffffff&}なんで ここにいんの？
+Dialogue: 0,0:16:30.57,0:16:33.28,Default,,0,0,0,,{\c&Hffffff&}あ？　部活だよ 部活
+Dialogue: 0,0:16:33.36,0:16:35.70,Default,,0,0,0,,{\c&Hffffff&}合同練習
+Dialogue: 0,0:16:36.87,0:16:39.95,Default,,0,0,0,,{\c&Hffffff&}つーか お前 明天だったのかよ
+Dialogue: 0,0:16:40.45,0:16:43.66,Default,,0,0,0,,{\c&Hffffff&}毎日こんな遠いとこまで\N通ってんの お前だけじゃね？
+Dialogue: 0,0:16:44.37,0:16:45.25,Default,,0,0,0,,{\c&Hffffff&}なんで？
+Dialogue: 0,0:16:45.75,0:16:48.84,Default,,0,0,0,,{\c&Hffffff&}（美姫）こゆんも明天なのは\N知らないのか…
+Dialogue: 0,0:16:49.38,0:16:50.34,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）あ？
+Dialogue: 0,0:16:50.88,0:16:54.30,Default,,0,0,0,,{\c&Hffffff&}おい五十嵐～ 何してんだ～？
+Dialogue: 0,0:16:54.38,0:16:55.80,Default,,0,0,0,,{\c&Hffffff&}あ… チッ
+Dialogue: 0,0:16:55.88,0:16:57.43,Default,,0,0,0,,{\c&Hffffff&}（美姫）わ… ごめん…
+Dialogue: 0,0:16:57.51,0:16:58.47,Default,,0,0,0,,{\c&Hffffff&}じゃーな
+Dialogue: 0,0:17:02.14,0:17:04.60,Default,,0,0,0,,{\c&Hffffff&}（西高男子１）誰あの子？\Nめっちゃ かわいくない？
+Dialogue: 0,0:17:04.69,0:17:06.81,Default,,0,0,0,,{\c&Hffffff&}-（五十嵐）目ぇ腐ってんのか？\N-（西高男子１）え？
+Dialogue: 0,0:17:07.98,0:17:11.69,Default,,0,0,0,,{\c&Hffffff&}（美姫）こゆん…\N頼むから 学校からもう帰ってて…
+Dialogue: 0,0:17:17.03,0:17:20.03,Default,,0,0,0,,{\c&Hffffff&}（小雪）暗っ！　え… 今 何時？
+Dialogue: 0,0:17:20.53,0:17:23.04,Default,,0,0,0,,{\c&Hffffff&}あ カーテン閉じてるからか
+Dialogue: 0,0:17:23.62,0:17:25.25,Default,,0,0,0,,{\c&Hffffff&}ありがとう ノリコ…
+Dialogue: 0,0:17:25.79,0:17:29.59,Default,,0,0,0,,{\c&Hffffff&}外は明るいから\Nまだ そんなに時間経ってな…
+Dialogue: 0,0:17:32.55,0:17:33.30,Default,,0,0,0,,{\an8\c&Hffffff&}（無音のセリフ）
+Dialogue: 0,0:17:33.30,0:17:34.30,Default,,0,0,0,,{\an8\c&Hffffff&}（無音のセリフ）
+Dialogue: 0,0:17:33.30,0:17:34.30,Default,,0,0,0,,{\c&Hffffff&}ひっ！
+Dialogue: 0,0:17:34.30,0:17:35.47,Default,,0,0,0,,{\an8\c&Hffffff&}（無音のセリフ）
+Dialogue: 0,0:17:35.55,0:17:36.88,Default,,0,0,0,,{\c&Hffffff&}五十嵐！
+Dialogue: 0,0:17:38.01,0:17:39.47,Default,,0,0,0,,{\c&Hffffff&}そうだ 今日…
+Dialogue: 0,0:17:40.05,0:17:41.60,Default,,0,0,0,,{\c&Hffffff&}（ミナト）じゃあ\N今度 うちの学校に来るけど
+Dialogue: 0,0:17:41.60,0:17:41.97,Default,,0,0,0,,{\c&Hffffff&}（ミナト）じゃあ\N今度 うちの学校に来るけど
+Dialogue: 0,0:17:41.60,0:17:41.97,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）んっ？
+Dialogue: 0,0:17:41.97,0:17:42.06,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）んっ？
+Dialogue: 0,0:17:42.06,0:17:42.64,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）んっ？
+Dialogue: 0,0:17:42.06,0:17:42.64,Default,,0,0,0,,{\c&Hffffff&}会っても分からないか…
+Dialogue: 0,0:17:42.64,0:17:43.64,Default,,0,0,0,,{\c&Hffffff&}会っても分からないか…
+Dialogue: 0,0:17:43.72,0:17:44.68,Default,,0,0,0,,{\c&Hffffff&}いつ？
+Dialogue: 0,0:17:44.77,0:17:46.98,Default,,0,0,0,,{\c&Hffffff&}試験最終日の午後の部活
+Dialogue: 0,0:17:48.40,0:17:50.06,Default,,0,0,0,,{\c&Hffffff&}（小雪）聞いてたのに…
+Dialogue: 0,0:17:50.73,0:17:52.40,Default,,0,0,0,,{\c&Hffffff&}そういえば…
+Dialogue: 0,0:17:52.98,0:17:55.99,Default,,0,0,0,,{\c&Hffffff&}さっき安曇に会ったんだけど\Nクラス一緒？
+Dialogue: 0,0:17:56.07,0:17:56.95,Default,,0,0,0,,{\c&Hffffff&}知り合い？
+Dialogue: 0,0:17:57.03,0:17:58.07,Default,,0,0,0,,{\c&Hffffff&}ああ 美姫？
+Dialogue: 0,0:17:58.57,0:18:00.49,Default,,0,0,0,,{\c&Hffffff&}クラス違うけど 仲良いよ
+Dialogue: 0,0:18:00.99,0:18:03.24,Default,,0,0,0,,{\c&Hffffff&}あいつ ここでも暴れてんの？
+Dialogue: 0,0:18:03.33,0:18:04.45,Default,,0,0,0,,{\c&Hffffff&}ガラス割れてねえ？
+Dialogue: 0,0:18:04.54,0:18:07.16,Default,,0,0,0,,{\c&Hffffff&}あっはは 大丈夫だって
+Dialogue: 0,0:18:07.25,0:18:10.42,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）さっき安曇に\N会ったんだけど クラス…
+Dialogue: 0,0:18:10.50,0:18:12.42,Default,,0,0,0,,{\c&Hffffff&}（小雪）美姫の話 してる
+Dialogue: 0,0:18:12.50,0:18:13.88,Default,,0,0,0,,{\c&Hffffff&}なんで？
+Dialogue: 0,0:18:12.50,0:18:13.88,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナト）あ 美姫？
+Dialogue: 0,0:18:15.09,0:18:17.01,Default,,0,0,0,,{\c&Hffffff&}ダメだ… よく聞こえない
+Dialogue: 0,0:18:17.72,0:18:18.93,Default,,0,0,0,,{\c&Hffffff&}（スイッチの音）\N（小雪）ん…
+Dialogue: 0,0:18:19.43,0:18:21.93,Default,,0,0,0,,{\c&Hffffff&}-（ノリコ）氷川 何してんの？\N-（小雪）ひっ！
+Dialogue: 0,0:18:22.01,0:18:23.60,Default,,0,0,0,,{\c&Hffffff&}えっと…
+Dialogue: 0,0:18:24.18,0:18:25.47,Default,,0,0,0,,{\c&Hffffff&}体調は大丈夫？
+Dialogue: 0,0:18:25.97,0:18:27.18,Default,,0,0,0,,{\c&Hffffff&}大丈夫…
+Dialogue: 0,0:18:27.27,0:18:28.35,Default,,0,0,0,,{\c&Hffffff&}帰れそう？
+Dialogue: 0,0:18:28.44,0:18:29.23,Default,,0,0,0,,{\c&Hffffff&}はい…
+Dialogue: 0,0:18:32.52,0:18:34.94,Default,,0,0,0,,{\c&Hffffff&}（小雪）\N気づかれないように早く帰ろう
+Dialogue: 0,0:18:38.07,0:18:41.70,Default,,0,0,0,,{\c&Hffffff&}あまり聞き取れなかったけど\N美姫の話をしてた…
+Dialogue: 0,0:18:41.78,0:18:44.37,Default,,0,0,0,,{\c&Hffffff&}私の話題になったりしないよね？
+Dialogue: 0,0:18:47.45,0:18:51.75,Default,,0,0,0,,{\c&Hffffff&}雨宮君 私の話振ったり…\Nするかな…
+Dialogue: 0,0:18:52.29,0:18:54.34,Default,,0,0,0,,{\an8\c&Hffffff&}五十嵐くん 知ってる？
+Dialogue: 0,0:18:54.42,0:18:55.55,Default,,0,0,0,,{\an8\c&Hffffff&}何のバイト？
+Dialogue: 0,0:18:55.63,0:18:57.01,Default,,0,0,0,,{\an8\c&Hffffff&}休みの日 何してる？
+Dialogue: 0,0:18:57.97,0:18:59.59,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）しそうだな…
+Dialogue: 0,0:19:02.18,0:19:03.05,Default,,0,0,0,,{\c&Hffffff&}嫌だ…
+Dialogue: 0,0:19:04.64,0:19:07.06,Default,,0,0,0,,{\c&Hffffff&}私に興味を持たないでほしい
+Dialogue: 0,0:19:09.98,0:19:11.27,Default,,0,0,0,,{\c&Hffffff&}（無音のセリフ）
+Dialogue: 0,0:19:12.60,0:19:16.11,Default,,0,0,0,,{\c&Hffffff&}私のことを… 知らないでほしい
+Dialogue: 0,0:19:17.86,0:19:20.36,Default,,0,0,0,,{\c&Hffffff&}（ミナト）\Nあ そういえば五十嵐君さ
+Dialogue: 0,0:19:20.45,0:19:22.61,Default,,0,0,0,,{\c&Hffffff&}氷川さんって覚えてる？
+Dialogue: 0,0:19:25.41,0:19:26.37,Default,,0,0,0,,{\c&Hffffff&}（五十嵐）あ…
+Dialogue: 0,0:19:30.04,0:19:33.38,Default,,0,0,0,,{\c&Hffffff&}（チャイム）
+Dialogue: 0,0:19:33.46,0:19:34.84,Default,,0,0,0,,{\c&Hffffff&}（ロッカーの扉を閉める音）
+Dialogue: 0,0:19:35.71,0:19:36.80,Default,,0,0,0,,{\c&Hffffff&}（ため息）
+Dialogue: 0,0:19:36.88,0:19:37.84,Default,,0,0,0,,{\c&Hffffff&}（ミナト）あ 氷川さん
+Dialogue: 0,0:19:37.92,0:19:39.38,Default,,0,0,0,,{\c&Hffffff&}ん！　ん…
+Dialogue: 0,0:19:39.46,0:19:40.84,Default,,0,0,0,,{\c&Hffffff&}おはよう
+Dialogue: 0,0:19:41.72,0:19:45.14,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）ん？　なんか\Nホカホカしてる…
+Dialogue: 0,0:19:45.22,0:19:47.89,Default,,0,0,0,,{\c&Hffffff&}雨宮君 走ってきた？
+Dialogue: 0,0:19:47.97,0:19:50.68,Default,,0,0,0,,{\c&Hffffff&}あ… さっき朝練 終わったとこ
+Dialogue: 0,0:19:50.77,0:19:52.64,Default,,0,0,0,,{\c&Hffffff&}寒いと湯気出るんだよね
+Dialogue: 0,0:19:52.73,0:19:54.40,Default,,0,0,0,,{\an8\c&Hffffff&}（小雪）朝練…
+Dialogue: 0,0:19:54.48,0:19:56.40,Default,,0,0,0,,{\an8\c&Hffffff&}懐かしい響き
+Dialogue: 0,0:19:56.48,0:20:00.03,Default,,0,0,0,,{\c&Hffffff&}あ… そういえば昨日\N五十嵐君 来た
+Dialogue: 0,0:20:00.11,0:20:01.28,Default,,0,0,0,,{\c&Hffffff&}んっ… （息をのむ）
+Dialogue: 0,0:20:02.28,0:20:03.32,Default,,0,0,0,,{\c&Hffffff&}…んだけど
+Dialogue: 0,0:20:03.82,0:20:05.78,Default,,0,0,0,,{\c&Hffffff&}氷川さん 興味ないか
+Dialogue: 0,0:20:06.49,0:20:08.66,Default,,0,0,0,,{\c&Hffffff&}（声が遠くなる）\Nあんま仲良くなさそうだもんね
+Dialogue: 0,0:20:10.79,0:20:13.33,Default,,0,0,0,,{\c&Hffffff&}（小雪）え… 何？　その感じ…
+Dialogue: 0,0:20:13.87,0:20:17.34,Default,,0,0,0,,{\c&Hffffff&}五十嵐君って\N中学で結構 目立ってた方？
+Dialogue: 0,0:20:18.13,0:20:20.38,Default,,0,0,0,,{\c&Hffffff&}（小雪）まあ… そうだと思う…
+Dialogue: 0,0:20:20.88,0:20:24.01,Default,,0,0,0,,{\c&Hffffff&}（小雪）あの人は\Nいつも輪の中心で
+Dialogue: 0,0:20:24.09,0:20:25.89,Default,,0,0,0,,{\c&Hffffff&}常に周りに人がいて…
+Dialogue: 0,0:20:26.39,0:20:29.14,Default,,0,0,0,,{\c&Hffffff&}やっぱり？　そんな感じした
+Dialogue: 0,0:20:29.97,0:20:33.94,Default,,0,0,0,,{\c&Hffffff&}（小雪）ズケズケと 人の心に\N土足で踏み込んでくるような…
+Dialogue: 0,0:20:34.02,0:20:35.19,Default,,0,0,0,,{\c&Hffffff&}そういう人…
+Dialogue: 0,0:20:36.02,0:20:38.19,Default,,0,0,0,,{\c&Hffffff&}（ミナト）あ～ ごめん
+Dialogue: 0,0:20:38.27,0:20:40.69,Default,,0,0,0,,{\c&Hffffff&}中学の話は やめよっか
+Dialogue: 0,0:20:40.78,0:20:41.94,Default,,0,0,0,,{\c&Hffffff&}（小雪）え…
+Dialogue: 0,0:20:44.28,0:20:48.12,Default,,0,0,0,,{\c&Hffffff&}高校でさ きっと\N新しい思い出 増えるし…
+Dialogue: 0,0:20:48.20,0:20:51.45,Default,,0,0,0,,{\c&Hffffff&}行事もたくさんあるし\N楽しんでこ～的な…
+Dialogue: 0,0:20:52.16,0:20:52.96,Default,,0,0,0,,{\c&Hffffff&}（小雪）ん…
+Dialogue: 0,0:20:53.04,0:20:53.50,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナトの話し声）
+Dialogue: 0,0:20:53.50,0:20:57.71,Default,,0,0,0,,{\an8\c&Hffffff&}（ミナトの話し声）
+Dialogue: 0,0:20:53.50,0:20:57.71,Default,,0,0,0,,{\c&Hffffff&}（小雪）中学の思い出話なんて\N雨宮君にしたことない
+Dialogue: 0,0:20:58.42,0:21:00.46,Default,,0,0,0,,{\c&Hffffff&}…のに 急になんで…？
+Dialogue: 0,0:21:01.21,0:21:02.21,Default,,0,0,0,,{\c&Hffffff&}はっ！
+Dialogue: 0,0:21:02.80,0:21:05.72,Default,,0,0,0,,{\c&Hffffff&}（小雪）五十嵐から…\N何か聞いた？
+Dialogue: 0,0:21:06.30,0:21:08.30,Default,,0,0,0,,{\c&Hffffff&}何を… 聞いた？
+Dialogue: 0,0:21:09.05,0:21:11.18,Default,,0,0,0,,{\c&Hffffff&}（女子１）\Nねえねえ 小雪(こゆき)ちゃんって
+Dialogue: 0,0:21:09.05,0:21:11.18,Default,,0,0,0,,{\an8\c&Hffffff&}（女子たちの笑い声）
+Dialogue: 0,0:21:11.27,0:21:13.10,Default,,0,0,0,,{\c&Hffffff&}五十嵐君と付き合ってるの？
+Dialogue: 0,0:21:13.18,0:21:14.14,Default,,0,0,0,,{\c&Hffffff&}（男子１）なあ お前ら\Nどこまでいってんの？
+Dialogue: 0,0:21:14.14,0:21:15.98,Default,,0,0,0,,{\c&Hffffff&}（男子１）なあ お前ら\Nどこまでいってんの？
+Dialogue: 0,0:21:14.14,0:21:15.98,Default,,0,0,0,,{\an8\c&Hffffff&}（男子２の笑い声）
+Dialogue: 0,0:21:16.69,0:21:19.82,Default,,0,0,0,,{\c&Hffffff&}（熱川(あたがわ)真夏(まなつ)）あいつ 男にだけ\Nいい顔してんじゃん？
+Dialogue: 0,0:21:19.90,0:21:21.86,Default,,0,0,0,,{\c&Hffffff&}（女子３）うわー 無理～　ふふっ
+Dialogue: 0,0:21:22.36,0:21:23.74,Default,,0,0,0,,{\c&Hffffff&}（女子４）知ってる？
+Dialogue: 0,0:21:23.82,0:21:24.65,Default,,0,0,0,,{\c&Hffffff&}（女子５）小雪ちゃんちって…
+Dialogue: 0,0:21:24.74,0:21:26.03,Default,,0,0,0,,{\c&Hffffff&}（女子６）ウッソ　マジ？
+Dialogue: 0,0:21:26.11,0:21:27.86,Default,,0,0,0,,{\c&Hffffff&}（男子３）あの話 本当だったんだ
+Dialogue: 0,0:21:27.95,0:21:28.87,Default,,0,0,0,,{\c&Hffffff&}（女子７）ウソ～
+Dialogue: 0,0:21:28.95,0:21:31.95,Default,,0,0,0,,{\c&Hffffff&}（小雪）なんで みんな\Nうわさ話が好きなの？
+Dialogue: 0,0:21:28.95,0:21:31.95,Default,,0,0,0,,{\an8\c&Hffffff&}（生徒たちの話し声と\N嘲笑）
+Dialogue: 0,0:21:32.54,0:21:34.58,Default,,0,0,0,,{\c&Hffffff&}なんで放っておいてくれないの？
+Dialogue: 0,0:21:34.66,0:21:36.29,Default,,0,0,0,,{\c&Hffffff&}（女子８）ねえ 小雪ちゃん
+Dialogue: 0,0:21:37.58,0:21:40.13,Default,,0,0,0,,{\c&Hffffff&}（小雪）\N他人に干渉するのって楽しい？
+Dialogue: 0,0:21:40.67,0:21:42.88,Default,,0,0,0,,{\c&Hffffff&}（男子４）ほんとのところ教えろよ
+Dialogue: 0,0:21:43.55,0:21:47.59,Default,,0,0,0,,{\c&Hffffff&}（小雪）ウソでも本当でも\N面白ければ何でもいいくせに
+Dialogue: 0,0:21:49.18,0:21:52.93,Default,,0,0,0,,{\an8\c&Hffffff&}（生徒たちの話し声と\N嘲笑）
+Dialogue: 0,0:21:52.93,0:21:54.14,Default,,0,0,0,,{\an8\c&Hffffff&}（生徒たちの話し声と\N嘲笑）
+Dialogue: 0,0:21:52.93,0:21:54.14,Default,,0,0,0,,{\c&Hffffff&}これ以上…
+Dialogue: 0,0:21:54.14,0:21:55.81,Default,,0,0,0,,{\an8\c&Hffffff&}（生徒たちの話し声と\N嘲笑）
+Dialogue: 0,0:21:56.89,0:21:58.48,Default,,0,0,0,,{\c&Hffffff&}踏み込まないで
+Dialogue: 0,0:21:59.77,0:22:00.77,Default,,0,0,0,,{\c&Hffffff&}なんで…
+Dialogue: 0,0:22:00.86,0:22:01.61,Default,,0,0,0,,{\c&Hffffff&}えっ…
+Dialogue: 0,0:22:02.77,0:22:05.78,Default,,0,0,0,,{\c&Hffffff&}は～ 冷気が気持ちいい
+Dialogue: 0,0:22:06.95,0:22:07.90,Default,,0,0,0,,{\c&Hffffff&}あっ こゆ…
+Dialogue: 0,0:22:07.99,0:22:10.20,Default,,0,0,0,,{\c&Hffffff&}（小雪）なんで\N人のこと探ったりするの？
+Dialogue: 0,0:22:11.12,0:22:12.28,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:22:14.87,0:22:16.54,Default,,0,0,0,,{\c&Hffffff&}（小雪）理解できない…
+Dialogue: 0,0:22:19.54,0:22:20.92,Default,,0,0,0,,{\c&Hffffff&}気持ち悪い
+Dialogue: 0,0:22:26.09,0:22:28.09,Default,,0,0,0,,{\c&Hffffff&}♪～
+Dialogue: 0,0:23:54.01,0:23:56.01,Default,,0,0,0,,{\an8\c&Hffffff&}～♪
