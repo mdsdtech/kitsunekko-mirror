@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:07.41,Default,,0000,0000,0000,,{\pos(180,382)\c&H0000FFFF\fscx50\fscy50}いぶきさんち
+Dialogue: 0,0:00:02.20,0:00:07.41,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}伊吹山地から琵琶湖へと注ぐ姉川{\fscx50}。
+Dialogue: 0,0:00:07.41,0:00:15.28,Default,,0000,0000,0000,,{\pos(460,322)\c&H0000FFFF\fscx50\fscy50}あざい
+Dialogue: 0,0:00:07.41,0:00:15.28,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}辺り一帯は{\fscx50}　{\fscx100}朝倉{\fscx50}・{\fscx100}浅井軍と{\fscx50}　{\fscx100}織田{\fscx50}・{\fscx100}徳川軍の
+Dialogue: 0,0:00:07.41,0:00:15.28,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}総勢５万人近い兵士たちによる➡
+Dialogue: 0,0:00:15.28,0:00:19.99,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}壮絶な戦いの舞台となった地です{\fscx50}。
+Dialogue: 0,0:00:19.99,0:00:27.43,Default,,0000,0000,0000,,{\pos(620,322)\c&H0000FFFF\fscx50\fscy50}たつがはな
+Dialogue: 0,0:00:19.99,0:00:27.43,Default,,0000,0000,0000,,{\pos(160,376)\c&H0000FFFF}織田軍は{\fscx50}　{\fscx100}戦況を見渡せる龍ヶ鼻に
+Dialogue: 0,0:00:19.99,0:00:27.43,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}本陣を置きました{\fscx50}。
+Dialogue: 0,0:00:27.43,0:00:31.13,Default,,0000,0000,0000,,{\pos(140,496)\c&H0000FFFF}姉川を挟んで対じする両軍{\fscx50}。
+Dialogue: 0,0:00:31.13,0:00:34.63,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}織田方として参陣した
+Dialogue: 0,0:00:31.13,0:00:34.63,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}徳川家康は➡
+Dialogue: 0,0:00:34.63,0:00:41.64,Default,,0000,0000,0000,,{\pos(180,196)\c&H0000FFFF}前線に陣を構え{\fscx50}　{\fscx100}ついに{\fscx50}　{\fscx100}この地で
+Dialogue: 0,0:00:34.63,0:00:41.64,Default,,0000,0000,0000,,{\pos(200,256)\c&H0000FFFF}戦いの火蓋が切られました{\fscx50}。
+Dialogue: 0,0:00:43.64,0:00:50.32,Default,,0000,0000,0000,,{\pos(140,346)\c&H0000FFFF}今は{\fscx50}　{\fscx100}小さなほこらが鎮座する境内に
+Dialogue: 0,0:00:43.64,0:00:50.32,Default,,0000,0000,0000,,{\pos(160,406)\c&H0000FFFF}大きな杉の木があります{\fscx50}。
+Dialogue: 0,0:00:50.32,0:00:53.15,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}飛び交う矢によって{\fscx50}　{\fscx100}枝が折れ➡
+Dialogue: 0,0:00:53.15,0:00:57.99,Default,,0000,0000,0000,,{\pos(240,376)\c&H0000FFFF}最上部が枯れてしまったと
+Dialogue: 0,0:00:53.15,0:00:57.99,Default,,0000,0000,0000,,{\pos(260,436)\c&H0000FFFF}伝えられています{\fscx50}。
+Dialogue: 0,0:00:57.99,0:01:02.40,Default,,0000,0000,0000,,{\pos(180,376)\c&H0000FFFF}多くの戦死者の血で
+Dialogue: 0,0:00:57.99,0:01:02.40,Default,,0000,0000,0000,,{\pos(200,436)\c&H0000FFFF}大地が赤く染まったことから➡
+Dialogue: 0,0:01:02.40,0:01:07.60,Default,,0000,0000,0000,,{\pos(400,382)\c&H0000FFFF\fscx50\fscy50}ちはら
+Dialogue: 0,0:01:02.40,0:01:07.60,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}この辺りは{\fscx50}　{\fscx100}血原と呼ばれています{\fscx50}。
+Dialogue: 0,0:01:09.60,0:01:12.41,Default,,0000,0000,0000,,{\pos(140,496)\c&H0000FFFF}一進一退の攻防の末➡
+Dialogue: 0,0:01:12.41,0:01:18.61,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}家康率いる軍勢の奮戦により
+Dialogue: 0,0:01:12.41,0:01:18.61,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}朝倉{\fscx50}・{\fscx100}浅井軍は{\fscx50}　{\fscx100}撤退{\fscx50}。
+Dialogue: 0,0:01:18.61,0:01:21.65,Default,,0000,0000,0000,,{\pos(240,406)\c&H0000FFFF}しかし{\fscx50}　{\fscx100}彼らとの戦いは➡
+Dialogue: 0,0:01:21.65,0:01:26.45,Default,,0000,0000,0000,,{\pos(200,346)\c&H0000FFFF}以後３年にわたり
+Dialogue: 0,0:01:21.65,0:01:26.45,Default,,0000,0000,0000,,{\pos(220,406)\c&H0000FFFF}続いていくことになるのです{\fscx50}。
