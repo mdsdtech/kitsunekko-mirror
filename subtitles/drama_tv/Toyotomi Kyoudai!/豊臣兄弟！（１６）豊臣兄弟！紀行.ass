@@ -1,0 +1,35 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.77,0:00:11.78,Default,,0000,0000,0000,,{\pos(220,376)\c&H0000FFFF}比叡山{\fscx50}　{\fscx100}延暦寺や日吉大社の
+Dialogue: 0,0:00:05.77,0:00:11.78,Default,,0000,0000,0000,,{\pos(240,436)\c&H0000FFFF}門前町として栄えました{\fscx50}。
+Dialogue: 0,0:00:13.51,0:00:19.29,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}参道をはじめ{\fscx50}　{\fscx100}町の至る所に今も残る石垣{\fscx50}。
+Dialogue: 0,0:00:19.29,0:00:21.96,Default,,0000,0000,0000,,{\pos(220,496)\c&H0000FFFF}自然石を積み上げる技術は➡
+Dialogue: 0,0:00:21.96,0:00:27.66,Default,,0000,0000,0000,,{\pos(220,436)\c&H0000FFFF}戦国時代{\fscx50}　{\fscx100}城郭を築く際にも
+Dialogue: 0,0:00:21.96,0:00:27.66,Default,,0000,0000,0000,,{\pos(240,496)\c&H0000FFFF}用いられたといいます{\fscx50}。
+Dialogue: 0,0:00:29.30,0:00:36.44,Default,,0000,0000,0000,,{\pos(160,376)\c&H0000FFFF}この坂本に
+Dialogue: 0,0:00:29.30,0:00:36.44,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}明智光秀が築いた城が坂本城です{\fscx50}。
+Dialogue: 0,0:00:36.44,0:00:39.81,Default,,0000,0000,0000,,{\pos(140,196)\c&H0000FFFF}琵琶湖の水を引き入れた{\fscx50}　{\fscx100}この城は➡
+Dialogue: 0,0:00:39.81,0:00:45.15,Default,,0000,0000,0000,,{\pos(220,196)\c&H0000FFFF}築城から僅か十数年で廃城{\fscx50}。
+Dialogue: 0,0:00:45.15,0:00:47.98,Default,,0000,0000,0000,,{\pos(260,196)\c&H0000FFFF}残された史料も少なく➡
+Dialogue: 0,0:00:47.98,0:00:52.99,Default,,0000,0000,0000,,{\pos(140,196)\c&H0000FFFF}これまで{\fscx50}　{\fscx100}幻の城と呼ばれていました{\fscx50}。
+Dialogue: 0,0:00:54.65,0:00:59.16,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}近年{\fscx50}　{\fscx100}内陸に{\fscx50}３００{\fscx100}ｍほど入った辺りに➡
+Dialogue: 0,0:00:59.16,0:01:04.66,Default,,0000,0000,0000,,{\pos(260,376)\c&H0000FFFF}三の丸と見られる石垣が
+Dialogue: 0,0:00:59.16,0:01:04.66,Default,,0000,0000,0000,,{\pos(280,436)\c&H0000FFFF}新たに発見されました{\fscx50}。
+Dialogue: 0,0:01:07.40,0:01:12.91,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}中国から来たと見られる陶磁器なども
+Dialogue: 0,0:01:07.40,0:01:12.91,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}出土しました{\fscx50}。
+Dialogue: 0,0:01:14.61,0:01:19.95,Default,,0000,0000,0000,,{\pos(140,436)\c&H0000FFFF}要衝に位置する坂本の地を任された光秀{\fscx50}。
+Dialogue: 0,0:01:19.95,0:01:25.95,Default,,0000,0000,0000,,{\pos(200,346)\c&H0000FFFF}信長の信頼を得て
+Dialogue: 0,0:01:19.95,0:01:25.95,Default,,0000,0000,0000,,{\pos(220,406)\c&H0000FFFF}活躍の場を広げていきます{\fscx50}。
