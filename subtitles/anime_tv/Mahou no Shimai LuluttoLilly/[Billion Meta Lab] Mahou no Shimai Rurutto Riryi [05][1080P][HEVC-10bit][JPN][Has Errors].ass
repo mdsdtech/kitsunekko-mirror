@@ -1,0 +1,458 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: mhsm
+Audio File: 05.mkv
+Video File: 05.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Scroll Position: 858
+Active Line: 864
+Video Position: 27944
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: OP-JP,UD Digi Kyokasho NP-B,64,&H00FFFFFF,&H000000FF,&H007E1C56,&H00000000,0,0,0,0,100,100,0,0,1,2.4,0,8,10,10,20,1
+Style: ED-JP,UD Digi Kyokasho NP-B,64,&H00000000,&H000000FF,&H00FFBEDA,&H00000000,0,0,0,0,100,100,0,0,1,2.4,0,8,10,10,20,1
+Style: main-JP,UD Digi Kyokasho NP-B,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,54,1
+Style: 02in-JP,UD Digi Kyokasho NP-B,47,&H00B3302E,&H000000FF,&H00FFF1F7,&H00000000,0,0,0,0,100,100,0,0,1,2.4,0,2,10,10,17,1
+Style: 04in-JP,UD Digi Kyokasho NP-B,47,&H00FFD0E2,&H000000FF,&H00C9413F,&H00000000,0,0,0,0,100,100,0,0,1,2.4,0,2,10,10,17,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:01:58.51,0:02:01.52,OP-JP,,0,0,0,,op-jp
+Comment: 0,0:22:23.03,0:22:23.53,ED-JP,,0,0,0,,ed
+Comment: 1,0:00:17.00,0:00:17.04,main-JP,,0,0,0,,before op
+Comment: 1,0:03:36.99,0:03:37.78,main-JP,,0,0,0,,main
+Dialogue: 0,0:02:01.52,0:02:04.19,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae Bae BaeBae BaeBaeBae
+Dialogue: 0,0:02:04.19,0:02:06.86,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae BaeBae Bubee Bubee
+Dialogue: 0,0:02:06.86,0:02:09.48,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae Bae BaeBae BaeBaeBae
+Dialogue: 0,0:02:09.48,0:02:12.11,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae Bae Bae BaeBae BaeBaeBae
+Dialogue: 0,0:02:15.53,0:02:17.49,OP-JP,,0,0,0,,{\fad(240,240)\blur3}You're my little buddy
+Dialogue: 0,0:02:17.49,0:02:19.83,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Hey Bubee Love
+Dialogue: 0,0:02:19.83,0:02:22.33,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bubee Bubee Bubee Love
+Dialogue: 0,0:02:22.75,0:02:25.42,OP-JP,,0,0,0,,{\fad(240,240)\blur3}ドキドキしている私
+Dialogue: 0,0:02:25.42,0:02:28.04,OP-JP,,0,0,0,,{\fad(240,240)\blur3}この目に映るのは
+Dialogue: 0,0:02:28.04,0:02:31.88,OP-JP,,0,0,0,,{\fad(240,240)\blur3}新しい世界の色
+Dialogue: 0,0:02:33.22,0:02:35.84,OP-JP,,0,0,0,,{\fad(240,240)\blur3}今日もそばにいて
+Dialogue: 0,0:02:35.84,0:02:38.85,OP-JP,,0,0,0,,{\fad(240,240)\blur3}君の手を取って行こう
+Dialogue: 0,0:02:38.85,0:02:42.68,OP-JP,,0,0,0,,{\fad(240,240)\blur3}光に成れる場所に憧れて
+Dialogue: 0,0:02:43.64,0:02:48.69,OP-JP,,0,0,0,,{\fad(240,240)\blur3}魔法の音がする
+Dialogue: 0,0:02:49.52,0:02:51.69,OP-JP,,0,0,0,,{\fad(240,240)\blur3}I wanna sing with you
+Dialogue: 0,0:02:52.19,0:02:58.03,OP-JP,,0,0,0,,{\fad(240,240)\blur3}二人で歌おう君は明るく輝く星
+Dialogue: 0,0:02:58.03,0:03:00.12,OP-JP,,0,0,0,,{\fad(240,240)\blur3}My Bubee Bubee Bubee Love
+Dialogue: 0,0:03:00.12,0:03:02.62,OP-JP,,0,0,0,,{\fad(240,240)\blur3}We can be shining stars
+Dialogue: 0,0:03:02.62,0:03:07.21,OP-JP,,0,0,0,,{\fad(240,240)\blur3}時間が経っても秘密の魔法さ
+Dialogue: 0,0:03:07.21,0:03:11.17,OP-JP,,0,0,0,,{\fad(240,240)\blur3}My Bubee Bubee Bubee Love.
+Dialogue: 0,0:03:13.76,0:03:15.88,OP-JP,,0,0,0,,{\fad(240,240)\blur3}You're my little buddy
+Dialogue: 0,0:03:15.88,0:03:18.30,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Hey Bubee Love
+Dialogue: 0,0:03:18.30,0:03:20.72,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bubee Bubee Bubee Love
+Dialogue: 0,0:03:21.06,0:03:23.73,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae Bae Bae BaeBae BaeBaeBae
+Dialogue: 0,0:03:23.73,0:03:26.19,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bae Bae Bae Bubee Bubee
+Dialogue: 0,0:03:26.19,0:03:28.02,OP-JP,,0,0,0,,{\fad(240,240)\blur3}B.U.B.E.E.
+Dialogue: 0,0:03:28.02,0:03:29.69,OP-JP,,0,0,0,,{\fad(240,240)\blur3}Bubee Bubee Love
+Dialogue: 0,0:22:23.53,0:22:27.11,ED-JP,,0,0,0,,Courage is in two worlds\Nそう Together now
+Dialogue: 0,0:22:27.11,0:22:27.88,ED-JP,,0,0,0,,「proof！」
+Dialogue: 0,0:22:28.49,0:22:30.45,ED-JP,,0,0,0,,「それが　二つ　結ぶ絆だから」
+Dialogue: 0,0:22:30.45,0:22:33.94,ED-JP,,0,0,0,,Everyone smiles at the beautiful girls
+Dialogue: 0,0:22:33.94,0:22:34.83,ED-JP,,0,0,0,,「my dream！」
+Dialogue: 0,0:22:35.67,0:22:37.71,ED-JP,,0,0,0,,「明日の扉の向こう期待しちゃう」
+Dialogue: 0,0:22:37.71,0:22:38.38,ED-JP,,0,0,0,,「alone！」
+Dialogue: 0,0:22:38.38,0:22:44.31,ED-JP,,0,0,0,,もしも月のない　空に星が輝いても
+Dialogue: 0,0:22:44.31,0:22:45.08,ED-JP,,0,0,0,,「no magic！」
+Dialogue: 0,0:22:45.08,0:22:51.60,ED-JP,,0,0,0,,もしも太陽が無い　空の雲が流れてても
+Dialogue: 0,0:22:51.60,0:22:54.45,ED-JP,,0,0,0,,淋しそうに
+Dialogue: 0,0:22:54.45,0:22:56.78,ED-JP,,0,0,0,,当たり前に　隣に居た
+Dialogue: 0,0:22:56.78,0:23:01.32,ED-JP,,0,0,0,,君を探してる二人映る
+Dialogue: 0,0:23:01.32,0:23:02.49,ED-JP,,0,0,0,,『frame Decorate』
+Dialogue: 0,0:23:02.49,0:23:06.70,ED-JP,,0,0,0,,思うがままワガまま　ありのままに並べよう
+Dialogue: 0,0:23:06.70,0:23:10.16,ED-JP,,0,0,0,,相性『Plus＋ Minus－ Multiply× Divide÷ 』by
+Dialogue: 0,0:23:10.16,0:23:10.99,ED-JP,,0,0,0,,全部好き
+Dialogue: 0,0:23:10.99,0:23:14.46,ED-JP,,0,0,0,,Calling me Calling you (and you)
+Dialogue: 0,0:23:14.46,0:23:18.00,ED-JP,,0,0,0,,君と歩きたい未来階段（stairs）
+Dialogue: 0,0:23:18.00,0:23:20.00,ED-JP,,0,0,0,,Lucky Lucky Shiny 二人の
+Dialogue: 0,0:23:20.00,0:23:22.01,ED-JP,,0,0,0,,ときめきDreamin'　明日晴れ
+Dialogue: 0,0:23:22.01,0:23:25.01,ED-JP,,0,0,0,,なら　万事オーライ
+Dialogue: 0,0:23:25.01,0:23:28.47,ED-JP,,0,0,0,,ちょっとブルー　Weakness「but happy」
+Dialogue: 0,0:23:28.47,0:23:32.32,ED-JP,,0,0,0,,けど君が居るから　Being saved
+Dialogue: 0,0:23:32.32,0:23:34.14,ED-JP,,0,0,0,,無駄な時間なんて無い
+Dialogue: 0,0:23:34.14,0:23:35.98,ED-JP,,0,0,0,,雨上がる空をWaiting
+Dialogue: 0,0:23:35.98,0:23:39.44,ED-JP,,0,0,0,,Check it out　見上げたら
+Dialogue: 0,0:23:39.44,0:23:42.82,ED-JP,,0,0,0,,Courage is in two worlds\Nそう Together now
+Dialogue: 0,0:23:42.82,0:23:44.33,ED-JP,,0,0,0,,「proof！」
+Dialogue: 0,0:23:44.33,0:23:46.65,ED-JP,,0,0,0,,「それが　二つ　結ぶ絆だから」
+Dialogue: 0,0:23:46.65,0:23:49.92,ED-JP,,0,0,0,,Everyone smiles at the beautiful girls
+Dialogue: 0,0:23:49.92,0:23:52.19,ED-JP,,0,0,0,,「どんな明日を照らすのかな？ スポットライト」
+Dialogue: 1,0:00:23.13,0:00:24.21,main-JP,Makeup Artist,0,0,0,,どうかした
+Dialogue: 1,0:00:24.88,0:00:29.47,main-JP,Fuu,0,0,0,,いえ　本当にアイドルになったんだって感じがして
+Dialogue: 1,0:00:30.26,0:00:31.55,main-JP,Makeup Artist,0,0,0,,はい　完成
+Dialogue: 1,0:00:36.60,0:00:37.68,main-JP,Fuu,0,0,0,,素敵
+Dialogue: 1,0:00:38.81,0:00:40.81,main-JP,Toko,0,0,0,,二人ともやる気だね
+Dialogue: 1,0:00:40.81,0:00:41.69,main-JP,Producer,0,0,0,,おはよう
+Dialogue: 1,0:00:41.69,0:00:44.07,main-JP,Toko,0,0,0,,あ　おはようございます
+Dialogue: 1,0:00:44.07,0:00:45.53,main-JP,Producer,0,0,0,,みんな準備できた
+Dialogue: 1,0:00:45.53,0:00:46.23,main-JP,Toko,0,0,0,,はい
+Dialogue: 1,0:00:47.07,0:00:48.95,main-JP,Sena,0,0,0,,なんで私まで
+Dialogue: 1,0:00:48.95,0:00:51.32,main-JP,Toko,0,0,0,,リリィがみんなで出たいって
+Dialogue: 1,0:00:51.32,0:00:54.28,main-JP,Toko,0,0,0,,ほら　ルルのデビューにも力を貸してもらったし
+Dialogue: 1,0:00:54.62,0:00:57.75,main-JP,Fuu,0,0,0,,この番組　すごーく面白いんだよ
+Dialogue: 1,0:00:57.75,0:00:59.75,main-JP,Toko,0,0,0,,私　毎週見てるんだ!
+Dialogue: 1,0:01:00.16,0:01:01.29,main-JP,Uguisu,0,0,0,,僕も
+Dialogue: 1,0:01:01.29,0:01:02.42,main-JP,Azuki,0,0,0,,私も
+Dialogue: 1,0:01:02.42,0:01:06.71,main-JP,Toko,0,0,0,,みんなで出演できるなんて　めったにないチャンスなんだから
+Dialogue: 1,0:01:06.71,0:01:09.17,main-JP,Toko,0,0,0,,テレビに出たら事務所の仕事も増える
+Dialogue: 1,0:01:09.17,0:01:10.38,main-JP,Sena,0,0,0,,そうだね
+Dialogue: 1,0:01:10.38,0:01:11.80,main-JP,Producer,0,0,0,,じゃあ　頑張ってね
+Dialogue: 1,0:01:11.80,0:01:13.64,main-JP,All,0,0,0,,よろしくお願いします
+Dialogue: 1,0:01:13.64,0:01:15.18,main-JP,Producer,0,0,0,,凛ちゃんはもう準備できてる
+Dialogue: 1,0:01:15.18,0:01:16.06,main-JP,AD,0,0,0,,はい
+Dialogue: 1,0:01:24.31,0:01:25.57,main-JP,Toko,0,0,0,,もしもし
+Dialogue: 1,0:01:26.07,0:01:30.57,main-JP,Toko's Mother,0,0,0,,土曜日あなたも来るわよね　お婆様のお誕生日
+Dialogue: 1,0:01:30.57,0:01:32.32,main-JP,Toko,0,0,0,,仕事だから無理
+Dialogue: 1,0:01:32.32,0:01:35.62,main-JP,Toko's Mother,0,0,0,,ダメよ　もうお料理の手配もしてあるんだから
+Dialogue: 1,0:01:35.62,0:01:38.20,main-JP,Toko,0,0,0,,これから本番なの　もう切るから
+Dialogue: 1,0:01:41.37,0:01:42.46,main-JP,Sena,0,0,0,,どうした
+Dialogue: 1,0:01:43.00,0:01:44.29,main-JP,Toko,0,0,0,,いつもの奴
+Dialogue: 1,0:01:45.54,0:01:47.55,main-JP,AD,0,0,0,,スタンバイお願いします
+Dialogue: 1,0:01:47.55,0:01:49.01,main-JP,Toko,0,0,0,,はーい
+Dialogue: 1,0:01:49.51,0:01:50.42,main-JP,Toko,0,0,0,,行くよ
+Dialogue: 1,0:01:50.42,0:01:51.88,main-JP,Fuu,0,0,0,,楽しみ
+Dialogue: 1,0:01:51.88,0:01:53.01,main-JP,Rui,0,0,0,,頑張ります
+Dialogue: 1,0:01:57.06,0:01:58.77,main-JP,Fuu,0,0,0,,爪痕残すよ
+Dialogue: 1,0:01:58.77,0:02:00.27,main-JP,All,0,0,0,,おー
+Dialogue: 1,0:03:37.78,0:03:39.91,main-JP,Kento,0,0,0,,この先の大海原に
+Dialogue: 1,0:03:39.91,0:03:42.54,main-JP,Kento,0,0,0,,一体何が待っているのか
+Dialogue: 1,0:03:42.54,0:03:46.04,main-JP,Kento,0,0,0,,今週もロマン溢れる旅が始まります
+Dialogue: 1,0:03:46.46,0:03:48.67,main-JP,Kento,0,0,0,,クイズ　波乗りトレジャー
+Dialogue: 1,0:03:48.67,0:03:51.88,main-JP,Kento,0,0,0,,今週も生放送でお届けしてまいります
+Dialogue: 1,0:03:51.88,0:03:54.67,main-JP,Kento,0,0,0,,司会は私　バーナード・けんとと
+Dialogue: 1,0:03:54.67,0:03:58.51,main-JP,Rin,0,0,0,,綿屋凛です　よろしくお願いしまーす
+Dialogue: 1,0:03:59.09,0:04:02.14,main-JP,Kento,0,0,0,,本日の挑戦者は　こちら
+Dialogue: 1,0:04:02.47,0:04:04.89,main-JP,Rin,0,0,0,,今　話題のアイドル事務所
+Dialogue: 1,0:04:04.89,0:04:08.81,main-JP,Rin,0,0,0,,プロダクションわんすもあから　この4人が来てくれました
+Dialogue: 1,0:04:09.73,0:04:13.07,main-JP,Toko,0,0,0,,わんすもあの頼れる姉さんこと　塔子です
+Dialogue: 1,0:04:14.03,0:04:16.40,main-JP,Sena,0,0,0,,ビジュ担当　世奈
+Dialogue: 1,0:04:17.45,0:04:20.11,main-JP,Rui,0,0,0,,天　天使の歌声
+Dialogue: 1,0:04:20.11,0:04:22.33,main-JP,Rui,0,0,0,,ルルルルル
+Dialogue: 1,0:04:22.33,0:04:25.20,main-JP,Rui,0,0,0,,歌が大好き　ルルです
+Dialogue: 1,0:04:25.20,0:04:26.95,main-JP,Fuu,0,0,0,,事務所の末っ子
+Dialogue: 1,0:04:26.95,0:04:30.75,main-JP,Fuu,0,0,0,,いつでも元気いっぱい　リリィです
+Dialogue: 1,0:04:31.21,0:04:33.75,main-JP,All,0,0,0,,よろしくお願いします
+Dialogue: 1,0:04:34.09,0:04:37.92,main-JP,Kento,0,0,0,,今波に乗っている新人アイドルの皆さんが
+Dialogue: 1,0:04:37.92,0:04:40.18,main-JP,Kento,0,0,0,,どんな活躍をされるのか
+Dialogue: 1,0:04:40.18,0:04:41.76,main-JP,Kento,0,0,0,,実に楽しみです
+Dialogue: 1,0:04:42.05,0:04:44.51,main-JP,Rin,0,0,0,,それでは　ルールの説明です
+Dialogue: 1,0:04:47.27,0:04:50.65,main-JP,Rin,0,0,0,,クイズに正解すると　1マイル前進
+Dialogue: 1,0:04:50.65,0:04:54.07,main-JP,Rin,0,0,0,,最初に宝島にたどり着いた方の優勝です
+Dialogue: 1,0:04:54.07,0:04:57.78,main-JP,Rin,0,0,0,,お宝を目指して　皆さんで競い合っていただきます
+Dialogue: 1,0:04:58.90,0:05:03.03,main-JP,Rin,0,0,0,,優勝者には　こちらの宝箱型トロフィーが送られます
+Dialogue: 1,0:05:03.45,0:05:06.20,main-JP,Kento,0,0,0,,さあそれでは　クイズを始めます
+Dialogue: 1,0:05:06.20,0:05:08.54,main-JP,Kento,0,0,0,,最初はこの問題から参りましょう
+Dialogue: 1,0:05:10.37,0:05:11.29,main-JP,Kento,0,0,0,,問題です
+Dialogue: 1,0:05:11.62,0:05:14.71,main-JP,Kento,0,0,0,,今年　全国の小学校で行われたアンケートで
+Dialogue: 1,0:05:14.71,0:05:18.84,main-JP,Kento,0,0,0,,将来なりたい職業の1位に選ばれた仕事は何
+Dialogue: 1,0:05:20.76,0:05:22.55,main-JP,Sena,0,0,0,,{\an8}どうするんだっけ
+Dialogue: 1,0:05:22.55,0:05:24.26,main-JP,Toko,0,0,0,,{\an8}ここに答えを書く
+Dialogue: 1,0:05:24.26,0:05:25.85,main-JP,Rui,0,0,0,,{\an8}小学生
+Dialogue: 1,0:05:26.93,0:05:29.52,main-JP,Fuu,0,0,0,,{\an8}テレビで見てたのと同じだ
+Dialogue: 1,0:05:30.56,0:05:33.31,main-JP,Rin,0,0,0,,{\an8}では　順番に答えをどうぞ
+Dialogue: 1,0:05:33.31,0:05:35.52,main-JP,Toko,0,0,0,,もちろん　アイドルでしょ
+Dialogue: 1,0:05:35.90,0:05:36.94,main-JP,Sena,0,0,0,,パティシエ
+Dialogue: 1,0:05:36.94,0:05:38.07,main-JP,Fuu,0,0,0,,はいはい
+Dialogue: 1,0:05:38.07,0:05:39.36,main-JP,Fuu,0,0,0,,漫画家
+Dialogue: 1,0:05:39.36,0:05:41.40,main-JP,Rui,0,0,0,,公務員かな
+Dialogue: 1,0:05:41.40,0:05:43.36,main-JP,Kento,0,0,0,,正解は
+Dialogue: 1,0:05:43.70,0:05:44.91,main-JP,Kento,0,0,0,,漫画家です
+Dialogue: 1,0:05:46.37,0:05:48.16,main-JP,Fuu,0,0,0,,やった
+Dialogue: 1,0:05:48.16,0:05:50.71,main-JP,Sena,0,0,0,,小学生のことに詳しいんだね
+Dialogue: 1,0:05:50.71,0:05:51.29,main-JP,Toko,0,0,0,,うん
+Dialogue: 1,0:05:53.46,0:05:55.84,main-JP,Kento,0,0,0,,お見事でしたね　リリィさん
+Dialogue: 1,0:05:55.84,0:05:57.96,main-JP,Fuu,0,0,0,,はい　頑張ります
+Dialogue: 1,0:05:58.50,0:06:00.97,main-JP,Toko,0,0,0,,まだまだ　勝負はこれから
+Dialogue: 1,0:06:02.76,0:06:05.47,main-JP,Rin,0,0,0,,リリィさん　1マイル前進
+Dialogue: 1,0:06:07.85,0:06:10.47,main-JP,Kento,0,0,0,,続いて　クローズアップクイズ
+Dialogue: 1,0:06:12.69,0:06:15.86,main-JP,Kento,0,0,0,,この映像に写っているのは何でしょうか
+Dialogue: 1,0:06:20.78,0:06:22.90,main-JP,Rin,0,0,0,,皆さん答えをどうぞ
+Dialogue: 1,0:06:23.95,0:06:24.91,main-JP,Toko,0,0,0,,宇宙
+Dialogue: 1,0:06:27.37,0:06:28.78,main-JP,Sena,0,0,0,,オシャレなイカ
+Dialogue: 1,0:06:29.37,0:06:31.12,main-JP,Fuu/Rui,0,0,0,,水まんじゅん
+Dialogue: 1,0:06:33.62,0:06:36.25,main-JP,Kento,0,0,0,,リリィさんルルさん　正解です
+Dialogue: 1,0:06:37.04,0:06:38.59,main-JP,Fuu,0,0,0,,わあ　一緒だ
+Dialogue: 1,0:06:38.59,0:06:39.88,main-JP,Rui,0,0,0,,やりましたね
+Dialogue: 1,0:06:39.88,0:06:41.76,main-JP,Sena,0,0,0,,水まんじゅん
+Dialogue: 1,0:06:41.76,0:06:42.97,main-JP,Toko,0,0,0,,なんだっけ
+Dialogue: 1,0:06:42.97,0:06:44.80,main-JP,Rin,0,0,0,,映像を見てみましょう
+Dialogue: 1,0:06:46.55,0:06:48.47,main-JP,Rin,0,0,0,,{\an8}ということで正解は
+Dialogue: 1,0:06:48.47,0:06:50.39,main-JP,Rin,0,0,0,,{\an8}プルプルとした食感が美味しい
+Dialogue: 1,0:06:50.39,0:06:52.64,main-JP,Rin,0,0,0,,{\an8}和菓子の水まんじゅんでした
+Dialogue: 1,0:06:52.64,0:06:54.48,main-JP,Sena,0,0,0,,まずいって
+Dialogue: 1,0:06:54.48,0:06:57.23,main-JP,Toko,0,0,0,,てか　オシャレなイカって何
+Dialogue: 1,0:06:57.23,0:06:59.11,main-JP,Sena,0,0,0,,なんかほら　透けてるし
+Dialogue: 1,0:06:59.48,0:07:01.86,main-JP,Kento,0,0,0,,お二人ともお見事でした
+Dialogue: 1,0:07:02.28,0:07:04.74,main-JP,Rin,0,0,0,,1マイルずつ　前進です
+Dialogue: 1,0:07:05.24,0:07:07.49,main-JP,Kento,0,0,0,,さあ続いてはチーム戦
+Dialogue: 1,0:07:10.03,0:07:12.37,main-JP,Kento,0,0,0,,お絵描き伝言クイズ
+Dialogue: 1,0:07:14.25,0:07:15.62,main-JP,Rin,0,0,0,,ルールは簡単
+Dialogue: 1,0:07:15.62,0:07:18.50,main-JP,Rin,0,0,0,,お題に書かれたものを　お絵かきで伝えてもらいます
+Dialogue: 1,0:07:18.50,0:07:21.34,main-JP,Kento,0,0,0,,最後の人がお題を見事正解できたら
+Dialogue: 1,0:07:21.34,0:07:23.13,main-JP,Kento,0,0,0,,全員1マイル前進です
+Dialogue: 1,0:07:23.67,0:07:26.47,main-JP,Kento,0,0,0,,さあ　うまく伝えられますでしょうか
+Dialogue: 1,0:07:26.47,0:07:27.22,main-JP,Fuu,0,0,0,,はい
+Dialogue: 1,0:07:30.01,0:07:31.76,main-JP,Fuu,0,0,0,,ルルちゃん
+Dialogue: 1,0:07:38.15,0:07:39.69,main-JP,Rui,0,0,0,,世奈さんこれです
+Dialogue: 1,0:07:39.69,0:07:40.82,main-JP,Sena,0,0,0,,どれどれ
+Dialogue: 1,0:07:46.15,0:07:46.99,main-JP,Sena,0,0,0,,塔子
+Dialogue: 1,0:07:46.99,0:07:47.78,main-JP,Toko,0,0,0,,うん
+Dialogue: 1,0:07:51.41,0:07:52.58,main-JP,Toko,0,0,0,,なんだこれ
+Dialogue: 1,0:07:53.33,0:07:55.96,main-JP,Kento,0,0,0,,では　答えをお願いします
+Dialogue: 1,0:07:56.41,0:07:58.83,main-JP,Kento,0,0,0,,塔子さんの絵を見ていきましょう
+Dialogue: 1,0:08:01.59,0:08:03.84,main-JP,Kento,0,0,0,,これは何ですか
+Dialogue: 1,0:08:05.51,0:08:07.59,main-JP,Toko,0,0,0,,も　モズク人間
+Dialogue: 1,0:08:08.88,0:08:12.14,main-JP,Toko,0,0,0,,もも　モズクの星から来た　正義の味方とか
+Dialogue: 1,0:08:12.14,0:08:13.39,main-JP,Toko,0,0,0,,知らないけど
+Dialogue: 1,0:08:14.39,0:08:16.64,main-JP,Kento,0,0,0,,残念　不正解
+Dialogue: 1,0:08:16.64,0:08:19.65,main-JP,Rin,0,0,0,,正解は　カバ　でした
+Dialogue: 1,0:08:19.65,0:08:21.06,main-JP,All,0,0,0,,えぇぇ
+Dialogue: 1,0:08:28.03,0:08:29.74,main-JP,Fuu,0,0,0,,カバーだよ
+Dialogue: 1,0:08:30.28,0:08:32.62,main-JP,Sena,0,0,0,,ああ　カバね
+Dialogue: 1,0:08:32.62,0:08:34.74,main-JP,Toko,0,0,0,,絶対　カバじゃないよ
+Dialogue: 1,0:08:34.74,0:08:36.95,main-JP,Toko,0,0,0,,なんか間違えて新しい妖怪とか
+Dialogue: 1,0:08:36.95,0:08:39.04,main-JP,Toko,0,0,0,,そういうの描いたんだよ　ねぇ
+Dialogue: 1,0:08:40.25,0:08:43.50,main-JP,Rin,0,0,0,,ルルさん　とても個性的な絵でしたね
+Dialogue: 1,0:08:44.05,0:08:46.71,main-JP,Kento,0,0,0,,さあ　盛り上がって参りました
+Dialogue: 1,0:08:48.01,0:08:51.51,main-JP,Kento,0,0,0,,波乗りトレジャー　序盤から好調なのはリリィさん
+Dialogue: 1,0:08:51.51,0:08:53.26,main-JP,Kento,0,0,0,,リリィさん　大正解
+Dialogue: 1,0:08:55.35,0:08:58.60,main-JP,Kento,0,0,0,,続いて　僅差で2位につけているのはルルさん
+Dialogue: 1,0:08:57.14,0:08:58.27,main-JP,Uguisu,0,0,0,,{\an8}やってるな
+Dialogue: 1,0:08:58.27,0:09:00.10,main-JP,Azuki,0,0,0,,{\an8}誰が勝つのかしら
+Dialogue: 1,0:09:00.10,0:09:01.69,main-JP,Rin,0,0,0,,世奈さん　正解
+Dialogue: 1,0:09:02.65,0:09:04.82,main-JP,Rin,0,0,0,,ルルさん　リリィさん　正解です
+Dialogue: 1,0:09:04.82,0:09:05.86,main-JP,Fuu/Rui,0,0,0,,はーい
+Dialogue: 1,0:09:05.86,0:09:09.49,main-JP,Rin,0,0,0,,それでは　ここまでの成績を振り返ってみましょう
+Dialogue: 1,0:09:09.49,0:09:11.86,main-JP,Kento,0,0,0,,現在トップは　リリィさん
+Dialogue: 1,0:09:11.86,0:09:13.03,main-JP,Fuu,0,0,0,,やったー
+Dialogue: 1,0:09:13.03,0:09:15.33,main-JP,Kento,0,0,0,,最下位は塔子さんとなっています
+Dialogue: 1,0:09:17.79,0:09:19.91,main-JP,Toko,0,0,0,,ボーナスクエス　ください
+Dialogue: 1,0:09:19.91,0:09:22.08,main-JP,Rin,0,0,0,,いえいえ　ダメですよ
+Dialogue: 1,0:09:22.37,0:09:24.84,main-JP,Toko,0,0,0,,うぅ　そんな
+Dialogue: 1,0:09:25.34,0:09:28.59,main-JP,Fuu,0,0,0,,このまま終わっちゃつまらないよね
+Dialogue: 1,0:09:32.05,0:09:34.01,main-JP,Fuu,0,0,0,,リリレラ パリレラ
+Dialogue: 1,0:09:34.01,0:09:37.06,main-JP,Fuu,0,0,0,,もっと盛り上がっていこう
+Dialogue: 1,0:09:51.57,0:09:53.20,main-JP,Producer,0,0,0,,なに　どうしたの
+Dialogue: 1,0:10:25.40,0:10:26.81,main-JP,Toko,0,0,0,,なになになになに
+Dialogue: 1,0:10:30.61,0:10:32.74,main-JP,Kento,0,0,0,,さあ　ここからは
+Dialogue: 1,0:10:32.74,0:10:35.20,main-JP,Kento,0,0,0,,地獄クイズの始まりです
+Dialogue: 1,0:10:35.61,0:10:38.33,main-JP,Kento,0,0,0,,間違いると溶岩の海に落ちる
+Dialogue: 1,0:10:38.33,0:10:41.20,main-JP,Kento,0,0,0,,地獄の劫火が待っています
+Dialogue: 1,0:10:41.70,0:10:42.83,main-JP,Rui,0,0,0,,地獄
+Dialogue: 1,0:10:42.83,0:10:43.75,main-JP,Sena,0,0,0,,何言ってんだ
+Dialogue: 1,0:10:43.75,0:10:45.71,main-JP,Toko,0,0,0,,そんなの聞いてないけど
+Dialogue: 1,0:10:47.59,0:10:51.71,main-JP,Fuu,0,0,0,,どうしよう　私の魔法また暴走しちゃった
+Dialogue: 1,0:10:51.71,0:10:54.51,main-JP,Azuki,0,0,0,,あらあら　リリィの魔法が
+Dialogue: 1,0:10:54.51,0:10:55.47,main-JP,Uguisu,0,0,0,,大変だ
+Dialogue: 1,0:10:55.47,0:10:58.60,main-JP,Producer,0,0,0,,進行どうしたの　台本と全然違う
+Dialogue: 1,0:10:58.60,0:10:59.47,main-JP,AD,0,0,0,,確認します
+Dialogue: 1,0:10:59.47,0:11:02.22,main-JP,Producer,0,0,0,,とりあえず　カンペで指示出しして　フォローして
+Dialogue: 1,0:11:02.22,0:11:03.02,main-JP,AD,0,0,0,,はい
+Dialogue: 1,0:11:03.02,0:11:05.19,main-JP,Yasuo,0,0,0,,ちょっと　どうなってるんですか
+Dialogue: 1,0:11:05.19,0:11:06.10,main-JP,Producer,0,0,0,,すみません
+Dialogue: 1,0:11:06.60,0:11:09.11,main-JP,Producer,0,0,0,,あいつ　何やってんのよ
+Dialogue: 1,0:11:09.86,0:11:11.57,main-JP,Shota,0,0,0,,おいおい　なんだよ
+Dialogue: 1,0:11:11.57,0:11:12.99,main-JP,Hisashi,0,0,0,,新コーナーか
+Dialogue: 1,0:11:15.40,0:11:17.11,main-JP,Rin,0,0,0,,せ　視聴者の皆さん
+Dialogue: 1,0:11:17.62,0:11:19.95,main-JP,Rin,0,0,0,,安全性には十分に配慮した上で
+Dialogue: 1,0:11:19.95,0:11:21.66,main-JP,Rin,0,0,0,,放送を行っておりますので
+Dialogue: 1,0:11:21.66,0:11:22.83,main-JP,Rin,0,0,0,,{\an8}ご安心ください
+Dialogue: 1,0:11:22.12,0:11:24.87,main-JP,Kento,0,0,0,,地獄の扉は割れていきます
+Dialogue: 1,0:11:24.87,0:11:26.62,main-JP,Toko,0,0,0,,えっちょっと待って
+Dialogue: 1,0:11:28.13,0:11:30.63,main-JP,Kento,0,0,0,,ガラス　残り4枚
+Dialogue: 1,0:11:30.63,0:11:31.92,main-JP,Rui,0,0,0,,あつ
+Dialogue: 1,0:11:31.92,0:11:32.88,main-JP,Sena,0,0,0,,うそでしょ
+Dialogue: 1,0:11:32.88,0:11:35.38,main-JP,Fuu,0,0,0,,大丈夫かな　これ
+Dialogue: 1,0:11:35.38,0:11:37.09,main-JP,Sena,0,0,0,,塔子　どうする
+Dialogue: 1,0:11:37.09,0:11:39.30,main-JP,Toko,0,0,0,,きっと演出だと思うけど
+Dialogue: 1,0:11:39.30,0:11:41.68,main-JP,Rui,0,0,0,,落ちたら大変ですよ
+Dialogue: 1,0:11:42.10,0:11:44.56,main-JP,Fuu,0,0,0,,楽しく　なってきたね
+Dialogue: 1,0:11:44.56,0:11:47.06,main-JP,Kento,0,0,0,,それでは地獄クイズ
+Dialogue: 1,0:11:47.77,0:11:49.06,main-JP,Kento,0,0,0,,問題です
+Dialogue: 1,0:11:51.44,0:11:54.49,main-JP,Kento,0,0,0,,ナボポラッサルの息子であるネブカドネザル2世は
+Dialogue: 1,0:11:54.49,0:11:57.53,main-JP,Kento,0,0,0,,紀元前6世紀前半にバビロンの再建を果たしたが
+Dialogue: 1,0:11:57.53,0:12:01.45,main-JP,Kento,0,0,0,,彼が王妃のために作ったと伝えられている物とは何か
+Dialogue: 1,0:12:03.24,0:12:03.83,main-JP,Toko,0,0,0,,は?
+Dialogue: 1,0:12:03.83,0:12:06.41,main-JP,Rin,0,0,0,,む　難しい問題ですね
+Dialogue: 1,0:12:10.08,0:12:11.42,main-JP,Kento,0,0,0,,答えをどうぞ
+Dialogue: 1,0:12:12.92,0:12:14.55,main-JP,Rui,0,0,0,,空中庭園
+Dialogue: 1,0:12:16.97,0:12:19.05,main-JP,Kento,0,0,0,,おや　正解です
+Dialogue: 1,0:12:19.05,0:12:21.76,main-JP,Toko,0,0,0,,すごい　なんでわかったの
+Dialogue: 1,0:12:21.76,0:12:24.60,main-JP,Rui,0,0,0,,楽屋で読んだ雑学の本で見たんです
+Dialogue: 1,0:12:24.60,0:12:26.02,main-JP,Fuu,0,0,0,,すごいすごい
+Dialogue: 1,0:12:26.39,0:12:27.89,main-JP,Kento,0,0,0,,正解ですが
+Dialogue: 1,0:12:27.89,0:12:31.36,main-JP,Kento,0,0,0,,ルルさん以外不正解でしたので
+Dialogue: 1,0:12:31.36,0:12:34.02,main-JP,Kento,0,0,0,,床が一段落ちまーす
+Dialogue: 1,0:12:38.24,0:12:39.53,main-JP,Toko,0,0,0,,危ないてば
+Dialogue: 1,0:12:39.53,0:12:40.49,main-JP,Sena,0,0,0,,やりすぎでしょ
+Dialogue: 1,0:12:40.49,0:12:42.57,main-JP,Fuu,0,0,0,,思ってたのと違う
+Dialogue: 1,0:12:44.20,0:12:46.95,main-JP,Rin,0,0,0,,ルルさん　見事な正解でした
+Dialogue: 1,0:12:47.87,0:12:50.67,main-JP,Kento,0,0,0,,問題が簡単すぎましたかね
+Dialogue: 1,0:12:50.67,0:12:53.92,main-JP,Kento,0,0,0,,次はもっと答えづらいクイズにしましょ
+Dialogue: 1,0:12:53.92,0:12:55.13,main-JP,Rin,0,0,0,,おい　やめなさいよ
+Dialogue: 1,0:12:55.13,0:12:58.76,main-JP,Kento,0,0,0,,アイドルは何が気になってのクイズ
+Dialogue: 1,0:13:01.18,0:13:03.30,main-JP,Toko,0,0,0,,これ　私のスマホ
+Dialogue: 1,0:13:03.30,0:13:04.51,main-JP,Kento,0,0,0,,問題
+Dialogue: 1,0:13:04.51,0:13:09.52,main-JP,Kento,0,0,0,,塔子さんが最近気になって検索したワードは何
+Dialogue: 1,0:13:10.77,0:13:11.48,main-JP,Toko,0,0,0,,まさか
+Dialogue: 1,0:13:11.81,0:13:12.86,main-JP,Yasuo,0,0,0,,これじゃない
+Dialogue: 1,0:13:12.86,0:13:15.73,main-JP,Rui,0,0,0,,確かにこれは答えづらいですね
+Dialogue: 1,0:13:15.73,0:13:17.74,main-JP,Fuu,0,0,0,,塔子さん　ごめん
+Dialogue: 1,0:13:18.32,0:13:19.82,main-JP,Rin,0,0,0,,どうなってるの
+Dialogue: 1,0:13:20.36,0:13:23.66,main-JP,Kento,0,0,0,,答えられないとまた床が落ちますよ
+Dialogue: 1,0:13:23.66,0:13:26.54,main-JP,Kento,0,0,0,,ヒントは悩み事です
+Dialogue: 1,0:13:26.54,0:13:29.12,main-JP,Toko,0,0,0,,え　あー　どうしよう
+Dialogue: 1,0:13:29.12,0:13:31.92,main-JP,Toko,0,0,0,,あれとか　もしかして　あれ
+Dialogue: 1,0:13:31.92,0:13:33.92,main-JP,Toko,0,0,0,,もう覚えてないけど　やばい
+Dialogue: 1,0:13:36.00,0:13:37.30,main-JP,Rin,0,0,0,,答えをどうぞ
+Dialogue: 1,0:13:37.30,0:13:39.72,main-JP,Sena,0,0,0,,頭　良くなる裏技
+Dialogue: 1,0:13:40.76,0:13:42.97,main-JP,Kento,0,0,0,,残念　不正解
+Dialogue: 1,0:13:42.97,0:13:45.01,main-JP,Toko,0,0,0,,頭　悪くないし
+Dialogue: 1,0:13:45.01,0:13:47.51,main-JP,Sena,0,0,0,,塔子の悩みと言ったらこれでしょ
+Dialogue: 1,0:13:50.06,0:13:51.56,main-JP,Rin,0,0,0,,答えをどうぞ
+Dialogue: 1,0:13:51.56,0:13:54.02,main-JP,Toko,0,0,0,,後輩に人見知りしない方法
+Dialogue: 1,0:13:55.23,0:13:56.90,main-JP,Sena,0,0,0,,それ　私のこと
+Dialogue: 1,0:13:56.90,0:13:58.11,main-JP,Kento,0,0,0,,残念　不正解
+Dialogue: 1,0:13:58.11,0:14:01.15,main-JP,Toko,0,0,0,,世奈が悩んでたから調べてあげようと思って
+Dialogue: 1,0:14:02.57,0:14:03.70,main-JP,Sena,0,0,0,,やめてよ
+Dialogue: 1,0:14:03.70,0:14:06.53,main-JP,Toko,0,0,0,,なんで　あんなに真剣に相談してたじゃん
+Dialogue: 1,0:14:06.53,0:14:07.45,main-JP,Sena,0,0,0,,真剣じゃない
+Dialogue: 1,0:14:06.99,0:14:08.58,main-JP,Fuu,0,0,0,,{\an8}あ　あの
+Dialogue: 1,0:14:08.58,0:14:10.29,main-JP,Rui,0,0,0,,{\an8}放送中ですよ
+Dialogue: 1,0:14:10.58,0:14:13.62,main-JP,Rin,0,0,0,,全部放送されちゃってますね
+Dialogue: 1,0:14:16.75,0:14:19.17,main-JP,Kento,0,0,0,,タイムアップです　正解は
+Dialogue: 1,0:14:19.67,0:14:20.67,main-JP,Kento,0,0,0,,こちら
+Dialogue: 1,0:14:22.13,0:14:25.18,main-JP,Fuu,0,0,0,,楽に痩せる方法　ランキング
+Dialogue: 1,0:14:26.93,0:14:28.18,main-JP,Toko,0,0,0,,いやー
+Dialogue: 1,0:14:28.18,0:14:30.02,main-JP,Rui,0,0,0,,ダイエットしてるんですか
+Dialogue: 1,0:14:30.02,0:14:31.31,main-JP,Toko,0,0,0,,してるけど
+Dialogue: 1,0:14:31.31,0:14:33.69,main-JP,Kento,0,0,0,,なんと全員不正解で
+Dialogue: 1,0:14:33.69,0:14:35.69,main-JP,Kento,0,0,0,,地獄パワー
+Dialogue: 1,0:14:35.69,0:14:38.32,main-JP,Kento,0,0,0,,上
+Dialogue: 1,0:14:41.78,0:14:44.70,main-JP,Fuu,0,0,0,,ここまでやってほしいなんてお願いってない
+Dialogue: 1,0:14:45.16,0:14:49.28,main-JP,Kento,0,0,0,,さて　溶岩がもう迫りピンチになっております
+Dialogue: 1,0:14:52.75,0:14:56.50,main-JP,Kento,0,0,0,,続いては地獄のVTRクイズになります
+Dialogue: 1,0:14:56.50,0:15:00.50,main-JP,Kento,0,0,0,,みんなのケーキをつまみ食いした犯人を当ててください
+Dialogue: 1,0:15:04.34,0:15:06.76,main-JP,Toko,0,0,0,,これ　私が買っておいたやつだ
+Dialogue: 1,0:15:06.76,0:15:08.18,main-JP,Rui,0,0,0,,ケーキですか
+Dialogue: 1,0:15:08.18,0:15:10.39,main-JP,Toko,0,0,0,,そそ　みんなで食べようと思って
+Dialogue: 1,0:15:10.68,0:15:13.27,main-JP,Sena,0,0,0,,それが食べられてしまったと
+Dialogue: 1,0:15:13.27,0:15:16.56,main-JP,Rin,0,0,0,,一体　誰が犯人なんでしょうか
+Dialogue: 1,0:15:23.78,0:15:25.40,main-JP,Fuu,0,0,0,,どうしよう　どうしよう
+Dialogue: 1,0:15:25.40,0:15:27.78,main-JP,Fuu,0,0,0,,つまみ食いしたのバレちゃう
+Dialogue: 1,0:15:29.78,0:15:33.75,main-JP,Fuu,0,0,0,,リリレラ　パリレラ　クイズはもうおしまい
+Dialogue: 1,0:15:51.93,0:15:54.31,main-JP,Kento,0,0,0,,ここでドラゴンの登場だ
+Dialogue: 1,0:15:54.93,0:15:56.31,main-JP,Fuu,0,0,0,,やめて
+Dialogue: 1,0:15:56.64,0:16:00.81,main-JP,Fuu,0,0,0,,私　私です　ごめんなさい
+Dialogue: 1,0:16:02.07,0:16:03.32,main-JP,Kento,0,0,0,,正解です
+Dialogue: 1,0:16:03.32,0:16:06.57,main-JP,Kento,0,0,0,,しかし　盗み食いした罰としてガラスは
+Dialogue: 1,0:16:06.57,0:16:08.20,main-JP,Kento,0,0,0,,割れます
+Dialogue: 1,0:16:15.70,0:16:18.42,main-JP,Kento,0,0,0,,大変なことになってきましたね
+Dialogue: 1,0:16:18.42,0:16:21.42,main-JP,Kento,0,0,0,,ここでいよいよお待ちかねの最終問題
+Dialogue: 1,0:16:21.42,0:16:23.71,main-JP,Kento,0,0,0,,一発逆転クイズ
+Dialogue: 1,0:16:26.63,0:16:30.34,main-JP,Kento,0,0,0,,正解した方にはなんと一気に100マイル
+Dialogue: 1,0:16:30.34,0:16:33.76,main-JP,Kento,0,0,0,,こちらの回答ルーレットで決定します
+Dialogue: 1,0:16:36.10,0:16:38.44,main-JP,Kento,0,0,0,,塔子さん大当たり
+Dialogue: 1,0:16:38.81,0:16:40.52,main-JP,Toko,0,0,0,,なんで私ばっかり
+Dialogue: 1,0:16:40.52,0:16:42.27,main-JP,Kento,0,0,0,,それでは問題です
+Dialogue: 1,0:16:43.65,0:16:48.03,main-JP,Kento,0,0,0,,神立塔子の初恋の相手は誰
+Dialogue: 1,0:16:50.28,0:16:51.74,main-JP,Toko,0,0,0,,なんなのよその問題
+Dialogue: 1,0:16:51.74,0:16:54.41,main-JP,Kento,0,0,0,,さぁ　早く答えないと
+Dialogue: 1,0:16:57.41,0:16:58.58,main-JP,Toko,0,0,0,,アッツ
+Dialogue: 1,0:17:00.25,0:17:02.17,main-JP,Kento,0,0,0,,答えをどうぞ
+Dialogue: 1,0:17:02.96,0:17:06.67,main-JP,Toko,0,0,0,,うっ　家で飼ってる犬のヤッシー
+Dialogue: 1,0:17:06.67,0:17:09.93,main-JP,Kento,0,0,0,,残念です　違います
+Dialogue: 1,0:17:10.30,0:17:12.30,main-JP,Toko,0,0,0,,いや ヤッシーだもん
+Dialogue: 1,0:17:20.19,0:17:22.23,main-JP,Rui,0,0,0,,何か私にできること
+Dialogue: 1,0:17:22.69,0:17:23.77,main-JP,Rui,0,0,0,,そうだ　魔法は
+Dialogue: 1,0:17:23.77,0:17:25.90,main-JP,Uguisu,0,0,0,,どうしよう　どうしよう
+Dialogue: 1,0:17:23.77,0:17:25.90,main-JP,Azuki,0,0,0,,{\an8}大変だ　大変だ
+Dialogue: 1,0:17:27.90,0:17:29.11,main-JP,Sena,0,0,0,,やばいって
+Dialogue: 1,0:17:29.11,0:17:31.45,main-JP,Rui,0,0,0,,ステッキ　置いてきちゃった
+Dialogue: 1,0:17:33.82,0:17:37.16,main-JP,Kento,0,0,0,,もう一度答えをどうぞ
+Dialogue: 1,0:17:40.71,0:17:44.33,main-JP,Kento,0,0,0,,もう後がないですよ　さぁどうぞ
+Dialogue: 1,0:17:46.09,0:17:47.59,main-JP,Sena,0,0,0,,いい加減にしろ
+Dialogue: 1,0:17:48.01,0:17:51.05,main-JP,Sena,0,0,0,,ヤッシーだって言ってんだろうが
+Dialogue: 1,0:17:55.47,0:17:56.43,main-JP,Toko,0,0,0,,せな
+Dialogue: 1,0:17:56.93,0:17:58.77,main-JP,Sena,0,0,0,,やっちゃった
+Dialogue: 1,0:17:58.77,0:18:00.39,main-JP,Rin,0,0,0,,えっと
+Dialogue: 1,0:18:08.90,0:18:11.86,main-JP,Rin,0,0,0,,お　お見苦しいところをお見せしました
+Dialogue: 1,0:18:11.86,0:18:14.99,main-JP,Rin,0,0,0,,先ほどの問題は手違いがありまして
+Dialogue: 1,0:18:15.45,0:18:18.29,main-JP,Rin,0,0,0,,改めて　一発逆転をかけた
+Dialogue: 1,0:18:18.29,0:18:20.00,main-JP,Rin,0,0,0,,最終問題です
+Dialogue: 1,0:18:22.46,0:18:25.46,main-JP,Rin,0,0,0,,皆さんの所属している事務所の名前は
+Dialogue: 1,0:18:25.46,0:18:27.59,main-JP,Rin,0,0,0,,プロダクション何
+Dialogue: 1,0:18:29.88,0:18:32.13,main-JP,Rin,0,0,0,,早く　答えて答えて
+Dialogue: 1,0:18:36.47,0:18:39.35,main-JP,All,0,0,0,,はいはいはい
+Dialogue: 1,0:18:42.10,0:18:44.10,main-JP,Rin,0,0,0,,皆さん答えをどうぞ
+Dialogue: 1,0:18:45.77,0:18:47.23,main-JP,Toko,0,0,0,,せーの
+Dialogue: 1,0:18:48.32,0:18:50.32,main-JP,All,0,0,0,,わんすもあ
+Dialogue: 1,0:18:50.32,0:18:52.57,main-JP,Rin,0,0,0,,ピンポン　正解です
+Dialogue: 1,0:19:06.96,0:19:10.42,main-JP,Rin,0,0,0,,全員優勝　おめでとうございます
+Dialogue: 1,0:19:17.76,0:19:22.22,main-JP,Rin,0,0,0,,長い旅路は今　終わりの時を迎えます
+Dialogue: 1,0:19:22.77,0:19:24.98,main-JP,Rin,0,0,0,,クイズ　波乗りトレジャー
+Dialogue: 1,0:19:24.98,0:19:27.73,main-JP,Rin,0,0,0,,また次の冒険でお会いしましょう
+Dialogue: 1,0:19:27.73,0:19:30.57,main-JP,Rin,0,0,0,,さようなら
+Dialogue: 1,0:19:29.61,0:19:31.19,main-JP,Toko,0,0,0,,{\an8}ばいばい
+Dialogue: 1,0:19:32.28,0:19:33.65,main-JP,Fuu,0,0,0,,ありがとう
+Dialogue: 1,0:19:40.08,0:19:42.74,main-JP,Shota,0,0,0,,地獄クイズすごかったなぁ
+Dialogue: 1,0:19:44.33,0:19:46.33,main-JP,Hisashi,0,0,0,,何でもありか
+Dialogue: 1,0:19:52.50,0:19:54.59,main-JP,Producer,0,0,0,,勝手に何てことしてくれたんですか
+Dialogue: 1,0:19:55.09,0:19:58.09,main-JP,Producer,0,0,0,,あの子たちにもしものことがあったらどうするのよ
+Dialogue: 1,0:19:58.09,0:20:00.60,main-JP,Yasuo,0,0,0,,いや　本当勘弁してください
+Dialogue: 1,0:20:01.47,0:20:03.06,main-JP,Kento,0,0,0,,申し上げません
+Dialogue: 1,0:20:03.06,0:20:06.06,main-JP,Kento,0,0,0,,とも何かが乗り移ったような
+Dialogue: 1,0:20:06.06,0:20:07.60,main-JP,Producer,0,0,0,,あなたね
+Dialogue: 1,0:20:06.06,0:20:07.60,main-JP,AD,0,0,0,,{\an8}プロデューサーさんちょっと
+Dialogue: 1,0:20:09.48,0:20:10.31,main-JP,Producer,0,0,0,,えっ
+Dialogue: 1,0:20:10.31,0:20:12.98,main-JP,Producer,0,0,0,,歴代最高視聴率だった
+Dialogue: 1,0:20:14.44,0:20:17.32,main-JP,Producer,0,0,0,,まあ　今後は気をつけてください
+Dialogue: 1,0:20:23.45,0:20:26.29,main-JP,Kento,0,0,0,,本当になんだったんだろう
+Dialogue: 1,0:20:33.80,0:20:35.59,main-JP,Rin,0,0,0,,お疲れ様ん
+Dialogue: 1,0:20:36.38,0:20:38.72,main-JP,Rin,0,0,0,,今日は大変だったね
+Dialogue: 1,0:20:39.09,0:20:40.97,main-JP,All,0,0,0,,お疲れさまでした
+Dialogue: 1,0:20:40.97,0:20:42.72,main-JP,Rin,0,0,0,,ゆっくり休んでねはい
+Dialogue: 1,0:20:42.72,0:20:43.60,main-JP,Toko,0,0,0,,はい
+Dialogue: 1,0:20:50.15,0:20:53.52,main-JP,Rin,0,0,0,,マッサージ　よって帰ろう
+Dialogue: 1,0:20:54.69,0:20:56.07,main-JP,Uguisu,0,0,0,,怖かった
+Dialogue: 1,0:20:56.07,0:20:58.07,main-JP,Azuki,0,0,0,,はるはるしたわねえ
+Dialogue: 1,0:20:58.45,0:21:00.36,main-JP,Toko,0,0,0,,あ　背中がなあ
+Dialogue: 1,0:21:00.36,0:21:01.70,main-JP,Uguisu,0,0,0,,あ　みんな帰ってきた
+Dialogue: 1,0:21:04.66,0:21:06.12,main-JP,Fuu,0,0,0,,終わった
+Dialogue: 1,0:21:07.29,0:21:10.25,main-JP,Fuu,0,0,0,,す　すごかったねー
+Dialogue: 1,0:21:10.25,0:21:13.08,main-JP,Rui,0,0,0,,クイズ番組って奥深いです
+Dialogue: 1,0:21:13.54,0:21:15.59,main-JP,Sena,0,0,0,,あれはクイズなのか
+Dialogue: 1,0:21:15.59,0:21:17.59,main-JP,Rui,0,0,0,,なんとがやり切った
+Dialogue: 1,0:21:18.30,0:21:21.84,main-JP,Fuu,0,0,0,,でも楽しかった　いいよね
+Dialogue: 1,0:21:26.39,0:21:28.35,main-JP,Toko,0,0,0,,死ぬかと思ったけど
+Dialogue: 1,0:21:30.35,0:21:32.90,main-JP,Sena,0,0,0,,塔子　泣きそうになってた
+Dialogue: 1,0:21:32.90,0:21:35.48,main-JP,Toko,0,0,0,,世奈だってすごい顔してたじゃん
+Dialogue: 1,0:21:35.48,0:21:37.15,main-JP,Sena,0,0,0,,そうだったかな
+Dialogue: 1,0:21:37.61,0:21:39.53,main-JP,Rui,0,0,0,,みんな必死でしたから
+Dialogue: 1,0:21:42.70,0:21:43.87,main-JP,Fuu,0,0,0,,そうだね
+Dialogue: 1,0:21:51.92,0:21:56.25,main-JP,Fuu,0,0,0,,そういえば　塔子さんの初恋の人って誰だったの
+Dialogue: 1,0:21:57.46,0:21:58.38,main-JP,Sena,0,0,0,,聞きたい
+Dialogue: 1,0:21:59.71,0:22:00.55,main-JP,Sena,0,0,0,,それはねー
+Dialogue: 1,0:22:00.55,0:22:03.22,main-JP,Toko,0,0,0,,そんなものはいない
+Dialogue: 1,0:22:03.22,0:22:06.64,main-JP,Toko,0,0,0,,それより　冷蔵庫のケーキのことだけど
+Dialogue: 1,0:22:06.64,0:22:07.93,main-JP,Sena,0,0,0,,食いしん坊
+Dialogue: 1,0:22:08.31,0:22:10.43,main-JP,Rui,0,0,0,,みんなのケーキ
+Dialogue: 1,0:22:11.14,0:22:14.27,main-JP,Fuu,0,0,0,,ごめんなさい
+Dialogue: 1,0:22:16.86,0:22:19.65,main-JP,Fuu,0,0,0,,ごめんな　美味しそうだったんだもん
+Dialogue: 1,0:22:19.65,0:22:21.15,main-JP,Rui,0,0,0,,美味しは買いましょう
