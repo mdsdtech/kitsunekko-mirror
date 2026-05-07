@@ -1,0 +1,42 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 960
+PlayResY: 540
+LayoutResX: 960
+LayoutResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,100,100,4,0,1,2,2,1,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(140,172)\c&H0000FFFF\fscx50\fscy50}あざい
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(140,226)\c&H0000FFFF}浅井長政の居城
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(160,262)\c&H0000FFFF\fscx50\fscy50}おだにじょう
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(660,262)\c&H0000FFFF\fscx50\fscy50}とらごぜやま
+Dialogue: 0,0:00:02.20,0:00:09.41,Default,,0000,0000,0000,,{\pos(160,316)\c&H0000FFFF}小谷城の目と鼻の先にある虎御前山{\fscx50}。
+Dialogue: 0,0:00:10.98,0:00:17.12,Default,,0000,0000,0000,,{\pos(180,436)\c&H0000FFFF}標高{\fscx50}２３０{\fscx100}ｍ余りの{\fscx50}　{\fscx100}この小さな山に
+Dialogue: 0,0:00:10.98,0:00:17.12,Default,,0000,0000,0000,,{\pos(200,496)\c&H0000FFFF}信長は陣を構え➡
+Dialogue: 0,0:00:17.12,0:00:20.32,Default,,0000,0000,0000,,{\pos(240,436)\c&H0000FFFF}小谷城攻めを行いました{\fscx50}。
+Dialogue: 0,0:00:22.62,0:00:29.63,Default,,0000,0000,0000,,{\pos(260,292)\c&H0000FFFF\fscx50\fscy50}せんぽう
+Dialogue: 0,0:00:22.62,0:00:29.63,Default,,0000,0000,0000,,{\pos(140,346)\c&H0000FFFF}秀吉も先鋒として重要な役割を果たし
+Dialogue: 0,0:00:22.62,0:00:29.63,Default,,0000,0000,0000,,{\pos(160,406)\c&H0000FFFF}小谷城は落城{\fscx50}。
+Dialogue: 0,0:00:31.30,0:00:35.17,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}長政は{\fscx50}　{\fscx100}市や子供たちと別れた後➡
+Dialogue: 0,0:00:35.17,0:00:39.64,Default,,0000,0000,0000,,{\pos(560,436)\c&H0000FFFF}城内で自刃します{\fscx50}。
+Dialogue: 0,0:00:39.64,0:00:46.65,Default,,0000,0000,0000,,{\pos(280,322)\c&H0000FFFF\fscx50\fscy50}きたおうみ
+Dialogue: 0,0:00:39.64,0:00:46.65,Default,,0000,0000,0000,,{\pos(140,376)\c&H0000FFFF}ここに{\fscx50}　{\fscx100}北近江を治めた浅井氏の歴史は
+Dialogue: 0,0:00:39.64,0:00:46.65,Default,,0000,0000,0000,,{\pos(160,436)\c&H0000FFFF}幕を閉じたのです{\fscx50}。
+Dialogue: 0,0:00:48.82,0:00:53.45,Default,,0000,0000,0000,,{\pos(440,382)\c&H0000FFFF\fscx50\fscy50}ぼだいじ
+Dialogue: 0,0:00:48.82,0:00:53.45,Default,,0000,0000,0000,,{\pos(560,382)\c&H0000FFFF\fscx50\fscy50}とくしょうじ
+Dialogue: 0,0:00:48.82,0:00:53.45,Default,,0000,0000,0000,,{\pos(260,436)\c&H0000FFFF}浅井氏の菩提寺{\fscx50}　{\fscx100}徳勝寺{\fscx50}。
+Dialogue: 0,0:00:53.45,0:01:00.76,Default,,0000,0000,0000,,{\pos(560,292)\c&H0000FFFF\fscx50\fscy50}すけまさ
+Dialogue: 0,0:00:53.45,0:01:00.76,Default,,0000,0000,0000,,{\pos(160,346)\c&H0000FFFF}長政{\fscx50}　{\fscx100}父の久政{\fscx50}　{\fscx100}祖父の亮政の３人が
+Dialogue: 0,0:00:53.45,0:01:00.76,Default,,0000,0000,0000,,{\pos(180,406)\c&H0000FFFF}ここに眠っています{\fscx50}。
+Dialogue: 0,0:01:02.93,0:01:07.80,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}本堂には{\fscx50}　{\fscx100}長政が所持していたという
+Dialogue: 0,0:01:02.93,0:01:07.80,Default,,0000,0000,0000,,{\pos(160,466)\c&H0000FFFF}阿弥陀如来像など➡
+Dialogue: 0,0:01:07.80,0:01:12.01,Default,,0000,0000,0000,,{\pos(160,406)\c&H0000FFFF}浅井氏ゆかりの品が残されています{\fscx50}。
+Dialogue: 0,0:01:16.11,0:01:21.41,Default,,0000,0000,0000,,{\pos(160,496)\c&H0000FFFF}家族への愛を胸に{\fscx50}　{\fscx100}義を貫いた長政{\fscx50}。
+Dialogue: 0,0:01:21.41,0:01:27.12,Default,,0000,0000,0000,,{\pos(140,406)\c&H0000FFFF}琵琶湖の湖畔で{\fscx50}　{\fscx100}今{\fscx50}　{\fscx100}静かに眠っています{\fscx50}。
