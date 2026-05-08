@@ -1,0 +1,446 @@
+﻿[Script Info]
+Title: 上伊那牡丹，酒醉身姿似百合花般
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 3840
+PlayResY: 2160
+Original Script: 拨雪寻春[Haruhana]
+Original Translation: 和伊、Yurinori、平原
+Original Timing: 混乱怪魔
+Script Updated By: 一星、火树银花
+Update Details: 2026年4月11日12:26:58
+LayoutResX: 3840
+LayoutResY: 2160
+
+[Assfonts Rename Info]
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dial-JPN,Chiron GoRound TC SB,130,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,0,0,1,2,2,2,47,47,100,1
+Style: OP-JPN,FOT-TsukuMin Pr5 L,127,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,80,100,7,0,1,0,0,2,47,47,43,1
+Style: ED-JPN,FOT-TsukuMin Pr5 E,118,&H00FFFFFF,&H000019FF,&H00333333,&H9B333333,0,0,0,0,100,100,7,0,1,0,0,2,47,47,44,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.73,0:00:08.28,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.75\blur0.7\3c&292E54\4c&292E54}いぶき　これ　おいしいお酒なんだけど
+Dialogue: 0,0:00:08.28,0:00:09.74,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.75\blur0.7\3c&292E54\4c&292E54}よかったら
+Dialogue: 0,0:00:10.78,0:00:12.74,Dial-JPN,,0,0,0,,{=27}{\clip()\t(22,1941,\clip())\frz0\t(22,1941,\frz-0.04)\shad2\t(22,1941,\shad2)\fscx100\t(22,1941,\fscx100.06)\fscy100\t(22,1941,\fscy100.06)\1a&H00&\3a&H00&\4a&H9B&\c&E1E8F5\bord2.5\t(22,1941,\bord2.5)\blur0.7\t(22,1941,\blur0.7)\move(3020,2115,2737.07,2115.56,22,1941)}{\3c&292E54\4c&292E54}もらっていいんですか
+Dialogue: 0,0:00:12.74,0:00:13.70,Dial-JPN,,0,0,0,,{=31}{\clip()\t(23,940,\clip())\frz0\t(23,940,\frz-0.04)\shad2\t(23,940,\shad2)\fscx100\t(23,940,\fscx100.06)\fscy100\t(23,940,\fscy100.06)\1a&H00&\3a&H00&\4a&H9B&\c&E1E8F5\bord2.5\t(23,940,\bord2.5)\blur0.7\t(23,940,\blur0.7)\move(2753,2115,2617.54,2115.22,23,940)\3c&292E54\4c&292E54}うん
+Dialogue: 0,0:00:17.33,0:00:19.21,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&373E70\4c&373E70}郡上先輩　ありがとう
+Dialogue: 0,0:00:21.71,0:00:24.59,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}それで　よかったら一緒に
+Dialogue: 0,0:00:24.59,0:00:26.42,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}ゆっくりいただきますね
+Dialogue: 0,0:00:26.92,0:00:28.13,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&454D8C\4c&454D8C}はい
+Dialogue: 0,0:00:29.47,0:00:32.10,Dial-JPN,,0,0,0,,{\c&F2F9FF\bord2\blur0.7}{\3c&111424\4c&111424}ううん　なんでもない
+Dialogue: 0,0:00:43.31,0:00:45.57,Dial-JPN,,0,0,0,,{\c&ffffff\bord3\blur0.7}{\3c&292E54\4c&292E54}また言えなかった
+Dialogue: 0,0:00:48.07,0:00:49.65,Dial-JPN,,0,0,0,,{\c&F2F6FF\bord3\blur0.7\3c&202442\4c&202442}郡上先輩
+Dialogue: 0,0:00:49.65,0:00:51.74,Dial-JPN,,0,0,0,,{\c&F2F6FF\bord3\blur0.7\3c&202442\4c&202442}お昼からお酒ですか
+Dialogue: 0,0:00:53.24,0:00:55.08,Dial-JPN,,0,0,0,,{\c&F2F6FF\bord3\blur0.7\3c&202442\4c&202442}上伊那さんも一緒に飲む
+Dialogue: 0,0:00:55.54,0:00:57.29,Dial-JPN,,555,0,0,,{\c&EDF5FF\bord2.5\blur0.7}{\3c&202442\4c&202442}なにかありました
+Dialogue: 0,0:01:05.71,0:01:08.55,Dial-JPN,,0,0,0,,{\c&F5F2F7\bord2.5\blur0.7\3c&202442\4c&202442}上伊那さん　時間あるなら
+Dialogue: 0,0:01:08.55,0:01:09.97,Dial-JPN,,0,0,0,,{\c&F5F2F7\bord2.5\blur0.7\3c&202442\4c&202442}また　つきあってくれない
+Dialogue: 0,0:02:44.48,0:02:46.06,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}酒屋さん
+Dialogue: 0,0:02:46.06,0:02:49.40,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}ええ　たしかこの辺りにあったはず
+Dialogue: 0,0:02:49.40,0:02:51.15,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&292E54\4c&292E54}まだ飲むんですか
+Dialogue: 0,0:02:51.15,0:02:53.07,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&292E54\4c&292E54}今飲むわけじゃないのよ
+Dialogue: 0,0:02:55.66,0:02:57.12,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&292E54\4c&292E54}ここだわ
+Dialogue: 0,0:02:58.74,0:03:00.24,Dial-JPN,,0,0,0,,{\c&F7FBFF\bord2\blur0.7\3c&292E54\4c&292E54}いらっしゃいませ
+Dialogue: 0,0:03:02.54,0:03:03.37,Dial-JPN,,0,0,0,,{\c&CACCE0\bord2.5\blur0.7}{\3c&1A1D36\4c&1A1D36}お酒がいっぱいだ
+Dialogue: 0,0:03:03.37,0:03:05.33,Dial-JPN,,0,0,0,,{\c&E1E7F5\bord2\blur0.7\3c&292E54\4c&292E54}お酒がいっぱいだ
+Dialogue: 0,0:03:07.79,0:03:10.59,Dial-JPN,,0,0,0,,{\c&FCF2F8\bord2.8\blur0.7}{\3c&292E54\4c&292E54}私　酒屋さんって　初めて入りました
+Dialogue: 0,0:03:11.13,0:03:13.34,Dial-JPN,,0,0,0,,{\c&FAF2F5\bord2.5\blur0.7\3c&1D203B\4c&1D203B}実は　私も
+Dialogue: 0,0:03:13.34,0:03:15.76,Dial-JPN,,0,0,0,,{\c&FAF2F5\bord2.5\blur0.7\3c&1D203B\4c&1D203B}でも　この前の日本酒
+Dialogue: 0,0:03:15.76,0:03:17.55,Dial-JPN,,0,0,0,,{\c&FAF2F5\bord2.5\blur0.7\3c&1D203B\4c&1D203B}あれはネット通販
+Dialogue: 0,0:03:18.05,0:03:20.43,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&373E70\4c&373E70}店員さんにいろいろ聞きたいし
+Dialogue: 0,0:03:20.43,0:03:23.27,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&373E70\4c&373E70}本当は　専門店で　買いたかったんだけど
+Dialogue: 0,0:03:24.10,0:03:27.48,Dial-JPN,,0,0,0,,{\c&F8F5FA\bord2\blur0.7\3c&292E54\4c&292E54}女子ひとりで　酒屋さんに入る勇気がなくて
+Dialogue: 0,0:03:27.48,0:03:29.48,Dial-JPN,,0,0,0,,{\c&F8F5FA\bord2\blur0.7\3c&292E54\4c&292E54}ちょっとわかります
+Dialogue: 0,0:03:29.94,0:03:32.98,Dial-JPN,,0,0,0,,{\c&C5C6D6\bord2.5\blur0.7}{\3c&131526\4c&131526}それなら　寮長誘ってみたら　どうですか
+Dialogue: 0,0:03:33.69,0:03:36.61,Dial-JPN,,0,0,0,,{\c&F2F2FA\bord2.3\blur0.7\3c&131526\4c&131526}前に一度　声かけてみたんだけど
+Dialogue: 0,0:03:37.66,0:03:40.41,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&4B3F70\4c&4B3F70}嫌そうな顔されちゃったのよね
+Dialogue: 0,0:03:40.91,0:03:44.66,Dial-JPN,,0,0,0,,{\c&FFF7FA\bord2.5\blur0.7\3c&1F2340\4c&1F2340}いぶき　人とつるむの好きじゃないのかもね
+Dialogue: 0,0:03:44.66,0:03:49.42,Dial-JPN,,0,0,0,,{\c&FFF7FA\bord2.5\blur0.7\3c&1F2340\4c&1F2340}私　寮長と２人で飲みましたけど　そんな感じは
+Dialogue: 0,0:03:49.42,0:03:50.67,Dial-JPN,,0,0,0,,{\c&FFF7FA\bord2.5\blur0.7\3c&1F2340\4c&1F2340}いつのまに
+Dialogue: 0,0:03:50.67,0:03:52.13,Dial-JPN,,0,0,0,,{\c&FFF7FA\bord2.5\blur0.7\3c&1F2340\4c&1F2340}楽しかったですよ
+Dialogue: 0,0:03:53.88,0:03:56.17,Dial-JPN,,0,0,0,,{\c&FBF3F3\bord2.5\blur0.7}{\3c&292E54\4c&292E54}今後　抜け駆けはナシにしましょう
+Dialogue: 0,0:03:56.17,0:03:57.30,Dial-JPN,,0,0,0,,{\c&FBF3F3\bord2.5\blur0.7}{\3c&292E54\4c&292E54}抜け駆け
+Dialogue: 0,0:03:57.30,0:03:58.72,Dial-JPN,,0,0,0,,{\c&FBF3F3\bord2.5\blur0.7}{\3c&292E54\4c&292E54}そんなつもりは
+Dialogue: 2,0:03:59.39,0:03:59.93,Dial-JPN,,0,0,0,,{\c&EBE8E4\bord2.8\blur0.7\3c&1D203B\4c&1D203B\pos(1920,2115)}ねっ
+Dialogue: 2,0:03:59.93,0:04:01.10,Dial-JPN,,0,0,0,,{\c&EBE8E4\bord2.8\blur0.7\3c&1D203B\4c&1D203B\pos(1920,2115)}はいっ
+Dialogue: 0,0:04:02.22,0:04:04.18,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}えっと
+Dialogue: 0,0:04:04.18,0:04:07.64,Dial-JPN,,0,0,0,,{\c&FAF5F9\bord2.2\blur0.7\3c&292E54\4c&292E54}人畜無害に見えて　油断ならないわね　この子
+Dialogue: 0,0:04:07.64,0:04:09.10,Dial-JPN,,0,0,0,,{\c&F5F5FF\bord2.5\blur0.7}{\3c&1D203B\4c&1D203B}そ…そうだ
+Dialogue: 0,0:04:09.69,0:04:13.15,Dial-JPN,,0,0,0,,{\c&DADAE8\bord3\blur0.7\3c&1B1F38\4c&1B1F38}郡上先輩は今日　どんなお酒を買いに来たんですか
+Dialogue: 0,0:04:13.15,0:04:15.69,Dial-JPN,,0,0,0,,{\c&F5F9FF\bord2\blur0.7}{\3c&333969\4c&333969}いぶきが　一緒に飲んでくれそうなの
+Dialogue: 0,0:04:15.69,0:04:17.36,Dial-JPN,,0,0,0,,{\c&F5F9FF\bord2\blur0.7}{\3c&333969\4c&333969}どんなですか
+Dialogue: 0,0:04:18.15,0:04:21.07,Dial-JPN,,0,0,0,,{\c&EBEFFC\bord3\blur0.7\3c&292E54\4c&292E54}それじゃあ　珍しいお酒とか　どうでしょう
+Dialogue: 0,0:04:21.07,0:04:23.58,Dial-JPN,,0,0,0,,{\c&EBEFFC\bord3\blur0.7\3c&292E54\4c&292E54}いいわね　ただ　問題は
+Dialogue: 0,0:04:24.20,0:04:26.62,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}どれが珍しいか　わからない
+Dialogue: 0,0:04:26.62,0:04:27.79,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}ですよね
+Dialogue: 0,0:04:28.29,0:04:30.63,Dial-JPN,,0,0,0,,{\c&F7F0F5\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}お店の人に聞いてみましょうか
+Dialogue: 0,0:04:30.63,0:04:31.75,Dial-JPN,,0,0,0,,{\c&F7F0F5\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}それもいいけど　ちょっと２人で見て回らない
+Dialogue: 0,0:04:31.75,0:04:34.80,Dial-JPN,,0,0,0,,{\c&F7EDF2\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}それもいいけど　ちょっと２人で見て回らない
+Dialogue: 0,0:04:37.26,0:04:40.38,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&282E54\4c&282E54}ボトルの形って　いろいろあるんだ
+Dialogue: 0,0:04:40.38,0:04:44.93,Dial-JPN,,0,0,0,,{\c&CED7DE\bord2.8\blur0.7}{\3c&1B1F38\4c&1B1F38}それに　お酒のラベルって　改めて見るとおもしろいですね
+Dialogue: 0,0:04:45.60,0:04:46.85,Dial-JPN,,0,0,0,,{\c&FFF5FA\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}おしゃれだったり
+Dialogue: 0,0:04:46.85,0:04:49.77,Dial-JPN,,0,0,0,,{\c&FFF5FA\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}日本のお酒なのに　名前が横文字だったり
+Dialogue: 0,0:04:50.35,0:04:54.98,Dial-JPN,,0,0,0,,{\c&FFF7FB\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}タクシードライバー　映画と関係あるのかしら
+Dialogue: 0,0:04:55.78,0:05:00.45,Dial-JPN,,0,0,0,,{\c&DADEE8\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}百年の孤独は南米の小説ですよね　たしか
+Dialogue: 0,0:05:00.45,0:05:01.95,Dial-JPN,,0,0,0,,{\c&D1D4DE}{\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}それ　日本酒
+Dialogue: 0,0:05:01.95,0:05:04.24,Dial-JPN,,0,0,0,,{\c&E6F7FF\bord2\blur0.7\3c&1B1F38\4c&1B1F38}えっと　これは
+Dialogue: 0,0:05:04.24,0:05:04.91,Dial-JPN,,0,0,0,,{\c&E6F7FF\bord2\blur0.7\3c&1B1F38\4c&1B1F38}焼酎
+Dialogue: 0,0:05:04.91,0:05:06.91,Dial-JPN,,0,0,0,,{\c&DDE0ED\bord2.5\blur0.7\3c&131526\4c&131526}焼酎か
+Dialogue: 0,0:05:06.91,0:05:09.54,Dial-JPN,,0,0,0,,{\c&DDE0ED\bord2.5\blur0.7\3c&131526\4c&131526}前回　日本酒だったし　それもいいかも
+Dialogue: 0,0:05:09.54,0:05:12.63,Dial-JPN,,0,0,0,,{\c&DDE0ED\bord2.5\blur0.7\3c&131526\4c&131526}郡上先輩　焼酎飲んだことありますか
+Dialogue: 0,0:05:12.63,0:05:13.79,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7}{\3c&292E54\4c&292E54}ない
+Dialogue: 0,0:05:13.79,0:05:14.84,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7}{\3c&292E54\4c&292E54}ですよね
+Dialogue: 0,0:05:15.50,0:05:19.05,Dial-JPN,,0,0,0,,{\c&FFF5F9\bord2.5\blur0.7\3c&202442\4c&202442}まったく味のわからないものを買うのは　怖いわ
+Dialogue: 0,0:05:19.05,0:05:22.39,Dial-JPN,,0,0,0,,{\c&FFF5F9\bord2.5\blur0.7\3c&202442\4c&202442}よろしければ　ぜひ　試飲なさってください
+Dialogue: 0,0:05:22.80,0:05:24.43,Dial-JPN,,0,0,0,,{\c&FFF5F9\bord2.5\blur0.7\3c&202442\4c&202442}試飲できるんですか
+Dialogue: 0,0:05:24.43,0:05:27.77,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7}{\3c&292E54\4c&292E54}有料なので　角打ちみたいなものですが
+Dialogue: 0,0:05:27.77,0:05:29.39,Dial-JPN,,0,0,0,,{\c&D5DEEB\bord2\blur0.7\3c&292E54\4c&292E54}角打ちって
+Dialogue: 0,0:05:29.39,0:05:32.98,Dial-JPN,,0,0,0,,{\c&D5DEEB\bord2\blur0.7\3c&292E54\4c&292E54}買ったお酒をその場で飲めるお店のことです
+Dialogue: 0,0:05:32.98,0:05:35.57,Dial-JPN,,0,0,0,,{\c&F0F4FF\bord2.5\blur0.7}{\3c&1F2340\4c&1F2340}じゃあ　私　これがいいです
+Dialogue: 0,0:05:35.57,0:05:37.44,Dial-JPN,,0,0,0,,{\c&F0F4FF\bord2.5\blur0.7}{\3c&1F2340\4c&1F2340}名前が　お花でかわいいから
+Dialogue: 0,0:05:39.15,0:05:41.15,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.2\blur0.7}{\3c&1B1F38\4c&1B1F38}確かに華やかそう
+Dialogue: 0,0:05:42.24,0:05:44.12,Dial-JPN,,2241,0,0,,{\c&E8EDED\bord2.9\blur0.7\3c&1B1F38\4c&1B1F38}華やか
+Dialogue: 0,0:05:44.12,0:05:46.74,Dial-JPN,,0,0,0,,{\c&F7F8FF\bord2.5\blur0.7}{\3c&222645\4c&222645}これ　２杯いいですか
+Dialogue: 0,0:05:46.74,0:05:49.45,Dial-JPN,,0,0,0,,{\c&F7F8FF\bord2.5\blur0.7}{\3c&222645\4c&222645}飲まれ方は　ロックがオススメですが
+Dialogue: 0,0:05:49.45,0:05:50.58,Dial-JPN,,0,0,0,,{\c&F7F8FF\bord2.5\blur0.7}{\3c&222645\4c&222645}じゃあ　それで
+Dialogue: 0,0:05:50.58,0:05:52.62,Dial-JPN,,0,0,0,,{\c&BDBEC9\bord2\blur0.7\3c&1B1F38\4c&1B1F38}少々お待ちください
+Dialogue: 0,0:05:52.62,0:05:53.79,Dial-JPN,,0,0,0,,{\c&BDBEC9\bord2\blur0.7\3c&1B1F38\4c&1B1F38}はーい
+Dialogue: 0,0:05:57.92,0:06:02.13,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.6\blur0.7}{\3c&1B1F38\4c&1B1F38}ここ　お酒だけじゃなく　器とかも売ってるんですね
+Dialogue: 0,0:06:02.63,0:06:06.05,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}郡上先輩　寮長とペアのおちょことか　どうですか
+Dialogue: 0,0:06:06.05,0:06:06.85,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}ペア
+Dialogue: 0,0:06:06.85,0:06:08.31,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}無理　無理　そんなの
+Dialogue: 0,0:06:08.31,0:06:11.35,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}一緒にお酒飲む口実になりますよ
+Dialogue: 0,0:06:11.35,0:06:15.23,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}えっと　これ　なんて名前だっけ
+Dialogue: 0,0:06:15.23,0:06:17.36,Dial-JPN,,0,0,0,,{\c&EDEFF7\bord2\blur0.7\3c&292E54\4c&292E54}えっと　たしか
+Dialogue: 0,0:06:17.36,0:06:19.82,Dial-JPN,,0,0,0,,{\c&EDEFF7\bord2\blur0.7\3c&292E54\4c&292E54}スキ　スキ　すき
+Dialogue: 0,0:06:19.82,0:06:22.99,Dial-JPN,,0,0,0,,{\c&EDEFF7\bord2\blur0.7}{\3c&292E54\4c&292E54}スキ　スキ　すき
+Dialogue: 0,0:06:22.99,0:06:24.53,Dial-JPN,,0,0,0,,{\c&EDEFF7\bord2\blur0.7}{\3c&292E54\4c&292E54}すき
+Dialogue: 0,0:06:26.03,0:06:29.54,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}すき焼き食べたいなあ　日本酒で
+Dialogue: 0,0:06:29.54,0:06:31.12,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}どういうこと
+Dialogue: 0,0:06:31.12,0:06:34.04,Dial-JPN,,0,0,0,,{\c&E4E1F0\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}今晩　寮のみんなですき焼きしようか
+Dialogue: 0,0:06:34.04,0:06:34.67,Dial-JPN,,0,0,0,,{\c&E4E1F0\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}はいっ
+Dialogue: 0,0:06:34.67,0:06:36.21,Dial-JPN,,0,0,0,,{\c&E4E1F0\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}お待たせしました
+Dialogue: 0,0:06:36.21,0:06:39.09,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54\t(1270,2313,2,\c&E9EEF0\bord2.5\3c&1B1F38\4c&1B1F38)}六代目百合　ロックです
+Dialogue: 0,0:06:39.09,0:06:40.17,Dial-JPN,,0,0,0,,{\c&E9EEF0\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}きた
+Dialogue: 0,0:06:40.17,0:06:41.09,Dial-JPN,,0,0,0,,{\c&E9EEF0\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}きた
+Dialogue: 0,0:06:42.55,0:06:43.92,Dial-JPN,,0,0,0,,{\c&F0F3FF\bord2.5\blur0.7}{\3c&1D203B\4c&1D203B}いただきます
+Dialogue: 0,0:06:55.69,0:06:57.19,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}芋だわ　これ
+Dialogue: 0,0:06:57.19,0:07:00.61,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}六代目百合は　わりとガッツリ系なんです
+Dialogue: 0,0:07:03.57,0:07:04.99,Dial-JPN,,666,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&323866\4c&323866}おかわりください
+Dialogue: 0,0:07:04.99,0:07:05.66,Dial-JPN,,666,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&323866\4c&323866}はーい
+Dialogue: 0,0:07:05.66,0:07:06.74,Dial-JPN,,666,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&323866\4c&323866}はやっ
+Dialogue: 0,0:07:09.16,0:07:13.83,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2\blur0.7\3c&292E54\4c&292E54}ガツンとくるんだけど　ほのかにお芋の甘みがある
+Dialogue: 0,0:07:14.25,0:07:17.38,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2\blur0.7\3c&292E54\4c&292E54}私　焼酎って結構好きかも
+Dialogue: 0,0:07:18.33,0:07:19.67,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.4\blur0.7}{\3c&1F2340\4c&1F2340}郡上先輩
+Dialogue: 0,0:07:20.13,0:07:23.17,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&1F2340\4c&1F2340}これにしましょう　買って帰るお酒
+Dialogue: 0,0:07:23.17,0:07:25.26,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&1F2340\4c&1F2340}たぶん寮長も好きだと思います
+Dialogue: 0,0:07:26.93,0:07:30.72,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&1F2340\4c&1F2340}すごいな　そういうの　わかっちゃうんだ
+Dialogue: 0,0:07:31.22,0:07:33.27,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord2\blur0.7\3c&292E54\4c&292E54}ありがとうございました
+Dialogue: 0,0:07:33.27,0:07:36.60,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.4\blur0.7}{\3c&292E54\4c&292E54}ねえ　おちょこ買わなくていいんですか
+Dialogue: 0,0:07:36.60,0:07:39.90,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.4\blur0.7}{\3c&292E54\4c&292E54}ペアでなんて　いぶきはきっと使わないわよ
+Dialogue: 0,0:07:39.90,0:07:41.23,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.4\blur0.7}{\3c&292E54\4c&292E54}そうかなあ　でも　いいじゃないですか
+Dialogue: 0,0:07:41.23,0:07:43.73,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.2\blur0.7\3c&292E54\4c&292E54}そうかなあ　でも　いいじゃないですか
+Dialogue: 0,0:07:43.73,0:07:45.24,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5}{\blur0.7\3c&292E54\4c&292E54}そのときは
+Dialogue: 0,0:07:47.03,0:07:48.53,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7bord2.2\3c&292E54\4c&292E54}私と使えば
+Dialogue: 0,0:07:48.53,0:07:50.78,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&1F2340\4c&1F2340}バ…バカなこと言わないの
+Dialogue: 0,0:07:51.24,0:07:54.29,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}ほら　すき焼きの材料　買いにいくわよ
+Dialogue: 0,0:07:54.29,0:07:55.75,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}やった
+Dialogue: 0,0:07:55.75,0:07:58.17,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}またのお越しを
+Dialogue: 0,0:08:35.37,0:08:37.58,Dial-JPN,,0,0,0,,{\c&C6C2CC\t(\c&DFDAE6)\bord2.5\blur0.7\3c&131526\4c&131526}コンビニなら置いてますよ　きっと
+Dialogue: 0,0:08:37.58,0:08:38.71,Dial-JPN,,0,0,0,,{\c&DFDAE6}{\bord2.5\blur0.7\3c&131526\4c&131526}なんですって
+Dialogue: 0,0:08:38.71,0:08:41.08,Dial-JPN,,0,0,0,,{\c&E4E1EB\bord2\blur0.7\3c&141629\4c&141629}もう一度　言ってみなさいよ　あかね
+Dialogue: 0,0:08:41.08,0:08:44.13,Dial-JPN,,0,0,0,,{\c&E4E1EB\bord2\blur0.7\3c&141629\4c&141629}だから　おっちょこちょいにもほどがあるって
+Dialogue: 0,0:08:44.13,0:08:47.01,Dial-JPN,,0,0,0,,{\c&FCF2F7\bord2.3\blur0.7}{\3c&141629\4c&141629}また言った　誰がおっちょこちょいよ
+Dialogue: 0,0:08:47.01,0:08:49.63,Dial-JPN,,0,0,0,,{\c&FCF2F7\bord2.3\blur0.7}{\3c&141629\4c&141629}あんたが　もう一度言えって言ったんでしょ
+Dialogue: 0,0:08:50.30,0:08:52.09,Dial-JPN,,0,0,0,,{\c&FFFAFB\bord2\blur0.7\3c&292E54\4c&292E54}そういうとこがだよ
+Dialogue: 0,0:08:55.06,0:08:59.27,Dial-JPN,,0,0,0,,{\c&F7EDF4\bord2.3\blur0.7}{\3c&141629\4c&141629}あっそういいよ　別に　あかねなんてもう知らない
+Dialogue: 0,0:08:59.27,0:09:03.02,Dial-JPN,,0,0,0,,{\c&F7EDF4\bord2.3\blur0.7}{\3c&141629\4c&141629}寮長　私と遊びに行きませんか　今から
+Dialogue: 0,0:09:03.02,0:09:04.77,Dial-JPN,,0,0,0,,{\c&FFF2F9\bord2.3\blur0.7\3c&141629\4c&141629}ぼたんちゃんも一緒に来て
+Dialogue: 0,0:09:04.77,0:09:06.73,Dial-JPN,,0,0,0,,{\c&FFF2F9\bord2.3\blur0.7\3c&141629\4c&141629}ちょっと　やえか　私は別に
+Dialogue: 0,0:09:06.73,0:09:09.24,Dial-JPN,,0,0,0,,{\c&F7EDF4\bord2.3\blur0.7}{\3c&141629\4c&141629}あかねは　私と　出かけたくないんでしょ
+Dialogue: 0,0:09:09.24,0:09:11.91,Dial-JPN,,0,0,0,,{\c&E6E1DF\bord2\blur0.7\3c&141629\4c&141629}行こう　寮長　ぼたんちゃん
+Dialogue: 0,0:09:12.36,0:09:13.53,Dial-JPN,,0,0,0,,{\c&E6E1DF\bord2\blur0.7\3c&141629\4c&141629}ちょ　ちょっと
+Dialogue: 0,0:09:13.53,0:09:15.58,Dial-JPN,,0,0,0,,{\c&E6E1DF\bord2\blur0.7\3c&141629\4c&141629}北杜先輩　いったいどこへ
+Dialogue: 0,0:09:15.58,0:09:16.95,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&343B6B\4c&343B6B}北杜先輩　いったいどこへ
+Dialogue: 0,0:09:18.45,0:09:22.25,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}出かけたくないなんて　言ってないでしょ
+Dialogue: 0,0:09:32.01,0:09:32.89,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&454649\4c&454649}先輩　次の駅で　降りるんですよね
+Dialogue: 0,0:09:32.89,0:09:35.26,Dial-JPN,,0,0,0,,{\c&F6F2FA\bord3\blur0.7\3c&141629\4c&141629}先輩　次の駅で　降りるんですよね
+Dialogue: 0,0:09:35.26,0:09:36.72,Dial-JPN,,0,0,0,,{\c&F6F2FA\bord3\blur0.7\3c&141629\4c&141629}そうだよ　ぼたんちゃん
+Dialogue: 0,0:09:36.72,0:09:39.73,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&141629\4c&141629}長瀞の絶景が私たちを待っているよ
+Dialogue: 0,0:09:39.73,0:09:41.60,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&141629\4c&141629}お待たせしたら失礼です
+Dialogue: 0,0:09:41.60,0:09:43.73,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1E38\4c&1B1E38}早く行きたいですね
+Dialogue: 0,0:09:43.73,0:09:46.32,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1E38\4c&1B1E38}２人とも　電車では静かに
+Dialogue: 0,0:09:47.57,0:09:49.78,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}北杜やえか先輩
+Dialogue: 0,0:09:49.78,0:09:51.99,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}同じ大学の３年生で
+Dialogue: 0,0:09:51.99,0:09:54.57,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}同い年の遊佐あかね先輩とは
+Dialogue: 0,0:09:54.57,0:09:57.87,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}ふだん　すごく　仲がいいんだけど
+Dialogue: 0,0:09:57.87,0:10:01.29,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}次の停車駅は長瀞　長瀞です
+Dialogue: 0,0:10:01.29,0:10:02.41,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&4D4C4D\4c&4D4C4D}次の停車駅は長瀞　長瀞です
+Dialogue: 0,0:10:03.12,0:10:03.67,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&4D4C4D\4c&4D4C4D}降り口は左側です
+Dialogue: 0,0:10:03.67,0:10:05.54,Dial-JPN,,0,0,0,,{\fad(0,227)}{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}降り口は左側です
+Dialogue: 0,0:10:21.39,0:10:24.44,Dial-JPN,,0,0,0,,{\c&F4F0F7\bord2.5\blur0.7\3c&141629\4c&141629}北杜先輩　早く降りないと
+Dialogue: 0,0:10:25.10,0:10:26.36,Dial-JPN,,0,0,0,,{\c&F4F0F7\bord2.5\blur0.7\3c&141629\4c&141629}うん
+Dialogue: 0,0:10:57.64,0:11:00.01,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&1D203B\4c&1D203B}ここが長瀞駅か
+Dialogue: 0,0:11:00.01,0:11:02.35,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.1\blur0.7\3c&1D203B\4c&1D203B}寮長も初めてですか
+Dialogue: 0,0:11:02.35,0:11:05.48,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.1\blur0.7\3c&1D203B\4c&1D203B}うん　西武秩父から結構近いけど
+Dialogue: 0,0:11:05.48,0:11:07.19,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&1D203B\4c&1D203B}機会がなくて
+Dialogue: 0,0:11:07.19,0:11:09.19,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&1D203B\4c&1D203B}早く絶景を見に行きましょ
+Dialogue: 0,0:11:11.78,0:11:16.07,Dial-JPN,,0,0,0,,{\c&FCFBFA\bord2.5\blur0.7\3c&1D203B\4c&1D203B}秩父鉄道の急行も初めてだったけど　よかったなあ
+Dialogue: 0,0:11:16.07,0:11:20.78,Dial-JPN,,0,0,0,,{\c&FCFBFA\bord2.5\blur0.7\3c&1D203B\4c&1D203B}でしょ　クロスシートが行楽気分で　いいのよね
+Dialogue: 0,0:11:22.41,0:11:24.41,Dial-JPN,,0,0,0,,{\c&DED7DE\bord2.5\blur0.7}{\3c&15172B\4c&15172B}はい　大人３人分
+Dialogue: 0,0:11:24.41,0:11:28.13,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}お客様　急行券も　拝見いたします
+Dialogue: 0,0:11:29.21,0:11:30.88,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&15172B\4c&15172B}乗車券でなく
+Dialogue: 0,0:11:30.88,0:11:31.59,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&15172B\4c&15172B}はい
+Dialogue: 0,0:11:32.30,0:11:35.55,Dial-JPN,,0,0,0,,{\c&FFF0F4\bord2.5\blur0.7\3c&15172B\4c&15172B}乗車券と急行券が別とか　知らないし
+Dialogue: 0,0:11:35.55,0:11:37.80,Dial-JPN,,0,0,0,,{\c&E6E7F2\bord2.5\blur0.7}{\3c&15172B\4c&15172B}券売機で　そんなの売ってた
+Dialogue: 0,0:11:37.80,0:11:39.01,Dial-JPN,,0,0,0,,{\c&E6E7F2\bord2.5\blur0.7}{\3c&15172B\4c&15172B}まあまあ
+Dialogue: 0,0:11:39.01,0:11:41.47,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&15172B\4c&15172B}改札で支払えたから　いいじゃないですか
+Dialogue: 0,0:11:41.47,0:11:42.26,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}改札で支払えたから　いいじゃないですか
+Dialogue: 0,0:11:42.85,0:11:44.93,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&1F2340\4c&1F2340}おっちょこちょいじゃないぞ
+Dialogue: 0,0:12:06.16,0:12:10.38,Dial-JPN,,0,0,0,,{\c&D9CFCC\bord2.5\blur0.7}{\3c&16192E\4c&16192E}いや　今日は我慢だ　北杜さんがいるからな
+Dialogue: 0,0:12:18.97,0:12:22.85,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&16192E\4c&16192E}２人とも見て　すごい眺め
+Dialogue: 0,0:12:33.40,0:12:36.44,Dial-JPN,,0,0,0,,{\c&ffffff\bord1.8\blur0.7}{\3c&16192E\4c&16192E}首都圏とは思えない光景だわ
+Dialogue: 0,0:12:36.44,0:12:38.86,Dial-JPN,,0,0,0,,{\c&ffffff\bord1.8\blur0.7}{\3c&16192E\4c&16192E}こっち　小川が流れてる
+Dialogue: 0,0:12:39.61,0:12:40.91,Dial-JPN,,0,0,0,,{\c&ffffff\bord1.8\blur0.7\3c&16192E\4c&16192E}どこどこ
+Dialogue: 0,0:12:45.79,0:12:48.29,Dial-JPN,,0,0,0,,{\c&EFEDF5\bord2.5\blur0.7}{\3c&16192E\4c&16192E}水が冷たい
+Dialogue: 0,0:12:48.29,0:12:49.25,Dial-JPN,,0,0,0,,{\c&EFEDF5\bord2.5\blur0.7}{\3c&16192E\4c&16192E}本当に岩の畳が敷かれているみたい
+Dialogue: 0,0:12:49.25,0:12:52.00,Dial-JPN,,0,0,0,,{\c&FCF5FA\bord1.8\blur0.7\3c&16192E\4c&16192E}本当に岩の畳が敷かれているみたい
+Dialogue: 0,0:12:55.92,0:12:57.30,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&16192E\4c&16192E}途中で買っておいたの
+Dialogue: 0,0:13:03.05,0:13:04.93,Dial-JPN,,0,0,0,,{\c&F8F7FF\bord2.5\blur0.7}{\3c&0D0F1C\4c&0D0F1C}２人の分もあるわよ
+Dialogue: 0,0:13:04.93,0:13:06.06,Dial-JPN,,0,0,0,,{\c&F8F7FF\bord2.5\blur0.7}{\3c&0D0F1C\4c&0D0F1C}いいんですか
+Dialogue: 0,0:13:06.06,0:13:08.64,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&1F2340\4c&1F2340}せっかくだし飲みましょうよ
+Dialogue: 0,0:13:08.64,0:13:10.77,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&1F2340\4c&1F2340}どこかでゆっくり座らない
+Dialogue: 0,0:13:19.53,0:13:21.86,Dial-JPN,,666,0,0,,{\c&E4E3E8\bord2\blur0.7}{\3c&191C33\4c&191C33}結構　風ありますねえ
+Dialogue: 0,0:13:21.86,0:13:24.41,Dial-JPN,,666,0,0,,{\c&E4E3E8\bord2\blur0.7}{\3c&191C33\4c&191C33}端っこまで行くのは怖いかも
+Dialogue: 0,0:13:24.41,0:13:25.66,Dial-JPN,,666,0,0,,{\c&E4E3E8\bord2\blur0.7}{\3c&191C33\4c&191C33}落ちないでよ
+Dialogue: 0,0:13:29.16,0:13:32.50,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}お酒があると　がぜん楽しくなってくるわよね
+Dialogue: 0,0:13:32.50,0:13:34.08,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}ですね
+Dialogue: 0,0:13:38.30,0:13:39.88,Dial-JPN,,0,0,0,,{\c&F7FBFF\bord2\blur0.7}{\3c&1B1F38\4c&1B1F38}飲まないんですか
+Dialogue: 0,0:13:40.67,0:13:42.97,Dial-JPN,,0,0,0,,{\c&F7FBFF\bord2\blur0.7}{\3c&1B1F38\4c&1B1F38}私は大丈夫だから
+Dialogue: 0,0:13:55.44,0:13:58.94,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1F38\4c&1B1F38}北杜先輩も　長瀞は初めてなんですか
+Dialogue: 0,0:13:58.94,0:13:59.57,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1F38\4c&1B1F38}ええ
+Dialogue: 0,0:14:00.32,0:14:04.20,Dial-JPN,,0,0,0,,{\c&FCF7F9\bord2\blur0.7}{\3c&1B1F38\4c&1B1F38}私　昔からアウトドアや旅行が好きで
+Dialogue: 0,0:14:04.20,0:14:07.58,Dial-JPN,,0,0,0,,{\c&FCF7F9\bord2\blur0.7}{\3c&1B1F38\4c&1B1F38}大学に入る前は　もっぱらソロ派だったんだけど
+Dialogue: 0,0:14:08.37,0:14:11.04,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}大学で　あかねと意気投合してね
+Dialogue: 0,0:14:11.54,0:14:15.54,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}バイクで旅するテレビ番組の話で盛り上がったりして
+Dialogue: 0,0:14:15.54,0:14:18.75,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}気づいたら　２人であちこち行くようになってた
+Dialogue: 0,0:14:19.25,0:14:23.80,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&292E54\4c&292E54}だから　私　もっともっと行動範囲広げたくて
+Dialogue: 0,0:14:23.80,0:14:27.93,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&292E54\4c&292E54}３年に上がる春休みに　バイクの免許取ったんだ
+Dialogue: 0,0:14:30.39,0:14:36.40,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1F38\4c&1B1F38}なのにあかねったら\N私の後ろには乗れない　なんて言うのよ
+Dialogue: 0,0:14:37.19,0:14:39.19,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&1B1F38\4c&1B1F38}人の気も知らないで
+Dialogue: 0,0:14:39.19,0:14:42.40,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&1B1F38\4c&1B1F38}それで　今朝は　言い合ってたのか
+Dialogue: 0,0:14:44.40,0:14:47.66,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}それは　遊佐先輩の言うとおりですね
+Dialogue: 0,0:14:47.66,0:14:48.37,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}なんで
+Dialogue: 0,0:14:48.37,0:14:50.62,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}ちょっと　上伊那さん
+Dialogue: 0,0:14:50.62,0:14:52.08,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}だって
+Dialogue: 0,0:14:54.08,0:14:58.59,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}バイクの２人乗りは　免許取得から１年後に解禁ですから
+Dialogue: 0,0:15:02.42,0:15:05.09,Dial-JPN,,0,0,0,,{\c&FCF7F9\bord2\blur0.7\3c&1B1F38\4c&1B1F38}よく知ってるね　そんなこと
+Dialogue: 0,0:15:05.09,0:15:09.01,Dial-JPN,,0,0,0,,{\c&FCF7F9\bord2\blur0.7\3c&1B1F38\4c&1B1F38}いや　父がバイクに乗ってるので　たまたま
+Dialogue: 0,0:15:27.57,0:15:31.29,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}そういうとこだぞ　やえか
+Dialogue: 0,0:15:31.74,0:15:35.50,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}なんか　おなか減っちゃった　ソフトクリームでも食べない
+Dialogue: 0,0:15:35.50,0:15:37.00,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}いいですねえ
+Dialogue: 0,0:15:37.00,0:15:40.42,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}今度は　遊佐さんや　郡上先輩も誘おうよ
+Dialogue: 0,0:15:43.17,0:15:46.18,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&1B1F38\4c&1B1F38}私は２人だけで来たいなあ
+Dialogue: 0,0:15:48.09,0:15:49.55,Dial-JPN,,0,0,0,,{\c&F2EBEB\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}な…なんで
+Dialogue: 0,0:15:50.51,0:15:53.18,Dial-JPN,,0,0,0,,{\c&F2EBEB\bord2.5\blur0.7}{\3c&1B1F38\4c&1B1F38}もう　とぼけないでください
+Dialogue: 0,0:15:57.31,0:16:01.40,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}もちろん　お酒が飲めるから　ですよ
+Dialogue: 0,0:16:02.86,0:16:05.57,Dial-JPN,,0,0,0,,{\c&DED7D7\bord2.7\blur0.7}{\3c&15182B\4c&15182B}２人とも早く
+Dialogue: 0,0:16:05.57,0:16:06.49,Dial-JPN,,0,0,0,,{\c&DED7D7\bord2.7\blur0.7}{\3c&15182B\4c&15182B}はーい
+Dialogue: 0,0:16:06.49,0:16:07.07,Dial-JPN,,0,0,0,,{\c&DED7D7\bord2.7\blur0.7}{\3c&15182B\4c&15182B}ごめん
+Dialogue: 0,0:16:07.07,0:16:07.61,Dial-JPN,,0,0,0,,{\c&DED7D7\bord2.7\blur0.7}{\3c&15182B\4c&15182B}まったく
+Dialogue: 0,0:16:07.61,0:16:09.36,Dial-JPN,,0,0,0,,{\c&DED7D7\bord2.7\blur0.7}{\3c&15182B\4c&15182B}行きますよ　寮長
+Dialogue: 0,0:16:14.58,0:16:15.37,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&383F73\4c&383F73}ソフトクリーム　おいしかったですねえ
+Dialogue: 0,0:16:15.37,0:16:18.08,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&383F73\4c&383F73}ソフトクリーム　おいしかったですねえ
+Dialogue: 0,0:16:18.08,0:16:19.33,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&383F73\4c&383F73}うん
+Dialogue: 0,0:16:19.96,0:16:23.75,Dial-JPN,,444,0,0,,{\c&D6D0D0\bord2\blur0.7\3c&141629\4c&141629}服をですね　買いに行きたいなって
+Dialogue: 0,0:16:23.75,0:16:26.34,Dial-JPN,,0,0,0,,{\c&D6D0D0\bord2\blur0.7\3c&141629\4c&141629}少し気温も上がってきましたし
+Dialogue: 0,0:16:26.34,0:16:27.09,Dial-JPN,,0,0,0,,{\c&D6D0D0\bord2\blur0.7\3c&141629\4c&141629}うん
+Dialogue: 0,0:16:31.22,0:16:32.18,Dial-JPN,,0,0,0,,{\c&F7F1F0\bord2\blur0.7}{\3c&1D203B\4c&1D203B}行けば
+Dialogue: 0,0:16:32.18,0:16:34.14,Dial-JPN,,0,0,0,,{\c&F7F1F0\bord2\blur0.7}{\3c&1D203B\4c&1D203B}そうでなくて
+Dialogue: 0,0:16:34.93,0:16:37.73,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&2C3159\4c&2C3159}いいです　もう　なんでもない
+Dialogue: 0,0:16:38.35,0:16:41.48,Dial-JPN,,0,0,0,,{\c&EBE5E4\bord2\blur0.7}{\3c&1D203B\4c&1D203B}なんか　怒った
+Dialogue: 0,0:16:48.32,0:16:50.61,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}一緒に行きたいんですけど
+Dialogue: 0,0:16:52.41,0:16:54.33,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}いけませんか
+Dialogue: 0,0:16:58.33,0:17:00.54,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}い…いけなくない
+Dialogue: 0,0:17:03.79,0:17:05.88,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}右を向いたら　服屋さん
+Dialogue: 0,0:17:05.88,0:17:08.47,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}左を向いても　服屋さん
+Dialogue: 0,0:17:08.47,0:17:10.68,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}東京　服　売りすぎ
+Dialogue: 0,0:17:10.68,0:17:11.89,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7\3c&292E54\4c&292E54}テンション　高
+Dialogue: 0,0:17:12.34,0:17:14.43,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}上伊那さん　実家どこだっけ
+Dialogue: 0,0:17:14.43,0:17:15.68,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}長野です
+Dialogue: 0,0:17:15.68,0:17:19.14,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}セレクトショップとか　ホント少ないんですよ　長野は
+Dialogue: 0,0:17:19.60,0:17:21.77,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}{\t(606,1440,\bord2)}あそこ　雑誌で見たことある
+Dialogue: 0,0:17:22.35,0:17:26.36,Dial-JPN,,0,0,0,,{\bord0\4c&ffffff\alpha&ff\t(25,567,0.7,\bord2\alpha&00\4a&9b\4c&292E54)\c&ffffff\blur0.7\3c&292E54}今日の上伊那さんは　いつもより　あどけないな
+Dialogue: 0,0:17:26.36,0:17:28.49,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}なんか　ほわほわしてる
+Dialogue: 0,0:17:28.49,0:17:32.66,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}しっかり者だと思ってたけど　こんな一面もあるのか
+Dialogue: 0,0:17:33.12,0:17:34.87,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5}{\blur0.7}{\3c&292E54\4c&292E54}でも　お酒が入ると
+Dialogue: 0,0:17:35.41,0:17:38.58,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}私　寮長の舌が欲しいな
+Dialogue: 0,0:17:38.58,0:17:41.54,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54\t(2605,2939,\alpha&ff\4c&ffffff\bord0)}私は２人だけで来たいなあ
+Dialogue: 0,0:17:41.79,0:17:45.25,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}ああいうのも　酒乱っていうのかな
+Dialogue: 0,0:17:45.25,0:17:47.25,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}どこ入りましょうか
+Dialogue: 0,0:17:47.25,0:17:51.47,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&292E54\4c&292E54}ああ　お店ね　えっと　それじゃあ
+Dialogue: 0,0:17:55.18,0:17:56.39,Dial-JPN,,0,0,0,,{\c&DBD3D5\bord2\blur0.7\3c&141629\4c&141629}お酒
+Dialogue: 0,0:17:57.14,0:17:58.60,Dial-JPN,,0,0,0,,{\c&DAD9DB\t(311,979,\c&ffffff)\bord1.8\blur0.7}{\3c&141629\4c&141629}こんにちは
+Dialogue: 0,0:17:59.64,0:18:01.56,Dial-JPN,,0,0,0,,{\c&FFFAFA\bord2.5\blur0.7\3c&292E54\4c&292E54}いらっしゃい　いぶきちゃん
+Dialogue: 0,0:18:02.02,0:18:03.73,Dial-JPN,,0,0,0,,{\c&F8F7FA\bord2.5\blur0.7}{\3c&232747\4c&232747}と　お友達
+Dialogue: 0,0:18:03.73,0:18:05.52,Dial-JPN,,0,0,0,,{\c&F8F7FA\bord2.5\blur0.7}{\3c&232747\4c&232747}後輩です　マスター
+Dialogue: 0,0:18:05.52,0:18:07.52,Dial-JPN,,0,0,0,,{\c&FDF7F6\bord2.7\blur0.7\3c&292E54\4c&292E54}顔なじみ
+Dialogue: 0,0:18:06.11,0:18:07.27,Dial-JPN,,0,2222,0,,{\c&EDE8E8\bord2\blur0.7}{\3c&141629\4c&141629}そうなの
+Dialogue: 0,0:18:07.27,0:18:08.44,Dial-JPN,,0,2222,0,,{\c&EDE8E8\bord2\blur0.7}{\3c&141629\4c&141629}２人とも　ゆっくりしていってね
+Dialogue: 0,0:18:08.44,0:18:09.57,Dial-JPN,,0,2222,0,,{\c&E9F0F5\bord2.5\blur0.7\3c&141629\4c&141629}２人とも　ゆっくりしていってね
+Dialogue: 0,0:18:12.20,0:18:15.87,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&232747\4c&232747}こ…　これ　手に取って　いいんですか
+Dialogue: 0,0:18:15.87,0:18:18.74,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&232747\4c&232747}もちろん　どんどん着ちゃってください
+Dialogue: 0,0:18:23.83,0:18:27.92,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&232747\4c&232747}で　いぶきちゃん　とりあえずワインは泡でいいかい
+Dialogue: 0,0:18:28.38,0:18:29.38,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&232747\4c&232747}お酒
+Dialogue: 0,0:18:29.38,0:18:30.92,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&232747\4c&232747}服屋さんなのに
+Dialogue: 0,0:18:31.76,0:18:33.84,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.8\blur0.7\3c&232747\4c&232747}うん　服屋さんなのに
+Dialogue: 0,0:18:34.43,0:18:38.18,Dial-JPN,,0,0,0,,{\c&F2FAFF\bord2\blur0.7}{\3c&232747\4c&232747}うちは　お酒と服を　両方お楽しみいただけますの
+Dialogue: 0,0:18:38.18,0:18:40.81,Dial-JPN,,0,0,0,,{\c&F2FAFF\bord2\blur0.7}{\3c&232747\4c&232747}おいしいチーズなんかもあるでよ
+Dialogue: 0,0:18:40.81,0:18:45.02,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord2.7\blur0.7\3c&1B1F38\4c&1B1F38}客を酔わせて　財布のひもを緩めてるんだよ
+Dialogue: 0,0:18:45.73,0:18:48.07,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord2.7\blur0.7\3c&1B1F38\4c&1B1F38}いぶきちゃん　あとで校舎裏ね
+Dialogue: 0,0:18:48.07,0:18:50.19,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord3}{\blur0.7\3c&1B1F38\4c&1B1F38}東京　怖い
+Dialogue: 0,0:18:50.65,0:18:53.15,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}あの　これ　試着って
+Dialogue: 0,0:18:53.15,0:18:54.65,Dial-JPN,,0,0,0,,{\c&F5F7FF\bord2.5\blur0.7\3c&1B1F38\4c&1B1F38}もちろん
+Dialogue: 0,0:18:59.12,0:19:00.20,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&1B1F38\4c&1B1F38}どうぞ
+Dialogue: 0,0:19:00.62,0:19:02.08,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&1B1F38\4c&1B1F38}いただきます
+Dialogue: 0,0:19:07.13,0:19:09.67,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&15182B\4c&15182B}なにニヤニヤしてるんですか
+Dialogue: 0,0:19:09.67,0:19:13.63,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&15182B\4c&15182B}いぶきちゃんが人連れてくるなんて　珍しい
+Dialogue: 0,0:19:13.63,0:19:15.34,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&15182B\4c&15182B}というか　初めてじゃない
+Dialogue: 0,0:19:16.80,0:19:18.80,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&15182B\4c&15182B}まあ　そうかもですね
+Dialogue: 0,0:19:18.80,0:19:20.60,Dial-JPN,,0,0,0,,{\c&F5F5FA\bord2\blur0.7\3c&15182B\4c&15182B}仲いいんだ
+Dialogue: 0,0:19:21.81,0:19:23.60,Dial-JPN,,0,0,0,,{\c&F5F5FA\bord2\blur0.7\3c&15182B\4c&15182B}仲いいっていうか
+Dialogue: 0,0:19:23.60,0:19:25.56,Dial-JPN,,0,0,0,,{\c&F5F5FA\bord2\blur0.7\3c&15182B\4c&15182B}一緒にお酒飲んだり
+Dialogue: 0,0:19:26.94,0:19:28.15,Dial-JPN,,0,0,0,,{\c&F5F5FA\bord2\blur0.7\3c&15182B\4c&15182B}よかったじゃん
+Dialogue: 0,0:19:33.99,0:19:35.53,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&15182B\4c&15182B}お疲れさまです
+Dialogue: 0,0:19:37.07,0:19:39.74,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7\3c&15182B\4c&15182B}どうでしょう　夏っぽいですかね
+Dialogue: 0,0:19:40.58,0:19:44.37,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&232747\4c&232747}美少女がいる　避暑地の令嬢的な
+Dialogue: 0,0:19:45.00,0:19:47.17,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&232747\4c&232747}それ　なんか　恥ずかしい
+Dialogue: 0,0:19:48.33,0:19:49.71,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&232747\4c&232747}かわいい
+Dialogue: 0,0:19:50.17,0:19:53.38,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2\blur0.7\3c&15182B\4c&15182B}さらっと着ちゃうんだな　ああいう服を
+Dialogue: 0,0:19:54.01,0:19:57.93,Dial-JPN,,0,0,0,,{\c&EDF1FA\bord2\blur0.7}{\3c&15182B\4c&15182B}っていうか　もう何着ても似合う気がする
+Dialogue: 0,0:19:57.93,0:20:01.68,Dial-JPN,,0,0,0,,{\c&EDF1FA\bord2\blur0.7\3c&15182B\4c&15182B}じゃあ　お嬢様にも泡をどうぞ
+Dialogue: 0,0:20:01.68,0:20:03.89,Dial-JPN,,0,0,0,,{\c&EDF1FA\bord2\blur0.7\3c&15182B\4c&15182B}服にこぼさないよう　気をつけて
+Dialogue: 0,0:20:04.98,0:20:06.94,Dial-JPN,,0,0,0,,{\c&F5F9FF\bord2\blur0.7}{\3c&15182B\4c&15182B}これ　白ワインですか
+Dialogue: 0,0:20:06.94,0:20:09.35,Dial-JPN,,0,0,0,,{\c&F5F9FF\bord2\blur0.7\3c&15182B\4c&15182B\t(141,683,\bord2.5)}うん　白のスパークリング
+Dialogue: 0,0:20:13.57,0:20:15.44,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}シュワシュワする
+Dialogue: 0,0:20:15.44,0:20:17.20,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}微発泡だからね
+Dialogue: 0,0:20:17.20,0:20:19.53,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}口当たりが軽くて
+Dialogue: 0,0:20:19.53,0:20:21.74,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}これは無限に飲める気がします
+Dialogue: 0,0:20:21.74,0:20:23.24,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}炭酸きつくないし
+Dialogue: 0,0:20:23.24,0:20:24.70,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}うん　飲め
+Dialogue: 0,0:20:24.70,0:20:26.12,Dial-JPN,,0,0,0,,{\c&DFDFE8\bord2.5\blur0.7}{\3c&15182B\4c&15182B}無限は　やめろ
+Dialogue: 0,0:20:28.17,0:20:30.13,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&232747\4c&232747}やっぱ　こっちはダメか
+Dialogue: 0,0:20:30.13,0:20:33.21,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&232747\4c&232747}微炭酸でも炭酸だからね
+Dialogue: 0,0:20:37.34,0:20:39.22,Dial-JPN,,0,0,0,,{\c&EDF1F7\bord2\blur0.7}{\3c&15182B\4c&15182B}似てるね　君たち
+Dialogue: 0,0:20:39.22,0:20:40.55,Dial-JPN,,0,0,0,,{\c&EDF1F7\bord2\blur0.7}{\3c&15182B\4c&15182B}そうなんです
+Dialogue: 0,0:20:42.30,0:20:45.47,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&232747\4c&232747}そうだ　私　寮長に似合う服を選ぶから
+Dialogue: 0,0:20:45.47,0:20:47.02,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&232747\4c&232747}着てください
+Dialogue: 0,0:20:49.23,0:20:49.85,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}ちょっ
+Dialogue: 0,0:20:52.27,0:20:55.57,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&232747\4c&232747}マジか　かわいい系すぎない
+Dialogue: 0,0:20:55.57,0:20:58.70,Dial-JPN,,0,444,0,,{\c&F5F8FF\bord2.8\blur0.7}{\3c&232747\4c&232747}いい　寮長　すごく似合ってる
+Dialogue: 0,0:20:58.70,0:21:00.53,Dial-JPN,,0,444,0,,{\c&F5F8FF\bord2.8\blur0.7}{\3c&232747\4c&232747}夏来たね　ここに
+Dialogue: 0,0:21:00.53,0:21:04.33,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}寮長　ふだん　だぼっとした服　多いから
+Dialogue: 0,0:21:04.33,0:21:06.08,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}落ち着かない
+Dialogue: 0,0:21:06.91,0:21:09.62,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&292E54\4c&292E54}めちゃくちゃ似合ってますよ
+Dialogue: 0,0:21:11.29,0:21:12.83,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&292E54\4c&292E54}いい感じです
+Dialogue: 0,0:21:14.09,0:21:17.76,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7\3c&15182B\4c&15182B}そうだ　２人とも　耳穴開いてる
+Dialogue: 0,0:21:17.76,0:21:19.97,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7\3c&15182B\4c&15182B}かわいいピアスあるんだけど
+Dialogue: 0,0:21:19.97,0:21:21.05,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7\3c&15182B\4c&15182B}開いてない
+Dialogue: 0,0:21:21.05,0:21:23.93,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7\3c&15182B\4c&15182B}私も　けど　見ていいですか
+Dialogue: 0,0:21:27.27,0:21:28.89,Dial-JPN,,1111,0,0,,{\c&ffffff\bord2\blur0.7}{\3c&232747\4c&232747}かわいい
+Dialogue: 0,0:21:27.27,0:21:28.89,Dial-JPN,,0,1111,0,,{\c&ffffff\bord2\blur0.7}{\3c&232747\4c&232747}かわいい
+Dialogue: 0,0:21:29.73,0:21:30.94,Dial-JPN,,0,0,0,,{\c&ffffff\bord2\blur0.7\3c&232747\4c&232747}でしょ
+Dialogue: 0,0:21:33.94,0:21:38.15,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7}{\3c&15182B\4c&15182B}寮長　一緒にピアス開けて　これ　つけません
+Dialogue: 0,0:21:38.78,0:21:40.03,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7\3c&232747\4c&232747}おそろいで
+Dialogue: 0,0:21:42.57,0:21:43.74,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&15182B\4c&15182B}おそろ
+Dialogue: 0,0:21:43.74,0:21:46.62,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&15182B\4c&15182B}ダメですか　優しく開けてあげますよ
+Dialogue: 0,0:21:46.62,0:21:48.87,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5\blur0.7}{\3c&15182B\4c&15182B}なんで　上伊那さんが開ける前提
+Dialogue: 0,0:21:48.87,0:21:51.12,Dial-JPN,,0,0,0,,{\c&E9EDF7\bord2.8\blur0.7\3c&15182B\4c&15182B}どうして私じゃダメなんですか
+Dialogue: 0,0:21:51.12,0:21:52.96,Dial-JPN,,0,0,0,,{\c&E9EDF7\bord2.8\blur0.7\3c&15182B\4c&15182B}そんなこと言ってないし
+Dialogue: 0,0:21:52.96,0:21:54.88,Dial-JPN,,0,0,0,,{\c&E9EDF7\bord2.8\blur0.7\3c&15182B\4c&15182B}じゃあ　OKですね
+Dialogue: 0,0:21:56.17,0:21:58.92,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.3\blur0.7}{\3c&15182B\4c&15182B}すごい絡み酒だな
+Dialogue: 0,0:21:59.63,0:22:01.34,Dial-JPN,,0,0,0,,{\c&ffffff\bord2.5}{\blur0.7}{\3c&15182B\4c&15182B}ピアス　取り置きでいいよね
+Dialogue: 0,0:22:01.34,0:22:02.51,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7}{\3c&15182B\4c&15182B}はい
+Dialogue: 0,0:22:03.72,0:22:04.68,Dial-JPN,,0,0,0,,{\c&F5F8FF\bord2.5\blur0.7}{\3c&15182B\4c&15182B}はい
+Dialogue: 0,0:01:19.27,0:01:25.57,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}めいっぱい背伸びしてきたけど
+Dialogue: 1,0:01:19.27,0:01:25.57,OP-JPN,,0,0,0,,{\c&000000\3c&000000\xbord1\ybord0\pos(1920,2117)}めいっぱい背伸びしてきたけど
+Dialogue: 0,0:01:25.57,0:01:31.99,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}君の前じゃ上手くできない
+Dialogue: 1,0:01:25.57,0:01:31.99,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}君の前じゃ上手くできない
+Dialogue: 0,0:01:31.99,0:01:37.66,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}炭酸が抜けるより早いスピードで
+Dialogue: 1,0:01:31.99,0:01:37.66,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}炭酸が抜けるより早いスピードで
+Dialogue: 0,0:01:37.66,0:01:40.29,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}変わっていく気持ち
+Dialogue: 1,0:01:37.66,0:01:40.29,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}変わっていく気持ち
+Dialogue: 0,0:01:40.29,0:01:47.17,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}まだ自分でも気づいてない
+Dialogue: 1,0:01:40.29,0:01:47.17,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}まだ自分でも気づいてない
+Dialogue: 0,0:01:47.17,0:01:47.75,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 1,0:01:47.17,0:01:47.75,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 0,0:01:47.75,0:02:00.81,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\4c&ffffff\shad4\pos(1920,2117)}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 1,0:01:47.75,0:02:00.81,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}ねえ　最初に望んだ未来とは少し違うけれど
+Dialogue: 0,0:02:00.81,0:02:13.65,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}最後はなにもいらない ただそばにいて
+Dialogue: 1,0:02:00.81,0:02:13.65,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}最後はなにもいらない ただそばにいて
+Dialogue: 0,0:02:13.65,0:02:20.04,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}不器用ですれ違って勘繰ってばっか僕たちは
+Dialogue: 1,0:02:13.65,0:02:20.04,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}不器用ですれ違って勘繰ってばっか僕たちは
+Dialogue: 0,0:02:20.04,0:02:26.50,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}言えない言えないなんて勝手なんだろう
+Dialogue: 1,0:02:20.04,0:02:26.50,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}言えない言えないなんて勝手なんだろう
+Dialogue: 0,0:02:26.50,0:02:31.05,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}君がいる明日がいいなって思っていたって
+Dialogue: 1,0:02:26.50,0:02:31.05,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}君がいる明日がいいなって思っていたって
+Dialogue: 0,0:02:31.05,0:02:32.72,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}変えられない
+Dialogue: 1,0:02:31.05,0:02:32.72,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}変えられない
+Dialogue: 0,0:02:32.72,0:02:36.51,OP-JPN,,0,0,0,,{\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}伝えなくちゃ
+Dialogue: 1,0:02:32.72,0:02:36.51,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}伝えなくちゃ
+Dialogue: 0,0:02:36.51,0:02:38.01,OP-JPN,,0,0,0,,{\4c&ffffff\shad4\3c&ffffff\1a&ff\xbord10\ybord9\blur6\pos(1920,2117)}伝えなくちゃ
+Dialogue: 1,0:02:36.51,0:02:38.01,OP-JPN,,0,0,0,,{\c&000000\3c&000000\pos(1920,2117)}{\xbord1\ybord0}伝えなくちゃ
+Dialogue: 1,0:22:16.57,0:22:22.45,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}水面の波紋から　顔逸らしたのは
+Dialogue: 0,0:22:16.57,0:22:22.45,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}水面の波紋から　顔逸らしたのは
+Dialogue: 1,0:22:22.45,0:22:28.29,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}私の心　揺らいだの隠したくて
+Dialogue: 0,0:22:22.45,0:22:28.29,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}私の心　揺らいだの隠したくて
+Dialogue: 1,0:22:28.29,0:22:34.50,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}あなたと並んでるだけの心臓が
+Dialogue: 0,0:22:28.29,0:22:34.50,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}あなたと並んでるだけの心臓が
+Dialogue: 1,0:22:34.50,0:22:38.88,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}火照りやまない
+Dialogue: 0,0:22:34.50,0:22:38.88,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}火照りやまない
+Dialogue: 1,0:22:38.88,0:22:41.80,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}酔い　吐息　はにかんで
+Dialogue: 0,0:22:38.88,0:22:41.80,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}酔い　吐息　はにかんで
+Dialogue: 1,0:22:41.80,0:22:44.68,ED-JPN,,0,0,0,,{\fad(300,300)\fs118\bord4\3c&198FCF\pos(1920,2116)}柔い夢を見て
+Dialogue: 0,0:22:41.80,0:22:44.68,ED-JPN,,0,0,0,,{\fad(300,300)\fs118\bord4\3c&ffffff\1a&ff\blur4\pos(1920,2116)}柔い夢を見て
+Dialogue: 1,0:22:44.68,0:22:47.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}袖触れて　満ち引いて
+Dialogue: 0,0:22:44.68,0:22:47.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}袖触れて　満ち引いて
+Dialogue: 1,0:22:47.64,0:22:50.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}目が合った
+Dialogue: 0,0:22:47.64,0:22:50.64,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}目が合った
+Dialogue: 1,0:22:50.64,0:22:53.48,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}奥底のまぶしさを
+Dialogue: 0,0:22:50.64,0:22:53.48,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}奥底のまぶしさを
+Dialogue: 1,0:22:53.48,0:22:57.23,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}一口味わうように
+Dialogue: 0,0:22:53.48,0:22:57.23,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}一口味わうように
+Dialogue: 1,0:22:57.23,0:23:03.24,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}名前を呼ぶ
+Dialogue: 0,0:22:57.23,0:23:03.24,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}名前を呼ぶ
+Dialogue: 1,0:23:04.82,0:23:10.74,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}喉通ったフレイバーには
+Dialogue: 0,0:23:04.82,0:23:10.74,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}喉通ったフレイバーには
+Dialogue: 1,0:23:10.74,0:23:16.58,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}初めて知る感情あふれ
+Dialogue: 0,0:23:10.74,0:23:16.58,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}初めて知る感情あふれ
+Dialogue: 1,0:23:16.58,0:23:25.38,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}あこがれも傷も全て　今
+Dialogue: 0,0:23:16.58,0:23:25.38,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}あこがれも傷も全て　今
+Dialogue: 1,0:23:25.38,0:23:33.27,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&198FCF}溶け込んで　光る
+Dialogue: 0,0:23:25.38,0:23:33.27,ED-JPN,,0,0,0,,{\fad(300,300)\pos(1920,2116)\fs118\bord4\3c&ffffff\1a&ff\blur4}溶け込んで　光る
+
+[Aegisub Extradata]
+Data: 27,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RD*E5R24B'.6R=9G^S:$)O.6R=9GRV=D!O.VR=='^T+$-R/$9M-D%R.3F^?VR=-W-G-DES245U8&QU9S9S/4*&.42^YY+#YY+*YY'DYY'GYY'%YY'%YY+4YY'HYY':YY',)CQC>86J:#)[)G*B9W*E:$ES,41S:45N.$!X-SUY.'.D,4.D.D.D:$>D.T%S.C*^
+Data: 28,a-mo,e{"originalText"#3A"{\\c&E1E8F5\\bord2.5\\blur0.7\\pos(3186#2C2009)}{\\3c&292E54\\4c&292E54}#E7#9C#9F#E7#9A#84#E5#8F#AF#E4#BB#A5#E5#90#97"#2C"uuid"#3A"dd598434-8a85-4118-8ec3-cc16326bd546"}
+Data: 31,a-mo,e{"originalText"#3A"{\\c&E1E8F5\\bord2.5\\blur0.7\\pos(2753#2C2115)}{\\3c&292E54\\4c&292E54}#E3#81#86#E3#82#93"#2C"uuid"#3A"3dac8e05-3fef-45bf-9c61-b19fb6295433"}
+Data: 32,a-mo,e{"originalText"#3A"{\\c&E1E8F5\\bord2.5\\blur0.7\\pos(2753#2C2009)}{\\3c&292E54\\4c&292E54}#E5#97#AF"#2C"uuid"#3A"cba81c06-514a-441e-8526-eeadb7163fe0"}
+Data: 33,a-mo,e{"originalText"#3A"{\\fs130\\bord0\\fax0.15\\fsp-20\\c&674659\\3c&674659\\fnXim Sans Handwritten\\frz350.7\\pos(1245.33#2C1134.35)}#E6#9C#AC#E5#BA#97#E6#8F#90#E4#BE#9B #E3#80#8C#E8#A7#92#E6#89#93#E3#80#8D #E6#9C#8D#E5#8A#A1"#2C"uuid"#3A"dad18a06-7e32-4fb4-a476-ad268ff92342"}
+Data: 34,a-mo,e{"originalText"#3A"{\\fs130\\fax0.15\\fsp-20\\c&5E579F\\3c&5E579F\\fnXim Sans Handwritten\\pos(1352.16#2C1526.05)\\frz351.4}{\\bord1.5}1 3 {\\bord0.5}#E7#82#B9#E9#92#9F    {\\bord1.5}2 0 {\\bord0.5}#E7#82#B9#E9#92#9F"#2C"uuid"#3A"2027fac9-72a7-414c-a487-0250c218f816"}
+Data: 35,a-mo,e{"originalText"#3A"{\\fs150\\fscx150\\bord0\\fax0.15\\fsp-20\\c&5E579F\\3c&5E579F\\fnXim Sans Handwritten\\pos(1664.27#2C1626.5)\\frz351.4}~"#2C"uuid"#3A"2e138081-ff85-470b-a2b9-d6bd5ce2b232"}
+Data: 58,a-mo,e{"originalText"#3A"{\\3c&HA3556E&\\bord22\\fn#E6#96#B9#E6#AD#A3#E5#85#B0#E4#BA#AD#E7#89#B9#E9#BB#91_GBK\\c&HB96A8D&\\fs300\\pos(1644.6#2C1247.6)\\frz15.04\\t(2105#2C2397#2C\\alpha&HF0&\\c&HC9D4EA&\\3c&HC9D4EA&)}#E6#B5#93"#2C"uuid"#3A"2deccfac-8d5c-4696-9ebc-839fc77a5f89"}
+Data: 59,a-mo,e{"originalText"#3A"{\\3c&HF8EFF9&\\bord10\\fn#E6#96#B9#E6#AD#A3#E5#85#B0#E4#BA#AD#E7#89#B9#E9#BB#91_GBK\\c&HD485AF&\\fs300\\frz15.04\\pos(1644.6#2C1247.6)\\t(2105#2C2397#2C\\alpha&HF0&)}#E6#B5#93"#2C"uuid"#3A"05766d3d-7b6b-4dcb-be15-8b9dd2f52461"}
+Data: 62,a-mo,e{"originalText"#3A"{\\3c&HA3556E&\\bord22\\fn#E6#96#B9#E6#AD#A3#E5#85#B0#E4#BA#AD#E7#89#B9#E9#BB#91_GBK\\c&HB96A8D&\\fs300\\pos(1948.8#2C1174.4)\\frz14.67\\t(2105#2C2397#2C\\alpha&HF0&\\c&HC9D4EA&\\3c&HC9D4EA&)}#E9#83#81"#2C"uuid"#3A"79bd9135-c96b-4fd4-a9e2-7aa843c19f3c"}
+Data: 63,a-mo,e{"originalText"#3A"{\\3c&HF8EFF9&\\bord10\\fn#E6#96#B9#E6#AD#A3#E5#85#B0#E4#BA#AD#E7#89#B9#E9#BB#91_GBK\\c&HD485AF&\\fs300\\pos(1948.8#2C1174.4)\\frz14.67\\t(2105#2C2397#2C\\alpha&HF0&)}#E9#83#81"#2C"uuid"#3A"4fe4e5ca-d1f4-476a-88ee-f87b3c9bc075"}
+Data: 64,a-mo,e{"originalText"#3A"{\\fs120\\fn#E6#96#B9#E6#AD#A3#E5#85#B0#E4#BA#AD#E9#BB#91Pro Global Demibold\\c&000000\\frz13.23\\pos(1410.55#2C1686)}#E6#8A#B1#E6#AD#89"#2C"uuid"#3A"8f541e0f-f99a-4b99-acee-5bbb879db0b2"}
+Data: 65,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG=T%S-&R=:G\GFLHGL;0FB<$EOKXJOZ&1=G]A2WRP9G&M)%2F<7FC<WRE8&RD*D!Q-$!Q-&R=:H*[-4-O-D.=8("P=SAR-D5V,D=S,$EY.#YW-CF^ZIC2[+_UZ<[8Z;3K[9?.Z,K')CQC>86J:#)[)G1V9G5Y/'5V,7*G:41N.$EY-3VB:$AQ,4)W.7&D/4-V/4BF-S*^
+Data: 67,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RD*E%X/5)Z/6R=-W-G-4ER.4.'8&RC<X*E-CYV8&RC<(6S-#YX8&RG=T)Z-&R=:G\IEZXJH*<II9TGJ<@EP:.=8("P=SAR/4AU,$%U-$EO/#F^Z;3JZ,C,[)/=Z:SQ)CQC>86J:#)[)D%U:$>D.$>G,7.C-$1N.$-Z.#UY-4=V,75Q:41R-TAY-W%V.C*^
+Data: 68,a-mo,e{"originalText"#3A"{\\c&BFAEAE\\3c&312658\\bord3\\blur0.7\\fs290\\fn#E8#93#9D#E9#9C#96#E8#A1#8C#E6#A5#B7#E4#BD#93\\pos(2207.6#2C1017.2)}#E9#95#BF#E7#80#9E"#2C"uuid"#3A"ac160545-1366-40f7-a2d5-617fa74c69fb"}
+Data: 69,a-mo,e{"uuid"#3A"2784b0fb-649a-4d4c-9bdf-1ecb4161d53b"#2C"originalText"#3A"{\\fn#E6#96#B9#E6#AD#A3VDL#E4#BF#A1#E6#9C#AD#E4#BD#93 #E7#AE#80 SemiBold\\fs200\\c&BA8CF2\\bord7.5\\3c&7747AD\\pos(955.67#2C982)\\frz328.1}#E6#B5#B7#E6#98#9F"}
+Data: 70,a-mo,e{"uuid"#3A"cf78de12-7a13-43a1-909f-2e76c0ac5e13"#2C"originalText"#3A"{\\fn#E6#96#B9#E6#AD#A3VDL#E4#BF#A1#E6#9C#AD#E4#BD#93 #E7#AE#80 SemiBold\\fs200\\c&BA8CF2\\bord0.5\\3c&BA8CF2\\pos(955.67#2C982)\\frz328.1}#E6#B5#B7#E6#98#9F"}

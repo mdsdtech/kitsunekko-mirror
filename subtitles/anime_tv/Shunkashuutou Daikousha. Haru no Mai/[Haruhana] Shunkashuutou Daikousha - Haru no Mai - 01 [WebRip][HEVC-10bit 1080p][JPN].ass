@@ -23,6 +23,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: JP,A-OTF UD Reimin Pr6N B,65,&H00F5F5F5,&H000000FF,&H003C3C3C,&H14222222,0,0,0,0,100,100,0,0,1,2,0,2,30,30,40,1
 Style: JP-Top,A-OTF UD Reimin Pr6N B,65,&H00F5F5F5,&H000000FF,&H003C3C3C,&H14222222,0,0,0,0,100,100,0,0,1,2,0,8,30,30,20,1
 Style: INJP,A-OTF UD Reimin Pr6N B,59,&H00F5F5F5,&H000000FF,&H00808080,&H14222222,0,0,0,0,100,100,0,0,1,1,0,2,30,30,10,1
+Style: EDJP,Dream Han Serif J W14,40,&H00F0F0F0,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,0,0,2,10,10,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -415,7 +416,7 @@ Dialogue: 9,0:21:16.21,0:21:19.68,JP,,0,0,0,,うん　薺　うれしいよ
 Dialogue: 9,0:21:23.29,0:21:25.15,JP,,0,0,0,,薺　誇れ
 Dialogue: 9,0:21:26.63,0:21:28.56,JP,,0,0,0,,今は寂しくとも
 Dialogue: 9,0:21:29.91,0:21:32.20,JP,,0,0,0,,お前は世界に愛されているぞ
-Dialogue: 9,0:21:34.47,0:21:38.99,JP,,0,0,0,,お粗末さまで　ございました
+Dialogue: 9,0:21:34.47,0:21:38.99,JP,,0,0,0,,お粗末さまでございました
 Dialogue: 9,0:21:39.55,0:21:44.89,JP,,0,0,0,,春は無事　ここにいます
 Dialogue: 9,0:21:50.18,0:21:51.93,JP,,0,0,0,,初めに冬があった
 Dialogue: 9,0:21:52.59,0:21:54.99,JP,,39,0,0,,世界には冬しか季節がなく
@@ -1555,3 +1556,17 @@ Dialogue: 1,0:20:04.45,0:20:05.25,INJP,6,0,0,0,,{\p1\an7\3c&HE6EDFF&\bord0.5\blu
 Dialogue: 1,0:19:59.89,0:20:00.69,INJP,6,0,0,0,,{\p1\an7\3c&HE6EDFF&\bord0.5\blur2\fscx90\fscy90\fad(200,200)\c&HF5F6FB&\move(1002,1009,976,1089,0,800)\frx95\fry5\frz197\t(\frx101)\fry272\frz212)}m 0 -10 b -8 -7 -5 5 0 10 b 5 5 8 -7 0 -10
 Dialogue: 1,0:20:04.06,0:20:04.86,INJP,6,0,0,0,,{\p1\an7\3c&HE6EDFF&\bord0.5\blur2\fscx90\fscy90\fad(200,200)\c&HF5F6FB&\move(836,1019,851,1084,0,800)\frx326\fry50\frz5\t(\frx143)\fry180\frz200)}m 0 -10 b -8 -7 -5 5 0 10 b 5 5 8 -7 0 -10
 Dialogue: 1,0:20:04.18,0:20:04.98,INJP,6,0,0,0,,{\p1\an7\3c&HE6EDFF&\bord0.5\blur2\fscx90\fscy90\fad(200,200)\c&HF5F6FB&\move(826,1018,839,1092,0,800)\frx70\fry26\frz92\t(\frx321)\fry114\frz197)}m 0 -10 b -8 -7 -5 5 0 10 b 5 5 8 -7 0 -10
+Dialogue: 0,0:21:59.17,0:22:08.51,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}まだ通り風が　時折り肌を刺す朝に
+Dialogue: 0,0:22:08.51,0:22:15.42,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}雪解けた　瞼の暗闇を抜け
+Dialogue: 0,0:22:15.42,0:22:19.78,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}今「何が見える？」
+Dialogue: 0,0:22:19.78,0:22:25.00,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}響かせた　応えは知れず
+Dialogue: 0,0:22:25.00,0:22:30.53,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}想い出の中　笑いかける
+Dialogue: 0,0:22:30.53,0:22:36.42,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}あの日の貴方も同じ　それは
+Dialogue: 0,0:22:36.42,0:22:42.54,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}行き場もなく　ただ風に舞う
+Dialogue: 0,0:22:43.36,0:22:46.76,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}花「いざや。」
+Dialogue: 0,0:22:46.76,0:22:54.00,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}春は咲き　涙に花弁
+Dialogue: 0,0:22:54.00,0:23:03.95,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}今さら悲哀など　疾うに果てたまま
+Dialogue: 0,0:23:03.95,0:23:09.18,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}過ぎ去れば　また季は巡り
+Dialogue: 0,0:23:09.18,0:23:14.57,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}遠く晴れた　それに紛れる
+Dialogue: 0,0:23:14.57,0:23:20.47,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}憶いだけが　共に掠れず
+Dialogue: 0,0:23:20.47,0:23:25.38,EDJP,,25,0,0,,{\fad(250,250)\an7\blur8\bord1.7}その声が　春を告げる
